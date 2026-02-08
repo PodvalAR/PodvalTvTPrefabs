@@ -1,0 +1,61 @@
+GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "royalCrown"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{5EA4A89F0D06E18F}" {
+     "Transmitting Range" 1500
+    }
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{85D0BCFAE061BBED}Assets/Items/Equipment/Radios/PRC350/PRC350_Item.xob"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#BF-Item_Radio_PRC350_Name"
+     Description "#BF-Item_Radio_PRC350_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3.6
+     ItemDimensions 15 15 15
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      CameraOrbitAngles 25 155 180
+      CameraDistanceToItem 2
+      CameraOffset 0 -0.18 0
+      PreviewModel "{EC7EC7E6F0EF6F13}Assets/Items/Equipment/Radios/PRC350/PRC350_Worn.xob"
+      LodModel 0
+     }
+    }
+    m_Size SLOT_2x2
+   }
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
+   m_sReplacementPrefab "{57B7F46402BC6CE6}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUK_350.et"
+   m_FactionKey "UK"
+   m_fSuppliesValue 100
+   m_iMaxRespawns 3
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{EC7EC7E6F0EF6F13}Assets/Items/Equipment/Radios/PRC350/PRC350_Worn.xob"
+   ItemModel "{85D0BCFAE061BBED}Assets/Items/Equipment/Radios/PRC350/PRC350_Item.xob"
+   DeflatedModel "{97F75BE635A727A1}Assets/Items/Equipment/Radios/PRC350/PRC350_Worn_Inflated.xob"
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.0531 -0.0474
+     }
+    }
+   }
+  }
+ }
+ coords 0.38 0.947 -3.138
+}

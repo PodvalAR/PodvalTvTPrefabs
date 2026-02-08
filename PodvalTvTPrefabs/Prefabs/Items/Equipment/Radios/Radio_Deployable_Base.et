@@ -1,0 +1,19 @@
+GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployable_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  RHS_SGC_RadialMenuComponent "{6890890BC08CC192}" {
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    CommonItemType "RHS_RADIO_MANPACK"
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    RHS_SupportCallInBaseRequestAction "{612B1CC3C9534D54}" : "{C21EFFFC549943EC}Prefabs/Items/Equipment/Core/Configs/RHS_RequestCallInSupportOnThisPositionAction.conf" {
+     m_eSupportType RESUPPLY
+    }
+   }
+  }
+ }
+}
