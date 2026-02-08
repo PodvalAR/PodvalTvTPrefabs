@@ -2,7 +2,7 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
-   "Encryption key" "candleSauce"
+   "Encryption key" "TKAFradio"
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
@@ -53,7 +53,7 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    m_FactionKey "FIA"
   }
   BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
-   AreaType LoadoutBackpackArea "{68909211F80468B7}" {
+   AreaType LoadoutBackpackArea "{6891360E97103559}" {
    }
    WornModel "{518A95342557BC80}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01.xob"
    ItemModel "{77C9FCF3FB1246E9}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_item.xob"
@@ -63,7 +63,7 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    OffsetShoulderRight 0.1
    DeflatedModel "{302BB60AB83B93E7}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_Inflated.xob"
    AreaTypeWhenModelChange {
-    LoadoutArmoredVestSlotArea "{68909211F80468A8}" {
+    LoadoutArmoredVestSlotArea "{6891360E97103AAD}" {
     }
    }
   }
