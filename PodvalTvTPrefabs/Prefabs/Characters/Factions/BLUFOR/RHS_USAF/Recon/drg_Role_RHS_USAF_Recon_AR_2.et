@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{A354317706ACB7B8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role_ReconMachineGunner"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AF0DB10F5FDBE3D6}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS3.et"
+  }
+ }
+}

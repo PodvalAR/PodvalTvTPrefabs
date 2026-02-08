@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{629381DD0AE1F7F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/drg_Role_RHS_USAF_Recon_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{A0C4B723DCAEF8FF}UI/Icons/berets.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8EB1821ADC94FBE4}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_hc_v_r_cmc_p_hs_NVG.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{95B24FABFC6D040C}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy5.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652D42988DB903F7}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{BAB50E5D149D64D9}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652D4298C57BB389}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+    }
+   }
+  }
+ }
+}
