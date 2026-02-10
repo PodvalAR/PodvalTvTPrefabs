@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{EC4A901548D04DF4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Офицер"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{906B8F466238E651}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_CDF.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{091CA20FD0F53CA2}Prefabs/Items/Equipment/Radios/Radio_R107M_CDF.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4A84D48FD1E31331}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_officer_noUnusable.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689335945E342D26}" {
+     PrefabsToSpawn {
+      "{4F6D4E77A6570C04}Prefabs/Items/Equipment/Radios/Radio_R148_CDF_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6894FD73CBA9C05D}" {
+     TargetStorage "Vest/Vest_ALICE_officer_noUnusable.et/MagPouch/Holster_M12_magpouch.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

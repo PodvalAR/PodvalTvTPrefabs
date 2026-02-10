@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{9CED638A1B41CBAE}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Crew_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Командир экипажа"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{091CA20FD0F53CA2}Prefabs/Items/Equipment/Radios/Radio_R107M_CDF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689335945E342D26}" {
+     PrefabsToSpawn {
+      "{4F6D4E77A6570C04}Prefabs/Items/Equipment/Radios/Radio_R148_CDF_Multi.et"
+     }
+    }
+   }
+  }
+ }
+}

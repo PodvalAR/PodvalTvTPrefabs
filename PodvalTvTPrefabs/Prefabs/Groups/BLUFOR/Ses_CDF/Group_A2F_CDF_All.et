@@ -1,0 +1,11 @@
+SCR_AIGroup : "{3F04964DF8D24764}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{EC4A901548D04DF4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_BaseLoadout.et" "{90532B1538E7785A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Rifle_1.et" "{90C664A7E4E6ACB0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SR_1.et" "{91ADE7CF3ADEF426}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_1.et" "{9B08B7828CCE07A1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_PL_1.et" "{1CA3533D910F8C24}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Officer_1.et" "{89F80DC591835C52}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_AT_1.et" "{40CFB010D27A3366}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_AAT_1.et" "{A14594C3C362F5D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_MG_1.et" "{68722916809B9AE1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_AMG_1.et" "{34285F42EE98404C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_AR_1.et" "{EE122494521AA602}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_GL_1.et" "{603E4633CA477EA8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_1.et" "{024CD8FA035D164B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Medic_1.et" "{8448087AB29FFE14}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sapper_1.et" "{F08FADA471F1C7BA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_1.et" "{9CED638A1B41CBAE}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Crew_1.et" "{51892979952C7127}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_CC_1.et" "{7A83214250DC6D26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_HeliCoPilot.et" "{F99DBD0ACEDFF831}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_HeliPilot.et"
+ }
+}
