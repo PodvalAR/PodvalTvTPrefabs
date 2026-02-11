@@ -1,0 +1,96 @@
+Vehicle : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovered.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE71E003CFF9}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{5D1F8D0EB9BAF419}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Ses_ChDKZ.emat"
+    }
+    MaterialAssignClass "{5C7AFE71E003CFE2}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{1F0197D271CC2579}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_ChDKZ.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_ChDKZ"
+    m_aAutoLabels {
+     FACTION_Ses_ChDKZ SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_ChDKZ"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{57A92B0103C2FDE6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_L01_bottom.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{560618ABF492EEF6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_R01_bottom.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Enabled 0
+     Prefab "{7D8D0CA2F52C9BC9}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_L02_bottom.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Enabled 0
+     Prefab "{7C223F08027C88D9}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_R02_bottom.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     MergePhysics 0
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SeatsRear {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo FIA_CoatOArms_decal {
+     Prefab "{B586B45880EE8BA6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_ChDKZ_CoatOfArms_decal.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     AutoTransform 1
+     MergePhysics 1
+     Prefab "{799F4CDFE04F58CE}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_M2HB_shiza_uas.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5AD4F813E67EB6A7}" {
+     Radius 0
+     VisibilityAngle 0
+     FilterActionsUsingCache 0
+    }
+    UserActionContext "{5AD4F813E67EB6A5}" {
+     Radius 0
+     VisibilityAngle 0
+     FilterActionsUsingCache 0
+    }
+    UserActionContext "{6488CD7966A92C9D}" {
+     ContextName "gunner_position"
+     Position PointInfo "{6488CD7966A92DD0}" {
+      PivotID "Particle_View_001"
+     }
+     Height 29.64
+    }
+   }
+  }
+ }
+}

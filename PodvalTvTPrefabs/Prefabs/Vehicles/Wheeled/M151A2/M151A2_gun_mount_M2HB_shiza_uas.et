@@ -1,0 +1,125 @@
+Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et" {
+ ID "6D6D283656DBA232"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B917CA9C90BD91}" {
+     ExitPositionInfo EntitySlotInfo EntityPoint {
+     }
+    }
+    CompartmentDoorInfo "{68971AD85A7E79D6}" {
+     AnimDoorIndex 4
+     ContextName "NoDoor_Gunner"
+     EntryPositionInfo PointInfo "{68971AD85A7E79A5}" {
+     }
+     ExitPositionInfo PointInfo "{68971AD85A7E79A6}" {
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      UIInfo UIInfo "{509D566643F0DEA8}" {
+       Name "#AR-UserAction_GetOut"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "FrontGunner" "GunMount"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "FrontGunner" "GunMount"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "gunner_idle"
+     }
+     DoorInfoList + {
+      3
+     }
+     AllowAiming 1
+     CharacterWeaponHandling 1
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+    }
+   }
+  }
+  SCR_SignalDebugComponent "{68971AD85A7E7998}" {
+   m_aSignalNames {
+    "AimTurnTurret" "AimElevationTurret"
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -45 45
+  }
+  SCR_UniversalInventoryStorageComponent "{548680978A2448D1}" {
+   Attributes SCR_ItemAttributeCollection "{5916ADF7BDCBDD9F}" {
+    ItemDisplayName UIInfo "{68971AD85A7E799B}" {
+     Name "#AR-Inventory_Turret"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5916ADF7B598056F}" {
+      CameraPreset Right
+      PreviewModel "{E71679A4B28D5B23}Assets/Weapons/HeavyWeapons/M2HB/M2.xob"
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{5916ADF796FF6A88}" {
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_Size SLOT_3x3
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{68971AD85A7E7997}" {
+     SlotTemplate InventoryStorageSlot M2ammunition {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 2 -0.28
+    MergePhysics 1
+   }
+   WeaponTemplate "{69A9BC585134D555}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M151A2.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset 0 2.2068 -0.859
+      Angles 0 180 0
+     }
+     Radius 0.08
+     VisibilityAngle 135.55
+    }
+    UserActionContext "{64DA8061CF9511D5}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset 0 1.7985 -0.2881
+     }
+     Radius 0.1
+     Height 1
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AlwaysActive 1
+   AutoCommandBind 1
+   AutoVariablesBind 1
+  }
+ }
+}
