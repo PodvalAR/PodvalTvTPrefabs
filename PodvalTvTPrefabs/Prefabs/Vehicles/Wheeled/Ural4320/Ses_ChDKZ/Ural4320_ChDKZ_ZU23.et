@@ -1,0 +1,68 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68971AD183616D02}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{095BB5C61810C99A}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_ChDKZ.emat"
+    }
+    MaterialAssignClass "{68971AD183616EF3}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{CB626114BAC06602}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_ChDKZ.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Ural ZU23"
+    Description "Temporary, hopefully"
+    m_Image "{19AD04D1091FD077}Assets/BaconZU23/ArmaReforgerWorkbenchSteam_QMlSFzzYcU.edds"
+    m_aAuthoredLabels + {
+     CONTENT_MODDED TRAIT_ARMED
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MaxCumulativeVolume 25000
+   MaxItemSize 40 40 40
+   MultiSlots {
+    MultiSlotConfiguration "{68970C0EE26E4E17}" {
+     SlotTemplate InventoryStorageSlot Ammo1 {
+      Prefab "{AB801054310BC947}Prefabs/Weapons/Magazines/Box_BaconZU23_23x152.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 17524
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo cannon {
+     Offset 0 1.1546 -2.2189
+     Angles 0 180 0
+     MergePhysics 1
+     ChildPivotID "w_turret_base_mount"
+     Prefab "{66AF089E5D7FF45D}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_NotEditable.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo ChDKZ_CoatOfArms_decal {
+     Prefab "{22CC665D6A33195F}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/CoatOfArms/Ural4320_ChDKZ_CoatOfArms_decal.et"
+    }
+   }
+  }
+ }
+}

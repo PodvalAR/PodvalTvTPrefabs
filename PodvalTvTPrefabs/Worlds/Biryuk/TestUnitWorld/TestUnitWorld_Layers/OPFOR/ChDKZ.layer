@@ -1,41 +1,8 @@
-SCR_ChimeraCharacter : "{012536103F5B2731}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew.et" {
- coords 121.247 1 181.401
-}
 SCR_ChimeraCharacter : "{012B152C8F9543C7}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AR_Random.et" {
  coords 116.168 1 200.217
 }
-SCR_ChimeraCharacter : "{0CAFB939766D24AA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MG_3.et" {
- coords 120.125 1 187.641
-}
-SCR_ChimeraCharacter : "{0D23BC8CAD4A8521}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_LAT.et" {
- coords 121.444 1 184.839
-}
-SCR_ChimeraCharacter : "{1011734FAF2446C8}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic_2.et" {
- coords 120.907 1 185.891
-}
-Vehicle BTR70_Ses_ChDKZ1 : "{160E1EDDBFFF8CFD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_ChDKZ.et" {
- coords 136.75 1 178.245
-}
-SCR_ChimeraCharacter : "{16AB5D815397B372}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SR_2.et" {
- coords 120.958 1 190.522
-}
-SCR_ChimeraCharacter : "{19FF487A2CC63733}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_CC_2.et" {
- coords 120.538 1 182.781
-}
-SCR_ChimeraCharacter : "{1CE031AEECA60DC3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO.et" {
- coords 121.477 1 188.63
-}
-SCR_ChimeraCharacter : "{2412203F248C8D2D}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AT_3.et" {
- coords 119.53 1 180.672
-}
 SCR_ChimeraCharacter : "{345A828F3E94D377}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AMG_Random.et" {
  coords 128.192 1 199.271
-}
-SCR_ChimeraCharacter : "{36E29A7839C1D6DE}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_PL_3.et" {
- coords 119.534 1 176.127
-}
-SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman.et" {
- coords 120.327 1 190.615
 }
 SCR_ChimeraCharacter : "{38C1DC2B685E638A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Rifleman_Random.et" {
  coords 119.973 1 199.836
@@ -43,17 +10,11 @@ SCR_ChimeraCharacter : "{38C1DC2B685E638A}Prefabs/Characters/Factions/OPFOR/ChDK
 SCR_ChimeraCharacter : "{3B679AE5DA875547}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AAT_Random.et" {
  coords 128.913 1 199.228
 }
-SCR_ChimeraCharacter : "{3C47CA358FD12559}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL_3.et" {
- coords 118.911 1 193.223
-}
 SCR_ChimeraCharacter : "{3F18AFBEC79443AC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Crew_Random.et" {
  coords 125.935 1 199.759
 }
 SCR_ChimeraCharacter : "{41D4E0AF9842BE4B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AT_Random.et" {
  coords 127.472 1 199.389
-}
-SCR_ChimeraCharacter : "{43F8096EE715777D}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_GL_3.et" {
- coords 119.551 1 183.725
 }
 SCR_ChimeraCharacter : "{448EDFF48D360135}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_LAT_Random.et" {
  coords 124.522 1 199.774
@@ -61,20 +22,8 @@ SCR_ChimeraCharacter : "{448EDFF48D360135}Prefabs/Characters/Factions/OPFOR/ChDK
 SCR_AIGroup : "{45C4A9C03900631E}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Motorized.et" {
  coords 132.003 1 196.592
 }
-SCR_ChimeraCharacter : "{46A625B031F25FA5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG_3.et" {
- coords 120.259 1 188.262
-}
-SCR_ChimeraCharacter : "{4AC4082AE08DE945}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG.et" {
- coords 121.538 1 187.965
-}
-SCR_ChimeraCharacter : "{4C16F797CC7D1352}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic.et" {
- coords 121.548 1 185.89
-}
 SCR_ChimeraCharacter : "{4EE9F8C57C51387B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_MG_Random.et" {
  coords 122.96 1 200.03
-}
-SCR_ChimeraCharacter : "{4EEA4A957B2EBBEC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_LAT_3.et" {
- coords 119.822 1 185.116
 }
 $grp SCR_ChimeraCharacter : "{5813C3FEA418100E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_PL_Random.et" {
  {
@@ -84,105 +33,26 @@ $grp SCR_ChimeraCharacter : "{5813C3FEA418100E}Prefabs/Characters/Factions/OPFOR
   coords 121.245 1 199.966
  }
 }
-SCR_ChimeraCharacter : "{586FB82D47D58DF9}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew_2.et" {
- coords 120.468 1 181.516
-}
-SCR_ChimeraCharacter : "{5C0AE331B3038BC7}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_3.et" {
- coords 118.739 1 190.53
-}
-SCR_ChimeraCharacter : "{5F241DA5F5E2925E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter_2.et" {
- coords 120.892 1 189.761
-}
-SCR_ChimeraCharacter : "{60F64D13BA9E2EBA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_3.et" {
- coords 120.299 1 188.87
-}
-SCR_ChimeraCharacter : "{637ABC21DD2B7DC9}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AT.et" {
- coords 121.249 1 180.562
-}
 SCR_AIGroup : "{68FC03D21BDA0859}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_RifleSquad.et" {
  coords 131.938 1 195.635
-}
-SCR_ChimeraCharacter : "{6E1BBCB66313F622}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AAT_3.et" {
- coords 119.403 1 179.236
-}
-Vehicle Ural4320_Ses_ChDKZ_ZU1 : "{75353986AAB40940}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_ZU23.et" {
- components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Cargo {
-     Enabled 0
-    }
-   }
-  }
- }
- coords 128.291 1 179.292
-}
-SCR_ChimeraCharacter : "{7C5E3E4157720658}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AR_2.et" {
- coords 120.963 1 191.543
-}
-SCR_ChimeraCharacter : "{856A01EAB67BB9D1}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_2.et" {
- coords 120.873 1 188.762
 }
 SCR_ChimeraCharacter : "{87714ABCCFCB07C3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Medic_Random.et" {
  coords 123.657 1 199.926
 }
-SCR_ChimeraCharacter : "{878C74648C6B8C02}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter_4.et" {
- coords 119.482 1 189.815
-}
-SCR_ChimeraCharacter : "{8B87F04F6FF66149}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AAT_2.et" {
- coords 120.218 1 179.259
-}
-SCR_ChimeraCharacter : "{99C272B85B979133}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AR_3.et" {
- coords 120.359 1 191.616
-}
-SCR_ChimeraCharacter : "{9B03289651574EF2}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AR.et" {
- coords 121.644 1 191.412
-}
-GenericEntity : "{9C3E25E19A3505F4}Prefabs/Weapons/Rifles/A545/A545.et" {
- coords 116.303 1.39 183.972
- angles 0 0 0
+GenericEntity : "{9FB927E1FD98598D}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Gun.et" {
+ coords 108.642 1 199.613
 }
 SCR_ChimeraCharacter : "{A0BA852F80D0C1A5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_RTO_Random.et" {
  coords 119.11 1 199.965
 }
-SCR_ChimeraCharacter : "{A33A69493D17C8CE}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG_2.et" {
- coords 120.894 1 188.085
+GenericEntity : "{A3C6331E6B142F34}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Tripod.et" {
+ coords 110.711 1 198.591
 }
 SCR_ChimeraCharacter : "{A482F8D1F5EE2F8E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Oficer_Random.et" {
  coords 122.089 1 199.958
 }
-SCR_ChimeraCharacter : "{A4F657802EFB1804}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AR_4.et" {
- coords 119.645 1 191.689
-}
-SCR_ChimeraCharacter : "{A6644597EBF0E016}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_GL_2.et" {
- coords 120.495 1 183.633
-}
 SCR_ChimeraCharacter : "{A7C99EAA24EC8048}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_SL_Random.et" {
  coords 117.661 1 200.164
-}
-SCR_ChimeraCharacter : "{AB42C807F3B5FD1F}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SR.et" {
- coords 121.61 1 190.434
-}
-SCR_ChimeraCharacter : "{AB76066C77CB2C87}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_LAT_2.et" {
- coords 120.621 1 185.026
-}
-SCR_ChimeraCharacter : "{B607ABC153150ABF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_GL.et" {
- coords 121.3 1 183.63
-}
-SCR_ChimeraCharacter : "{B996AFC8BFE61CAC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_2.et" {
- coords 119.629 1 190.598
-}
-SCR_ChimeraCharacter : "{BAB8515CF9070535}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter_3.et" {
- components {
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{6896674CC7107619}" {
-     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
-    }
-   }
-  }
- }
- coords 120.195 1 189.855
 }
 SCR_ChimeraCharacter : "{BB8DB3B6338D4AC6}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_CC_Random.et" {
  coords 126.736 1 199.617
@@ -190,40 +60,8 @@ SCR_ChimeraCharacter : "{BB8DB3B6338D4AC6}Prefabs/Characters/Factions/OPFOR/ChDK
 SCR_AIGroup : "{BBD03C84805699CA}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_CREW.et" {
  coords 131.933 1 193.189
 }
-SCR_ChimeraCharacter : "{BCE7D38AC80A0F24}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_CC.et" {
- coords 121.379 1 182.669
-}
-SCR_ChimeraCharacter : "{BDF3F4D44B301A92}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew_3.et" {
- coords 119.749 1 181.675
-}
 SCR_AIGroup : "{BF97ECB4D954314C}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_HQ_PL.et" {
  coords 131.969 1 194.415
-}
-SCR_ChimeraCharacter : "{C07BBFF1F74BE3FA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AAT.et" {
- coords 121.125 1 179.146
-}
-SCR_ChimeraCharacter : "{C18E6CC628691A46}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AT_2.et" {
- coords 120.413 1 180.707
-}
-SCR_ChimeraCharacter : "{CE0334402A1EAD2E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SR_4.et" {
- components {
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{6896674CC7107619}" {
-    }
-   }
-  }
- }
- coords 119.442 1 190.568
-}
-SCR_ChimeraCharacter : "{D37ED681352441B5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_PL_2.et" {
- coords 120.319 1 176.051
-}
-SCR_ChimeraCharacter : "{D65A24FF9626C186}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL.et" {
- coords 120.635 1 193.025
-}
-SCR_ChimeraCharacter : "{D9DB86CC8334B232}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL_2.et" {
- coords 119.751 1 193.147
 }
 SCR_ChimeraCharacter : "{E0500D19D7A94BFD}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_SR_Random.et" {
  coords 116.936 1 200.142
@@ -231,28 +69,9 @@ SCR_ChimeraCharacter : "{E0500D19D7A94BFD}Prefabs/Characters/Factions/OPFOR/ChDK
 SCR_ChimeraCharacter : "{E7117041B898A159}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Sharpshooter_Random.et" {
  coords 118.278 1 200.038
 }
-SCR_ChimeraCharacter : "{E933F5C07A88B3C1}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MG_2.et" {
- coords 120.889 1 187.51
-}
-SCR_ChimeraCharacter : "{E9C50BFACAED7776}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MG.et" {
- coords 121.581 1 187.275
-}
-SCR_ChimeraCharacter : "{EDA2E05FF70132C0}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter.et" {
- coords 121.556 1 189.628
+GenericEntity : "{EADD2F638E149A38}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Gun_Optic.et" {
+ coords 109.325 1 198.403
 }
 SCR_ChimeraCharacter : "{EF4167192ED8AFBF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_GL_Random.et" {
  coords 125.255 1 199.698
-}
-SCR_ChimeraCharacter : "{F33711785F722419}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SR_3.et" {
- coords 120.219 1 190.502
-}
-SCR_ChimeraCharacter : "{F58D3FB6A3C1D1A3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic_3.et" {
- coords 120.156 1 185.798
-}
-GenericEntity : "{F82DF06C1E34128E}Prefabs/Weapons/Rifles/VSS/Rifle_VSS.et" {
- coords 115.93 1.434 184.114
- angles 0 0 0
-}
-SCR_ChimeraCharacter : "{FC6304832023A058}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_CC_3.et" {
- coords 119.594 1 182.775
 }
