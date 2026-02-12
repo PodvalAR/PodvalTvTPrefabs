@@ -1,0 +1,12 @@
+Vehicle : "{65A199DE90D6CDBD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_KORD_SPP_Ses_ChDKZ.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{C417972C14C5F123}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_UAZ.et"
+    }
+   }
+  }
+ }
+}

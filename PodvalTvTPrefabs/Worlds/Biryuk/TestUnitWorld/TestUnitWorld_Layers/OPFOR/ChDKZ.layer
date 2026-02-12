@@ -1,77 +1,48 @@
-SCR_ChimeraCharacter : "{012B152C8F9543C7}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AR_Random.et" {
- coords 116.168 1 200.217
+Turret : "{022228F5C0FF6E7D}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_AGS_PAG_UAZ.et" {
+ coords 77.031 1 199.02
 }
-SCR_ChimeraCharacter : "{345A828F3E94D377}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AMG_Random.et" {
- coords 128.192 1 199.271
+GenericEntity : "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et" {
+ coords 104.028 1 204.582
 }
-SCR_ChimeraCharacter : "{38C1DC2B685E638A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Rifleman_Random.et" {
- coords 119.973 1 199.836
+Turret : "{158197D2B1170E8C}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_SPP_UAZ.et" {
+ coords 80.665 1 199.301
 }
-SCR_ChimeraCharacter : "{3B679AE5DA875547}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AAT_Random.et" {
- coords 128.913 1 199.228
+Vehicle UAZ469_uncovered_Ses_ChDKZ_Shiza_NSV1 : "{65A199DE90D6CDBD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_KORD_SPP_Ses_ChDKZ.et" {
+ coords 80.535 1 202.038
 }
-SCR_ChimeraCharacter : "{3F18AFBEC79443AC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Crew_Random.et" {
- coords 125.935 1 199.759
+Turret : "{70BA97724374AD8C}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_AGS_UAZ.et" {
+ coords 86.014 1.074 198.88
 }
-SCR_ChimeraCharacter : "{41D4E0AF9842BE4B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AT_Random.et" {
- coords 127.472 1 199.389
+Turret : "{799F4CDFE04F58CE}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_M2HB_UAZ.et" {
+ coords 92.817 1 198.122
 }
-SCR_ChimeraCharacter : "{448EDFF48D360135}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_LAT_Random.et" {
- coords 124.522 1 199.774
+GenericEntity : "{8E0429589CD8A49A}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_150rnd_HEIT.et" {
+ coords 105.628 1.395 204.298
 }
-SCR_AIGroup : "{45C4A9C03900631E}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Motorized.et" {
- coords 132.003 1 196.592
+Vehicle UAZ469_uncovered_AGS_PAG_Ses_ChDKZ1 : "{96AF29329545E987}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_AGS_PAG_Ses_ChDKZ.et" {
+ coords 76.932 1 201.958
 }
-SCR_ChimeraCharacter : "{4EE9F8C57C51387B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_MG_Random.et" {
- coords 122.96 1 200.03
+Vehicle UAZ469_uncovered_Ses_ChDKZ_Shiza1 : "{9E670DA183FE85D1}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_M@_Ses_ChDKZ.et" {
+ coords 92.847 0.991 201.332
 }
-$grp SCR_ChimeraCharacter : "{5813C3FEA418100E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_PL_Random.et" {
- {
-  coords 121.076 1 199.96
- }
- {
-  coords 121.245 1 199.966
- }
+TracerProjectile : "{A47C098284929418}Prefabs/Weapons/Ammo/Ammo_25x137/Ammo_25x137_HEIT_M792.et" {
+ coords 102.984 1 205.294
 }
-SCR_AIGroup : "{68FC03D21BDA0859}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_RifleSquad.et" {
- coords 131.938 1 195.635
-}
-SCR_ChimeraCharacter : "{87714ABCCFCB07C3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Medic_Random.et" {
- coords 123.657 1 199.926
-}
-GenericEntity : "{9FB927E1FD98598D}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Gun.et" {
- coords 108.642 1 199.613
-}
-SCR_ChimeraCharacter : "{A0BA852F80D0C1A5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_RTO_Random.et" {
- coords 119.11 1 199.965
-}
-GenericEntity : "{A3C6331E6B142F34}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Tripod.et" {
- coords 110.711 1 198.591
-}
-SCR_ChimeraCharacter : "{A482F8D1F5EE2F8E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Oficer_Random.et" {
- coords 122.089 1 199.958
-}
-SCR_ChimeraCharacter : "{A7C99EAA24EC8048}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_SL_Random.et" {
- coords 117.661 1 200.164
-}
-SCR_ChimeraCharacter : "{BB8DB3B6338D4AC6}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_CC_Random.et" {
- coords 126.736 1 199.617
+GenericEntity : "{AEDB186BFC0F848D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VUS30.et" {
+ coords 103.39 1 204.588
 }
 SCR_AIGroup : "{BBD03C84805699CA}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_CREW.et" {
- coords 131.933 1 193.189
+ coords 97.961 1 196.318
 }
-SCR_AIGroup : "{BF97ECB4D954314C}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_HQ_PL.et" {
- coords 131.969 1 194.415
+Turret : "{C417972C14C5F123}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_UAZ.et" {
+ coords 73.616 1 197.55
 }
-SCR_ChimeraCharacter : "{E0500D19D7A94BFD}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_SR_Random.et" {
- coords 116.936 1 200.142
+Vehicle UAZ469_uncovered_Ses_ChDKZ_Shiza_Ags1 : "{D6B8266778F91756}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_AGS_Ses_ChDKZ.et" {
+ coords 86.529 1 201.665
 }
-SCR_ChimeraCharacter : "{E7117041B898A159}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Sharpshooter_Random.et" {
- coords 118.278 1 200.038
+Vehicle UAZ469_uncovered_KORD_Ses_ChDKZ1 : "{DE9A2404D527F912}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_KORD_Ses_ChDKZ.et" {
+ coords 74.182 1 202.005
 }
-GenericEntity : "{EADD2F638E149A38}Prefabs/Items/Equipment/Tripods/6G10/Part_6G10_Gun_Optic.et" {
- coords 109.325 1 198.403
-}
-SCR_ChimeraCharacter : "{EF4167192ED8AFBF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_GL_Random.et" {
- coords 125.255 1 199.698
+Vehicle M151A2_M2HB1 : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ coords 97.838 1 204.032
 }

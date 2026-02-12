@@ -7,12 +7,12 @@ Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et"
      ExitPositionInfo EntitySlotInfo EntityPoint {
      }
     }
-    CompartmentDoorInfo "{6897307787C3512F}" {
+    CompartmentDoorInfo "{68987886AC1426C5}" {
      AnimDoorIndex 4
      ContextName "NoDoor_Gunner"
-     EntryPositionInfo PointInfo "{6897307787C3511C}" {
+     EntryPositionInfo PointInfo "{68987886AC1426C3}" {
      }
-     ExitPositionInfo PointInfo "{6897307787C3511E}" {
+     ExitPositionInfo PointInfo "{68987886AC1426BC}" {
      }
      GetInTeleport 1
      GetOutTeleport 1
@@ -42,7 +42,7 @@ Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et"
      }
      PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
       PivotID "gunner_idle"
-      Offset 0 0 -0.1679
+      Offset 0 0 0.2164
      }
      DoorInfoList + {
       3
@@ -58,18 +58,18 @@ Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et"
     }
    }
   }
-  SCR_SignalDebugComponent "{6897307787C35113}" {
+  SCR_SignalDebugComponent "{68987886AC1426B6}" {
    m_aSignalNames {
     "AimTurnTurret" "AimElevationTurret"
    }
   }
   SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
    LimitsHoriz -45 45
-   LimitsVert -6 40
+   LimitsVert -8 40
   }
   SCR_UniversalInventoryStorageComponent "{548680978A2448D1}" {
    Attributes SCR_ItemAttributeCollection "{5916ADF7BDCBDD9F}" {
-    ItemDisplayName UIInfo "{6897307787C3510F}" {
+    ItemDisplayName UIInfo "{68987886AC1426B2}" {
      Name "#AR-Inventory_Turret"
     }
     CustomAttributes {
@@ -84,7 +84,7 @@ Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et"
     m_Size SLOT_3x3
    }
    MultiSlots {
-    MultiSlotConfiguration "{6897307787C35104}" {
+    MultiSlotConfiguration "{68987886AC1426AF}" {
      SlotTemplate InventoryStorageSlot M2ammunition {
       Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
      }
@@ -94,10 +94,10 @@ Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et"
   }
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
-    Offset 0 1.9749 -0.28
+    Offset 0 2 -0.28
     MergePhysics 1
    }
-   WeaponTemplate "{473B2BF3A7F1D75E}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_SPP.et"
+   WeaponTemplate "{293AED86B0AD71C9}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/AGS/AGS17_Pintle_TIGR_PAG17.et"
   }
   ActionsManagerComponent "{51ACD09C7181BA0B}" {
    ActionContexts {

@@ -27,7 +27,7 @@ Vehicle : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovere
      SlotTemplate InventoryStorageSlot KORD {
       Prefab "{6D518F289805B8A1}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_50rnd_4AP_1APIT.et"
      }
-     NumSlots 2
+     NumSlots 8
     }
    }
   }
@@ -73,7 +73,7 @@ Vehicle : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovere
      Offset 0 -0.1519 0
      AutoTransform 1
      MergePhysics 1
-     Prefab "{158197D2B1170E8C}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_AGS_shiza_KORD_SPP.et"
+     Prefab "{158197D2B1170E8C}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_SPP_UAZ.et"
      RegisterActions 1
      RegisterDamage 1
      RegisterControllers 1
