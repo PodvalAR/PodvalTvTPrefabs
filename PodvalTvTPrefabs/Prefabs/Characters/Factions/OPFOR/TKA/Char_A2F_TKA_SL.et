@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Командир отряда"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{12F201068CBB48EA}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25_RHSmag.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{59B5FF71DBDFB29D}Prefabs/Items/Equipment/Radios/Radio_R107M_TKA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C8516078375CBE45}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E8CB964B2847B}" {
+     PrefabsToSpawn {
+      "{056B51B298AB25E4}Prefabs/Items/Equipment/Radios/Radio_R148_TKA_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E8CB9645E7E2A}" {
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
+    }
+    ItemsInitConfigurationItem "{689E8CBF6FA5001F}" {
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
+     PrefabsToSpawn + {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+}
