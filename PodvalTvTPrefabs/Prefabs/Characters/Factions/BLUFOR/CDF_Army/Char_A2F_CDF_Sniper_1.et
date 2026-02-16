@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{90532B1538E7785A}Prefabs/Characters/Factions/BLUFOR/CDF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Снайпер"
+    Name "#PDVL_Role_Sharpshooter"
     Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
    }
   }

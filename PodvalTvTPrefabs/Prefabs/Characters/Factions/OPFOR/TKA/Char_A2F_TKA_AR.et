@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Легкий пулемётчик"
+    Name "#PDVL_Role_AR"
     Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
    }
   }

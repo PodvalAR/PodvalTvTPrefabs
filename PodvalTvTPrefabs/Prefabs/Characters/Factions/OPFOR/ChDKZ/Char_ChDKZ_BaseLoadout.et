@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{BC2FC70C961278D0}Prefabs/Characters/Factions/OPFOR/ChDK
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Базовая загрузка"
+    Name "#PDVL_Role_BaseLoadout"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {

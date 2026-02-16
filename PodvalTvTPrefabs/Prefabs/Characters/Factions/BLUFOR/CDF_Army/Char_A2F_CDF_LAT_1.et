@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{90532B1538E7785A}Prefabs/Characters/Factions/BLUFOR/CDF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Легкий бронебойщик"
+    Name "#PDVL_Role_LAT"
     Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
    }
   }

@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{EC4A901548D04DF4}Prefabs/Characters/Factions/BLUFOR/CDF
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Второй пилот"
+    Name "#PDVL_Role_HeliCoPilot"
     Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
    }
   }

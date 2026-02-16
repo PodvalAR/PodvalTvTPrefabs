@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Легкий гранатомет"
+    Name "#PDVL_Role_LAT"
     Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
    }
   }

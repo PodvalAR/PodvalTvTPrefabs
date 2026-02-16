@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{4F242994A930974D}Prefabs/Characters/Factions/OPFOR/TKA/
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Член экипажа"
+    Name "#PDVL_Role_Crew"
     Icon "{B0611A54EB6AA798}UI/Icons/engineer.edds"
    }
   }

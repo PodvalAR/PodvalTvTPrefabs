@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{D65A24FF9626C186}Prefabs/Characters/Factions/OPFOR/ChDK
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Командир взовада"
+    Name "#PDVL_Role_PL"
     Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
    }
   }

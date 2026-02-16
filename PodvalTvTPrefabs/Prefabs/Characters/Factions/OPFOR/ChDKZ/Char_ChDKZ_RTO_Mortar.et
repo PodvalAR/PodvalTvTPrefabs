@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{1CE031AEECA60DC3}Prefabs/Characters/Factions/OPFOR/ChDK
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Корректировщик"
+    Name "#PDVL_Role_Spotter"
     Icon "{DCF0F63BF8F4B59B}UI/Icons/spotter.edds"
    }
   }

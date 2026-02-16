@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{C07BBFF1F74BE3FA}Prefabs/Characters/Factions/OPFOR/ChDK
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Гранатометчика"
+    Name "#PDVL_Role_AT"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {

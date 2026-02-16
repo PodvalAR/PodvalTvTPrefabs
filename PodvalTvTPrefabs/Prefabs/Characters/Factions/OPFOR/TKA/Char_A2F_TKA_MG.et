@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Пулемётчик"
+    Name "#PDVL_Role_MG"
     Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
    }
   }
