@@ -153,6 +153,13 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68A10AEE0A176182}" {
+   Id "PDVL_Role_Crew_Gunner"
+   Target_ru_ru "Наводчик"
+   Modified 1755395614
+   Author "Gubastus"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A005F7942E2F23}" {
    Id "PDVL_Role_GL"
    Target_en_us "Grenadier"
