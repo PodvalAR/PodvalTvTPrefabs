@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sharpshooter"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DFB1E82103B08E7B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14_supp.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{45520DFB75F85B80}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd__sup_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{C9C65C6373C984B6}Prefabs/Characters/Vests/Vest_TV110/Variants/Vest_TV110_arsarmaHSGI_OD_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A0E318CBB97EBB}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/mp103_1/Pouch_wartech_magpouch_mp103_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E318E18C6F4D}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E318F296A309}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E318F2AFEB77}" {
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E31BFB84DF24}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68A0E31C6EA84F2B}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/mp103_2/Pouch_wartech_magpouch_mp103_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E31E9A968B83}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD_2.et/drop/Pouch_UP113_DropPouch_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+   }
+  }
+ }
+}

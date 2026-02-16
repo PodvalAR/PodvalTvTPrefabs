@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+    Icon "{3A05EEC9D3F0D317}UI/Icons/recon_sl.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A0E31BFB84DF24}" {
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
+     }
+    }
+   }
+  }
+ }
+}

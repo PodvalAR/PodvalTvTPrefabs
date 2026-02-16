@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{CBF1642EC0DC8E65}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P78.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FAECE2A4CCD7FB96}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_EMR.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DE9419051713E016}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_Drongo_PKM_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A0E318CBB97EBB}" {
+     TargetStorage "Vest/Vest_Ratin6B45_Drongo_PKM_2.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E318E18C6F4D}" {
+     TargetStorage "Vest/Vest_Ratin6B45_Drongo_PKM_2.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     PrefabsToSpawn {
+      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E318F296A309}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     PrefabsToSpawn {
+      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E318F2AFEB77}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{68A0E31BFB84DF24}" {
+     TargetStorage "Vest/Vest_Ratin6B45_Drongo_PKM_2.et/Radio/Pouch_UP111_radioClosed_OD.et"
+    }
+   }
+  }
+ }
+}
