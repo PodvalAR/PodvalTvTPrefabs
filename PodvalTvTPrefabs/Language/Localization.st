@@ -229,6 +229,14 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68A00A6BA521D51A}" {
+   Id "PDVL_Role_Marksman"
+   Target_en_us "Marksman"
+   Target_ru_ru "Снайпер"
+   Modified 1755322286
+   Author "123va"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A005F7971F130D}" {
    Id "PDVL_Role_Medic"
    Target_en_us "Medic"
@@ -437,6 +445,14 @@ StringTable {
    Modified 1755318305
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68A00A68EAE0F80C}" {
+   Id "PDVL_Role_TL"
+   Target_en_us "Team Leader"
+   Target_ru_ru "Командир группы"
+   Modified 1755322283
+   Author "123va"
+   LastChanged "123va"
   }
  }
 }
