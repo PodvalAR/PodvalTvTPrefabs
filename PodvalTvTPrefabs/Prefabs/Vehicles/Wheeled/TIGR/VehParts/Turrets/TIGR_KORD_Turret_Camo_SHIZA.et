@@ -1,0 +1,8 @@
+Turret : "{59C00B28353902BB}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Camo.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{7A194622EB0C0012}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_SPP_Shield.et"
+  }
+ }
+}

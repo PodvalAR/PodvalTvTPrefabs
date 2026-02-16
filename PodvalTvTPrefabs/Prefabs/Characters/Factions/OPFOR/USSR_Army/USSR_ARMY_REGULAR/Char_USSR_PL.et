@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{DB71C633DA9D1BFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_PL"
+    Icon "{1CFADF7EA9F42D6A}UI/Icons/platoon.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{793EEE2C133176F9}Prefabs/Characters/HeadGear/Hat_Panama_Soviet/Hat_Panama_Soviet_01_v1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

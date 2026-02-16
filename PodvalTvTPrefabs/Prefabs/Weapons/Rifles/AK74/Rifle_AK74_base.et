@@ -1,0 +1,12 @@
+GenericEntity : "{43497A18DD888667}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et"
+    }
+   }
+  }
+ }
+}

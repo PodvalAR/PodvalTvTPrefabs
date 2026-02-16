@@ -1,0 +1,20 @@
+GenericEntity : "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_6L18_Bakelite_Name (7T3)"
+     Description "#RHS-Magazine_6L18_Bakelite_Description (7T3)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "7Т3"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags TRACER
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GenericEntity : "{3BFBE9145E9C40BA}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et"
+    }
+   }
+  }
+ }
+}
