@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{96BCD8ED65994666}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{A3E19E754552334B}Prefabs/Items/Equipment/Radios/Radio_PRC352.et"
+     Prefab "{CFB5AA95F996BC65}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit.et"
     }
    }
   }
