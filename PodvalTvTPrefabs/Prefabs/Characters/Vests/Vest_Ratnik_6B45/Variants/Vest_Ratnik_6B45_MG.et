@@ -1,4 +1,4 @@
-GenericEntity : "{1EED0C006408490B}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_Loadout_base.et" {
+GenericEntity : "{A8764A0FBA5E56D4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_MG.et" {
  ID "50D8C49B3558F152"
  components {
   ClothNodeStorageComponent "{5DEB2A8AB559C576}" {

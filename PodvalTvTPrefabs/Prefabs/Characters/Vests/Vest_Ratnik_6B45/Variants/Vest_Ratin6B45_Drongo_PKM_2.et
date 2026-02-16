@@ -1,4 +1,4 @@
-GenericEntity : "{90430794C78C21B0}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_preset_base.et" {
+GenericEntity : "{DE9419051713E016}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_Drongo_PKM_2.et" {
  ID "6212A0DD8DDB0F88"
  components {
   RHS_ClothNodeStorageComponent "{6212A0DD8DDB0FEF}" {
@@ -43,12 +43,10 @@ GenericEntity : "{90430794C78C21B0}Prefabs/Characters/Vests/Vest_TV115/variants/
     }
    }
    WornModel "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
-   WornMaterialsOverride {
-    "{72D6EF145AA3FEE1}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_EMR.emat"
+   WornMaterialsOverride +{
    }
    ItemModel "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
-   ItemMaterialsOverride {
-    "{72D6EF145AA3FEE1}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_EMR.emat"
+   ItemMaterialsOverride +{
    }
    DebugWornModel 0
   }
