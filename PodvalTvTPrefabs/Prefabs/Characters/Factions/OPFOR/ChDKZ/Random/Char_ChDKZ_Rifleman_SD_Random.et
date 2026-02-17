@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{94FB86B2EE84EBFB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68A302B2E9427233}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68A302B2EAAECE7F}" {
+      m_sVariantPrefab "{94FB86B2EE84EBFB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD.et"
+     }
+     SCR_EditableEntityVariant "{68A302B2EA541442}" {
+      m_sVariantPrefab "{3F440215B3CA60BB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_2.et"
+     }
+     SCR_EditableEntityVariant "{68A302B2EA43FF0E}" {
+      m_sVariantPrefab "{DAD84EECBF2FF7D0}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_3.et"
+     }
+    }
+   }
+  }
+ }
+}

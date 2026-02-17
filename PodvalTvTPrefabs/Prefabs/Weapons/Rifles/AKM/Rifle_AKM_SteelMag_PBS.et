@@ -1,0 +1,18 @@
+GenericEntity : "{56BB6DCAB9FF4E5D}Prefabs/Weapons/Rifles/AKM/Rifle_AKM_SteelMag.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{60993CDFD79F7744}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{8F6AA7E0ACAFE145}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS1/Suppressor_PBS1.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
