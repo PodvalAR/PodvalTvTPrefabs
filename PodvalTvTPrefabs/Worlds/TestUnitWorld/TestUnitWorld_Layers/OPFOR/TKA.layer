@@ -1,15 +1,15 @@
 SCR_AIGroup : "{371433587517EBAC}Prefabs/Groups/OPFOR/Ses_TKA/Group_A2F_TKA_PL.et" {
- coords 40 1 48
+ coords 140 1 48
 }
 SCR_AIGroup : "{41D00E92AA6B4989}Prefabs/Groups/OPFOR/Ses_TKA/Group_A2F_TKA_All.et" {
- coords 40 1 40
+ coords 140 1 40
 }
 SCR_AIGroup : "{B2829E998DF41555}Prefabs/Groups/OPFOR/Ses_TKA/Group_A2F_TKA_Squad.et" {
- coords 40 1 44
+ coords 140 1 44
 }
 SCR_AIGroup : "{CA5B8FC1B89614D7}Prefabs/Groups/OPFOR/Ses_TKA/Group_A2F_TKA_Heli.et" {
- coords 40 1 46
+ coords 140 1 46
 }
 SCR_AIGroup : "{D98C1540C5C05A6C}Prefabs/Groups/OPFOR/Ses_TKA/Group_A2F_TKA_Motorized.et" {
- coords 40 1 42
+ coords 140 1 42
 }

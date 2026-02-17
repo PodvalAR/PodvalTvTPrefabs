@@ -1,0 +1,18 @@
+GenericEntity : "{6408F2C84AE5DBD1}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_RHSmag.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{3B96FAC169E27037}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/Suppressor_PBS4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

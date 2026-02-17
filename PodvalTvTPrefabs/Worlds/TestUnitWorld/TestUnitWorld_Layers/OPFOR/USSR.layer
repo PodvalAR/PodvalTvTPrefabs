@@ -1,9 +1,9 @@
 SCR_AIGroup : "{1041E60A9AB94408}Prefabs/Groups/OPFOR/USSR/Group_USSR_Rifle_BTR_SQ.et" {
- coords 39.97 1 23.99
+ coords 100 1 44
 }
 SCR_AIGroup : "{84AF92E239A71FCE}Prefabs/Groups/OPFOR/USSR/Group_USSR_Rifle_SQ.et" {
- coords 39.991 1.013 21.995
+ coords 100 1 42
 }
 SCR_AIGroup : "{B313C696EA046B0D}Prefabs/Groups/OPFOR/USSR/Group_USSR_ALL.et" {
- coords 39.996 1 20.007
+ coords 100 1 40
 }
