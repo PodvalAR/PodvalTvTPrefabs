@@ -54,14 +54,12 @@ Turret : "{8C68C54F9C50A9AF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mou
   TurretControllerComponent "{51ACD09C61C183E4}" {
    LimitsVert -5 33
   }
-  SlotManagerComponent "{686C93C58FE188F6}" {
-  }
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
     Offset 0 0.0929 0.0571
     MergePhysics 1
    }
-   WeaponTemplate "{7538DDB75C9F4BFC}Assets/Weapons/HeavyWeapons/M2/HMG_M2HB_Pintle_GPK_Shield_AP.et"
+   WeaponTemplate "{6DC6285D6FE2D019}Prefabs/Weapons/HeavyWeapons/m2hb/green.et"
   }
   BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
    AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
