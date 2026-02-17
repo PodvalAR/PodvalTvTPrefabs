@@ -22,6 +22,9 @@ GenericEntity : "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et" 
      }
      ShowInInspection 1
     }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{E8E9972833CB4203}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_Ball.et"
+    }
    }
   }
  }

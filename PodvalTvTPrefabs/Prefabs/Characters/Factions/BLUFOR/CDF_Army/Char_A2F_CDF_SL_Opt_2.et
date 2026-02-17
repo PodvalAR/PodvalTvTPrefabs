@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{91ADE7CF3ADEF426}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{19E0C26FBCFA9AEE}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_RHSmag_Rail_Opt.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4F2C9DC153DD16AC}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_Googles_CDF.et"
+    }
+   }
+  }
+ }
+}

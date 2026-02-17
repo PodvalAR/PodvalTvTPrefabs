@@ -1,0 +1,46 @@
+GenericEntity : "{75024C6106851876}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_GP25_RHSmag.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Enabled 0
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{68A36AB59E072C5B}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optic"
+      Offset -0.031 0.055 0.0127
+      ChildPivotID ""
+      Prefab "{39CB6FD1854B44B6}Prefabs/Weapons/Attachments/Rails/npz_valdai_rail/npz_valdai_rail.et"
+      InspectionWidgetOffset -0.025 0.1196 0
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{68A36AB59E072C42}" {
+     }
+     ShowInInspection 0
+    }
+    AttachmentSlotComponent "{68A36AB59E072FBC}" {
+     AttachmentSlot InventoryStorageSlot RIS_Slot {
+      PivotID "eye"
+      Offset 0 -0.0008 0.1311
+      ChildPivotID "snap_weapon"
+      InspectionWidgetOffset 0 0.1208 0
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{68A36AB59E072FBF}" {
+     }
+     ShowInInspection 1
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    RHS_FlipSightUserAction "{68A36AB59E072FB5}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+}

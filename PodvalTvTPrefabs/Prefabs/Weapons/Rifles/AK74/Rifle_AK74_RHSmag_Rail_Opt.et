@@ -1,0 +1,22 @@
+GenericEntity : "{EEFC81F05A66AE68}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_RHSmag_Rail.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{55349E9229B55E29}" {
+     AttachmentSlot InventoryStorageSlot sights {
+      PivotID "eye"
+     }
+    }
+    AttachmentSlotComponent "{5F189C826D592450}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      PivotID "eye"
+      Offset 0 -0.0008 0.1311
+      Angles 0 0 0
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -8,10 +8,13 @@ SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{CE92303909FD6BDD}Prefabs/Weapons/MachineGuns/RPK74N/MG_RPK74N_ses.et"
+   WeaponTemplate "{EEFE1A72E6C73339}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74_n10.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{C71B8C59D15C438C}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR_NoUseless.et"
     }
@@ -25,7 +28,13 @@ SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/
     ItemsInitConfigurationItem "{689E8CBF6FA5001F}" {
      TargetStorage "Vest/Vest_SovietHarness_AR_NoUseless.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
      PrefabsToSpawn {
-      "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{D78C667F59829717}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer.et" "{5897D01F41DB5D2D}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer.et"
+      "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A36AB39B4099B0}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{238F64BF78FE2EB9}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer_n10.et" "{238F64BF78FE2EB9}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Tracer_n10.et"
      }
     }
    }

@@ -1,0 +1,323 @@
+Turret : "{7C4D1A64D60F2C92}Prefabs/Weapons/Tripods/Tripod_6T5.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  SoundComponent "{58E0961DB6C453D6}" {
+   Filenames + {
+    "{1B4D2E3FE51ABC31}Sounds/Weapons/_SharedData/CSW/Weapons_CSW_Deploy.acp" "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{E9BF8B787B6264CE}Assets/Weapons/HeavyWeapons/BGM71TOW/tow_tripod.xob"
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{54A4EC8769A89DC8}" {
+     ResourceName "{37C268E099A103C5}Anims/proc/tuuret_tow.pap"
+     BoneNames {
+      "w_hor_rotation" "w_base_el"
+     }
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      PivotID "position"
+      Offset -0.3525 -0.0793 -0.4095
+      Angles 0 13.4547 0
+     }
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{660A8AE656D65501}" {
+     m_ModelPrefabs {
+      ""
+     }
+    }
+    SCR_DebrisSpawnable "{660A8AE66765425E}" {
+     m_ModelPrefabs {
+      ""
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "BGM-71 TOW"
+    Icon "{025ACCF1833E9C84}UI/Textures/Editor/EditableEntities/Vehicles/atgm_icon.edds"
+    m_Image "{26D275BE53FA82A4}UI/Textures/EditorPreviews/Weapons/Tripods/BGM71TOW/tow_prev.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE FACTION_US TRAIT_ARMED TRAIT_ARMORPIERCING ROLE_ANTITANK
+    }
+   }
+  }
+  SCR_MultiPartDeployableItemComponent "{68A36AB78792AC77}" {
+   m_bRemoveAllItemsWhenDeleted 1
+   m_aVariants {
+    SCR_DeployableVariantContainer "{68A36AB78792AFBA}" {
+     m_iVariantId 55
+     m_sReplacementPrefab "{B90699E7A808277A}Prefabs/Weapons/Tripods/BGM71TOW/Part_1_BGM-71D_Tripod.et"
+     m_aAdditionalPrefabs {
+      SCR_AdditionalDeployablePart "{68A36AB78792AFB5}" {
+       m_sPrefab "{E850E811DBCFB9EE}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_FCS.et"
+      }
+      SCR_AdditionalDeployablePart "{68A36AB78792AFB0}" {
+       m_sPrefab "{FDCBE9CC0BEA96EC}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_Mount.et"
+      }
+      SCR_AdditionalDeployablePart "{68A36AB78792AFB1}" {
+       m_sPrefab "{CBC0F26A18152EBB}Prefabs/Weapons/Tripods/BGM71TOW/tow_D_N_Sight.et"
+      }
+      SCR_AdditionalDeployablePart "{68A36AB78792AFB3}" {
+       m_sPrefab "{1B3C0AA21203A575}Prefabs/Weapons/Tripods/BGM71TOW/tow_FCS_battery.et"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins 2 0 0
+     m_vReplacementPrefabBoundingBoxMaxs 3 0 0
+     m_bUsePartRotationAndPosition 0
+    }
+   }
+   m_eSurfaceObservationBehaviour DISMANTLE
+  }
+  SCR_PreviewEntityComponent "{58FE9EDB2128FCFC}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{5A5EA70BDB7D824A}" {
+     m_Mesh "{EDDF70C1B3C1F012}Assets/Weapons/HeavyWeapons/BGM71TOW/tow_Prev.xob"
+     m_vAngles 45 0 0
+    }
+    SCR_BasePreviewEntry "{5A5EA70BDB741D58}" {
+     m_Mesh ""
+    }
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -30 30
+   LimitsVert -15 30
+   LimitsHorizProne -180 180
+   LimitsVertProne -5 20
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   Attributes SCR_ItemAttributeCollection "{5C448425221FFBF7}" {
+    ItemDisplayName WeaponUIInfo "{5C44842569CAA21F}" {
+     Name "BGM-71 TOW"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5C46714675E00BE0}" {
+      CameraOrbitAngles 0 -50 0
+      CameraDistanceToItem 2.2
+      CameraOffset 0.1 0.1 0
+      PreviewPrefab ""
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   StoragePurpose 0 0x1
+   MaxCumulativeVolume 0
+   InitialStorageSlots {
+    InventoryStorageSlot Magazine_1 {
+     Prefab ""
+    }
+    InventoryStorageSlot Magazine_2 {
+     Prefab ""
+    }
+    InventoryStorageSlot Magazine_3 {
+     Prefab ""
+    }
+   }
+   m_fMaxWeight 0
+  }
+  TF_SACLOS_MissileController "{68A36AB78792AFA7}" {
+   m_bDeactivePrevMissile 1
+   m_bIsATGM 1
+   m_bCanReloadWhenActive 0
+  }
+  TF_TurretWeaponMoveComponent "{68A36AB78792AFA2}" {
+   m_sPreviewObject "{EDDF70C1B3C1F012}Assets/Weapons/HeavyWeapons/BGM71TOW/tow_Prev.xob"
+   m_fIndoorsCheckHeight 1
+   m_fMaxAllowedTilt 30
+   m_fPreviewTraceDistance 1.2
+  }
+  TF_WeaponReloadComponent "{68A36AB78792AFA3}" {
+   m_EmptyWeapon "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et"
+   m_ImpulsTo PointInfo "{68A36AB78792AF9D}" {
+    PivotID "launcher"
+    Offset -0.2992 -0.1545 -0.9285
+   }
+   m_DetachEmptyPoint PointInfo "{68A36AB78792AF9F}" {
+    PivotID "launcher"
+    Offset 0 0 0
+   }
+   m_DetachLoadedPoint PointInfo "{68A36AB78792AF99}" {
+    PivotID "Scene_Root"
+    Offset 0.3877 0.076 -0.5745
+    Angles 0 -38.085 0
+   }
+   m_fImpulseStrength 1.5
+   m_SupportedMagazine MagazineWellTow "{68A36AB78792AF9B}" {
+   }
+   m_DetachSound SCR_AudioSourceConfiguration "{68A36AB78792AFF8}" {
+    m_sSoundProject "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+    m_sSoundEventName "SOUND_UNLOAD"
+   }
+   m_AttachSound SCR_AudioSourceConfiguration "{68A36AB78792AFF9}" {
+    m_sSoundProject "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+    m_sSoundEventName "SOUND_PYLON_ATTACH"
+   }
+  }
+  TurretComponent "{1D3DA71B9107070D}" {
+   components {
+    SCR_2DSightsComponent "{5704FD9D7509AA3A}" {
+     SightsPosition PointInfo "{5704FD9D0AF41F58}" {
+      PivotID "sight_front"
+      Offset 0 0 0
+     }
+     SightsFOVInfo TF_SightsZoomFOVInfo "{68A36AB78792AFF2}" {
+      m_fBaseZoom 3
+      m_fZoomMax 13
+      m_fStepZoomSize 1
+      m_fStepZoomSizeGEA 10
+     }
+     SightsPointFront PointInfo "{5AAAD36A44452E46}" {
+      PivotID "sight_front"
+      Offset 0 0 0.0147
+     }
+     SightsPointRear PointInfo "{5AAAD36A4315F0B0}" {
+      PivotID "sight_front"
+      Offset 0 0 -0.4411
+     }
+     ADSTime 0
+     CameraRecoilAmount 0
+     m_sReticleTexture "{25EE1F2BF21F8C5A}UI/Textures/Sights/BGM71TOW/TOW_reticle.edds"
+     m_sReticleGlowTexture "{25EE1F2BF21F8C5A}UI/Textures/Sights/BGM71TOW/TOW_reticle.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0.88 0.423 0.031 1
+     m_fReticleTextureGlowAlpha 0.5
+     m_fVignetteScale 10
+     m_bShouldHideParentObject 0
+     m_bShouldHideParentCharacter 1
+     m_fRotationScale 0.3
+     m_fMovementScale 0.4
+     m_fVignetteMoveSpeed 2.6
+     m_fMotionBlurScale 0
+     m_fObjectiveScale 1.5
+     m_fReticleAngularSize 5
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom -6.86
+     m_fMagnification 2.6
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{570680DEE6CB05B1}" {
+     PositionInfo PointInfo "{570680DEFBACE44E}" {
+      PivotID "L_handle"
+      Offset 0.026 0.0671 0.0177
+      Angles 0 0 -144.25571
+     }
+    }
+    AnimationIKTargetInfo "{570680DEF2EC0D02}" {
+     PositionInfo PointInfo "{570680DEF7A45B94}" {
+      PivotID "R_handle"
+      Offset 0.0248 0.1009 0.0197
+      Angles -10 180 0
+     }
+    }
+   }
+   TurretSpeed 4 4
+   TurretAcceleration 60 60
+   TurretDeceleration 120 120
+   TurretCrankRatio 4 4
+  }
+  TF_WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "launcher"
+    Offset -0.0373 -0.0129 0.4561
+    MergePhysics 0
+    ActivatePhysicsOnDetaching 1
+    DeactivatePhysicsOnAtaching 1
+   }
+   WeaponTemplate "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et"
+   m_bAllowAttachWhenEmpty 1
+  }
+  InventoryStorageManagerComponent "{570EB718136CC976}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset -0.0327 0.8842 -0.1663
+     }
+    }
+    UserActionContext "{68A36AB78792AFE7}" {
+     ContextName "Reload"
+     Position PointInfo "{68A36AB78792AFE0}" {
+      PivotID "launcher"
+      Offset -0.0001 0.1052 -0.0437
+     }
+     Radius 0.3
+    }
+    UserActionContext "{68A36AB78792AFE1}" {
+     ContextName "Move"
+     Position PointInfo "{68A36AB78792AFE2}" {
+      Offset 0.0001 0.0743 -0.4173
+     }
+     Radius 1.5
+    }
+   }
+   additionalActions {
+    SCR_OpenTurretStorageAction "{570EACF46E2143AC}" {
+     ParentContextList {
+     }
+     UIInfo UIInfo "{570EACF479DB7276}" {
+      Name ""
+     }
+     m_bShowFromOutside 0
+    }
+    TF_DeployMultiPartInventoryItemAction "{6556B9374AF3327D}" : "{53ACE069C87D43A3}Prefabs/Weapons/Core/Configs/Actions/DismantleMultipartInventoryItemAction.conf" {
+     UIInfo SCR_ActionUIInfo "{61B48E9F567C096C}" {
+      Description "BGM-71 TOW"
+     }
+     Duration 2
+     "Sort Priority" 5
+     m_iVariantId 55
+     m_eRequiredGadget NONE
+    }
+    TF_Action_ReloadSaclos "{68A36AB78792AFD8}" {
+     ParentContextList {
+      "Reload"
+     }
+     UIInfo UIInfo "{68A36AB78792AFD9}" {
+      Name "Reload"
+     }
+     Duration 2
+     m_iWeaponSlotIndex 0
+    }
+    TF_Action_MoveTurret "{68A36AB78792AFDB}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{68A36AB78792AFD4}" {
+      Name "#TF-Action-MoveTurret"
+     }
+     Duration 12
+     "Sort Priority" 20
+     m_fCameraForwardOffset 0.9
+     m_bCheckTilt 1
+     m_bCheckForAvailableSpace 1
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{36B61B4D1969E96D}Assets/Weapons/HeavyWeapons/anim/ATGM_TOW.agr"
+   AnimInstance "{5A71473571F2F9F6}Assets/Weapons/HeavyWeapons/anim/ATGM_TOW_weapon.asi"
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{36B61B4D1969E96D}Assets/Weapons/HeavyWeapons/anim/ATGM_TOW.agr"
+    AnimInstance "{A12FD604E9F39D1A}Assets/Weapons/HeavyWeapons/anim/ATGM_TOW_player.asi"
+   }
+  }
+ }
+ coords 678.891 0.894 20
+}

@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{91ADE7CF3ADEF426}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68A36AB4AEBAA300}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68A36AB4AFC85F91}" {
+      m_sVariantPrefab "{4C2F7672615EABBA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_Opt.et"
+     }
+     SCR_EditableEntityVariant "{68A36AB4AFF5EBF0}" {
+      m_sVariantPrefab "{B082871BDB45E6DA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_Opt_2.et"
+     }
+     SCR_EditableEntityVariant "{68A36AB4AFE3194F}" {
+      m_sVariantPrefab "{551ECBE2D7A071B1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_Opt_3.et"
+     }
+     SCR_EditableEntityVariant "{68A36AB4AF8C6211}" {
+      m_sVariantPrefab "{682AEEDAA2CCF886}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_Opt_4.et"
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{19E0C26FBCFA9AEE}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_RHSmag_Rail_Opt.et"
+  }
+ }
+}
