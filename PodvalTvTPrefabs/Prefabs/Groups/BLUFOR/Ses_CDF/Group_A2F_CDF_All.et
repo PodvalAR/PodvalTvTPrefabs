@@ -1,4 +1,4 @@
-SCR_AIGroup : "{3F04964DF8D24764}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_Base.et" {
+SCR_AIGroup : "{36BB8B44885A918B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Base.et" {
  ID "0000000000000001"
  components {
   AIFormationComponent "{507E9DC12F541FE6}" {

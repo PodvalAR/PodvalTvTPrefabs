@@ -6,5 +6,21 @@ SCR_ChimeraCharacter : "{51ACEA1A553DA025}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#PDVL_Role_HeliPilot"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A00A6AAA6E64F1}" {
+     PrefabsToSpawn {
+      "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
+     }
+    }
+   }
+  }
  }
 }

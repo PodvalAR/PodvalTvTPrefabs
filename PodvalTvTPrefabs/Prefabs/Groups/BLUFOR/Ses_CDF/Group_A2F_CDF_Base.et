@@ -1,0 +1,7 @@
+SCR_AIGroup : "{3F04964DF8D24764}Prefabs/Groups/BLUFOR/Ses_CDF/Group_Ses_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+  }
+ }
+}

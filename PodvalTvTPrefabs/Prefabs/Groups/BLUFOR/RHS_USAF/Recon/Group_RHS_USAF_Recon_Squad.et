@@ -1,6 +1,6 @@
 SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
-  "{6FB8DFDF3975B6BA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_SL.et" "{12A033275CE68A23}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_SR.et" "{02302EC00BF114A9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_AR.et" "{0FE550E1FC467D83}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_GL.et" "{63F3DD828742ACF0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_LAT.et" "{E1086469EEF94CD1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_Sniper.et"
+  "{6FB8DFDF3975B6BA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_SL.et" "{12A033275CE68A23}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_SR.et" "{02302EC00BF114A9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_AR.et" "{0FE550E1FC467D83}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_GL.et" "{63F3DD828742ACF0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_LAT.et" "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_Rifle.et" "{8F85FC08D9D6033B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_Sapper.et" "{E1086469EEF94CD1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_Sniper.et"
  }
 }

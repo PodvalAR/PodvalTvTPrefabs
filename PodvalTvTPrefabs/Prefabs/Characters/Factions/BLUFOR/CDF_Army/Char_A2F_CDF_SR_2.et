@@ -8,5 +8,14 @@ SCR_ChimeraCharacter : "{90C664A7E4E6ACB0}Prefabs/Characters/Factions/BLUFOR/CDF
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689335945E342D26}" {
+     PrefabsToSpawn + {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
+    }
+   }
+  }
  }
 }

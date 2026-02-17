@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{90532B1538E7785A}Prefabs/Characters/Factions/BLUFOR/CDF
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689335945E342D26}" {
      PrefabsToSpawn {
-      "{4F6D4E77A6570C04}Prefabs/Items/Equipment/Radios/Radio_R148_CDF_Multi.et"
+      "{4F6D4E77A6570C04}Prefabs/Items/Equipment/Radios/Radio_R148_CDF_Multi.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
      }
     }
    }
