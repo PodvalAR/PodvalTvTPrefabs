@@ -1,4 +1,4 @@
-GameEntity : "{2ADE02F048F921E4}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_small_green_peltor_EMR.et" {
+GameEntity : "{D9B30C3875AC2590}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_base.et" {
  ID "50D485E1435D6C72"
  components {
   MeshObject "{5112706CD4157AE0}" {
