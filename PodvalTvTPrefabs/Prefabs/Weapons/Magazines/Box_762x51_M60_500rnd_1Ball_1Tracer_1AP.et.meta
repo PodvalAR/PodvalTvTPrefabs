@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{C1C71CAF0037DDED}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH1H_USMCDecal_Podval.et"
+ Name "{9943B9AC9353FD9E}Prefabs/Weapons/Magazines/Box_762x51_M60_500rnd_1Ball_1Tracer_1AP.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

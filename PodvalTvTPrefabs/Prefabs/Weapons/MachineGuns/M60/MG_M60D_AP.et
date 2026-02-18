@@ -1,0 +1,12 @@
+GenericEntity : "{F160AD774257839E}Prefabs/Weapons/MachineGuns/M60/MG_M60D.et" {
+ ID "50D6D3D8D7C6DF66"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{9943B9AC9353FD9E}Prefabs/Weapons/Magazines/Box_762x51_M60_500rnd_1Ball_1Tracer_1AP.et"
+    }
+   }
+  }
+ }
+}

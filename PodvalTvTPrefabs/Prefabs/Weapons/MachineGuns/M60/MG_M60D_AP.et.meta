@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A2DCF8786020EE87}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE_Podval.et"
+ Name "{6D83FF2B93C291E9}Prefabs/Weapons/MachineGuns/M60/MG_M60D_AP.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

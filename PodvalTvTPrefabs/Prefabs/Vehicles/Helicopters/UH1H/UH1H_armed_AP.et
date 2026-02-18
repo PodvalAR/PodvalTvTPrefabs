@@ -1,0 +1,24 @@
+Vehicle : "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+     SlotTemplate InventoryStorageSlot MGammo {
+      Prefab "{9943B9AC9353FD9E}Prefabs/Weapons/Magazines/Box_762x51_M60_500rnd_1Ball_1Tracer_1AP.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo GunnerLeft {
+     Prefab "{8BF5673D2B1091E5}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M60D_gunner_left_AP.et"
+    }
+    RegisteringComponentSlotInfo GunnerRight {
+     Prefab "{A0783CB80ABA6ADF}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M60D_gunner_right_AP.et"
+    }
+   }
+  }
+ }
+}
