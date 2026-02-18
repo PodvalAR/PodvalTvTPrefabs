@@ -324,6 +324,20 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68A3601B068EBD30}" {
+   Id "PDVL_Role_NSV_1"
+   Target_ru_ru "Первый номер"
+   Modified 1755538332
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A3601B07598473}" {
+   Id "PDVL_Role_NSV_2"
+   Target_ru_ru "Второй номер"
+   Modified 1755538342
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A00A6FAD323DCA}" {
    Id "PDVL_Role_Officer"
    Target_en_us "Officer"
@@ -647,6 +661,13 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68A3601B7591E053}" {
+   Id "PDVL_Squad_NSV"
+   Target_ru_ru "Расчет крупнокалиберного пулемета"
+   Modified 1755538212
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A124C1647FE16A}" {
    Id "PDVL_Squad_Pilot"
    Target_en_us "Helicopter Crew"
@@ -682,6 +703,13 @@ StringTable {
    Target_zh_cn "排部"
    Target_uk_ua "Штаб взводу"
    Modified 1755394771
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A3366D833A618F}" {
+   Id "PDVL_Squad_Rifle"
+   Target_ru_ru "Стрелковое отделение"
+   Modified 1755531806
    Author "Biryuk"
    LastChanged "Biryuk"
   }
