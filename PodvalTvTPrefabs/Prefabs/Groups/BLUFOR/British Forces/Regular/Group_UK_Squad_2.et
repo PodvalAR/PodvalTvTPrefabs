@@ -1,0 +1,7 @@
+SCR_AIGroup : "{17DE9065B07EB761}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{B352E45394EF0C7B}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_SL.et" "{CE4A08ABF17C30E2}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_SR.et" "{E973E7A52BB112E0}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_AT.et" "{285DD19A5F470AAF}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_AAT.et" "{33A7A2AD1492217E}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_MG.et" "{A2E2664148810010}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_AMG.et" "{9F1558B8A8DE9FBC}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Rifle.et" "{BBF99633B60997D6}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Medic.et" "{CFCDC4BFE1534992}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Marksman.et"
+ }
+ m_sCustomNameSet "Пехотный отряд"
+}

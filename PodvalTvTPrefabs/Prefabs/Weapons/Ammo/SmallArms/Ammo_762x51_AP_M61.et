@@ -1,0 +1,12 @@
+Projectile : "{C14C5DE6F97F06F0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_Ball_M80.et" {
+ ID "5272CBA78277432A"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 500
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{E505D2E705466C74}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_LAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+  }
+ }
+}
