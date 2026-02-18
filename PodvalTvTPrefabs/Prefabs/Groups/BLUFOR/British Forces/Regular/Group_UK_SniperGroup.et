@@ -1,7 +1,13 @@
 SCR_AIGroup : "{17DE9065B07EB761}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
  ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A4F09568F482B4}" {
+   m_iCompanyCallsign 3
+   m_iSquadCallsign 2
+  }
+ }
  m_aUnitPrefabSlots {
   "{2457C5A201121FDC}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Sniper.et" "{6B0B103373DF995C}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Observer.et"
  }
- m_sCustomNameSet "Пехотный отряд"
+ m_sCustomNameSet "Снаперская пара"
 }

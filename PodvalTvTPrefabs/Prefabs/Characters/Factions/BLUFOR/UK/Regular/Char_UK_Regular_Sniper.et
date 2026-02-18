@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{9F1558B8A8DE9FBC}Prefabs/Characters/Factions/BLUFOR/UK/
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{A004065E3624160C}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM6x42.et"
+   WeaponTemplate "{A004065E3624160D}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM6x42.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{528AEE2B8A058D9F}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17_tan.et"
@@ -39,7 +39,7 @@ SCR_ChimeraCharacter : "{9F1558B8A8DE9FBC}Prefabs/Characters/Factions/BLUFOR/UK/
     ItemsInitConfigurationItem "{65750D80E04871BD}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper2.et/zip/Minimap_JPC_ZipOnPanel2.0_Coy.et"
      PrefabsToSpawn {
-      "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et"
+      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
      }
     }
     ItemsInitConfigurationItem "{65750D80E053ABA5}" {
