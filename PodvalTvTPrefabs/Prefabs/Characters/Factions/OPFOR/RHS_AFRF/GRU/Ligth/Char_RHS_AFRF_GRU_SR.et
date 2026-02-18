@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/drg_Role_RHS_AFRF_GRU_Rifleman.et" {
+SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG-Role_SeniorRecon"
+    Name "#PDVL_Role_SR"
    }
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
