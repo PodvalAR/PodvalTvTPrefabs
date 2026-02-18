@@ -1,0 +1,15 @@
+SCR_AIGroup : "{5A6D0239E30D205D}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Motorized.et" {
+ coords 100 1 26
+}
+SCR_AIGroup : "{654E3A922B11EC94}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad.et" {
+ coords 100 1 22
+}
+SCR_AIGroup : "{7FA436D25237BCFF}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_All.et" {
+ coords 99.896 1 20.428
+}
+SCR_AIGroup : "{BBA36FB95553E79C}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_PL.et" {
+ coords 100 1 28
+}
+SCR_AIGroup : "{F95993F1D0ECB936}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad_2.et" {
+ coords 100 1 24
+}

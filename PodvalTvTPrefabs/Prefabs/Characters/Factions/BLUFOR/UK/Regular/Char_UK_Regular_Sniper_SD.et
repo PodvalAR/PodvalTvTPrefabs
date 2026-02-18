@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{2457C5A201121FDC}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D87F9CD3863BF6E4}Prefabs/Weapons/Rifles/PM/Rifle_AI_PMSD_PM6x42.et"
+  }
+ }
+}
