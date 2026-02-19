@@ -1,0 +1,256 @@
+GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A9F4B66A1072BA48}Sounds/Weapons/Rifles/SVD/Weapons_Rifles_SVD_Shot.acp" "{8FF6E152B3E0C868}Sounds/Weapons/Rifles/SVD/Weapons_Rifles_SVD_Handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{DF0E7AF471E80C72}Assets/Weapons/Rifles/SVDM/SVDM.xob"
+  }
+  RigidBody "{68A5498E9AC843CC}" {
+   SimState None
+   ModelGeometry 1
+  }
+  SCR_MeleeWeaponProperties "{68A5498E9AC843C6}" {
+   m_fDamage 45
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#TF-Weapon-SVDM-Name"
+     Description "#TF-Weapon-SVDM-Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 5.09
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 1600
+     RestingUP Left
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{A6D522CA179367B7}Assets/Weapons/Rifles/SVD/anims/anm/p_SVD_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{68A5498E9AC843BE}" {
+        "Point info" DeploymentPointInfo BarrelPointInfo {
+         PivotID "Scene_Root"
+         Offset 0 0.0735 0.6765
+        }
+        StabilizationSize 0.05 0.1 0.6
+       }
+       PivotPointInfoItem "{68A5498E9AC843B9}" {
+        "Point info" DeploymentPointInfo Bipod {
+         PivotID "Scene_Root"
+         Offset 0 0.0309 0.5628
+        }
+        SystemIdentifier 2
+        StabilizationPoints {
+         DeploymentPointInfo Leg_L {
+          PivotID "w_bipodleg_left"
+          Offset 0.0177 0 0.1898
+         }
+         DeploymentPointInfo Leg_R {
+          PivotID "w_bipodleg_right"
+          Offset -0.0201 0 0.1902
+         }
+        }
+        StabilizationSize 0.035 0.01 0.2
+       }
+      }
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_vTranslationMin 0.002 0.002 0
+      m_vTranslationMax 0.003 0.003 0
+      m_vRotationImpulseMin 0 0 7
+      m_vRotationImpulseMax 0 0 8
+     }
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 1.2
+      FOV 30
+     }
+     ItemOneHandAnimAttributes "{68A5498E9AC843B6}" {
+      ErectLinearOffsetUpper 0 0 0
+      ErectLinearOffset 0.018 -0.2 -0.1
+      ErectLinearOffsetLower 0 -0.05 0
+      CrouchLinearOffsetUpper 0 0 0
+      CrouchLinearOffset 0.018 -0.16 -0.1
+      CrouchLinearOffsetLower 0 -0.15 0
+      SpringCoefficient 2.2
+      DamperCoefficient 2.4
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{68A5498E9AC843AE}" {
+     AttachmentSlot InventoryStorageSlot RIS {
+      PivotID "slot_optics_RIS"
+      Prefab "{6DC0EE135013FC47}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_base.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{68A5498E9AC843A8}" {
+     }
+     AttachmentObstructs 0
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{68A5498E9AC843B2}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      PivotID "slot_optics_dovetail"
+      Offset 0 0 -0.0682
+      MergePhysics 0
+      ChildPivotID ""
+      InspectionWidgetOffset 0 0.1323 0.0889
+     }
+     AttachmentType AttachmentOpticsDovetailSVD "{68A5498E9AC843AD}" {
+     }
+     AttachmentObstructs 0
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{68A5498E9AC843A4}" {
+       Range 0.465 100
+       WeaponPosition PointInfo "{68A5498E9AC843A5}" {
+        Offset 0 -0.0016 0
+        Angles 0.09 0 0
+       }
+      }
+     }
+     SightsPointFront PointInfo "{68A5498E9AC843A0}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0.04155 -0.05275
+     }
+     SightsPointRear PointInfo "{68A5498E9AC843A1}" {
+      PivotID "eye"
+      Offset 0 0.002 0.3294
+     }
+     m_iOpticDOFDistanceScale 120
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{83DC2DCAF6EDC75F}Particles/Weapon/Casing_762x54.ptc"
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        PivotID "barrel_chamber"
+        Offset 0.0193 0.0858 0.1652
+       }
+      }
+      CaseEjectingEffectComponent "{68A5498E9AC8436D}" {
+       ParticleEffect "{C19A137311FAEB03}Particles/Weapon/Smoke_SVD.ptc"
+       EffectPosition EntitySlotInfo Smoke_case {
+        PivotID "barrel_muzzle"
+        Offset 0 0 -0.0232
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{C4207543B467D89C}Particles/Weapon/Muzzle_SVD.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 -0.0232
+       }
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+       Offset 0 0 -0.6504
+      }
+     }
+     MagazineWell MagazineWellSVD "{68A5498E9AC8436B}" {
+     }
+     DispersionDiameter 0.4
+     DispersionRange 680
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{58C899E21F4089D8}" : "{0E6B74D9C265E140}Prefabs/Weapons/Core/Recoil/Rifle_LongRange_762_recoil.conf" {
+      }
+      ZeroingWeaponAimModifier "{68A5498E9AC84367}" {
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECB55D6F6D63D}" : "{6098E2D1A3DB2DA3}Configs/WeaponInfo/MagazineIndicators/svd_10.conf" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo LeftHandTarget {
+      PivotID "snap_hand_left"
+      Offset 0 0 -0.0813
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo RightHandTarget {
+      PivotID "snap_hand_right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo ButstockTransformation {
+      PivotID "Scene_Root"
+      Offset 0 0.0332 -0.2123
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0 0 -0.0137
+      InspectionWidgetOffset 0 0.0051 0.1543
+     }
+     MagazineTemplate "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{EDECE7D87FFDE659}Assets/Weapons/Rifles/workspaces/SVDM.agr"
+     AnimInstance "{7CAA25E2128FE83F}Assets/Weapons/Rifles/workspaces/SVDM_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{532F3A9CB912F2BA}" {
+      AnimGraph "{D2AF9B3D46653B41}Assets/Weapons/Rifles/workspaces/SVD.agr"
+      AnimInstance "{7D69B5C7C1664F86}Assets/Weapons/Rifles/workspaces/SVD_player.asi"
+     }
+    }
+   }
+   obstructionTestBBScale 0.05 0.05 0.025
+   SoundInt 1030100
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#AR-Weapon_SVD_Name"
+    Description "#AR-Weapon_SVD_Description"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0088 0.0269
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "w_bopod_base"
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{68A5498E9AC8435B}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0457 -0.0579
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{68A5498E9AC84354}" {
+      PivotID "w_fire_mode"
+      Angles 0 90 0
+     }
+     Radius 0.05
+     Omnidirectional 0
+    }
+    UserActionContext "{68A5498E9AC84357}" {
+     ContextName "optic"
+     Position PointInfo "{68A5498E9AC84350}" {
+      Offset -0.0191 0.0588 0.0501
+     }
+     Radius 0.075
+    }
+   }
+   additionalActions {
+    SCR_FireModeSwitchUserAction "{5A1E74156C2DB00D}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+}
