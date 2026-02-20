@@ -12,6 +12,9 @@ SCR_ChimeraCharacter : "{90532B1538E7785A}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{EE2C4E70C3EDDECA}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG_NoUnusable.et"
     }
@@ -19,6 +22,9 @@ SCR_ChimeraCharacter : "{90532B1538E7785A}Prefabs/Characters/Factions/BLUFOR/CDF
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{689335965BD1B021}" {
+     TargetStorage "Vest/Vest_SovietHarness_MG_NoUnusable.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+    }
     ItemsInitConfigurationItem "{68933597386DB52B}" {
      PrefabsToSpawn {
      }
