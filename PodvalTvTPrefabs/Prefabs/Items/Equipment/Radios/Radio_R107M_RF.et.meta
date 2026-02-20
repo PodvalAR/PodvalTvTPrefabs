@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+ Name "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
