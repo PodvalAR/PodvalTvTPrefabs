@@ -1,3 +1,15 @@
+SCR_AIGroup : "{0112DE06A13241AA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Base.et" {
+ coords 37.53 1 132.605
+}
+SCR_ChimeraCharacter : "{04D6D320F2CE6631}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_base.et" {
+ coords 37.324 1 131.224
+}
+SCR_AIGroup : "{245BB5086DBAC62F}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ALL.et" {
+ coords 33.884 1 127.798
+ m_aUnitPrefabSlots +{
+  "{17A4D6C647C27781}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Rifleman.et"
+ }
+}
 GenericEntity : "{28FD40D75A1B248D}Prefabs/Weapons/Attachments/Optics/RT6/Optic_Coll_RT6.et" {
  coords 126.07 1.305 139.455
 }
@@ -16,8 +28,40 @@ GenericEntity : "{727AB5567E71B5C9}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/S
 GameEntity : "{7D988DAC1E88AF14}Prefabs/Weapons/Attachments/Optics/bravo4/Optic_bravo4_tan.et" {
  coords 121.598 1 140.772
 }
+SCR_ChimeraCharacter : "{7DDFCA38F96FBAC5}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_baseLoadout.et" {
+ coords 34.974 1 131.886
+}
+GenericEntity : "{83C19A8FA6EFEB8E}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_GP25_PBS1.et" {
+ coords 31.101 1 130.464
+ angles 0 0 0
+}
+GenericEntity : "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{633CDCF448BDB062}" {
+     AttachmentSlot InventoryStorageSlot "{633CDCF46F100AA7}" {
+      Prefab "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
+     }
+    }
+   }
+  }
+ }
+ coords 35.769 1.213 132.343
+}
 GenericEntity : "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" {
  coords 123.66 1.065 140.773
+}
+$grp GameEntity : "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" {
+ {
+  coords 36.263 1 132.337
+ }
+ {
+  coords 36.157 1 132.7
+ }
+}
+SCR_ChimeraCharacter : "{9ECBC26F4235E8BA}Prefabs/Characters/Factions/INDFOR/TKR/OLD/Character_Ses_TKR_MG_2.et" {
+ coords 33.605 1 131.98
 }
 $grp GenericEntity : "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" {
  {

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{EB8F12D5B96EEC6D}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_AmmoTeam.et"
+ Name "{C5520722FCCA576E}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_BaseLoadout.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
