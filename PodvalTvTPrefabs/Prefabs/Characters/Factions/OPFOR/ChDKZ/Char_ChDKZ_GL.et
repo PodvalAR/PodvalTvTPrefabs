@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_Rifleman.et" {
+SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,6 +14,7 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_GL"
     Icon "{29949C5ADC63DA33}UI/Icons/grenadier.edds"
    }
   }
