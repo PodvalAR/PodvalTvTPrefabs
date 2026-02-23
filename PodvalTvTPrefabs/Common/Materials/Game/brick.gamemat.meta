@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B393F062AAE9EB75}Common/Materials/Game/brick.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass PS5 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+  GameMaterialResourceClass Xbox : PC {
+  }
+ }
+}

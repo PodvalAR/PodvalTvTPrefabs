@@ -1,0 +1,5 @@
+GameMaterial : "{34ECBF35393202EB}Common/Materials/Game/Core/hard_base.gamemat" {
+ BallisticInfo BallisticInfo "{68AD54F7E275A23A}" {
+  Density 0.45
+ }
+}

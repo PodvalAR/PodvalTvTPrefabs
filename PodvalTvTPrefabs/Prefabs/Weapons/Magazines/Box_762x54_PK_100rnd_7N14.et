@@ -1,0 +1,28 @@
+GenericEntity : "{E045E14D186D580F}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_PKM_SteelBox_100_Name (7N14)"
+     Description "#RHS-Magazine_PKM_SteelBox_100_Description (7N14)"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D6B596D23121E2}" {
+      CameraOrbitAngles -25 -25 0
+      ItemRenderRotation 0 0 0
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "7N14"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   AmmoConfig "{9550F2D1E8E4534C}Configs/Weapons/Ammo/Ammo_762x54_7N14.conf"
+  }
+ }
+}

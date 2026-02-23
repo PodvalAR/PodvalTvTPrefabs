@@ -32,7 +32,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
   }
   SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
    m_sReplacementPrefab "{83ECD6FA95E9DDEC}Prefabs/Systems/DeployableRadios/DeployableItemRadioReplacementUK.et"
-   m_FactionKey "UK"
+   m_FactionKey "UK123"
    m_fSuppliesValue 200
   }
   BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {

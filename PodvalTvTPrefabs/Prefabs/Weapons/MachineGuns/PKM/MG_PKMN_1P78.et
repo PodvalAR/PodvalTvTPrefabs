@@ -1,0 +1,14 @@
+GenericEntity : "{80CBC9A8D95A8A7B}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{8D4BAA235F7EDBEA}Prefabs/Weapons/Attachments/Optics/1p78/Optic_1P78.et"
+     }
+    }
+   }
+  }
+ }
+}

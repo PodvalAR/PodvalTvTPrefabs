@@ -1,14 +1,14 @@
 SCR_AIGroup : "{3F29EA2D79388D65}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Motorized.et" {
- coords 20 1 22
+ coords 20.009 1 21.859
 }
 SCR_AIGroup : "{6449AAD99869C0D5}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Squad.et" {
- coords 20 1 24
+ coords 19.996 1 23.899
 }
 SCR_AIGroup : "{6BF534002C76924B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Heli.et" {
- coords 20 1 26
+ coords 19.934 0.9 25.81
 }
 SCR_AIGroup : "{D9730178DE0EFF27}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_All.et" {
- coords 20 1 20
+ coords 20.021 1 19.962
  m_aUnitPrefabSlots +{
   "{107B2619EBE9881E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_LAT_SD_Random.et"
   "{50C53F58D3742548}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Rifle_SD_Random.et"

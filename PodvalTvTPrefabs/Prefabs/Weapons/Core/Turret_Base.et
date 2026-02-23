@@ -1,0 +1,12 @@
+Turret {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+     m_bIsEnabled 1
+    }
+   }
+  }
+ }
+}

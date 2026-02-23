@@ -1,49 +1,14 @@
-SCR_AIGroup : "{0112DE06A13241AA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Base.et" {
- coords 37.53 1 132.605
-}
-SCR_ChimeraCharacter : "{04D6D320F2CE6631}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_base.et" {
- coords 37.324 1 131.224
-}
 GenericEntity : "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et" {
  coords 98.141 1 166.454
 }
-SCR_ChimeraCharacter : "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper.et" {
- coords 110.95 1 122.948
-}
 GenericEntity : "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" {
  coords 110.655 1 121.173
-}
-GenericEntity : "{1A1584785389F088}Prefabs/Characters/Vests/Vest_TV115/variants/drg_Vest_TV115_Rifleman_OD_radio.et" {
- coords 114.599 1.476 122.825
-}
-GenericEntity : "{21166CD5D47825F5}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P29_7N13.et" {
- coords 122.345 1.429 122.786
-}
-SCR_AIGroup : "{245BB5086DBAC62F}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_ALL.et" {
- coords 33.884 1 127.798
- m_aUnitPrefabSlots +{
-  "{17A4D6C647C27781}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Rifleman.et"
- }
-}
-$grp Projectile : "{24E0005269848AAF}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG17M_fix.et" {
- {
-  coords 100.808 1 166.838
- }
- {
-  coords 99.982 1 166.923
- }
 }
 GenericEntity : "{28FD40D75A1B248D}Prefabs/Weapons/Attachments/Optics/RT6/Optic_Coll_RT6.et" {
  coords 126.07 1.305 139.455
 }
 GenericEntity : "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" {
  coords 125.948 1.094 141.57
-}
-SCR_AIGroup : "{2F436E8AF9EBEAA2}Prefabs/Groups/OPFOR/RHS_AFRF/Recon/Group_RHS_AFRF_GRU.et" {
- coords 116.998 1 126.798
-}
-SCR_ChimeraCharacter : "{3289086256B97A48}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SR_2.et" {
- coords 41.645 1 122.5
 }
 $grp Projectile : "{422EC31DDF1DE583}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG17M.et" {
  {
@@ -52,35 +17,9 @@ $grp Projectile : "{422EC31DDF1DE583}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG17M
  {
   coords 98.712 1 167.276
  }
- {
-  coords 101.215 1 168.303
- }
-}
-$grp SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Rifleman.et" {
- {
-  coords 118.066 1 123.291
- }
- {
-  coords 113.496 1 123.232
- }
 }
 GenericEntity : "{48414BA60F3B0DFA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_FA762SS.et" {
  coords 123.338 1 140.214
-}
-$grp SCR_ChimeraCharacter : "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_SL.et" {
- {
-  coords 116.778 1 123.601
- }
- {
-  coords 107.999 1 121.662
- }
-}
-GenericEntity : "{59B5FF71DBDFB29D}Prefabs/Items/Equipment/Radios/Radio_R107M_TKA.et" {
- coords 32.024 1 132.993
-}
-GenericEntity : "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" {
- coords 114.291 1.053 123.164
- angles 0 43.522 0
 }
 GameEntity : "{6461605F9A86F10C}Prefabs/Weapons/Attachments/Optics/mbs/MBS.et" {
  coords 121.896 1 141.042
@@ -88,52 +27,11 @@ GameEntity : "{6461605F9A86F10C}Prefabs/Weapons/Attachments/Optics/mbs/MBS.et" {
 GenericEntity : "{727AB5567E71B5C9}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_FA762SS_TAN.et" {
  coords 123.083 1.086 140.2
 }
-SCR_ChimeraCharacter : "{76A05D157195B968}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_MG.et" {
- coords 118.946 1 122.991
-}
-$grp GenericEntity : "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" {
- {
-  coords 114.438 1 123.216
- }
- {
-  coords 114.637 1 123.268
- }
-}
-GenericEntity : "{7AF1C4F7220066F9}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_Raid.et" {
- coords 109.661 1 121.368
-}
 GameEntity : "{7D988DAC1E88AF14}Prefabs/Weapons/Attachments/Optics/bravo4/Optic_bravo4_tan.et" {
  coords 121.598 1 140.772
 }
-SCR_ChimeraCharacter : "{7DDFCA38F96FBAC5}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_baseLoadout.et" {
- coords 34.974 1 131.886
-}
-GenericEntity : "{83C19A8FA6EFEB8E}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_GP25_PBS1.et" {
- coords 31.101 1 130.464
- angles 0 0 0
-}
-GenericEntity : "{87D1627219526B86}Prefabs/Weapons/Rifles/AKM/Rifle_AKM.et" {
- components {
-  WeaponComponent "{CFBAA4B706BA66E8}" {
-   components {
-    AttachmentSlotComponent "{633CDCF448BDB062}" {
-     AttachmentSlot InventoryStorageSlot "{633CDCF46F100AA7}" {
-      Prefab "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et"
-     }
-    }
-   }
-  }
- }
- coords 35.769 1.213 132.343
-}
-GenericEntity : "{8CA2F88AA3DC4DCE}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd_rails_1p86.et" {
- coords 115.849 1.676 123.013
-}
 GenericEntity : "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" {
  coords 123.66 1.065 140.773
-}
-GenericEntity : "{941249F520FEAC08}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Singl.et" {
- coords 31.375 1 133.196
 }
 $grp GameEntity : "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" {
  {
@@ -146,30 +44,16 @@ $grp GameEntity : "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayone
 GenericEntity : "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" {
  coords 110.888 1 121.161
 }
-SCR_ChimeraCharacter : "{9ECBC26F4235E8BA}Prefabs/Characters/Factions/INDFOR/TKR/OLD/Character_Ses_TKR_MG_2.et" {
- coords 33.605 1 131.98
-}
-$grp GenericEntity : "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" {
- {
-  coords 113.999 1 124.168
- }
- {
-  coords 114.496 1 122.977
- }
-}
 $grp Projectile : "{AA563DA818C94ABD}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG17M_fix.et" {
  {
-  coords 98.347 1 167.327
+  coords 99.982 1 166.923
  }
  {
-  coords 101.519 1 168.117
+  coords 98.347 1 167.327
  }
 }
 GenericEntity : "{AEDB186BFC0F848D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VUS30.et" {
  coords 97.483 1 166.411
-}
-GenericEntity : "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et" {
- coords 32.908 1 132.907
 }
 $grp GenericEntity : "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" {
  {
@@ -200,30 +84,6 @@ $grp GenericEntity : "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magaz
   coords 125.847 1 141.69
  }
 }
-SCR_AIGroup : "{C3CA3EFAB6B676AC}Prefabs/Groups/OPFOR/RHS_AFRF/Recon/Group_RHS_AFRF_Recon_All.et" {
- coords 116.954 1 125.432
-}
-SCR_AIGroup : "{D0253DBD996287B3}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Group_RHS_AFRF_Regular_All.et" {
- coords 139.994 1 130.997
-}
-SCR_AIGroup : "{D9730178DE0EFF27}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_All.et" {
- coords 42.109 1 120.573
- m_aUnitPrefabSlots +{
-  "{90C664A7E4E6ACB0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SR_1.et"
-  "{3289086256B97A48}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SR_2.et"
-  "{D715449B5A5CED23}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SR_3.et"
-  "{EA2161A32F306414}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SR_4.et"
- }
-}
-SCR_ChimeraCharacter : "{E07C00115C60CA1E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_SL.et" {
- coords 32.464 1 124.115
-}
 GenericEntity : "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" {
  coords 123.548 1.07 140.777
-}
-Projectile : "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" {
- coords 121.982 1.441 121.594
-}
-SCR_ChimeraCharacter : "{FC1FEACE6653B3D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_AT.et" {
- coords 120.333 1 122.617
 }
