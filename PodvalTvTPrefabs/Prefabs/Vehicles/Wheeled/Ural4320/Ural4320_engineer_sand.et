@@ -11,7 +11,7 @@ Vehicle : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer
     }
     MultiSlotConfiguration "{68B09B69EF9D9877}" {
      SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
-      Prefab "{8A89D3F70713E55B}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50.et"
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
      NumSlots 10
     }

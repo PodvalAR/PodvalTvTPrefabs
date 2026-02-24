@@ -1,0 +1,27 @@
+Vehicle : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65C30096A2B392E0}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+     }
+     NumSlots 500
+    }
+    MultiSlotConfiguration "{68B0EE0FB7D4F397}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68B0EE0FBCAC68E9}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+}
