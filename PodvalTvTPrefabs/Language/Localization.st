@@ -201,7 +201,8 @@ StringTable {
   }
   CustomStringTableItem "{68B09B6AAE223F72}" {
    Id "PDVL_Role_Engineer"
-   Modified 1756416571
+   Target_ru_ru "Инженер"
+   Modified 1756421847
    Author "Biryuk"
    LastChanged "Biryuk"
   }
@@ -771,7 +772,7 @@ StringTable {
    Target_pt_br "Esquadra de fuzileiros"
    Target_zh_cn "步枪班"
    Target_uk_ua "Стрілецьке відділення"
-   Modified 1755531806
+   Modified 1756420893
    Author "Biryuk"
    LastChanged "Biryuk"
   }
