@@ -2,7 +2,19 @@ SCR_ChimeraCharacter : "{A61A3AE5321C1239}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BC090DB2DEE8D5FB}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86.et"
+   WeaponTemplate "{1CA1579DAAFFBCA0}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86_7n14.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F357D3741B220}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{689F357D376968D8}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
   }
  }
 }

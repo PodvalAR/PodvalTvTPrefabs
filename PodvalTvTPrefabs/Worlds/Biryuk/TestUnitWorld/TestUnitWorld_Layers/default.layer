@@ -26,6 +26,9 @@ SCR_ChimeraCharacter : "{1D25ADA8774D4BD2}Prefabs/Characters/Factions/OPFOR/RHS_
 GenericEntity : "{1D5AB39E837B18FD}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_duckboard.et" {
  coords 115.984 1 43.457
 }
+GenericEntity : "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.et" {
+ coords 31.944 1 80.166
+}
 SCR_ChimeraCharacter : "{22F069A8342E35F5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_AMG_oon.et" {
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -202,8 +205,13 @@ Turret : "{4BC61518731A58DB}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151
 GenericEntity : "{4E4F86AF6010C012}Prefabs/Weapons/M110/M110_Optics.et" {
  coords 123.136 1 150.578
 }
-SCR_ChimeraCharacter : "{53B49D34137DE9BE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_AMG.et" {
- coords 11.214 1 78.572
+$grp SCR_ChimeraCharacter : "{53B49D34137DE9BE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_AMG.et" {
+ {
+  coords 11.214 1 78.572
+ }
+ {
+  coords 28.801 1 80.136
+ }
 }
 Turret : "{5A023B6C502812AF}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_optic_pas13g_.et" {
  coords 44.033 1 223.507
@@ -243,6 +251,9 @@ SCR_ChimeraCharacter : "{883577F068D2E4D6}Prefabs/Characters/Factions/OPFOR/RHS_
 }
 Vehicle APC_K17_Berezok_tan1 : "{944D59BF5EC046D6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_tan.et" {
  coords 96.742 1 168.371
+}
+SCR_ChimeraCharacter : "{A61A3AE5321C1239}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_MG.et" {
+ coords 29.734 1 79.975
 }
 Projectile : "{A871758F07494882}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_Ball_7N1.et" {
  coords 140.602 1 64.193
@@ -414,4 +425,7 @@ $grp Projectile : "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7
 }
 Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
  coords 125.665 1 62.864
+}
+SCR_ChimeraCharacter : "{FF94BA9A0A4BF4A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_MG_opt.et" {
+ coords 30.543 1 79.829
 }
