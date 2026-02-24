@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{36560F8CECEC9D81}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_AP_2.et"
+ Name "{E6C16AA42F9149B4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_AP_optic_mdo_black.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

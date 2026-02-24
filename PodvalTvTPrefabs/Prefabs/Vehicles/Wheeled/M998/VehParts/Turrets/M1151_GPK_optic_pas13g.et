@@ -43,7 +43,7 @@ Turret : "{8C68C54F9C50A9AF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mou
   }
   SCR_UniversalInventoryStorageComponent "{54C8A16E6F5ADEDE}" {
    MultiSlots {
-    MultiSlotConfiguration "{68A138DE4C23514A}" {
+    MultiSlotConfiguration "{68B09B728E52C5F5}" {
      SlotTemplate InventoryStorageSlot M2ammunition {
       Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
      }
@@ -52,9 +52,10 @@ Turret : "{8C68C54F9C50A9AF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mou
    }
   }
   TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -13.5 9
    LimitsVert -5 33
   }
-  SlotManagerComponent "{68A138DE4C23513C}" {
+  SlotManagerComponent "{68B09B728E52C5E8}" {
   }
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {

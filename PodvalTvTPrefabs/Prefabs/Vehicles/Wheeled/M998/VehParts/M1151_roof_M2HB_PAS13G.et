@@ -102,7 +102,7 @@ GenericEntity {
     }
     RegisteringComponentSlotInfo Turret {
      MergePhysics 1
-     Prefab "{5A023B6C502812AF}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_optic_pas13g.et"
+     Prefab "{4BC61518731A58DB}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_optic_pas13g.et"
      DisablePhysicsInteraction 0
      RegisterActions 1
      RegisterDamage 1
