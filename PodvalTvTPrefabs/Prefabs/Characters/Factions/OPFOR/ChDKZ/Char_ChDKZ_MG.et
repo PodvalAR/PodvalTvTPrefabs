@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDK
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+   WeaponTemplate "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -41,7 +41,7 @@ SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDK
     ItemsInitConfigurationItem "{68968E39BDC7C161}" {
      TargetStorage "Vest/Vest_SovietHarness_MG_NoPM.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
    }
