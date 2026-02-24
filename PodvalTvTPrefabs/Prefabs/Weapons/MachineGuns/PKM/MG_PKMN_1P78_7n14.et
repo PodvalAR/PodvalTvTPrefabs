@@ -1,0 +1,17 @@
+GenericEntity : "{80CBC9A8D95A8A7B}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{B502E4DC8A9E835E}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{8D4BAA235F7EDBEA}Prefabs/Weapons/Attachments/Optics/1p78/Optic_1P78.et"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+    }
+   }
+  }
+ }
+}

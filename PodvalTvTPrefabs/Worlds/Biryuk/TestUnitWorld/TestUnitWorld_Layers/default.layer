@@ -14,6 +14,15 @@ GenericEntity : "{0EA15229DF07598A}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_
 GenericEntity : "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et" {
  coords 99.041 1 168.661
 }
+GenericEntity : "{1C2249EDA114ACC2}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P29_7N14.et" {
+ coords 28.408 1.132 76.932
+}
+GenericEntity : "{1CA1579DAAFFBCA0}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86_7n14.et" {
+ coords 28.695 1.14 76.924
+}
+SCR_ChimeraCharacter : "{1D25ADA8774D4BD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Medic.et" {
+ coords 39.912 1 147.005
+}
 GenericEntity : "{1D5AB39E837B18FD}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_duckboard.et" {
  coords 115.984 1 43.457
 }
@@ -156,6 +165,9 @@ $grp Projectile : "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" 
   angles 0 90 0
  }
 }
+GenericEntity : "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" {
+ coords 29.931 1 76.323
+}
 SCR_ChimeraCharacter : "{346019D07E237195}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AT.et" {
  coords 11.784 1 78.305
 }
@@ -195,6 +207,9 @@ SCR_ChimeraCharacter : "{53B49D34137DE9BE}Prefabs/Characters/Factions/OPFOR/RHS_
 }
 Turret : "{5A023B6C502812AF}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_optic_pas13g_.et" {
  coords 44.033 1 223.507
+}
+GenericEntity : "{5F78444B006628E4}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_Eot_7n14.et" {
+ coords 27.892 1.148 76.938
 }
 $grp Turret : "{6559358B7C7AE8C0}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/TYCHA/TIGR_Tycha_DriverTurret.et" {
  {
@@ -241,6 +256,9 @@ Projectile : "{AC29AE3D5ECD6390}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_Ball
 GameEntity : "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et" {
  coords 142.204 1 118.642
 }
+GenericEntity : "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" {
+ coords 30.198 1.037 76.372
+}
 SCR_AIGroup : "{BBD03C84805699CA}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_CREW.et" {
  coords 0.258 1 80.494
  angles 0 90 0
@@ -263,6 +281,9 @@ Vehicle M1151_armed_M2HB_AP1 : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/
 }
 GenericEntity : "{D81CE8F238382A69}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_PAS13G.et" {
  coords 46.256 1 151.705
+}
+GenericEntity : "{D8C7E9449063D0BD}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P78_7n14.et" {
+ coords 28.146 1.132 76.938
 }
 GenericEntity : "{DCDA569DB590A29A}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_duckboard.et" {
  coords 118.891 1.379 45.36

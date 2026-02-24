@@ -1,0 +1,18 @@
+GenericEntity : "{5D6226C0B4631749}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5DA8E03749BFAE5C}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot rail1913 {
+      Prefab "{F727A9D4939E89EE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86-1.et"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+    }
+   }
+  }
+ }
+ coords 1180.347 51.205 1320.544
+}

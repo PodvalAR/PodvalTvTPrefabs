@@ -1,0 +1,12 @@
+GenericEntity : "{21166CD5D47825F5}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P29_7N13.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+    }
+   }
+  }
+ }
+}
