@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_HelicopterCrew"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F9199CDE3922344E}Prefabs/Characters/HeadGear/ALPHA900/Alpga900_base.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+   }
+  }
+ }
+ coords 229.335 1 38.811
+}

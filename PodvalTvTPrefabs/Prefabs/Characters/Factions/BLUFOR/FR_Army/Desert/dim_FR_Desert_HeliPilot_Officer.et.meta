@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0CEE3BFCDA0C575B}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_HeliPilot_Officer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
