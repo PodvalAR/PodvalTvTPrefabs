@@ -13,6 +13,7 @@ SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_
      Prefab "{F9199CDE3922344E}Prefabs/Characters/HeadGear/ALPHA900/Alpga900_base.et"
     }
     LoadoutSlotInfo Back {
+     Prefab ""
     }
    }
   }
