@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{1BA31F07C6E31821}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/dim_VDV_Scout_Flame.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9793E32071941967}Prefabs/Weapons/Rifles/AK200/AK200_SpecOps.et"
+  }
+ }
+ coords 6520.869 200.156 6461.795
+ angles 0 -170.829 0
+}
