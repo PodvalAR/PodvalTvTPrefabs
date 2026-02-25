@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BC3F32868941B97A}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RHS_USAF_ATAK_Regular_Squad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

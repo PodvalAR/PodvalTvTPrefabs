@@ -1,0 +1,6 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{319F0CA648C01715}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_SL_Mortor.et" "{219C105A978FC810}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_1Morter.et" "{9CAA68B4D0AFFCB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_2Mortor.et" "{E5FAE060344FEA9D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_ObserverMortor.et"
+ }
+}

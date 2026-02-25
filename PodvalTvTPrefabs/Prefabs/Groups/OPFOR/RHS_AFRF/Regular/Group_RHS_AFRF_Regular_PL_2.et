@@ -1,0 +1,6 @@
+SCR_AIGroup : "{496070641528229D}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Group_RHS_AFRF_Regular_PL.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots + {
+  "{1D25ADA8774D4BD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Medic.et"
+ }
+}
