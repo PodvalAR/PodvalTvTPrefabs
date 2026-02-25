@@ -1,0 +1,9 @@
+GameEntity : "{71BC9D5E9A8CC938}Prefabs/Items/Equipment/Patches/Patch_Sobr_Granit.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{1F2B6530B134BAA9}Assets/Items/Patchs/Patch_FRANCE_BV02_ground.xob"
+  }
+ }
+ coords 233.364 1.099 102.463
+}
