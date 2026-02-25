@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F3F212E1B249473F}Prefabs/Weapons/M16_USMC/M16_Empty.et"
+ Name "{F3F212E1B249473F}Prefabs/Weapons/Rifles/M16_USMC/M16_Empty.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

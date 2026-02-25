@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{955B65EF0E59C26D}Prefabs/Weapons/M4A1/M4A1_Ranger_SL.et"
+ Name "{955B65EF0E59C26D}Prefabs/Weapons/Rifles/M4A1/M4A1_Ranger_SL.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

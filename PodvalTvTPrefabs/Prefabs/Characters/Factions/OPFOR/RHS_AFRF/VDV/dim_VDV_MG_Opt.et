@@ -4,11 +4,11 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_MachineGunner"
-    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+    Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{57CD8C476F94E1A8}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_1p29_TF.et"
+   WeaponTemplate "{E5E6AC89265603E7}Prefabs/Weapons/MachineGuns/PKM/dim_MG_PKP_1P78_7n14.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -39,13 +39,13 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
      TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
      PrefabsToSpawn {
-      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
      TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
      PrefabsToSpawn {
-      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
@@ -63,7 +63,7 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
      TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
      PrefabsToSpawn {
-      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et" "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
@@ -78,5 +78,5 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 49.728 1 49.687
+ coords 213.513 1 141.728
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{138D71CB4D8DE80F}Prefabs/Weapon/M4A1/M4_SOCOM_HOLO.et"
+ Name "{138D71CB4D8DE80F}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_HOLO.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,4 +1,4 @@
-GenericEntity : "{6F08B1491594DCF6}Prefabs/Weapons/MachineGuns/M249/MG_M249_ACOG.et" {
+GenericEntity : "{AF0DB10F5FDBE3D6}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS3.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponSoundComponent "{5A8685198A9AEEDD}" {

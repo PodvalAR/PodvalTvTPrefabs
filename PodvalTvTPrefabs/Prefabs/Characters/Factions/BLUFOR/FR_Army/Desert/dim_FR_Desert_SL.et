@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_SL.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_VCOG.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -25,5 +28,5 @@ SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
  }
- coords 195.755 1 20.75
+ coords 227.719 1 8.672
 }

@@ -15,11 +15,11 @@ SCR_ChimeraCharacter : "{3AF597DD5B953892}Prefabs/Characters/Factions/BLUFOR/FR_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_SR"
-    Icon "{1B3DD4B2C98861CD}UI/Icons/FrenchRecon_TL.edds"
+    Icon "{1B3DD4B2C98861CD}UI/Icons/dim/FrenchRecon_TL.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{8DEA852686C12C54}Prefabs/Weapons/Weapons/M27IAR/M27_Sup_ACOG.et"
+   WeaponTemplate "{E737AE7B941C180B}Prefabs/Weapons/Rifles/M27IAR/M27_Sup_Acog.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -43,5 +43,5 @@ SCR_ChimeraCharacter : "{3AF597DD5B953892}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
  }
- coords 239.033 1 149.313
+ coords 213.175 1 15.253
 }

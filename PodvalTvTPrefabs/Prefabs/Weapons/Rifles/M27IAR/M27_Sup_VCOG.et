@@ -1,4 +1,4 @@
-GenericEntity : "{CBE97837958B8C7A}Prefabs/Weapons/M27IAR/M27_Suppresion.et" {
+GenericEntity : "{3BB52CEF1659F3C0}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_su231A.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {

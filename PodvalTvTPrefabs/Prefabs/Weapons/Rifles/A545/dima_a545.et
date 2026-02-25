@@ -1,0 +1,29 @@
+GenericEntity : "{9C3E25E19A3505F4}Prefabs/Weapons/Rifles/A545/A545.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{657AC41988934DC2}" {
+     AttachmentSlot InventoryStorageSlot UpperRIS {
+      Prefab "{F016B4DEF5F4DD5D}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-2.et"
+     }
+    }
+    AttachmentSlotComponent "{657AC419921FBB74}" {
+     AttachmentSlot InventoryStorageSlot RIS2 {
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{689B7C2FC8ED1587}" {
+       AttachmentSlot InventoryStorageSlot "{689B7C2FC2FC001E}" {
+        Prefab "{154580AD8B72A71A}Prefabs/Weapons/Attachments/Muzzle/Suppressor_A545_A762/Suppressor_A545.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 197.323 1.133 139.383
+}

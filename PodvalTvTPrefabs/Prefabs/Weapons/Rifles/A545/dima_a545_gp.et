@@ -1,0 +1,15 @@
+GenericEntity : "{317CA13E3A98130A}Prefabs/Weapons/Rifles/A545/dima_a545.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{657B18404B2A5319}" {
+     AttachmentSlot InventoryStorageSlot "{657B1840737E49E0}" {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+   }
+  }
+ }
+ coords 197.882 1 139.808
+}

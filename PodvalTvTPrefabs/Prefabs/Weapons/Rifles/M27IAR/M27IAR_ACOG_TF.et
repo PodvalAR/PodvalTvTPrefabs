@@ -12,8 +12,11 @@ GenericEntity : "{0761CE8644BBB28E}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA
       Prefab "{5C79645A168A9D69}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_2.et"
      }
     }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+    }
    }
   }
  }
- coords 7351.902 57.885 7210.738
+ coords 226.638 1.086 7.468
 }

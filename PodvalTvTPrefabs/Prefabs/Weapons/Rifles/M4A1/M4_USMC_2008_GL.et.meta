@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7A5BAA756809B73C}Prefabs/Weapons/M4A1/M4_USMC_2008_GL.et"
+ Name "{7A5BAA756809B73C}Prefabs/Weapons/Rifles/M4A1/M4_USMC_2008_GL.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

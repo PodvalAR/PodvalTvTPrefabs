@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{1BA31F07C6E31821}Prefabs/Characters/Factions/OPFOR/RHS_
     Icon "{DE9F30CD054BA54B}UI/Icons/sabateur_demolition.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{317CA13E3A98130A}Prefabs/Weapons/Rifles/A545/dima_a545.et"
+  }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Override 1
    Identity Identity "{5584CBC6363C648B}" {
@@ -44,6 +47,6 @@ SCR_ChimeraCharacter : "{1BA31F07C6E31821}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 7171.071 115.657 8340.793
+ coords 202.507 1 139.637
  angles 0 0 0
 }

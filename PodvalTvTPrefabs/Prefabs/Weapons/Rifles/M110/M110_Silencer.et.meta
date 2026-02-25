@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{706DDA59A223D469}Prefabs/Weapons/M110/M110_Silencer.et"
+ Name "{706DDA59A223D469}Prefabs/Weapons/Rifles/M110/M110_Silencer.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

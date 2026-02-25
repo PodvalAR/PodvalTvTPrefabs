@@ -1,4 +1,4 @@
-GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+GenericEntity : "{66F3C842B85E6119}Prefabs/Weapons/Rifles/SCAR_H/Rifle_SCAR_H_MREX.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponSoundComponent "{5A8685198A9AEEDD}" {

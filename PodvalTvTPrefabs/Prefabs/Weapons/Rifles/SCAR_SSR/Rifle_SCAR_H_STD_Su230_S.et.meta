@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{189DAC0BA205BA31}Prefabs/Weapons/Assault/SCAR_H/Rifle_SCAR_H_STD_Su230_S.et"
+ Name "{189DAC0BA205BA31}Prefabs/Weapons/Rifles/SCAR_SSR/Rifle_SCAR_H_STD_Su230_S.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B67B8848B54D6C96}Prefabs/Weapons/Assault/SCAR_SSR/Rifle_SCAR_SSR_TA648_S.et"
+ Name "{B67B8848B54D6C96}Prefabs/Weapons/Rifles/SCAR_SSR/Rifle_SCAR_SSR_TA648_S.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8026745EB28227B0}Prefabs/Weapons/AK200/AK200_VDV_1.et"
+ Name "{8026745EB28227B0}Prefabs/Weapons/Rifles/AK200/AK200_VDV_1.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

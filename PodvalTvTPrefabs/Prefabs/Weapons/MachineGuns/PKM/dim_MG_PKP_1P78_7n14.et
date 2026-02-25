@@ -1,0 +1,14 @@
+GenericEntity : "{57CD8C476F94E1A8}Prefabs/Weapons/MachineGuns/PKP_Pecheneg/MG_PKP_Pecheneg_1p29_TF.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+    }
+   }
+  }
+ }
+ coords 213.316 1.339 140.765
+ angles 0 0 0
+}

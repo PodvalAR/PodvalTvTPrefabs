@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_Army/dim_FR_SL.et" {
+SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_SL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_
     Name "#AR-Role_Officer"
     Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
    }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D0C293D5254270CA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_ACOG_TF.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -25,5 +28,5 @@ SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
  }
- coords 238.335 1 62.694
+ coords 234.285 1 28.01
 }

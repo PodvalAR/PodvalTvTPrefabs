@@ -1,8 +1,8 @@
-SCR_ChimeraCharacter : "{7B7F95A52C63B65A}Prefabs/Characters/Factions/OPFOR/AFRF_Winter/VDV/Role_Character_AFRF_VDV_Recon_SL_Winter.et" {
+SCR_ChimeraCharacter : "{7B7F95A52C63B65A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_SL_Winter.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{E7A435CA5491584E}Prefabs/Weapons/A545/dim_A545_ReapIR.et"
+   WeaponTemplate "{8283724E1C1751BC}Prefabs/Weapons/Rifles/A545/dima_a545_reapir.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -12,5 +12,5 @@ SCR_ChimeraCharacter : "{7B7F95A52C63B65A}Prefabs/Characters/Factions/OPFOR/AFRF
    }
   }
  }
- coords 4153.315 54.058 4464.865
+ coords 179.722 1 89.134
 }

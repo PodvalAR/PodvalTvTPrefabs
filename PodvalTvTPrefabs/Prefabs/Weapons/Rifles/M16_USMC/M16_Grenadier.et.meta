@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B7730882B5D01D3B}Prefabs/Weapons/M16_USMC/M16_Grenadier.et"
+ Name "{B7730882B5D01D3B}Prefabs/Weapons/Rifles/M16_USMC/M16_Grenadier.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

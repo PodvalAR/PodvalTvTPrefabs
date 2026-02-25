@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B5E31DC87D275AAE}Prefabs/Weapon/SCAR_SSR/SCAR_SSR_SOCOM.et"
+ Name "{B5E31DC87D275AAE}Prefabs/Weapons/Rifles/SCAR_SSR/SCAR_SSR_SOCOM.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

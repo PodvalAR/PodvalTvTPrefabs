@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{745A6ADCEBCF9FBF}Prefabs/Weapons/MachineGuns/M249/dim_M249_Suppressor.et"
+ Name "{745A6ADCEBCF9FBF}Prefabs/Weapons/Rifles/MachineGuns/M249/dim_M249_Suppressor.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

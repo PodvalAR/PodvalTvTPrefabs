@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{8FF29D9E23FC803E}Prefabs/Characters/Factions/OPFOR/RHS_
     Icon "{FAE464E236485906}UI/Icons/sabateur_v2_tl.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F5349E229B97D814}Prefabs/Weapons/Rifles/A545/dima_a545_gp.et"
+  }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Override 1
    Identity Identity "{5584CBC6363C648B}" {
@@ -44,5 +47,5 @@ SCR_ChimeraCharacter : "{8FF29D9E23FC803E}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 7158.559 115.688 8341.738
+ coords 200.817 1 139.999
 }

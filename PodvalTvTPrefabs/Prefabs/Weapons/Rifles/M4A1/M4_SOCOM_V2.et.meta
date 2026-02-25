@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E96C5F3222CA9191}Prefabs/Weapon/M4A1/M4_SOCOM_V2.et"
+ Name "{E96C5F3222CA9191}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_V2.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

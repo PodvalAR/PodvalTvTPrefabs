@@ -1,4 +1,4 @@
-GenericEntity : "{929C9FBE68DF78AE}Prefabs/Weapons/M4A1/M4A1_Ranger_TL.et" {
+GenericEntity : "{280F88B3EF1A8D06}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_Black_Com.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
