@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A4774E5470E}" {
+  }
+ }
+ coords 6933.108 120.103 5617.338
+ angles 0 166.824 0
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+  "{97DF6B8543BD4184}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_TL_D.et" "{4EBC70331E237A75}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Assist_TL_D.et" "{5A4DDB19B271DC8A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Rifleman_2_D.et" "{12D38DBEA3CF05C1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Rifleman_D.et" "{D250402DBDBC3B63}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Sapper_D.et" "{45221E0019F7FA2A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Marksman_D.et"
+ }
+ m_sCustomNameSet "Force Recon"
+}

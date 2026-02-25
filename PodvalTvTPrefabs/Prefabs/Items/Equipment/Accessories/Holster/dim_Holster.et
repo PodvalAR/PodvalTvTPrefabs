@@ -1,0 +1,84 @@
+GenericEntity : "{2149560A9BEFBAC2}Prefabs/Items/Core/Equip_Accessory_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  BaseSlotComponent "{68B10369FD0CBFAD}" {
+   Enabled 0
+   EntityPrefab "{2EBF60EF24B108FD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Ball.et"
+  }
+  FactionAffiliationComponent "{68B10369FD0CBF9E}" {
+   "faction affiliation" "FR"
+  }
+  MeshObject "{521AC04910AB9941}" {
+   Object "{786710A78F0FA9F8}Assets/Characters/Vests/SMB/Items/Holster.xob"
+  }
+  RigidBody "{521AC04910AB9947}" {
+   ModelGeometry 0
+  }
+  SCR_EquipmentStorageComponent "{68B10369FD0CBF9D}" {
+   Attributes SCR_ItemAttributeCollection "{68B10369FD0CBF9B}" {
+    ItemDisplayName UIInfo "{68B10369FD0CBF99}" {
+     Name "Holster"
+     Description "Holster"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B10369FD0CBF94}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+      ShowAllChildrens 1
+     }
+    }
+    CommonItemType "AMF_POUCHES"
+    m_Size SLOT_1x1
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 200
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot SlotChargueur01 {
+     Offset 0.0017 0.1381 -0.0197
+     Angles -90 0 0
+     Prefab "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+     AllowedItemTypes {
+      "AMF_PISTOL"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{68B10369FD0CBF8F}" {
+   Attributes SCR_ItemAttributeCollection "{68B10369FD0CBF8D}" {
+    ItemDisplayName UIInfo "{68B10369FD0CBF8A}" {
+     Name "Holster"
+     Description "Holster"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68B10369FD0CBF88}" {
+     Weight 0.35
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B10369FD0CBF86}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+      ShowAllChildrens 1
+     }
+    }
+    CommonItemType "FLASHLIGHT"
+    m_Size SLOT_1x1
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 150
+   MaxItemSize 10 10 10
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{786710A78F0FA9F8}Assets/Characters/Vests/SMB/Items/Holster.xob"
+   ItemModel "{786710A78F0FA9F8}Assets/Characters/Vests/SMB/Items/Holster.xob"
+  }
+ }
+ coords 240.259 1 88.864
+}

@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{59AD12E2838C02FF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_Rfl_2_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0429 -0.4624 -0.1017
+    Angles 85.8048 90.6033 -90
+   }
+   WeaponTemplate "{B9CF147B82EA2CF0}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_ru.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{684866B26F61191C}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 25.608 1 65.701
+}

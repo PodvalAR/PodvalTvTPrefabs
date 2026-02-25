@@ -1,0 +1,112 @@
+GenericEntity : "{2149560A9BEFBAC2}Prefabs/Items/Core/Equip_Accessory_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  BaseSlotComponent "{68B10096D252BD6F}" {
+   Enabled 0
+   EntityPrefab "{40DDA411EE07B149}Prefabs/Weapons/Magazines/SCARH/Magazine_762x51_SCARH_20rnd_Base.et"
+  }
+  FactionAffiliationComponent "{68B10096D252BD62}" {
+   "faction affiliation" "FR"
+  }
+  MeshObject "{521AC04910AB9941}" {
+   Object "{7B32E66CFE686005}Assets/Characters/Vests/SMB/Pouch/Pouch_MagScarH_double.xob"
+  }
+  RigidBody "{521AC04910AB9947}" {
+   ModelGeometry 0
+  }
+  SCR_EquipmentStorageComponent "{68B10096D252BD61}" {
+   Attributes SCR_ItemAttributeCollection "{68B10096D252BD5A}" {
+    ItemDisplayName UIInfo "{68B10096D252BD5B}" {
+     Name "Poche Chargueur Double SCARH-PR"
+     Description "Poche Chargueur Double SCARH-PR"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B10096D252BD56}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+      ShowAllChildrens 1
+     }
+    }
+    CommonItemType "AMF_POUCHES"
+    m_Size SLOT_1x1
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 1
+   MaxCumulativeVolume 400
+   UseVirtualInventoryReplication 0
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot SlotChargueur01 {
+     Offset 0.0128 0.0014 0.0392
+     Angles 0.3455 -90 -180
+     Prefab "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     AllowedItemTypes {
+      "AMF_MAGAZINE762"
+     }
+    }
+    SCR_EquipmentStorageSlot SlotChargueur02 {
+     Offset 0.0106 -0.0003 0.0161
+     Angles 2.5 -90 180
+     Prefab "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+     AllowedItemTypes {
+      "AMF_MAGAZINE762"
+     }
+    }
+    SCR_EquipmentStorageSlot Slot01 {
+     Offset 0 0 0.0567
+     AllowedItemTypes {
+      "AMF_POUCHES"
+     }
+    }
+    SCR_EquipmentStorageSlot Slot02 {
+     Offset 0.0199 0 0.0517
+     AllowedItemTypes {
+      "AMF_ACCESS"
+     }
+    }
+    SCR_EquipmentStorageSlot Slot03 {
+     Offset -0.0201 0 0.0517
+     AllowedItemTypes {
+      "AMF_ACCESS"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{68B10096D252BD4E}" {
+   Attributes SCR_ItemAttributeCollection "{68B10096D252BD4F}" {
+    ItemDisplayName UIInfo "{68B10096D252BD4C}" {
+     Name "Poche Chargueur Double"
+     Description "Poche Chargueur Double"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68B10096D252BD4A}" {
+     Weight 0.35
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 600
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B10096D252BD4B}" {
+      CameraPreset Top
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+      PreviewWornModel 1
+      ShowAllChildrens 1
+     }
+    }
+    CommonItemType "FLASHLIGHT"
+    m_Size SLOT_1x1
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 200
+   MaxItemSize 10 10 10
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{7B32E66CFE686005}Assets/Characters/Vests/SMB/Pouch/Pouch_MagScarH_double.xob"
+   ItemModel "{7B32E66CFE686005}Assets/Characters/Vests/SMB/Pouch/Pouch_MagScarH_double.xob"
+  }
+ }
+ coords 236.715 1.17 68.362
+}

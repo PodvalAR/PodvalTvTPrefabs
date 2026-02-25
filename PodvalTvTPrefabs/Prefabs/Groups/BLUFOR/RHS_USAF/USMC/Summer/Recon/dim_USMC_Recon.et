@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A4381220E55}" {
+  }
+ }
+ coords 4084.879 215.417 7590.059
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+  "{33B313818C46457C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_TL.et" "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_Assist_TL.et" "{E041F94507C9B7B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman_2.et" "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et" "{04446BD59A4B351C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Sapper.et" "{390A12C024B010E5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Marksman.et"
+ }
+ m_sCustomNameSet "Force Recon"
+}

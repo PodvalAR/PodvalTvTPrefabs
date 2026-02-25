@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A4774E5470E}" {
+  }
+ }
+ coords 5330.524 250.531 3377.953
+ angles 0 133.141 0
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{E3BA31640CD7F87F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Pilot.et" "{E3BA31640CD7F87F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Pilot.et"
+ }
+ m_sCustomNameSet "ION Heli crew"
+}

@@ -1,0 +1,27 @@
+GenericEntity : "{B95BD66EA8F863C9}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_EquipmentStorageComponent "{56C48B5965A39F45}" {
+   Attributes SCR_ItemAttributeCollection "{6216EDCA4339FB24}" {
+    ItemDisplayName UIInfo "{6216EDCA4339FB2D}" {
+     Name "SMB MG Vest"
+     Description ""
+    }
+   }
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Slot01 {
+     Prefab ""
+    }
+    SCR_EquipmentStorageSlot Slot02 {
+     Prefab "{B65BF19DF5FC7657}Prefabs/Items/Equipment/Accessories/Pouch_Minimi/dim_Pouch_Minimi_SMB.et"
+    }
+    SCR_EquipmentStorageSlot Slot03 {
+     Prefab ""
+    }
+    SCR_EquipmentStorageSlot Slot04 {
+    }
+   }
+  }
+ }
+ coords 4799.271 309.462 5873.392
+}

@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{20C69D98851FDEA1}Prefabs/Characters/Uniforms/F3_Ubas/F3_Ubas_DA_Patch_FRANCE_BV01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{F277891AB79F482D}Prefabs/Characters/Uniforms/F3_Pantalon/F3_Pantalon_DA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B0DD431891FC70}" {
+     TargetStorage "Pants/F3_Pantalon_DA.et"
+    }
+    ItemsInitConfigurationItem "{68B0DD4318E8B310}" {
+     Enabled 0
+     TargetStorage "Pants/F3_Pantalon_DA.et"
+    }
+    ItemsInitConfigurationItem "{68B0DD4318C59FBA}" {
+     TargetStorage "Jacket/F3_Ubas_DA_Patch_FRANCE_BV01.et"
+    }
+   }
+  }
+ }
+ coords 231.058 1 29.061
+}

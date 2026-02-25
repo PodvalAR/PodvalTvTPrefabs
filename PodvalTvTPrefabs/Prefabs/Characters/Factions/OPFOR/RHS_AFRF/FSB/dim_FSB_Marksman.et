@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/dim_FSB_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{63C09CB43EAC6E1A}UI/Icons/FSB_Sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{565EBE59164E74F3}Prefabs/Weapons/Rifles/VSS/Rifle_VSS_Base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D822C2011AD5B239}Prefabs/Characters/HeadGear/Thor_FSB/GD_Cap_FSB.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/RUS_Bars_Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D6652E45A8A86491}Prefabs/Characters/Vests/Vest_TV119/Vest_TV119_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4B358F3E7963A716}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A9476E0C01136ED5}Prefabs/Characters/Vests/Vest_TV119/variants/Vest_TV119_mp105_OD.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68AEDB5590B6AF3A}" {
+     TargetStorage "Pants/Pants_CCUE_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB559092C98F}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB5590E98623}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB540D56CF42}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD.et/mp105_1/Pouch_wartech_magpouch_mp105_3_OD.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB54330DA575}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD.et/mp105_2/Pouch_wartech_magpouch_mp105_2_OD.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB543C88DE85}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD.et/mp105_3/Pouch_wartech_magpouch_mp105_OD.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB543C7E4649}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD.et/pistol2/Pouch_wartech_magpouch_mp117_od_2.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544061DD4F}" {
+     TargetStorage "Vest/Vest_TV119_mp105_OD.et/rgd1/Pouch_wartech_magpouch_mp117_od_3.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544AB77647}" {
+     TargetStorage "Pants/Pants_CCUE_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB54525AC443}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB545ED63B70}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68AF141C4C1D61CC}" {
+     TargetStorage "Pants/Pants_CCUE_CoyoteBrown.et"
+    }
+   }
+  }
+ }
+ coords 5288.545 9.558 9116.87
+}

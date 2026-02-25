@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/dim_FSB_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{8B916C6BFC3E7658}UI/Icons/FSB_Alpha_TL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{60528AC1EFB34750}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_XPS_m300.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F4084669CD8D86DD}Prefabs/Characters/HeadGear/Helmet_TOR/variants/Helmet_TOR_small_peltor_black_SOBR.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B776438826A2A82F}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4ACFEED9E8150846}Prefabs/Characters/Vests/Vest_Bagari/Variants/Vest_Bagari_arsarmadouble_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68AEDB5590B6AF3A}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB559092C98F}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB5590E98623}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+     PrefabsToSpawn {
+      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB540D56CF42}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/slot/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB54330DA575}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/slot2/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB543C88DE85}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/slot3/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544AB77647}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/holster/Pouch_Taktika_holster_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB54525AC443}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/pistol/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB545ED63B70}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/pistol2/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AF141C4C1D61CC}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+   }
+  }
+ }
+ coords 5286.752 9.729 9110.587
+}

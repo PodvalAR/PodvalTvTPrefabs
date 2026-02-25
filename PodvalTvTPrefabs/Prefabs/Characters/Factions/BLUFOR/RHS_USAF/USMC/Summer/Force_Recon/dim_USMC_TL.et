@@ -1,0 +1,90 @@
+SCR_ChimeraCharacter : "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_Assist_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{E87F2DEA658EED74}Prefabs/Items/Equipment/Watches/Watch_GarminForetrex.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Командир группы"
+    Icon "{480F9EE18B7CE141}UI/Icons/ForceRecon.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{815B9B15D00A2731}Prefabs/Weapons/Weapons/M27IAR/M27_Sup_VCOG.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{473E20387338226D}Prefabs/Characters/Heads/Head_White_04/Head_White_04_camo_US_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{8DCD718658B14B55}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{68934730DDC9D76B}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68934730EC96E78A}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/triple/Pouch_Blueforce_Tri.et"
+     PrefabsToSpawn + {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68934730F0F39227}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/Mag/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68934730FD287580}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up103/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{689347332B12FF35}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{6893473303960BA9}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster3/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{689347330D500C12}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{689347330A94E8FF}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/pistol/Pouch_HP103_Holster_Coyout.et"
+    }
+    ItemsInitConfigurationItem "{689347331C18C584}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/holster/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{689347334C694702}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF.et/up104/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+   }
+  }
+ }
+ coords 24.35 1 55.361
+}

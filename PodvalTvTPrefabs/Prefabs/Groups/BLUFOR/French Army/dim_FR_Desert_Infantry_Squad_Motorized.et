@@ -1,0 +1,7 @@
+SCR_AIGroup : "{D65D7A651C768707}Prefabs/Groups/BLUFOR/French Army/dim_FR_Infantry_Squad_Motorized.et" {
+ ID "0000000000000001"
+ coords 229.1 1 17.462
+ m_aUnitPrefabSlots {
+  "{1CCFBDE90DDE0E23}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_SL.et" "{18DB6C83A1BF0CAC}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_Marksman.et" "{1B0847B86B58B4E0}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_TL.et" "{49C0882ED4F40FC9}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_Light_AT.et" "{49C0882ED4F40FC9}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_Light_AT.et" "{1B0847B86B58B4E0}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_TL.et" "{235092EC5115B8D3}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_MG.et" "{7C9232D7C8EDC51A}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_GL.et" "{84EF5817E2FD7A65}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_Crew.et" "{84EF5817E2FD7A65}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_Crew.et"
+ }
+}

@@ -1,0 +1,35 @@
+GenericEntity : "{22EF18E97B54632D}Prefabs/Items/Equipment/Accessories/Pouch_9mm/Pouch_9mm_TAN_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+   Materials {
+    MaterialAssignClass "{68B1036E26ED62BA}" {
+     SourceMaterial "Pouch_mag9mm"
+     AssignedMaterial "{9D4C99802792E00F}Assets/Items/Pouch/Pouch_9mm/Data/dim_Pouch_mag9mm_Brown.emat"
+    }
+   }
+  }
+  SCR_EquipmentStorageComponent "{65FEE789D01B0CEB}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot SlotChargueur01 {
+     Offset -0.0298 0.0777 0.0162
+     Prefab "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+    }
+    SCR_EquipmentStorageSlot SlotChargueur02 {
+     Offset 0.0274 0.0777 0.0189
+     Prefab "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornMaterialsOverride {
+    "{9D4C99802792E00F}Assets/Items/Pouch/Pouch_9mm/Data/dim_Pouch_mag9mm_Brown.emat"
+   }
+   ItemMaterialsOverride {
+    "{9D4C99802792E00F}Assets/Items/Pouch/Pouch_9mm/Data/dim_Pouch_mag9mm_Brown.emat"
+   }
+  }
+ }
+ coords 239.525 1.27 88.857
+ angles 0 -97.347 0
+}

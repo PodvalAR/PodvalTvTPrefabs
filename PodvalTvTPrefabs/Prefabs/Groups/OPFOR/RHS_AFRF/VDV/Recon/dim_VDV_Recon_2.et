@@ -1,0 +1,18 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A4378FC6401}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 6221.595 205.069 8836.895
+ angles 0 -143.763 0
+ m_faction "RHS_AFRF"
+ m_aUnitPrefabSlots {
+  "{B0352DED7C922D46}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_SL_Goblin.et" "{F7ACBE5E8FD7E6F3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_SR_Goblin.et" "{59154B82242F9575}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_MG_Goblin.et" "{B93672749A2623AD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_Rifleman_Goblin.et" "{7B401E039F20A62B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_Flame_Goblin.et" "{870A212A64167BED}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_VSS_Goblin.et"
+ }
+ m_sCustomNameSet "ДРГ"
+}

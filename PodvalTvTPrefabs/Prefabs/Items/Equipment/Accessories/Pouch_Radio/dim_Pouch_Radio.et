@@ -1,0 +1,74 @@
+GenericEntity : "{64A970D059436047}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  BaseSlotComponent "{5526E8FB6EB9F3E1}" {
+   AttachType EntitySlotInfo Bayonet {
+    Offset 0 -0.062 0.0438
+    Angles -90 0 -90
+    Prefab "{558117556F3880A8}Prefabs/Weapons/Attachments/Bayonets/Bayonet_M9.et"
+    DeactivatePhysicsOnAtaching 1
+   }
+  }
+  FactionAffiliationComponent "{68B1444B493FBF91}" {
+   "faction affiliation" "FR"
+  }
+  MeshObject "{521AC04910AB9941}" {
+   Object "{915E48B6C4F20083}Assets/Characters/Vests/SMB/Pouch/Pouch_Radio.xob"
+  }
+  RigidBody "{521AC04910AB9947}" {
+   ModelGeometry 0
+  }
+  SCR_EquipmentStorageComponent "{5526DABF40B24F9D}" {
+   Attributes SCR_ItemAttributeCollection "{68B1444B493FBE0D}" {
+    ItemDisplayName UIInfo "{68B1444B493FBE08}" {
+     Name "Poche Radio SMB"
+     Description "Poche Radio SMB"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68B1444B493FBE06}" {
+     Weight 0.4
+     SizeSetupStrategy Manual
+     ItemDimensions 2 2 2
+     ItemVolume 550
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B1444B493FBE05}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+     }
+    }
+    CommonItemType "AMF_POUCHES"
+    m_bStackable 0
+   }
+   StoragePurpose 0x41 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 500
+   MaxItemSize 10 10 10
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot BayonetSlot {
+     Offset 0 0 0
+     Angles 0 0 0
+     Enabled 0
+     Prefab ""
+     ActivatePhysicsOnDetaching 0
+     AllowedItemTypes {
+     }
+    }
+    SCR_EquipmentStorageSlot Radio {
+     Offset -0.0228 0.003 0.0352
+     Angles -0.0464 -179.91441 -10.3251
+     Prefab "{CBE324194DAF11E5}Prefabs/Items/Equipment/Radios/Radio_ER328_FR_Multi.et"
+     ActivatePhysicsOnDetaching 1
+     AllowedItemTypes {
+      "AMF_RADIO"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{915E48B6C4F20083}Assets/Characters/Vests/SMB/Pouch/Pouch_Radio.xob"
+   ItemModel "{915E48B6C4F20083}Assets/Characters/Vests/SMB/Pouch/Pouch_Radio.xob"
+  }
+ }
+ coords 240.118 1 60.67
+}

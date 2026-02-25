@@ -1,0 +1,23 @@
+GenericEntity : "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "OuiOuiBaguette"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      PreviewModel "{E0D6418C7E0D7318}Assets/Characters/Backpack/Tecpack45L/tecpack45L_Radio.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{E0D6418C7E0D7318}Assets/Characters/Backpack/Tecpack45L/tecpack45L_Radio.xob"
+   ItemModel "{1BC6A66D96D5EB8B}Assets/Characters/Backpack/Tecpack45L/tecpack45L_Radio_Item.xob"
+   DeflatedModel "{1B522A2E968C969B}Assets/Characters/Backpack/Tecpack45L/tecpack45L_Radio_Inflated.xob"
+  }
+ }
+ coords 4760.099 310.656 5875.787
+}

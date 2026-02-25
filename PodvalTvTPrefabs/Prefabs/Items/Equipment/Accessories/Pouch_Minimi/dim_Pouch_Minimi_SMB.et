@@ -1,0 +1,85 @@
+GenericEntity : "{2149560A9BEFBAC2}Prefabs/Items/Core/Equip_Accessory_base.et" {
+ ID "521AC0491712FB3A"
+ components {
+  MeshObject "{521AC04910AB9941}" {
+   Object "{A4109A742295ACBE}Assets/Characters/Vests/SMB/Pouch/Pouch_Minimi.xob"
+  }
+  RigidBody "{521AC04910AB9947}" {
+   ModelGeometry 0
+  }
+  SCR_EquipmentStorageComponent "{68B1654241FFB07D}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{68B1654241FFB0EE}" {
+    ItemDisplayName UIInfo "{68B1654241FFB0EA}" {
+     Name "Poche Minimi"
+     Description "Poche Minimi"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B1654241FFB0E9}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+      AspectRatio 1
+      IsDynamicObject 0
+      ShowAllChildrens 1
+      TakeVisibilityIntoAccount 1
+     }
+    }
+    CommonItemType "AMF_POUCHES"
+    m_bStackable 0
+   }
+   StoragePurpose 0x1 0
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 1500
+  }
+  SCR_UniversalInventoryStorageComponent "{68B1654241FFB0E2}" {
+   Attributes SCR_ItemAttributeCollection "{68B1654241FFB0E0}" {
+    ItemDisplayName UIInfo "{68B1654241FFB0DE}" {
+     Name "Poche Minimi SMB"
+     Description "Poche Minimi SMB"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68B1654241FFB0DD}" {
+     Weight 0.35
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 1500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68B1654241FFB0D8}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      FOV 10
+      ShowAllChildrens 0
+     }
+    }
+    CommonItemType "AMF_POUCHES"
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 1400
+   MaxItemSize 15 15 15
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Chargeur01 {
+     Prefab "{E8E9972833CB4203}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_Ball.et"
+     AllowedItemTypes {
+      "MG_AMMO"
+     }
+    }
+    SCR_EquipmentStorageSlot Chargeur02 {
+     Enabled 0
+     Prefab "{E8E9972833CB4203}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_Ball.et"
+     AllowedItemTypes {
+      "MG_AMMO"
+     }
+    }
+   }
+   m_fMaxWeight 5
+  }
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
+   WornModel "{A4109A742295ACBE}Assets/Characters/Vests/SMB/Pouch/Pouch_Minimi.xob"
+   ItemModel "{A4109A742295ACBE}Assets/Characters/Vests/SMB/Pouch/Pouch_Minimi.xob"
+  }
+ }
+ coords 4799.899 309.531 5873.667
+}

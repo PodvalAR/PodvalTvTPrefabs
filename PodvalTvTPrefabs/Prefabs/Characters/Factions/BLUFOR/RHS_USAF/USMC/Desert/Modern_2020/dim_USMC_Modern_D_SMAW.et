@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{44556840603D069B}Prefabs/Weapons/Weapons/M27IAR/M27IAR_Rfl.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{DB53366D8C521124}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2_NoMBS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Offset 0 0 -0.039
+     Prefab "{35E0AB60AEEED4E3}Prefabs/Items/Equipment/Backpacks/Filbe_USMC_Backpack/Filbe_Backpack_base.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689534BDA83AB745}" {
+     TargetStorage "Back/Filbe_Backpack_base.et"
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 81.06 1 33.011
+}

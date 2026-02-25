@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A4378FC6401}" {
+  }
+ }
+ coords 3249.253 232.834 8304.204
+ angles 0 165 0
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+  "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_Officer.et"
+ }
+ m_sCustomNameSet "Командир США"
+}

@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{4E431B11CAB778D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_PL"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{44556840603D069B}Prefabs/Weapons/Weapons/M27IAR/M27IAR_Rfl.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{EAF055495BA85CA1}Prefabs/Characters/Heads/Head_White_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F0FA288C61231649}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_LWH_USMC_Shroud_BWinter.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6893473AFEAD8B69}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 51.862 1 38.249
+}

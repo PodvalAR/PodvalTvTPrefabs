@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Стрелок ION"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BF464F29663EBDD5}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{13A76CA95749F75D}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Shirt_Red.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{91D84F0E37E17441}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_Black_Dirty.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/ION_Shirt_Red.et"
+     PrefabsToSpawn + {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     PrefabsToSpawn + {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68A36ADD57FC10FD}" {
+     TargetStorage "Vest/GD_LV119_ION_V1.et/Pouch/GD_LV119_Pouch_CCSS_RHS_Black.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 18.571 1 73.829
+}

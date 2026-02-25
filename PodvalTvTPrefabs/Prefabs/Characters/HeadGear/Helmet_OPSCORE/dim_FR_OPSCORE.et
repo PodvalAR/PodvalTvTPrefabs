@@ -1,0 +1,13 @@
+GameEntity : "{4F458AB270330E54}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_XP_BASE.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Ears {
+     Prefab "{1BD5B11497CFCA85}Prefabs/Characters/EarsGear/ELNO_IH_295.et"
+    }
+   }
+  }
+ }
+ coords 229.447 1 100.236
+}

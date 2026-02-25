@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/dim_FSB_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{166733E556C3B063}Prefabs/Characters/HeadGear/Thor_FSB/GD_Cap_FSB_3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{52AB6EC3FE535303}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Brown_V1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E65D5C9848AC18E9}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_brown_V1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{035BA1DCD911D216}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_black_AK.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68AEDB5590B6AF3A}" {
+     TargetStorage "Pants/Pants_Suit_01_brown_V1.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB559092C98F}" {
+     TargetStorage "Jacket/Jacket_Suit_01_Brown_V1.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB5590E98623}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB540D56CF42}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch1/Pouch_Taktika_magpouch_morphed_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB54330DA575}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch2/Pouch_Taktika_magpouch_morphed_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB543C88DE85}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch3/Pouch_Taktika_magpouch_morphed_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB543C7E4649}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch4/Pouch_Taktika_magpouch_open_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB544061DD4F}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouchvest/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544E16853D}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouchvest2/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544AB77647}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/holster/Pouch_Taktika_holster_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB54525AC443}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pistol1/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB545ED63B70}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pistol2/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+    ItemsInitConfigurationItem "{68AF141C4C1D61CC}" {
+     TargetStorage "Pants/Pants_Suit_01_brown_V1.et"
+    }
+   }
+  }
+ }
+ coords 5286.623 9.733 9110.503
+}

@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A477D63A783}" {
+  }
+ }
+ coords 5324.095 250.531 3364.483
+ angles 0 -44.221 0
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{93FDA136D2E298D0}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SL_4.et" "{A8288D670C2B80B3}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_TL.et" "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Rifleman_3.et" "{3AFDE830D2BEDE8F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Rifleman_4.et" "{2B951DA165375A8B}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_M72.et" "{E5D286AD0454E484}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Sapper_2.et" "{A536AFA035B4146D}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Medic.et" "{B5A4124F110F3F38}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Marksman_2.et"
+ }
+ m_sCustomNameSet "ION STK"
+}

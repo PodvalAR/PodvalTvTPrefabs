@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A6598BECDF8}" {
+  }
+ }
+ coords 230.487 1 43.728
+ m_faction "FR"
+ m_aUnitPrefabSlots {
+  "{41DA0BB3D44FF521}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Officer.et"
+ }
+ m_sCustomNameSet "Commandant de compagnie"
+}

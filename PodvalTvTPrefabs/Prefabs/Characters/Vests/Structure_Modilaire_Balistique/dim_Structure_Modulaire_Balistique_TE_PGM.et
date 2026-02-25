@@ -1,0 +1,40 @@
+GenericEntity : "{B95BD66EA8F863C9}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  SCR_EquipmentStorageComponent "{56C48B5965A39F45}" {
+   Attributes SCR_ItemAttributeCollection "{6216EDCA4339FB24}" {
+    ItemDisplayName UIInfo "{6216EDCA4339FB2D}" {
+     Name "SMB Marksman Vest"
+     Description ""
+    }
+   }
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Slot01 {
+     Enabled 0
+    }
+    SCR_EquipmentStorageSlot Slot02 {
+     Enabled 0
+    }
+    SCR_EquipmentStorageSlot Slot03 {
+     Enabled 0
+    }
+    SCR_EquipmentStorageSlot Slot07 {
+     Enabled 0
+    }
+    SCR_EquipmentStorageSlot Slot08 {
+     Prefab "{9E1528087D5C3434}Prefabs/Items/Equipment/Accessories/Pouch_Field/Pouch_Field.et"
+    }
+    SCR_EquipmentStorageSlot Slot09 {
+     Enabled 0
+    }
+    SCR_EquipmentStorageSlot Slot10 {
+     Enabled 0
+    }
+    SCR_EquipmentStorageSlot Slot11 {
+     Prefab "{9E1528087D5C3434}Prefabs/Items/Equipment/Accessories/Pouch_Field/Pouch_Field.et"
+    }
+   }
+  }
+ }
+ coords 236.794 1 64.357
+}

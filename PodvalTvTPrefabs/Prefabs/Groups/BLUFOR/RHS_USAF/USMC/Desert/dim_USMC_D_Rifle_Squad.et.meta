@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3298D6DA95D73EAD}Prefabs/Groups/BLUFOR/RHS_USAF/USMC/Desert/dim_USMC_D_Rifle_Squad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

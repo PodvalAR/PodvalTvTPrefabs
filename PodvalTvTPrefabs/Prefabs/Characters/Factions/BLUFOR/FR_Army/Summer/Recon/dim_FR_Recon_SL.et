@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{24B163364DD22542}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/Recon/dim_FR_Recon_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{B3A16FBED09B5F6E}Prefabs/Items/Equipment/Binoculars/OB72_Sophie/OB72_Sophie.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+    Icon "{C9BBE4B450FFC5CF}UI/Icons/FrenchRecon_SL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{815B9B15D00A2731}Prefabs/Weapons/Weapons/M27IAR/M27_Sup_VCOG.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{51636CA07EC51127}Prefabs/Characters/Heads/Head_White_03/Head_White_03_camo_US_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{9F41BC72D56A380F}Prefabs/Items/Equipment/Radios/Radio_Tecpack45L_FR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B17A694A9BD119}" {
+     TargetStorage "Jacket/GD_Crye3_CCE.et"
+    }
+   }
+  }
+ }
+ coords 217.394 1 19.181
+}

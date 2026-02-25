@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.361 0.278 0.215 1
+ SpecularMul 2.21
+ RoughnessScale 1.815
+ BCRMap "{1480CE4C8629B300}Assets/Items/Pouch/Pouch_9mm/Data/Textures/Pouch_mag9mm_RG_BCR.edds"
+ NMOMap "{21FB66A9B44A68E0}Assets/Items/Pouch/Pouch_9mm/Data/Textures/Pouch_mag9mm_NMO.edds"
+}

@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{B73805E442B03186}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Снайпер ION"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BF464F29663EBDD5}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{228DBC831D3EDD65}Prefabs/Characters/Uniforms/Shirt_flannel/flannel_shirt_blue_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{91D84F0E37E17441}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_Black_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Pants/GD_Pants_Trousers_01_Black_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{68A32376040F96DF}" {
+     TargetStorage "Vest/GD_ION_Mark_ShawARC.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+   }
+  }
+ }
+ coords 23.387 1 73.541
+}

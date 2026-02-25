@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68B17A4774E5470E}" {
+  }
+ }
+ coords 8387.199 113.383 7043.626
+ angles 0 88.117 0
+ m_faction "RHS_USAF"
+ m_aUnitPrefabSlots {
+  "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et" "{77DDB3A4441099F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_1.et" "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et" "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et" "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman.et" "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et" "{AB4C01E03A6DB224}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_MG.et" "{F48EA1DBA395CFED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_GL.et" "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Rifleman_2.et"
+ }
+ m_sCustomNameSet "Отряд USMC"
+}
