@@ -33,11 +33,18 @@ GenericEntity : "{0570CF5F094A554F}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_
 Projectile : "{05EA370CE87C6C80}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_AP_7N13.et" {
  coords 140.734 1 64.143
 }
+$grp GenericEntity : "{07980FD6DC72C97F}Prefabs/Weapons/Rifles/A545/drg_A545_base.et" {
+ {
+  coords 83.03 1 86.476
+  angles 0 0 0
+ }
+ {
+  coords 84.077 1 86.216
+  angles 0 0 0
+ }
+}
 GenericEntity : "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" {
  coords 46.393 1 72.771
-}
-Vehicle _Series_LWB_Transport_Camo1 : "{098E31B006CAE0CE}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport_Camo.et" {
- coords 118.418 1 77.381
 }
 GenericEntity : "{0EA15229DF07598A}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Tan_MBO.et" {
  coords 44.121 1 230.323
@@ -90,9 +97,6 @@ $grp TracerProjectile : "{279B4FEECCA799BD}Prefabs/Weapons/Ammo/SmallArms/Ammo_7
  {
   coords 142.776 1 66.259
  }
-}
-GenericEntity : "{299EC180610FFF38}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Door_L.et" {
- coords 111.468 1 72.373
 }
 Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
  components {
@@ -290,9 +294,6 @@ SCR_ChimeraCharacter : "{4B57FBCFFF7FFD76}Prefabs/Characters/Factions/OPFOR/TKA/
 Turret : "{4BC61518731A58DB}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_optic_pas13g.et" {
  coords 35.426 1 151.338
 }
-GenericEntity : "{4F76A47BFCAC2442}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Tray_SWB.et" {
- coords 108.454 1 72.937
-}
 SCR_ChimeraCharacter : "{513B2D49E3C96D33}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Engineer.et" {
  coords 44.821 1 84.805
 }
@@ -303,9 +304,6 @@ $grp SCR_ChimeraCharacter : "{53B49D34137DE9BE}Prefabs/Characters/Factions/OPFOR
  {
   coords 28.801 1 80.136
  }
-}
-GenericEntity : "{54862D78049CC3A1}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Door_R.et" {
- coords 109.85 1 71.57
 }
 SCR_AIGroup : "{5C695BAED40CF3A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Enginer.et" {
  coords 41.043 1 81.962
@@ -339,6 +337,9 @@ Vehicle Ural4320_engineer1 : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural432
 Vehicle Ural4320_engineer_sand1 : "{7009ED8FBA7A1E7E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_sand.et" {
  coords 41.649 1 69.812
 }
+GenericEntity : "{77A96CF0A56DD595}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_SUSAT.et" {
+ coords 80.142 1 86.058
+}
 GenericEntity : "{79C438B82CF2C769}Prefabs/Structures/Industrial/Houses/FactoryHallWIP_01/BlockPile_01.et" {
  coords 255.006 1 76.957
  angles 0 90 0
@@ -351,12 +352,25 @@ $grp SCR_ChimeraCharacter : "{7A65CD6DBF13C08B}Prefabs/Characters/Factions/OPFOR
   coords 19.209 1 82.334
  }
 }
+GenericEntity : "{7B416C2A2D3A265F}Prefabs/Weapons/Rifles/L85/A1/SPN/Rifle_L85A2_SD.et" {
+ coords 81.877 1.098 86.168
+ angles 0 0 0
+}
+SCR_AIGroup : "{7FA436D25237BCFF}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_All.et" {
+ coords 77.095 1 83.128
+}
+GenericEntity : "{8026745EB28227B0}Prefabs/Weapons/Rifles/AK200/AK200_VDV_1.et" {
+ coords 84.917 1.204 86.439
+}
 Vehicle UAZ469_Kornet1 : "{810E4BC55BD51664}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Kornet.et" {
  coords 71.866 1 154.12
  angles 0 0 0
 }
 SCR_ChimeraCharacter : "{883577F068D2E4D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Storm/drg_Role_RHS_AFRF_Storm_Armored.et" {
  coords 17.231 1 75.372
+}
+GenericEntity : "{90379513843F0873}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Rifle_DOM4A1_ION_BRAVO4_SD.et" {
+ coords 80.942 1.283 86.222
 }
 SCR_ChimeraCharacter : "{90644CAF5B1CA422}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_MG.et" {
  coords 84.696 1 74.151
@@ -367,34 +381,11 @@ Vehicle APC_K17_Berezok_tan1 : "{944D59BF5EC046D6}Prefabs/Vehicles/Wheeled/K17/A
 GenericEntity : "{95CB42A26DE581B0}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_base.et" {
  coords 41.895 1 84.049
 }
-Vehicle UAZ469_uncovered_Turret_Ses_CDF_AGS2 : "{9B4F4245F8F62C70}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_CDF_AGS.et" {
- components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo WheelSpare {
-     Offset -0.2766 0.0184 3.2521
-     Angles 0 -90 95.649
-    }
-    RegisteringComponentSlotInfo Camo_l {
-     PivotID "v_door_L01"
-     Offset 0.7991 -1.2198 -0.8805
-     Prefab "{299EC180610FFF38}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Door_L.et"
-     DeactivatePhysicsOnAtaching 0
-     RegisterDamage 0
-    }
-    RegisteringComponentSlotInfo Camo_r {
-     PivotID "v_door_R01"
-     Offset -0.7999 -1.1851 -0.8106
-     Prefab "{54862D78049CC3A1}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Door_R.et"
-    }
-    RegisteringComponentSlotInfo Camo {
-     Offset 0 0 0.0723
-     Prefab "{68F41E884C932476}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/Misc/CamoNet/3Series_CamoNet_Front.et"
-    }
-   }
-  }
- }
- coords 108.468 1 73.33
+SCR_ChimeraCharacter : "{96BCD8ED65994666}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_BaseLoadout.et" {
+ coords 74.843 1 84.567
+}
+SCR_ChimeraCharacter : "{9F1558B8A8DE9FBC}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_Rifle.et" {
+ coords 77.797 1 85.165
 }
 SCR_ChimeraCharacter : "{A14594C3C362F5D5}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_MG_1.et" {
  coords 84.62 1 71.52
@@ -428,6 +419,17 @@ GenericEntity : "{BD048236F83D85DA}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_
  coords 1.87 1 80.038
  angles 0 91.098 0
 }
+GenericEntity : "{C4EDBC3422501EF1}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_Irons.et" {
+ coords 80.35 1 86.062
+}
+$grp GenericEntity : "{CB2ED665F4671DDA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3.et" {
+ {
+  coords 79.39 1 86.571
+ }
+ {
+  coords 81.235 1 86.374
+ }
+}
 Vehicle GAZ_TIGR_v2_KORD_SPP2 : "{CD4737303AA14C6D}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SPP.et" {
  coords 52.163 1 186.625
 }
@@ -437,14 +439,17 @@ GenericEntity : "{CFB5AA95F996BC65}Prefabs/Items/Equipment/Radios/Radio_PRC351_B
 Vehicle M1151_armed_M2HB_AP1 : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
  coords 54.47 1 150.307
 }
-Vehicle _Series_SWB_Transport_Covered_Camo1 : "{D7F4C63BA427454E}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport_Covered_Camo.et" {
- coords 113.936 1 73.588
-}
 GenericEntity : "{D81CE8F238382A69}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_PAS13G.et" {
  coords 46.256 1 151.705
 }
 GenericEntity : "{D8C7E9449063D0BD}Prefabs/Weapons/MachineGuns/PKM/MG_PKMN_1P78_7n14.et" {
  coords 28.146 1.132 76.938
+}
+GenericEntity : "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" {
+ coords 76.511 1.53 85.032
+}
+GenericEntity : "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" {
+ coords 76.482 1.867 85.58
 }
 GenericEntity : "{E3B53109D5A0B45E}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_VOG17M.et" {
  coords 104.179 1.016 166.634
@@ -452,8 +457,14 @@ GenericEntity : "{E3B53109D5A0B45E}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_V
 Turret : "{E6C16AA42F9149B4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_AP_optic_mdo_black.et" {
  coords 38.856 1 152.845
 }
+GenericEntity : "{E7A435CA5491584E}Prefabs/Weapons/Rifles/A545/dim_A545_ReapIR.et" {
+ coords 83.55 1 86.299
+}
 SCR_ChimeraCharacter : "{E9C50BFACAED7776}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MG.et" {
  coords 85.179 1 69.065
+}
+GenericEntity : "{EAD0C688A22AC7DC}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_base.et" {
+ coords 81.581 1 86.27
 }
 GenericEntity : "{F3B9EB4DD5006E54}Prefabs/Weapons/Magazines/AGS30/Box_30mm_AGS30_150.et" {
  coords 104.062 1 169.81

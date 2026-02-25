@@ -1,0 +1,18 @@
+GenericEntity : "{DB46D09846A87DF2}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_HP_B_30rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_STANAG_Steel_Name w/ #RHS-Attachment_RangerPlate_Name (#RHS-Ammo_M855A1_Name/#RHS-Ammo_M856_Name)"
+     Description "#RHS-Magazine_STANAG_Steel_Description #RHS-Ammo_M855A1_M856_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1
+   }
+  }
+ }
+}

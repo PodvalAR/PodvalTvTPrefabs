@@ -1,0 +1,32 @@
+GenericEntity : "{11B9CC1FB4AEE740}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_STANAG_Steel_Name (#RHS-Ammo_M855A1_Name/#RHS-Ammo_M856_Name)"
+     Description "#RHS-Magazine_STANAG_Steel_Description #RHS-Ammo_M855A1_M856_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D34338621F08}" {
+      CameraPreset Right
+      CameraOrbitAngles -25 -25 0
+      ItemRenderRotation 0 0 0
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#AR-Magazine_Name"
+    m_sAmmoType "M855A1"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   AmmoConfig "{48B3398C0E0C2C25}Configs/Weapons/Ammo/Ammo_556x45_M855A1.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1
+   }
+  }
+ }
+}

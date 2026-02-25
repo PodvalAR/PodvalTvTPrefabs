@@ -1,0 +1,18 @@
+GenericEntity : "{EAD0C688A22AC7DC}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{2EC97B1A04DDAE01}Prefabs/Weapons/Attachments/Optics/Optic_SUSAT/Optic_SUSAT_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+    }
+   }
+  }
+ }
+ coords -0.204 1.06 -3.339
+}

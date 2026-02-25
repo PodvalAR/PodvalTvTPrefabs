@@ -15,13 +15,13 @@ SCR_ChimeraCharacter : "{96BCD8ED65994666}Prefabs/Characters/Factions/BLUFOR/UK/
     ItemsInitConfigurationItem "{65750D80E04871BD}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
      PrefabsToSpawn {
-      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{65750D80E053ABA5}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/tako2/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
-      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{65750D80E07C7125}" {
@@ -33,13 +33,13 @@ SCR_ChimeraCharacter : "{96BCD8ED65994666}Prefabs/Characters/Factions/BLUFOR/UK/
     ItemsInitConfigurationItem "{65750D80E0C05687}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch2/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
-      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{65750D80E0EAE3FF}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch3/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
-      "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et" "{E882742A33858D5A}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_Ball.et"
+      "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
     }
    }
