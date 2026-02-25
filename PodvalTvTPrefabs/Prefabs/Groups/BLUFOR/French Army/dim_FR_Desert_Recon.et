@@ -1,7 +1,0 @@
-SCR_AIGroup : "{78152E1B5F9F08ED}Prefabs/Groups/BLUFOR/French Army/dim_FR_Recon.et" {
- ID "0000000000000001"
- coords 218.856 1 18.009
- m_aUnitPrefabSlots {
-  "{4666026FE667CAFF}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/Recon/dim_FR_Recon_Desert_SL.et" "{41A1F83E80E1703C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/Recon/dim_FR_Recon_Desert_TL.et" "{35278FDFC47466CE}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/Recon/dim_FR_Recon_Desert_Rifleman.et" "{3B12D6C71F743025}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/Recon/dim_FR_Recon_Desert_Sapper.et" "{559F4EA6285B7FCF}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/Recon/dim_FR_Recon_Desert_Sniper.et"
- }
-}

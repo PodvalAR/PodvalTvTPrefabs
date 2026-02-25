@@ -1,7 +1,0 @@
-SCR_AIGroup : "{3341C8E42D86A181}Prefabs/Groups/BLUFOR/French Army/dim_FR_HQ.et" {
- ID "0000000000000001"
- coords 226.647 1 20.642
- m_aUnitPrefabSlots {
-  "{6727FF08FCB8C109}Prefabs/Characters/Factions/BLUFOR/FR_Army/Desert/dim_FR_Desert_Officer.et"
- }
-}

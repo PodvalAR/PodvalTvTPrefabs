@@ -1,8 +1,0 @@
-SCR_AIGroup : "{198852073E7B5D17}Prefabs/Groups/BLUFOR/French Army/dim_FR_Infantry_Squad.et" {
- ID "0000000000000001"
- coords 234.601 1 21.812
- m_aUnitPrefabSlots {
-  "{237699672B549F81}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/Recon/dim_FR_Recon_SL.et" "{24B163364DD22542}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/Recon/dim_FR_Recon_TL.et" "{3AF597DD5B953892}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/Recon/dim_FR_Recon_Rifleman.et" "{EFD996754320D923}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/Recon/dim_FR_Recon_Sapper.et" "{81540E14740F96C9}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/Recon/dim_FR_Recon_Sniper.et"
- }
- m_sCustomNameSet "Groupe de reconnaissance"
-}
