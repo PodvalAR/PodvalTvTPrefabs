@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E81707E9E2264853}Prefabs/Weapons/M27IAR/M38_USMC_CAMO.et"
+ Name "{E81707E9E2264853}Prefabs/Weapons/Rifles/M27IAR/M38_USMC_CAMO.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

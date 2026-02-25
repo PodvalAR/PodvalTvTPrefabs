@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_VCOG.et"
+   WeaponTemplate "{D0C293D5254270CA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_ACOG_TF.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -28,5 +28,5 @@ SCR_ChimeraCharacter : "{76C6998F9AF9A21C}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
  }
- coords 227.719 1 8.672
+ coords 230.559 1 22.696
 }

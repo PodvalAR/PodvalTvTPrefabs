@@ -1,4 +1,4 @@
-GenericEntity : "{42E7FF7AF69D977A}Prefabs/Weapons/M4A1/Grip/dim_RHS_Grip.et" {
+GenericEntity : "{42E7FF7AF69D977A}Prefabs/Weapons/Rifles/M4A1/Grip/dim_RHS_Grip.et" {
  ID "4BA426CBAED42A14"
  components {
   SlotManagerComponent "{62A52E56EAB47677}" {

@@ -1,8 +1,8 @@
-SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_SL.et" {
+SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_SL.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{63367185131D7ED9}Prefabs/Weapons/M16_USMC/M16_ACOG_SL.et"
+   WeaponTemplate "{618D65A6EFC38453}Prefabs/Weapons/Rifles/M16_USMC/M16_Acog.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -85,5 +85,5 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1457.35 134.773 4661.633
+ coords 160.227 1 112.66
 }

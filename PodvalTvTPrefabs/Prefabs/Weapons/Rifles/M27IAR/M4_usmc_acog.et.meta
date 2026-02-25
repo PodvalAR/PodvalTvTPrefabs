@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6D6BF40A8C53E5FF}Prefabs/Weapons/M27IAR/M4_usmc_acog.et"
+ Name "{6D6BF40A8C53E5FF}Prefabs/Weapons/Rifles/M27IAR/M4_usmc_acog.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/dim_FR_Rifleman.et" {
+SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{EEFC5D121CF43B83}Prefabs/Weapons/Weapons/M27IAR/M27_ACOG.et"
+   WeaponTemplate "{D0C293D5254270CA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_ACOG_TF.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -39,5 +39,5 @@ SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
  }
- coords 243.322 1 61.118
+ coords 240.352 1 59.126
 }

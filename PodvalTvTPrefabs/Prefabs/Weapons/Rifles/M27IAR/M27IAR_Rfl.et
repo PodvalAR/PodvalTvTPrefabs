@@ -14,10 +14,10 @@ GenericEntity : "{0761CE8644BBB28E}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
-     MagazineTemplate "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+     MagazineTemplate "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
     }
    }
   }
  }
- coords 191.422 1 204.991
+ coords 228.539 1.206 21.906
 }

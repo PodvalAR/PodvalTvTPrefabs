@@ -24,8 +24,11 @@ GenericEntity : "{00D6DCF68C664480}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_B
       Prefab "{AAD55E46E75D3E1E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203_SU253.et"
      }
     }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+    }
    }
   }
  }
- coords 190.945 1 204.963
+ coords 235.158 1.228 19.772
 }

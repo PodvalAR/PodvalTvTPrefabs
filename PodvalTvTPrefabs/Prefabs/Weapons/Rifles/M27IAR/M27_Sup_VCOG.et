@@ -8,8 +8,23 @@ GenericEntity : "{3BB52CEF1659F3C0}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_ca
       Prefab "{F5534C2D14B1A5D0}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_nocaps.et"
      }
     }
+    AttachmentSlotComponent "{60A6AC64CDA3C786}" {
+     AttachmentSlot InventoryStorageSlot BUTTSTOCK {
+      Prefab "{12B59DAA97833EB0}Prefabs/Weapons/Attachments/Stocks/Stock_HK416_M27/RHS_M27_BUTTSTOCK_camo1.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626541D4146E1B36}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et"
+       }
+      }
+     }
+     MagazineTemplate "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+    }
    }
   }
  }
- coords 215.172 1 239.997
+ coords 186.965 1.203 115.798
 }
