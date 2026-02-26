@@ -1,0 +1,66 @@
+SCR_ChimeraCharacter : "{8E01B51117F34FFD}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Rifleman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Crew"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FBFA6A4F1872BC97}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1D99585CF8E34D91}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E9C71C61DE158E07}Prefabs/Characters/Vests/US_LV119_Pouches/Kits/GD_LV119_ION_V2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Mag_Pouch/Pouch_avs_front_elastic_Blk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/pouch5/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Pouch_3/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Vest/GD_LV119_ION_V2.et/Holster/GD_Holster_SLS_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A36ADD57FC10FD}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01.et"
+    }
+   }
+  }
+ }
+ coords 2685.168 142.5 7954.825
+ angles 0 150 0
+}

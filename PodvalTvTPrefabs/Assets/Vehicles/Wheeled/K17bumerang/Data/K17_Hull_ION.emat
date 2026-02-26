@@ -1,0 +1,45 @@
+MatPBRMulti {
+ Color 0.089 0.107 0.202 1
+ GlobalMCRMap "{557281BFCE8D6F34}Assets/Vehicles/Wheeled/K17bumerang/Data/Hull_BCR.edds"
+ OverlayBlackPower 0.957
+ MaskMap "{1BD81F24921B7C70}Assets/Vehicles/Wheeled/K17bumerang/Data/RHS_Hull_MASK.edds"
+ MaskBlueScale 5
+ GlobalNMOMap "{6DAA3A2D17FA3DAA}Assets/Vehicles/Wheeled/K17bumerang/Data/Hull_NMO.edds"
+ UVSrcDetail "UV set 2"
+ Enabled_4 1
+ Color_4 0.831 0.81 0.606 1
+ BCR_4 "{AE37874A11911124}Assets/_SharedData/Dirt/ST_Mud_01_BCR.edds"
+ NMO_4 "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MaskSharpness_4 2.941
+ MaskOffset_4 0.022
+ Mask_4 "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ MaskUVScale_4 5
+ UVTransform_4 MatUVTransform "{5ED56B2B563A3309}" {
+  TilingU 3
+  TilingV 3
+ }
+ DetNormal_4 0.759
+ Color_3 0.021 0.021 0.021 1
+ BCR_3 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_3 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ DetNormal_3 0.2
+ Roughness_3 2.6
+ Metalness_3 0
+ Color_2 0.745 0.745 0.745 1
+ BCR_2 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_2 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_2 MatUVTransform "{5EC3623A7DB58897}" {
+  TilingU 5
+  TilingV 5
+ }
+ DetNormal_2 0.686
+ Color_1 0.314 0.314 0.314 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{E33A5A9E39D9E660}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5C6264AD89FF9554}" {
+  TilingU 4
+  TilingV 4
+ }
+ DetNormal_1 2.279
+ Roughness_1 1.599
+}

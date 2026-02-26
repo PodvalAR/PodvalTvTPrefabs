@@ -1,0 +1,38 @@
+Vehicle : "{3312ADBF53A16DD9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68B4D0FEC933DE39}" {
+     SourceMaterial "LAV25_MLOD"
+     AssignedMaterial "{EA24F015B0C55573}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_MLOD_ION.emat"
+    }
+    MaterialAssignClass "{68B4D0FEC933DE23}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{B07FA5B205787DA4}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_ION.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{E5DC9ED2B886A32A}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_rhs_ION.et"
+    }
+    RegisteringComponentSlotInfo ION {
+     PivotID "v_body"
+     Offset -1.0723 -1.6206 0.9834
+     Angles -88.7026 0 34.722
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+    RegisteringComponentSlotInfo ION_2 {
+     PivotID "v_body"
+     Offset 1.0854 -1.6208 0.9627
+     Angles 90 11.0493 -135
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+   }
+  }
+ }
+ coords 2679.369 142.397 7951.824
+ angles 0 76.735 0
+}

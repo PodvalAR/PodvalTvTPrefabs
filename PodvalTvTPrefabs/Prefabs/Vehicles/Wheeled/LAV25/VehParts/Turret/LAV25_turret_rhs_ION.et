@@ -1,0 +1,190 @@
+Turret : "{A0514904A496A87C}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret.et" {
+ ID "656ADB45EE5F72F8"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{68B4D0FEF5B70B5F}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{B07FA5B205787DA4}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_ION.emat"
+    }
+   }
+  }
+  RHS_StabilizedTurretControllerComponent "{51ACD09C61C183E4}" {
+   TurretReloadPosition 500 0
+   GetUpdateEventsWhenEmpty 1
+  }
+  RHS_TurretDestructionComponent "{68B4D0FEDA7FB7A2}" {
+   Enabled 1
+   m_sDestructionParticle "{3DFFA0F36BFA60D2}Particles/Vehicle/Vehicle_TurretDestruction.ptc"
+   m_DestructionParticlePosition PointInfo "{68B4D0FEDA7FB797}" {
+    PivotID "v_turret_01"
+    Offset 0 1.0586 0.4585
+   }
+  }
+  RHS_TurretStabilizationComponent "{68B4D0FEDA7FB792}" {
+  }
+  RHS_WeaponRecoilComponent "{68B4D0FEDA7FB78E}" {
+   m_iWeaponIndex 1
+   m_fImpulse 750
+   m_vRecoilPosition PointInfo "{68B4D0FEDA7E665A}" {
+    PivotID "v_gun_01"
+    Offset 0 -0.0663 1.8473
+   }
+  }
+  RHS_WeaponRecoilComponent "{68B4D0FEDA7FB793}" {
+   m_fImpulse 750
+   m_vRecoilPosition PointInfo "{68B4D0FEDA7FB791}" {
+    PivotID "v_gun_01"
+    Offset 0 -0.0663 1.8473
+   }
+  }
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_VehicleHitZone Traverse {
+     ColliderNames {
+      "UTM_FG_Turret_Base"
+     }
+     MaxHealth 2000
+     DamageReduction 100
+     DamageThreshold 8
+     "Melee multiplier" 0.01
+     "Kinetic multiplier" 3
+     "Fragmentation multiplier" 0
+     "Incendiary multiplier" 0.33
+     "DamageState threshold" {
+      0.7 0.4 0.2
+     }
+     m_eHitZoneGroup TURRET
+    }
+    SCR_VehicleHitZone Optic {
+     ColliderNames {
+      "UBX_FG_Turret_Optic_01"
+     }
+     IgnoreExplosions 1
+     MaxHealth 300
+     CriticalDamage 0.1
+     DamageReduction 15
+     DamageThreshold 0
+     "Melee multiplier" 0
+     "Kinetic multiplier" 3
+     "Explosive multiplier" 0.2
+     "DamageState threshold" {
+      0.5 0.1
+     }
+     m_eHitZoneGroup OPTICS
+    }
+   }
+  }
+  TurretComponent "{58F8DC79D093C81C}" {
+   components {
+    RHS_2DSightsComponentV2 "{58F8DC79D093C819}" {
+     m_bIsNVGCompatible 1
+     m_bIsConfiguratedForRHSNVG 1
+     m_fReticleBaseZoom 7
+     m_sRHSLayoutOverlayResource "{BFF68E55260435B4}UI/layouts/Sights/Optic_Widgets_LAV25_RHS.layout"
+    }
+    RHS_2DSightsComponentV2 "{64B2C87305F2A8AC}" {
+     m_bIsNVGCompatible 1
+     m_bIsConfiguratedForRHSNVG 1
+     m_sRHSLayoutOverlayResource "{BFF68E55260435B4}UI/layouts/Sights/Optic_Widgets_LAV25_RHS.layout"
+    }
+    RHS_VehicleNightVisionComponent "{68B4D0FEDA7E6651}" {
+     m_sNVGGooglesHDRMatrial "{FC8E1AB902D5938A}Assets/Items/Equipment/NVG/pvs14/data/NVG_GreenPhosphor_Veh_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{C52A43C51F58BF0B}Assets/Items/Equipment/NVG/pvs14/data/NVG_Effect_FilmGrain_RHS.emat"
+     m_aGainLevels {
+      0.001 0.003 0.01 0.05 0.1 0.3 0.6 1 3 5 10 20
+     }
+     m_bUseMask 0
+     m_bManualGainControl 1
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{225197120A847D6C}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_APDST_RHS.et"
+  }
+  WeaponSlotComponent "{6118831970FD4F0C}" {
+   WeaponTemplate "{FD62324175D10F6F}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_HEIT_RHS_ION.et"
+  }
+  WeaponSlotComponent "{68B4D0FEDA7E6655}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{68B4D0FEDA7E67AA}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot Smokes {
+    PivotID "v_turret_01"
+    Offset 0 0.7053 0.1164
+    MergePhysics 1
+   }
+   WeaponTemplate "{BB6A2484E33CA007}Prefabs/Weapons/HeavyWeapons/SmokeLauncher/Weapon_SmokeLauncher_LAV25_RHS.et"
+   WeaponSlotIndex 3
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{68B4D0FEDA7E67A2}" {
+     ContextName "repair_traverse"
+     Position PointInfo "{68B4D0FEDA7E67A3}" {
+      PivotID "v_turret_01"
+      Offset -0.007 1.2682 0.0103
+      Angles 90 -180 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{68B4D0FEDA7E67A1}" {
+     ContextName "repair_optic"
+     Position PointInfo "{68B4D0FEDA7E672A}" {
+      PivotID "v_turret_01"
+      Offset -0.3986 1.2682 0.249
+      Angles 90 -180 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_ResupplyTurretBeltSupportStationAction "{62DF07585C6FCB37}" {
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{62DF075A8277F9F2}" {
+      m_sItemPrefab "{65F85C1105FD6312}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_120rnd_APDST.et"
+     }
+    }
+    SCR_ResupplyTurretBeltSupportStationAction "{62DF075C277C5B64}" {
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{62DF075C277C5BBF}" {
+      m_sItemPrefab "{336C4DAF7A3E1AFD}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_300rnd_HEIT.et"
+     }
+    }
+    SCR_ResupplyTurretBeltSupportStationAction "{68B4D0FEDA7E672C}" {
+     ParentContextList {
+      "door_side_left"
+     }
+     UIInfo SCR_ActionUIInfo "{68B4D0FEDA7E6722}" {
+      Name "#AR-SupportStation_Resupply_Vehicle_Weapon_ActionName"
+      m_sIconName "rearm"
+     }
+     ActionTitle "Resupply LAV smoke"
+     Duration -0.5
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 1
+     m_fLoopActionHoldDuration 0.1
+     m_bLowerWeaponOnUse 1
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{68B4D0FEDA7E6724}" {
+      m_sItemPrefab "{F22C349D5BD1CE96}Prefabs/Weapons/Magazines/Tucha/Box_Lav25_Smoke.et"
+     }
+     m_iWeaponSlotID 3
+     m_iAddBulletsAmount 1
+    }
+    SCR_RepairAtSupportStationAction "{651524655408BB7D}" : "{98C5AE26BE52C203}Configs/Actions/SupportStationActions/Repair/FuelTank/Repair_TurretTraverse.conf" {
+     ParentContextList +{
+     }
+    }
+    SCR_RepairAtSupportStationAction "{65152464E156224D}" : "{11FAB54E225E793A}Configs/Actions/SupportStationActions/Repair/FuelTank/Repair_Optic.conf" {
+    }
+   }
+  }
+ }
+ coords 2677.049 143.75 7948.095
+}

@@ -1,0 +1,21 @@
+GenericEntity : "{DD96D9F427488A8C}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_HEIT.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{68B4D0FF5504DBDE}" {
+     SourceMaterial "LAV25_body_exterior_int_AFF3D23EEDC6C58D"
+     AssignedMaterial "{B07FA5B205787DA4}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_ION.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineTemplate "{336C4DAF7A3E1AFD}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_300rnd_HEIT.et"
+    }
+   }
+  }
+ }
+ coords 2680.038 144.076 7945.984
+}

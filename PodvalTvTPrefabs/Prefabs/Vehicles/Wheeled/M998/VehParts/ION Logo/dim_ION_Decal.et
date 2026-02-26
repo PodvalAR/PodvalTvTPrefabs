@@ -1,0 +1,15 @@
+GenericEntity : "{1C539C904D39A895}Prefabs/Vehicles/Shared/decal_vehicle_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{68B4D0FD868CE8F6}" {
+     SourceMaterial "decal_plane"
+     AssignedMaterial "{AE743696D3EB105F}Assets/Vehicles/SharedMaterials/decals/numbers/Data/ION_logo.emat"
+    }
+   }
+  }
+ }
+ coords 3505.857 157.474 4631.21
+ angles 0 136.664 0
+}

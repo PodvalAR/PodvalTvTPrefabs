@@ -1,0 +1,11 @@
+GenericEntity : "{F5EF4223ACA6169D}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{A2DBE1B4DE65AB3C}Assets/Props/Fabric/Flags/Data/Flag_1_2_RHS_ION.emat"
+   m_sFactionKey "RHS_ION"
+  }
+ }
+ coords 3522.092 156.655 4620.336
+ angles 0 0 0
+}

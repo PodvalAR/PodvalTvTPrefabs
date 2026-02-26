@@ -1,0 +1,29 @@
+Vehicle : "{6DEF8A6F9A0F3020}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68B4D0F75D8D987C}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{173BA1A649947214}Assets/Vehicles/Wheeled/K17bumerang/Data/K17_Hull_ION.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo label_left {
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+    EntitySlotInfo label_right {
+     Offset 1.5944 2.0499 1.8263
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{EF47FEB79F2DF58D}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Berezok_ION.et"
+    }
+   }
+  }
+ }
+ coords 2687.948 142.534 7954.249
+ angles 0 75 0
+}

@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.089 0.107 0.202 1
+ DisablePriorityProbes 1
+ MetalnessScale 0
+ BCRMap "{C435384EFB7EF134}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_MLOD_BCR.edds"
+}

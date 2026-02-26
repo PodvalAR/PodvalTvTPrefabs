@@ -1,0 +1,46 @@
+Vehicle : "{9C07B4B8CF07B8A1}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_AP.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68A15AF7C85BBEFB}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{03F73D428D8323F8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_ION.emat"
+    }
+    MaterialAssignClass "{68A15AF7C85BBEC5}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+    MaterialAssignClass "{68B4D0FD6A15F661}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Decals02"
+     AssignedMaterial "{6F1782B84A6A8584}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Decals02_ion.emat"
+    }
+    MaterialAssignClass "{68B4D0FD6A15F654}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Decals_Text02"
+     AssignedMaterial "{AE743696D3EB105F}Assets/Vehicles/SharedMaterials/decals/numbers/Data/ION_logo.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{90B654857D24A340}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_ION.et"
+    }
+    RegisteringComponentSlotInfo ION {
+     PivotID "v_body"
+     Offset -1.109 0.7541 -1.5344
+     Angles 0 0 0
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+    RegisteringComponentSlotInfo ION_2 {
+     PivotID "v_body"
+     Offset 1.1028 0.7442 -1.4467
+     Angles 0 -177.81709 0
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+   }
+  }
+ }
+ coords 3506.095 156.034 4629.327
+ angles 0 135 0
+}

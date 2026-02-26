@@ -1,0 +1,66 @@
+MatPBRMulti {
+ Color 0.089 0.107 0.202 1
+ GlobalMCRMap "{020777FFBB8809A7}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_MCR.edds"
+ OverlayWhitePower 0
+ MaskMap "{8D85EE29EC963920}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GLOBAL_MASK.edds"
+ MaskRedScale 5
+ MaskGreenScale 1.711
+ MaskBlueScale 0
+ VFXMap "{B6C643544C657A8B}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_VFX.edds"
+ GlobalNMOMap "{C6B446FC1001CBE7}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_NMO.edds"
+ MudOpacity 0.98
+ MudColor 0.091 0.083 0.074 1
+ MudRoughness 1.45
+ MudBCRMap "{AE37874A11911124}Assets/_SharedData/Dirt/ST_Mud_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ DirtOpacity 1.46
+ DirtLayerSharpness 3.841
+ DirtColor 0.078 0.071 0.064 1
+ DirtRoughness 1.036
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{C9664A554B37B2B2}Assets/_SharedData/DetailMask/ST_Damage_01_Mask1.edds"
+ Enabled_4 1
+ Color_4 0 0 0 1
+ BCR_4 "{BCC6BF9DF11A74D0}Assets/_SharedData/Plastic/ST_PlasticBase_01_BCR.edds"
+ NMO_4 "{3AEE656F6B23C845}Assets/_SharedData/Plastic/ST_PlasticBase_03_NMO.edds"
+ CombineMode_4 1
+ MaskSharpness_4 0.893
+ MaskOffset_4 0.077
+ Mask_4 "{AF3EED70E19D46AB}Assets/_SharedData/DetailMask/ST_Scratches_02_MASK1.edds"
+ UVTransform_4 MatUVTransform "{66D749226DC7E400}" {
+  TilingU 5
+  TilingV 5
+ }
+ Roughness_4 1.971
+ Enabled_3 1
+ Color_3 0.231 0.231 0.231 1
+ BCR_3 "{FA742FE6A11B2766}Assets/_SharedData/Metal/ST_Steel_Base_01_BCR.edds"
+ NMO_3 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ MaskSharpness_3 5.506
+ MaskOffset_3 0.512
+ UVTransform_3 MatUVTransform "{66DB48B3BF4AEC14}" {
+  TilingU 8
+  TilingV 8
+ }
+ Enabled_2 1
+ BCR_2 "{881354997C629FF8}Assets/_SharedData/Metal/ST_metal_painted_rusted_02_BCR.edds"
+ NMO_2 "{A708CB5A248048F3}Assets/_SharedData/Metal/ST_Metal_Hammer_01_NMO.edds"
+ MaskSharpness_2 2.47
+ MaskOffset_2 0.372
+ UVTransform_2 MatUVTransform "{66D7492232795BFF}" {
+  TilingU 5
+  TilingV 5
+ }
+ Roughness_2 0.886
+ Color_1 0.197 0.16 0.112 1
+ BCR_1 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{66D74D796A59B394}" {
+  TilingU 4
+  TilingV 4
+ }
+ DetNormal_1 0.3
+ Roughness_1 1.035
+ Metalness_1 0
+}

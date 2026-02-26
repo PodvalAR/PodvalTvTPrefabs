@@ -1,0 +1,33 @@
+GenericEntity : "{6297DD514FA5D940}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/GBC180/VehParts/TDF/Cargo/GBC180_TransportCanvas.et" {
+ ID "64550876B5DD63D4"
+ components {
+  SCR_BaseCompartmentManagerComponent "{64550871503869D7}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6455087514A5354F}" {
+     ExitPositionInfo PointInfo "{645508750DA48B49}" {
+      Offset 0.6699 1.4299 -3.8403
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+    CompartmentDoorInfo "{6455086AE99DC433}" {
+     ExitPositionInfo PointInfo "{6455086AE99DC5D7}" {
+      Offset -0.854 1.4299 -3.8403
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+   }
+  }
+  VehicleAnimationComponent "{64550876E6902C71}" {
+   AnimGraph "{509522ED511E9EFE}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL.agr"
+   AnimInstance "{20E1A6B9A07E4CFD}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL_vehicle.asi"
+   StartNode "VehicleMasterControl"
+   AnimInjection AnimationAttachmentInfo "{64550877AD57DD6B}" {
+    AnimGraph "{509522ED511E9EFE}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL.agr"
+    AnimInstance "{D8F84469B3F2854B}Assets/Vehicles/Wheeled/Ural4320/workspaces/URAL_player.asi"
+   }
+  }
+ }
+ coords 188.051 1 112.929
+}

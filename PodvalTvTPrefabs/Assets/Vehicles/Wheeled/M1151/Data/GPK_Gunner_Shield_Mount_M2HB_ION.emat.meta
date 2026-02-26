@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{46ACC59183672A18}Assets/Vehicles/Wheeled/M1151/Data/GPK_Gunner_Shield_Mount_M2HB_ION.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}
