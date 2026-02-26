@@ -1,0 +1,13 @@
+Vehicle : "{A5019E4548F81453}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/GBC180/CCE/GBC180_CCE_MK2_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo TroopTransport {
+     Prefab "{21FBBC2A8E96AA94}dddad.et"
+    }
+   }
+  }
+ }
+ coords 225.287 1 130.743
+}
