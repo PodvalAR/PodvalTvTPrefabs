@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CA4F8F4EAD14A48D}UI/Icons/FSB_Alpha_Scout.edds"
+ Name "{CA4F8F4EAD14A48D}UI/Icons/dim/FSB_Alpha_Scout.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

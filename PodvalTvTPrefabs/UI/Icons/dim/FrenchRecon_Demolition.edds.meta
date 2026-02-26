@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DDD0D4257A365F10}UI/Icons/FrenchRecon_Demolition.edds"
+ Name "{DDD0D4257A365F10}UI/Icons/dim/FrenchRecon_Demolition.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

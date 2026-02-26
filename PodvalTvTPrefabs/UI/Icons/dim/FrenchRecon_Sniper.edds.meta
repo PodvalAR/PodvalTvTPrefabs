@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CD6AC604CA0C1C6E}UI/Icons/FrenchRecon_Sniper.edds"
+ Name "{CD6AC604CA0C1C6E}UI/Icons/dim/FrenchRecon_Sniper.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

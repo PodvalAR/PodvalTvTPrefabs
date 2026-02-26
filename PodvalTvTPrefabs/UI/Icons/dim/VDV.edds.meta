@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{141B98C585768CC4}UI/Icons/VDV.edds"
+ Name "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
    ColorSpace ToSRGB

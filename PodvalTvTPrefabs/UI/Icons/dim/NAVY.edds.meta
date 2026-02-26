@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{08BF4742BF0108D8}UI/Icons/NAVY.edds"
+ Name "{08BF4742BF0108D8}UI/Icons/dim/NAVY.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
    ColorSpace ToSRGB
