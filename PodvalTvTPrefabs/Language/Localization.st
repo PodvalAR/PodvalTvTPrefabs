@@ -198,7 +198,8 @@ StringTable {
    Target_ru_ru "Огнемётчик"
    Target_ja_jp "火炎放射器兵"
    Target_zh_cn "喷火兵"
-   Modified 1756687958
+   Target_uk_ua "Вогнеметник"
+   Modified 1756689344
    Author "RamboKZ"
    LastChanged "armen"
   }
