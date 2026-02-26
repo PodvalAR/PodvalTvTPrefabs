@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS
      TargetStorage "Pants/GD_Jeans_Navy.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
-     TargetStorage "Jacket/Night_parka_ion1.et"
+     TargetStorage "Pants/GD_Jeans_Navy.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
      TargetStorage "Jacket/Night_parka_ion1.et"
@@ -43,5 +43,5 @@ SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 24.395 1 73.568
+ coords 175.735 1 57.505
 }

@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{BF9E0AD668E4B117}Prefabs/Weapons/Weapons/M4A1/M4_PMC_4.et"
+   WeaponTemplate "{BF9E0AD668E4B117}Prefabs/Weapons/Rifles/M4A1/M4_PMC_4.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS
      TargetStorage "Pants/GD_Jeans_Black.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
-     TargetStorage "Jacket/Night_parka_ion2.et"
+     TargetStorage "Pants/GD_Jeans_Black.et"
      PrefabsToSpawn {
       "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
      }
@@ -52,5 +52,5 @@ SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 25.492 1 73.677
+ coords 176.568 1 57.632
 }
