@@ -16,9 +16,9 @@ StringTable {
    Target_pt_br "Assistente Antitanque"
    Target_zh_cn "反坦克助理"
    Target_uk_ua "Помічник гранатометника"
-   Modified 1755318169
+   Modified 1756688480
    Author "Gubastus"
-   LastChanged "Gubastus"
+   LastChanged "armen"
   }
   CustomStringTableItem "{68A8822D88FCF076}" {
    Id "PDVL_Role_AM_Sniper"
@@ -186,6 +186,21 @@ StringTable {
    Modified 1756421847
    Author "Biryuk"
    LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68B4E6017D141403}" {
+   Id "PDVL_Role_Flamethrower"
+   Target_en_us "Flamethrower"
+   Target_fr_fr "Soldat lance-flammes"
+   Target_it_it "Lanciafiammista"
+   Target_de_de "Flammenwerferschütze"
+   Target_es_es "Soldado lanzallamas"
+   Target_pl_pl "Miotacz ognia"
+   Target_ru_ru "Огнемётчик"
+   Target_ja_jp "火炎放射器兵"
+   Target_zh_cn "喷火兵"
+   Modified 1756687958
+   Author "RamboKZ"
+   LastChanged "armen"
   }
   CustomStringTableItem "{68A005F7942E2F23}" {
    Id "PDVL_Role_GL"
