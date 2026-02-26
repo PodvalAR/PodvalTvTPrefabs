@@ -1,25 +1,6 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
-  CustomStringTableItem "{68A124C1C78C6B52}" {
-   Id "DVL_Squad_Motorized"
-   Target_en_us "Motorized Squad"
-   Target_fr_fr "Équipe motorisée"
-   Target_it_it "Squadra motorizzata"
-   Target_de_de "Motorisierte Gruppe"
-   Target_es_es "Escuadra motorizada"
-   Target_cs_cz "Motorizované družstvo"
-   Target_pl_pl "Drużyna zmotoryzowana"
-   Target_ru_ru "Мотострелковое отделение"
-   Target_ja_jp "自動車化分隊"
-   Target_ko_kr "기계화 분대"
-   Target_pt_br "Esquadra motorizada"
-   Target_zh_cn "摩托化班"
-   Target_uk_ua "Мотострілецьке відділення"
-   Modified 1756158533
-   Author "Biryuk"
-   LastChanged "Biryuk"
-  }
   CustomStringTableItem "{68A005F783432763}" {
    Id "PDVL_Role_AAT"
    Target_en_us "Assistant Anti-Tank"
@@ -711,6 +692,25 @@ StringTable {
    Modified 1755394729
    Author "Biryuk"
    LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C1C78C6B52}" {
+   Id "PDVL_Squad_Motorized"
+   Target_en_us "Motorized Squad"
+   Target_fr_fr "Équipe motorisée"
+   Target_it_it "Squadra motorizzata"
+   Target_de_de "Motorisierte Gruppe"
+   Target_es_es "Escuadra motorizada"
+   Target_cs_cz "Motorizované družstvo"
+   Target_pl_pl "Drużyna zmotoryzowana"
+   Target_ru_ru "Мотострелковое отделение"
+   Target_ja_jp "自動車化分隊"
+   Target_ko_kr "기계화 분대"
+   Target_pt_br "Esquadra motorizada"
+   Target_zh_cn "摩托化班"
+   Target_uk_ua "Мотострілецьке відділення"
+   Modified 1756673033
+   Author "123va"
+   LastChanged "123va"
   }
   CustomStringTableItem "{68A3601B7591E053}" {
    Id "PDVL_Squad_NSV"
