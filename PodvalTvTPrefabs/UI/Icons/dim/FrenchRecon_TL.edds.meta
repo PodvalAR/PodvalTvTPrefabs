@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1B3DD4B2C98861CD}UI/Icons/FrenchRecon_TL.edds"
+ Name "{1B3DD4B2C98861CD}UI/Icons/dim/FrenchRecon_TL.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B8470972D215E967}UI/Icons/75Ranger.edds"
+ Name "{B8470972D215E967}UI/Icons/dim/75Ranger.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

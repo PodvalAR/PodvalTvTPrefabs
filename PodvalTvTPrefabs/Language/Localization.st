@@ -712,9 +712,9 @@ StringTable {
    Target_pt_br "Esquadra motorizada"
    Target_zh_cn "摩托化班"
    Target_uk_ua "Мотострілецьке відділення"
-   Modified 1756567054
-   Author "armen"
-   LastChanged "armen"
+   Modified 1756673033
+   Author "123va"
+   LastChanged "123va"
   }
   CustomStringTableItem "{68A3601B7591E053}" {
    Id "PDVL_Squad_NSV"

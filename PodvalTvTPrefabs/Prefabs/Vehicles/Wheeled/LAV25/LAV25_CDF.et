@@ -1,0 +1,43 @@
+Vehicle : "{1B8EB269EECA2DF9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68B4B092571C5E07}" {
+     SourceMaterial "LAV25_MLOD"
+     AssignedMaterial "{FA932366126E5A89}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_MLOD_MERDC.emat"
+    }
+    MaterialAssignClass "{68B4B092571C4DA7}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{96F94F3BC0D5D95A}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_MERDC.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{DB134F4AE5B165BF}UI/Textures/EditorPreviews/Vehicles/Wheeled/LAV25/LAV25_MERDC.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1800
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_CDF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{B6FAE342FB823480}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_MERDC.et"
+    }
+   }
+  }
+ }
+}
