@@ -32,7 +32,10 @@ SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
-     TargetStorage "Pants/GD_Jeans_Black.et"
+     TargetStorage "Vest/GD_LV119_ION_V1.et/Admin/Pouch_Shaw_ARC_Admin_MC_Blk.et"
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
      TargetStorage "Pants/GD_Jeans_Black.et"
@@ -41,7 +44,7 @@ SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
-     TargetStorage "Jacket/Night_parka_ion2.et"
+     TargetStorage "Pants/GD_Jeans_Black.et"
     }
     ItemsInitConfigurationItem "{689E6D827A21D340}" {
      TargetStorage "Pants/GD_Jeans_Black.et"
@@ -49,8 +52,26 @@ SCR_ChimeraCharacter : "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E8077D6243685}" {
      Enabled 0
     }
+    ItemsInitConfigurationItem "{68B6ABC820AB7A55}" {
+     TargetStorage "Jacket/Night_parka_ion2.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68B6ABC8F6726233}" {
+     TargetStorage "Vest/GD_LV119_ION_V1.et/Admin/Pouch_Shaw_ARC_Admin_MC_Blk.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68B6ABCF3D3B78AF}" {
+     TargetStorage "Vest/GD_LV119_ION_V1.et/Pouch4/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
    }
   }
  }
- coords 176.568 1 57.632
+ coords 2711.559 142.389 7957.515
 }
