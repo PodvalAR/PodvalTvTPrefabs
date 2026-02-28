@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{82D2BF4B3C9E996C}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_PL_5_Defend.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
