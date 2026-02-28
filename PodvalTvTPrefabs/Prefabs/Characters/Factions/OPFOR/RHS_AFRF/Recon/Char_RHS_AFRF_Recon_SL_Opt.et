@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{581C5812DD6A8A4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{99C2067FE33B5268}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p87_camo_suppressor_opt.et"
+  }
+ }
+}

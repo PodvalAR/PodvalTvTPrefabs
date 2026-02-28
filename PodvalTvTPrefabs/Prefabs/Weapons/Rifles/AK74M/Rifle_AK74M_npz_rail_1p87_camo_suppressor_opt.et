@@ -1,0 +1,14 @@
+GenericEntity : "{EB4122E4621A024A}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p87_camo_suppressor.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Prefab "{F727A9D4939E89EE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86-1.et"
+     }
+    }
+   }
+  }
+ }
+}

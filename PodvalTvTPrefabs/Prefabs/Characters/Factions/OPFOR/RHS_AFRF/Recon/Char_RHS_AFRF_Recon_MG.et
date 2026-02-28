@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{1CA1579DAAFFBCA0}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86_7n14.et"
+   WeaponTemplate "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
