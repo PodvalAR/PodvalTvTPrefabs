@@ -1,0 +1,7 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{581C5812DD6A8A4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SL.et" "{2504B4EAB8F9B6D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SR.et" "{6783771781A13CBF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_MG.et" "{3841D72C18594176}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_GL.et" "{B80041ECF565397A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Sapper.et" "{9B7078FF37FEA321}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Sharpshooter.et"
+ }
+ m_sCustomNameSet "Отряд разведки"
+}

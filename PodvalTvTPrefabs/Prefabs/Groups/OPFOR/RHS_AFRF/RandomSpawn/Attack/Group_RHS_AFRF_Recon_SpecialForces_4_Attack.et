@@ -1,0 +1,5 @@
+SCR_AIGroup : "{374F4DAA668ADDD6}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_SpecialForces_4_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots +{
+ }
+}

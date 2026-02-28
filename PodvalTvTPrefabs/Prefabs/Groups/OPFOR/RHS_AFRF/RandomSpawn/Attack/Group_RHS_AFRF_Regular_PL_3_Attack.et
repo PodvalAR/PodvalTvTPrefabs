@@ -1,0 +1,6 @@
+SCR_AIGroup : "{2AC0E895929FFBB9}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Group_RHS_AFRF_Regular_PL_3_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{9AEBC61DAD798672}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_PL_opt.et" "{1D25ADA8774D4BD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Medic.et" "{E4C1E22F77E5DBEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Sharpshooter.et"
+ }
+}

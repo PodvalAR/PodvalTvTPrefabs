@@ -1,0 +1,6 @@
+SCR_AIGroup : "{2F1D7F7046D79C5A}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_Squad_6_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{4C46B416166D1A0E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SL_Opt.et" "{F66140DF5A7A0D21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_SR_Opt.et" "{27278CD98CA86707}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_MG_Opt.et" "{3841D72C18594176}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_GL.et" "{B80041ECF565397A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Sapper.et" "{9B7078FF37FEA321}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_Sharpshooter.et"
+ }
+}

@@ -1,0 +1,6 @@
+SCR_AIGroup : "{C451A9B3659FBF2F}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Regular_PL_5_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D94B7ED60715A28D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_PL.et" "{AB325027F2C7CD45}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_TL_Opt.et" "{2DDD36502876310E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_AR.et" "{20084871DFC15824}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_GL.et" "{680139B54800F449}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Rifle.et" "{5ED534ADC95D6EFA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_LAT.et" "{0D659E49AD2F5FF6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Medic.et" "{88E3D251FBF082F9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Marksman_m110.et"
+ }
+}

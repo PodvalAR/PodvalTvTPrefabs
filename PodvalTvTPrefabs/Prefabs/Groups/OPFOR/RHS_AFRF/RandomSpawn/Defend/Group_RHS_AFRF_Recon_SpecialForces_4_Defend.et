@@ -1,0 +1,6 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{493F72102D5E0F98}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_SL.et" "{34279EE848CD3301}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_SR.et" "{FC1FEACE6653B3D7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_AT.et" "{18E5431BC976B948}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper.et"
+ }
+}

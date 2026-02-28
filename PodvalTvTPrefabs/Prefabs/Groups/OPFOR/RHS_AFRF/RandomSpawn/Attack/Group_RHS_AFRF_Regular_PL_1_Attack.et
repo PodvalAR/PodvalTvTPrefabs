@@ -1,0 +1,6 @@
+SCR_AIGroup : "{0448DCD2854B6BF7}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Group_RHS_AFRF_Regular_PL_1_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{9AEBC61DAD798672}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_PL_opt.et"
+ }
+}

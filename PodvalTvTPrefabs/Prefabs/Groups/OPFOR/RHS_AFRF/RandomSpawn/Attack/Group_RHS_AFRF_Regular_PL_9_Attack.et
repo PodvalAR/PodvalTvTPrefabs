@@ -1,0 +1,6 @@
+SCR_AIGroup : "{01C8B33DB1EEEFCE}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Group_RHS_AFRF_Regular_PL_9_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{009BAC7973309559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_PL.et" "{2ED2769CDC999E87}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SR_opt.et" "{2CA58D3E25DA1886}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_AT.et" "{D90B2AEF04BBE301}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_AAT.et" "{FF94BA9A0A4BF4A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_MG_opt.et" "{53B49D34137DE9BE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_AMG.et" "{9B17487B1BB8E272}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Rifle_opt.et" "{1D25ADA8774D4BD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Medic.et" "{E4C1E22F77E5DBEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Sharpshooter.et"
+ }
+}

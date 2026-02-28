@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6B4988ECDC7EA177}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_SpecialForces_Attack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
