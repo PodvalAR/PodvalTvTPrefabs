@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{9F83A25F4C2B98C9}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_HeliCoPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B137B7CE988557D2}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F396524995F06BFA}Prefabs/Characters/Vests/Vest_SRU21P/Vest_SRU21P.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     TargetStorage "Jacket/Suit_Pilot_US_01.et"
+    }
+    ItemsInitConfigurationItem "{68C296C643D42AA9}" {
+     TargetStorage "Jacket/Suit_Pilot_US_01.et"
+    }
+    ItemsInitConfigurationItem "{68C296C6496CFB2A}" {
+     TargetStorage "Jacket/Suit_Pilot_US_01.et"
+    }
+    ItemsInitConfigurationItem "{68C296C837FEFBB6}" {
+     TargetStorage "Jacket/Suit_Pilot_US_01.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+   }
+  }
+ }
+}

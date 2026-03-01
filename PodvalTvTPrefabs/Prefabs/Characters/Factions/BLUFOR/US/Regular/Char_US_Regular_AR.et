@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{088464049E963097}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Rifle.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AR"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D2B48DEBEF38D7D7}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C24A8F554B}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C296CF5D60F425}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

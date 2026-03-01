@@ -1,0 +1,18 @@
+SCR_AIGroup : "{15062749E6AB45DE}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_PL.et" {
+ coords 100 1 30
+}
+SCR_AIGroup : "{1A5F2D2964D25D71}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_All.et" {
+ coords 100 1 20
+}
+SCR_AIGroup : "{9B25E2FE686422AD}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_Mechanized.et" {
+ coords 100 1 26
+}
+SCR_AIGroup : "{AC37A0539DB4CA1C}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_Heli.et" {
+ coords 100 1 28
+}
+SCR_AIGroup : "{E71CAFF0C1F1CB6C}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_Motorized.et" {
+ coords 100 1 22
+}
+SCR_AIGroup : "{EE2BCF5671083A76}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_Squad.et" {
+ coords 100 1 24
+}

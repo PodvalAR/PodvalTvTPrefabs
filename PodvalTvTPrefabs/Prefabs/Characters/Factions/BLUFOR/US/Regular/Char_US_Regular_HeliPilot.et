@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{29119BCA182D3062}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_HeliCoPilot.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_HeliPilot"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     PrefabsToSpawn {
+      "{59ECB330B727CCB4}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Multi.et"
+     }
+    }
+   }
+  }
+ }
+}
