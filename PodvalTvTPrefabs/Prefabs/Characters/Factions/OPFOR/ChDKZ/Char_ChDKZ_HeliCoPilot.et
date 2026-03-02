@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_HeliCoPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{19FE19CD103638CE}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U_RHSMag.et"
+  }
+ }
+}

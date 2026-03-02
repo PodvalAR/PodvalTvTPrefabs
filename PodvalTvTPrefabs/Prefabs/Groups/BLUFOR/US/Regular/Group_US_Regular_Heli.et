@@ -1,0 +1,7 @@
+SCR_AIGroup : "{8A85D951C1BD17FC}Prefabs/Groups/BLUFOR/US/Group_US_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D4ABE04C7E1B6F59}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_HeliPilot.et" "{29119BCA182D3062}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_HeliCoPilot.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Pilot"
+}

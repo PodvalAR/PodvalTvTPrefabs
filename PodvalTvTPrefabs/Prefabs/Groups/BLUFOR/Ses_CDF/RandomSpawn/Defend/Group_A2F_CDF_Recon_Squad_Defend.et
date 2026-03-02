@@ -1,0 +1,6 @@
+SCR_AIGroup : "{FDC30AB98EC61C70}Prefabs/Groups/BLUFOR/Ses_CDF/RandomSpawn/Defend/Group_A2F_CDF_Squad_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{98918C4F8902542E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SL_Random.et" "{DF081FFC7A479F9B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SR_Random.et" "{50C53F58D3742548}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Rifle_SD_Random.et" "{107B2619EBE9881E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_LAT_SD_Random.et" "{50C53F58D3742548}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Rifle_SD_Random.et" "{2C802DE0AEBE184A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Sniper_Random.et"
+ }
+}

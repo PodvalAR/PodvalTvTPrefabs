@@ -1,0 +1,7 @@
+SCR_AIGroup : "{8A85D951C1BD17FC}Prefabs/Groups/BLUFOR/US/Group_US_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{DE10FE7CC057F751}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_CC.et" "{A5EA776B389D1583}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Crew.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Mechanized"
+}

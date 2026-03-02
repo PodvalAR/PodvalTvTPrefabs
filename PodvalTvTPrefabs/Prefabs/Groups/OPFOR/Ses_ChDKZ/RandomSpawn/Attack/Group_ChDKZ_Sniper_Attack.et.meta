@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0282C2141A586C90}Prefabs/Groups/OPFOR/Ses_ChDKZ/RandomSpawn/Defend/Group_ChDKZ_Sniper_Attack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

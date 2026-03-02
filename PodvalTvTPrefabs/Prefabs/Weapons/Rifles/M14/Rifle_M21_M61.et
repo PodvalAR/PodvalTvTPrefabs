@@ -1,0 +1,14 @@
+GenericEntity : "{3FB5275A6505B323}Prefabs/Weapons/Rifles/M14/Rifle_M21_base.et" {
+ ID "5254ACCA959048B9"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+     }
+     MagazineTemplate "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
+    }
+   }
+  }
+ }
+}

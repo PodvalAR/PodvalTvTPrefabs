@@ -1,0 +1,12 @@
+SCR_AIGroup : "{36BB8B44885A918B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{674BD11B09F6C468}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_PL_Random.et" "{DF081FFC7A479F9B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SR_Random.et" "{2AC4BD0DD870A673}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_AR_Random.et" "{D01975FC83367BD9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_GL_Random.et" "{AA9F3BAA3A3987D0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_LAT_Random.et" "{7494538873206D04}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Medic_Random.et" "{2C802DE0AEBE184A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Sniper_Random.et"
+ }
+ m_sCustomNameSet "Командир взвода"
+}

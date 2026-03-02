@@ -659,6 +659,25 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68B96CA190AFCB8A}" {
+   Id "PDVL_Squad_Mechanized"
+   Target_en_us "Mechanized Squad"
+   Target_fr_fr "Équipe mécanisée"
+   Target_it_it "Squadra meccanizzata"
+   Target_de_de "Mechanisierte Gruppe"
+   Target_es_es "Escuadra mecanizada"
+   Target_cs_cz "Mechanizované družstvo"
+   Target_pl_pl "Drużyna zmechanizowana"
+   Target_ru_ru "Механизированный отряд"
+   Target_ja_jp "機械化分隊"
+   Target_ko_kr "기계화 분대"
+   Target_pt_br "Esquadra mecanizada"
+   Target_zh_cn "机械化班"
+   Target_uk_ua "Механізований загін"
+   Modified 1756984453
+   Author "Gubastus"
+   LastChanged "Gubastus"
+  }
   CustomStringTableItem "{68A124C03245A1A4}" {
    Id "PDVL_Squad_Medic"
    Target_en_us "Medical Squad"
@@ -713,8 +732,8 @@ StringTable {
    Target_zh_cn "摩托化班"
    Target_uk_ua "Мотострілецьке відділення"
    Modified 1756673033
-   Author "123va"
-   LastChanged "123va"
+   Author "Gubastus"
+   LastChanged "Gubastus"
   }
   CustomStringTableItem "{68A3601B7591E053}" {
    Id "PDVL_Squad_NSV"
@@ -754,6 +773,25 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68C2C4B7C0392F5D}" {
+   Id "PDVL_Squad_PL"
+   Target_en_us "Platoon Headquarters"
+   Target_fr_fr "Quartier général du peloton"
+   Target_it_it "Comando plotone"
+   Target_de_de "Zugführung"
+   Target_es_es "Cuartel general del pelotón"
+   Target_cs_cz "Velitelství čety"
+   Target_pl_pl "Dowództwo plutonu"
+   Target_ru_ru "Штаб взвода"
+   Target_ja_jp "小隊本部"
+   Target_ko_kr "소대 본부"
+   Target_pt_br "Quartel-general do pelotão"
+   Target_zh_cn "排部"
+   Target_uk_ua "Штаб взводу"
+   Modified 1757595102
+   Author "Gubastus"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A124C18D0A5875}" {
    Id "PDVL_Squad_PLHQ"
    Target_en_us "Platoon Headquarters"
@@ -773,6 +811,25 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68B96CA64240351D}" {
+   Id "PDVL_Squad_Recon"
+   Target_en_us "Recon Squad"
+   Target_fr_fr "Équipe de reconnaissance"
+   Target_it_it "Squadra ricognizione"
+   Target_de_de "Aufklärungsgruppe"
+   Target_es_es "Escuadra de reconocimiento"
+   Target_cs_cz "Průzkumné družstvo"
+   Target_pl_pl "Drużyna rozpoznawcza"
+   Target_ru_ru "Разведовательный отряд"
+   Target_ja_jp "偵察分隊"
+   Target_ko_kr "정찰 분대"
+   Target_pt_br "Esquadra de reconhecimento"
+   Target_zh_cn "侦察班"
+   Target_uk_ua "Розвідувальний загін"
+   Modified 1756984545
+   Author "Gubastus"
+   LastChanged "Gubastus"
+  }
   CustomStringTableItem "{68A3366D833A618F}" {
    Id "PDVL_Squad_Rifle"
    Target_en_us "Rifle Squad"
@@ -791,6 +848,25 @@ StringTable {
    Modified 1756420893
    Author "Biryuk"
    LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68B96CA5606A8EEA}" {
+   Id "PDVL_Squad_Sniper"
+   Target_en_us "Sniper Team"
+   Target_fr_fr "Équipe de snipers"
+   Target_it_it "Squadra cecchini"
+   Target_de_de "Scharfschützenteam"
+   Target_es_es "Equipo de francotiradores"
+   Target_cs_cz "Odstřelovačský tým"
+   Target_pl_pl "Zespół snajperski"
+   Target_ru_ru "Снайперская пара"
+   Target_ja_jp "狙撃チーム"
+   Target_ko_kr "저격수 팀"
+   Target_pt_br "Equipe de atiradores de elite"
+   Target_zh_cn "狙击小组"
+   Target_uk_ua "Снайперська пара"
+   Modified 1756985968
+   Author "Gubastus"
+   LastChanged "Gubastus"
   }
  }
 }

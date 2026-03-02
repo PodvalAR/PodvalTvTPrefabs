@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E9C3E5D8F09AD1CF}Prefabs/Groups/BLUFOR/Ses_CDF/RandomSpawn/Defend/Group_A2F_CDF_PL_6_Attack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

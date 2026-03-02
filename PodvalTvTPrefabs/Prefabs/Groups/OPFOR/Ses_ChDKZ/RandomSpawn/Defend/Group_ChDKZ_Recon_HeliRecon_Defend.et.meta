@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{61A8C4B398D4088B}Prefabs/Groups/OPFOR/Ses_ChDKZ/RandomSpawn/Defend/Group_ChDKZ_Recon_HeliRecon_Defend.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

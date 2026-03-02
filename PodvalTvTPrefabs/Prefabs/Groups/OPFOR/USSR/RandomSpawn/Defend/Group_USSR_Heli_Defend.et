@@ -1,0 +1,7 @@
+SCR_AIGroup : "{292AED2259143148}Prefabs/Groups/OPFOR/USSR/Group_USSR_base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{26476910851E04FD}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_HeliPilot_RANDOM.et" "{D7532B1454588D20}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_HeliCoPilot_RANDOM.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Pilot"
+}

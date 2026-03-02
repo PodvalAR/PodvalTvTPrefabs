@@ -1,0 +1,14 @@
+SCR_AIGroup : "{7EC5F497ECBF9E36}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_PLHQ"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{5813C3FEA418100E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_PL_Random.et" "{E0500D19D7A94BFD}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_SR_Random.et" "{41D4E0AF9842BE4B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AT_Random.et" "{3B679AE5DA875547}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AAT_Random.et" "{4EE9F8C57C51387B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_MG_Random.et" "{345A828F3E94D377}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AMG_Random.et" "{87714ABCCFCB07C3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Medic_Random.et" "{E7117041B898A159}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Sharpshooter_Random.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
+}

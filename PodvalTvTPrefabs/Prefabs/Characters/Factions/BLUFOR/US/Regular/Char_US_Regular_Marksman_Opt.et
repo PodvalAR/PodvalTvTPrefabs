@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{5A3F99571616FD80}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Marksman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3439CE09C084FED7}Prefabs/Weapons/Rifles/M14/Rifle_M21_M61_Opt.et"
+  }
+ }
+}

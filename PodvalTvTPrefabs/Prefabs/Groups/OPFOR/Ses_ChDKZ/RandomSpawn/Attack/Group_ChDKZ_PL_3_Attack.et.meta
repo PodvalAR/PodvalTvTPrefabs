@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7F0C0C96C9A49CD2}Prefabs/Groups/OPFOR/Ses_ChDKZ/RandomSpawn/Defend/Group_ChDKZ_PL_3_Attack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

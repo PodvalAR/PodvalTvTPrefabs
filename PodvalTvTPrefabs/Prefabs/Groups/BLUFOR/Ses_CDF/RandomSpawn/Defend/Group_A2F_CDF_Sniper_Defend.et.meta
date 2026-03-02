@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{480E98DDCC6E11CD}Prefabs/Groups/BLUFOR/Ses_CDF/RandomSpawn/Defend/Group_A2F_CDF_Sniper_Defend.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
