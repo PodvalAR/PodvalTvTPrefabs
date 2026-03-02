@@ -1,0 +1,27 @@
+GenericEntity : "{4A553DA16504D30C}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_Pmag_Name (#RHS-Ammo_M995_Name) - #RHS-Color_MCT"
+     Description "#RHS-Magazine_pmag_windowed_Description #RHS-Ammo_M995_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "M995"
+   }
+   AmmoConfig "{BAB38CC4592C81A5}Configs/Weapons/Ammo/Ammo_556x45_M995.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Materials {
+    MaterialAssignClass "{68C454649F2A0A88}" {
+     SourceMaterial "PMAG_30_Body"
+     AssignedMaterial "{BA4290CF4428DE3A}Assets/Weapons/Magazines/pmag/Data/PMAG_30_Body_coyote.emat"
+    }
+   }
+  }
+ }
+}
