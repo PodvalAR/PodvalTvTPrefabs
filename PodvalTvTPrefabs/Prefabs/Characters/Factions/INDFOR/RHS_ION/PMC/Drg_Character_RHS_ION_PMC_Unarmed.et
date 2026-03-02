@@ -15,6 +15,7 @@ SCR_ChimeraCharacter : "{53F6F7CF18A303D4}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Unarmed"
+    Icon "{14AE995347CE8E7E}UI/Icons/pmc.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
