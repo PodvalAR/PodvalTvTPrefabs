@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68C2CAC19B7D7F4F}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68C2CAC19A879A2F}" {
+      m_sVariantPrefab "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et"
+     }
+     SCR_EditableEntityVariant "{68C2CAC19AA40572}" {
+      m_sVariantPrefab "{0BF8ED0EA25FD399}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v2.et"
+     }
+     SCR_EditableEntityVariant "{68C2CAC19ACC52E6}" {
+      m_sVariantPrefab "{EE64A1F7AEBA44F2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v3.et"
+     }
+     SCR_EditableEntityVariant "{68C2CAC19AF50DAE}" {
+      m_sVariantPrefab "{D35084CFDBD6CDC5}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v4.et"
+     }
+    }
+   }
+  }
+ }
+}
