@@ -8,5 +8,5 @@ SCR_AIGroup : "{36BB8B44885A918B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Bas
  m_aUnitPrefabSlots {
   "{F99DBD0ACEDFF831}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_HeliPilot.et" "{7A83214250DC6D26}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_HeliCoPilot.et"
  }
- m_sCustomNameSet "Пилоты"
+ m_sCustomNameSet "#PDVL_Squad_Pilot"
 }

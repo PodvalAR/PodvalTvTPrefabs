@@ -10,5 +10,5 @@ SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_B
  m_aUnitPrefabSlots {
   "{21250D30429C5672}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_CC.et" "{8C844FA2A8030344}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Crew.et"
  }
- m_sCustomNameSet "Механизированный отряд"
+ m_sCustomNameSet "#PDVL_Squad_Mechanized"
 }

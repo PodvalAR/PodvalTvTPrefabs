@@ -8,5 +8,5 @@ SCR_AIGroup : "{36BB8B44885A918B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Bas
  m_aUnitPrefabSlots {
   "{84D5A1539E639EA0}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_CC_Random.et" "{90CD8E3B3F9CA0D7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Crew_Random.et"
  }
- m_sCustomNameSet "Механизированный отряд"
+ m_sCustomNameSet "#PDVL_Squad_Mechanized"
 }

@@ -10,5 +10,5 @@ SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_B
  m_aUnitPrefabSlots {
   "{283076EBB65C44D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Sniper.et" "{0A00AE60313837C1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Observer.et"
  }
- m_sCustomNameSet "Снайперская группа"
+ m_sCustomNameSet "#PDVL_Squad_Sniper"
 }

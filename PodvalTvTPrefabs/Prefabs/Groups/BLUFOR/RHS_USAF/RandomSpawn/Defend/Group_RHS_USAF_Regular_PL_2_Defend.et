@@ -3,4 +3,5 @@ SCR_AIGroup : "{8BE5C4D411C5E59C}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RH
  m_aUnitPrefabSlots + {
   "{88E3D251FBF082F9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Marksman_m110.et"
  }
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
 }
