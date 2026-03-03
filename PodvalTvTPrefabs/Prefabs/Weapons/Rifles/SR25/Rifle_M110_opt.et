@@ -1,0 +1,14 @@
+GenericEntity : "{597378E657C7290B}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{28FD40D75A1B248D}Prefabs/Weapons/Attachments/Optics/RT6/Optic_Coll_RT6.et"
+     }
+    }
+   }
+  }
+ }
+}
