@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{D1C9C38D76278ABE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{45C475DADA913267}Prefabs/Weapons/MachineGuns/M240/MG_M240_EOT.et"
+  }
+ }
+}

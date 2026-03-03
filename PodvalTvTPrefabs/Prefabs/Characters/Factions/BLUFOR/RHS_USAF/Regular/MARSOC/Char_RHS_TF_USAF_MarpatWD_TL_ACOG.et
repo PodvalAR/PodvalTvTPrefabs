@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{F125FB1401B0BA71}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Riflema_ACOG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_TL"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+ }
+}

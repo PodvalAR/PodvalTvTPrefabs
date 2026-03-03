@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{B98AD05A3EC703BA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_SL_ACOG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8E8D535B75E90019}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203_ACOG.et"
+  }
+ }
+}

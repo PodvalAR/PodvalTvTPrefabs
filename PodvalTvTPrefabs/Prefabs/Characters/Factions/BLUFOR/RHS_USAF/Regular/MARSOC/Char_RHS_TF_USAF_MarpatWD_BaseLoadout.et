@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Character_RHS_USAF_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_BaseLoadout"
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{926F2D2ED4D286EB}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_Cov_MarpatWD.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BCC6A98B87FC466A}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7DF25380BEFEA3A0}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_marpat.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{70B5348CD5387289}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
+     TargetStorage "Pants/ACU_pants_MC_base.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
+     TargetStorage "Jacket/ACU_jacket_MC.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D9}" {
+     TargetStorage "Jacket/ACU_jacket_MC.et"
+     PrefabsToSpawn {
+      "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
+     }
+    }
+   }
+  }
+ }
+}
