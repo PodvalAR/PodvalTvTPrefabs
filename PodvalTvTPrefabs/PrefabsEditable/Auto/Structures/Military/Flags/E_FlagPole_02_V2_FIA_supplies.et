@@ -1,0 +1,45 @@
+GenericEntity : "{A4D90CAA4F220CBE}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_FIA.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_EditableEntityComponent "{5EF0BDF2D0D8C828}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_FlagPole_02_V2_FIA_Name"
+    m_Image "{11ED5EEAD7D854F4}UI/Textures/EditorPreviews/Auto/Structures/Military/Flags/E_FlagPole_02_V2_FIA.edds"
+    m_sFaction "FIA"
+    m_aAuthoredLabels {
+     FACTION_FIA
+    }
+    m_aAutoLabels {
+     THEME_MILITARY ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{5EF0BDF2D0DB4EB2}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{68C68E394F6CD4B2}" {
+     m_iParentID -1
+     m_Mesh "{9109A8975C3E96DA}Assets/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.xob"
+     m_Flags 257
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{68C68E394F6CD4B9}" {
+     m_iParentID 0
+     m_Mesh "{94F7CE276B05E84B}Assets/Props/Fabric/Flags/Flag_1_2.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 4.396 -0.083
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{5EF0BDF2D0D8E49A}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
+ }
+}

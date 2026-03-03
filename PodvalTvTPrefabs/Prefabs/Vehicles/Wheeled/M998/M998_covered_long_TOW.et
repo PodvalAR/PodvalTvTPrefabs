@@ -74,5 +74,32 @@ Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et"
     }
    }
   }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{68C69C18457608AD}" {
+     ParentContextList {
+      "cargo"
+     }
+     UIInfo SCR_ActionUIInfo "{5D9AF69CDAA235AE}" {
+      Name "#AR-Campaign_Action_ShowBuildPreview"
+     }
+     Duration 0.5
+     "Sort Priority" 16
+    }
+   }
+  }
+  SCR_CampaignBuildingProviderComponent "{68C69C18AEAE0FE6}" {
+   m_sProviderDisplayName "#AR-Vehicle_SupplyTruck_Name-UC"
+   m_bUserActionActivationOnly 1
+   m_bAnyFactionCanUse 1
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingBudgetToEvaluateData "{68C69C1891559059}" {
+     m_eBudget CAMPAIGN
+    }
+   }
+   m_aAvailableTraits {
+    TRAIT_FORTIFICATION THEME_MILITARY
+   }
+  }
  }
 }
