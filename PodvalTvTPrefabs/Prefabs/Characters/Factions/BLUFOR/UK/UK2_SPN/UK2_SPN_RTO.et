@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{4EDE2A021B8C2355}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/UK2_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SR"
+    Icon "{FE2FFF1498C603D2}UI/Icons/dim/SAS_TL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EA0375CBD876C102}Prefabs/Weapons/Rifles/L85/A1/SPN/Rifle_L85A2_SD_SU230.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{5027D6CF3745778F}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit_Modern.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     PrefabsToSpawn {
+      "{1A7FE1AC9E645F28}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Multi.et"
+     }
+    }
+   }
+  }
+ }
+ coords 107.797 1 92.63
+}
