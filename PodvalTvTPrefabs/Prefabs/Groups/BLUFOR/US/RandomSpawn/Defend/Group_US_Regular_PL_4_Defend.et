@@ -3,5 +3,5 @@ SCR_AIGroup : "{8A85D951C1BD17FC}Prefabs/Groups/BLUFOR/US/Group_US_Base.et" {
  m_aUnitPrefabSlots {
   "{267E8D9A85DE03AE}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_PL.et" "{C278D8FBFDAA0EA7}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SR.et" "{7FB18B47A7957C05}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Medic.et" "{C82717B4CE8F27E8}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Marksman_Opt.et"
  }
- m_sCustomNameSet "#PDVL_Squad_PL"
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
 }

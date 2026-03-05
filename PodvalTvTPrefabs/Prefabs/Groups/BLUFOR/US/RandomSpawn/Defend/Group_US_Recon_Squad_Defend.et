@@ -1,7 +1,7 @@
 SCR_AIGroup : "{8A85D951C1BD17FC}Prefabs/Groups/BLUFOR/US/Group_US_Base.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
-  "{934D5DB8D0C2197F}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SL_Opt.et" "{296AA9719CD50E50}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SR_Opt.et" "{D2E8C51CAABD902D}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_AR.et" "{F1DA9E09CC79F8FD}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_LAT.et" "{670BA84233CA3A0B}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Sapper.et" "{5A3F99571616FD80}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Marksman.et"
+  "{934D5DB8D0C2197F}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SL_Opt.et" "{296AA9719CD50E50}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SR_Opt.et" "{D2E8C51CAABD902D}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_AR.et" "{F1DA9E09CC79F8FD}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_LAT.et" "{670BA84233CA3A0B}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Sapper.et" "{C82717B4CE8F27E8}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Marksman_Opt.et"
  }
  m_sCustomNameSet "#PDVL_Squad_Recon"
 }

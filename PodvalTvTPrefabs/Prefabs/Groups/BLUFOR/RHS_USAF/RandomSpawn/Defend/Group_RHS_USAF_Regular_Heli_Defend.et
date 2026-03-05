@@ -3,5 +3,5 @@ SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_B
  m_aUnitPrefabSlots {
   "{E2C35369F43FD755}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_HeliPilot.et" "{51ACEA1A553DA025}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_HeliCoPilot.et"
  }
- m_sCustomNameSet "Пилоты"
+ m_sCustomNameSet "#PDVL_Squad_Pilot"
 }

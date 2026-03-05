@@ -8,5 +8,5 @@ SCR_AIGroup : "{36BB8B44885A918B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Bas
  m_aUnitPrefabSlots {
   "{674BD11B09F6C468}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_PL_Random.et" "{DF081FFC7A479F9B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SR_Random.et" "{7E8CF24A35AC6A2D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_AT_Random.et" "{B2AAD7B334EC1507}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_AAT_Random.et" "{71B1EA20D1BFEC1D}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_MG_Random.et" "{DA4B66D1899B5592}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_AMG_Random.et" "{7494538873206D04}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Medic_Random.et" "{2C802DE0AEBE184A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_Sniper_Random.et"
  }
- m_sCustomNameSet "Командир взвода"
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
 }
