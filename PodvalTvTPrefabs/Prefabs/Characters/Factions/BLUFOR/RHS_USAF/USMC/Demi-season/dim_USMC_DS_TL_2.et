@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/Weapons/M27IAR/M27IAR_VCOG.et"
+   WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_VCOG.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -71,6 +71,9 @@ SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{6893473130FEDEC7}" {
      TargetStorage "Vest/GD_GEN3_TF_N_2.et/m18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
     }
     ItemsInitConfigurationItem "{6893473135AA85FF}" {
      TargetStorage "Vest/GD_GEN3_TF_N_2.et/m67_2/Pouch_Filbe_M67_Base.et"
@@ -99,5 +102,5 @@ SCR_ChimeraCharacter : "{C4BD94682D983BA2}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 46.585 1 38.265
+ coords 179.034 1 93.706
 }
