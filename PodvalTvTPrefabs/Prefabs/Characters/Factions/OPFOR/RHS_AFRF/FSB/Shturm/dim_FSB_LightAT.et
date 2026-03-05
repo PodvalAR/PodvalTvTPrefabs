@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{012A86F6711E5FA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/Shturm/dim_FSB_Shturm_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_LightAT"
+    Icon "{1742C50F52BADD2A}UI/Icons/dim/FSB_demolition.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DC036A9677A90E4B}Prefabs/Characters/Heads/Head_White_10/Head_White_10_camo_USSR_02.et"
+    }
+   }
+  }
+ }
+ coords 70.555 1 141.314
+}
