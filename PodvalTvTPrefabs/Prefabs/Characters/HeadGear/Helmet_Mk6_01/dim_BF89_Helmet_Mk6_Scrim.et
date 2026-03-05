@@ -1,0 +1,15 @@
+GameEntity : "{7EC7455E0E21D082}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Scrim_01.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{36055315E8E49872}Assets/Characters/HeadGear/Helmet_RAC/Data/helmet_scrim.emat" "{B6D894DF487538A8}Assets/Characters/HeadGear/Helmet_MK6/data/bf89_mk6_01.emat" "{581E6468F069EBB2}Assets/Characters/HeadGear/Helmet_MK6/data/dim_bf89_mk6_cover_brownstrap_01_MTP.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{581E6468F069EBB2}Assets/Characters/HeadGear/Helmet_MK6/data/dim_bf89_mk6_cover_brownstrap_01_MTP.emat"
+   }
+  }
+ }
+ coords 133.594 1 107.685
+ angles 0 180 0
+}
