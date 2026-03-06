@@ -12,7 +12,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
      "Transmitting Range" 2500
      "Min tunable frequency" 30000
      "Max tunable frequency" 76000
-     "Frequency resolution" 200
+     "Frequency resolution" 50
     }
    }
   }
