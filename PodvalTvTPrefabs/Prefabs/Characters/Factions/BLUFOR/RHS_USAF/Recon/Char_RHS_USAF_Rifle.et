@@ -28,25 +28,25 @@ SCR_ChimeraCharacter : "{9C0252722E5DAE0F}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{68A10AF8154A9EF1}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Pouch1/Pouch_avs_front_elastic_Coy.et"
      PrefabsToSpawn {
-      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+      "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{68A10AF8C484F6A3}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
-      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+      "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{68A10AF8C4B6CBF8}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/tako/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
-      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+      "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{68A10AF8C45D1C51}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako2/Pouch_Shaw_Flex.et"
      PrefabsToSpawn {
-      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+      "{AE484B2A9DBDF18F}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{68A10AF097515FBB}" {

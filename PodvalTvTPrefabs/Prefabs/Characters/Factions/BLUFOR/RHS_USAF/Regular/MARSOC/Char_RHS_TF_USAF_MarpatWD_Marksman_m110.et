@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{870BD9CAF955F382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Marksman_m27.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{75FEB6AB7187D92C}Prefabs/Weapons/Rifles/SR25/Rifle_M110_opt.et"
+  }
+ }
+}

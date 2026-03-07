@@ -29,19 +29,28 @@ SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
-     TargetStorage "Pants/GD_Jeans_Navy.et"
+     TargetStorage "Vest/GD_ION_JPC_V2.et/Med/Pouch_Taktika_medpouch_BLK.et"
+     PrefabsToSpawn {
+      "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
      TargetStorage "Pants/GD_Jeans_Navy.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
-     TargetStorage "Jacket/Night_parka_ion1.et"
+     TargetStorage "Pants/GD_Jeans_Navy.et"
     }
     ItemsInitConfigurationItem "{689E807542DED578}" {
      TargetStorage "Pants/GD_Jeans_Navy.et"
     }
+    ItemsInitConfigurationItem "{68B6ABC893494E00}" {
+     TargetStorage "Jacket/Night_parka_ion1.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
    }
   }
  }
- coords 175.735 1 57.505
+ coords 2713.013 142.343 7957.312
 }

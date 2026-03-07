@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{18F5BE808A4047C7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_marksman"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5ABD533E01B181A2}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_ACOG.et"
+  }
+ }
+}

@@ -4,7 +4,7 @@ Vehicle : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab ""
+     Prefab "{489DAF957C526B34}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Camo_SHIZA.et"
     }
    }
   }

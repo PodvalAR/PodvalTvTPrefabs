@@ -1,6 +1,7 @@
-SCR_AIGroup : "{84AF92E239A71FCE}Prefabs/Groups/BLUFOR/British Forces/UK2/Group_USSR_Rifle_SQ.et" {
+SCR_AIGroup : "{84AF92E239A71FCE}Prefabs/Groups/OPFOR/USSR/Group_USSR_Rifle_SQ.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
   "{8A7E668F5E102151}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_SL_RANDOM.et" "{CDE7F53CAD55EAE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_SR_RANDOM.et" "{635E00E006AD9962}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_MG_RANDOM.et" "{D67D1D2E58DBC25B}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_AMG_RANDOM.et" "{6C63188AE2BE1F52}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_AT_RANDOM.et" "{D9400544BCC8446B}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_AAT_RANDOM.et" "{BA92838DA2F16499}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_Sharpshooter_RANDOM.et" "{963A4B934971EBDF}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_CC_RANDOM.et" "{7DE3DB256DCC5CB6}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_CREW_RANDOM.et"
  }
+ m_bSetPlayable 1
 }

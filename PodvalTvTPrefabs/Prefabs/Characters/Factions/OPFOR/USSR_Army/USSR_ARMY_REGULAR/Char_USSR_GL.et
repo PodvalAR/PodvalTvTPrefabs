@@ -7,6 +7,9 @@ SCR_ChimeraCharacter : "{29786A5DBA2EC48A}Prefabs/Characters/Factions/OPFOR/USSR
     Icon "{29949C5ADC63DA33}UI/Icons/grenadier.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{15CC4CF6B126D8E1}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Vest {

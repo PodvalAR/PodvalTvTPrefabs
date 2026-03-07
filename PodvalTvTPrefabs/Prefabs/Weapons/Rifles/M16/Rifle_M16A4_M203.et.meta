@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A77A68D971BAAB22}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203.et"
+ Name "{A77A68D971BAAB23}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_M203.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,9 +9,9 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
-  EntityTemplateResourceClass HEADLESS : PC {
-  }
   EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
   }
   EntityTemplateResourceClass Xbox : PC {
   }

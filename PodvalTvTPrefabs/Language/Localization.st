@@ -773,6 +773,25 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68C2C4B7C0392F5D}" {
+   Id "PDVL_Squad_PL"
+   Target_en_us "Platoon Headquarters"
+   Target_fr_fr "Quartier général du peloton"
+   Target_it_it "Comando plotone"
+   Target_de_de "Zugführung"
+   Target_es_es "Cuartel general del pelotón"
+   Target_cs_cz "Velitelství čety"
+   Target_pl_pl "Dowództwo plutonu"
+   Target_ru_ru "Штаб взвода"
+   Target_ja_jp "小隊本部"
+   Target_ko_kr "소대 본부"
+   Target_pt_br "Quartel-general do pelotão"
+   Target_zh_cn "排部"
+   Target_uk_ua "Штаб взводу"
+   Modified 1757595102
+   Author "Gubastus"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A124C18D0A5875}" {
    Id "PDVL_Squad_PLHQ"
    Target_en_us "Platoon Headquarters"

@@ -1,0 +1,13 @@
+GenericEntity : "{283CDF7E44B5A9F8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{68C6AB5CAEBA7B7F}" {
+     SourceMaterial "LP_LOWER_ASSEMBLY"
+     AssignedMaterial "{AE61CC7C15342ECF}Assets/Weapons/Rifles/m4a1/Data/LP_LOWER_ASSEMBLY_M4CONV.emat"
+    }
+   }
+  }
+ }
+}

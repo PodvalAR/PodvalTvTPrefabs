@@ -1,0 +1,55 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 25
+   PriorityAgainstVehicles 70
+   UsedAgainst 0xe 0x11
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_2A42_APFSDS-T_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68CA75777BE15EE2}" {
+     Weight 0
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 10000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    m_Size SLOT_2x2
+   }
+   WeightPerAmmo 0.08
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell2A42 "{68CA75777BE15ED7}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#RHS-Magazine_2A42_APFSDS-T_Name"
+    Description ""
+    m_sAmmoCaliber "#RHS-AmmunitionID_30mm"
+    m_sAmmoType "3УБР6"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{C606B6A19900E01E}Assets/Weapons/Magazines/Magazine_M242/Magazine_25x137_M242_60rnd_APDST.xob"
+   MaxAmmo 160
+   AmmoConfig "{D14FE126CAD66EB8}Configs/Weapons/Ammo/Ammo_30mm_3UBR11.conf"
+   AmmoMapping {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{AAD3D58CE0E6C60F}Assets/Weapons/Magazines/Magazine_M242/Magazine_25x137_M242_dummy.xob"
+   Materials {
+    MaterialAssignClass "{68CA75777BE15ED3}" {
+     SourceMaterial "Common/Materials/Default"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+ }
+}

@@ -69,6 +69,9 @@ Projectile : "{2FBCA0A7CEDDE7B0}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x39_Ball_
 Projectile : "{30839F4B814E9497}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M993.et" {
  coords 252.096 1 254.737
 }
+SCR_ChimeraCharacter : "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_AR_D.et" {
+ coords 63.354 1 85.432
+}
 GenericEntity : "{322A92C631142015}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Seats/UAZ469_seats_rear_FIA_uncovered.et" {
  coords 86.546 1 180.05
 }
@@ -95,10 +98,146 @@ Vehicle GAZ_TIGR_v2_Arbalet1 : "{451D0A74C978CB20}Prefabs/Vehicles/Wheeled/TIGR/
  coords 82.514 1 200.344
 }
 Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo TireHolder {
+     Enabled 0
+    }
+   }
+  }
+ }
  coords 94.458 1 186.885
 }
 Vehicle M1151_armed_M2HB_2 : "{4855E8A2C75F03D5}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_PAS13G.et" {
  coords 41.828 1 197.392
+}
+$grp Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ {
+  components {
+   BaseWeaponManagerComponent "{51ACD09C55D6C1AD}" {
+    DefaultWeaponIndex 0
+   }
+   MeshObject "{51ACD09C4E0B7D16}" {
+    Object "{C9764A82D5791E18}Assets/Vehicles/Wheeled/M151A2/m151a2_mount.xob"
+    PixelSizeScale 10
+   }
+   RigidBody "{51ACD09C423F175F}" {
+    SimState Collision
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+    CompartmentSlots {
+     TurretCompartmentSlot TurretCompartment : "{9ABACC67438236D3}Prefabs/Vehicles/Core/Configs/TurretCompartment_Base.conf" {
+      CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+       ParentContextList {
+        "default"
+       }
+      }
+      SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+       ParentContextList {
+        "default"
+       }
+      }
+      CharacterHasCollision 1
+      RestrictedItemTypes {
+       "BINOCULARS"
+      }
+      m_DefaultOccupantData SCR_DefaultOccupantData "{6596EE465FC7EF54}" {
+      }
+     }
+    }
+   }
+   SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+    InfoDisplays {
+     SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+      m_bIsEnabled 0
+     }
+     WCS_Armament_WeaponInfoVehicle "{62CEE7E79461A975}" {
+      m_LayoutPath "{8170DE93810F928A}UI/layouts/HUD/WeaponInfo/WeaponInfo.layout"
+     }
+    }
+   }
+   SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+    "Additional hit zones" {
+     SCR_DestructibleHitzone Turret : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" {
+      IgnoreExplosions 1
+      m_pDestructionHandler SCR_DestructionBaseHandler "{5584FE5A9F48BA15}" {
+       m_bAllowHideWreck 0
+      }
+     }
+    }
+   }
+   SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+    components {
+     AITurretAimingComponent "{5549077A3C06B25E}" {
+      AimingPID 5 8 0
+      AimingPIDMaxErrorIntegral 0.07
+      AimingBasePID 5 2 0
+      AimingBasePIDMaxErrorIntegral 0.3
+     }
+    }
+    TurretUnconsciousPosition 500 500
+   }
+   SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+    m_fBobScale 0
+    m_fShakeScale 0
+    m_fDist_Max 6
+    m_fDist_Min 4
+    m_fDist_Desired 5
+    m_pCameraAlignData SCR_VehicleCameraAlignment "{55552424A2DCD569}" {
+    }
+   }
+   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+    SignalsSourceAccess SignalsSourceAccessClass "{51ACD08AE7410D68}" {
+     signalsSuffix "Turret"
+    }
+    useAimingType MainTurret
+    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+     PivotID "v_gun_01"
+     Offset 0 2 -0.3
+     Angles 0 0 0
+    }
+    WeaponTemplate "{9CF19D872D4D1C00}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle.et"
+   }
+   ActionsManagerComponent "{51ACD09C7181BA0B}" {
+    ActionContexts {
+     UserActionContext "{51ACFBB064390C6E}" {
+      UIInfo SCR_ActionContextUIInfo "{6110A28AB504E1A1}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+      }
+      ContextName "default"
+      Position PointInfo "{51ACFBB061993925}" {
+       Offset 0 1 0
+      }
+     }
+    }
+   }
+   BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+    AnimGraph "{3E44648DB74CBBA2}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m151a2.agr"
+    AnimInstance "{080604593C99C8DB}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Weapon_m151a2.asi"
+    AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+     AnimGraph "{3E44648DB74CBBA2}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m151a2.agr"
+     AnimInstance "{F3589568A498AC37}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Player_m151a2.asi"
+     BindingName "Vehicle"
+    }
+    AutoCommandBind 0
+   }
+   RplComponent "{51ACD09DAD530767}" {
+    "Rpl State Override" Runtime
+   }
+  }
+  coords 72.896 1.021 172.14
+ }
+ {
+  components {
+   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    }
+   }
+  }
+  coords 71.041 1 169.099
+ }
 }
 Vehicle M1151_armed_M2HB_Tan1 : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
  coords 42.414 1 187.463
@@ -108,6 +247,9 @@ GenericEntity : "{58B3FB7F102A8B1B}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ur
 }
 Vehicle M1025_armed_M2HB_ION_D1 : "{59103017F394001A}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_ION_D.et" {
  coords 44.493 1 178.231
+}
+TracerProjectile : "{5A2E0AD043840F2A}Prefabs/Weapons/Ammo/30x165/Ammo_30mm_APT_3UBR6.et" {
+ coords 100.279 1 19.837
 }
 Vehicle GAZ_TIGR_v2_KORD_SSP_ARMOR_CAMO1 : "{5C38170BFBE9F966}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD_SSP_ARMOR_CAMO.et" {
  components {
@@ -119,10 +261,28 @@ Vehicle GAZ_TIGR_v2_KORD_SSP_ARMOR_CAMO1 : "{5C38170BFBE9F966}Prefabs/Vehicles/W
    }
   }
  }
- coords 58.493 1 194.384
+ coords 58.748 1 194.912
 }
 Vehicle M1240A1_MATV_Turret_Base1 : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Base.et" {
  coords 67.519 1 189.208
+}
+$grp Tank : "{71E416DCB2BE86D7}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_Desert.et" {
+ M2A2_BUSK_Desert1 {
+  coords 169.01 1 9.031
+  angles 0 -86.996 0
+ }
+ M2A2_BUSK_Desert2 {
+  coords 177.607 1 8.537
+  angles 0 -0.571 0
+ }
+}
+$grp Tank : "{72018C87FBDC9F8C}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et" {
+ M2A2_Desert1 {
+  coords 185.479 1 7.629
+ }
+ M2A2_Desert2 {
+  coords 192.762 1 7.308
+ }
 }
 Turret : "{7874DAF7EA007CD5}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM.et" {
  coords 75.896 0.675 169.278
@@ -181,6 +341,147 @@ GenericEntity : "{ABD70C6C845790BC}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ur
  coords 89.78 1.381 179.527
 }
 Turret : "{B1E54BD5EAFFF15B}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_URAL.et" {
+ components {
+  BaseWeaponManagerComponent "{51ACD09C55D6C1AD}" {
+   DefaultWeaponIndex 0
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{C9764A82D5791E18}Assets/Vehicles/Wheeled/M151A2/m151a2_mount.xob"
+   PixelSizeScale 10
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Static 0
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      VisibilityRange -1
+      CanAggregate 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      CanAggregate 1
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList +{
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       m_bExteriorOnly 0
+      }
+     }
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+     m_bIsEnabled 1
+    }
+    WCS_Armament_WeaponInfoVehicle "{62CEE7E79461A975}" {
+     m_LayoutPath "{8170DE93810F928A}UI/layouts/HUD/WeaponInfo/WeaponInfo.layout"
+     m_bIsEnabled 0
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" {
+     IgnoreExplosions 1
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584FE5A9F48BA15}" {
+      m_bAllowHideWreck 0
+     }
+    }
+   }
+  }
+  SCR_SignalDebugComponent "{6897307787C35113}" {
+   m_aSignalNames +{
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -45 45
+   LimitsVert -6 40
+  }
+  SCR_UniversalInventoryStorageComponent "{548680978A2448D1}" {
+   Attributes SCR_ItemAttributeCollection "{5916ADF7BDCBDD9F}" {
+    ItemDisplayName UIInfo "{6897307787C3510F}" {
+     Name "#AR-Inventory_Turret"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5916ADF7B598056F}" {
+      CameraPreset Right
+      PreviewModel "{E71679A4B28D5B23}Assets/Weapons/HeavyWeapons/M2HB/M2.xob"
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{5916ADF796FF6A88}" {
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_Size SLOT_3x3
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{6897307787C35104}" {
+     SlotTemplate InventoryStorageSlot M2ammunition {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 1
+   m_fDist_Max 4.8
+   m_fDist_Min 3.2
+   m_fDist_Desired 4
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{0BA6ECA87AC06B83}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr.et"
+  }
+  SCR_TurretInventoryStorageManagerComponent "{5A94DAA0E8F8C0E5}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Radius 0.8
+    }
+    UserActionContext "{64DA8061CF9511D5}" {
+     Radius 0.8
+     Height 0
+     LineOfSightCheck 1
+    }
+    UserActionContext "{62BEB8B48A19EEE1}" {
+     Position PointInfo "{62BEB8B4F3710C5F}" {
+      Offset 0.0621 1.5258 -0.2849
+      Angles 0 0 0
+     }
+     Radius 0
+    }
+    UserActionContext "{62BEB8B4D80A0224}" {
+     Radius 0
+    }
+    UserActionContext "{68A4948A19F9D026}" {
+     ContextName "Test"
+     Position PointInfo "{68A494B5DB608FB8}" {
+      PivotID "gunner_idle"
+     }
+     Radius 0.6
+     LineOfSightCheck 1
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AlwaysActive 1
+   AutoCommandBind 1
+   AutoVariablesBind 1
+  }
+  RplComponent "{51ACD09DAD530767}" {
+   "Rpl State Override" Runtime
+  }
+ }
  coords 84.345 1 179.64
 }
 Vehicle Ural4320_GUNTRUCK1 : "{B6BA0C8D6FF01C43}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_GUNTRUCK.et" {
@@ -206,6 +507,44 @@ GenericEntity : "{DC42DBC67529BC65}Prefabs/Weapons/Attachments/Optics/VZOR4/VZOR
 }
 Turret : "{EBBA338CCDE146A2}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK.et" {
  components {
+  EventHandlerManagerComponent "{551EC6A46DA1232A}" {
+   EventHandlers {
+    BaseEventHandler "{5954A8DFE31FAF80}" {
+     EventName "OnCompartmentEntered"
+    }
+    BaseEventHandler "{5954A8DFE4EAA41F}" {
+     EventName "OnCompartmentLeft"
+    }
+   }
+  }
+  SoundComponent "{590A97347B0CD0F9}" {
+   Filenames +{
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+  }
+  BaseWeaponManagerComponent "{51ACD09C55D6C1AD}" {
+   DefaultWeaponIndex 0
+  }
+  EquipedWeaponStorageComponent "{5486E393FA201445}" {
+   StoragePurpose 0x2 0x1
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{0FCB8214A31B710C}Assets/Vehicles/Wheeled/M1151/VehParts/GPK.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Static 0
+   Kinematic 0
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{54F1010AE098CCEB}" {
+     ResourceName "{6D4CF2EAD22A4D26}Prefabs/Vehicles/Wheeled/M998/ProcAnims/TurretHUMVEE.pap"
+     BoneNames +{
+     }
+    }
+   }
+  }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
@@ -219,6 +558,91 @@ Turret : "{EBBA338CCDE146A2}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151
     }
    }
   }
+  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
+    }
+    WCS_Armament_WeaponInfoVehicle "{62CEE7E79461A975}" {
+     m_LayoutPath "{2E427134219C809E}UI/layouts/HUD/WeaponInfo/WCS_WeaponInfo.layout"
+     m_aHandlers {
+      SCR_InfoDisplaySlotHandler "{62CEE7E673328131}" {
+       m_bCanUpdate 1
+       m_sSlotName "Slot_WeaponInfo"
+      }
+     }
+     m_sInterfaceSettingName "m_bShowWeaponInfo"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{51ACD09C524A7924}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" {
+     IgnoreExplosions 1
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584FE5A9F48BA15}" {
+      m_bAllowHideWreck 0
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{54C8A16E6F5ADEDE}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66D74922F7E06BBE}" {
+     SlotTemplate InventoryStorageSlot M2ammunition {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 0.5
+   m_fDist_Max 5.4
+   m_fDist_Min 1.5
+   m_fDist_Desired 4.5
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -13.5 9
+   LimitsVert -5 33
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.0929 0.0571
+    MergePhysics 1
+   }
+   WeaponTemplate "{858504D2A45B440F}Assets/Weapons/HeavyWeapons/M2/HMG_M2HB_Pintle_GPK_Shield.et"
+  }
+  SCR_TurretInventoryStorageManagerComponent "{5A94DAA0A62A981C}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "gunner_idle"
+      Offset 0 0 0
+     }
+     Radius 0.4
+    }
+    UserActionContext "{5556DCEB8FAC3FB9}" {
+     ContextName "gunner"
+     Position PointInfo "{5556DCEB8C455280}" {
+      PivotID "v_turret_01"
+      Offset 0 0.2 0
+     }
+     Radius 0.6
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{6791BE2144ADC6A3}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m998.agr"
+    AnimInstance "{6C73754244FE9C94}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Player_m998.asi"
+   }
+  }
+  RplComponent "{51ACD09DAD530767}" {
+   "Rpl State Override" Runtime
+  }
  }
  coords 82.764 1.771 179.399
 }
@@ -226,7 +650,7 @@ GenericEntity : "{F3B9EB4DD5006E54}Prefabs/Weapons/Magazines/AGS30/Box_30mm_AGS3
  coords 66.076 2.163 140.484
 }
 GenericEntity : "{F6D80625B58CFE12}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/Arbalet/HMG_KORD_Arbalet-DM.et" {
- coords 79.518 1 171.594
+ coords 79.518 2.154 171.594
 }
 Projectile : "{FA0B3B2CB7A9E5FB}Prefabs/Weapons/Ammo/Ammo_VOG30_Vehicle.et" {
  coords 64.555 1.471 139.893
@@ -234,20 +658,15 @@ Projectile : "{FA0B3B2CB7A9E5FB}Prefabs/Weapons/Ammo/Ammo_VOG30_Vehicle.et" {
 Vehicle UAZ469_uncovered_Turret_Ses_CDF_AGS_PAG1 : "{FF6B22224BA2B885}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_CDF_AGS_PAG.et" {
  coords 91.888 1 159.995
 }
-$grp GenericEntity : "{FFDA1E42195C57EA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB.et" {
- {
-  components {
-   SlotManagerComponent "{66F2D6986D44629B}" {
-    Slots {
-     RegisteringComponentSlotInfo Turret {
-      Offset 0 0.001 0
-     }
+GenericEntity : "{FFDA1E42195C57EA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB.et" {
+ components {
+  SlotManagerComponent "{66F2D6986D44629B}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.001 0
     }
    }
   }
-  coords 32.27 1 188.032
  }
- {
-  coords 81.987 1 177.107
- }
+ coords 32.27 1 188.032
 }

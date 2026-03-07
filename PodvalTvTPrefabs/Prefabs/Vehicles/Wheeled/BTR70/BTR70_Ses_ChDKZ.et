@@ -120,6 +120,7 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
     }
     RegisteringComponentSlotInfo AmmoStorage {
      PivotID "v_root"
+     Offset 0 0.05 0
      Prefab "{0A21DC21B1D23732}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Magazines/VehPart_BTR70_AmmoStorage_PKMT_KVPT.et"
      RegisterDamage 1
     }

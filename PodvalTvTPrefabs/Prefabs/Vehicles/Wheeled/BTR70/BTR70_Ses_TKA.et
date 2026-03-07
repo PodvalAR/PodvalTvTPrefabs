@@ -1,0 +1,12 @@
+Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo AmmoStorage {
+     Offset 0 0.05 0
+    }
+   }
+  }
+ }
+}

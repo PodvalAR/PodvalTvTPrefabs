@@ -1,0 +1,44 @@
+GenericEntity : "{21578246A6FB38AE}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  SlotManagerComponent "{62A52E56EAB47677}" {
+   Slots {
+    EntitySlotInfo cover1 {
+     Offset -0.0306 0.0824 0.2129
+     Angles 0 0 -90
+     Enabled 0
+     Prefab "{B788B9BF579223C1}Prefabs/Weapons/Attachments/Misc/manta_railcover/new/MantaRailCover_6in_black.et"
+    }
+    EntitySlotInfo cover2 {
+     Offset 0.031 0.0824 0.2129
+     Angles 0 0 90
+     Enabled 0
+     Prefab "{B788B9BF579223C1}Prefabs/Weapons/Attachments/Misc/manta_railcover/new/MantaRailCover_6in_black.et"
+    }
+    EntitySlotInfo grip {
+     Offset 0.0009 0.0505 0.1829
+     Angles 0 0 1
+     Prefab "{ACC21EFB352F4737}Prefabs/Weapons/Attachments/Grips/Grip_GPS2/RHS_GPS2_BLK.et"
+    }
+    EntitySlotInfo cover3 {
+     Offset -0.0306 0.0824 0.324
+     Angles 0 0 -90
+     Enabled 0
+     Prefab "{0B2E41B2B4977F47}Prefabs/Weapons/Attachments/Misc/manta_railcover/new/MantaRailCover_crossclip_black.et"
+    }
+    EntitySlotInfo cover4 {
+     Offset 0.0009 0.0505 0.2463
+     Angles 0 0 -179
+     Enabled 0
+     Prefab "{706483F78E07EED4}Prefabs/Weapons/Attachments/Misc/manta_railcover/new/MantaRailCover_pocket_black.et"
+    }
+    EntitySlotInfo gripcover {
+     Offset 0 -0.0025 0.1829
+     Angles 0 0 1
+     Enabled 0
+     Prefab "{F86D2CAEA2E72FFC}Prefabs/Weapons/Attachments/Misc/manta_railcover/new/MantaGripCover25in_black.et"
+    }
+   }
+  }
+ }
+}
