@@ -305,7 +305,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sRHSLayoutOverlayResource "{97A704055824A7A0}UI/layouts/Sights/Optic_Widgets_K17_Epoch.layout"
     }
     RHS_VehicleNightVisionComponent "{68CB279D0E898410}" {
-     Enabled 0
+     Enabled 1
      m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
      m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
      m_aBlemSet {
@@ -315,7 +315,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      m_bUseMask 0
      m_eUseMask CUSTOM
-     m_bManualGainControl 1
+     m_bManualGainControl 0
     }
    }
    SignalsSourceAccess SignalsSourceAccessClass "{68CB279D0E89840E}" {
@@ -627,5 +627,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    DeactivationDelay 0
   }
  }
- coords 1335.319 51 2154.757
+ coords 6152.548 56.937 6880.952
 }
