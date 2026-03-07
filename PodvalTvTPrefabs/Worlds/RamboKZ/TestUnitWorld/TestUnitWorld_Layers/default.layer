@@ -1,0 +1,6 @@
+SCR_ChimeraCharacter : "{17A4D6C647C27781}Prefabs/Characters/Factions/INDFOR/TKR/Character_Ses_TKR_Rifleman.et" {
+ coords 149.643 1 16.255
+}
+SCR_ChimeraCharacter : "{446B44D0CDFC2E1B}Prefabs/Characters/Factions/INDFOR/TKR/OLD/Character_Ses_TKR_Militiamen_AK74.et" {
+ coords 148.301 1 17.09
+}
