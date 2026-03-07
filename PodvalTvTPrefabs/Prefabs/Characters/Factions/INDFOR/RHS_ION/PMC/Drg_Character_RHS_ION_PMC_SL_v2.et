@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C7E3BB9001F743B7}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_MC_BLK/Helmet_Exfil_Blk_ION.et"
+    }
+   }
+  }
+ }
+ coords 5836.002 4.563 9798.094
+}
