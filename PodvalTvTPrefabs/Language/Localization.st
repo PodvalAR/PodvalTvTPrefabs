@@ -659,6 +659,13 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68CD10F38C26945A}" {
+   Id "PDVL_Squad_CREW"
+   Target_ru_ru "Экипаж боевой машины"
+   Modified 1758270312
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68B96CA190AFCB8A}" {
    Id "PDVL_Squad_Mechanized"
    Target_en_us "Mechanized Squad"

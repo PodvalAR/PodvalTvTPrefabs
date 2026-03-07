@@ -17,18 +17,18 @@ SCR_ChimeraCharacter : "{630A989E651D5279}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689F35786861AA08}" {
-     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
-     PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "" "" "" "" "" ""
+     TargetStorage "Pants/Pants_6Sh122_Syrian_Digital.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
-     TargetStorage "Pants/Pants_6Sh122_Syrian_Digital.et"
+     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
     }
     ItemsInitConfigurationItem "{689F3578E51BED3D}" {
      TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
     }
     ItemsInitConfigurationItem "{68C45460019AB263}" {
+     Enabled 0
      TargetStorage "Pants/Pants_6Sh122_Syrian_Digital.et"
      PrefabsToSpawn {
       "" "" "" "" "" "" "" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
@@ -37,4 +37,5 @@ SCR_ChimeraCharacter : "{630A989E651D5279}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
+ coords 86.205 1 55.105
 }
