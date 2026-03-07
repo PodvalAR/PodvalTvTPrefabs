@@ -1,0 +1,37 @@
+MatPBRMulti {
+ Cull none
+ MetalnessScale 0
+ GlobalMapsUVTransform MatUVTransform "{65B4201685C9BFA1}" {
+ }
+ MaskMap "{9E655F80411ACFD6}Assets/Props/Military/DeskFlags_01/Data/DeskFlags_01_Base_GLOBAL_MASK.edds"
+ Enabled_4 1
+ BCR_4 "{9A86792573FC7E6A}Assets/_SharedData/GrungeSurface/ST_Dirt_01_BCR.edds"
+ NMO_4 "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ CombineMode_4 1
+ MaskSharpness_4 0.502
+ MaskOffset_4 0.1
+ UVTransform_4 MatUVTransform "{65B4202D60CC656B}" {
+  OffsetV -0.498
+ }
+ Metalness_4 0
+ Enabled_3 1
+ BCR_3 "{6D8DE49BABB2827A}Assets/Props/Military/DeskFlags_01/Data/DeskFlags_01_BCR.edds"
+ MaskSharpness_3 0.401
+ MaskUVScale_3 0.001
+ UVTransform_3 MatUVTransform "{65B4200E1FE558A5}" {
+  OffsetV -0.264
+ }
+ Enabled_2 1
+ BCR_2 "{6D8DE49BABB2827A}Assets/Props/Military/DeskFlags_01/Data/DeskFlags_01_BCR.edds"
+ MaskSharpness_2 2.943
+ MaskOffset_2 0.13
+ MaskUVScale_2 0.001
+ UVTransform_2 MatUVTransform "{65B4201263B2DBB8}" {
+  OffsetV -0.498
+ }
+ Color_1 0.474 0.352 0.075 1
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ DetNormal_1 0.468
+ Roughness_1 0.318
+ AO_1 0.753
+}
