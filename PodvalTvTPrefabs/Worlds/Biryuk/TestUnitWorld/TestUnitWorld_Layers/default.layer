@@ -447,6 +447,10 @@ SCR_ChimeraCharacter : "{90644CAF5B1CA422}Prefabs/Characters/Factions/OPFOR/TKA/
 GenericEntity : "{90D8238D1D8D2DC6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et" {
  coords 58.963 1 43.922
 }
+Vehicle APC_K17_Berezok_tan1 : "{944D59BF5EC046D6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_tan.et" {
+ coords 144.443 1 249.144
+ angles 0 -179 0
+}
 SCR_AIGroup : "{955623450C88D6F3}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RHS_USAF_Regular_Squad.et" {
  coords 76.645 1 64.742
 }

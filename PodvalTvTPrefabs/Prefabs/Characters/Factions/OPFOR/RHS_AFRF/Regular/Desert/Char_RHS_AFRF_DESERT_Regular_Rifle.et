@@ -22,17 +22,6 @@ SCR_ChimeraCharacter : "{9993F5029B69CCCF}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
-     TargetStorage "Jacket/Jacket_6Sh122_Syrian_Digital.et"
-     PrefabsToSpawn {
-      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68C45460019AB263}" {
-     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et"
-     PrefabsToSpawn {
-     }
-    }
     ItemsInitConfigurationItem "{68B4AA6657622863}" {
      TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
      TargetPurpose 1
@@ -61,5 +50,4 @@ SCR_ChimeraCharacter : "{9993F5029B69CCCF}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 82.688 1 54.539
 }

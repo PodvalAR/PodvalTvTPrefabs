@@ -10,13 +10,13 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
      "Transmitting Range" 2500
      "Min tunable frequency" 27000
      "Max tunable frequency" 52000
-     "Frequency resolution" 100
+     "Frequency resolution" 200
     }
     RadioTransceiver "{68909293F9727CD9}" {
      "Transmitting Range" 2500
      "Min tunable frequency" 27000
      "Max tunable frequency" 52000
-     "Frequency resolution" 100
+     "Frequency resolution" 200
     }
    }
   }
@@ -147,5 +147,4 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    }
   }
  }
- coords 71.039 1 20.171
 }

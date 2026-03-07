@@ -1,3 +1,6 @@
+Projectile : "{02ACD01C0FEF1D99}Prefabs/Weapons/Ammo/30x165/Ammo_30mm_APFSDS_3UBR11.et" {
+ coords 168.245 1 251.907
+}
 $grp GenericEntity : "{0365F2951F5E001F}Prefabs/Weapons/Attachments/Optics/ROMEO8T/ROMEO8T_FDE.et" {
  {
   coords 51.043 1 211.279
@@ -8,6 +11,10 @@ $grp GenericEntity : "{0365F2951F5E001F}Prefabs/Weapons/Attachments/Optics/ROMEO
 }
 Vehicle M1151_armed_M2HB1 : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
  coords 45.373 1 187.584
+}
+Turret : "{07260C68FCC746A4}Prefabs/Weapons/Tripods/9K135/Deployable_Tripod_9K135.et" {
+ coords 155.793 1 251.912
+ angles 0 -178.57 0
 }
 GenericEntity : "{07465777C26DD5EB}Prefabs/Weapons/Attachments/Muzzle/FlashHider_AKM/FlashHider_AKM.et" {
  coords 46.628 1.594 145.687
@@ -38,6 +45,14 @@ $grp Projectile : "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/SmallArms/Ammo_545x39_
   coords 52.985 1 211.681
  }
 }
+Vehicle K4386_Armed_Camo1 : "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et" {
+ coords 160.009 1 251.634
+ angles 0 -179.708 0
+}
+Vehicle K4386_Armed_Camo_3UBR1 : "{1DF4C30C130D8FAE}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo_3UBR11.et" {
+ coords 169.945 1 244.711
+ angles 0 -179.401 0
+}
 Vehicle M1151_armed_M2HB_1 : "{2401DC427B9B8CFB}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_MBO.et" {
  coords 44.63 1 197.45
 }
@@ -54,6 +69,9 @@ GenericEntity : "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_7
 }
 Vehicle APC_K17_Epoch_tan1 : "{295A6AAFBE74C040}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_tan.et" {
  coords 38.295 1 17.031
+}
+GenericEntity : "{2CE44983D2BA2F7D}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_k4386.et" {
+ coords 168.37 2.537 253.069
 }
 $grp GenericEntity : "{2F65F497A1DDD0E0}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M110/FlashHider_AR10_M110.et" {
  {
@@ -230,13 +248,18 @@ $grp Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   coords 72.896 1.021 172.14
  }
  {
-  components {
-   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
-    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
-    }
-   }
-  }
   coords 71.041 1 169.099
+ }
+}
+$grp GenericEntity : "{4EE228DD71C21BDC}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_k4386_3UBR11.et" {
+ {
+  coords 171.92 1.881 247.522
+ }
+ {
+  coords 182.831 1 244.235
+ }
+ {
+  coords 180.228 1 245.198
  }
 }
 Vehicle M1151_armed_M2HB_Tan1 : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
@@ -315,6 +338,9 @@ Vehicle Ural4320_ChDKZ_ZU1 : "{89ACA856D113A305}Prefabs/Vehicles/Wheeled/Ural432
 }
 GenericEntity : "{8F6AA7E0ACAFE145}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS1/Suppressor_PBS1.et" {
  coords 46.988 1 145.26
+}
+Turret : "{8FA4BA691DA6231A}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386_Camo_3UBR11.et" {
+ coords 176.046 1 244.229
 }
 GenericEntity : "{9542F7EEE63D25EC}Prefabs/Weapons/Attachments/Optics/ROMEO8T/ROMEO8T_BLC.et" {
  coords 51.132 1 211.241
@@ -504,6 +530,54 @@ Vehicle GAZ_TIGR_v2_KORD_SPP1 : "{CD4737303AA14C6D}Prefabs/Vehicles/Wheeled/TIGR
 }
 GenericEntity : "{DC42DBC67529BC65}Prefabs/Weapons/Attachments/Optics/VZOR4/VZOR4.et" {
  coords 50.42 1 211.142
+}
+$grp GenericEntity : "{DF14B30BE6982E87}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_APFSDS_3UBR11_160rnd.et" {
+ {
+  components {
+   AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+    Priority 25
+    PriorityAgainstVehicles 70
+    UsedAgainst 0xe 0x11
+   }
+   InventoryMagazineComponent "{51EED12B803954CC}" {
+    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+      Name "#RHS-Magazine_2A42_APFSDS-T_Name"
+     }
+     ItemPhysAttributes ItemPhysicalAttributes "{68CA75777BE15EE2}" {
+      Weight 0
+      SizeSetupStrategy Manual
+      ItemDimensions 30 30 30
+      ItemVolume 10000
+      DimensionScaler 1
+      RestingAdditiveRotationLS 0 0 0
+      RestingAdditiveOffsetLS 0 0 0
+     }
+     m_Size SLOT_2x2
+    }
+    WeightPerAmmo 0.08
+   }
+   MagazineComponent "{CA6BE4D6B4DAFD69}" {
+    UIInfo MagazineUIInfo "{57126733AA401586}" {
+     m_sAmmoType "3УБР11"
+    }
+    AmmoConfig "{D14FE126CAD66EB8}Configs/Weapons/Ammo/Ammo_30mm_3UBR11.conf"
+   }
+   MeshObject "{CA6BE4D6A23F8EF0}" {
+    Object "{AAD3D58CE0E6C60F}Assets/Weapons/Magazines/Magazine_M242/Magazine_25x137_M242_dummy.xob"
+    Materials {
+     MaterialAssignClass "{68CA75777BE15ED3}" {
+      SourceMaterial "Common/Materials/Default"
+      AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+     }
+    }
+   }
+  }
+  coords 169.247 1 250.864
+ }
+ {
+  coords 179.758 1 247.341
+ }
 }
 Turret : "{EBBA338CCDE146A2}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK.et" {
  components {
