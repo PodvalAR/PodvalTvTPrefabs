@@ -1,0 +1,30 @@
+Vehicle : "{BE134ED7F4CCB5B9}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Armed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68CE6E6E114F68CA}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{0DB292AA4D779419}Assets/Vehicles/Wheeled/M1083/Data/Cabin_Woodland.emat"
+    }
+    MaterialAssignClass "{68CE6E6E114F6876}" {
+     SourceMaterial "Chassis"
+     AssignedMaterial "{9DFE76D5AEC1B4F9}Assets/Vehicles/Wheeled/M1083/Data/Chassis_Woodland.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{1DFA2C3F34862812}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Armed_Carc.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{FBC5735748B324EF}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_cargo_Woodland.et"
+    }
+   }
+  }
+ }
+ coords 147.039 1 1184.987
+}
