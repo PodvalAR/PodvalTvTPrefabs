@@ -46,7 +46,7 @@ SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK/
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
      PrefabsToSpawn {
       "{AA70F585A048263E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_Multi.et"
      }
@@ -108,5 +108,5 @@ SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK/
    }
   }
  }
- coords 100.271 1 100.5
+ coords 113.736 1 69.624
 }
