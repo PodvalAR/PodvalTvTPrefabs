@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{012A86F6711E5FA2}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_LightAT"
-    Icon "{1742C50F52BADD2A}UI/Icons/dim/FSB_demolition.edds"
+    Icon "{21D967FB80F79DC3}UI/Icons/dim/FSB_Alpha_demolition.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
@@ -18,5 +18,5 @@ SCR_ChimeraCharacter : "{012A86F6711E5FA2}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 70.555 1 141.314
+ coords 68.587 1 132.021
 }
