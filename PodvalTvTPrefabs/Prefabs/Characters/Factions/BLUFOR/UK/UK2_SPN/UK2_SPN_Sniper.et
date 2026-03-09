@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK/
    WeaponTemplate "{13CD47D4F8A8E675}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Variants/Rifle_AR15_GA_UD115_DDC_ION.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{288A1FDED04F3C37}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM12x42.et"
+   WeaponTemplate "{A004065E3624160D}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM6x42_M61.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
@@ -47,9 +47,6 @@ SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK/
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
      TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
-     PrefabsToSpawn {
-      "{AA70F585A048263E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_Multi.et"
-     }
     }
     ItemsInitConfigurationItem "{6576CE8F76064C38}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/takobelt2/Pouch_PCGEN3_util.et"
@@ -90,7 +87,7 @@ SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK/
     ItemsInitConfigurationItem "{6576CE92E7D13849}" {
      TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
      PrefabsToSpawn {
-      "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et" "{4EBDF52AD20AC6D1}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_Ball_L2A2.et"
+      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
      }
     }
     ItemsInitConfigurationItem "{6576CE923FE36C11}" {
@@ -108,5 +105,5 @@ SCR_ChimeraCharacter : "{ED1E2EB1E51F7BBE}Prefabs/Characters/Factions/BLUFOR/UK/
    }
   }
  }
- coords 113.736 1 69.624
+ coords 106.141 1 100.667
 }
