@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{959434FFB400EF12}Prefabs/Characters/Factions/INDFOR/CIV/General (FIA)/FIA_CIV_T_Shirt_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FA21E1335F37B425}Prefabs/Characters/HeadGear/Hat_BallCap/dim_CAP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1AF5843B89C066B0}Prefabs/Characters/Uniforms/Shirt_TShirt_v1/Shirt_TShirt_v1_CoyoteBrown.et"
+    }
+   }
+  }
+ }
+ coords 5619.774 91.015 5896.573
+ angles 0 0 0
+}
