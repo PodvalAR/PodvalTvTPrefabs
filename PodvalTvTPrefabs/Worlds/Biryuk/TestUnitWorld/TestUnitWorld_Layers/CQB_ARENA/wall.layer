@@ -735,18 +735,33 @@ GenericEntity : "{2DEE1C3D93F591CE}Prefabs/Items/Equipment/Radios/Radio_PRC320_B
 GenericEntity : "{3F19938CB6A8896A}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_BRIT_Multi.et" {
  coords 174.95 1 150.237
 }
+SCR_AIGroup : "{41D00E92AA6B4989}Prefabs/Groups/OPFOR/Ses_TKA/Group_A2F_TKA_All.et" {
+ coords 94.01 0.993 62.977
+}
 SCR_DestructibleBuildingEntity : "{4E0845B85F4535D8}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_short.et" {
  coords 199.861 0.369 220.075
  angles 0 -90 0
 }
+SCR_ChimeraCharacter : "{4F242994A930974D}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_BaseLoadout.et" {
+ coords 91.48 1 63.029
+}
 GenericEntity : "{6C4B0814BB01611D}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Singl.et" {
  coords 84.422 1 147.26
+}
+SCR_ChimeraCharacter : "{AFFB63AA07D712D2}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_SL.et" {
+ coords 100.014 1 59.969
+}
+SCR_AIGroup : "{B313C696EA046B0D}Prefabs/Groups/OPFOR/USSR/Group_USSR_ALL.et" {
+ coords 93.568 2.681 64.751
 }
 GenericEntity : "{CFB5AA95F996BC65}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit.et" {
  coords 84.918 1 146.399
 }
 GenericEntity : "{D82E143ECF70892F}Prefabs/Props/Cultural/CharacterBust_01/CharacterBust_01.et" {
  coords 200.01 1 219.932
+}
+SCR_ChimeraCharacter : "{DB71C633DA9D1BFD}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_SL.et" {
+ coords 97.906 1 59.998
 }
 GenericEntity : "{EB277CA3EEA35E4E}Prefabs/Items/Equipment/Radios/Radio_PRC350_Brit_Multi.et" {
  coords 83.488 1 147.122
