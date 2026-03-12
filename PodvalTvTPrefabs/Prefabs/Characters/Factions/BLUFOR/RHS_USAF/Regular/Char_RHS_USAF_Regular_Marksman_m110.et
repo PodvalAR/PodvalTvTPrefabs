@@ -1,61 +1,9 @@
-SCR_ChimeraCharacter : "{AEC67AECA3B4E70F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Marksman_m27.et" {
+SCR_ChimeraCharacter : "{88E3D251FBF082F9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Marksman_m110_sub.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{F96BBA7B329ADC1A}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t.et"
-      }
-     }
-    }
-   }
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{2665E7346A746A9F}Prefabs/Weapons/Rifles/SR25/Rifle_M110_sub.et"
-  }
-  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
-   Slots {
-    LoadoutSlotInfo ArmoredVest {
-     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
-    }
-    LoadoutSlotInfo Vest {
-     Prefab "{5954E7E6197D0916}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_sniper2.et"
-    }
-   }
-  }
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{68A00A6AAA6E64F1}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper2.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
-    }
-    ItemsInitConfigurationItem "{68A09108178F884E}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper2.et/sawbe/Pouch_PCGEN3_util.et"
-     PrefabsToSpawn {
-      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68A09108EC150941}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper2.et/ifak/Pouch_PCGEN3_ifak.et"
-     PrefabsToSpawn {
-      "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68A09108FF4B9DE6}" {
-     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper2.et/zip/Minimap_JPC_ZipOnPanel2.0_Coy.et"
-     PrefabsToSpawn {
-      "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68A09108A8FD2A08}" {
-     Enabled 0
-     TargetStorage ""
-     PrefabsToSpawn {
-      "{C3101CDA7BE703D5}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
-     }
-    }
-   }
+   WeaponTemplate "{75FEB6AB7187D92C}Prefabs/Weapons/Rifles/SR25/Rifle_M110_opt.et"
   }
  }
+ coords 6142.685 109.017 11576.837
 }

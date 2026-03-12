@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{2E1E942F0F84B3ED}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_GL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{705B5DBDBF516035}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_v5.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6893473AFEAD8B69}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+    }
+   }
+  }
+ }
+ coords 5483.762 129.406 6924.881
+}

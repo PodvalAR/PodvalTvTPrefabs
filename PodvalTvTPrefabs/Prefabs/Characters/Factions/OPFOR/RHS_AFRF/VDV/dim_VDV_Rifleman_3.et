@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8936771AFC41F793}Prefabs/Weapons/Rifles/AK200/ak200_vdv_3.et"
+  }
+ }
+ coords 4541.898 11.156 8815.268
+}

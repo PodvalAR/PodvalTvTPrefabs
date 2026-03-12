@@ -1,0 +1,76 @@
+SCR_ChimeraCharacter : "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_TL_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_HeliCoPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{67812A5D844880A5}Prefabs/Weapons/Rifles/MP5/Rifle_MP5.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{0B074ED48A861C0C}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_Pilot.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/triple/Pouch_Blueforce_Tri.et"
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486EF493850}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68953486F5840E7B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6895348707D4EE3F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/holster/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/holster/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{689610050B41E57A}" {
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/holster/Pouch_Highspeed_Bleeder.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689534B994BBF82F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689534B9B0255245}" {
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/pistol/Pouch_HP103_Holster_Coyout.et"
+    }
+    ItemsInitConfigurationItem "{689534B9C1F70837}" {
+     Enabled 1
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/admin/Pouch_Shaw_Nerd_Mini.et"
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689534B9CC5C6D2D}" {
+     TargetStorage "Vest/GD_Gen3_Light_Pilot.et/admin/Pouch_Shaw_Nerd_Mini.et"
+    }
+   }
+  }
+ }
+ coords 3833.115 17.844 6939.608
+ angles 0 90 0
+}

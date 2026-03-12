@@ -336,6 +336,25 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68CEBA6980CCFE99}" {
+   Id "PDVL_Role_MortarCommander"
+   Target_en_us "Mortar Commander"
+   Target_fr_fr "Commandant de mortier"
+   Target_it_it "Comandante mortaio"
+   Target_de_de "Mörserkommandant"
+   Target_es_es "Comandante de mortero"
+   Target_cs_cz "Velitel minometu"
+   Target_pl_pl "Dowódca moździerza"
+   Target_ru_ru "Командир артиллерии"
+   Target_ja_jp "迫撃砲指揮官"
+   Target_ko_kr "박격포 지휘관"
+   Target_pt_br "Comandante de morteiro"
+   Target_zh_cn "迫击炮指挥官"
+   Target_uk_ua "Командир артилерії"
+   Modified 1758378976
+   Author "Gubastus"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A00A6CCB1A988D}" {
    Id "PDVL_Role_MortarGunner"
    Target_en_us "Mortar Gunner"
@@ -354,6 +373,25 @@ StringTable {
    Modified 1755320578
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68CEBA69831D5076}" {
+   Id "PDVL_Role_MortarLoader"
+   Target_en_us "Mortar Loader"
+   Target_fr_fr "Chargeur de mortier"
+   Target_it_it "Caricatore mortaio"
+   Target_de_de "Mörserlader"
+   Target_es_es "Cargador de mortero"
+   Target_cs_cz "Nabíječ minometu"
+   Target_pl_pl "Ładowniczy moździerza"
+   Target_ru_ru "Заряжающий"
+   Target_ja_jp "迫撃砲装填手"
+   Target_ko_kr "박격포 장전수"
+   Target_pt_br "Carregador de morteiro"
+   Target_zh_cn "迫击炮装填手"
+   Target_uk_ua "Заряджаючий"
+   Modified 1758378976
+   Author "Gubastus"
+   LastChanged "123va"
   }
   CustomStringTableItem "{68A3601B068EBD30}" {
    Id "PDVL_Role_NSV_1"

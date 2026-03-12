@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C4C8114EA48B8978}Prefabs/Weapons/Rifles/M27IAR/M27_IAR_SU230.et"
+  }
+ }
+ coords 139.853 1 131.734
+}

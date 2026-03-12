@@ -1,0 +1,15 @@
+GenericEntity : "{E81707E9E2264853}Prefabs/Weapons/Rifles/M27IAR/M38_USMC_CAMO.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+     }
+    }
+   }
+  }
+ }
+ coords 162.124 1 137.371
+}

@@ -1,0 +1,14 @@
+Vehicle : "{208FEE0BF258449B}Prefabs/Scenarios/SP01/SP01_UAZ469_USSR.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 8708.236 9.417 7351.366
+ angles 0.382 115.271 -0.809
+}

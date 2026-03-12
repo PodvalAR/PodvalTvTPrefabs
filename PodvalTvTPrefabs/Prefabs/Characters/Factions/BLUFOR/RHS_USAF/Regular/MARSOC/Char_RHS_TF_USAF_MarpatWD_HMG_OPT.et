@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{8A42A66E76D0C092}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_HMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D0CD435C0DFF5E16}Prefabs/Weapons/MachineGuns/M240/MG_M240_EOT_Opt.et"
+  }
+ }
+}

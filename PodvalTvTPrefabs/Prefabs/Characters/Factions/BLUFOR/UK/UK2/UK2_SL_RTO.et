@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{B352E45394EF0C7B}Prefabs/Characters/Factions/BLUFOR/UK/UK2/UK2_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{5027D6CF3745778F}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit_Modern.et"
+    }
+   }
+  }
+ }
+ coords 125.713 1 157.955
+}

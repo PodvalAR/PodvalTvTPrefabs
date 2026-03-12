@@ -1,0 +1,24 @@
+GenericEntity : "{82AA2FEE1D883820}Prefabs/Weapons/Rifles/M4A1/M4_PMC_3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{BEE53E42411B8FFA}Prefabs/Weapons/Attachments/Optics/bravo4/Optic_bravo4_blk.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B74D593B0A51064C}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_PRONG4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 170.652 1.193 73.054
+}

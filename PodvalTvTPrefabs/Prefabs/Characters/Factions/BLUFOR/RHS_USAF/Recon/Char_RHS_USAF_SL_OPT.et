@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{6FB8DFDF3975B6BA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Recon/Char_RHS_USAF_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{39FC2A4241483B04}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_BLOCK_II_ACOG_suppr.et"
+  }
+ }
+ coords 4657.851 158.86 9499.507
+}

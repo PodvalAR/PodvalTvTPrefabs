@@ -1,0 +1,67 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_pmag_name THIS IS BASE"
+     Description "#RHS-Magazine_pmag_windowed_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68C45464956BBCA4}" {
+     Weight 0.12
+     SizeSetupStrategy Manual
+     ItemVolume 200
+     RestingUP Right
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68C45464956BBCA0}" {
+      CameraPreset Left
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1
+      FOV 12
+     }
+    }
+    CommonItemType "RHS_RIFLE_AMMO"
+   }
+   WeightPerAmmo 0.012
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellStanag556 "{68C45464956BBC9C}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoCaliber "#AR-AmmunitionID_556x45mm"
+    m_sAmmoType "M855A1"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5866951DE2665916}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+    }
+   }
+   MaxAmmo 30
+   AmmoConfig "{48B3398C0E0C2C25}Configs/Weapons/Ammo/Ammo_556x45_M855A1.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{DACC5795857F8288}Assets/Weapons/Magazines/pmag/Magazine_30rnd_PMAG.xob"
+   Materials {
+    MaterialAssignClass "{68C45464956BBC99}" {
+     SourceMaterial "PMAG_30_Body"
+     AssignedMaterial "{BA4290CF4428DE3A}Assets/Weapons/Magazines/pmag/Data/PMAG_30_Body_coyote.emat"
+    }
+   }
+  }
+  RHS_MagazineAnimationComponent "{68C45464956BBC9B}" {
+  }
+  MagazineAnimationComponent "{68C45464956BBC95}" {
+   AnimGraph "{D7C6B7D3E3CE0811}Assets/Weapons/Magazines/Workspaces/rhs_pmag.agr"
+   AnimInstance "{C482231C3FE52FA0}Assets/Weapons/Magazines/Workspaces/pmag_magazine.asi"
+   AutoVariablesBind 1
+   AnimatedMesh "{DACC5795857F8288}Assets/Weapons/Magazines/pmag/Magazine_30rnd_PMAG.xob"
+   BulletMeshesToHide {
+    "bullet1" "bullet2" "bullet3" "bullet4" "bullet5" "bullet6" "bullet7" "bullet8" "bullet9" "bullet10" "bullet11" "bullet12" "bullet13" "bullet14" "bullet15" "bullet16" "bullet17" "bullet18" "bullet19" "bullet20" "bullet21" "bullet22" "bullet23" "bullet24" "bullet25" "bullet26" "bullet27" "bullet28" "bullet29" "bullet30"
+   }
+  }
+ }
+ coords 0.008 0 0.01
+}

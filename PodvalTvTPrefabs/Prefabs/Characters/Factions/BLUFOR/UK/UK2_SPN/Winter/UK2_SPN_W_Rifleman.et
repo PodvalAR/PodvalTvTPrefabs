@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{4EDE2A021B8C2355}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/UK2_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7DAAE728E90EC217}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+ }
+ coords 3086.821 62.564 4029.927
+}

@@ -4,10 +4,12 @@ GameEntity : "{A8F3347CC6D87E69}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_v
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     RHS_LoadoutSlotInfo Goggles {
+     Offset 0 0.003 0
      Prefab "{26D6B02D8879F71E}Prefabs/Characters/HeadGear/All_Glasses/GD_Glasses_V1.et"
     }
    }
   }
  }
- coords 153.888 1 202.926
+ coords 5469.668 129.406 6909.086
+ angles 0 75 0
 }

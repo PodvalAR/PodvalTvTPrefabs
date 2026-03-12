@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{29D2C6E0802C1423}Prefabs/Characters/Factions/INDFOR/CIV/General (FIA)/FIA_CIV_CottonShirt_1_dimkii.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{129D93F9A97CDBEB}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_grey.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{688505F34D064F8E}" {
+     TargetStorage "Jacket/ACU_t-shirt_grey.et"
+    }
+   }
+  }
+ }
+ coords 5714.862 219.031 7073.961
+ angles 0 -165 0
+}

@@ -1,0 +1,25 @@
+Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68CB27948738297B}" {
+     SourceMaterial "Hull_Mat"
+     AssignedMaterial "{F50DE092A9ECD2F3}Assets/Vehicles/Wheeled/K4386/Data/Hull_Mat_RG.emat"
+    }
+    MaterialAssignClass "{68CB279487382963}" {
+     SourceMaterial "Hull_Parts_Mat"
+     AssignedMaterial "{F443174E007EAF6F}Assets/Vehicles/Wheeled/K4386/Data/Hull_Parts_Mat_RG.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{EEEFC62ED3D039C7}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386_White.et"
+    }
+   }
+  }
+ }
+ coords 5285.272 10.555 9067.15
+}

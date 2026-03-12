@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{BD6ADFA75A4C369E}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Sapper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6A786548E4DA5EB6}Prefabs/Weapons/Rifles/SCAR_SSR/Rifle_SCAR_H_STD_Eot.et"
+  }
+ }
+ coords 183.717 1 85.05
+}

@@ -3,44 +3,66 @@ SCR_ChimeraCharacter : "{352765E58A0E08C8}Prefabs/Characters/Factions/INDFOR/RHS
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
     Icon "{14AE995347CE8E7E}UI/Icons/pmc.edds"
    }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{5E48F2AEE83F80D5}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
+    }
     ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/hsgi/Pouch_AVS_MBITR_Radio_Blk.et"
+     PrefabsToSpawn {
+      "{2D14189B61A8F9DE}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Singl.et"
+     }
     }
     ItemsInitConfigurationItem "{6674AB81F0AC56CE}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
      TargetPurpose 1
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{6674AB891B478E9F}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/flex2/Pouch_PCGEN3_takoPouch_MCBlk.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
      }
     }
     ItemsInitConfigurationItem "{6674AB89183E1F62}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
      }
     }
-    ItemsInitConfigurationItem "{6674AB891E1F2396}" {
-     TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/mbitr/Pouch_PCGEN3_takoPouch_MCBlk.et"
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{6674AB8975521805}" {
+    ItemsInitConfigurationItem "{68B8DE927FBED44B}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/raid/Pouch_Shaw_Raid_MCBlk.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
    }
   }
  }
+ coords 1281.292 39 2100.869
 }

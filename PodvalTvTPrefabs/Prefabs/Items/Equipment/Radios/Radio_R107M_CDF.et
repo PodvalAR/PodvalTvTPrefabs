@@ -7,7 +7,7 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
      "Transmitting Range" 7500
-     "Frequency resolution" 200
+     "Frequency resolution" 100
     }
    }
   }

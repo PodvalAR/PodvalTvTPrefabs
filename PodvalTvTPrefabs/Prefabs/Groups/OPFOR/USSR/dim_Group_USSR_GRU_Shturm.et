@@ -1,0 +1,9 @@
+SCR_AIGroup : "{2E11F5063753932B}Prefabs/Groups/OPFOR/USSR/dim_Group_USSR_GRU.et" {
+ ID "0000000000000001"
+ coords 11043.796 35.688 1628.213
+ angles 0 90 0
+ m_aUnitPrefabSlots {
+  "{4AA7886C9F8154F8}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_SL.et" "{2AFA07525AB29FC1}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_GL.et" "{7538A769C34AE208}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_MG.et" "{14B335BCE270B066}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Rifleman.et" "{3059B83402167C51}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Sapper.et" "{6C47F50D12CE7F9D}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Medic.et" "{EF580BEA47F2999A}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Sniper_SVD_Armor.et"
+ }
+ m_sCustomNameSet "Спецназ ГРУ"
+}

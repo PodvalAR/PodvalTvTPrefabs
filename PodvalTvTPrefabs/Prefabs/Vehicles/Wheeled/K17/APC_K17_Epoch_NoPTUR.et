@@ -1,0 +1,13 @@
+Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{F5BEE803B32DC0DC}Prefabs/Vehicles/Wheeled/K17/VehPart/dim_Turret_K17_Epoch.et"
+    }
+   }
+  }
+ }
+ coords 4547.134 11.157 8804.953
+}

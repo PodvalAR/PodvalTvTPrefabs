@@ -20,9 +20,10 @@ SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6286835946BBC091}" {
-     TargetStorage "Pants/ACU_pants_MC.et"
+     TargetStorage "Pants/Pants_M88_vietnam_blk.et"
     }
    }
   }
  }
+ coords 1279.029 39 2102.261
 }

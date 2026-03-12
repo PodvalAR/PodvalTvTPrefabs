@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{067F67DD7ABE525F}Prefabs/Weapons/M27IAR/M27IAR_GL.et"
+   WeaponTemplate "{067F67DD7ABE525F}Prefabs/Weapons/Rifles/M27IAR/M27IAR_GL.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -44,13 +44,19 @@ SCR_ChimeraCharacter : "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6895348707D4EE3F}" {
-     TargetStorage "Vest/GD_GEN3_GL_N.et/flex2/Pouch_Shaw_Flex.et"
+     TargetStorage "Vest/GD_GEN3_GL_N.et/takobelt/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
     }
     ItemsInitConfigurationItem "{689534870ECBB2E8}" {
      TargetStorage "Vest/GD_GEN3_GL_N.et/m67_1/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{68953487176F97FB}" {
      TargetStorage "Vest/GD_GEN3_GL_N.et/tako2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{689610050B41E57A}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
     }
     ItemsInitConfigurationItem "{689534B8AC565281}" {
      TargetStorage "Vest/GD_GEN3_GL_N.et/m18_2/Pouch_Filbe_M18_2.et"
@@ -76,5 +82,5 @@ SCR_ChimeraCharacter : "{0F322EF158E4EA64}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 229.938 1 244.876
+ coords 161.653 1 128.108
 }

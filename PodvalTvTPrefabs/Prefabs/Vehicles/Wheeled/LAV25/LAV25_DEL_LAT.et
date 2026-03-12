@@ -1,0 +1,19 @@
+Vehicle : "{1B8EB269EECA2DF9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_base.et" {
+ ID "656AD244775DA620"
+ components {
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62C2BB5FC2DB12CF}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

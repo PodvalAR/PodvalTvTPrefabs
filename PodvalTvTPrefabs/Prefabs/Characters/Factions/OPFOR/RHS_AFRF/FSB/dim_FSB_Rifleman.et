@@ -14,7 +14,8 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{E002329C6306409E}UI/Icons/FSB_Alpha.edds"
+    Name "Сотрудник ФСБ"
+    Icon "{E002329C6306409E}UI/Icons/dim/FSB_Alpha.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -113,5 +114,5 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5284.582 9.741 9110.565
+ coords 235.013 1 239.486
 }

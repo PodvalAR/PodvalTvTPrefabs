@@ -1,0 +1,58 @@
+Vehicle : "{DE1947A6D4DECD2C}Prefabs/Vehicles/Wheeled/M1083/M1083_Command.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68CE6E6445D09AA7}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{00621E377957DD32}Assets/Vehicles/Wheeled/M1083/Data/Cabin_Tan.emat"
+    }
+    MaterialAssignClass "{68CE6E6445D09A9C}" {
+     SourceMaterial "Chassis"
+     AssignedMaterial "{A51409CA7DE7D6F3}Assets/Vehicles/Wheeled/M1083/Data/Chassis_Tan.emat"
+    }
+    MaterialAssignClass "{68CE6E6445D09A9F}" {
+     SourceMaterial "InteriorMain"
+     AssignedMaterial "{70A790D10B69E0AB}Assets/Vehicles/Wheeled/M1083/Data/InteriorMain_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{C3126192966C4036}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/M1083_Command_Tan.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    RegisteringComponentSlotInfo SpareTire {
+     Prefab "{00B1B134A63B0AB9}Prefabs/Vehicles/Wheeled/M1083/VehParts/Wheels/M1083_wheel_base.et"
+    }
+    RegisteringComponentSlotInfo Roof_Hatch {
+     Prefab "{4283E8F2AE389EB7}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_RoofHatch_Tan.et"
+    }
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{8EA28B98D4575E2D}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_Command_Box_Tan.et"
+    }
+   }
+  }
+ }
+ coords 85.797 1 1364.073
+}

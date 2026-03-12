@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{C34764FB699926C3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/dim_Role_Character_USAF_MARSOC_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C4023CA59E243252}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_V6.et"
+  }
+ }
+ coords 5556.404 123.381 6740.762
+}

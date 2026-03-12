@@ -1,0 +1,18 @@
+GenericEntity : "{8D6553BEAF8640D1}Prefabs/Weapons/Rifles/M14/Rifle_M21_OliveGreen_Sand_Stripes_Wrapped.et" {
+ ID "5254ACCA959048B9"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5472D21A19B61CDF}" {
+     AttachmentSlot InventoryStorageSlot Scope {
+      Prefab "{304664561B760EE0}Prefabs/Weapons/Attachments/Optics/Optic_ARTII/Optic_ARTII_OliveGreen_Sand_Stripes_Wrapped.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
+    }
+   }
+  }
+ }
+ coords 148.276 1.202 248.058
+}

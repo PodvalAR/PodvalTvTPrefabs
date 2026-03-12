@@ -75,8 +75,11 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
      TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+    }
    }
   }
  }
- coords 213.513 1 141.728
+ coords 5277.225 11.594 9037.765
 }

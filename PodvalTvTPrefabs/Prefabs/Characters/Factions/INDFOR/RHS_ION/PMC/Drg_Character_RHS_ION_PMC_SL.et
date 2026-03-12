@@ -1,9 +1,20 @@
 SCR_ChimeraCharacter : "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG_ION_TeamLeader"
+    Name "#PDVL_Role_SL"
     Icon "{E6BCD59435D5DF18}UI/Icons/pmc_tl.edds"
    }
   }
@@ -12,6 +23,9 @@ SCR_ChimeraCharacter : "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CC99CC29A9A6D0A8}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/drg_Hat_Boonie_ION_PMC.et"
+    }
     LoadoutSlotInfo Jacket {
      Prefab "{61C8AE257C7545A9}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_navyblue.et"
     }
@@ -35,6 +49,5 @@ SCR_ChimeraCharacter : "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 3341.803 267.884 6866.715
- angles 0 -90 0
+ coords 5834.711 4.563 9796.758
 }

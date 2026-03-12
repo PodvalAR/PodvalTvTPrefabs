@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+    Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -52,43 +52,43 @@ SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
      TargetStorage "Vest/GD_6B45_Rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
      TargetStorage "Vest/GD_6B45_Rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
      TargetStorage "Vest/GD_6B45_Rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
      TargetStorage "Vest/GD_6B45_Rifleman.et/Mag1/Pouch_wartech_magpouch_mp105_EMR.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
      TargetStorage "Vest/GD_6B45_Rifleman.et/Mag3/Pouch_wartech_magpouch_mp105_EMR.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
      TargetStorage "Vest/GD_6B45_Rifleman.et/Mag2/Pouch_wartech_magpouch_mp105_EMR.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
      TargetStorage "Back/Backpack_Suharka_type2.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
@@ -109,8 +109,14 @@ SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+    }
    }
   }
  }
- coords 47.205 1 50.082
+ coords 5279.557 11.594 9037.955
 }

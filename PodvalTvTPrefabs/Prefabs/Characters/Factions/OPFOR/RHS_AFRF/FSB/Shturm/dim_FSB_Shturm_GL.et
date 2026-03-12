@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{BBDFDBBF246219A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/Shturm/dim_FSB_Shturm_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Grenadier"
+    Icon "{21D967FB80F79DC3}UI/Icons/dim/FSB_Alpha_demolition.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1828C5C23AE5E4CA}Prefabs/Weapons/GrenadeLaunchers/GM94/GL_GM94.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{B78E843889734600}Prefabs/Weapons/Rifles/AK74M/variants/RG/Rifle_AK105_b10m_b19_b33_b9m_RG.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{4D620A90400F59D7}Prefabs/Characters/Heads/Head_White_09/Head_White_09_camo_USSR_02.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C77140756B85FC}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/radio/Pouch_KBS_radio_Base.et"
+    }
+    ItemsInitConfigurationItem "{68C7714145469608}" {
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C771415B1D9767}" {
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C7714164D65516}" {
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C77141616B5FCA}" {
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C77147B8F1DED8}" {
+     TargetStorage "Jacket/GD_FSB_Voin_Suit_Grey.et"
+     PrefabsToSpawn {
+      "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et"
+     }
+    }
+   }
+  }
+ }
+ coords 69.256 1 143.183
+}

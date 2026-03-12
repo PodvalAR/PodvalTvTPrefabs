@@ -1,0 +1,11 @@
+GenericEntity : "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoMapping {
+    2 2 2 2 2 2 2 2 2 2
+   }
+  }
+ }
+ coords 1761.432 59.057 5889.003
+}

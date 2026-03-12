@@ -1,0 +1,25 @@
+GenericEntity : "{50441A9C9DA65037}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{FD530EC0168D150E}Assets/Vehicles/Wheeled/K4386/VehParts/2A42.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{5C62B42782DC2BB9}" {
+     components {
+      CaseEjectingEffectComponent "{5C647513AB998316}" {
+       EffectPosition EntitySlotInfo Turret {
+        Offset 0.1687 0.0056 0.2363
+       }
+      }
+     }
+     MagazinePosition InventoryStorageSlot Mag {
+      Offset 0 -0.0944 -1.1533
+     }
+     MagazineTemplate "{DF14B30BE6982E87}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_APFSDS_3UBR11_160rnd.et"
+    }
+   }
+  }
+ }
+}

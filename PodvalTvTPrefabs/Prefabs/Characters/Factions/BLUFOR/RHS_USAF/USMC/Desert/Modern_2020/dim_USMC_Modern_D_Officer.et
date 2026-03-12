@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{384685D103D1E575}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/4x/dim_USMC_Modern_D_TL_2_4x.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{73B08DC1499E8FE2}Prefabs/Characters/HeadGear/All_Cap/Variants/Desert Ver/Front/GD_Cap_Tan (Headphones).et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
+    }
+   }
+  }
+ }
+ coords 6096.573 124.201 6141.788
+}

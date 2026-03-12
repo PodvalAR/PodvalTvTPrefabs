@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{90B50B55D1EC579F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/4x/dim_ION_STK_SMAW_1_NoSD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

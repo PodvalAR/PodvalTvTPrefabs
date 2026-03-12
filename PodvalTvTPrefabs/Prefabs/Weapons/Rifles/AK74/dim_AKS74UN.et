@@ -1,0 +1,20 @@
+GenericEntity : "{55785C2E339B297D}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_Canary.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626891999376DE4E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{3D2940A7E1E36F87}Prefabs/Weapons/Attachments/Muzzle/PBS4/RHS_PBS4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 6651.815 26.425 3917.922
+ angles 0 0 0
+}

@@ -1,0 +1,21 @@
+GenericEntity : "{FD71C5FC9269957B}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_LTSU.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626891999376DE4E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 0.0941
+        Angles 0 0 0
+        Prefab "{3B96FAC169E27037}Prefabs/Weapons/Attachments/Muzzle/Suppressor_PBS4/Suppressor_PBS4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 11046.683 35.862 1623.343
+}

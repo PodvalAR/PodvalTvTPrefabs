@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68C523710A2F3D20}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68C523710DDDA9CB}" {
+      m_sVariantPrefab "{A807C057A88855BD}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper.et"
+     }
+     SCR_EditableEntityVariant "{68C523710DC7B27D}" {
+      m_sVariantPrefab "{3F4104FD0D5E884F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Sniper_v2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5839.488 4.563 9790.822
+}

@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG_ION_LAT"
+    Name "#PDVL_Role_LAT"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
@@ -16,4 +16,5 @@ SCR_ChimeraCharacter : "{254630D5216235B9}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
+ coords 1279.983 39 2109.038
 }

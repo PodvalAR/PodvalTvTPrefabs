@@ -1,0 +1,15 @@
+GenericEntity : "{82AA2FEE1D883820}Prefabs/Weapons/Rifles/M4A1/M4_PMC_3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{BEE53E42411B8FFA}Prefabs/Weapons/Attachments/Optics/bravo4/Optic_bravo4_blk.et"
+     }
+    }
+   }
+  }
+ }
+ coords 170.652 1.193 73.054
+}

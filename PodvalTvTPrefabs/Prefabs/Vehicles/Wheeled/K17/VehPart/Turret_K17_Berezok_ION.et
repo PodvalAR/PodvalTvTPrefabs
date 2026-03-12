@@ -306,6 +306,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sRHSLayoutOverlayResource "{A2A51437F905A458}UI/layouts/Sights/Optic_Widgets_K17_Berezhok.layout"
     }
     RHS_VehicleNightVisionComponent "{68B4D0F7B517E2FD}" {
+     Enabled 0
      m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
      m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
      m_aBlemSet {
@@ -384,6 +385,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    WeaponTemplate "{50441A9C9DA65037}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42.et"
   }
   WeaponSlotComponent "{68B4D0F7B5178F00}" {
+   Enabled 0
    SignalsSourceAccess SignalsSourceAccessClass "{68B4D0F7B5178F1F}" {
     signalsSuffix "Turret"
    }
@@ -398,6 +400,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    WeaponSlotIndex 4
   }
   WeaponSlotComponent "{68B4D0F7B5178F03}" {
+   Enabled 0
    SignalsSourceAccess SignalsSourceAccessClass "{68B4D0F7B5178F01}" {
     signalsSuffix "Turret"
    }
@@ -665,6 +668,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    AutoVariablesBind 1
   }
  }
- coords 2686.145 142.223 7943.902
- angles 0 75 0
+ coords 40.946 1 81.602
 }

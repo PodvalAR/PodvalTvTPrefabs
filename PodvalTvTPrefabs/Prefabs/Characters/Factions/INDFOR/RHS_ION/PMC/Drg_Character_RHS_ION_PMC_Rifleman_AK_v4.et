@@ -25,26 +25,6 @@ SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{6286835946BBC091}" {
      TargetStorage "Pants/BDU_PANTS_OD.et"
     }
-    ItemsInitConfigurationItem "{6674AB936384366B}" {
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{6674AB936DC36034}" {
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{6674AB93720B0C58}" {
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{6674AB93D0D0C06A}" {
-     PrefabsToSpawn +{
-     }
-    }
-    ItemsInitConfigurationItem "{6674AB93D11944BD}" {
-     PrefabsToSpawn +{
-     }
-    }
    }
   }
  }

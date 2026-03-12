@@ -6,6 +6,9 @@ Turret {
     SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
      m_bIsEnabled 1
     }
+    WCS_Armament_WeaponInfoVehicle "{62CEE7E79461A975}" {
+     m_bIsEnabled 0
+    }
    }
   }
  }

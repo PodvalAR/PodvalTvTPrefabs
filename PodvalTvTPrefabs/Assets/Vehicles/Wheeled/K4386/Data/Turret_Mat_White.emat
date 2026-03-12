@@ -1,0 +1,25 @@
+MatPBRMulti {
+ Color 0.403 0.471 0.571 1
+ SpecularMul 5
+ GlobalMCRMap "{F2CC38FFA4504BAB}Assets/Vehicles/Wheeled/K4386/Data/Turret_BCR.edds"
+ MaskMap "{842B4E2B46CF403A}Assets/Vehicles/Wheeled/K4386/Data/Turret_MASK.edds"
+ GlobalNMOMap "{CA14836D7D271935}Assets/Vehicles/Wheeled/K4386/Data/Turret_NMO.edds"
+ NMO_4 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_4 MatUVTransform "{628730ECC6E4DD5C}" {
+  TilingU 5
+  TilingV -7.6
+ }
+ Color_3 0.301 0.269 0.22 1
+ Roughness_3 0.425
+ Color_2 0.982 0.976 0.668 1
+ Roughness_2 0.508
+ Color_1 0.715 0.761 0.509 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{628730EDE4F18BF9}" {
+  TilingU 5
+  TilingV 5
+ }
+ DetNormal_1 1.255
+ Roughness_1 0.931
+}

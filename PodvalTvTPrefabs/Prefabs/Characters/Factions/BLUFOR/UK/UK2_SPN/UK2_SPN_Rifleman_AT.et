@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{4EDE2A021B8C2355}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/UK2_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+    Icon "{1CE3CF091750A2C4}UI/Icons/dim/SAS_Demolition.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0367 -0.2249 0.0967
+    Angles 63.5627 180 0
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+ }
+ coords 103.089 1 100.09
+}

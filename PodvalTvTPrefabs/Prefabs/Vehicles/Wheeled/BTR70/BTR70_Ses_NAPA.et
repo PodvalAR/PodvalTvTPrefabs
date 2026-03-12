@@ -1,0 +1,12 @@
+Vehicle : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo AmmoStorage {
+     Offset 0 0.05 0
+    }
+   }
+  }
+ }
+}

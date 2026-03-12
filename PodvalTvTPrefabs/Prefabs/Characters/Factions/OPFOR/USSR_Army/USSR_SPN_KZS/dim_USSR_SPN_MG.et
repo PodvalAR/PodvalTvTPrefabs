@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{8B84A52BE53EC8CD}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_MG_Light.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9344E8C1A7CABF8D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3CF7C9A38D}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B214EB70974}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 11048.166 35.688 1621.432
+}

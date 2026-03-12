@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{2121D891217DACC9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{49E93D5FCD8892FE}Prefabs/Weapons/Rifles/M27IAR/m4_usmc_holo.et"
+  }
+ }
+ coords 151.485 1 126.462
+}
