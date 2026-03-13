@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{96BCD8ED65994666}Prefabs/Characters/Factions/BLUFOR/UK/UK2/UK2_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName ""
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C4EDBC3422501EF1}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_Irons.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{6F119DFA22753F57}Prefabs/Characters/Vests/UK_STV_Pouch/Kits/STV_Rifleman_N.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65750D80E04871BD}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/Pouch1/GD_STV_MagPouch1_RHS_OD.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E053ABA5}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/tako/GD_STV_MagPouch1_RHS_OD.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E07C7125}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/filbe2/GD_STV_MagPouch3_RHS_OD.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E0C05687}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/Pouch2/GD_STV_MagPouch2_RHS_OD.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E0EAE3FF}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/Pouch3/GD_STV_MagPouch3_RHS_OD.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D81F4403501}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D81D20D006B}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{65750D81C3F751FD}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{65750D81C3B82032}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{65750D81C265DA26}" {
+     TargetStorage "Vest/STV_Rifleman_N.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+   }
+  }
+ }
+ coords 132.932 1 173.306
+}

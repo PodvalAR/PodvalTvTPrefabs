@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{E69323DEDFD15D62}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8936771AFC41F793}Prefabs/Weapons/Rifles/AK200/ak200_vdv_3.et"
+  }
+ }
+ coords 6120.257 56.754 6909.771
+}

@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{55E3F738125278C6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/4x/dim_USMC_FR_TL_D_4x.et.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FD315CB1803037F1}Prefabs/Items/Equipment/Binoculars/SOFLAM/SOFLAM_Binoculars.et"
+      }
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
+   }
+  }
+ }
+ coords 3459.591 17.844 5469.618
+}

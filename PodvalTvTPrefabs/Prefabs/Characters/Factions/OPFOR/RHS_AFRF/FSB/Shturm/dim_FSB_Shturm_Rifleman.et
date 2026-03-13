@@ -1,0 +1,92 @@
+SCR_ChimeraCharacter : "{176649703E4F9DFE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/Shturm/dim_FSB_Shturm_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4CFB7BD1B99EA447}Prefabs/Weapons/Rifles/AK74M/variants/RG/Rifle_AK103_b30_b31s_b33_pt1_rk3_RailCover_RG.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{31001F48BF88F2B1}Prefabs/Characters/Heads/Head_White_08/Head_White_08_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0DF1BA6D9296057F}Prefabs/Characters/HeadGear/Thor_FSB/GD_Kiver_FSB_Gas.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{609EB0F2F820BDDD}Prefabs/Characters/Vests/Vest_KBS_Strelok/Vest_KBS_Strelok_Groin_FSB.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{97C3558B606AC9C6}Prefabs/Characters/Vests/Vest_KBS_Strelok_Pouches/Variants/Vest_KBS_Strelok_preset_rifleman1_heavy.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C7714145469608}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag1/Pouch_KBS_Mag_1.et"
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C771415B1D9767}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag2/Pouch_KBS_Mag_2.et"
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C7714164D65516}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag3/Pouch_KBS_Mag_3.et"
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C77141616B5FCA}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag4/Pouch_KBS_Mag_4.et"
+     PrefabsToSpawn {
+      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C7714162F87DBB}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/rgd1/Pouch_KBS_RGD_1.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C77141756B591B}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/rgd2/Pouch_KBS_RGD_2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C77147B8F1DED8}" {
+     TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/admin/Pouch_KBS_Admin_base.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     }
+    }
+   }
+  }
+ }
+ coords 68.934 1 141.552
+}

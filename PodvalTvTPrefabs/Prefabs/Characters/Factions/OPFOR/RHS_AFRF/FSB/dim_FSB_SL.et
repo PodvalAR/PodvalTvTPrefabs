@@ -3,7 +3,8 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{59175C6D6549D25A}UI/Icons/FSB_Alpha_SL.edds"
+    Name "Старший сотрудник ФСБ"
+    Icon "{59175C6D6549D25A}UI/Icons/dim/FSB_Alpha_SL.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -13,7 +14,7 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68AEDB5590E98623}" {
      PrefabsToSpawn {
-      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{68AEDB540D56CF42}" {
@@ -49,5 +50,5 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5287.005 9.688 9111.496
+ coords 58.516 1 125.16
 }

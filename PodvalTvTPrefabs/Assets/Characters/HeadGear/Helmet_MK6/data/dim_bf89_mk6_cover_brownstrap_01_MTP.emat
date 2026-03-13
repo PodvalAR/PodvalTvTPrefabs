@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.429 0.429 0.429 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{B65FB3B73B4436D0}Assets/Characters/HeadGear/Helmet_MK6/data/dim_MK6_MTP.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{4F9521EC1CBE39E5}Assets/Characters/HeadGear/Helmet_MK6/data/bf89_mk6_cover_01_NMO.edds"
+}

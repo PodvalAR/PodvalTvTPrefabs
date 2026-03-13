@@ -3,7 +3,8 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{C2F1754E5C8182D0}UI/Icons/FSB_Alpha_Sniper.edds"
+    Name "Снайпер ФСБ"
+    Icon "{C2F1754E5C8182D0}UI/Icons/dim/FSB_Alpha_Sniper.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -87,5 +88,5 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5282.672 9.733 9111.113
+ coords 231.695 1 239.607
 }

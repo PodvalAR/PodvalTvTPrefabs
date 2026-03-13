@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Диверсант-снайпер"
-    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+    Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -78,8 +78,11 @@ SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_
     }
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
    }
   }
  }
- coords 40.967 1 50.332
+ coords 5278.848 11.594 9039.408
 }

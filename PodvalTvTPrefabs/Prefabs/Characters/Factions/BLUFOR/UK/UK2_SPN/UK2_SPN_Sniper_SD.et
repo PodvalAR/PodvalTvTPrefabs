@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{AE2B628259D558BD}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/UK2_SPN_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{D87F9CD3863BF6E5}Prefabs/Weapons/Rifles/PM/Rifle_AI_PMSD_PM6x42_M61.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+    }
+    ItemsInitConfigurationItem "{6576CE92E7D13849}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 105.076 1 100.821
+}

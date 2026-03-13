@@ -12,27 +12,46 @@ SCR_ChimeraCharacter : "{C33B709D769207BC}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B4AA6657622863}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68B4AA6657622850}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68B4AA6657622851}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68B4AA6657622852}" {
+     Enabled 0
+    }
     ItemsInitConfigurationItem "{689F357A814C8699}" {
+     Enabled 1
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
      PrefabsToSpawn {
       "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et" "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{689F357D3741B220}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
      PrefabsToSpawn {
-      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+      "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et" "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{689F357D376968D8}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
      PrefabsToSpawn {
-      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+      "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{689F357D370E4A01}" {
+     Enabled 1
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
      PrefabsToSpawn {
-      "{CD21D42623717E8F}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_tracer.et"
+      "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et" "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
      }
     }
    }
   }
  }
+ coords 98.008 1 62.694
 }

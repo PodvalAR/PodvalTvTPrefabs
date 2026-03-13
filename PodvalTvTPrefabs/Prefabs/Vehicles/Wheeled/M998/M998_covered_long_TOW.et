@@ -1,0 +1,112 @@
+Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_CampaignBuildingProviderComponent "{68C69C18AEAE0FE6}" {
+   m_sProviderDisplayName "#AR-Vehicle_SupplyTruck_Name-UC"
+   m_bUserActionActivationOnly 1
+   m_bAnyFactionCanUse 1
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingBudgetToEvaluateData "{68C69C1891559059}" {
+     m_eBudget CAMPAIGN
+    }
+   }
+   m_aAvailableTraits {
+    TRAIT_FORTIFICATION THEME_MILITARY
+   }
+  }
+  SCR_ResourceComponent "{5D8356123028E721}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D83561B4C95EDFE}" {
+     m_eResourceRights ALL
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68C545C863596934}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{E850E811DBCFB9EE}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_FCS.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C855781731}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B90699E7A808277A}Prefabs/Weapons/Tripods/BGM71TOW/Part_1_BGM-71D_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C852EF9B37}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{FDCBE9CC0BEA96EC}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_Mount.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C858AF5AF1}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{CBC0F26A18152EBB}Prefabs/Weapons/Tripods/BGM71TOW/tow_D_N_Sight.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C846336C4D}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{1B3C0AA21203A575}Prefabs/Weapons/Tripods/BGM71TOW/tow_FCS_battery.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C84FE7D5BF}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C84A954587}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C836A45CC2}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C830A2E9AA}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C8324C88FB}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SCR_VehicleInventoryStorageManagerComponent "{591056FA3B752FE6}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52C3AFB634909}" {
+     PrefabsToSpawn {
+      "{E850E811DBCFB9EE}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_FCS.et" "{FDCBE9CC0BEA96EC}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_Mount.et" "{CBC0F26A18152EBB}Prefabs/Weapons/Tripods/BGM71TOW/tow_D_N_Sight.et" "{1B3C0AA21203A575}Prefabs/Weapons/Tripods/BGM71TOW/tow_FCS_battery.et" "{B90699E7A808277A}Prefabs/Weapons/Tripods/BGM71TOW/Part_1_BGM-71D_Tripod.et" "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et" "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et" "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{68C69C18457608AD}" {
+     ParentContextList {
+      "cargo"
+     }
+     UIInfo SCR_ActionUIInfo "{5D9AF69CDAA235AE}" {
+      Name "#AR-Campaign_Action_ShowBuildPreview"
+     }
+     Duration 0.5
+     "Sort Priority" 16
+    }
+   }
+  }
+ }
+}

@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch3/Pouch_FILBE_doubleM4_2.et"
     }
     ItemsInitConfigurationItem "{689347332B12FF35}" {
-     TargetStorage "Vest/GD_GEN3_GL_N.et/tako/Pouch_PCGEN3_takoPouch.et"
+     TargetStorage "Vest/GD_GEN3_GL_N.et/takobelt/Pouch_PCGEN3_takoPouch.et"
     }
     ItemsInitConfigurationItem "{68934733382BF0F6}" {
      TargetStorage "Vest/GD_GEN3_GL_N.et/nerd/Pouch_Shaw_Flex.et"
@@ -58,6 +58,12 @@ SCR_ChimeraCharacter : "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{689347334C694702}" {
      TargetStorage "Vest/GD_GEN3_GL_N.et/m67_2/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+    ItemsInitConfigurationItem "{68CA02DEA5A1F08B}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/m67_1/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
     }
    }
   }

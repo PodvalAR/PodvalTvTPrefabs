@@ -1,0 +1,13 @@
+GameEntity : "{5F8928B41FB86990}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KZS.et" {
+ ID "50D4E2187B1C4408"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Mask {
+     Prefab "{6C1EDF73BEC987D3}Prefabs/Characters/HeadGear/RUS_Beanie/GD_Chechen_Balaclava_Flora.et"
+    }
+   }
+  }
+ }
+ coords 11046.172 35.687 1627.249
+}

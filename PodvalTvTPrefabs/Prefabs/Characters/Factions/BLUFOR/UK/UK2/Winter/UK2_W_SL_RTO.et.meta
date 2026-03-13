@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9DD6B1A1823A29EF}Prefabs/Characters/Factions/BLUFOR/UK/UK2/Winter/UK2_W_SL_RTO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

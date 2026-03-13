@@ -1,0 +1,38 @@
+GenericEntity : "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{4208B441C7591373}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Inflated.xob"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      PreviewModel "{AC7A91AECDCE1C2B}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Deflated.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   Slots {
+    LoadoutSlotInfo Antenna {
+     PivotID "Spine5"
+     Offset 0.0208 0.2304 -0.1547
+     Angles -82.6065 180 0
+     Enabled 1
+     Prefab "{7DF42EF5BC8BED6C}Prefabs/Props/dim_PropForRadio_2_DontTouch.et"
+    }
+    LoadoutSlotInfo Antenna2 {
+     PivotID "Spine5"
+     Offset 0.0244 0.2306 -0.1728
+     Angles -80.6925 -180 7.3116
+     Prefab "{C476AF7148E657BC}Prefabs/Props/dim_PropForRadio_DontTouch.et"
+    }
+   }
+   WornModel "{AC7A91AECDCE1C2B}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Deflated.xob"
+   ItemModel "{D545E0AC511A09DA}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Item.xob"
+   DeflatedModel "{1A74BF5202BAF15D}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault.xob"
+  }
+ }
+ coords 3455.454 17.844 5468.083
+}

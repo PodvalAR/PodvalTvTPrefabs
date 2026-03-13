@@ -1,9 +1,21 @@
 SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/dim_FSB_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{CA4F8F4EAD14A48D}UI/Icons/FSB_Alpha_Scout.edds"
+    Name "Наблюдатель ФСБ"
+    Icon "{CA4F8F4EAD14A48D}UI/Icons/dim/FSB_Alpha_Scout.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -66,5 +78,5 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5281.074 9.682 9115.285
+ coords 74.943 1 126.632
 }

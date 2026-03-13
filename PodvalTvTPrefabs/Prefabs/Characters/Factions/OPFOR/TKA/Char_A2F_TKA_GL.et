@@ -24,11 +24,12 @@ SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/
     }
     ItemsInitConfigurationItem "{689E8CBF6FA5001F}" {
      TargetStorage "Vest/Vest_Lifchik_GL.et"
-     PrefabsToSpawn + {
-      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     PrefabsToSpawn {
+      "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }
     }
    }
   }
  }
+ coords 87.056 1 65.053
 }

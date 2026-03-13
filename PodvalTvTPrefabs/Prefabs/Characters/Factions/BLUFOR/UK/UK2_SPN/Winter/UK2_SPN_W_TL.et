@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{192F97079D24ACF6}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/UK2_SPN_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_TL"
+    Icon "{FE2FFF1498C603D2}UI/Icons/dim/SAS_TL.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7DAAE728E90EC217}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+ }
+ coords 3082.382 62.527 4034.295
+}

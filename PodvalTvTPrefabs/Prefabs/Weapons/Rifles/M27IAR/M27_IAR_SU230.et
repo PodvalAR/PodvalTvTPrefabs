@@ -1,0 +1,15 @@
+GenericEntity : "{7381BC02C4867CDA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_VCOG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5CC8E73BB698D287}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot optics {
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+   }
+  }
+ }
+ coords 140.468 1.205 129.713
+}

@@ -15,11 +15,11 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Старший стрелок"
-    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+    Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{89FFA4F316E327E9}Prefabs/Weapons/Weapons/AK200/AK200_GP.et"
+   WeaponTemplate "{89FFA4F316E327E9}Prefabs/Weapons/Rifles/AK200/AK200_GP.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -80,8 +80,11 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
    }
   }
  }
- coords 38.551 1 51.047
+ coords 5278.345 11.594 9040.104
 }

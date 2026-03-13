@@ -1,0 +1,37 @@
+GenericEntity : "{0BD021AF683E2307}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2.et" {
+ coords 59.496 1 42.765
+}
+SCR_ChimeraCharacter : "{2ED2769CDC999E87}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SR_opt.et" {
+ coords 57.784 1 45.39
+ angles 0 0 0
+}
+SCR_ChimeraCharacter : "{33B19F3D12CDDA74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_PL_Random.et" {
+ coords 67.832 1 58.537
+}
+SCR_ChimeraCharacter : "{5D623D0E06D53770}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_SR_opt.et" {
+ coords 56.364 1 45.801
+}
+SCR_ChimeraCharacter : "{94F58255908E89A8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SL_Opt.et" {
+ coords 56.419 1 42.257
+}
+SCR_ChimeraCharacter : "{998515E06ED7A4C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SL.et" {
+ coords 57.915 1 42.748
+}
+SCR_ChimeraCharacter : "{B127227755866E9E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_SR.et" {
+ coords 56.143 1 44.548
+}
+SCR_ChimeraCharacter : "{B884B787D4886422}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Sharpshooter_SVDM.et" {
+ coords 58.939 1 42.211
+}
+SCR_ChimeraCharacter : "{E00641DB18DCC939}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Scout_RTO_Random.et" {
+ coords 66.415 1 58.687
+}
+SCR_ChimeraCharacter : "{E49DF9180B449850}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SR.et" {
+ coords 57.524 1 44.418
+}
+SCR_ChimeraCharacter : "{E4C1E22F77E5DBEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Sharpshooter.et" {
+ coords 58.679 1 43.885
+}
+SCR_ChimeraCharacter : "{F9D89ADEABE46FF0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_GL.et" {
+ coords 56.987 1 47.096
+}

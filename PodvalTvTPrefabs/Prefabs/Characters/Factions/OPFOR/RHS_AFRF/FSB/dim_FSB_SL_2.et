@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{2F45B123FD7205C0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/dim_FSB_SL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Старший сотрудник ФСБ"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{1B22CB7855379872}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_1P63.et"
   }
@@ -79,5 +84,5 @@ SCR_ChimeraCharacter : "{2F45B123FD7205C0}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 201.914 1 83.09
+ coords 232.95 1 239.987
 }

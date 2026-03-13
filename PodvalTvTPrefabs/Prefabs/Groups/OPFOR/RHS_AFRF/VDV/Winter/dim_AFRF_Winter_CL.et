@@ -1,0 +1,9 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 6099.404 56.781 6937.25
+ angles 0 -26.674 0
+ m_aUnitPrefabSlots {
+  "{B8DD8AAD2BA1692B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Officer.et"
+ }
+ m_sCustomNameSet "Командир ВС РФ"
+}

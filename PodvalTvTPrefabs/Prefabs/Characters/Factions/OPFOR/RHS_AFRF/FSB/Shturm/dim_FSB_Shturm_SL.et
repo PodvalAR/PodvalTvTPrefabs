@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{012A86F6711E5FA2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/Shturm/dim_FSB_Shturm_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{59175C6D6549D25A}UI/Icons/dim/FSB_Alpha_SL.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{7BD19225C976186B}Prefabs/Characters/Vests/Vest_KBS_Strelok/Vest_KBS_Strelok_Neck_Groin_Shoulders_Hips_FSB.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C77140756B85FC}" {
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
+     }
+    }
+   }
+  }
+ }
+ coords 191.638 1 169.135
+}

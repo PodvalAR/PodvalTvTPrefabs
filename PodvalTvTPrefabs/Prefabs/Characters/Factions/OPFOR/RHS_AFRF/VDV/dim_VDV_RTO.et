@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_RadioOperator"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Jacket/Jacket_VKPO.et"
+     PrefabsToSpawn {
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 4524.438 11.156 8816.817
+}

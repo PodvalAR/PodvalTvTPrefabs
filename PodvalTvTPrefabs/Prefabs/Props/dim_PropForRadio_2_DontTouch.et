@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "68D01E4CCCAC4412"
+ components {
+  MeshObject "{68D01E4CB9F5DFAB}" {
+   Object "{8371BD0DC3367F75}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_item.xob"
+  }
+ }
+ coords 3459.172 17.844 5466.177
+}

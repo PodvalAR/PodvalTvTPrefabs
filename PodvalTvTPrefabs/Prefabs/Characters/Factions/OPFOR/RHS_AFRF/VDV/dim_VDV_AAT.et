@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{4A62BF3DB9E7E3A8}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_AAT"
-    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+    Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
@@ -28,8 +28,11 @@ SCR_ChimeraCharacter : "{4A62BF3DB9E7E3A8}Prefabs/Characters/Factions/OPFOR/RHS_
       "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
      }
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+    }
    }
   }
  }
- coords 50.889 1 49.243
+ coords 5279.138 11.594 9040.321
 }

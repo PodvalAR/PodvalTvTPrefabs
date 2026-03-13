@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{63F054736DDC8314}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Unarmed.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

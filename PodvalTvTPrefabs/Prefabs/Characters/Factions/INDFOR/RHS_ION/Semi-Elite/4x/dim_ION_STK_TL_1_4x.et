@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{A8288D670C2B80B3}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DDB11B41FEB588E1}Prefabs/Weapons/Rifles/M4A1/PMC_New/M4_PMC_4X_noSD.et"
+  }
+ }
+ coords 179.249 1 64.271
+}

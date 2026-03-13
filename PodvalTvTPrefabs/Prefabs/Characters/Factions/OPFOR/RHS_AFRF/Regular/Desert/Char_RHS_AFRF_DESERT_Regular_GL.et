@@ -19,6 +19,18 @@ SCR_ChimeraCharacter : "{C33B709D769207BC}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B4AA6657622863}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+    }
+    ItemsInitConfigurationItem "{68B4AA6657622850}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+    }
+    ItemsInitConfigurationItem "{68B4AA6657622851}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
+    }
+    ItemsInitConfigurationItem "{68B4AA6657622852}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et"
+    }
     ItemsInitConfigurationItem "{689F357A814C8699}" {
      TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et/FirstAid/Pouch_Ratnik_appi_pouch.et"
     }
@@ -40,4 +52,5 @@ SCR_ChimeraCharacter : "{C33B709D769207BC}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
+ coords 2075.119 298.95 7736.583
 }

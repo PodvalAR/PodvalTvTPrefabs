@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{F9C0001F08C4603C}Prefabs/Characters/Factions/INDFOR/CIV/General (FIA)/FIA_CIV_T_Shirt_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{940ECDB0F69CBC5E}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Brand.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DD19B3B43F05BFB5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Black.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{60DCBCECAC6C6E65}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+    ItemsInitConfigurationItem "{688505F34D064F8E}" {
+     TargetStorage "Pants/GD_Jeans_Black.et"
+    }
+   }
+  }
+ }
+ coords 5713.958 219.032 7074.366
+ angles 0 -165 0
+}

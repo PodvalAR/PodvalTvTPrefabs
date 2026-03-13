@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{8CCDCB56C824BA8B}Prefabs/Characters/Factions/BLUFOR/UK/UK2/UK2_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4CE9D25FA30E51BC}Prefabs/Characters/HeadGear/USA_IHPS/GD_IHPS_Cover_Winter_Mask.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7DAAE728E90EC217}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65750D80E2FDC61C}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+ }
+ coords 188.636 1 199.989
+}

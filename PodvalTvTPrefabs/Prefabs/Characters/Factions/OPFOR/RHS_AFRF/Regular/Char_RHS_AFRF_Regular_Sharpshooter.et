@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C828F6D563E1A9BE}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14.et"
+   WeaponTemplate "{0BD021AF683E2307}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

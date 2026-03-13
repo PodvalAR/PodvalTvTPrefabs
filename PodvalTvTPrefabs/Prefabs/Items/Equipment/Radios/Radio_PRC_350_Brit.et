@@ -1,0 +1,11 @@
+GenericEntity : "{CFB5AA95F996BC65}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{EC7EC7E6F0EF6F13}Assets/Items/Equipment/Radios/PRC350/PRC350_Worn.xob"
+   ItemModel "{85D0BCFAE061BBED}Assets/Items/Equipment/Radios/PRC350/PRC350_Item.xob"
+   DeflatedModel "{97F75BE635A727A1}Assets/Items/Equipment/Radios/PRC350/PRC350_Worn_Inflated.xob"
+  }
+ }
+ coords 121.007 1 99.116
+}

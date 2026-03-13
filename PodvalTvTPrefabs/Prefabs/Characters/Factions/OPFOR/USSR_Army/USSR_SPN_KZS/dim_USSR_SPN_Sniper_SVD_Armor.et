@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{9C7EC9EDA4C0555B}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Sniper_SVD.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 1
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD44CFD845D974}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B228F594D42}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 11051.175 35.687 1621.899
+}

@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{97DF6B8543BD4184}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_TL_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E737AE7B941C180B}Prefabs/Weapons/Rifles/M27IAR/M27_Sup_Acog.et"
+  }
+ }
+ coords 4286.819 17.844 3461.839
+}

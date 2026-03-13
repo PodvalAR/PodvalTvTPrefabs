@@ -1,0 +1,13 @@
+GameEntity : "{FA21E1335F37B425}Prefabs/Characters/HeadGear/Hat_BallCap/dim_CAP.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Glasses {
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/HeadGear/All_Glasses/GD_Glasses_V1.et"
+    }
+   }
+  }
+ }
+ coords 5713.102 219.045 7074.911
+}

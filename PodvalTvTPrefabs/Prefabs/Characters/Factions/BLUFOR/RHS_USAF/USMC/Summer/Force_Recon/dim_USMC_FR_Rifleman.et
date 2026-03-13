@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Разведчик-стрелок"
-    Icon "{480F9EE18B7CE141}UI/Icons/ForceRecon.edds"
+    Icon "{480F9EE18B7CE141}UI/Icons/dim/ForceRecon.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS
    WeaponTemplate "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{CBE97837958B8C7A}Prefabs/Weapons/Weapons/M27IAR/M27_Suppresion.et"
+   WeaponTemplate "{CBE97837958B8C7A}Prefabs/Weapons/Rifles/M27IAR/M27_Suppresion.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
@@ -98,7 +98,7 @@ SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{689347332B12FF35}" {
-     TargetStorage "Vest/GD_Gen3_Light_RFL_2.et/tako/Pouch_PCGEN3_takoPouch.et"
+     TargetStorage "Vest/GD_Gen3_Light_RFL_2.et/takobelt/Pouch_PCGEN3_takoPouch.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
@@ -154,5 +154,5 @@ SCR_ChimeraCharacter : "{AB659E264C61F08E}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 27.596 1 55.495
+ coords 151.894 1 134.538
 }

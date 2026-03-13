@@ -284,9 +284,6 @@ GenericEntity : "{35BEBF9814FC4A46}Prefabs/Weapons/Magazines/Magazine_556x45_STA
 SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
  coords 29.971 1 84.144
 }
-SCR_ChimeraCharacter : "{3B8367D80F6C0D0C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_Crew_Gunner.et" {
- coords 93.285 1 53.006
-}
 $grp SCR_ChimeraCharacter : "{3EFEDBD856BF1274}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Engineer.et" {
  {
   coords 37.865 1 81.794
@@ -367,17 +364,6 @@ $grp Turret : "{6559358B7C7AE8C0}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/
 }
 SCR_ChimeraCharacter : "{68722916809B9AE1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_AMG_1.et" {
  coords 85.602 1 71.387
-}
-$grp SCR_ChimeraCharacter : "{68AC15456E4FCEAB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_HeliPilot.et" {
- {
-  coords 96.419 1 53.284
- }
- {
-  coords 95.2 1 54.815
- }
- {
-  coords 96.763 1 55.869
- }
 }
 GameEntity : "{69004552861E2103}Prefabs/Characters/Uniforms/Jacket_M88_Green.et" {
  coords 87.055 1 74.194
@@ -489,9 +475,6 @@ GenericEntity : "{AADB91FBE5FC5822}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_
 Projectile : "{AC29AE3D5ECD6390}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x54r_Ball_57N323S.et" {
  coords 140.645 1 64.181
 }
-SCR_ChimeraCharacter : "{AD4F04F0687B9768}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_CC.et" {
- coords 92.546 1 53.725
-}
 GameEntity : "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et" {
  coords 142.204 1 118.642
 }
@@ -517,17 +500,6 @@ GenericEntity : "{BD048236F83D85DA}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_
 }
 SCR_ChimeraCharacter : "{BF643BE4ADBDFDD4}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_LAT.et" {
  coords 68.834 1 49.054
-}
-$grp SCR_ChimeraCharacter : "{C22461801322D9AF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_HeliCoPilot.et" {
- {
-  coords 95.182 1 53.183
- }
- {
-  coords 95.911 1 54.506
- }
-}
-SCR_ChimeraCharacter : "{C33B709D769207BC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_Rifle.et" {
- coords 90.847 1.008 53.038
 }
 GenericEntity : "{C4EDBC3422501EF1}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_Irons.et" {
  coords 80.35 1 86.062
@@ -579,9 +551,6 @@ $grp GenericEntity : "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x4
  {
   coords 52.552 1 57.156
  }
-}
-SCR_ChimeraCharacter : "{E29A1C16D087FB87}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_Crew.et" {
- coords 94.212 1 52.621
 }
 GenericEntity : "{E3B53109D5A0B45E}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_VOG17M.et" {
  coords 104.179 1.016 166.634

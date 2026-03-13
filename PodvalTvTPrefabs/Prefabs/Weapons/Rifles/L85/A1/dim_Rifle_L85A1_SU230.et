@@ -1,0 +1,15 @@
+GenericEntity : "{77A96CF0A56DD595}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_SUSAT.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+     }
+    }
+   }
+  }
+ }
+ coords 139.503 1 106.861
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{EAD74FA03D2FE19E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/4x/dim_USMC_DS_Rifleman_Holo.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
