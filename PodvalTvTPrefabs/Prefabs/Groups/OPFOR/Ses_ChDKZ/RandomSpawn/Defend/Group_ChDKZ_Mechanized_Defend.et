@@ -10,5 +10,5 @@ SCR_AIGroup : "{7EC5F497ECBF9E36}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Base
  m_aUnitPrefabSlots {
   "{BB8DB3B6338D4AC6}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_CC_Random.et" "{3F18AFBEC79443AC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Crew_Random.et"
  }
- m_sCustomNameSet "#PDVL_Squad_Mechinized"
+ m_sCustomNameSet "#PDVL_Squad_Mechanized"
 }
