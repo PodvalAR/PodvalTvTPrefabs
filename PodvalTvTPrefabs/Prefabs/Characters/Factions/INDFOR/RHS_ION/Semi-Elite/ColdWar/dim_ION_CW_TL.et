@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{A8288D670C2B80B3}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8EF0788262E4E20A}Prefabs/Weapons/Assault/AKM/Rifle_AKM_GP25_metal.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/HeadGear/All_Glasses/GD_Glasses_V1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C8516078375CBE45}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/flannel_shirt_white_1.et"
+    }
+    ItemsInitConfigurationItem "{689E807D2F48502A}" {
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
+     PrefabsToSpawn {
+      "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{A26404542E87D24D}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807D5C5AD381}" {
+     TargetStorage "Vest/Vest_Lifchik_GL.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7654.37 23.307 5066.124
+}

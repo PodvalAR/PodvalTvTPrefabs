@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{6903D6D6AB9786D7}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7CA4B6E76443A62E}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Marine.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2DEE1C3D93F591CE}Prefabs/Items/Equipment/Radios/Radio_PRC320_Brit.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{EBC6EF54E8AFF8BB}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA807D4321}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
+    }
+    ItemsInitConfigurationItem "{6572CAAA800569AD}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/MagPouch2/Pouch_P58_20rnd_L1A1_Right.et"
+    }
+    ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
+     TargetStorage "Vest/Vest_P58_rifleman.et/Buttpack/Vest_P58_kidney_left.et"
+    }
+   }
+  }
+ }
+ coords 7557.422 36.469 2024.446
+}

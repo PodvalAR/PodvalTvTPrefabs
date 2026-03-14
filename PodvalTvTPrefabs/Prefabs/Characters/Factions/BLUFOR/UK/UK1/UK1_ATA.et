@@ -1,13 +1,13 @@
-SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK1/UK1_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Anti-Tank Assistante"
+   m_sName ""
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Anti-Tank Assistante"
-    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+    Name "#PDVL_Role_AAT"
+    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -31,6 +31,5 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
  }
- coords 0 0 0
- angleY 80.804
+ coords 7649.462 36.469 2074.39
 }

@@ -1,6 +1,12 @@
 SCR_ChimeraCharacter : "{F2CD51EBFE885435}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_SL_Light.et" {
  ID "520EC961A090BE1E"
  components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -25,5 +31,5 @@ SCR_ChimeraCharacter : "{F2CD51EBFE885435}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
  }
- coords 11044.981 35.687 1626.556
+ coords 3671.902 9.781 8640.952
 }

@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{CF7D22658BFE1B22}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_M72_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{80562265CBB79324}Prefabs/Weapons/Assault/AKM/Rifle_AKM_metal.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0283 -0.2266 0.0994
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{54E5CAE60E85D0EF}Prefabs/Characters/HeadGear/Hat_FlatCap_01/dim_Hat_FlatCap_01_darkgrey_Glass.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1D62465947881196}Prefabs/Characters/Uniforms/Shirt_TShirt_v1/Shirt_TShirt_v1_OD.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/GD_Jeans.et"
+     PrefabsToSpawn {
+      "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/Shirt_TShirt_v1_OD.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{A26404542E87D24D}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E807542DED578}" {
+     TargetStorage "Pants/GD_Jeans.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68B6ABC893494E00}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+   }
+  }
+ }
+ coords 44.133 1 202.441
+}

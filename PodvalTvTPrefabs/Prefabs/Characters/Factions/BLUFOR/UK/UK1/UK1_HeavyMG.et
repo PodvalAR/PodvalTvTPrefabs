@@ -1,8 +1,8 @@
-SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Heavy Machinegunner"
+   m_sName ""
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -49,6 +49,5 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
  }
- coords 0 0 0
- angleY 91.216
+ coords 7648.573 36.469 2074.401
 }

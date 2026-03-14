@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{2994FA590CCE0BCF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Machinegunner"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4B72681C5F788E6B}Prefabs/Weapons/MachineGuns/L4LMG/MG_L4_LMG_AP.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA807D4321}" {
+     PrefabsToSpawn {
+      "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572CAAA800569AD}" {
+     PrefabsToSpawn {
+      "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
+     PrefabsToSpawn {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68D8D0512D728E3C}" {
+     PrefabsToSpawn + {
+      "{7CA4B6E76443A62E}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Marine.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7657.221 36.469 2098.012
+}

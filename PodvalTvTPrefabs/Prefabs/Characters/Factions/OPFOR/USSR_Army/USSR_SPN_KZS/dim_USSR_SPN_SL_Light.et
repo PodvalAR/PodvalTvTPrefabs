@@ -22,6 +22,9 @@ SCR_ChimeraCharacter : "{BE5DC28EC176FEEB}Prefabs/Characters/Factions/OPFOR/USSR
    WeaponTemplate "{C0F44394B5A8C275}Prefabs/Weapons/Rifles/AK74M/AK74M_SD.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
@@ -52,20 +55,20 @@ SCR_ChimeraCharacter : "{BE5DC28EC176FEEB}Prefabs/Characters/Factions/OPFOR/USSR
       "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et"
      }
     }
-    ItemsInitConfigurationItem "{68CD6B3DC3AD5631}" {
-     TargetStorage "Vest/Vest_Lifchik.et"
-     PrefabsToSpawn {
-      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
-     }
-    }
     ItemsInitConfigurationItem "{68CD6B3CF7C9A38D}" {
      Enabled 0
     }
     ItemsInitConfigurationItem "{68CD6B3B5CABDA07}" {
      Enabled 0
     }
+    ItemsInitConfigurationItem "{68CD6B3DC3AD5631}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
    }
   }
  }
- coords 164.811 1 222.897
+ coords 3673.635 9.781 8640.638
 }

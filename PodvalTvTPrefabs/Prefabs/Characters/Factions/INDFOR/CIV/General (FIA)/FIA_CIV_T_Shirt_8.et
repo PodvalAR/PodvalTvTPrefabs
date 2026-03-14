@@ -11,7 +11,28 @@ SCR_ChimeraCharacter : "{959434FFB400EF12}Prefabs/Characters/Factions/INDFOR/CIV
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{688505F34D064F8E}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DC17A89B5FF1A5}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+     PrefabsToSpawn {
+      "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DC17A8A3FAF439}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+     PrefabsToSpawn {
+      "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et"
+     }
+    }
+   }
+  }
  }
- coords 5619.774 91.015 5896.573
+ coords 7639.754 17.824 4820.624
  angles 0 0 0
 }

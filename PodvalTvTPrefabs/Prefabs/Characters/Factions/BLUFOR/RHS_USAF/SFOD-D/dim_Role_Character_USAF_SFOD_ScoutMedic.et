@@ -1,13 +1,13 @@
-SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Scout.et" {
+SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Scout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG_Roles_RHS_ScoutMedic"
+    Name "Медик-разведчик"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{138D71CB4D8DE80F}Prefabs/Weapons/M4A1/M4_SOCOM_HOLO.et"
+   WeaponTemplate "{138D71CB4D8DE80F}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_HOLO.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -19,10 +19,10 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B889E5A3F361810A}Prefabs/Characters/HeadGear/EXFIL/GD_EXFIL_Tan (Scarf+GPNVG).et"
+     Prefab "{B889E5A3F361810A}Prefabs/Characters/HeadGear/All_EXFIL/GD_EXFIL_Tan (Scarf+GPNVG).et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{3E57174F5C8218BF}Prefabs/Characters/Vests/JPC_Pounches_Variants/GD_Multicam_USA_Var3.et"
+     Prefab "{3E57174F5C8218BF}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var3.et"
     }
    }
   }
@@ -74,5 +74,5 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4962.035 60.125 3022.116
+ coords 11771.914 2.035 3138.089
 }

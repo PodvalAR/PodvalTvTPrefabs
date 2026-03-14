@@ -1,8 +1,17 @@
-SCR_ChimeraCharacter : "{9DE6729107141074}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK_Rifleman.et" {
+SCR_ChimeraCharacter : "{9DE6729107141074}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName ""
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
   }
  }
+ coords 7643.113 36.469 2075.453
 }

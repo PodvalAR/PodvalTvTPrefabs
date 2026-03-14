@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Officer"
+   m_sName ""
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F64A99AA43EBA3D2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_black.et"
+     Prefab "{7CA4B6E76443A62E}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Marine.et"
     }
    }
   }
@@ -44,6 +44,5 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
  }
- coords 0 0 0
- angleY -33.5
+ coords 7645.861 36.469 2075.139
 }

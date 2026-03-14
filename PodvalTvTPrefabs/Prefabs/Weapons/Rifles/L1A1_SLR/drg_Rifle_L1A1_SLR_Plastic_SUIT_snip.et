@@ -17,20 +17,32 @@ GenericEntity : "{CF576C0ED8E27F8C}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SL
     }
     AttachmentSlotComponent "{61733779A2B78FF1}" {
      AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
-     }
-    }
-    AttachmentSlotComponent "{61733779A2B78FF1}" {
-     AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
-     }
-    }
-    AttachmentSlotComponent "{61733779A2B78FF1}" {
-     AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
       Prefab "{894C4C3EC0457A30}Prefabs/Weapons/Attachments/PistolGrip/PistolGrip_L1A1/PistolGrip_L1A1_Plastic.et"
      }
     }
     AttachmentSlotComponent "{61733779A2B78FF1}" {
      AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
-      Prefab "{894C4C3EC0457A30}Prefabs/Weapons/Attachments/PistolGrip/PistolGrip_L1A1/PistolGrip_L1A1_Plastic.et"
+     }
+    }
+    AttachmentSlotComponent "{61733779A2B78FF1}" {
+     AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
+     }
+    }
+    AttachmentSlotComponent "{61733779A2B78FF1}" {
+     AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
+     }
+    }
+    AttachmentSlotComponent "{61733779A2B78FF1}" {
+     AttachmentSlot InventoryStorageSlot "{61733779A673730E}" {
+     }
+    }
+    AttachmentSlotComponent "{6173377B981F5766}" {
+     AttachmentSlot InventoryStorageSlot "{6173377B887F84C1}" {
+      Prefab "{764E289FA2AC2820}Prefabs/Weapons/Attachments/Stock/Stock_L1A1/Stock_L1A1_plastic.et"
+     }
+    }
+    AttachmentSlotComponent "{6173377B981F5766}" {
+     AttachmentSlot InventoryStorageSlot "{6173377B887F84C1}" {
      }
     }
     AttachmentSlotComponent "{6173377B981F5766}" {
@@ -50,19 +62,15 @@ GenericEntity : "{CF576C0ED8E27F8C}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SL
      AttachmentSlot InventoryStorageSlot "{6173377B887F84C1}" {
      }
     }
-    AttachmentSlotComponent "{6173377B981F5766}" {
-     AttachmentSlot InventoryStorageSlot "{6173377B887F84C1}" {
-     }
-    }
     AttachmentSlotComponent "{6195459A993EF17A}" {
      AttachmentSlot InventoryStorageSlot "{6195459A951E077D}" {
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
-     MagazineTemplate "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     MagazineTemplate "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et"
     }
    }
   }
  }
- coords -0.194 1.133 -2.937
+ coords 7645.567 36.469 2057.32
 }

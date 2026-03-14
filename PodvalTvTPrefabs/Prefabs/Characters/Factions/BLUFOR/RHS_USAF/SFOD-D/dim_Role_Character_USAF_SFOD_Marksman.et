@@ -1,13 +1,13 @@
-SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Scout.et" {
+SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Scout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG-Role_ReconSniper"
+    Name "Снайпер-разведчик"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{B5E31DC87D275AAE}Prefabs/Weapons/SCAR_SSR/SCAR_SSR_SOCOM.et"
+   WeaponTemplate "{B5E31DC87D275AAE}Prefabs/Weapons/Rifles/SCAR_SSR/SCAR_SSR_SOCOM.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -95,5 +95,5 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 2302.689 75.562 862.707
+ coords 11768.845 2.038 3136.638
 }

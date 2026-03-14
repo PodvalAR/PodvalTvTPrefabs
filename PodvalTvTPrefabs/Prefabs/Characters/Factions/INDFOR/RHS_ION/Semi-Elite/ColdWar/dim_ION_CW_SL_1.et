@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{AFEF77366AAD3A70}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{939F44495E6BF876}Prefabs/Weapons/Assault/AKM/Rifle_AKMN_1P29.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2A39478105301F90}Prefabs/Characters/HeadGear/RUS_Beanie/GD_ChechenHat_Bal_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{E0E85543D8A03A5C}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_ION_ColdWar.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{A26404542E87D24D}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 45.588 1 195.828
+}

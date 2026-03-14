@@ -1,13 +1,13 @@
-SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Scout.et" {
+SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Scout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG_Roles_RHS_Scout_Sapper"
+    Name "Сапер-разведчик"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{0CF013CB2E2F06FA}Prefabs/Weapons/M4A1/M4_SOCOM_V3.et"
+   WeaponTemplate "{0CF013CB2E2F06FA}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_V3.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B889E5A3F361810A}Prefabs/Characters/HeadGear/EXFIL/GD_EXFIL_Tan (Scarf+GPNVG).et"
+     Prefab "{B889E5A3F361810A}Prefabs/Characters/HeadGear/All_EXFIL/GD_EXFIL_Tan (Scarf+GPNVG).et"
     }
     LoadoutSlotInfo Back {
      Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
@@ -58,5 +58,5 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4968.425 60.125 3022.723
+ coords 11771.046 1.979 3136.375
 }

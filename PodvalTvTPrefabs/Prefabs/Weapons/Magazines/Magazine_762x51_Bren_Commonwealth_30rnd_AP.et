@@ -1,0 +1,24 @@
+GenericEntity : "{A052AD4BC484EE45}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#BF-Magazine_L4_MIXED_Name"
+     Description "#BF-Magazine_L4_MIXED_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#BF-Magazine_L4_MIXED_Name"
+    Description "#BF-Magazine_L4_MIXED_Description"
+    m_eAmmoTypeFlags FMJ
+   }
+   AmmoMapping {
+    2 2 2 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 1
+   }
+  }
+ }
+ coords 7659.304 36.469 2090.002
+}

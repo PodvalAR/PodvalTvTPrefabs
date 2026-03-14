@@ -1,0 +1,33 @@
+Turret : "{C92225DD023B0878}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{68D8C59E9E2CE517}" {
+     SourceMaterial "Turret_Mat"
+     AssignedMaterial "{F063DF0CEE649A24}Assets/Vehicles/Wheeled/K4386/Data/Turret_Mat_Camo.emat"
+    }
+   }
+  }
+  RHS_TurretDestructionComponent "{6265449F6C08755E}" {
+   m_aMaterialsRemap {
+    RHS_MaterialRemapContainer "{68D8C59E9E2CE5AD}" {
+     m_sMaterialName "Turret_Mat"
+     m_sMaterialPath "{F063DF0CEE649A24}Assets/Vehicles/Wheeled/K4386/Data/Turret_Mat_Camo.emat"
+    }
+   }
+  }
+  TurretComponent "{6265449F6C083A23}" {
+   components {
+    RHS_VehicleNightVisionComponent "{6265449F6C083AC1}" {
+     Enabled 0
+     m_bUseThermal 0
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{4EE228DD71C21BDC}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_k4386_3UBR11.et"
+  }
+ }
+ coords 6203.283 289.95 7678.108
+}

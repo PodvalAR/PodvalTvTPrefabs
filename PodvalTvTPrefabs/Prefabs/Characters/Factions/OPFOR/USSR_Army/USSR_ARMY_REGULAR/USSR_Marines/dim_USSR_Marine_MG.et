@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{E4EEE9368656AD0D}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{ED9FFC8C35C98B8B}Prefabs/Characters/Uniforms/Jacket_M88_TTsKO.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E45E8E203507300}Prefabs/Characters/Uniforms/Pants_M88_TTsKO.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9344E8C1A7CABF8D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/Jacket_M88_TTsKO.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_SovietHarness_MG_Black.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     TargetStorage "Vest/Vest_SovietHarness_MG_Black.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
+    }
+   }
+  }
+ }
+ coords 1994.787 4.344 3104.741
+}

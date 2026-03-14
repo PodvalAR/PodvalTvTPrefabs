@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6EC55D1D2D67C1F1}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Crew.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

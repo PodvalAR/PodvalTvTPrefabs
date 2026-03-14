@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{2994FA590CCE0BCF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Heavy Machinegunner"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{78975C5D9C1AFA4C}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7EC7455E0E21D082}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Scrim_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA807D4321}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6572CAAA800569AD}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
+     PrefabsToSpawn {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68D8D0512D728E3C}" {
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7661.136 36.469 2087.53
+}

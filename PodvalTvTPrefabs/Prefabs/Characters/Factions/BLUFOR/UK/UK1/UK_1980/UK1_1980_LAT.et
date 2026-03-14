@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{9DE6729107141074}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ED601DE433959F6A}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Plastic_AP.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{53F44AFC856BA5FD}Prefabs/Characters/HeadGear/RUS_Beanie/GD_Chechen_Hat_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0960A1A0B891F243}Prefabs/Items/Equipment/Backpacks/Rucksack_P58_Large_Pack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA807D4321}" {
+     PrefabsToSpawn {
+      "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572CAAA800569AD}" {
+     PrefabsToSpawn {
+      "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
+     PrefabsToSpawn {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{F6C7545F627D567F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68D8D0512D728E3C}" {
+     TargetStorage "Back/Rucksack_P58_Large_Pack.et"
+     PrefabsToSpawn {
+      "{7EC7455E0E21D082}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Scrim_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7658.719 36.469 2094.889
+}
