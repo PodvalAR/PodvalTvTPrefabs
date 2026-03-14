@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_Army/UK_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -13,11 +13,11 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Senior Rifleman"
+   m_sName ""
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Senior Rifleman"
+    Name "#PDVL_Role_TL"
     Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
    }
   }
@@ -35,4 +35,5 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK_
    }
   }
  }
+ coords 7651.076 36.469 2074.295
 }

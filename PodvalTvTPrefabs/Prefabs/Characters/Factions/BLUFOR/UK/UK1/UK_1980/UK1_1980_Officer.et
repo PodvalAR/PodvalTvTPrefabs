@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{2994FA590CCE0BCF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{9065E77698E63C1B}Prefabs/Items/Equipment/Binoculars/Binoculars_L12A1_Avimo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7CA4B6E76443A62E}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Marine.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2DEE1C3D93F591CE}Prefabs/Items/Equipment/Radios/Radio_PRC320_Brit.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6027AF01487084D8}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_urban_patrol.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
+     PrefabsToSpawn {
+      "{1A7FE1AC9E645F28}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572CAAA807D4321}" {
+     TargetStorage "Vest/Vest_P58_urban_patrol.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
+    }
+    ItemsInitConfigurationItem "{6572CAAA800569AD}" {
+     TargetStorage "Vest/Vest_P58_urban_patrol.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
+    }
+    ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
+     TargetStorage "Vest/Vest_P58_urban_patrol.et/MagPouch/Pouch_P58_20rnd_L1A1_Left.et"
+    }
+   }
+  }
+ }
+ coords 7557.766 36.469 2023.574
+}

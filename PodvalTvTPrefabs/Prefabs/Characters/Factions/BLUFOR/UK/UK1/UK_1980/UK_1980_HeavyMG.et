@@ -1,9 +1,6 @@
-SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{2994FA590CCE0BCF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName ""
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Heavy Machinegunner"
@@ -16,32 +13,24 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{88B260AB8E82A6DB}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Cover_NoStrap_01.et"
-    }
-    LoadoutSlotInfo Back {
-     Prefab "{816B4F309B3B3D39}Prefabs/Items/Equipment/Backpacks/Rucksack_GS_assembled.et"
+     Prefab "{7EC7455E0E21D082}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Scrim_01.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6572CAAA807D4321}" {
-     PrefabsToSpawn {
-      "" "" "" "" ""
-     }
+     Enabled 0
     }
     ItemsInitConfigurationItem "{6572CAAA800569AD}" {
-     PrefabsToSpawn {
-      "" "" "" "" ""
-     }
+     Enabled 0
     }
     ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
      PrefabsToSpawn {
-      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" ""
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
-    ItemsInitConfigurationItem "{6574E10B0AD4BC34}" {
-     TargetStorage "Back/Rucksack_GS_assembled.et"
+    ItemsInitConfigurationItem "{68D8D0512D728E3C}" {
      PrefabsToSpawn {
       "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
@@ -49,5 +38,5 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/
    }
   }
  }
- coords 7648.573 36.469 2074.401
+ coords 7661.136 36.469 2087.53
 }

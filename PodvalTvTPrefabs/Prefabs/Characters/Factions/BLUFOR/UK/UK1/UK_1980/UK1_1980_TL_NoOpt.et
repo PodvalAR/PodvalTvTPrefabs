@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{6903D6D6AB9786D7}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ED601DE433959F6A}Prefabs/Weapons/Rifles/L1A1_SLR/Rifle_L1A1_SLR_Plastic_AP.et"
+  }
+ }
+ coords 3595.552 9.344 4786.758
+}
