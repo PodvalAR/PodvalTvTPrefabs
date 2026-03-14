@@ -1,5 +1,16 @@
 GenericEntity : "{F7A42BFB2D9F89AB}Prefabs/Props/Military/Arsenal/WeaponRacks/USSR/WeaponRackCabinetArsenal_USSR.et" {
  ID "589F01C8AEC1441E"
+ components {
+  SCR_ArsenalDisplayComponent "{589F01C8E2FEDEE5}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E76678BE335D}" {
+   Enabled 0
+  }
+  SCR_ServicePointComponent "{5CE2F3418E4D03D3}" {
+   Enabled 0
+  }
+ }
  coords 7661.912 17.713 4827.597
  angles 0 15 0
  {
