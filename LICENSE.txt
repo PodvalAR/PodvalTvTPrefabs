@@ -28,6 +28,25 @@ PODVAL ARMA LICENSE
 • повторная публикация (re-upload)
 • распространение отдельных компонентов мода
 
+Дополнительные условия участия
+
+Участие в разработке проекта
+Любой участник, разработчик или пользователь, который:
+отправляет контент в репозиторий проекта,
+передает материалы администрации проекта,
+публикует сценарии или иные ресурсы для включения в мод PODVAL Arma,
+считается добровольно участвующим в разработке проекта.
+Передавая материалы проекту, участник предоставляет проекту PODVAL Arma бессрочное, безотзывное и неограниченное право на использование данного контента в рамках проекта.
+
+Уход из проекта
+В случае прекращения участия в проекте:
+ранее переданный контент остается частью проекта PODVAL Arma
+автор не может требовать его удаления
+автор не может ограничивать использование данного контента в рамках проекта
+
+Защита проекта
+Попытки злоупотребления механизмами удаления контента (включая жалобы на авторские права или аналогичные механизмы) с целью принудительного удаления материалов, ранее добровольно переданных проекту, могут рассматриваться как недобросовестные действия.
+
 Отказ от ответственности
 Программное обеспечение предоставляется «как есть», без каких-либо гарантий. Разработчики проекта PODVAL Arma не несут ответственности за возможный ущерб, возникающий в результате использования данного программного обеспечения.
 
@@ -60,6 +79,25 @@ Without explicit written permission from the PODVAL Arma administration, the fol
 • modifying
 • re-uploading
 • redistributing any part of this mod
+
+Additional Participation Terms
+
+Participation in the Project
+Any contributor, developer, or community member who:
+submits content to the project repository,
+provides assets to the project administration,
+creates scenarios or other resources intended for inclusion in the PODVAL Arma mod,
+is considered to be voluntarily contributing to the development of the project.
+By providing such materials, the contributor grants the PODVAL Arma project a perpetual, irrevocable, and unrestricted license to use the content as part of the project.
+
+Leaving the Project
+If a contributor leaves the project:
+previously submitted content remains part of the PODVAL Arma project
+the author cannot request its removal
+the author cannot restrict the project's continued use of the content
+
+Project Protection
+Attempts to misuse copyright claims or similar systems to force removal of content previously contributed to the project may be considered bad-faith actions.
 
 Disclaimer
 The software is provided “as is”, without warranty of any kind. The PODVAL Arma project developers shall not be held liable for any damages arising from its use.
