@@ -1,0 +1,18 @@
+GenericEntity : "{75FEB6AB7187D92C}Prefabs/Weapons/Rifles/SR25/Rifle_M110_opt.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{658290F958F45BAC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{9ED493AD2832F610}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M110/Suppressor_M110_PRG.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

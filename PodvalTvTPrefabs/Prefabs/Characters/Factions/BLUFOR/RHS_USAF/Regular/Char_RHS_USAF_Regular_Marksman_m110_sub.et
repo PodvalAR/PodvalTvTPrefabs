@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{AEC67AECA3B4E70F}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{2665E7346A746A9F}Prefabs/Weapons/Rifles/SR25/Rifle_M110_sub.et"
+   WeaponTemplate "{5BE1510099FE5F36}Prefabs/Weapons/Rifles/SR25/Rifle_M110_RT6_M61_SUB.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
