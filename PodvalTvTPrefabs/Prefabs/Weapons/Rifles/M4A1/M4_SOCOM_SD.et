@@ -1,0 +1,19 @@
+GenericEntity : "{8E405F2E890E584F}Prefabs/Weapons/Rifles/M4A1/M4_Ranger_TL.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1942.929 226.048 2481.202
+}
