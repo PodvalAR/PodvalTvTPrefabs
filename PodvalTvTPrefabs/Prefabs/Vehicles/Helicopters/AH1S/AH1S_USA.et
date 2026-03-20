@@ -1,0 +1,18 @@
+Vehicle : "{016DEB59D539D387}Prefabs/Vehicles/Helicopters/AH1S/AH1S_Marines_x3_Opt.et" {
+ ID "57DA6675519A417B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6242ECAF4EBE8BC3}" {
+     SourceMaterial "Cockpit"
+     AssignedMaterial "{E1288A1B3D85D98F}Assets/Vehicles/Helicopters/AH1S/Data/Cockpit.emat"
+    }
+    MaterialAssignClass "{6242ECBBA87B4DE3}" {
+     SourceMaterial "Fuselage"
+     AssignedMaterial "{3F6753D0A6D18054}Assets/Vehicles/Helicopters/AH1S/Data/Fuselage.emat"
+    }
+   }
+  }
+ }
+ coords 3062.492 144.364 8417.426
+}
