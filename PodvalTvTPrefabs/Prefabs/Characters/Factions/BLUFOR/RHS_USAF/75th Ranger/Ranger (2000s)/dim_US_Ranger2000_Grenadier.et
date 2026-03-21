@@ -7,27 +7,39 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{2F83CE00BA63CE63}Prefabs/Weapons/M4A1/M4_Ranger2000_2.et"
+   WeaponTemplate "{2F83CE00BA63CE63}Prefabs/Weapons/Rifles/M4A1/M4_Ranger2000_2.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
      Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
     }
+    LoadoutSlotInfo Pants {
+     Prefab "{12DE4B491BD275BB}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_UCP.et"
+    }
     LoadoutSlotInfo Boots {
-     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{F8F881B49DE5206D}Prefabs/Characters/Vests/RangerKits/Ranger_Grenadier.et"
     }
     LoadoutSlotInfo HandWear {
-     Prefab "{86FCDE2A2A4DD765}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_base.et"
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D342FD8537}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686D66D3422F9E4F}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
     ItemsInitConfigurationItem "{686D66D3426CC271}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686D66D16AC08F01}" {
      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
     }
     ItemsInitConfigurationItem "{686F189048C02AAE}" {
@@ -61,7 +73,10 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
-     TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
     }
     ItemsInitConfigurationItem "{686F189EF9C55E70}" {
      TargetStorage "Vest/Ranger_Grenadier.et/Bag/GD_LV119_Pouch_JSTA_RHS_Green.et"
@@ -71,6 +86,9 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{686F189F17E8AA30}" {
      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
     }
     ItemsInitConfigurationItem "{686F189C57B53665}" {
      TargetStorage "Vest/Ranger_Grenadier.et/Band/Pouch_Filbe_bandolier.et"
@@ -81,5 +99,5 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4747.309 311.344 5886.867
+ coords 1874.538 205.617 1370.027
 }

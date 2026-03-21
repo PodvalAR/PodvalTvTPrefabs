@@ -1,0 +1,87 @@
+SCR_ChimeraCharacter : "{197EE33B2F836685}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/Desert_Cover/dim_AFO_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2F098F38D4D889ED}Prefabs/Weapons/Rifles/M4A1/M4_Ranger2000.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{D7C470712EC4D596}Prefabs/Characters/Heads/Head_White_05.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BC7BF7C8628537D5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/dim_PakolHat_Shemagh.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3513AA62773A9418}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{43F12AEF73ADDD9D}Prefabs/Characters/Vests/RangerKits/Ranger_TL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{673857DA77281F31}" {
+     TargetStorage "Pants/Pants_TrousersV2_Tan.et"
+    }
+    ItemsInitConfigurationItem "{673857DA770AD78B}" {
+     Enabled 1
+     TargetStorage "Jacket/Jacket_PCU_L5_CoyoteBrown.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD24D28597}" {
+     Enabled 0
+     TargetStorage "Pants/Pants_TrousersV2_Tan.et"
+    }
+    ItemsInitConfigurationItem "{673857DD242BD470}" {
+     TargetStorage "Vest/Ranger_TL.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD2405DACE}" {
+     TargetStorage "Vest/Ranger_TL.et/Mag_Pouch1/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD241CF7A1}" {
+     TargetStorage "Vest/Ranger_TL.et/Mag_Pouch2/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD24745121}" {
+     TargetStorage "Vest/Ranger_TL.et/Medical_Pouch/Pouch_Eagle_Ind_MEDP_MS.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD244DC698}" {
+     TargetStorage "Vest/Ranger_TL.et/Mag_Pouch3/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD278A0EA0}" {
+     TargetStorage "Vest/Ranger_TL.et/Grenade_Pouch1/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2864.125 10 3075.641
+ angles 0 90 0
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A05DDB8662CE05B4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/Desert_Cover/Mountain/dim_AFO_Mountain_Rifleman_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{80C46F847BD12C33}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{DE198E6D0D09D4DF}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_UCP.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et"
@@ -58,5 +58,5 @@ SCR_ChimeraCharacter : "{80C46F847BD12C33}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 66.281 1 25.871
+ coords 112.893 1 157.853
 }

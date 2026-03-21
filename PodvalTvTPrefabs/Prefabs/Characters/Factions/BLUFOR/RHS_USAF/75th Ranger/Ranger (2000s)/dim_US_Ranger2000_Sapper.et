@@ -1,0 +1,76 @@
+SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/75th Ranger/Ranger (2000s)/dim_US_Ranger2000_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sapper"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{039CC3F842E1354D}Prefabs/Characters/Uniforms/ACU_shirt/GD_ACU_Shirt_UCP_In.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{12DE4B491BD275BB}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{78FCE7A9F2E97F0B}Prefabs/Characters/Vests/RangerKits/Ranger_2014_SCAR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{686D66D342FD8537}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686D66D3422F9E4F}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686D66D16AC08F01}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{686F189078E6819F}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Grenade_Pouch1/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{686F189084B51418}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    ItemsInitConfigurationItem "{686F189094875A11}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{686F1890900E8780}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
+     TargetStorage "Vest/Ranger_2014_SCAR.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
+    }
+    ItemsInitConfigurationItem "{686F1883A3F8A639}" {
+     TargetStorage "Jacket/GD_ACU_Shirt_UCP_In.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E746AB7664306C}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2056.465 20.546 3645.495
+}

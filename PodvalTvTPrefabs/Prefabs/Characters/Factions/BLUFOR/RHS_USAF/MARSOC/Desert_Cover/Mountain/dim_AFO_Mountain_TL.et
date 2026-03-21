@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/Desert_Cover/dim_AFO_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1F99814970E5B2A3}Prefabs/Characters/HeadGear/MICH2000_Navy/dim_Mich2000_AFO.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{DD49E30B082C98CB}Prefabs/Characters/Uniforms/PCU_5lvl_Jacket/Jacket_PCU_5lvl_Base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E0AD6D55C0B9657}Prefabs/Characters/Uniforms/Pants_TrousersV2/Pants_TrousersV2_Grey.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_TrousersV2_Grey.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_TrousersV2_Grey.et"
+    }
+    ItemsInitConfigurationItem "{673857DA77281F31}" {
+     TargetStorage "Pants/Pants_TrousersV2_Grey.et"
+    }
+    ItemsInitConfigurationItem "{673857DA770AD78B}" {
+     TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
+    }
+   }
+  }
+ }
+ coords 2865.645 10 3070.708
+ angles 0 90 0
+}

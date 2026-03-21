@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B83EE9A01852E1F1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/Desert_Cover/dim_AFO_SL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
