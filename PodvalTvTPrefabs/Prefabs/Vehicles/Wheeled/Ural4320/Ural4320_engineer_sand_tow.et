@@ -48,4 +48,5 @@ Vehicle : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer
    }
   }
  }
+ m_bEnableMoveOnFreeze 1
 }

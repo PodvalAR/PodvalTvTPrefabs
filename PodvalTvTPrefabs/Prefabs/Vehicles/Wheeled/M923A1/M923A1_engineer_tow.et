@@ -84,4 +84,5 @@ Vehicle : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et"
    }
   }
  }
+ m_bEnableMoveOnFreeze 1
 }
