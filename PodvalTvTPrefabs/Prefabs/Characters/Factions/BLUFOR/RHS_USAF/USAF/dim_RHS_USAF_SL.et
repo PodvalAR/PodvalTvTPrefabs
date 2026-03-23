@@ -1,0 +1,98 @@
+SCR_ChimeraCharacter : "{67C97355F74099C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_RHS_USAF_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8E405F2E890E584F}Prefabs/Weapons/Rifles/M4A1/M4_Ranger_TL.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0F6C77F147F2040E}Prefabs/Characters/HeadGear/Helmet_ACH/ACH_helmet_MC_Goggle.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{EB6E187783892E71}Prefabs/Characters/Uniforms/ACU_shirt/GD_ACU_Shirt_Rolled_MC.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{5400AF17B7F046DE}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_IMTV_Rifleman_2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93A579636E38}" {
+     TargetStorage "Jacket/GD_ACU_Shirt_Rolled_MC.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{652C93A732F85F4D}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    ItemsInitConfigurationItem "{652C93A709B3262F}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{652C93A716618182}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{652C93A1BD1DB991}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{652C93A185D4F776}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Grenade_Pouch3/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{652C93A18E4E1355}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Grenade_Pouch2/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{652C93A18E8D33F0}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
+    ItemsInitConfigurationItem "{652C93A1E33FC67D}" {
+     TargetStorage "Vest/Pouches_IMTV_Rifleman_2.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
+    }
+    ItemsInitConfigurationItem "{652C93BF7F12D4E1}" {
+     Enabled 1
+     TargetStorage "Jacket/GD_ACU_Shirt_Rolled_MC.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6623549EB783D169}" {
+     TargetStorage "Pants/GD_ACU_pants_MC.et"
+     PrefabsToSpawn {
+      "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1874.926 205.66 1370.056
+ angles 0 0 0
+}

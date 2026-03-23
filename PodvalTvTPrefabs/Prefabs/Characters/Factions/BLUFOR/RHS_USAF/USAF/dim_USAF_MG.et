@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_AR.et" {
+SCR_ChimeraCharacter : "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_RHS_USAF_AR.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -13,8 +13,8 @@ SCR_ChimeraCharacter : "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{652C93A579636E38}" {
-     PrefabsToSpawn {
-      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+     TargetStorage "Jacket/GD_ACU_Shirt_MC.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{652C93A732F85F4D}" {
@@ -35,4 +35,6 @@ SCR_ChimeraCharacter : "{0D86781BA3428115}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
+ coords 1892.986 205.556 1363.468
+ angles 0 0 0
 }

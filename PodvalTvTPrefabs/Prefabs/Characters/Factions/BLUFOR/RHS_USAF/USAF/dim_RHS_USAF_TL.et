@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_Rifleman.et" {
+SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_USAF_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -10,10 +10,29 @@ SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{E799D6F15367FC6A}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ACOG.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{78FF26606707526B}Prefabs/Characters/HeadGear/Helmet_ACH/ACH_helmet_MC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{EB6E187783892E71}Prefabs/Characters/Uniforms/ACU_shirt/GD_ACU_Shirt_Rolled_MC.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93A579636E38}" {
+     TargetStorage "Jacket/GD_ACU_Shirt_Rolled_MC.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
+     }
+    }
     ItemsInitConfigurationItem "{652C93A1E33FC67D}" {
-     TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
+     TargetStorage "Back/GD_DeltaBag_MC.et"
     }
     ItemsInitConfigurationItem "{652C93BF7F12D4E1}" {
      TargetStorage "Back/Backpack_Wartech_BB102_MC.et"
@@ -24,4 +43,6 @@ SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
+ coords 1875.036 205.67 1370.332
+ angles 0 0 0
 }

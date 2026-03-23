@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/drg_Role_RHS_USAF_GL.et" {
+SCR_ChimeraCharacter : "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_USAF_GL.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -19,12 +19,12 @@ SCR_ChimeraCharacter : "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{1F52F4D146EE2D7E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ACOG_M203.et"
+   WeaponTemplate "{E799D6F15367FC6A}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ACOG.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
     }
    }
   }
@@ -36,4 +36,5 @@ SCR_ChimeraCharacter : "{0053063A54F5E83F}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
+ coords 1872.988 205.535 1369.77
 }
