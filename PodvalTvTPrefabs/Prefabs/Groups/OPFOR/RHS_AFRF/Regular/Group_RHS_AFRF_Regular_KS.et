@@ -1,0 +1,16 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_PLHQ"
+   }
+  }
+ }
+ coords 3491.765 25.561 3547.591
+ angles 0 71.162 0
+ m_aUnitPrefabSlots {
+  "{80C71F6CE6DA6F64}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_KS.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_KS"
+}

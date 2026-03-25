@@ -260,6 +260,13 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68F2ECBD9742378E}" {
+   Id "PDVL_Role_KS"
+   Target_ru_ru "Командир стороны"
+   Modified 1760756905
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A005F7951E2A82}" {
    Id "PDVL_Role_LAT"
    Target_en_us "Light Anti-Tank"
@@ -694,6 +701,13 @@ StringTable {
    Target_zh_cn "重机枪小组"
    Target_uk_ua "Розрахунок великокаліберного кулемета"
    Modified 1755395349
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F2ECBD80C6712F}" {
+   Id "PDVL_Squad_KS"
+   Target_ru_ru "Штаб роты"
+   Modified 1760756944
    Author "Biryuk"
    LastChanged "Biryuk"
   }
