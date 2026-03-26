@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{C66AD254A7AC6B78}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_TL_ACOG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MortarCommander"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68DAB334105B5B4D}" {
+    }
+    ItemsInitConfigurationItem "{68F46E126E9BE42C}" {
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/ifak/Pouch_PCGEN3_ifak.et"
+     PrefabsToSpawn {
+      "{6113990D163E5249}Prefabs/Items/Equipment/BalisticTable/BalisticTable_US.et"
+     }
+    }
+   }
+  }
+ }
+ coords 87.034 17.813 938.273
+}

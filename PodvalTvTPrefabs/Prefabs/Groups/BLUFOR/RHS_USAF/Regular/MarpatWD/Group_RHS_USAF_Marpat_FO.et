@@ -1,0 +1,19 @@
+SCR_AIGroup : "{AD9A850F5EA0E17F}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/MarpatWD/Group_RHS_USAF_Marpat_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+   m_iCompanyCallsign 4
+   m_iSquadCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_FO"
+   }
+  }
+ }
+ coords 2597.364 11.64 2711.26
+ angles 0 -15.257 0
+ m_aUnitPrefabSlots {
+  "{4CE27FDD0E617B09}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_SL_FO.et" "{F125FB1401B0BA71}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Riflema_ACOG.et"
+ }
+}

@@ -29,7 +29,7 @@ Vehicle : "{A0CB8452B09E992D}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport.et" 
    }
   }
  }
- coords 4517.604 19.354 2089.622
- angles 0 -87.705 0
- m_sAttachmentGroupName "US_MG_004"
+ coords 86.75 17.844 931.413
+ angles 0 64.606 0
+ m_sAttachmentGroupName ""
 }
