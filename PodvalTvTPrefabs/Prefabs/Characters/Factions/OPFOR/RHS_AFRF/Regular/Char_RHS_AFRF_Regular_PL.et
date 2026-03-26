@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_PL"
-    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -35,4 +35,5 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
+ coords 3396.943 24.717 3516.912
 }
