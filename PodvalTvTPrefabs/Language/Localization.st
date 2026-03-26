@@ -1,6 +1,14 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{68F49AD33E8B9E99}" {
+   Id "PDVL_GPOUP_Weapon_Squad"
+   Target_en_us "Weapon Squad"
+   Target_ru_ru "Отделение вооружения"
+   Modified 1760863007
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A005F783432763}" {
    Id "PDVL_Role_AAT"
    Target_en_us "Assistant Anti-Tank"
@@ -202,6 +210,22 @@ StringTable {
    Modified 1756689344
    Author "RamboKZ"
    LastChanged "armen"
+  }
+  CustomStringTableItem "{68F49AD24E96F367}" {
+   Id "PDVL_Role_FO"
+   Target_en_us "Forward Observer Team"
+   Target_ru_ru "Корректировщик артиллерийского огня"
+   Modified 1760862434
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F49AD47A6DF44B}" {
+   Id "PDVL_Role_Forfard_Observer"
+   Target_en_us "Forward Observer"
+   Target_ru_ru "Передовой наводчик"
+   Modified 1760863285
+   Author "Biryuk"
+   LastChanged "Biryuk"
   }
   CustomStringTableItem "{68A005F7942E2F23}" {
    Id "PDVL_Role_GL"
@@ -704,6 +728,14 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68F46E110CF9C6EA}" {
+   Id "PDVL_Squad_CrewLav25"
+   Target_en_us "Crew Lav 25"
+   Target_ru_ru "Экипаж Lav-25"
+   Modified 1760863180
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68F2ECBD80C6712F}" {
    Id "PDVL_Squad_KS"
    Target_ru_ru "Штаб роты"
@@ -912,6 +944,14 @@ StringTable {
    Target_zh_cn "步枪班"
    Target_uk_ua "Стрілецьке відділення"
    Modified 1756420893
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F49AD488B802BC}" {
+   Id "PDVL_Squad_Sapper"
+   Target_en_us "Sapper squad"
+   Target_ru_ru "Саперное отделение"
+   Modified 1760863169
    Author "Biryuk"
    LastChanged "Biryuk"
   }
