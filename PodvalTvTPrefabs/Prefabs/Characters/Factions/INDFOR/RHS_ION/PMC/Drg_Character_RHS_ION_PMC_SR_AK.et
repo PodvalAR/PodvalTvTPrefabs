@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{DDFECAC92FBC04D4}Prefabs/Weapons/Rifles/AK200/variants/drg_Rifle_AK200_1p86.et"
+   WeaponTemplate "{06991159D015B8D3}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_XPS.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -26,5 +26,5 @@ SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 41.023 1 43.855
+ coords 72.986 1 72.443
 }

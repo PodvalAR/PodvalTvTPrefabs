@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{F108117D0E205188}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_AK.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DDFECAC92FBC04D4}Prefabs/Weapons/Rifles/AK200/variants/drg_Rifle_AK200_1p86.et"
+  }
+ }
+ coords 72.926 1 71.603
+}

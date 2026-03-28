@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{78D53375E47371B1}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Random/Char_RHS_ION_PMC_SR_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68C5237636D3B802}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68C5237639DA7A47}" {
+      m_sVariantPrefab "{5482D0DD3B34D82D}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_Optic.et"
+     }
+     SCR_EditableEntityVariant "{68C5237639C42DEE}" {
+      m_sVariantPrefab "{26DBBB39007FA49B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_AK_Optic.et"
+     }
+     SCR_EditableEntityVariant "{68C5322357E13C3D}" {
+      m_sVariantPrefab "{47BCBC62FAC6DFEF}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_v2_Optic.et"
+     }
+     SCR_EditableEntityVariant "{68C5322382502FF9}" {
+      m_sVariantPrefab "{2217D3542C18491C}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_AK_v2_Optic.et"
+     }
+    }
+   }
+  }
+ }
+ coords 80.499 1 61.965
+}
