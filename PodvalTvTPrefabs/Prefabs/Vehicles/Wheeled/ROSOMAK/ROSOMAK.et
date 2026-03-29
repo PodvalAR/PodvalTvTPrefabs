@@ -1,0 +1,55 @@
+Vehicle : "{C713D3B110C397B6}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKdesert.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{672117EBA499B79C}" {
+     SourceMaterial "rosomak_Body_exterior"
+     AssignedMaterial "{41DAE797E4811708}modele/Data/rosomak_Body_exteriorEngine.emat"
+    }
+    MaterialAssignClass "{672117EBA499B7B2}" {
+     SourceMaterial "rosomak_body_exteriorSEC"
+     AssignedMaterial "{58353D5A326E7F42}modele/Data/rosomak_body_exteriorSECengine.emat"
+    }
+    MaterialAssignClass "{672117EBA499B7BA}" {
+     SourceMaterial "rosomak_suspension"
+     AssignedMaterial "{64715B3E274A38FA}modele/Data/rosomak_suspensionDESERT.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "KTO ROSOMAK"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+     SlotTemplate InventoryStorageSlot stanags {
+      Prefab "{83096A3D7ACA6A07}Prefabs/Weapons/Launchers/M79/Launcher_M79.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "UK"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{12E03682316C2EDC}Vehicles/Wiled/ROSOMAK/Turret/LAV25_turret_ROSOMAK.et"
+    }
+   }
+  }
+ }
+ coords 2815.961 7.846 2642.484
+ angles -7.575 15.478 0.671
+ m_sAttachmentGroupName "MH_210"
+}
