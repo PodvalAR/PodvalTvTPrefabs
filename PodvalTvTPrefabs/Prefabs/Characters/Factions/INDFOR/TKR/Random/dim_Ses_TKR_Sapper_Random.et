@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{403DDD18AFFBC0D9}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sapper_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68FAB34E21AA1F23}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FAB34E228F8AA5}" {
+      m_sVariantPrefab "{403DDD18AFFBC0D9}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sapper_1.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E22BAA922}" {
+      m_sVariantPrefab "{2C69E9F8133F4FF7}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sapper_2.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E22A2E26D}" {
+      m_sVariantPrefab "{C9F5A5011FDAD89C}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sapper_3.et"
+     }
+    }
+   }
+  }
+ }
+}

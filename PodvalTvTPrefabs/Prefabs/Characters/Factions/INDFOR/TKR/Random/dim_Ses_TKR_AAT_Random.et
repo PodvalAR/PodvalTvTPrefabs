@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{29B8977022F1ADF1}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_AAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68FAB34FA290F2EE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FAB34FA3EA6484}" {
+      m_sVariantPrefab "{29B8977022F1ADF1}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_AAT.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34FA3852EBB}" {
+      m_sVariantPrefab "{60DD5EA5545914A1}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_AAT_1.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34FA35D9D36}" {
+      m_sVariantPrefab "{0C896A45E89D9B8F}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_AAT_2.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34FACF6ADF9}" {
+      m_sVariantPrefab "{E91526BCE4780CE4}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_AAT_3.et"
+     }
+    }
+   }
+  }
+ }
+}
