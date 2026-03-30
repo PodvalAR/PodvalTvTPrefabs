@@ -13,9 +13,32 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
     }
    }
   }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_r01 {
+     AutoConnectToTurret "Turret"
+     AutoConnectContextIndices 0x1f 0
+    }
+   }
+  }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_Image "{1735E37AE17FDA5F}UI/Textures/EditorPreviews/Vehicles/K4386/K4386_Armed_Camo.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{62593DAA0629B085}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5EB0D397B70EA57A}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{44061BF1CB0C78C9}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_150rnd_4AP_1APIT.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68FC872F9AD9D082}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{44061BF1CB0C78C9}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_150rnd_4AP_1APIT.et"
+     }
+    }
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
@@ -25,7 +48,7 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
      MergePhysics 0
      Prefab "{4492CA44D02A3C32}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM_SHIZA.et"
      DisablePhysicsInteraction 1
-     RegisterLights 0
+     RegisterLights 1
     }
     RegisteringComponentSlotInfo Seats {
      Enabled 1
@@ -38,6 +61,14 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
     }
    }
   }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{62593DAA062A210F}" {
+     Position PointInfo "{62593DAA062A210D}" {
+     }
+    }
+   }
+  }
  }
- coords 159.275 1 124.353
+ coords 157.426 1 128.717
 }
