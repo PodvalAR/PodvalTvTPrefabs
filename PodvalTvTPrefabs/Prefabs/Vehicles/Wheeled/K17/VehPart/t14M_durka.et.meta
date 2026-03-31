@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5907DC8DD895150E}Vehicles/Wiled/APC_K17_t14/Turret/t14_durka.et"
+ Name "{ADE43A1281876EA1}Prefabs/Vehicles/Wheeled/K17/VehPart/t14M_durka.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

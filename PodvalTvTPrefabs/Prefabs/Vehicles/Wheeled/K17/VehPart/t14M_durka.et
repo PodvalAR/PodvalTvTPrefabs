@@ -1,4 +1,4 @@
-Turret : "{C202192584F0710E}Vehicles/Turret/t14_durka.et" {
+Turret : "{5907DC8DD895150E}Vehicles/Wiled/APC_K17_t14/Turret/t14_durka.et" {
  ID "51ACD0965653D003"
  components {
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
