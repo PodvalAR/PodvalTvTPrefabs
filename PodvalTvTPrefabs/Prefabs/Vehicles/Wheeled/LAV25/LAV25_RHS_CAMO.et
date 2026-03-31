@@ -1,0 +1,27 @@
+Vehicle : "{3312ADBF53A16DD9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_RHS.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68DAD2F24DFB20D1}" {
+     SourceMaterial "LAV25_MLOD"
+     AssignedMaterial "{FA932366126E5A89}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_MLOD_MERDC.emat"
+    }
+    MaterialAssignClass "{68DAD2F24DFB20C2}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{96F94F3BC0D5D95A}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_MERDC.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{B7B328A3A7778C3A}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_rhs_camo.et"
+    }
+   }
+  }
+ }
+ coords 4549.943 19.906 2145.455
+ angles 0 -86.118 0
+ m_sAttachmentGroupName ""
+}

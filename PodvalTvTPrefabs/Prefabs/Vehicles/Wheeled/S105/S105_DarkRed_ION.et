@@ -1,0 +1,23 @@
+Vehicle : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo ION {
+     PivotID "v_body"
+     Offset -0.0002 -1.2836 0.6711
+     Angles 0 90 -7.1789
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+    RegisteringComponentSlotInfo ION_2 {
+     PivotID "v_body"
+     Offset -0.0175 2.0849 0.6976
+     Angles 0 -90 169.5146
+     Prefab "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et"
+    }
+   }
+  }
+ }
+ coords 1930.732 132.5 7406.5
+ angles 0 120 0
+}

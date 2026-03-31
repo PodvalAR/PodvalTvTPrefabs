@@ -1,0 +1,15 @@
+SCR_AIGroup : "{AD9A850F5EA0E17F}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/MarpatWD/Group_RHS_USAF_Marpat_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_KS"
+   }
+  }
+ }
+ coords 190.348 18.008 1005.957
+ angles 0 -112.107 0
+ m_aUnitPrefabSlots {
+  "{A794B669AE66B14D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_KS_ACOG_GL.et"
+ }
+}

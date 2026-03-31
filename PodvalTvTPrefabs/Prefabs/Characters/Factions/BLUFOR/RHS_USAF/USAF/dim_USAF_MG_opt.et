@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{5F91A601CD0D95F6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_USAF_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{441C6358A2167AE3}Prefabs/Weapons/MachineGuns/M240/MG_M240_MDO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93A18E8D33F0}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+    }
+    ItemsInitConfigurationItem "{652C93A1E33FC67D}" {
+     TargetStorage "Back/Backpack_511_rush12_MC.et"
+    }
+   }
+  }
+ }
+ coords 1890.122 205.623 1363.446
+}

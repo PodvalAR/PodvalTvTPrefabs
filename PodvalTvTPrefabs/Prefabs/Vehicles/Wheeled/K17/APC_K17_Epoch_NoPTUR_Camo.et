@@ -1,0 +1,21 @@
+Vehicle : "{136AF62C14074BD6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_NoPTUR.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68D0CB816C29E933}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{BA9960BE0FD033F4}Assets/Vehicles/Wheeled/K17bumerang/Data/camo_expo/Hull_camoExpo.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{4355CC96F816425B}Prefabs/Vehicles/Wheeled/K17/VehPart/dim_Turret_K17_Epoch_Camo.et"
+    }
+   }
+  }
+ }
+ coords 17.836 1 87.008
+}

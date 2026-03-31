@@ -1,0 +1,38 @@
+GenericEntity : "{24FFA508861139C9}Prefabs/Weapons/Rifles/L42A1/Rifle_L8.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#BF-Weapon_L8T_Name"
+     Description "#BF-Weapon_L8_Description"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6156CB66A3B97AEB}" {
+     Enabled 1
+     AttachmentSlot InventoryStorageSlot Scope {
+      Prefab "{624839EF7BA1579C}Prefabs/Weapons/Attachments/Optics/Optic_No32/Optic_No32.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+     AnimInstance "{56ABEC0C9B37F2CA}Assets/Weapons/Rifles/workspaces/l42a1_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{532F3A9CB912F2BA}" {
+      AnimInstance "{ADF57D3D03369626}Assets/Weapons/Rifles/workspaces/l42a1_player.asi"
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#BF-Weapon_L8T_Name"
+    Description "#BF-Weapon_L8_Description"
+   }
+  }
+ }
+ coords 1761.271 58.978 5888.566
+}

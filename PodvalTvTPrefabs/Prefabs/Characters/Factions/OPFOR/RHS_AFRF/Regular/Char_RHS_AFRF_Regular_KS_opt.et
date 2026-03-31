@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{009BAC7973309559}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_KS"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{13805F633DC273FA}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_1p86.et"
+  }
+ }
+ coords 3415.912 24.746 3553.996
+}

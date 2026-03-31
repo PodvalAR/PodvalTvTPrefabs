@@ -2,7 +2,16 @@ SCR_ChimeraCharacter : "{B127227755866E9E}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{EAAE359FB142EA4C}Prefabs/Weapons/Rifles/AK74M/variants/VKPO3/Rifle_AK74M_npz_rail_camo_VKPO3.0.et"
+   WeaponTemplate "{F55D67A121EBB20E}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_1p86-1.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
   }
  }
+ coords 3440.278 25.199 3563.274
 }

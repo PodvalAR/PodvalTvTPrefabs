@@ -1,0 +1,29 @@
+GenericEntity : "{8CC8AAFE8FA2F143}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_cargo_covered.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{663A6BDBA47A78A1}" {
+     SourceMaterial "Addons"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{663A6BDBA47A7854}" {
+     SourceMaterial "Sideboard"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{68E7469453FDDD7B}" {
+     SourceMaterial "Sideboard_Interior"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{65B65EF9B307D03B}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{50A355D54519CB89}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_canvas_Tan_Burned.et"
+    }
+   }
+  }
+ }
+ coords 2036.236 19.307 3686.128
+}

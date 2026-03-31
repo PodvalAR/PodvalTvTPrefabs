@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/Pouch1/Pouch_PCGEN3_takoPouch.et"
     }
     ItemsInitConfigurationItem "{68953486F5840E7B}" {
-     TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/tako/Pouch_PCGEN3_takoPouch.et"
+     TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/takobelt/Pouch_PCGEN3_takoPouch.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
@@ -64,11 +64,20 @@ SCR_ChimeraCharacter : "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{689534870ECBB2E8}" {
      TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/m67_2/Pouch_Filbe_M67_Base.et"
     }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{689610050B41E57A}" {
+     TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/Back2/Pouch_Shaw_Nerd_Mini.et"
+    }
     ItemsInitConfigurationItem "{689534B98CA83826}" {
      TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/m18_1/Pouch_Filbe_M18_1.et"
     }
     ItemsInitConfigurationItem "{689534B994BBF82F}" {
-     TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/m18_2/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
     }
     ItemsInitConfigurationItem "{689534B9B0255245}" {
      TargetStorage "Vest/GD_Gen3_Light_SL_N2.et/m67_1/GD_Holster_SLS.et"
@@ -89,5 +98,5 @@ SCR_ChimeraCharacter : "{1B898744F8D416D9}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 32.418 1 50.217
+ coords 157.412 1 138.719
 }

@@ -1,0 +1,78 @@
+SCR_ChimeraCharacter : "{741676D36040EA84}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_USAF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Medic"
+    Icon "{611AE2DF8C37DF42}UI/Icons/medic.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0273B02A28552625}Prefabs/Characters/HeadGear/USA_IHPS/GD_IHPS_Cover.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{75C371D1002B99FC}Prefabs/Characters/Uniforms/ACU_t-shirt/ACU_t-shirt_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{16C33B978687D448}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC_Medic.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3114B2A0BD285272}Prefabs/Characters/Vests/Vest_IMTV/Pouches/GD_Pouches_IMTV_Rifleman_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93A579636E38}" {
+     TargetStorage "Back/GD_DeltaBag_MC_Medic.et"
+    }
+    ItemsInitConfigurationItem "{652C93A732F85F4D}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    ItemsInitConfigurationItem "{652C93A709B3262F}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{652C93A716618182}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    ItemsInitConfigurationItem "{652C93A27BBEB403}" {
+     TargetStorage "Pants/GD_ACU_pants_MC.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C93A1BD1DB991}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Grenade_Pouch1/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{652C93A185D4F776}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Grenade_Pouch3/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{652C93A18E4E1355}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Grenade_Pouch2/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    ItemsInitConfigurationItem "{652C93A18E8D33F0}" {
+     TargetStorage "Vest/GD_Pouches_IMTV_Rifleman_1.et/Holster/GD_Holster_SLS_Tan_RLeg.et"
+     PrefabsToSpawn {
+      "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C93A1E33FC67D}" {
+     TargetStorage "Back/GD_DeltaBag_MC_Medic.et"
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E401A76E0CF7D1}" {
+     TargetStorage "Back/GD_DeltaBag_MC_Medic.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1875.634 205.644 1369.158
+ angles 0 0 0
+}

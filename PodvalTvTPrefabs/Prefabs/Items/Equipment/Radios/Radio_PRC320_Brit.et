@@ -7,6 +7,7 @@ GenericEntity : "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
      "Transmitting Range" 7500
+     "Frequency resolution" 100
     }
    }
   }

@@ -1,0 +1,26 @@
+GameEntity : "{9F3A7D7943C278D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#AR-Headgear_FlatHat_DarkGrey_Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Glass {
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/HeadGear/All_Glasses/GD_Glasses_V1.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{C2B7559303D0C6DC}Assets/Characters/HeadGear/Hat_FlatCap_01/Data/Hat_FlatCap_01_DarkGray.emat"
+   }
+   ItemMaterialsOverride {
+    "{C2B7559303D0C6DC}Assets/Characters/HeadGear/Hat_FlatCap_01/Data/Hat_FlatCap_01_DarkGray.emat"
+   }
+  }
+ }
+ coords 55.348 1 202.361
+}

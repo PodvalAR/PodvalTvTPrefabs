@@ -9,5 +9,20 @@ SCR_ChimeraCharacter : "{D1C9C38D76278ABE}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{45C475DADA913267}Prefabs/Weapons/MachineGuns/M240/MG_M240_EOT.et"
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68DAB33E5121A593}" {
+     PrefabsToSpawn {
+      "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DAB33E51130550}" {
+     PrefabsToSpawn {
+      "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+   }
+  }
  }
+ coords 4558.698 19.911 2123.645
 }

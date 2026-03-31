@@ -1,0 +1,52 @@
+Vehicle : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68E33BB6695BE185}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+     NumSlots 500
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1EF}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D1}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D2}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{F54BE3402DBB59EF}Prefabs/Weapons/Tripods/9K135/Part_1_9K135_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D3}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D4}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{144AA3DABB80974C}Prefabs/Weapons/Tripods/9K135/Part_9K135TB_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB4CA220288}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{9A45B2669EBA2001}Prefabs/Props/Military/9K135_Sight_part.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+ m_bEnableMoveOnFreeze 1
+}

@@ -1,0 +1,11 @@
+GenericEntity : "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    CommonItemType "RHS_RIFLE_AMMO"
+   }
+  }
+ }
+ coords 1567.81 65.288 1109.005
+}

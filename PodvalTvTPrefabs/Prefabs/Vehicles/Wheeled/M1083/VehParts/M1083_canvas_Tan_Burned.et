@@ -1,0 +1,22 @@
+GenericEntity : "{8877D4E781F0E1A3}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_canvas.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{68E746945A9E976D}" {
+     SourceMaterial "Addons"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{68E746945A9E8CB7}" {
+     SourceMaterial "Tent"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{68E7469479AF3990}" {
+     SourceMaterial "Tent_Interior"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+   }
+  }
+ }
+ coords 2037.921 19.419 3694.295
+}

@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{8B533826A14F185A}Prefabs/Characters/Factions/BLUFOR/UK/UK2/Winter/UK2_W_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_HeliPilot"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{67812A5D844880A5}Prefabs/Weapons/Rifles/MP5/Rifle_MP5.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7DCE2BA9C0621155}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01_UK.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{0EE94404A7B2657F}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_UK_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5027D6CF3745778F}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit_Modern.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{56BF56DC8719005F}Prefabs/Characters/Vests/UK_STV_Pouch/Kits/STV_RiflemanKit_RHS.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{545196DB07F563DF}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_UK_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65750D80E2FDC61C}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{65750D80E19BB429}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{65750D80E1A11388}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{65750D80E04871BD}" {
+     TargetStorage "Vest/STV_RiflemanKit_RHS.et/Mag_Pouch1/GD_STV_MagPouch1_RHS_OD.et"
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E053ABA5}" {
+     TargetStorage "Vest/STV_RiflemanKit_RHS.et/Mag_Pouch2/GD_STV_MagPouch2_RHS_OD.et"
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E07C7125}" {
+     TargetStorage "Vest/STV_RiflemanKit_RHS.et/Mag_Pouch3/GD_STV_MagPouch3_RHS_OD.et"
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65750D80E0C05687}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{65750D80E0EAE3FF}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{65750D81F4403501}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{65750D81D20D006B}" {
+     Enabled 0
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{65750D81C3F751FD}" {
+     Enabled 0
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{65750D81C3B82032}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+    ItemsInitConfigurationItem "{65750D81C265DA26}" {
+     TargetStorage "Jacket/Suit_Pilot_UK_01.et"
+    }
+   }
+  }
+ }
+ coords 1567.944 65.032 1108.344
+}

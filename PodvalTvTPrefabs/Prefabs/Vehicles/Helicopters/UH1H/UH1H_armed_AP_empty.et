@@ -1,0 +1,107 @@
+Vehicle : "{999FC99369291EA4}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_AP.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     AutoConnectToTurret "UHCarrier"
+     AutoConnectContextIndices 0x8 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_UH1H_Gunship_Name"
+    m_Image "{EC257FD792A38C16}UI/Textures/EditorPreviews/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_empty.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2000
+     }
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F686523ED8885E}" {
+     NumSlots 4
+    }
+   }
+  }
+  VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
+   Animation VehicleAnimation "{5D9CEE8599E9D9BA}" {
+    VehicleParts {
+     VehiclePartAnimation "{68DAA6A0E176FBAE}" {
+      SlotName "XM60GunSight"
+      StartNode "XM60_eco_out"
+     }
+    }
+    AnimVariables {
+     AnimationVariable "{68DAA6A0E176FBA2}" {
+      VariableName "Sight_flip_ctrl"
+      SignalName "SightDeployment"
+     }
+     AnimationVariable "{68DAA6A0E176FB9C}" {
+      VariableName "Reticle_brightness"
+      SignalName "SightBrightness"
+     }
+     AnimationVariable "{68DAA6A0E176FB9D}" {
+      VariableName "Sight_reticle_elevation"
+      SignalName "SightElevation"
+     }
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      SCR_WeaponInfo_MultiWeaponTurret "{646EB6A3C2DA06F1}" {
+       m_aShowQuantityIndicator {
+        RIPPLE
+       }
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_07 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_08 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_09 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_10 {
+    }
+    RegisteringComponentSlotInfo SupplyStorage_11 {
+    }
+    RegisteringComponentSlotInfo SupplyStorage_12 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo XM60GunSight {
+     Offset 0.574 1.9019 2.7171
+     MergePhysics 1
+     Prefab "{B3C85036179597EC}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/Sight/VehPart_UH1H_sight_pilot.et"
+     RegisterDamage 1
+     RegisterActionSignals 1
+    }
+    RegisteringComponentSlotInfo M260CarrierVirtual {
+     MergePhysics 1
+     Prefab "{EA9C5B7C5F4C7EEC}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_base.et"
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

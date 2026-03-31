@@ -1,0 +1,96 @@
+Vehicle : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AF5E65C37743F}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{5D1F8D0EB9BAF419}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Ses_ChDKZ.emat"
+    }
+    MaterialAssignClass "{5C7AF5E65C377428}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{1F0197D271CC2579}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_ChDKZ.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_ChDKZ"
+    m_aAutoLabels {
+     FACTION_Ses_ChDKZ SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68E33BB6695BE185}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+     NumSlots 500
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1EF}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D1}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D2}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{F54BE3402DBB59EF}Prefabs/Weapons/Tripods/9K135/Part_1_9K135_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D3}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D4}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{144AA3DABB80974C}Prefabs/Weapons/Tripods/9K135/Part_9K135TB_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB4CA220288}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{9A45B2669EBA2001}Prefabs/Props/Military/9K135_Sight_part.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_ChDKZ"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Frame {
+     Prefab "{6780F4FCF3A3F155}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_ChDKZ_roof_assembled.et"
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{E365B1C8A500E752}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_L01.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{2C156A8575A3E612}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_R01.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{8F31852819C4687C}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_L02.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{40415E65C967693C}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_R02.et"
+    }
+    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
+     Prefab "{B586B45880EE8BA6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_ChDKZ_CoatOfArms_decal.et"
+    }
+   }
+  }
+ }
+}

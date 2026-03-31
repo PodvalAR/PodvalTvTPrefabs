@@ -1,0 +1,108 @@
+Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{673751701CE9E1FA}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+    MaterialAssignClass "{673751701CE9E1B9}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   SimState Collision
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{471A4B9A1135027B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Tan.edds"
+    m_aAutoLabels +{
+    }
+   }
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     MaxFuel 0
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     IgnoreExplosions 1
+    }
+    SCR_EngineHitZone Engine_01 {
+     IgnoreExplosions 1
+    }
+    SCR_GearboxHitZone Gearbox_01 {
+     IgnoreExplosions 1
+    }
+    SCR_FuelHitZone FuelTank_01 {
+     IgnoreExplosions 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{983F8F960A9D1F53}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_DIMKII.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{983F8F960A9D1F53}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_DIMKII.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{983F8F960A9D1F53}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_DIMKII.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{983F8F960A9D1F53}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_DIMKII.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{5E534CA9B3DC84E9}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Tan.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{0EA15229DF075989}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Tan.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{50CAED54AE16697F}" {
+     Position PointInfo "{50CAED5486B29300}" {
+      PivotID "doctor_idle"
+      Offset 0.0003 -4.4608 0.0006
+     }
+     Radius 0
+    }
+    UserActionContext "{51B0DCCEEE98E970}" {
+     Radius 0
+    }
+    UserActionContext "{51B0DCCEEE98824D}" {
+     Radius 0
+    }
+    UserActionContext "{66706CE19274B8B2}" {
+     Radius 0
+    }
+   }
+   additionalActions {
+    SCR_UnflipVehicleAction "{5C96333D28423C46}" {
+     ParentContextList {
+     }
+    }
+    SCR_UnflipVehicleAction "{5D5F64CA576C1D07}" {
+     ParentContextList {
+     }
+    }
+    SCR_PushVehicleAction "{60DA85DB5FFC6E4F}" {
+     ParentContextList {
+     }
+    }
+   }
+  }
+ }
+ coords 9602.633 89.87 8990.085
+ angles -1.4 -172.804 7.968
+}

@@ -1,0 +1,15 @@
+GenericEntity : "{4E4F86AF6010C012}Prefabs/Weapons/Rifles/M110/M110_Optics.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{36EF773EB236A891}Prefabs/Weapons/Attachments/Optics/ta648mdo/Optic_TA648MDO_rmr.et"
+     }
+    }
+   }
+  }
+ }
+ coords 126.788 1.169 30.859
+}

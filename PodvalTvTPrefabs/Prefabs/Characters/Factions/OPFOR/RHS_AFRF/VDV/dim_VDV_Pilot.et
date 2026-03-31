@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{B7A545F6ADBEE497}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Pilot_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{13227195B04E2CC1}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_folded.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "ArmoredVest/Vest_NAZ.et"
+     PrefabsToSpawn {
+      "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "ArmoredVest/Vest_NAZ.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "ArmoredVest/Vest_NAZ.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     Enabled 1
+     TargetStorage "ArmoredVest/Vest_NAZ.et"
+    }
+   }
+  }
+ }
+ coords 6547.156 96.656 1280.461
+}

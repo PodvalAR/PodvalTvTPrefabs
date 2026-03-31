@@ -1,0 +1,92 @@
+SCR_ChimeraCharacter : "{600E890491C62306}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/dim_RHS_USAF_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{90D8238D1D8D2DC6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{03ECC15DE6CCCB5F}Prefabs/Characters/Headwear/ACU_cap/ACU_cap.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B19F6A3318D2D57C}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{CD0637B5D67DEFC9}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Khaki.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5CBBDE9220657F3B}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{0C1C0B3D4A6C6B4A}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_LVMBAV_SNIPER_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/ACU_pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Pants/ACU_pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{652C93A579636E38}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_MC.et"
+    }
+    ItemsInitConfigurationItem "{652C93A732F85F4D}" {
+     TargetStorage "Pants/ACU_pants_MC.et"
+    }
+    ItemsInitConfigurationItem "{652C93A709B3262F}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/raid/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{652C93A716618182}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/raid/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{652C93A27BBEB403}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/admin/Pouch_Shaw_Nerd_Mini.et"
+    }
+    ItemsInitConfigurationItem "{652C93A1BD1DB991}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/holster2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{652C93A185D4F776}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/holster3/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{652C93A18E8D33F0}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/pistol/Pouch_HP103_Holster_Coyout.et"
+     PrefabsToSpawn {
+      "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C93A1E33FC67D}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/raid/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{652C93BF7F12D4E1}" {
+     Enabled 1
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/admin/Pouch_Shaw_Nerd_Mini.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6623549EB783D169}" {
+     Enabled 0
+     TargetStorage ""
+    }
+   }
+  }
+ }
+ coords 1877.009 205.621 1368.964
+ angles 0 0 0
+}

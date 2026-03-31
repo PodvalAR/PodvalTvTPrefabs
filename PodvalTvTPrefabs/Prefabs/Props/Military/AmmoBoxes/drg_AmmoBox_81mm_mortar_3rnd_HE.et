@@ -59,7 +59,7 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
    MultiSlots {
     MultiSlotConfiguration "{64DCE9F0D467E3A0}" {
      SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
-      Prefab "{8AEB3E3846780747}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821_EffectModule.et"
+      Prefab "{38BAE094333E31BF}Prefabs/Weapons/Ammo/Ammo_Shell_81mm_HE_M821.et"
      }
      NumSlots 3
     }
@@ -103,4 +103,5 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
    "Parent Node From Parent Entity" 0
   }
  }
+ coords 7553.437 21.373 4914.982
 }

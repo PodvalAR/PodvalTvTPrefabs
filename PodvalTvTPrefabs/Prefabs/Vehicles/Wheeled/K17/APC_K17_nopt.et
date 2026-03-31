@@ -1,0 +1,12 @@
+Vehicle : "{6DEF8A6F9A0F3020}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8E9A65E549130F4F}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Berezok_ptur.et"
+    }
+   }
+  }
+ }
+}

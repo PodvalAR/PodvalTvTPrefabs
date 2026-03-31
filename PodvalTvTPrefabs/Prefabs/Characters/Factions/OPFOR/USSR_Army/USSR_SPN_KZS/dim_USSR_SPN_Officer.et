@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{4AA7886C9F8154F8}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_SL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Командир роты ГРУ"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9906879B750B7AF7}Prefabs/Characters/HeadGear/RUS_Beanie/GD_Chechen_Hat_Flora.et"
+    }
+   }
+  }
+ }
+ coords 4819.612 1.531 7789.922
+}

@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{7FDB80D5A696F7D7}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/UK2_SPN_Sniper_SD.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7DAAE728E90EC217}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Multicam.et"
+    }
+   }
+  }
+ }
+ coords 109.332 1 100.759
+}

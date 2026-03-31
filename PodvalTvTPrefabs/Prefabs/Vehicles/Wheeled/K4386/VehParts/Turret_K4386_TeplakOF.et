@@ -1,0 +1,20 @@
+Turret : "{6378AFC19DAA360B}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{68FC541D2D2478F2}" {
+   components {
+    RHS_VehicleNightVisionComponent "{68FC541D2D24789E}" {
+     m_sNVGGooglesHDRMatrial ""
+     m_sNVGGooglesFilmGrainMaterial ""
+     m_aGainLevels +{
+     }
+     m_bUseThermal 1
+     m_bUseMask 1
+     m_bAddBlems 1
+     m_bManualGainControl 0
+    }
+   }
+  }
+ }
+ coords 152.982 1 108.359
+}

@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{3EEC3716FD9A9756}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/4x/dim_USMC_Modern_D_Rifleman_Holo.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AMG"
+    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{BC4ABD18AF9564D5}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack_Heavy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7425F9CEBBBF0EF1}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_GL_N.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch1/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{68953486FD67A8C1}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch2/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68953486FB07BA77}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/Pouch3/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{68953486EF493850}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/takobelt/Pouch_PCGEN3_takoPouch.et"
+    }
+    ItemsInitConfigurationItem "{68953486F5840E7B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6895348707D4EE3F}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/nerd/Pouch_Shaw_Flex.et"
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/m67_1/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/GD_GEN3_GL_N.et/tako2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{689610050B41E57A}" {
+     TargetStorage "Back/FILBE_Backpack_Heavy.et"
+     PrefabsToSpawn + {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2823.399 52.938 4940.488
+}

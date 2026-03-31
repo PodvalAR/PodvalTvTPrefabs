@@ -69,7 +69,10 @@ GenericEntity : "{12EB211A330C2999}Prefabs/Weapons/Rifles/SR25/Rifle_SR25_base.e
      AttachmentSlot InventoryStorageSlot bipod {
       Offset -0.0009 0.0624 0.3758
       MergePhysics 1
+      Prefab ""
       DisablePhysicsInteraction 1
+     }
+     AttachmentType AttachmentRIS1913Bipod "{68DAD2FFEDCFCD32}" {
      }
      ShowInInspection 1
     }
@@ -98,5 +101,5 @@ GenericEntity : "{12EB211A330C2999}Prefabs/Weapons/Rifles/SR25/Rifle_SR25_base.e
    }
   }
  }
- coords 1289.039 39 2108.255
+ coords 4570.896 20.284 2125.741
 }

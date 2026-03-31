@@ -5,7 +5,7 @@ GenericEntity : "{9C3E25E19A3505F4}Prefabs/Weapons/Rifles/A545/A545.et" {
    components {
     AttachmentSlotComponent "{657AC41988934DC2}" {
      AttachmentSlot InventoryStorageSlot UpperRIS {
-      Prefab "{1A8E5E21EC65EE58}Prefabs/Weapons/Attachments/Optics/reap_ir/reap_ir.et"
+      Prefab "{3A4E2F9091E70EC7}Prefabs/Weapons/Attachments/Optics/infratech1tws/Optic_Infratech1tws.et"
      }
     }
     AttachmentSlotComponent "{657AC419921FBB74}" {
@@ -15,6 +15,7 @@ GenericEntity : "{9C3E25E19A3505F4}Prefabs/Weapons/Rifles/A545/A545.et" {
     }
     AttachmentSlotComponent "{65C2B15048990765}" {
      AttachmentSlot InventoryStorageSlot UpperRIS {
+      Enabled 0
       Prefab "{1A8E5E21EC65EE58}Prefabs/Weapons/Attachments/Optics/reap_ir/reap_ir.et"
      }
     }
@@ -30,5 +31,5 @@ GenericEntity : "{9C3E25E19A3505F4}Prefabs/Weapons/Rifles/A545/A545.et" {
    }
   }
  }
- coords 177.908 1.182 91.043
+ coords 2857.385 10 3058.298
 }

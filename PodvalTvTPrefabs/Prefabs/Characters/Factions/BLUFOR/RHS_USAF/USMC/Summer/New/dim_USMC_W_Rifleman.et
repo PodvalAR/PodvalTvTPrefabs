@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{413596ED916AF768}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Demi-season/dim_USMC_DS_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{9F57AC90DD744AD6}Prefabs/Characters/Heads/Head_Black_02/Head_Black_02_camo_US_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{98978BE479441CAF}Prefabs/Characters/HeadGear/Helmet_ECH/Summer/dim_ECH_W_4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6893473AFEAD8B69}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+    }
+   }
+  }
+ }
+ coords 5481.097 129.406 6925.016
+}

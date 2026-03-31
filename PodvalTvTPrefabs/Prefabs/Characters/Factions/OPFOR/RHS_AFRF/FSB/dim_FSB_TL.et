@@ -3,7 +3,8 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{8B916C6BFC3E7658}UI/Icons/FSB_Alpha_TL.edds"
+    Name "Зам. старшего сотрудника ФСБ"
+    Icon "{8B916C6BFC3E7658}UI/Icons/dim/FSB_Alpha_TL.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -18,7 +19,7 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{D78000A3AAAC12AC}Prefabs/Characters/Uniforms/Shirt_CottonShirt_01/Shirt_CottonShirt_01_V6.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B776438826A2A82F}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+     Prefab "{0BC9074A205DBC3A}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_FSB.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
@@ -39,7 +40,7 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68AEDB5590E98623}" {
      TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
      PrefabsToSpawn {
-      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{68AEDB540D56CF42}" {
@@ -75,5 +76,5 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5286.752 9.729 9110.587
+ coords 230.328 1 239.78
 }

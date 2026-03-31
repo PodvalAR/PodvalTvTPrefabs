@@ -1,0 +1,24 @@
+GenericEntity : "{2259092E586DD78B}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18_t1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D345148A8F0546A}" {
+     AttachmentSlot InventoryStorageSlot AKS74UHandGaurd {
+      Prefab "{D98FE847837E0709}Prefabs/Weapons/Attachments/Lasers/aksu_ltsu/Laser_LTSU_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626891999376DE4E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{3D2940A7E1E36F87}Prefabs/Weapons/Attachments/Muzzle/PBS4/RHS_PBS4.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 6652.356 26.524 3917.836
+}

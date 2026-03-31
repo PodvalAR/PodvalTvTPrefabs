@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{959434FFB400EF12}Prefabs/Characters/Factions/INDFOR/CIV/General (FIA)/FIA_CIV_T_Shirt_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FA21E1335F37B425}Prefabs/Characters/HeadGear/Hat_BallCap/dim_CAP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1AF5843B89C066B0}Prefabs/Characters/Uniforms/Shirt_TShirt_v1/Shirt_TShirt_v1_CoyoteBrown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{688505F34D064F8E}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DC17A89B5FF1A5}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+     PrefabsToSpawn {
+      "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DC17A8A3FAF439}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+     PrefabsToSpawn {
+      "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7639.754 17.824 4820.624
+ angles 0 0 0
+}

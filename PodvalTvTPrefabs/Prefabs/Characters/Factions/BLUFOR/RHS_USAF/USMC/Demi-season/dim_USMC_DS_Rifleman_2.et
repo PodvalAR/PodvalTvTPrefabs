@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{A878907EC1B57922}Prefabs/Characters/Factions/BLUFOR/RHS
    WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{44556840603D069B}Prefabs/Weapons/Weapons/M27IAR/M27IAR_Rfl.et"
+   WeaponTemplate "{44556840603D069B}Prefabs/Weapons/Rifles/M27IAR/M27IAR_Rfl.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Override 1
@@ -69,8 +69,14 @@ SCR_ChimeraCharacter : "{A878907EC1B57922}Prefabs/Characters/Factions/BLUFOR/RHS
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
+    ItemsInitConfigurationItem "{68CAE29664502B43}" {
+     TargetStorage "Vest/GD_GEN3_RFL_N.et/takobelt/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
    }
   }
  }
- coords 50.348 1 38.377
+ coords 5187.932 58.187 3980.157
 }

@@ -1,4 +1,4 @@
-GenericEntity : "{2F098F38D4D889ED}Prefabs/Weapons/M4A1/M4_Ranger2000.et" {
+GenericEntity : "{2F098F38D4D889ED}Prefabs/Weapons/Rifles/M4A1/M4_Ranger2000.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
@@ -13,8 +13,13 @@ GenericEntity : "{2F098F38D4D889ED}Prefabs/Weapons/M4A1/M4_Ranger2000.et" {
       Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
      }
     }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{42E7FF7AF69D977A}Prefabs/Weapons/Rifles/M4A1/Grip/dim_RHS_Grip.et"
+     }
+    }
    }
   }
  }
- coords 4840.736 308.334 5881.473
+ coords 109.282 1.101 165.112
 }

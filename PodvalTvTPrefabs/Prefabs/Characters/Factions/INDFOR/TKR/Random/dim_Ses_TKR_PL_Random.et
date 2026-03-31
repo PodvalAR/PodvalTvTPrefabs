@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{44F829A0BCF2F1DA}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68FAB34E0B81E9C5}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FAB34E14BE58F4}" {
+      m_sVariantPrefab "{44F829A0BCF2F1DA}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_PL.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{90B654857D24A340}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_ION.et" {
+ ID "66F2D698167A077C"
+ components {
+  SlotManagerComponent "{66F2D6986D44629B}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.6734 -2.0492
+     Prefab "{B750B0806B3620E3}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/ION_Hatch.et"
+    }
+   }
+  }
+ }
+ coords 1768.801 179.86 488.091
+}

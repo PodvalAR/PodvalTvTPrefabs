@@ -1,3 +1,5 @@
 SCR_AIGroup : "{5B1C6ACC70743145}Prefabs/Groups/OPFOR/USSR/RandomSpawn/Defend/Group_USSR_PL_3_Defend.et" {
  ID "0000000000000001"
+ m_aUnitPrefabSlots +{
+ }
 }

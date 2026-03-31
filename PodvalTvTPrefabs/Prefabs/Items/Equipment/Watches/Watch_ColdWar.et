@@ -1,0 +1,21 @@
+GameEntity : "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#RHS-Item_GarminTactixBravo_Name #RHS-Color_BLK"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5A8879211DCE8D5D}" {
+   WornModel "{7C6CCDEBC8508893}Assets/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.xob"
+   WornMaterialsOverride {
+   }
+   ItemModel "{7C6CCDEBC8508893}Assets/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.xob"
+   ItemMaterialsOverride {
+   }
+  }
+ }
+ coords 53.109 1.072 196.276
+}

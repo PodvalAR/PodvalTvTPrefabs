@@ -1,0 +1,10 @@
+GameEntity : "{86FE7EA528978CEB}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01_base.et" {
+ ID "5DF2774398EBD275"
+ components {
+  BaseLoadoutClothComponent "{5DF2774268A6E4AA}" {
+   WornModel "{AB0E0461D261ABF7}Assets/Characters/Glove/Glove.xob"
+   ItemModel "{8B65B818E48D1976}Assets/Characters/Glove/Glove_item.xob"
+  }
+ }
+ coords 2858.264 10 3072.336
+}

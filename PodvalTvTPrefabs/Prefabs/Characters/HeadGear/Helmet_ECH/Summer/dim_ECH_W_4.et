@@ -1,0 +1,13 @@
+GameEntity : "{288770EEA2AF06FE}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_D_6.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{18175B2B491840C6}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_hc_cover_base.et"
+    }
+   }
+  }
+ }
+ coords 5463.584 129.406 6935.22
+}

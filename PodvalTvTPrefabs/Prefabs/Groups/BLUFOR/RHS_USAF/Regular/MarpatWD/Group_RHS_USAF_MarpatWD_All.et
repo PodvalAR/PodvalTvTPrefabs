@@ -1,0 +1,7 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ coords 4552.811 19.771 2120.18
+ m_aUnitPrefabSlots {
+  "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "{225EAAFA0A05592D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_PILOT.et" "{6902A3D116182D2B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_medic.et" "" "{9C3358BE16E29880}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_SMAW.et" "{63A935BC49BAFC7A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_SMAW_ACOG.et" "{6B8211C5BB3960B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_ASMAW.et" "{282EE22DDE8F7518}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_ASMAW_ACOG.et" "{6EBE3A13BD58900D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Marksman_m110.et" "{870BD9CAF955F382}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Marksman_m27.et"
+ }
+}

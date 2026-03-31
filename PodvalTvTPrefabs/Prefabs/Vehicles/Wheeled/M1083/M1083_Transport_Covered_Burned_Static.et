@@ -1,0 +1,96 @@
+Vehicle : "{601E2E6A55E48406}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Covered_Tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{663A6BD9622BA409}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{66D831D11214EBD1}" {
+     SourceMaterial "Chassis"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{68E746943B060C32}" {
+     SourceMaterial "Dashboard"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+    MaterialAssignClass "{663A6BDB376EE57F}" {
+     SourceMaterial "InteriorMain"
+     AssignedMaterial "{E73CE7C32E204898}Assets/Props/Wrecks/M113/Data/M113_wreck_Burned.emat"
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Static 1
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{65B6498665024F8B}" {
+     ExitPositionInfo PointInfo "{65B6498665024F85}" {
+      PivotID "Scene_Root"
+     }
+    }
+    CompartmentDoorInfo "{65B6498665024FBB}" {
+     ExitPositionInfo PointInfo "{65B6498665024FB1}" {
+      PivotID "Scene_Root"
+     }
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+       "" "horn"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_m01 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "" "horn"
+      }
+     }
+    }
+    CargoCompartmentSlot passenger_m01 {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "" "horn"
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{5E7401B7488B9A47}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_cargo_covered_Tan_STATIC_Burned.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{65B6498665026419}" {
+     Position PointInfo "{65B6498665026417}" {
+      PivotID "Armature"
+     }
+     Radius 0
+    }
+    UserActionContext "{65B6498665026415}" {
+     Position PointInfo "{65B6498665026414}" {
+      PivotID "Armature"
+     }
+     Radius 0
+    }
+    UserActionContext "{65B6498665026413}" {
+     Position PointInfo "{65B6498665026412}" {
+      PivotID "Armature"
+     }
+     Radius 0
+    }
+   }
+  }
+ }
+ coords 2041.09 19.176 3685.833
+ angles -1.619 21.57 -5.216
+}

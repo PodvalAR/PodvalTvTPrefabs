@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{3AFDE830D2BEDE8F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Rifleman_4.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2B3F0AA3CC72FE5C}Prefabs/Weapons/Rifles/M4A1/PMC_New/M4_PMC_noSD_2.et"
+  }
+ }
+ coords 185.792 1 85.424
+}

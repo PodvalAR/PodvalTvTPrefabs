@@ -1,0 +1,13 @@
+GameEntity : "{2D0CE2B3DA321E76}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TakHat03.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Shemagh {
+     Prefab "{B80A33CFAF5855EB}Prefabs/Characters/HeadGear/Shemagh/Green/GD_Shemagh_Only_Green.et"
+    }
+   }
+  }
+ }
+ coords 192.462 1 176.087
+}

@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/Weapons/M27IAR/M27IAR_VCOG.et"
+   WeaponTemplate "{7381BC02C4867CDA}Prefabs/Weapons/Rifles/M27IAR/M27IAR_VCOG.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -27,6 +27,7 @@ SCR_ChimeraCharacter : "{67BE56BB4DF94C17}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{9C7B2DCF67E2978C}Prefabs/Characters/HeadGear/Helmet_ECH/dim_ECH_D_3.et"
     }
     LoadoutSlotInfo Back {
+     Prefab ""
     }
     LoadoutSlotInfo Vest {
      Prefab "{95DFCFC5E03CD676}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF_2.et"

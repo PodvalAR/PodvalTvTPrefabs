@@ -7,5 +7,15 @@ SCR_ChimeraCharacter : "{BB86C8C32225926E}Prefabs/Characters/Factions/BLUFOR/RHS
     Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67D9}" {
+     PrefabsToSpawn {
+      "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
+     }
+    }
+   }
+  }
  }
+ coords 4562.747 19.921 2124.173
 }

@@ -1,0 +1,107 @@
+GenericEntity : "{278E487E19D82680}Prefabs/Vehicles/Core/Vehicle_Cargo_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{7AD25BFCD99DB251}Assets/Vehicles/Wheeled/K4386/VehParts/Additional_Seat.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   DoorInfoList {
+    CompartmentDoorReference "{68FC541B50601BA0}" {
+    }
+    CompartmentDoorReference "{68FC541B50601B98}" {
+     AnimDoorIndex 1
+    }
+    CompartmentDoorReference "{68FC541B50601B99}" {
+     AnimDoorIndex 2
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot r1 : "{F704037B4888C69C}Prefabs/Vehicles/Wheeled/K4386/passanger_seat.conf" {
+     CompartmentAction SCR_GetInUserAction "{627A062B6AE3DCFB}" {
+      ParentContextList {
+       "door_rear" "passenger_r01"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{627A062B6AE3DC2B}" {
+      ParentContextList {
+       "passenger_r01"
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "627A062B6AE3DC99" {
+      PivotID "passanger_r01"
+     }
+     BaseCoverage 0.4
+     ContextName "passenger_r01"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Cargo {
+    }
+   }
+  }
+  ActionsManagerComponent "{2CD4A765B4482F53}" {
+   ActionContexts {
+    UserActionContext "{68FC541B50601B92}" {
+     UIInfo SCR_ActionContextUIInfo "{68FC541B50601B8C}" {
+     }
+     ContextName "door_rear"
+     Position PointInfo "{68FC541B50601B8E}" {
+      PivotID "v_door_rear_handle"
+      Angles 0 0 -90
+     }
+     Radius 0.5
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{68FC541B506066AA}" {
+     UIInfo SCR_ActionContextUIInfo "{68FC541B506066A5}" {
+     }
+     ContextName "passenger_r01"
+     Position PointInfo "{68FC541B506066A4}" {
+      PivotID "passanger_r01"
+      Offset 0 0.0394 0
+     }
+     Height 0
+    }
+    UserActionContext "{68FC541B506066A6}" {
+     UIInfo SCR_ActionContextUIInfo "{68FC541B506066A1}" {
+     }
+     ContextName "door_rear_int"
+     Position PointInfo "{68FC541B506066A0}" {
+      PivotID "v_door_rear_handle_inside"
+      Angles 0 -90 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{68FC541B50606659}" {
+     UIInfo SCR_ActionContextUIInfo "{68FC541B50606658}" {
+     }
+     ContextName "door_rear_int_handle"
+     Position PointInfo "{68FC541B5060665B}" {
+      PivotID "v_door_rear_handle_inside"
+      Angles 0 -90 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B812962B17E60B}" {
+   AnimGraph "{D8774BA16BB4A15F}Assets/Vehicles/Wheeled/K4386/Workspaces/K4386.agr"
+   AnimInstance "{C173E352109364CC}Assets/Vehicles/Wheeled/K4386/Workspaces/K4386_vehicle.asi"
+   StartNode "VehicleMasterControl"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{50B812961A339FD2}" {
+    AnimGraph "{D8774BA16BB4A15F}Assets/Vehicles/Wheeled/K4386/Workspaces/K4386.agr"
+    AnimInstance "{E8B391A558F34AED}Assets/Vehicles/Wheeled/K4386/Workspaces/K4386_player.asi"
+   }
+   AutoVariablesBind 1
+  }
+ }
+ coords 154.538 1 122.571
+}

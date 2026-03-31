@@ -1,0 +1,6 @@
+MatPBRMulti : "{8FFAC6FA09490FC3}Assets/Vehicles/Wheeled/M1083/Data/Cabin.emat" {
+ Color 0.089 0.107 0.202 1
+ SpecularMul 1.78
+ RoughnessScale 1.5
+ Color_1 0.175 0.141 0.099 1
+}

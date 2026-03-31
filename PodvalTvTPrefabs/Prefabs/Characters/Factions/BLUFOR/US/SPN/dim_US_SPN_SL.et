@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{61F3754A8D172C22}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_SL_S"
+    Icon "{35610E79E2260BBB}UI/Icons/berret_sl.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DE324D96FD791A90}Prefabs/Weapons/Rifles/M16/Rifle_M16_A2_Carbine_m855a1_Camo_Opt_AP2k.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{56915D05E3190762}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_TigerStripe.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{86BBBEFE6A2F7B5A}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_TigerStripe.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3A80F6D72C}" {
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80D0F11B}" {
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup_TigerStripe.et"
+     PrefabsToSpawn {
+      "{59ECB330B727CCB4}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B394EFC6E76}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Buttpack/Vest_ALICE_buttpack.et"
+    }
+   }
+  }
+ }
+ coords 6263.543 14.05 3351.919
+}

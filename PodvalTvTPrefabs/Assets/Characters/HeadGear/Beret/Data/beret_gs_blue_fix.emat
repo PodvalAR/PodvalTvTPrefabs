@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0 0.007 0.407 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ RoughnessScale 2.155
+ MetalnessScale 0
+ BCRMap "{59E4D1933B3745F3}Assets/Characters/HeadGear/Beret/Data/beret_khaki_BCR.edds"
+ NMOMap "{4A4EE0F2D911BD10}Assets/Characters/HeadGear/Beret/Data/beret_NMO.edds"
+}

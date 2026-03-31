@@ -1,0 +1,59 @@
+Vehicle : "{D2CB0810A6F81E0D}Prefabs/Vehicles/Wheeled/M1083/M1083_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseRadioComponent "{65B6498665024F91}" {
+   Transceivers {
+    RelayTransceiver "{68DAD2F0D64D2E87}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 13300
+   CenterOfMass 0 1.4 -0.9
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot passenger_m01 : "{F1145EBF949266C1}Prefabs/Vehicles/Wheeled/M1083/Configs/CargoCompartment_M1083_MiddleSeat.conf" {
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-EditableEntity_M1083A1P2_Command_Name"
+    Icon "{69691B5E759C0362}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Truck_Command.edds"
+    m_Image "{4BB1496213A993A8}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/M1083_Command.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE TRAIT_RADIO TRAIT_ARSENAL TRAIT_SUPPLYSTORAGE_LARGE
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 600
+     }
+     SCR_EntityBudgetValue "{68DAD2F0D64D2E6E}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_bEditorPlaceAsOneGroup 1
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Offset 0 0 0.299
+     Enabled 1
+     Prefab "{79971EA4027F0D32}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_Command_Box.et"
+    }
+    RegisteringComponentSlotInfo MiddleSeat {
+    }
+    RegisteringComponentSlotInfo Arsenal {
+     Prefab "{8A239DEA19509B1B}Prefabs/Vehicles/Core/VirtualSlots/Radio_VirtualArsenalSlot.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+ coords 76.741 1 1244.671
+ m_eVehicleType COMM_TRUCK
+}

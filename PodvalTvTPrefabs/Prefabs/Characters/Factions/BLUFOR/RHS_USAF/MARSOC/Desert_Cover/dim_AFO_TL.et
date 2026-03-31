@@ -1,0 +1,128 @@
+SCR_ChimeraCharacter : "{197EE33B2F836685}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/Desert_Cover/dim_AFO_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F96BBA7B329ADC1A}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Старший разведчик"
+    Icon "{E85E8BD434DA1C6A}UI/Icons/berret.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{706DDA59A223D469}Prefabs/Weapons/Rifles/M110/M110_Silencer.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D60068A101357AFE}Prefabs/Characters/HeadGear/All_Cap/Variants/Desert Ver/Reverse/GD_CapReverse (NoMask).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{39911750FCDB3175}Prefabs/Characters/Uniforms/Shirt_Velocity_LongSleeve/Shirt_VelocityLong_Olive.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B7099583FE6B3C70}Prefabs/Characters/Uniforms/Pants_TrousersV2/Pants_TrousersV2_CoyoteBrown.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A05A960A45CC1A7E}Prefabs/Characters/Vests/RangerKits/Ranger_2014_M110.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_TrousersV2_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_TrousersV2_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{673857DA77281F31}" {
+     TargetStorage "Pants/Pants_TrousersV2_CoyoteBrown.et"
+    }
+    ItemsInitConfigurationItem "{673857DA770AD78B}" {
+     TargetStorage "Jacket/Shirt_VelocityLong_Olive.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD24D28597}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
+    }
+    ItemsInitConfigurationItem "{673857DD242BD470}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
+    }
+    ItemsInitConfigurationItem "{673857DD2405DACE}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD241CF7A1}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Mag_Pouch_1_1/M110_Mag_Pouch_2.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD24745121}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Grenade_Pouch1/M110_Mag_Pouch_1.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{673857DD244DC698}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Pistolpouch2/Pouch_MP111_PistolClosed2_OD.et"
+    }
+    ItemsInitConfigurationItem "{673857DD278A0EA0}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Holster/GD_Holster_SLS.et"
+    }
+    ItemsInitConfigurationItem "{68E5627E2E5D13AB}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E5627E29B5FC02}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E5627E3A3F9786}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Hydrator_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E5627E48C4EC57}" {
+     TargetStorage "Vest/Ranger_2014_M110.et/Medical_Pouch/Pouch_MP111_PistolClosed_OD.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 189.89 1 170.137
+}

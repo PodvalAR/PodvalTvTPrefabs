@@ -1,0 +1,8 @@
+SCR_AIGroup : "{09F6CBFB9260D79C}Prefabs/Groups/BLUFOR/RHS_USAF/USMC/Desert/dim_USMC_D_HQ.et" {
+ ID "0000000000000001"
+ coords 2860.546 52.938 4955.195
+ angles 0 -176.535 0
+ m_aUnitPrefabSlots {
+  "{EB278E8098B3F2C5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_Modern_D_Officer.et"
+ }
+}

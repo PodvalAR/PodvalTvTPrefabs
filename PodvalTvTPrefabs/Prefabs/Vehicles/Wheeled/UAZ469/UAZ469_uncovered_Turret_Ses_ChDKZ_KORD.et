@@ -1,6 +1,12 @@
 Vehicle : "{1B36C65100846228}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_ChDKZ_Base.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Pdvl_Vehicle_UAZ469_KORD"
+    Icon "{5779776B5B20F50C}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Armed.edds"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
    MultiSlots {
     MultiSlotConfiguration "{68A138D3BC4F7C3A}" {

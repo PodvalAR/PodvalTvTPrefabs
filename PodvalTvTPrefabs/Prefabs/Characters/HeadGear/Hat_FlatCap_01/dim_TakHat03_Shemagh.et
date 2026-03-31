@@ -1,0 +1,42 @@
+GameEntity : "{9F3A7D7943C278D1}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{68E562791CEDD02F}" {
+    ItemDisplayName UIInfo "{68E562791CEDD020}" {
+     Name "Pakol Grey"
+     Description ""
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{5E5C17E482599C8B}Assets/Head/hat01/hat01_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{68E562791CEDD01F}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{68E562791CEDD019}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{68E562791CEDD017}" {
+      m_AffiliatedFactionKey "MEC"
+      m_iOutfitFactionValue 30
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Shemagh {
+     Prefab "{FAB488085CD5A462}Prefabs/Characters/HeadGear/All_Scarf/GD_Scarf Tan (Above Armor).et"
+    }
+   }
+   WornModel "{DE8CB35FD651F653}Assets/Head/hat01/hat01.xob"
+   WornMaterialsOverride {
+    "{DB973F77287A3684}Assets/Head/hat01/Data/tak_civil01_3.emat"
+   }
+   ItemModel "{5E5C17E482599C8B}Assets/Head/hat01/hat01_item.xob"
+   ItemMaterialsOverride {
+    "{DB973F77287A3684}Assets/Head/hat01/Data/tak_civil01_3.emat"
+   }
+  }
+ }
+ coords 1943.132 226.035 2481.226
+}

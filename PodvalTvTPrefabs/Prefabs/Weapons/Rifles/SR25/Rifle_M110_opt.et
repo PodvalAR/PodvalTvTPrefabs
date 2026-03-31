@@ -8,7 +8,15 @@ GenericEntity : "{597378E657C7290B}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.e
       Prefab "{28FD40D75A1B248D}Prefabs/Weapons/Attachments/Optics/RT6/Optic_Coll_RT6.et"
      }
     }
+    AttachmentSlotComponent "{68A54988357CD357}" {
+     AttachmentSlot InventoryStorageSlot bipod {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+     AttachmentType AttachmentRIS1913Bipod "{68DAD2FE61208565}" {
+     }
+    }
    }
   }
  }
+ coords 4569.607 20.664 2125.213
 }

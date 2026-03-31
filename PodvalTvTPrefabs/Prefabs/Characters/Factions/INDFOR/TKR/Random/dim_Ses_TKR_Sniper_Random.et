@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{08705F90B79D0BFA}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68FAB34E3A4A89BE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FAB34E3B98D4A1}" {
+      m_sVariantPrefab "{08705F90B79D0BFA}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sniper.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E3B846355}" {
+      m_sVariantPrefab "{58AE4C26D0517659}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Sniper_2.et"
+     }
+    }
+   }
+  }
+ }
+}

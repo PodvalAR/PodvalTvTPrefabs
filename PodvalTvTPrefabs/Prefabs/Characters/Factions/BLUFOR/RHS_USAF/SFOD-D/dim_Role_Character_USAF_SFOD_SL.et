@@ -17,11 +17,11 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#DRG_Roles_RHS_Scout_Leader"
+    Name "Командир группы"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{3B8D1197A4192041}Prefabs/Weapons/M4A1/M4_SOCOM_DESTROYER.et"
+   WeaponTemplate "{C4023CA59E243252}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_V6.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
@@ -32,6 +32,9 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{A8FF899A318CDF89}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var6.et"
     }
@@ -41,7 +44,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
      PrefabsToSpawn {
-      "{C742BD6CB3D77A5A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_SL.et"
+      "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{672165271728906D}" {
@@ -68,5 +71,5 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 55.4 1 225.483
+ coords 4732.822 9.25 2523.453
 }

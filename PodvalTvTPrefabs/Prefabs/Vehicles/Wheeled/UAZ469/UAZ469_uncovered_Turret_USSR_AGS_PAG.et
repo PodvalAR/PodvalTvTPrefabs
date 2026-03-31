@@ -1,0 +1,12 @@
+Vehicle : "{B2EB0D29B109D2DC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_ChDKZ_AGS.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo TURRET {
+     Prefab "{022228F5C0FF6E7D}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_AGS_PAG_UAZ.et"
+    }
+   }
+  }
+ }
+}

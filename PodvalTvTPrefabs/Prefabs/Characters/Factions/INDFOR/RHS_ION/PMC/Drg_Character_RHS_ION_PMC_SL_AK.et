@@ -36,12 +36,16 @@ SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     TargetStorage "Pants/Pants_M88_vietnam_blk.et"
+    }
     ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{63BC48E166F723BF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Multi.et"
      }
     }
    }
   }
  }
- coords 1283.971 39 2104.279
+ coords 54.479 1 35.68
 }

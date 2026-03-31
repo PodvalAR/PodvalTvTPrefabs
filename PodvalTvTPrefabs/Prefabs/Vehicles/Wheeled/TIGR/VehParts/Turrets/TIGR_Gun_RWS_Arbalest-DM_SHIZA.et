@@ -1,0 +1,82 @@
+Turret : "{7874DAF7EA007CD5}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "door_rear" "passenger_l01"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      ParentContextList {
+       "door_rear_int"
+      }
+      CanAggregate 0
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D47DC1C5730}" {
+      ParentContextList {
+       "door_rear_int"
+      }
+      CanAggregate 0
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "passenger_l01"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "passenger_l01"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "door_rear"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -1.2816 0.085 0.7427
+      Angles 0 90 0
+     }
+     CharacterHasCollision 1
+     SeatType 5
+    }
+   }
+  }
+  SlotManagerComponent "{61C46B0E4A008C26}" {
+   Slots {
+    TF_Display_Slot ControlPanel {
+     Offset 0.0543 1.526 0.1191
+     Angles 0 -90 0
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Radius 0
+     Omnidirectional 0
+     VisibilityAngle 0
+     FilterActionsUsingCache 0
+    }
+    UserActionContext "{59168CA5E4587C25}" {
+     Position PointInfo "{61C44E4F3B9487F0}" {
+      Offset -0.4904 1.438 0.0907
+     }
+    }
+   }
+  }
+  VehicleAnimationComponent "{5242E42C7B4B2CEE}" {
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{D8774BA16BB4A15F}Assets/Vehicles/Wheeled/K4386/Workspaces/K4386.agr"
+    AnimInstance "{E8B391A558F34AED}Assets/Vehicles/Wheeled/K4386/Workspaces/K4386_player.asi"
+   }
+  }
+ }
+ coords 156.344 1 118.351
+}

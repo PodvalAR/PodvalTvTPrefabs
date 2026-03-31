@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{D0E3CB03406978A3}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68FAB34E71FD0FAD}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FAB34E73013A5B}" {
+      m_sVariantPrefab "{D0E3CB03406978A3}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Marksman.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E73275B62}" {
+      m_sVariantPrefab "{E71CF76A95D6667D}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Marksman_2.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E7CCA9533}" {
+      m_sVariantPrefab "{0280BB939933F116}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_Marksman_3.et"
+     }
+    }
+   }
+  }
+ }
+}

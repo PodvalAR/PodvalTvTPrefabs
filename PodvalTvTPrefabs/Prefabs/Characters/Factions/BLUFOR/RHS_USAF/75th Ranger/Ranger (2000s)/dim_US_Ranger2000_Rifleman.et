@@ -6,7 +6,7 @@ SCR_ChimeraCharacter : "{DB1CEB98A81C1893}Prefabs/Characters/Factions/BLUFOR/RHS
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot WristwatchSlot {
-       Prefab "{BA797E21280024B8}Prefabs/Items/Equipment/Watches/Watch_Garmin_Foretrex401.et"
+       Prefab "{E87F2DEA658EED74}Prefabs/Items/Equipment/Watches/Watch_GarminForetrex.et"
       }
      }
     }
@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{DB1CEB98A81C1893}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{B8470972D215E967}UI/Icons/75Ranger.edds"
+    Icon "{B8470972D215E967}UI/Icons/dim/75Ranger.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -24,7 +24,7 @@ SCR_ChimeraCharacter : "{DB1CEB98A81C1893}Prefabs/Characters/Factions/BLUFOR/RHS
    WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{2F098F38D4D889ED}Prefabs/Weapons/Weapons/M4A1/M4_Ranger2000.et"
+   WeaponTemplate "{2F098F38D4D889ED}Prefabs/Weapons/Rifles/M4A1/M4_Ranger2000.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -90,5 +90,5 @@ SCR_ChimeraCharacter : "{DB1CEB98A81C1893}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 64.909 1 26.285
+ coords 2780.667 8.5 2988.649
 }

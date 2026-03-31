@@ -1,0 +1,18 @@
+Vehicle : "{56E88FE5DDF6AA12}Prefabs/Vehicles/Helicopters/AH1S/AH1S_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Vehicle_AH1S_Marines_Name"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{EA86020C8DE8C07F}Prefabs/Vehicles/Helicopters/AH1S/VehParts/Turret/M197_Turret_Base_x3.et"
+    }
+   }
+  }
+ }
+ coords 3852.188 18.226 6934.097
+}

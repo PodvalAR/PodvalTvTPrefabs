@@ -1,0 +1,16 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{68CD6B0F0D80A730}" {
+  }
+ }
+ coords 6264.262 13.882 3348.369
+ angles 0 51.536 0
+ m_aUnitPrefabSlots {
+  "{ED4E0ACF6FD3C80A}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_SL.et" "{8D1385F1AAE00333}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_GL.et" "{61F3754A8D172C22}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Rifleman.et" "{F7FE66E14E368DF9}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_RTO.et" "{090346732FB897D1}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Medic.et" "{6956B24D18F9C0EC}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Sapper.et" "{07DB2A2C2FD68F06}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Sniper.et"
+ }
+ m_sCustomNameSet "Force Recon"
+}

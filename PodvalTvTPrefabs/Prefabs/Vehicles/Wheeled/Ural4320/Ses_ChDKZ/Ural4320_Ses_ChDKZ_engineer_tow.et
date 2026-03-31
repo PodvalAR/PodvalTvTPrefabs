@@ -1,0 +1,88 @@
+Vehicle : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68E33BB654356DC6}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{095BB5C61810C99A}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_ChDKZ.emat"
+    }
+    MaterialAssignClass "{68E33BB654356DCC}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{CB626114BAC06602}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_ChDKZ.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{4CB796271714106F}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_engineer.edds"
+    m_sFaction "Ses_ChDKZ"
+    m_aAutoLabels {
+     FACTION_Ses_ChDKZ SIZE_M VEHICLE_TRUCK
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68E33BB6695BE185}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+     NumSlots 500
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1EF}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D1}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D2}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{F54BE3402DBB59EF}Prefabs/Weapons/Tripods/9K135/Part_1_9K135_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D3}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D4}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{144AA3DABB80974C}Prefabs/Weapons/Tripods/9K135/Part_9K135TB_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB49F393E62}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{9A45B2669EBA2001}Prefabs/Props/Military/9K135_Sight_part.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_ChDKZ"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo EngineerBox {
+     Prefab "{AE9B35C2289F1C82}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_ChDKZ/Ural4320_Ses_ChDKZ_engineer_box.et"
+    }
+   }
+  }
+ }
+}

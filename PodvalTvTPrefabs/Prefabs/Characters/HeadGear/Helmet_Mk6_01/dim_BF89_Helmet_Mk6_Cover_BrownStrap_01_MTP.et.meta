@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2AEC7CDDBB6E3B7E}Prefabs/Characters/HeadGear/Helmet_Mk6_01/dim_BF89_Helmet_Mk6_Cover_BrownStrap_01_MTP.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

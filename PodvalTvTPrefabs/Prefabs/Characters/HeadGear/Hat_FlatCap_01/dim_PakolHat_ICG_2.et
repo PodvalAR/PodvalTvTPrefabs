@@ -1,0 +1,13 @@
+GameEntity : "{F37E8195BD4BBAA8}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_2.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Scarf {
+     Prefab "{485C034DB646E8F5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_4.et"
+    }
+   }
+  }
+ }
+ coords 76.44 1 160.509
+}

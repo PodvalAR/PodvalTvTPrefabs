@@ -1,0 +1,74 @@
+Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68CA95EB65B64BB1}" {
+     SourceMaterial "Hull_Mat"
+     AssignedMaterial "{E4F83280955A4AD5}Assets/Vehicles/Wheeled/K4386/Data/Hull_Mat_Camo.emat"
+    }
+    MaterialAssignClass "{68CA95EB65B64BA4}" {
+     SourceMaterial "Hull_Parts_Mat"
+     AssignedMaterial "{3890DA741037ECB4}Assets/Vehicles/Wheeled/K4386/Data/Hull_Parts_Mat_Camo.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_r01 {
+     AutoConnectToTurret "Turret"
+     AutoConnectContextIndices 0x1f 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{1735E37AE17FDA5F}UI/Textures/EditorPreviews/Vehicles/K4386/K4386_Armed_Camo.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{62593DAA0629B085}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5EB0D397B70EA57A}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{44061BF1CB0C78C9}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_150rnd_4AP_1APIT.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68FC872F9AD9D082}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{44061BF1CB0C78C9}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_150rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.1761 -0.5407
+     MergePhysics 0
+     Prefab "{4492CA44D02A3C32}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM_SHIZA.et"
+     DisablePhysicsInteraction 1
+     RegisterLights 1
+    }
+    RegisteringComponentSlotInfo Seats {
+     Enabled 1
+     Prefab "{28CF1542984FB81E}Prefabs/Vehicles/Wheeled/K4386/VehParts/K4386_AdditionalSeats_shiza.et"
+    }
+    RegisteringComponentSlotInfo DriverDisplay {
+    }
+    RHS_ScreenEntitySlotInfo GunnerScreen {
+     Enabled 0
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{62593DAA062A210F}" {
+     Position PointInfo "{62593DAA062A210D}" {
+     }
+    }
+   }
+  }
+ }
+ coords 157.426 1 128.717
+}

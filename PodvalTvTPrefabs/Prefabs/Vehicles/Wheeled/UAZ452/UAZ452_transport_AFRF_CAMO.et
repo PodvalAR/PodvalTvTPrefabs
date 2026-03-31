@@ -1,0 +1,35 @@
+Vehicle : "{BDE16A6AE9942D44}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62E4EB5D40A0A9E6}" {
+     SourceMaterial "uaz452_body"
+     AssignedMaterial "{47DA6E142537FD5F}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_body_Ses_CDF.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_AFRF"
+    m_aAutoLabels {
+     FACTION_RHS_AFRF SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_AFRF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo FIA_CoatOfArms_decal {
+     Enabled 0
+     Prefab "{9EE28D8BCE8AE3AA}Prefabs/Vehicles/Wheeled/UAZ452/VehParts/UAZ452_CDF_CoatOfArms_decal.et"
+     InheritParentSkeleton 1
+    }
+   }
+  }
+ }
+ coords 3445.289 24.812 3500.264
+ angles 0.235 62.854 0
+}

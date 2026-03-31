@@ -1,6 +1,14 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{68F49AD33E8B9E99}" {
+   Id "PDVL_GPOUP_Weapon_Squad"
+   Target_en_us "Weapon Squad"
+   Target_ru_ru "Отделение вооружения"
+   Modified 1760863007
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A005F783432763}" {
    Id "PDVL_Role_AAT"
    Target_en_us "Assistant Anti-Tank"
@@ -203,6 +211,22 @@ StringTable {
    Author "RamboKZ"
    LastChanged "armen"
   }
+  CustomStringTableItem "{68F49AD24E96F367}" {
+   Id "PDVL_Role_FO"
+   Target_en_us "Forward Observer Team"
+   Target_ru_ru "Корректировщик артиллерийского огня"
+   Modified 1760862434
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F49AD47A6DF44B}" {
+   Id "PDVL_Role_Forfard_Observer"
+   Target_en_us "Forward Observer"
+   Target_ru_ru "Передовой наводчик"
+   Modified 1760863285
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A005F7942E2F23}" {
    Id "PDVL_Role_GL"
    Target_en_us "Grenadier"
@@ -259,6 +283,13 @@ StringTable {
    Modified 1755318245
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68F2ECBD9742378E}" {
+   Id "PDVL_Role_KS"
+   Target_ru_ru "Командир стороны"
+   Modified 1760756905
+   Author "Biryuk"
+   LastChanged "Biryuk"
   }
   CustomStringTableItem "{68A005F7951E2A82}" {
    Id "PDVL_Role_LAT"
@@ -336,6 +367,25 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68CEBA6980CCFE99}" {
+   Id "PDVL_Role_MortarCommander"
+   Target_en_us "Mortar Commander"
+   Target_fr_fr "Commandant de mortier"
+   Target_it_it "Comandante mortaio"
+   Target_de_de "Mörserkommandant"
+   Target_es_es "Comandante de mortero"
+   Target_cs_cz "Velitel minometu"
+   Target_pl_pl "Dowódca moździerza"
+   Target_ru_ru "Командир артиллерии"
+   Target_ja_jp "迫撃砲指揮官"
+   Target_ko_kr "박격포 지휘관"
+   Target_pt_br "Comandante de morteiro"
+   Target_zh_cn "迫击炮指挥官"
+   Target_uk_ua "Командир артилерії"
+   Modified 1758378976
+   Author "Gubastus"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A00A6CCB1A988D}" {
    Id "PDVL_Role_MortarGunner"
    Target_en_us "Mortar Gunner"
@@ -354,6 +404,25 @@ StringTable {
    Modified 1755320578
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68CEBA69831D5076}" {
+   Id "PDVL_Role_MortarLoader"
+   Target_en_us "Mortar Loader"
+   Target_fr_fr "Chargeur de mortier"
+   Target_it_it "Caricatore mortaio"
+   Target_de_de "Mörserlader"
+   Target_es_es "Cargador de mortero"
+   Target_cs_cz "Nabíječ minometu"
+   Target_pl_pl "Ładowniczy moździerza"
+   Target_ru_ru "Заряжающий"
+   Target_ja_jp "迫撃砲装填手"
+   Target_ko_kr "박격포 장전수"
+   Target_pt_br "Carregador de morteiro"
+   Target_zh_cn "迫击炮装填手"
+   Target_uk_ua "Заряджаючий"
+   Modified 1758378976
+   Author "Gubastus"
+   LastChanged "123va"
   }
   CustomStringTableItem "{68A3601B068EBD30}" {
    Id "PDVL_Role_NSV_1"
@@ -659,6 +728,21 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68F46E110CF9C6EA}" {
+   Id "PDVL_Squad_CrewLav25"
+   Target_en_us "Crew Lav 25"
+   Target_ru_ru "Экипаж Lav-25"
+   Modified 1760863180
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F2ECBD80C6712F}" {
+   Id "PDVL_Squad_KS"
+   Target_ru_ru "Штаб роты"
+   Modified 1760756944
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68B96CA190AFCB8A}" {
    Id "PDVL_Squad_Mechanized"
    Target_en_us "Mechanized Squad"
@@ -694,6 +778,13 @@ StringTable {
    Target_zh_cn "医疗班"
    Target_uk_ua "Медичний загін"
    Modified 1755395095
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68DAD2F1BCEC255C}" {
+   Id "PDVL_Squad_MG"
+   Target_ru_ru "Пулеметный расчет"
+   Modified 1759176821
    Author "Biryuk"
    LastChanged "Biryuk"
   }
@@ -811,6 +902,13 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68F46985AE6E5DEE}" {
+   Id "PDVL_Squad_PTRK"
+   Target_ru_ru "Расчет ПТРК"
+   Modified 1760848482
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68B96CA64240351D}" {
    Id "PDVL_Squad_Recon"
    Target_en_us "Recon Squad"
@@ -849,6 +947,14 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68F49AD488B802BC}" {
+   Id "PDVL_Squad_Sapper"
+   Target_en_us "Sapper squad"
+   Target_ru_ru "Саперное отделение"
+   Modified 1760863169
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68B96CA5606A8EEA}" {
    Id "PDVL_Squad_Sniper"
    Target_en_us "Sniper Team"
@@ -867,6 +973,38 @@ StringTable {
    Modified 1756985968
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68F8CBA907B841C6}" {
+   Id "Pdvl_Vehicle_UAZ469_AGS"
+   Target_en_us "UAZ 469 AGS"
+   Target_ru_ru "УАЗ 469 АГС"
+   Modified 1761138933
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F8CBA90845739A}" {
+   Id "Pdvl_Vehicle_UAZ469_AGS_PAG"
+   Target_en_us "UAZ 469 AGS PAG 17"
+   Target_ru_ru "УАЗ 469 АГС ПАГ 17"
+   Modified 1761139085
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F8CBA925658368}" {
+   Id "Pdvl_Vehicle_UAZ469_KORD"
+   Target_en_us "UAZ 469 KORD"
+   Target_ru_ru "УАЗ 469 КОРД"
+   Modified 1761138995
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F8CBA8DEA85A0D}" {
+   Id "Pdvl_Vehicle_UAZ469_KORD_SPP"
+   Target_en_us "UAZ 469 KORD SPP"
+   Target_ru_ru "УАЗ 469 КОРД СПП"
+   Modified 1761139039
+   Author "Biryuk"
+   LastChanged "Biryuk"
   }
  }
 }

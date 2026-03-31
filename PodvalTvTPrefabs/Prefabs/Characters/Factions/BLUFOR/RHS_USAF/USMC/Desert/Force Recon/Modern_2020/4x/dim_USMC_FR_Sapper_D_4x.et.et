@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{D250402DBDBC3B63}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Sapper_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24AACF74603A02B1}Prefabs/Weapons/Rifles/M27IAR/M27_Sup_Bravo.et"
+  }
+ }
+ coords 4284.236 17.844 3462.209
+}

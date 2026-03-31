@@ -1,14 +1,24 @@
-GenericEntity : "{4E4F86AF6010C012}Prefabs/Weapons/M110/M110_Optics.et" {
+GenericEntity : "{4E4F86AF6010C012}Prefabs/Weapons/Rifles/M110/M110_Optics.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{B1C7EEC9ECD85AEC}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_no_covers_camo.et"
+     }
+    }
+    AttachmentSlotComponent "{687741D7E1130CE3}" {
+     AttachmentSlot InventoryStorageSlot bipod {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+    }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
       AttachmentSlotComponent "{658290F958F45BAC}" {
        AttachmentSlot InventoryStorageSlot Muzzle {
-        Offset 0 0 -0.0806
-        Prefab "{DF58424A3589DAF1}Prefabs/Weapons/Attachments/Muzzle/Suppressor_GemtechOne/Suppressor_GemtechOne.et"
+        Offset 0 0 -0.0438
+        Prefab "{9ED493AD2832F610}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M110/Suppressor_M110_PRG.et"
        }
       }
      }
@@ -17,5 +27,5 @@ GenericEntity : "{4E4F86AF6010C012}Prefabs/Weapons/M110/M110_Optics.et" {
    }
   }
  }
- coords 2152.342 278.337 2268.248
+ coords 1944.074 226.132 2481.437
 }

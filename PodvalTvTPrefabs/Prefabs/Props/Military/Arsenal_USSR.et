@@ -1,0 +1,87 @@
+GenericEntity : "{F7A42BFB2D9F89AB}Prefabs/Props/Military/Arsenal/WeaponRacks/USSR/WeaponRackCabinetArsenal_USSR.et" {
+ ID "589F01C8AEC1441E"
+ components {
+  SCR_ArsenalDisplayComponent "{589F01C8E2FEDEE5}" {
+   Enabled 0
+  }
+  SCR_FactionAffiliationComponent "{5A50E76678BE335D}" {
+   Enabled 0
+  }
+  SCR_ServicePointComponent "{5CE2F3418E4D03D3}" {
+   Enabled 0
+  }
+ }
+ coords 7661.912 17.713 4827.597
+ angles 0 15 0
+ {
+  $grp GenericEntity : "{4698384E95783A91}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
+   {
+    ID "68DC17A34A80736D"
+    coords 0.484 0.442 0.212
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A80743B"
+    coords 0.023 0.442 0.212
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A80E431"
+    coords 0.174 0.442 0.212
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A80E436"
+    coords 0.329 0.442 0.212
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A80FAE0"
+    coords 0.638 0.442 0.212
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A80FAE1"
+    coords 0.797 0.442 0.211
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A810E6C"
+    coords 0.938 0.442 0.21
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A83F6C8"
+    coords -0.286 0.442 0.213
+    angles 72.969 180 0
+   }
+   {
+    ID "68DC17A34A83F6C9"
+    coords -0.131 0.442 0.213
+    angles 72.969 180 0
+   }
+  }
+  GenericEntity : "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et" {
+   ID "68DC17A34A83F6CB"
+   coords -0.437 0.442 0.212
+   angles 72.969 180 0
+  }
+  $grp GenericEntity : "{AEC75ADE97CCB664}Prefabs/Props/Military/AmmoBoxes/dim_AmmoBox_545.et" {
+   {
+    ID "68DC17A34A83BCCF"
+    coords -0.831 0.45 0.252
+    angles 0 -180 0
+   }
+   {
+    ID "68DC17A34A83F6C4"
+    coords -0.832 0.809 0.252
+    angles 0 -179.981 0
+   }
+  }
+  GenericEntity : "{D75A2A192AEC3809}Prefabs/Props/Military/AmmoBoxes/dim_AmmoBox_7.6254.et" {
+   ID "68DC17A34A83BCCD"
+   coords -0.853 0.121 0.296
+   angles 0 -60 0
+  }
+ }
+}

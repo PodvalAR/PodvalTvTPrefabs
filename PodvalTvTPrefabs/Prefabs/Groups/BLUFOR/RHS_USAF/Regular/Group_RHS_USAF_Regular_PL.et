@@ -10,5 +10,5 @@ SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_B
  m_aUnitPrefabSlots {
   "{D94B7ED60715A28D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_PL.et"
  }
- m_sCustomNameSet ""
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
 }

@@ -18,7 +18,7 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9793E32071941967}Prefabs/Weapons/Weapons/AK200/AK200_SpecOps.et"
+   WeaponTemplate "{9793E32071941967}Prefabs/Weapons/Rifles/AK200/AK200_SpecOps.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -71,8 +71,11 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
      TargetStorage "Back/Backpack_Suharka_type1.et"
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
    }
   }
  }
- coords 44.935 1 50.9
+ coords 5278.23 11.594 9039.001
 }

@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Pants {
      Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{C44B2D38D79B24CE}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_SL_Pouches.et"
     }
@@ -85,5 +88,5 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 160.227 1 112.66
+ coords 138.581 1 162.737
 }

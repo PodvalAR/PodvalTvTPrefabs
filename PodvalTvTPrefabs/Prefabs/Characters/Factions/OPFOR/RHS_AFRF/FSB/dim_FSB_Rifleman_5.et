@@ -1,0 +1,75 @@
+SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/FSB/dim_FSB_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{EC0E9011A76BD495}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_black1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9CAEC50CF8AE5F20}Prefabs/Characters/Vests/Vest_AACPC/Vest_AACPC_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8798949C614C95A5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Navy.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 0
+     Prefab "{3A86DDD87CF60DBC}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_MC_1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8E7A80F9B9BB9CCE}Prefabs/Characters/Vests/Vest_AACPC/variants/Vest_AACPC_arsarmaHSGI_MC_4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68AEDB5590B6AF3A}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB559092C98F}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB5590E98623}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB540D56CF42}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/slot2/Pouch_wartech_magpouch_mp105_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB54330DA575}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/slot3/Pouch_wartech_magpouch_mp103_MC.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB543C88DE85}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/slot/Pouch_wartech_magpouch_mp105_3_MC.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB543C7E4649}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/arsbelt3/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544061DD4F}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/arsbelt2/Pouch_wartech_magpouch_mp105_MC.et"
+    }
+    ItemsInitConfigurationItem "{68AEDB544E16853D}" {
+     TargetStorage "Vest/Vest_AACPC_arsarmaHSGI_MC_4.et/holster/Pouch_ArsArma_magouch_morphed_COY.et"
+     PrefabsToSpawn + {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68AEDB544AB77647}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68AEDB54525AC443}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68AF141C4C1D61CC}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+   }
+  }
+ }
+ coords 74.528 1 126.335
+}

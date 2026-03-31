@@ -8,6 +8,14 @@ SCR_ChimeraCharacter : "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
  }
- coords 5836.002 4.563 9798.094
+ coords 37.667 1 46.724
 }

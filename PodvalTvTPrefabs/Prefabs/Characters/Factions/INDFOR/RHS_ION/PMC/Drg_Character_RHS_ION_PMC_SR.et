@@ -7,8 +7,21 @@ SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{29F9869637AC22D7}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC_opt.et"
+   WeaponTemplate "{2B78C0289896EAFA}Prefabs/Weapons/Rifles/M4A1/URG-I/drg_Rifle_M4A1_URGI_145_PMC_eot.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6286835946BBC091}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
+     PrefabsToSpawn {
+      "{63BC48E166F723BF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Multi.et"
+     }
+    }
+   }
   }
  }
- coords 1286.179 39 2097.297
+ coords 71.877 1 72.514
 }

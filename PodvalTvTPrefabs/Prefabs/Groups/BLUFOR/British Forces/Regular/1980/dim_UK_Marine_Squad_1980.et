@@ -1,0 +1,8 @@
+SCR_AIGroup : "{654E3A922B11EC94}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad.et" {
+ ID "0000000000000001"
+ coords 7654.227 36.469 2080.848
+ m_aUnitPrefabSlots {
+  "{6EC42C87CD113C14}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_SL.et" "{515B038291DA8AE4}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_MG.et" "{2994FA590CCE0BCF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Rifleman.et" "{5DF0649D4A223463}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_LAT.et" "{6903D6D6AB9786D7}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_TL.et" "{B8017A22D04A3023}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK_1980_HeavyMG.et" "{2994FA590CCE0BCF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Rifleman.et" "{D262AC8C35FF2E6D}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_Marksman.et"
+ }
+ m_sCustomNameSet "Marine Rifle Section"
+}

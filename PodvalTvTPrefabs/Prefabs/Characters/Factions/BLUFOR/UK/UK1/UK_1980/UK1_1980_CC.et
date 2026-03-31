@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{6EC55D1D2D67C1F1}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Crew.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_CC"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{2DEE1C3D93F591CE}Prefabs/Items/Equipment/Radios/Radio_PRC320_Brit.et"
+    }
+   }
+  }
+ }
+ coords 7560.663 36.469 1992.312
+}

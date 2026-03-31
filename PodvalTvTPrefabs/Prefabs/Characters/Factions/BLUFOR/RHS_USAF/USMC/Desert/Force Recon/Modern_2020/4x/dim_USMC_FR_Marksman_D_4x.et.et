@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{45221E0019F7FA2A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/Modern_2020/dim_USMC_FR_Marksman_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24AACF74603A02B1}Prefabs/Weapons/Rifles/M27IAR/M27_Sup_Bravo.et"
+  }
+ }
+ coords 4285.369 17.844 3461.917
+}

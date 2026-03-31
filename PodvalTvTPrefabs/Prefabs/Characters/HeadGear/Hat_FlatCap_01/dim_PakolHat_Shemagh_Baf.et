@@ -1,0 +1,16 @@
+GameEntity : "{5A293B86B4EDF486}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_1.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Shemagh {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+    LoadoutSlotInfo Baf {
+     Prefab "{C1E3C76FE553F59E}Prefabs/Characters/HeadGear/All_Mask/GD_Baf Tan.et"
+    }
+   }
+  }
+ }
+ coords 2857.99 10 3076.073
+}

@@ -1,0 +1,15 @@
+GameEntity : "{98A85E28A7B3180D}Prefabs/Characters/HeadGear/All_Cap/Variants/GD_Cap_Green (Headphones).et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{FF756DCEDA35D54C}Assets/Characters/HeadGear/All_Cap/GD_Cap.xob"
+   WornMaterialsOverride {
+    "{9FB64CA318935EA8}Assets/Characters/HeadGear/All_Cap/Data/CapBattle.emat"
+   }
+   ItemMaterialsOverride {
+    "{9FB64CA318935EA8}Assets/Characters/HeadGear/All_Cap/Data/CapBattle.emat"
+   }
+  }
+ }
+ coords 5712.151 219.06 7073.915
+}

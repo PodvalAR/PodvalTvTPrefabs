@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{1FFE2B88BEF51840}Prefabs/Characters/Factions/CIV/Generi
    m_bIsPlayable 1
   }
   SCR_CharacterFactionAffiliationComponent "{60DC952FF79A02F1}" {
-   "faction affiliation" "FIA"
+   "faction affiliation" "CIV"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -24,5 +24,5 @@ SCR_ChimeraCharacter : "{1FFE2B88BEF51840}Prefabs/Characters/Factions/CIV/Generi
    }
   }
  }
- coords 4719.254 161.632 7003.084
+ coords 5745.639 218.277 7066.319
 }

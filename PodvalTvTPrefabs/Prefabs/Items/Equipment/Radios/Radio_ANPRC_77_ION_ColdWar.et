@@ -1,0 +1,29 @@
+GenericEntity : "{F4331F64B94A47AC}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_ION.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_RF10_Name"
+     Description "#AR-Item_RF10_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3.1
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      PreviewModel "{56E6A1DF76D55753}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_Inflated.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornModel "{27624CDFD16D0A5E}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01.xob"
+   ItemModel "{2B2DB1B26184D8AA}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_item_02.xob"
+   DeflatedModel "{56E6A1DF76D55753}Assets/Items/Equipment/Radios/Radio_RF10/Radio_RF10_01_Inflated.xob"
+  }
+ }
+ coords 7657.056 23.383 5082.518
+}

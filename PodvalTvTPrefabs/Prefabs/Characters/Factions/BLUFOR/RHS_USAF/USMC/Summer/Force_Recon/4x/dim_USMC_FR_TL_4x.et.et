@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{33B313818C46457C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{24AACF74603A02B1}Prefabs/Weapons/Rifles/M27IAR/M27_Sup_Bravo.et"
+  }
+ }
+ coords 158.267 1 135.055
+}

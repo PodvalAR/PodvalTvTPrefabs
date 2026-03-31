@@ -1,0 +1,88 @@
+Vehicle : "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68F27B9CD8343EB3}" {
+     SourceMaterial "ext_1"
+     AssignedMaterial "{BF7BC799D32FBDB9}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext1/ext_1_Green_Multi.emat"
+    }
+    MaterialAssignClass "{68F27B9CD8343EC1}" {
+     SourceMaterial "ext_2"
+     AssignedMaterial "{CCB93AC567422D5E}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext2/ext_2_Green_Multi.emat"
+    }
+    MaterialAssignClass "{68F27B9CD8343EC3}" {
+     SourceMaterial "ext_3"
+     AssignedMaterial "{23A8CEA86C3F4F72}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext3/ext_3_Green_Multi.emat"
+    }
+    MaterialAssignClass "{68F27B9CD8343EC5}" {
+     SourceMaterial "ext_4"
+     AssignedMaterial "{2B3CC07C0F990C90}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Ext4/ext_4_Green_Multi.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle-Gaz233014 - #TF-Vehicle-Color-Green (#TF-Vehicle-Weapon-Unarmed)"
+    m_Image "{8A13E4A574F8B96F}UI/Textures/EditorPreviews/Vehicles/Wheeled/GAZ_TIGR/GAZ233014_Unarmed_Green_Icon.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{62B233ED7C26143C}" {
+   Attributes SCR_ItemAttributeCollection "{62B233ED7C261430}" {
+    m_bDraggable 0
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{68E33BB6695BE185}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et"
+     }
+     NumSlots 500
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1EF}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D1}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D2}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{F54BE3402DBB59EF}Prefabs/Weapons/Tripods/9K135/Part_1_9K135_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D3}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{B0A890995104A02D}Prefabs/Weapons/Tripods/9K135/Part_9K135_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB6695BE1D4}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{144AA3DABB80974C}Prefabs/Weapons/Tripods/9K135/Part_9K135TB_Launcher.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{68E33BB4CA220288}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{9A45B2669EBA2001}Prefabs/Props/Military/9K135_Sight_part.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo UpperDoors {
+     Prefab "{CFFE159B8EF344E5}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Doors/GAZ_TIGR_Upper_Door_233014_Green.et"
+    }
+   }
+  }
+ }
+ coords 1633.541 39 2911.216
+}

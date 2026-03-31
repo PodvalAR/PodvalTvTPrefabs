@@ -1,0 +1,24 @@
+GenericEntity : "{2F098F38D4D889ED}Prefabs/Weapons/Rifles/M4A1/M4_Ranger2000.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{D1F630344498D101}Prefabs/Weapons/Rifles/M4A1/Grip/dim_RHS_Grip_2.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 2867.454 10.093 3072.863
+}

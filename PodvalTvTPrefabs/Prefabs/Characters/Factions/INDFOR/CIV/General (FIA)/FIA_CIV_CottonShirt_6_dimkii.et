@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{8A97F7055F1A003A}Prefabs/Characters/Factions/CIV/Generi
    m_bIsPlayable 1
   }
   SCR_CharacterFactionAffiliationComponent "{60DC952FF79A02F1}" {
-   "faction affiliation" "FIA"
+   "faction affiliation" "CIV"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -21,8 +21,20 @@ SCR_ChimeraCharacter : "{8A97F7055F1A003A}Prefabs/Characters/Factions/CIV/Generi
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
      }
     }
+    ItemsInitConfigurationItem "{68DC17A827730CF7}" {
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_02.et"
+     PrefabsToSpawn {
+      "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DC17A83F8448DD}" {
+     TargetStorage "Back/Backpack_Medical_Soviet_NoCross_02.et"
+     PrefabsToSpawn {
+      "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et" "{927A1A6032625DA5}Prefabs/Money/Money_Ses.et"
+     }
+    }
    }
   }
  }
- coords 4722.943 161.895 7003.522
+ coords 7641.4 17.769 4819.547
 }

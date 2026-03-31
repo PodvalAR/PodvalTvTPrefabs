@@ -18,7 +18,7 @@ SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{DFB1E82103B08E7B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14_supp.et"
+   WeaponTemplate "{9F00FD1D667EAD90}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2_SUB.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{45520DFB75F85B80}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd__sup_PSO.et"
@@ -73,4 +73,5 @@ SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
+ coords 4592.784 26.281 3309.024
 }

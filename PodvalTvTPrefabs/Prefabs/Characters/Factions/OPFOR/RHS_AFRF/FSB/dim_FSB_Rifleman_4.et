@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{E652D625A46A00FC}Prefabs/Characters/Uniforms/Jacket_Suit_01/Jacket_Suit_01_Grey_V1.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B776438826A2A82F}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+     Prefab "{0BC9074A205DBC3A}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_FSB.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{401072A652DD9849}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_grey_V1.et"
@@ -58,5 +58,5 @@ SCR_ChimeraCharacter : "{217CE9ACC0C9A02D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5283.504 9.645 9115.588
+ coords 199.048 1 182.407
 }
