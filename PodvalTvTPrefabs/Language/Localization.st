@@ -1,14 +1,6 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
-  CustomStringTableItem "{68F49AD33E8B9E99}" {
-   Id "PDVL_GPOUP_Weapon_Squad"
-   Target_en_us "Weapon Squad"
-   Target_ru_ru "Отделение вооружения"
-   Modified 1760863007
-   Author "Biryuk"
-   LastChanged "Biryuk"
-  }
   CustomStringTableItem "{68A005F783432763}" {
    Id "PDVL_Role_AAT"
    Target_en_us "Assistant Anti-Tank"
@@ -376,15 +368,15 @@ StringTable {
    Target_es_es "Comandante de mortero"
    Target_cs_cz "Velitel minometu"
    Target_pl_pl "Dowódca moździerza"
-   Target_ru_ru "Командир артиллерии"
+   Target_ru_ru "Командир минометного расчета"
    Target_ja_jp "迫撃砲指揮官"
    Target_ko_kr "박격포 지휘관"
    Target_pt_br "Comandante de morteiro"
    Target_zh_cn "迫击炮指挥官"
    Target_uk_ua "Командир артилерії"
-   Modified 1758378976
+   Modified 1762334664
    Author "Gubastus"
-   LastChanged "123va"
+   LastChanged "Biryuk"
   }
   CustomStringTableItem "{68A00A6CCB1A988D}" {
    Id "PDVL_Role_MortarGunner"
@@ -973,6 +965,14 @@ StringTable {
    Modified 1756985968
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68F49AD33E8B9E99}" {
+   Id "PDVL_Squad_Weapon_Squad"
+   Target_en_us "Weapon Squad"
+   Target_ru_ru "Отделение вооружения"
+   Modified 1762334407
+   Author "Biryuk"
+   LastChanged "Biryuk"
   }
   CustomStringTableItem "{68F8CBA907B841C6}" {
    Id "Pdvl_Vehicle_UAZ469_AGS"
