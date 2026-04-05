@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B6BA0C8D6FF01C43}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+ Name "{BB73CA2C18BCA912}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Mortar.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
