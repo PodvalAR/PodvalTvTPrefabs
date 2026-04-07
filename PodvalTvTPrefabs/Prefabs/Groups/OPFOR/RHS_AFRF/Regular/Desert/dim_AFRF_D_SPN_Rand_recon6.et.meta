@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CDD5EF47F889695E}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Desert/dim_AFRF_D_SPN_Rand_recon6.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

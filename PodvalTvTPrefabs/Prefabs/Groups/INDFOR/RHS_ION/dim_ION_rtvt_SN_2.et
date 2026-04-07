@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{690F20D0CE50D2A4}" {
+  }
+ }
+ coords 5302.629 250.531 3343.593
+ angles 0 -44.221 0
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{FD9DCB5757DDB0F9}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_AFO_M107_ION_RTVT.et" "{1958A4565702D3D0}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Marksman.et"
+ }
+ m_sCustomNameSet "ION STK"
+}
