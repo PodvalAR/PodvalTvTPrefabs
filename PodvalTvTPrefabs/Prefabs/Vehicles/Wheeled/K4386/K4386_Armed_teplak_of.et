@@ -1,3 +1,13 @@
 Vehicle : "{AB5DE68E3E654FCB}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{CC663B4FE5F66C85}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386_teplo_of.et"
+    }
+   }
+  }
+ }
+ coords 155.028 1 113.984
 }
