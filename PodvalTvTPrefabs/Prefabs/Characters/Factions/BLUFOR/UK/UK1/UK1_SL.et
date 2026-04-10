@@ -41,8 +41,12 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/
       "{652FDE999BB0BAC1}Prefabs/Items/Equipment/Radios/Radio_PRC349_Multi.et"
      }
     }
+    ItemsInitConfigurationItem "{6572CAAA80562382}" {
+     PrefabsToSpawn +{
+     }
+    }
    }
   }
  }
- coords 7651.96 36.469 2074.252
+ coords 216.309 1 208.294
 }
