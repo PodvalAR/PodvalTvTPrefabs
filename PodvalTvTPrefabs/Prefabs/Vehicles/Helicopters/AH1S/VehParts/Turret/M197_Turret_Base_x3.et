@@ -145,7 +145,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      SightsFOVInfo SCR_SightsZoomFOVInfo "{68D0CBFC9E9035AC}" {
       m_fZoomMax 3
-      m_fStepZoomSize 5
+      m_fStepZoomSize 2
       m_fInterpolationSpeed 25
      }
      SightsPointFront PointInfo "{68D0CBFC9E9035BD}" {
