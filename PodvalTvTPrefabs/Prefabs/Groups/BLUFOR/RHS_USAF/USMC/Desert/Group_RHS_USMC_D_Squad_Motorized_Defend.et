@@ -1,0 +1,17 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+   m_iCompanyCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_Motorized"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{97A29C60BAF66AA0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_SL_D.et" "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_TF_D.et" "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Grenadier_D.et" "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_AR_D.et" "{C1A4BA040B46DC13}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_TF_D.et" "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Grenadier_D.et" "{322724ED6EB0DECA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_AR_D.et" "{F44A6FE83F119F98}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_CC.et" "{7D8A2E68163311DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USAF_USMC_Crew.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Motorized"
+}

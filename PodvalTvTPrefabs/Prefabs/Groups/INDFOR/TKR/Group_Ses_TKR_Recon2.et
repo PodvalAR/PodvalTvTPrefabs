@@ -1,0 +1,7 @@
+SCR_AIGroup : "{0112DE06A13241AA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{73C9E814A210268E}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Marksman_Random.et" "{AA86E2D22A717D0C}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Sniper_Random.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

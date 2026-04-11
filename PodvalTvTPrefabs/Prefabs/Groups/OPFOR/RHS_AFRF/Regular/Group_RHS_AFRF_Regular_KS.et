@@ -7,10 +7,10 @@ SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Ba
    }
   }
  }
- coords 3491.765 25.561 3547.591
- angles 0 71.162 0
+ coords 9027.721 8.641 6531.29
+ angles -0.895 -0.014 0.895
  m_aUnitPrefabSlots {
-  "{80C71F6CE6DA6F64}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_KS.et"
+  "{306D6A8406400EDF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_KS_opt.et"
  }
  m_sCustomNameSet "#PDVL_Squad_KS"
 }

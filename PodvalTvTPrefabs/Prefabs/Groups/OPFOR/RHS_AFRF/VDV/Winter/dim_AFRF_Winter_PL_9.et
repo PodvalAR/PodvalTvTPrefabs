@@ -1,0 +1,19 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{690D036B87D3EB0D}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 3828.692 55.411 4372.546
+ angles 0 -90 0
+ m_faction "RHS_AFRF"
+ m_aUnitPrefabSlots {
+  "{B8DD8AAD2BA1692B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Officer.et" "{16A6DAAE90E9BCA6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_PL.et" "{B40C58CE07A1C7DB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SRG.et" "{D32B8D9885EA119B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_RiflemanASS.et" "{16CC7B7F94F1CBE9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_SRO.et" "{D32B8D9885EA119B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_RiflemanASS.et" "{0CD0EDF670697D7D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_RPO.et" "{6B8E80109698A060}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/Char_RHS_AFRF_Winter_Medic.et" "{3E53C8165803F3EA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Sniper_SVDM.et"
+ }
+ m_sCustomNameSet "Отделение ВДВ"
+}

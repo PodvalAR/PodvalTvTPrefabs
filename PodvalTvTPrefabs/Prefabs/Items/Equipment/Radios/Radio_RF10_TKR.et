@@ -6,10 +6,12 @@ GenericEntity : "{B15E9D81210CFC1C}Prefabs/Items/Equipment/Radios/Radio_RF10/Rad
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 42000
      "Transmitting Range" 7500
      "Frequency resolution" 200
     }
    }
   }
  }
+ coords 147.474 1 107.061
 }

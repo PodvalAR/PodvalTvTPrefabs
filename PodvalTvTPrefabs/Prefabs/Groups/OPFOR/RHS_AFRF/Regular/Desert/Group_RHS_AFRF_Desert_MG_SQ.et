@@ -1,3 +1,21 @@
 SCR_AIGroup : "{8403DA6F9500E9FA}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Desert/Group_RHS_AFRF_Desert_Base.et" {
  ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE5711C4D2FB}" {
+   m_iCompanyCallsign 2
+   m_iSquadCallsign 2
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_MG"
+   }
+  }
+ }
+ coords 1833.242 390.572 7992.3
+ angles 0 126.651 0
+ m_aUnitPrefabSlots {
+  "{E745C9C74AC2205F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_SL_Opt.et" "{8C24F108D0075D56}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_MG_opt.et" "{5E940F2E0CAE5932}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_AMG.et" "{5E940F2E0CAE5932}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_AMG.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "#PDVL_Squad_MG"
 }

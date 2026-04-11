@@ -1,0 +1,6 @@
+SCR_AIGroup : "{5A5CD4FBBC910D15}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Recon_HeliRecon_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{C991866AFA632B28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_SL_D.et" "{9F97A00E4BD39D9B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_TF_D.et" "{1E206ABD8FCA9145}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_Rifleman_D.et" "{BCDD20AE9E669837}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_Grenadier_D.et" "{4702F75F9F839C72}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_LAT_D.et" "{8CAC6044D12B9A0A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_Scout.et" "{FB0695DF46E2DE77}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Force Recon/dim_Role_Character_USAF_USMC_FR_Sniper.et"
+ }
+}

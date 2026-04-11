@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BED18517F68DA0DE}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Desert/dim_AFRF_D_PL_4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

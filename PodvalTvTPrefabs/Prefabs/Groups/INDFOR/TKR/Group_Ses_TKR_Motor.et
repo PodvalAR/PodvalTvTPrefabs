@@ -1,0 +1,7 @@
+SCR_AIGroup : "{0112DE06A13241AA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{88886FC274202013}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_SL_Random.et" "{C00096717E140FE4}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_GL_Random.et" "{C472228F83886D43}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Sapper_Random.et" "{8E68A198939D2E8D}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Rifleman_Random.et" "{3ADD5E802552D24E}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_AR_Random.et" "{C472228F83886D43}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Sapper_Random.et" "{AA86E2D22A717D0C}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Sniper_Random.et" "{02DCF906B5727DC8}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Crew_Random.et" "{02DCF906B5727DC8}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Crew_Random.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

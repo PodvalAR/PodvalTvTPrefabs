@@ -1,0 +1,59 @@
+SCR_ChimeraCharacter : "{1523C468AAF90312}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Suppressed/Character_USSR_SF_RTO_S.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_TKA"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ADD4BADCCFBF7AD0}Prefabs/Weapons/Rifles/AKM/Rifle_AKM_SteelMag_PBS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E9BE359B59813AF5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanC01_b.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{FADA513CB087D988}Prefabs/Characters/Uniforms/Pants_M88_Green.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M88_Green.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_beige_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{A26404542E87D24D}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24D}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{60E6A9E7DD418527}" {
+     PrefabsToSpawn {
+      "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{B9E3B9B143A43A79}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Ball.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+   }
+  }
+ }
+}

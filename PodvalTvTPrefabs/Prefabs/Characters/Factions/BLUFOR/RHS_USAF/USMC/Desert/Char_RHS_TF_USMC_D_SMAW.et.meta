@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F63F5413E513CCBE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/Char_RHS_TF_USMC_D_SMAW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

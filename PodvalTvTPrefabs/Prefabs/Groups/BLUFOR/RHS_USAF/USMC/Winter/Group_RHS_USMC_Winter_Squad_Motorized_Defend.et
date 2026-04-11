@@ -1,0 +1,17 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+   m_iCompanyCallsign 1
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_Motorized"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{9CF74332E294FC7E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_SL_Winter.et" "{498DA22D64072330}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_TF_Winter.et" "{58E2C61DFAD3923B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_Grenadier_Winter.et" "{2EA27270B3E60E23}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_AR_Winter.et" "{498DA22D64072330}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_TF_Winter.et" "{58E2C61DFAD3923B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_Grenadier_Winter.et" "{2EA27270B3E60E23}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_AR_Winter.et" "{0F5A981783A5FBBD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_CREW_CC.et" "{D3BDB9D84381756E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_CREW_DRIVER.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Motorized"
+}

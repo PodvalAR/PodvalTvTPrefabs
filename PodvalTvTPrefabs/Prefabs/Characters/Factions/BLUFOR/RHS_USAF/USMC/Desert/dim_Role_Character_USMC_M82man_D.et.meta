@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{83484A8AC9A53960}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_M82man_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

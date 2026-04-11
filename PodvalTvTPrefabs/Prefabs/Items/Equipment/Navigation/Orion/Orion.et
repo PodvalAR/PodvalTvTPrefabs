@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "5EC75DDCADDB5BE2"
+ components {
+  InventoryItemComponent "{5EC75DDD8B2D3A9E}" {
+   Attributes SCR_ItemAttributeCollection "{5EC75DDD8B2D3A99}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{5EC75DDD8B2D3AC0}" {
+     ItemVolume 200
+    }
+   }
+  }
+ }
+ coords 148.195 1.051 107.711
+}

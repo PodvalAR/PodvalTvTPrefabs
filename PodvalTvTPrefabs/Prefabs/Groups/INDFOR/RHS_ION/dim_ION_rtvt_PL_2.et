@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{690F20D307AF4AA9}" {
+  }
+ }
+ coords 5302.629 250.531 3343.593
+ angles 0 -44.221 0
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{428D3323BE5B424B}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_Officer.et" "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SMAW.et"
+ }
+ m_sCustomNameSet "ION STK"
+}

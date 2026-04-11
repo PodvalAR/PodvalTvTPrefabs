@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_PL"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E9A441169674F505}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Turban01_b.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{59B5FF71DBDFB29D}Prefabs/Items/Equipment/Radios/Radio_R107M_TKA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E8CB964B2847B}" {
+     PrefabsToSpawn {
+      "{056B51B298AB25E4}Prefabs/Items/Equipment/Radios/Radio_R148_TKA_Multi.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+   }
+  }
+ }
+ coords 90.751 1 64.152
+}

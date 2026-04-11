@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{690D03694012193A}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 3566.774 60.194 5516.193
+ m_faction "RHS_AFRF"
+ m_aUnitPrefabSlots {
+  "{D60E939D50EC9C7C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/dim_VDV_W_Scout_SL_A545.et" "{A9EE9193C987F4BE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/dim_VDV_W_Scout_TL_A545.et" "{1BDC798953F8F709}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/dim_VDV_W_Scout_Rfl_A545.et" "{5164B1A269F726B9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_MG_Winter.et" "{FE2BCA3746F8A21E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_Medic_Winter.et" "{2180097F96D4EBEE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/dim_VDV_W_Sniper_2.et"
+ }
+ m_sCustomNameSet "ДРГ"
+}

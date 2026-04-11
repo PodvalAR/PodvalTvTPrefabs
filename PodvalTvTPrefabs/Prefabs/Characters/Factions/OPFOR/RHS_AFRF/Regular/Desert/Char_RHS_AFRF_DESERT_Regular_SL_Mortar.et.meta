@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B3DC9591269D6A15}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_SL_Mortar.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

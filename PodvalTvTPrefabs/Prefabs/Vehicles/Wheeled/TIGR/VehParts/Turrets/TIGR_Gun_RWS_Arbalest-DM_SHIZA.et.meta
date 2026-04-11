@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{4492CA44D02A3C32}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM_SHIZA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

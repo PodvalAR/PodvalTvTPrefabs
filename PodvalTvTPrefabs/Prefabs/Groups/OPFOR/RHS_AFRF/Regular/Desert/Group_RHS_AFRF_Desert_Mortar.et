@@ -1,0 +1,20 @@
+SCR_AIGroup : "{8403DA6F9500E9FA}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Desert/Group_RHS_AFRF_Desert_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE5711C4D2FB}" {
+   m_iCompanyCallsign 3
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_Mortar"
+   }
+  }
+ }
+ coords 1913.986 329.372 7669.892
+ angles 0 142.749 0
+ m_aUnitPrefabSlots {
+  "{B3DC9591269D6A15}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_SL_Mortar.et" "{C33B709D769207BC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_Rifle.et" "{C33B709D769207BC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_Rifle.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "#PDVL_Squad_Mortar"
+}

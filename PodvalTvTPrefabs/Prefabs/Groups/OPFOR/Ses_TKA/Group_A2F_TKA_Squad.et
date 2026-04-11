@@ -4,6 +4,8 @@ SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_Base
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation ""
   }
+  PS_GroupCallsignAssigner "{690E684CFA37FFC2}" {
+  }
  }
  m_aUnitPrefabSlots {
   "{AFFB63AA07D712D2}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_SL.et" "{D2E38F5262442E4B}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_SR.et" "{1ADBFB744CDAAE9D}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_AT.et" "{C1E84C14E8B9F7C9}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_AAT.et" "{C27392B53553B0C1}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_AR.et" "{CFA6EC94C2E4D9EB}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_GL.et" "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Rifle.et" "{C87508A063442857}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Medic.et" "{2FEEAC2DF6EE5B19}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Sharpshooter.et"

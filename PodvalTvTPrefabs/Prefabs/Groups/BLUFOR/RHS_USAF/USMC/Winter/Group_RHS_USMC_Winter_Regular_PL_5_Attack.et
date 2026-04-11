@@ -1,0 +1,6 @@
+SCR_AIGroup : "{6CC1373CBE262793}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Regular_PL_9_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D2E3298D6FE8B5A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/dim_Role_Character_USMC_Officer_Winter.et" "{C0F6B584881CB20F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/Char_RHS_TF_USMC_Winter_SMAW.et" "{8A87C41795F0BB53}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/Char_RHS_TF_USMC_Winter_ASMAW_ACOG.et" "{4AECB38D876199E0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/Char_RHS_TF_USMC_Winter_HMG_OPT.et" "{684E7DE751A90551}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Winter/Char_RHS_TF_USMC_Winter_AMG.et"
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2FA04D671AC45361}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USMC_Squad_Motorized_Defend.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

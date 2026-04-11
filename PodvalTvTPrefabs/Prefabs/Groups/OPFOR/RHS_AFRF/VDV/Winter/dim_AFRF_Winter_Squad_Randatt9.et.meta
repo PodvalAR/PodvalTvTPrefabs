@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{704EDA37DF9C475D}Prefabs/Groups/OPFOR/RHS_AFRF/VDV/Winter/dim_AFRF_Winter_Squad_Randatt9.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

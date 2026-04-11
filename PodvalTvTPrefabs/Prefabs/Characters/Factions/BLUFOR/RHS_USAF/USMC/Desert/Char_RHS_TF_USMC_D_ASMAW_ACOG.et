@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{6B8211C5BB3960B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_ASMAW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FFD0077342C99B23}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_ACOG.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4DB910B180DD6831}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68DAB33492420C29}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+   }
+  }
+ }
+}

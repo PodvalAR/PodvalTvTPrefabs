@@ -1,0 +1,15 @@
+SCR_AIGroup : "{75D2AF9AD75BD3A7}Prefabs/Groups/OPFOR/Ses_TKA/Group_Ses_TKA_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation ""
+  }
+  PS_GroupCallsignAssigner "{690E684CFA37FFC2}" {
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{343A09365A94CA51}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_PL2.et" "{D2E38F5262442E4B}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_SR.et" "{90644CAF5B1CA422}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_MG.et" "{4B57FBCFFF7FFD76}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_AMG.et" "{0CB04F69B2B89112}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_LAT.et" "{7117673FDAF2259D}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Sapper.et" "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Rifle.et" "{C87508A063442857}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Medic.et" "{2FEEAC2DF6EE5B19}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_Sharpshooter.et"
+ }
+ m_sCustomNameSet "Пехотный отряд"
+ m_bSetPlayable 1
+}

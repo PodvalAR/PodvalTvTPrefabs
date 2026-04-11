@@ -1,0 +1,6 @@
+SCR_AIGroup : "{5A5CD4FBBC910D15}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Recon_HeliRecon_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{BD9BF00F4598B42E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_SL_Winter.et" "{9439C0D8F56E3F82}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_TL_Winter.et" "{096006DA1C0983BE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_Rifleman_Winter.et" "{C0A0BD24ACF2997D}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_Grenadier_Winter.et" "{DEB16FFDB3844B9F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_LAT_Winter.et" "{5DBF45CA3D884282}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_Sapper_Winter.et" "{F4C14F562D848BBD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Winter/dim_Role_Character_SOCOM_Marksman_Winter.et"
+ }
+}

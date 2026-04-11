@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{690E9BA205FB6280}" {
+   m_iCompanyCallsign 4
+  }
+ }
+ coords 3566.774 60.194 5516.193
+ m_faction "RHS_AFRF"
+ m_aUnitPrefabSlots {
+  "{443F5F68137EB115}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_SL_2.et" "{75D75FCF3D6568C2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_GL.et" "{06C8FEFEB2330650}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman_GM94.et" "{E2D367250B24708C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Rifleman_MG.et" "{D3E5B8EBC87AE3B9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Medic.et" "{07E4299FECCA2E8A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Flamethrower.et" "{BC6022BCA54C8393}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/SSO/drg_Role_RHS_AFRF_SSO_Sniper.et"
+ }
+ m_sCustomNameSet "ДРГ"
+}

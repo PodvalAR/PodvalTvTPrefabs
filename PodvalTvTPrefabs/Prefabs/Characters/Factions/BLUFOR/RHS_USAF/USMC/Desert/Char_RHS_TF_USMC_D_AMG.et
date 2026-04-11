@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_amg"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1CD9016949756E28}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V7.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68DAB33492420C29}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{690D2EB2F93F0DF5}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{841A17E13B1FD467}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et" "{841A17E13B1FD467}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4561.766 19.901 2123.688
+}

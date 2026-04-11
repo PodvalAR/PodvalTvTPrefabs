@@ -1,0 +1,7 @@
+SCR_AIGroup : "{0112DE06A13241AA}Prefabs/Groups/INDFOR/TKR/Group_Ses_TKR_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{44F829A0BCF2F1DA}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_PL.et" "{C00096717E140FE4}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_GL_Random.et" "{6E9511C7C88E1E10}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_AT_Random.et" "{AAA88BB9DF1D6B4D}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_AAT_Random.et" "{61A809AD2C9D9820}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_MG_Random.et" "{A59593D33B0EED7D}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_AMG_Random.et" "{C472228F83886D43}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Sapper_Random.et" "{73C9E814A210268E}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Marksman_Random.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

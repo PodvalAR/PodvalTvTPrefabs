@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_at"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9EFEE32C346C9F26}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_MarpatWD.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E157F34E92F107D9}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_In_V2_Winter.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
+     TargetStorage "Pants/GD_USMC_Pants_In_V2_Winter.et"
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{68DAB33492420C29}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{690D036ED2F53762}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4574.217 19.934 2125.517
+}

@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{ADB43E67E3766CE7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_TKA"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1EF6DC35952F2AFD}Prefabs/Weapons/Rifles/L1A1_SLR/drg_Rifle_L1A1_SLR_Plastic_SUIT_snip.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{79CFB5C05B450BC5}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanM01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3D17E4FA8F819ECD}Prefabs/Characters/Uniforms/Jacket_US_BDU_TigerStripe.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C6BE0A871E7DE807}Prefabs/Characters/Uniforms/Pants_US_BDU_TigerStripe.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/Jacket_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Jacket/Jacket_US_BDU_TigerStripe.et"
+     PrefabsToSpawn {
+      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     PrefabsToSpawn {
+      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{60E6A9E7DD418527}" {
+     PrefabsToSpawn {
+      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{60E6A9E7DEF195CA}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

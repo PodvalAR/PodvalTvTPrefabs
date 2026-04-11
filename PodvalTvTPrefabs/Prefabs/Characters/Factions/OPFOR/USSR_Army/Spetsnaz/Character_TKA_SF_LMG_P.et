@@ -1,0 +1,59 @@
+SCR_ChimeraCharacter : "{0B8AC0C3C447F90E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_LMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_TKA"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_Ses_TKA
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{159B8120E78184EB}Prefabs/Characters/HeadGear/Hat_FlatCap_01/TurbanM02.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C6BE0A871E7DE807}Prefabs/Characters/Uniforms/Pants_US_BDU_TigerStripe.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9BED6A2A4F869B9F}Prefabs/Characters/Vests/AmmoCase/AmmoCase_M60.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_US_BDU_TigerStripe.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_beige_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_beige_Dirty.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/AmmoCase_M60.et"
+     PrefabsToSpawn {
+      "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     PrefabsToSpawn {
+      "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et" "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et" "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et" "{75632A0CA07D3817}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_AP.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

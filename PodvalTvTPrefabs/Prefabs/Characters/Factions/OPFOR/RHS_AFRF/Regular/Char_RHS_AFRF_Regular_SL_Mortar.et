@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{998515E06ED7A4C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MortarCommander"
+    Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
+   }
+  }
+ }
+ coords 4060.12 5.971 4264.786
+}
