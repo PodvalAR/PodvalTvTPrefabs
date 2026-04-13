@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D1DFA0DEBA893355}Prefabs/Groups/BLUFOR/RHS_USAF/USMC/Winter/Group_RHS_USMC_Winter_Recon_Squad_Attack1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

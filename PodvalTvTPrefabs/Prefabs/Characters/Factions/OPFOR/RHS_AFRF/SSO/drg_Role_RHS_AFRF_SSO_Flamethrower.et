@@ -9,5 +9,24 @@ SCR_ChimeraCharacter : "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652ABAEAD6299B39}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
+    }
+   }
+  }
  }
 }

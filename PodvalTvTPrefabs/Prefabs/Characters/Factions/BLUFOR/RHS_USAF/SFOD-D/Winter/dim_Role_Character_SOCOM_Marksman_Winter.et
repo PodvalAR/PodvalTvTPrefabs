@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Marksman.et" {
+SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Marksman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{706DDA59A223D469}Prefabs/Weapons/M110/M110_Silencer.et"
+   WeaponTemplate "{706DDA59A223D469}Prefabs/Weapons/Rifles/M110/M110_Silencer.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Override 0
@@ -21,10 +21,10 @@ SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{21BCF2B1BC3B744B}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_SNOW.et"
+     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{3E5C7BD276167A2C}TEST/Prefabs/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
@@ -50,6 +50,9 @@ SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{672165248C6CCDE2}" {
      TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     PrefabsToSpawn + {
+      "{2D14189B61A8F9DE}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Singl.et"
+     }
     }
     ItemsInitConfigurationItem "{67216527216AEEAC}" {
      PrefabsToSpawn {

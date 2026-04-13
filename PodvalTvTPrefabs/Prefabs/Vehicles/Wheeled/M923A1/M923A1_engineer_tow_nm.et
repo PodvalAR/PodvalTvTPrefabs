@@ -1,0 +1,89 @@
+Vehicle : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C580F1DA28BB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{691B408B2E8DB50C}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{691B408B2E8DB50E}" {
+     SlotTemplate InventoryStorageSlot "{65C30096528ACD57}" {
+      Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{691B408B2E8DB570}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{E850E811DBCFB9EE}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_FCS.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB571}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B90699E7A808277A}Prefabs/Weapons/Tripods/BGM71TOW/Part_1_BGM-71D_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB572}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{FDCBE9CC0BEA96EC}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_Mount.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB574}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{CBC0F26A18152EBB}Prefabs/Weapons/Tripods/BGM71TOW/tow_D_N_Sight.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB575}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{1B3C0AA21203A575}Prefabs/Weapons/Tripods/BGM71TOW/tow_FCS_battery.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB576}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB577}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB579}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB57A}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{691B408B2E8DB57B}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo EngineerBox {
+     Prefab "{E34B1E447EC6D8BF}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_engineer_box_nobase.et"
+    }
+   }
+  }
+ }
+ m_bEnableMoveOnFreeze 1
+}

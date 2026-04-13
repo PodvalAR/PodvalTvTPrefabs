@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{F09089191DBB8EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Sapper.et" {
+SCR_ChimeraCharacter : "{F09089191DBB8EDA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Sapper.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
@@ -10,16 +10,16 @@ SCR_ChimeraCharacter : "{F09089191DBB8EDA}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{B0457E2E2AE2F8E7}Prefabs/Characters/HeadGear/Helmet_OPSCORE/OPSCORE_GPNVG.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{21BCF2B1BC3B744B}TEST/Prefabs/Uniforms/gryphon/Jacket_Gryphon_SNOW.et"
+     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{3E5C7BD276167A2C}TEST/Prefabs/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{F711EA887715B39E}TEST/Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+     Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{707856F6903F892C}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_v1.1.et"
@@ -42,6 +42,9 @@ SCR_ChimeraCharacter : "{F09089191DBB8EDA}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{672165248C6CCDE2}" {
      TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     PrefabsToSpawn + {
+      "{2D14189B61A8F9DE}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Singl.et"
+     }
     }
     ItemsInitConfigurationItem "{672165271728906D}" {
      TargetStorage "Vest/JPC_Mult_v1.1.et/m18_2/Pouch_Filbe_M18_1.et"

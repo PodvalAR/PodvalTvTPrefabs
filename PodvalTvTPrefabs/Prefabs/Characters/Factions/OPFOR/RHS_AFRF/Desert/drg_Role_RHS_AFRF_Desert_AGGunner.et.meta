@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{642329FF9F49602A}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Recon_Squad_Attack.et"
+ Name "{8B356BEF94D8E90D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Desert/drg_Role_RHS_AFRF_Desert_AGGunner.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

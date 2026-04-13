@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AE9B35C2289F1C82}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_ChDKZ/Ural4320_Ses_ChDKZ_engineer_box.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

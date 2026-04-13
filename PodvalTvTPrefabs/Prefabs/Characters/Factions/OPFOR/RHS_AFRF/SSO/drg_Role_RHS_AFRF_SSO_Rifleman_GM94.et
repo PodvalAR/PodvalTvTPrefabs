@@ -11,6 +11,11 @@ SCR_ChimeraCharacter : "{4398E9E35D42AE93}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
     ItemsInitConfigurationItem "{652ABD12995F426C}" {
      TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
      PrefabsToSpawn {

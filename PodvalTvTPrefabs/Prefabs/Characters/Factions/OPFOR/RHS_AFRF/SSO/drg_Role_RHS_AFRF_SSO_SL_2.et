@@ -6,6 +6,14 @@ SCR_ChimeraCharacter : "{158AD0F1F856A3FB}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652ABAEAD6299B39}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/ak1/Pouch_Taktika_magpouch_morphed_base.et"
+    }
     ItemsInitConfigurationItem "{652ABD1CBDF0FF71}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/GMR/Minimap_ArsArma_GMR_FG.et"
      PrefabsToSpawn {

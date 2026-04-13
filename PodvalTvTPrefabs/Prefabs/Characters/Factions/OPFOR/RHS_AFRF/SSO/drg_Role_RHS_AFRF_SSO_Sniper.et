@@ -25,6 +25,9 @@ SCR_ChimeraCharacter : "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    }
     LoadoutSlotInfo HandWear {
      Prefab ""
     }
@@ -32,6 +35,11 @@ SCR_ChimeraCharacter : "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{652AABA0C0E9AA74}" {
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
     ItemsInitConfigurationItem "{652AB887490AEFFB}" {
      PrefabsToSpawn {
       "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
@@ -67,7 +75,17 @@ SCR_ChimeraCharacter : "{7ABD26EDB53E4CF8}Prefabs/Characters/Factions/OPFOR/RHS_
       "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
+    ItemsInitConfigurationItem "{652ABAEA43E58CFA}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/medkit/Pouch_Taktika_medpouch.et"
+    }
+    ItemsInitConfigurationItem "{652ABAEA47B8896F}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{652ABAEAE70CF445}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1.et/grenade2/Pouch_GP106_RGD_Pouch_FG.et"
+    }
     ItemsInitConfigurationItem "{652ABAEAD6299B39}" {
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
      PrefabsToSpawn {
       "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{E4D45E4C68E52CF0}Prefabs/Weapons/Grenades/Smoke_NSP_Orange.et"
      }
