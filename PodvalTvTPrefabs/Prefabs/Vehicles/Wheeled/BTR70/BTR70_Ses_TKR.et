@@ -1,0 +1,25 @@
+Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{60E55E124C9A99C7}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{A4DB9B3C76B13CD4}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_Ses_CDF.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+    }
+    RegisteringComponentSlotInfo AmmoStorage {
+     Offset 0 0.05 0
+    }
+    RegisteringComponentSlotInfo TKA_CoatOfArms_decal {
+     Prefab ""
+    }
+   }
+  }
+ }
+}
