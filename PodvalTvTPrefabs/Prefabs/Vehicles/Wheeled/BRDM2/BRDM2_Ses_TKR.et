@@ -1,0 +1,13 @@
+Vehicle : "{5F112AA90CCA5367}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_Ses_TKR.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62F69DB81D2263BD}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{5CA69B2D4E965C4B}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_Ses_CDF.emat"
+    }
+   }
+  }
+ }
+}
