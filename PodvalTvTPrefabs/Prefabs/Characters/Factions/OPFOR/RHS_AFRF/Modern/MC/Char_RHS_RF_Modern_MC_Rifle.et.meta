@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5001076D9995DF43}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/MC/Char_RHS_RF_Modern_MC_Rifle.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

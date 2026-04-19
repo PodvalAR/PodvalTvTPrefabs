@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Char_RHS_RF_Modern_Base_EMR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    Icon "{D7F5BF1ECF66FB8F}UI/Icons/unarmed.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E80C7B57964A5E71}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE2F0A4C83BD3A6F}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/crye_pants_atacs.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+    }
+   }
+  }
+ }
+ coords 43.735 1 63.892
+}

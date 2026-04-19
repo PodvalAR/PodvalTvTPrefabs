@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{57C21B3DF5DA36CF}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1P86_Klesh_RK1.et"
+  }
+ }
+ coords 106.158 1 190.464
+}

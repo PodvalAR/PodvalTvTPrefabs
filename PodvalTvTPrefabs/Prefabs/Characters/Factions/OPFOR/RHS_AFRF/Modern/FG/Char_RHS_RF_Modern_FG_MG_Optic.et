@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{C0F35AF69F019AF1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1CA1579DAAFFBCA0}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86_7n14.et"
+  }
+ }
+ coords 68.917 1 86.179
+}

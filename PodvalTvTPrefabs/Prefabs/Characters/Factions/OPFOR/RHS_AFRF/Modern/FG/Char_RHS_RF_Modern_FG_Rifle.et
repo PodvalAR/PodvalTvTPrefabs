@@ -1,0 +1,90 @@
+SCR_ChimeraCharacter : "{3ABB9C4873E7248B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{198C83DA4B1616B0}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P87_Klesh.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{2489DFC640972D32}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_neck_protection.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{74ECCBEF1B03406A}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_Rifle.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68EB4026F2988744}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/ak1/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026E3B62518}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/ak2/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D0DE31AE}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/ak3/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D0FA6568}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/ak4/Pouch_Taktika_magpouch_base.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D0E43F5F}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/ak_dabl_1/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D30D054A}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/ak_dabl_2/Pouch_ArsArma_magouch_morphed_ATACS.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD35E75FD65BD9}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/drop/Pouch_UP113_DropPouch_FG.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD35E75E085997}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/arsbelt_up105_bigutil/Pouch_UP105_utilbig_FG.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 68.474 1 49.202
+}

@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Engineer"
+    Icon "{B0611A54EB6AA798}UI/Icons/engineer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{690A7C0F38F00429}" {
+     TargetStorage "Vest/Vest_Taktika_Rifle.et/utillongbelt/Pouch_UP108_utillong_FG.et"
+     PrefabsToSpawn {
+      "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+    }
+   }
+  }
+ }
+ coords 88.587 1 97.93
+}

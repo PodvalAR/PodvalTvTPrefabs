@@ -1,0 +1,14 @@
+$grp SCR_ChimeraCharacter : "{219712A77516F7E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_SL.et" {
+ {
+  coords 65.81 1 101.567
+ }
+ {
+  coords 62.278 1 76.057
+ }
+}
+SCR_ChimeraCharacter : "{998515E06ED7A4C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_SL.et" {
+ coords 63.462 1 76.369
+}
+SCR_ChimeraCharacter : "{B889AB3E68F1C674}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_PL.et" {
+ coords 60.611 1 76.117
+}

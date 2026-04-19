@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{A7D5A6D5E9FBEDB2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FBB7E60937300171}UI/Icons/sso_icon_256.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9F00FD1D667EAD90}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2_SUB.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon.et"
+    }
+   }
+  }
+ }
+ coords 77.763 1 41.527
+}
