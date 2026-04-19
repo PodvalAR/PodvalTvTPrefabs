@@ -1,0 +1,13 @@
+Vehicle : "{659EF1F1BD0DD1F0}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Covered_Armed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof_Hatch {
+     Prefab "{F4D60F636E604C6E}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_AP.et"
+    }
+   }
+  }
+ }
+ coords 338.274 4.948 1272.964
+}
