@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{C0F35AF69F019AF1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FBB7E60937300171}UI/Icons/sso_icon_256.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{2489DFC640972D32}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_neck_protection.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+ }
+ coords 113.975 1 34.494
+}

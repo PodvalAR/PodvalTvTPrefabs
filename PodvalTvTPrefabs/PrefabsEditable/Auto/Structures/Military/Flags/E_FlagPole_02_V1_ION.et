@@ -1,4 +1,4 @@
-GenericEntity : "{0DA9CD88C30EA2B2}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_ION.et" {
+GenericEntity : "{14B2D417839BF8A3}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR.et" {
  ID "50C6D20663830070"
  components {
   SCR_EditableEntityComponent "{5EF0BDF2D0A30F85}" {
@@ -9,6 +9,13 @@ GenericEntity : "{0DA9CD88C30EA2B2}PrefabsEditable/Auto/Structures/Military/Flag
   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
    m_sDefaultMaterial "{A2DBE1B4DE65AB3C}Assets/Props/Fabric/Flags/Data/Flag_1_2_RHS_ION.emat"
    m_sFactionKey "RHS_ION"
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     m_bUseAnimation 1
+    }
+   }
   }
  }
  coords 3522.092 156.655 4620.336

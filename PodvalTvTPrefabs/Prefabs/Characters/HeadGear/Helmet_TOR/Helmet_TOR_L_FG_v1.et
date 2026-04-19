@@ -1,0 +1,15 @@
+GameEntity : "{6FA0C93CBFBA664B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_FG.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{0A6931140B34A0FE}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_tor.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+    }
+   }
+  }
+ }
+ coords 156.078 1 84.211
+}

@@ -1,0 +1,43 @@
+GenericEntity : "{121112B27DF888B3}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_Rifle_OD.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo medkit {
+     Offset 0.2206 0.0292 -0.0375
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1901 0.0526 -0.1728
+    }
+    LoadoutSlotInfo mp103_1 {
+     Offset 0.2046 -0.001 0.1153
+    }
+    LoadoutSlotInfo arsbelt3 {
+     Offset 0.2117 0.0447 0.0766
+    }
+    LoadoutSlotInfo pistol {
+     Offset -0.1736 -0.0043 0.1413
+     Angles -1.0777 -51.4877 -0.8553
+    }
+    LoadoutSlotInfo grenade1 {
+     Offset -0.2652 0.0119 0.0414
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.2716 0.0186 -0.0375
+     Angles 0.5184 -89.5295 6.5023
+    }
+    LoadoutSlotInfo pitsol3 {
+     Offset -0.2082 0.0037 0.101
+     Angles -2.2741 -59.7865 3.3389
+    }
+    LoadoutSlotInfo placard {
+     PivotID "Spine5"
+     Offset 0.0001 0.0101 0.1942
+     Angles -2.7096 0 0
+     Prefab "{AE2F0E3D6474581D}Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_OD.et"
+    }
+   }
+  }
+ }
+ coords 61.501 2.204 27.351
+}

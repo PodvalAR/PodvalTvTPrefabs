@@ -1,0 +1,24 @@
+GameEntity : "{3F70EA42E26BA189}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_Large.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{7E743612A8641FAB}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_fg.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{52BE66B6E343D441}Prefabs/Characters/HeadGear/Headphones_Impact/Headphones_Impact.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Offset -0.0842 0.1718 -0.0085
+     Prefab "{7F43CA3BE4D42E42}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Camo.et"
+    }
+   }
+  }
+ }
+ coords 107.935 1 53.823
+}

@@ -1,0 +1,13 @@
+GameEntity : "{79CC1DB67F1C8FCF}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_small_sordin_black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 97.052 1 236.605
+}

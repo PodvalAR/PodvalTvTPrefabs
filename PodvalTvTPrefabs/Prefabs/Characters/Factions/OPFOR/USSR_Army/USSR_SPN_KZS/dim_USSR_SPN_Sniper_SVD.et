@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{ACD11AD911B304A9}Prefabs/Characters/Factions/OPFOR/USSR
     LoadoutSlotInfo ArmoredVest {
      Prefab ""
     }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{B2D127CB5D584A75}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter_Black.et"
     }
@@ -32,7 +35,8 @@ SCR_ChimeraCharacter : "{ACD11AD911B304A9}Prefabs/Characters/Factions/OPFOR/USSR
      }
     }
     ItemsInitConfigurationItem "{68CD6B228F594D42}" {
-     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_Black.et/GrenadePouch/Vest_SovietHarness_GrenadePouch_Black.et"
+     Enabled 1
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_Black.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD.et"
      PrefabsToSpawn {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }

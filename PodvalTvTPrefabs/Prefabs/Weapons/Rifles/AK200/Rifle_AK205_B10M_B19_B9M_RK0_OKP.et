@@ -1,0 +1,25 @@
+GenericEntity : "{74CC29C389492F53}Prefabs/Weapons/Rifles/AK200/Rifle_AK205_B10M_B19_B9M.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{6FA34E6A13D58BF7}Prefabs/Weapons/Attachments/Optics/OKP7/OKP7_Ris.et"
+     }
+    }
+    AttachmentSlotComponent "{6630B6E265A3A0F4}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{6630B6E267F9DF07}" {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D640445EF7B}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{8B408A3D9367CB43}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK0_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 108.93 1.202 31.548
+}

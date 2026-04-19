@@ -1,0 +1,27 @@
+GenericEntity : "{8F5B0494E485F488}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
+   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
+    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
+     Name "#RHS-Vest_TV102_Base_Name - #RHS-Color_Olive"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ArmorPlate_Left {
+    }
+    LoadoutSlotInfo ArmorPlate_Right {
+    }
+   }
+   WornMaterialsOverride {
+    "{A560310CF73920CC}Assets/Characters/Vests/Vest_TV102/data/tv102_od.emat"
+   }
+   ItemMaterialsOverride {
+    "{A560310CF73920CC}Assets/Characters/Vests/Vest_TV102/data/tv102_od.emat"
+   }
+  }
+ }
+ coords 140.304 1.43 148.87
+}

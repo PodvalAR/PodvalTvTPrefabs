@@ -1,0 +1,15 @@
+GameEntity : "{1FE2334B4A3E2F15}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_Base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{7E743612A8641FAB}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_fg.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+    }
+   }
+  }
+ }
+ coords 102.685 1 44.272
+}

@@ -1,0 +1,76 @@
+SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Char_RHS_RF_Modern_Base_EMR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFCC656AE553FD58}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1P87_Klesh_RK1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C11A1802356E1E54}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{7028D46E1F6044BF}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CF1F31318056A620}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_arsarmaHSGI_OD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     TargetStorage "ArmoredVest/Vest_TV110_OD.et/Pouch_kangoroo/pouch_tv110_kangroo_OD.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     TargetStorage "Vest/Vest_TV110_Rifle_OD.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     TargetStorage "Vest/Vest_TV110_Rifle_OD.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     TargetStorage "Vest/Vest_TV110_Rifle_OD.et/mp103_1/Pouch_wartech_magpouch_mp103_OD.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
+     TargetStorage "Vest/Vest_TV110_arsarmaHSGI_OD.et/drop/Pouch_UP113_DropPouch_base.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD35E7EB0DCE04}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 64.661 1 27.472
+}

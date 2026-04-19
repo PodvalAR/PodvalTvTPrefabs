@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Char_RHS_RF_Modern_Base_EMR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5F30B56D1D2C49CD}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_MC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{385BD8C6F68644CF}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{BBD789333ED8052C}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Triada_Combat_Pants.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Triada_Combat_Shirt.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Triada_Combat_Shirt.et"
+    }
+   }
+  }
+ }
+ coords 45.604 1 63.834
+}

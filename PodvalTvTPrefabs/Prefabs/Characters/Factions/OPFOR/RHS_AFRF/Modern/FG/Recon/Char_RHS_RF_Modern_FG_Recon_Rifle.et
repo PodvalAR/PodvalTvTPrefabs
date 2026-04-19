@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FBB7E60937300171}UI/Icons/sso_icon_256.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5EA90EBB5CDB6636}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK6_T1_Klesh_SD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{2489DFC640972D32}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_neck_protection.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68EB4026F2988744}" {
+     PrefabsToSpawn {
+      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026E3B62518}" {
+     PrefabsToSpawn {
+      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D0DE31AE}" {
+     PrefabsToSpawn {
+      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D0FA6568}" {
+     PrefabsToSpawn {
+      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D0E43F5F}" {
+     PrefabsToSpawn {
+      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et" "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68EB4026D30D054A}" {
+     PrefabsToSpawn {
+      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et" "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+     }
+    }
+   }
+  }
+ }
+ coords 74.739 1 35.441
+}

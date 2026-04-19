@@ -1,0 +1,66 @@
+GenericEntity : "{0E992C2479753940}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P86_Klesh_SD.et" {
+ coords 81.172 1 100.328
+}
+GenericEntity : "{198C83DA4B1616B0}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P87_Klesh.et" {
+ coords 80.192 1.429 100.394
+}
+GameEntity : "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et" {
+ coords 79.095 1 93.441
+}
+GameEntity : "{349DE19C84303C7B}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_new.et" {
+ coords 82.159 1 93.782
+}
+GenericEntity : "{42F8DC54A45367C9}Prefabs/Weapons/Rifles/AK74M/Rifle_AK105.et" {
+ coords 110.355 1.217 102.272
+}
+GenericEntity : "{508780D2FBD66266}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_GP25_P86_Klesh.et" {
+ coords 85.698 1 99.345
+}
+GenericEntity : "{57C21B3DF5DA36CF}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1P86_Klesh_RK1.et" {
+ coords 77.374 1.427 101.641
+}
+GenericEntity : "{5F55F21190D4BFD9}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P86_Klesh.et" {
+ coords 82.266 1 99.936
+}
+GenericEntity : "{6FA34E6A13D58BF7}Prefabs/Weapons/Attachments/Optics/OKP7/OKP7_Ris.et" {
+ coords 82.035 1.129 94.573
+}
+GenericEntity : "{74C04C2D52EE4276}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK1.et" {
+ coords 82.199 1.237 95.037
+}
+GenericEntity : "{7653173FE8806DED}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_Eot.et" {
+ coords 107.054 1.135 102.602
+}
+GenericEntity : "{8968CA6A3C61F683}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK104_b10m_b19_b33_b9m_rk3_dtk2_b9m_XPS.et" {
+ coords 108.132 1 102.762
+}
+GenericEntity : "{A22601E4178EFF4D}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_GP25_P87_Klesh_SD.et" {
+ coords 84.143 1.427 99.686
+}
+GenericEntity : "{AE87C0970E840E2A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_GP25_P87_Klesh.et" {
+ coords 85.12 1.289 99.535
+}
+GenericEntity : "{C88671E5B6D5E661}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK104_b10m_b19n_b33_pt1_dtk2_rk3_T1.et" {
+ coords 107.727 1.147 102.723
+}
+GameEntity : "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et" {
+ coords 76.129 1.423 95.64
+}
+GenericEntity : "{E393BA674F66B065}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1P86_Klesh_L300_RK1.et" {
+ coords 77.632 1.313 101.848
+}
+GenericEntity : "{F141D1E7984F802A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P87_Klesh_SD.et" {
+ coords 79.34 1.596 100.443
+}
+GenericEntity : "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et" {
+ coords 75.588 1.088 96.719
+}
+GenericEntity : "{F61C139A3127E491}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_1p87.et" {
+ coords 107.512 1.125 102.72
+}
+GameEntity : "{F727A9D4939E89EE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86-1.et" {
+ coords 82.14 1 94.18
+}
+GenericEntity : "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et" {
+ coords 109.412 1.393 102.008
+}

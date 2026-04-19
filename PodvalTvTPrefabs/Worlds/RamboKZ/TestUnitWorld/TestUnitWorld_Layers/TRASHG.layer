@@ -1,0 +1,24 @@
+GenericEntity : "{1231AE80902911AF}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et" {
+ coords 66.304 1 25.204
+}
+GenericEntity : "{7028D46E1F6044BF}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_OD.et" {
+ coords 66.76 1 25.207
+}
+SCR_AIGroup : "{BA5237B7DACB64FC}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Modern_FG_ALL.et" {
+ coords 75.293 1 54.061
+}
+SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Rifle.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1231AE80902911AF}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 64.661 1 27.472
+}

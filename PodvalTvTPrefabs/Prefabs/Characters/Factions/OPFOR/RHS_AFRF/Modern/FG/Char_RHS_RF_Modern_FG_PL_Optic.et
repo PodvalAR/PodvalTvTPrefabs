@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{B889AB3E68F1C674}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5F55F21190D4BFD9}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P86_Klesh.et"
+  }
+ }
+}

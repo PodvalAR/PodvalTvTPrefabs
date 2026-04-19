@@ -1,0 +1,22 @@
+GenericEntity : "{BFCC656AE553FD58}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_1P87_Klesh_RK1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{F727A9D4939E89EE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86-1.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD315C621464}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+    }
+   }
+  }
+ }
+ coords 77.374 1.427 101.641
+}

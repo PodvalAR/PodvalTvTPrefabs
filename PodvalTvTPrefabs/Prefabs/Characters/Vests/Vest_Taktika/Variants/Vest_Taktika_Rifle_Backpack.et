@@ -1,0 +1,16 @@
+GenericEntity : "{74ECCBEF1B03406A}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_Rifle.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo backpack {
+     PivotID "Spine5"
+     Offset 0.0181 0.1282 -0.2493
+     Angles -4.5756 0 0
+     Prefab "{34A562D30B1CFFEB}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_FG.et"
+    }
+   }
+  }
+ }
+ coords 26.443 1 117.608
+}
