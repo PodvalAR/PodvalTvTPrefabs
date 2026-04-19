@@ -7,6 +7,9 @@ SCR_ChimeraCharacter : "{9C7EC9EDA4C0555B}Prefabs/Characters/Factions/OPFOR/USSR
      Enabled 1
      Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
     LoadoutSlotInfo Vest {
      Prefab ""
     }
@@ -18,10 +21,11 @@ SCR_ChimeraCharacter : "{9C7EC9EDA4C0555B}Prefabs/Characters/Factions/OPFOR/USSR
      TargetStorage "ArmoredVest/Vest_6B3.et"
     }
     ItemsInitConfigurationItem "{68CD6B228F594D42}" {
-     Enabled 0
+     Enabled 1
+     TargetStorage "ArmoredVest/Vest_6B3.et"
     }
    }
   }
  }
- coords 11051.175 35.687 1621.899
+ coords 9853.644 57.144 9541.543
 }
