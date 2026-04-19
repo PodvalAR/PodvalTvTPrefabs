@@ -1,0 +1,15 @@
+GenericEntity : "{6B54C839A4909C40}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_T1_Klesh.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+   }
+  }
+ }
+ coords 100.735 1.168 42.634
+}

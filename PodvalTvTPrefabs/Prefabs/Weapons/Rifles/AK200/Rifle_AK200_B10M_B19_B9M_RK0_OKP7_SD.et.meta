@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A77BC717BC23D4A4}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_B9M_RK0_OKP7_SD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

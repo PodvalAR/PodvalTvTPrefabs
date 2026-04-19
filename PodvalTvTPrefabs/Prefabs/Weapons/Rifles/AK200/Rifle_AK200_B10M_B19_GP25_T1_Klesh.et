@@ -1,0 +1,20 @@
+GenericEntity : "{6B54C839A4909C40}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_T1_Klesh.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D640445EF7B}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab ""
+     }
+    }
+   }
+  }
+ }
+ coords 106.151 1.321 33.731
+}
