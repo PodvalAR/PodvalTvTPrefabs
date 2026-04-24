@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{A7D5A6D5E9FBEDB2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9F00FD1D667EAD90}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2_SUB.et"
+  }
+ }
+ coords 989.238 112.594 2758.503
+}

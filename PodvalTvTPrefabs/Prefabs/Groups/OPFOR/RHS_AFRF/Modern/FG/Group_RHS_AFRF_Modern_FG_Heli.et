@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 990.685 112.562 2753.509
+ m_aUnitPrefabSlots {
+  "{0084DA2174D2C16D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_HeliPilot.et" "{F5AAA53A7821DCDD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_HeliCoPilot.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Pilot"
+}

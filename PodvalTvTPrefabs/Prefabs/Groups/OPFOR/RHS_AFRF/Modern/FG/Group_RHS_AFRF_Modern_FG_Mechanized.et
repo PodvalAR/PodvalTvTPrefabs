@@ -1,0 +1,7 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 990.75 112.584 2757.4
+ m_aUnitPrefabSlots {
+  "{81CEDB92BCF627BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_CrewCommader.et" "{8A6B198939A3119F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Crew.et"
+ }
+}

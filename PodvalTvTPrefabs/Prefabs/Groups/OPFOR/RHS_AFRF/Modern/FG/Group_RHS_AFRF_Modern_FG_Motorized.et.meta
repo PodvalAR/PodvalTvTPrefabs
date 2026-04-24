@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{200F29C82CB1BE43}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/Group_RHS_AFRF_Modern_FG_Motorized.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

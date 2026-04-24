@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{3ABB9C4873E7248B}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{2489DFC640972D32}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_neck_protection.et"
+     Prefab "{2489DFC640972D33}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_noSidePlits.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{74ECCBEF1B03406A}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_Rifle.et"

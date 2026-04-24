@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 990.457 112.555 2746.303
+ m_aUnitPrefabSlots {
+  "{B889AB3E68F1C674}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_PL.et" "{2EE1104A50AB050F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Medic.et" "{A7D5A6D5E9FBEDB2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sharpshooter.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
+}

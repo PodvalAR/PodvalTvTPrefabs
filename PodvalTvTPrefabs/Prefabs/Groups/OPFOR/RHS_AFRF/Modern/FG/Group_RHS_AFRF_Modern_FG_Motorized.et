@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 990.323 112.784 2749.178
+ m_aUnitPrefabSlots {
+  "{219712A77516F7E4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_SL.et" "{5C8FFE5F1085CB7D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_SR.et" "{94B78A793E1B4BAB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_AT.et" "{12802A0824ECC90A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_AAT.et" "{C0F35AF69F019AF1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_MG.et" "{FF3AAAB96679205B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_MGAB.et" "{41CA9D99B0253CDD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_GL.et" "{81CEDB92BCF627BA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_CrewCommader.et" "{8A6B198939A3119F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Crew.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Motorized"
+}

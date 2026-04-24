@@ -24,7 +24,7 @@ SCR_ChimeraCharacter : "{3ABB9C4873E7248B}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{8B12A60F8E0D3F01}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_base.et"
+     Prefab "{2489DFC640972D33}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_noSidePlits.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{5094BAFFA3E7CF1B}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_Sniper.et"
@@ -70,5 +70,5 @@ SCR_ChimeraCharacter : "{3ABB9C4873E7248B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 39.22 1 67.969
+ coords 993.45 112.562 2751.924
 }

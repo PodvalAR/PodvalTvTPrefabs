@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{28F8E6EFDAADE3D9}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{0EAFD872E28EF5B8}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_FG_v1.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{A20DC15BF24DBE17}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika.et"
+     Prefab "{2489DFC640972D33}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_noSidePlits.et"
     }
     LoadoutSlotInfo Back {
     }
@@ -68,5 +68,5 @@ SCR_ChimeraCharacter : "{28F8E6EFDAADE3D9}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 84.662 1 38.289
+ coords 994.753 112.551 2751.674
 }
