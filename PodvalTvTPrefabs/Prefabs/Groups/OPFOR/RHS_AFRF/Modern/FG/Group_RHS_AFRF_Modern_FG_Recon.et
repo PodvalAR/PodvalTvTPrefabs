@@ -1,0 +1,7 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 875.684 113.281 2822.763
+ m_aUnitPrefabSlots {
+  "{64E6BF5616671E0D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_SL.et" "{19FE53AE73F42294}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_SR.et" "{04BB3068D354D534}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_GL.et" "{68E4BA1B735199FB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_LAT.et" "{DA4741D9EA0445C0}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_Sapper.et" "{AB86AE1285173F82}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_Sharpshooter.et"
+ }
+}
