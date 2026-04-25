@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Char_RHS_RF_Modern_Base_EMR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C11A1802356E1E54}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1231AE80902911B0}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CF65397B35786DF6}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_MG_OD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341ADF96E1648}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD.et/radio/Pouch_UP111_radioClosed_OD.et"
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341ADE9738E6F}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341ADD9CDC608}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD.et/PKM2/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341ADD83044BB}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD.et/drop/Pouch_UP113_DropPouch_OD.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341ADD8979841}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD.et/grenade/Pouch_GP106_RGD_Pouch_OD.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341AC3601EDA1}" {
+     TargetStorage "Vest/Vest_TV102_MG_OD.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 67.333 1 32.527
+}

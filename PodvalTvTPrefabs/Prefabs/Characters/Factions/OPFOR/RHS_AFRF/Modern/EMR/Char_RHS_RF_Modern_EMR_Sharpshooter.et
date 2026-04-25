@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Char_RHS_RF_Modern_Base_EMR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sharpshooter"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   AttachType InventoryStorageSlot throwable {
+   }
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0BD021AF683E2307}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C11A1802356E1E54}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1231AE80902911B0}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A8D6BBD268CFED99}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Sniper_OD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693341AAAE8FEE66}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD.et/placard/pouch_tv115_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341AA832657CD}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341AA83C341C5}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341AA8214FFBB}" {
+    }
+   }
+  }
+ }
+ coords 68.778 1 32.594
+}

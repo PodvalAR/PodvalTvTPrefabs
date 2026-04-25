@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Flamethrower"
+    Icon "{4D1BE7A821BBAC54}UI/Icons/flamethrower.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+  }
+ }
+ coords 68.324 1 29.2
+}

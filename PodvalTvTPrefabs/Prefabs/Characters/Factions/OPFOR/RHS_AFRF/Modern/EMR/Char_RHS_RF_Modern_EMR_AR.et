@@ -1,0 +1,39 @@
+SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AR"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{61026BA8B600A1C0}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P87.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     PrefabsToSpawn {
+      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     PrefabsToSpawn {
+      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     PrefabsToSpawn {
+      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     PrefabsToSpawn {
+      "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 72.811 1 35.673
+}

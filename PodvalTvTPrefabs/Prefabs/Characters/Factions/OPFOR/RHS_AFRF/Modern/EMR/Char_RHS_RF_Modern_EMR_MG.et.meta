@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A21DAD0A87B90D8C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Char_RHS_RF_Modern_MG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
