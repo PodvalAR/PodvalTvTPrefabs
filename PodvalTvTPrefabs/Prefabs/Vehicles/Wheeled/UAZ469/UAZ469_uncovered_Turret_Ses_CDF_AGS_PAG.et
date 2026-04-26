@@ -13,6 +13,11 @@ Vehicle : "{803B39BB65B4B731}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Tu
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#Pdvl_Vehicle_UAZ469_AGS_PAG"
+   }
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "Ses_CDF"
   }
@@ -24,4 +29,5 @@ Vehicle : "{803B39BB65B4B731}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Tu
    }
   }
  }
+ coords 91.888 1 159.995
 }
