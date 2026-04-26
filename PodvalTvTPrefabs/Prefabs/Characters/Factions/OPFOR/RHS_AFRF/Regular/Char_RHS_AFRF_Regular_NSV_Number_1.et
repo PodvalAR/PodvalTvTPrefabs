@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_NSV_1"
-    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -15,4 +15,5 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
+ coords 1434.352 62.381 6157.455
 }
