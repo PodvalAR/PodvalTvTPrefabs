@@ -14,10 +14,11 @@ SCR_ChimeraCharacter : "{5CF77DD8CE1F97BA}Prefabs/Characters/Factions/INDFOR/Drg
     ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
      TargetStorage "Back/Backpack_Kolobok_vietnam_blk.et"
      PrefabsToSpawn {
-      "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+      "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et"
      }
     }
    }
   }
  }
+ coords -2.459 -1.235 -1.593
 }

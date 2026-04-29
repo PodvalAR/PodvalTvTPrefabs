@@ -16,12 +16,21 @@ SCR_ChimeraCharacter : "{E953678D10B094EA}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{65DF1943CE3710CB}" {
      PrefabsToSpawn {
-      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et"
      }
     }
    }
   }
  }
+ coords 2894.484 10.75 3406.449
 }

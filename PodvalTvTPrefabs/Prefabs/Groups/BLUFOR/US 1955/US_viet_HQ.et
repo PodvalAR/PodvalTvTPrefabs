@@ -1,0 +1,16 @@
+SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation " "
+  }
+  PS_GroupCallsignAssigner "{693969813132F0BC}" {
+  }
+ }
+ m_faction "US"
+ m_aUnitPrefabSlots {
+  "{704DDE140D57A57A}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_PL.et" "{D6CC48884C7B221A}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_MG.et" "{49D27E90566575C9}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Medic.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "#DRG-Sq-Battalion_HQ"
+}

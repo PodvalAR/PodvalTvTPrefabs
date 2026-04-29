@@ -17,5 +17,18 @@ SCR_ChimeraCharacter : "{74FE14DCCAE467DD}Prefabs/Characters/Factions/BLUFOR/US_
     Name "#AR-Role_AmmoBearer"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
  }
+ coords 2905.94 10.75 3405.947
 }

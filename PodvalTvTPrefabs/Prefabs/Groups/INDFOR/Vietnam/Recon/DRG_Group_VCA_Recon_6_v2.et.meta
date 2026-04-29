@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AF56A6C524782FB4}Prefabs/Groups/INDFOR/Drg_VCA/Vietnam/Recon/DRG_Group_VCA_Recon_6_v2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

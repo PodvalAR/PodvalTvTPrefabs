@@ -1,0 +1,16 @@
+SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation " "
+  }
+  PS_GroupCallsignAssigner "{693958D34FD08F97}" {
+  }
+ }
+ m_faction "Drg_VCA"
+ m_aUnitPrefabSlots {
+  "{FD9D3E2649554017}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_SL.et" "{649DBBF8F0BACFD0}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_AR_v2.et" "{6A4D3C3EF9EEE4C3}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_AR_v3.et" "{9252204440747DBE}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_MG_v2.et" "{8085D2DE2CC67C8E}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_SR.et" "{649DBBF8F0BACFD0}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_AR_v2.et" "{9015CF397BD1E204}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_AR.et" "{9015CF397BD1E204}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_AR.et" "{F0FAB7ECC3A7F6C2}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_Sniper_v2.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

@@ -10,9 +10,6 @@ SCR_ChimeraCharacter : "{A0353AA0B2D21DE6}Prefabs/Characters/Factions/INDFOR/Drg
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65D6BA6F4A2ECBEE}" {
-     PrefabsToSpawn {
-      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
-     }
     }
    }
   }

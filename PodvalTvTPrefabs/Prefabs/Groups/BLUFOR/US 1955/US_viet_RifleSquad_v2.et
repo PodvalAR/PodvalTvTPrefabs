@@ -1,0 +1,23 @@
+SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation " "
+  }
+  PS_GroupCallsignAssigner "{6939698582F86D81}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 2
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name ""
+   }
+  }
+ }
+ m_faction "US"
+ m_aUnitPrefabSlots {
+  "{9D09F6AE2FDBAE10}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_SL_v2.et" "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_V.et" "{8EF12A171B5F0C81}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_v2.et" "{4ECCAE20583E4BDA}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_GL_v2.et" "{8EF12A171B5F0C81}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_v2.et" "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_V.et" "{8EF12A171B5F0C81}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Rifleman_v2.et" "{49D27E90566575C9}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_Medic.et" "{D129F2A4986026E5}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/drg_Character_US_Sniper.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "#DRG-Sq-RifleSquad"
+}
