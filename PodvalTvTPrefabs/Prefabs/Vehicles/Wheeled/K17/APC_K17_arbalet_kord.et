@@ -1,0 +1,33 @@
+Vehicle : "{2729A71C3D53EE8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{693A736A17CAC848}" {
+   MultiSlots {
+    MultiSlotConfiguration "{693A92158DA08A00}" {
+     SlotTemplate InventoryStorageSlot fuel {
+      Prefab "{44061BF1CB0C78C9}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_150rnd_4AP_1APIT.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset -0.6177 0.1547 -1.0438
+     MergePhysics 1
+     Prefab "{72BB7E6E8D77A0A1}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Arbalet_Kord.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+   }
+  }
+ }
+ coords 197.857 1 123.477
+ angles 0 -30 0
+}

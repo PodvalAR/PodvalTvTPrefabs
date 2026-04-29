@@ -1,0 +1,152 @@
+Turret : "{AB12F630BD71DBB1}Prefabs/Vehicles/Wheeled/K17/Turret_K17_Epoch.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{5D3871BFEAE7D9BE}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Dst/Weapons/RSW/Turret_RCWS_Arbalet_DM.xob"
+   Materials {
+    MaterialAssignClass "{6938ECC35D1C567F}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{0354E5922E2BF3FF}Assets/Vehicles/Wheeled/K17bumerang/Data/tan/Hull_tan.emat"
+    }
+    MaterialAssignClass "{6938ECC35D1C5685}" {
+     SourceMaterial "KaZ"
+     AssignedMaterial "{3E34E42A41AFB65D}Assets/Vehicles/Wheeled/K17bumerang/Data/tan/KaZ_tan.emat"
+    }
+    MaterialAssignClass "{6938ECC35D1C5683}" {
+     SourceMaterial "Turret_Epoch"
+     AssignedMaterial "{42AF88166F9F45F8}Assets/Vehicles/Wheeled/K17bumerang/Data/tan/Turret_Epoch_tan.emat"
+    }
+    MaterialAssignClass "{6938ECC35D1C5680}" {
+     SourceMaterial "RCWS_Arbalet_DM"
+     AssignedMaterial "{81ABE07FA9E5F3A2}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Dst/Weapons/RSW/Data/RCWS_Arbalet_DM.emat"
+    }
+   }
+  }
+  RHS_TurretDestructionComponent "{607C7558E4A8EC70}" {
+   m_aMaterialsRemap {
+    RHS_MaterialRemapContainer "{6938ECC35D1C56FD}" {
+     m_sMaterialName "Hull"
+     m_sMaterialPath "{0354E5922E2BF3FF}Assets/Vehicles/Wheeled/K17bumerang/Data/tan/Hull_tan.emat"
+    }
+    RHS_MaterialRemapContainer "{6938ECC35D1C56FB}" {
+     m_sMaterialName "KaZ"
+     m_sMaterialPath "{3E34E42A41AFB65D}Assets/Vehicles/Wheeled/K17bumerang/Data/tan/KaZ_tan.emat"
+    }
+    RHS_MaterialRemapContainer "{6938ECC35D1C56F8}" {
+     m_sMaterialName "Turret_Epoch"
+     m_sMaterialPath "{42AF88166F9F45F8}Assets/Vehicles/Wheeled/K17bumerang/Data/tan/Turret_Epoch_tan.emat"
+    }
+   }
+  }
+  RHS_VehicleTurretScreensControllerComponent "{604E3AE063DF47BC}" {
+   m_aCameras {
+    RHS_CustomCameraPointInfoTurret "{604F340FC02812E8}" {
+     Offset -0.6837 -0.08 0.2177
+    }
+   }
+  }
+  RHS_WeaponRecoilComponent "{605538F904B97A3D}" {
+   m_fImpulse 200
+  }
+  RHS_WeaponRecoilComponent "{605538F90CCB03A1}" {
+   m_fImpulse 200
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{5C8290EA67D093E6}" {
+     BoneNames {
+      "v_turret_01"
+     }
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B917CA9C90BD91}" {
+     EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
+      Offset 0.6328 -0.1398 -4.1772
+     }
+     ExitPositionInfo PointInfo "{608F2EE8BAC8E6D7}" {
+      Offset 0.6085 -0.1398 -4.1772
+     }
+    }
+   }
+   CompartmentSlots {
+    RHS_TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0.245 0.0982 0.2695
+     }
+    }
+   }
+  }
+  TurretComponent "{5C8290EAF3249ACF}" {
+   components {
+    RHS_2DSightsComponentV2 "{5C8290EAF3249ACD}" {
+     SightsPosition PointInfo "{5C8290EAF3249ACC}" {
+      Offset -0.6084 0.086 0.3483
+     }
+     SightsPointFront PointInfo "{5C8290EAF3249AC8}" {
+      Offset -0.6084 0.086 0.3483
+     }
+     SightsPointRear PointInfo "{5C8290EAF325211B}" {
+      Offset -0.6084 0.086 0.3483
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5D12F938A553D8AF}" {
+   Slots {
+    RegisteringComponentSlotInfo Comandante {
+     PivotID "v_turret_01"
+     Offset 0.4552 0.2343 0.1011
+     Angles 7.3756 0 0
+     MergePhysics 1
+     Prefab "{E436D91A7796BE30}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Magazines/VehPart_Magazine_RCWS_KORD.et"
+     InheritParentSkeleton 1
+     ActivatePhysicsOnDetaching 1
+     RegisterActions 0
+     RegisterControllers 0
+     RegisterCompartments 0
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_gun_01"
+    Offset -0.1838 -0.0932 -0.4373
+    MergePhysics 0
+   }
+   WeaponTemplate "{F6D80625B58CFE12}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/Arbalet/HMG_KORD_Arbalet-DM.et"
+  }
+  WeaponSlotComponent "{5C8290EAF3252104}" {
+   Enabled 0
+  }
+  WeaponSlotComponent "{5CE63AF8F26756B1}" {
+   Enabled 0
+   WeaponTemplate ""
+  }
+  WeaponSlotComponent "{5D14238EEFA282EE}" {
+   Enabled 0
+   WeaponTemplate ""
+  }
+  WeaponSlotComponent "{5E34E16C186B4C1B}" {
+   Enabled 0
+   WeaponTemplate ""
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{61071BC6F002C272}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset 0.2614 0 0.1155
+     }
+    }
+    UserActionContext "{61071BC6F3B8560A}" {
+     Position PointInfo "{5EC5119E2465F248}" {
+      Offset 0.6439 1.4181 -1.0833
+     }
+    }
+   }
+  }
+ }
+ coords 190.34 1 119.619
+}
