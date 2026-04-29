@@ -1,0 +1,13 @@
+GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{65568823F9963E85}" {
+     m_eRequiredGadget NONE
+    }
+   }
+  }
+ }
+ coords 1434.238 62.226 6154.156
+}
