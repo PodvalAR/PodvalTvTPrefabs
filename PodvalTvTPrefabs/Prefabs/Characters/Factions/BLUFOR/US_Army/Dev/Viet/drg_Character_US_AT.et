@@ -13,8 +13,7 @@ SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
-     PrefabsToSpawn {
-      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
@@ -26,10 +25,14 @@ SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_
       "{4D44C563104F77BB}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M37A1.et" "{4D44C563104F77BB}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M37A1.et" "{5971423B21CB6C16}Prefabs/Weapons/Ammo/BC_Ammo_Rocket_M590E1_Flechette_50_250.et"
      }
     }
+    ItemsInitConfigurationItem "{693AC8845063F481}" {
+     PrefabsToSpawn {
+     }
+    }
     ItemsInitConfigurationItem "{65DF35C152534DDE}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
      PrefabsToSpawn {
-      "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et"
+      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et"
      }
     }
    }

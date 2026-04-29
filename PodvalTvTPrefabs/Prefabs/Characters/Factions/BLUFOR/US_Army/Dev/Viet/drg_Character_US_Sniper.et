@@ -30,9 +30,6 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
     }
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
-     PrefabsToSpawn + {
-      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et"
-     }
     }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et"
@@ -50,6 +47,12 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{61B87867FBB32E7F}" {
      PrefabsToSpawn {
       "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693AC8849AF91487}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02.et"
+     PrefabsToSpawn {
+      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et"
      }
     }
    }

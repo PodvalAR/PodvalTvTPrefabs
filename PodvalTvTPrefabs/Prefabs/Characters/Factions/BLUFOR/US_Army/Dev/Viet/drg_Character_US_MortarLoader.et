@@ -6,6 +6,12 @@ SCR_ChimeraCharacter : "{07A38C4AD008CF60}Prefabs/Characters/Factions/BLUFOR/US_
     Name "#DRG-Role-MortarLoader"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693AC8845063F481}" {
+    }
+   }
+  }
  }
  coords 2896.169 10.75 3406.378
 }

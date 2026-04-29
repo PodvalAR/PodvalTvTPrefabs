@@ -26,7 +26,11 @@ SCR_ChimeraCharacter : "{E953678D10B094EA}Prefabs/Characters/Factions/BLUFOR/US_
     }
     ItemsInitConfigurationItem "{65DF1943CE3710CB}" {
      PrefabsToSpawn {
-      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693AC8845063F481}" {
+     PrefabsToSpawn {
+      "{DB03C02C4AB1E0F0}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_SL.et"
      }
     }
    }

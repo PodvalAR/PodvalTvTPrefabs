@@ -17,6 +17,8 @@ SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_
      PrefabsToSpawn +{
      }
     }
+    ItemsInitConfigurationItem "{693AC8845063F481}" {
+    }
    }
   }
  }
