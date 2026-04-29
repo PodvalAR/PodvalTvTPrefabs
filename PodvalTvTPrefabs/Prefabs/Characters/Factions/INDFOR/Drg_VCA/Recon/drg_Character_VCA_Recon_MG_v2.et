@@ -8,6 +8,9 @@ SCR_ChimeraCharacter : "{5CF77DD8CE1F97BA}Prefabs/Characters/Factions/INDFOR/Drg
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
      TargetStorage "Back/Backpack_Kolobok_vietnam_blk.et"
+     PrefabsToSpawn {
+      "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et" "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et" "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et" "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et" "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et" "{B9006AD5B5EDF4C1}Prefabs/Weapons/Magazines/BC_Drum_762x39_RPD_100rnd_Mixed.et"
+     }
     }
    }
   }

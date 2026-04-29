@@ -16,6 +16,13 @@ SCR_ChimeraCharacter : "{E953678D10B094EA}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     PrefabsToSpawn {
+      "{EE7FBAD35CA9D0F2}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_M9/Scabbard_Bayonet_M9.et"
+     }
+    }
     ItemsInitConfigurationItem "{65DF1943CE3710CB}" {
      PrefabsToSpawn {
       "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
@@ -24,4 +31,5 @@ SCR_ChimeraCharacter : "{E953678D10B094EA}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
+ coords -13.441 0.509 -3.146
 }

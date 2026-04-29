@@ -12,4 +12,5 @@ SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et
   "{C57D281835477703}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_Officer.et"
  }
  m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "#PDVL_Squad_PLHQ"
 }

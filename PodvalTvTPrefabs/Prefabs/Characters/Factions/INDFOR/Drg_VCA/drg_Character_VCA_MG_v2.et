@@ -24,6 +24,11 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+     PrefabsToSpawn + {
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{65D68EE3DC040E80}" {
      TargetStorage "Vest/Vest_SovietHarness_MG.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
@@ -32,14 +37,11 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
     }
     ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
      PrefabsToSpawn {
-      "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+      "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et"
      }
     }
     ItemsInitConfigurationItem "{693958D1D8831022}" {
      TargetStorage "Vest/Vest_SovietHarness_MG.et/MagPouch_6Sh46/Holster_PM.et"
-     PrefabsToSpawn {
-      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
-     }
     }
    }
   }

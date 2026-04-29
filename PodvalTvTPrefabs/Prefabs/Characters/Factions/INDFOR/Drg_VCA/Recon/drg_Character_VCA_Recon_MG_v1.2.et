@@ -42,9 +42,6 @@ SCR_ChimeraCharacter : "{DAA2F4F17B4F66D6}Prefabs/Characters/Factions/INDFOR/Drg
     }
     ItemsInitConfigurationItem "{693960F833709FBD}" {
      TargetStorage "Vest/Vest_SovietHarness_MG.et/MagPouch_6Sh46/Holster_PM.et"
-     PrefabsToSpawn {
-      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
-     }
     }
    }
   }

@@ -30,9 +30,6 @@ SCR_ChimeraCharacter : "{F05140560DD793BD}Prefabs/Characters/Factions/INDFOR/Drg
      TargetStorage "Back/Backpack_Kolobok_vietnam_blk.et"
     }
     ItemsInitConfigurationItem "{65D6BA6F0AFA895D}" {
-     PrefabsToSpawn {
-      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
-     }
     }
    }
   }

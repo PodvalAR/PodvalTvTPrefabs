@@ -20,6 +20,8 @@ SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+    }
     ItemsInitConfigurationItem "{65DF1943CE3710CB}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
      PrefabsToSpawn {

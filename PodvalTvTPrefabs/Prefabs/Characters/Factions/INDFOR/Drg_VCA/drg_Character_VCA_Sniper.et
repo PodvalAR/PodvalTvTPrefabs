@@ -28,6 +28,8 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+    }
     ItemsInitConfigurationItem "{65D68EE3DC040E80}" {
      PrefabsToSpawn {
       "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{4F4439BAA80A7A66}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_Base.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
@@ -47,7 +49,7 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
     ItemsInitConfigurationItem "{65D68EE46675351E}" {
      TargetStorage "Jacket/Jacket_M88_vietnam.et"
      PrefabsToSpawn {
-      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
      }
     }
    }

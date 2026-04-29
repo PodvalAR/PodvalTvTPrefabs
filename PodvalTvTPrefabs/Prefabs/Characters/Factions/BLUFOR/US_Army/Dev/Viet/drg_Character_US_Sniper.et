@@ -30,9 +30,17 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
     }
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
+     PrefabsToSpawn + {
+      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+     }
     }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
      TargetStorage "Vest/Vest_ALICE_rifleman.et"
+    }
+    ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
+     PrefabsToSpawn {
+      "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+     }
     }
     ItemsInitConfigurationItem "{61B87867ADF0F768}" {
      PrefabsToSpawn {

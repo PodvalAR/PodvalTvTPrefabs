@@ -12,6 +12,13 @@ SCR_ChimeraCharacter : "{318BD8D29F92DF2E}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+    }
+    ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
+     PrefabsToSpawn {
+      "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et"
+     }
+    }
     ItemsInitConfigurationItem "{61B87867ADF0F768}" {
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et"

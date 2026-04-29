@@ -7,5 +7,11 @@ SCR_ChimeraCharacter : "{704DDE140D57A57A}Prefabs/Characters/Factions/BLUFOR/US_
     Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+    }
+   }
+  }
  }
 }

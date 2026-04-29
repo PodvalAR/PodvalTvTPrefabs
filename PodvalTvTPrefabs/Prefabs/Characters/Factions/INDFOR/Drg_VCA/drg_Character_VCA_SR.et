@@ -20,6 +20,8 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+    }
     ItemsInitConfigurationItem "{65D68EE72CEBEB70}" {
      TargetStorage "Jacket/Jacket_M88_vietnam.et"
      PrefabsToSpawn {
@@ -35,4 +37,5 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
    }
   }
  }
+ coords -4.683 1.035 1.406
 }

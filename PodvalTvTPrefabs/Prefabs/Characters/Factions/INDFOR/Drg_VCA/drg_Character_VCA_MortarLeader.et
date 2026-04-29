@@ -7,5 +7,14 @@ SCR_ChimeraCharacter : "{61030B19BB36FAC8}Prefabs/Characters/Factions/INDFOR/Drg
     Icon "{E897433F42FEC3C0}UI/Icons/mortar.edds"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE72CEBEB70}" {
+     PrefabsToSpawn {
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
+    }
+   }
+  }
  }
 }
