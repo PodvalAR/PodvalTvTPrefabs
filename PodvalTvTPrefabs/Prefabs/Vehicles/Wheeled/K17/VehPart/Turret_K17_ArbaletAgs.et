@@ -1,0 +1,12 @@
+Turret : "{3F83B02C0AE7F3E5}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Arbalet_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.1838 -0.0932 -0.3294
+   }
+   WeaponTemplate "{C4C2607E6946EE4F}Prefabs/Weapons/HeavyWeapons/AGS17/GMG_AGS17_arbalet.et"
+  }
+ }
+ coords 171.806 1 116.979
+}

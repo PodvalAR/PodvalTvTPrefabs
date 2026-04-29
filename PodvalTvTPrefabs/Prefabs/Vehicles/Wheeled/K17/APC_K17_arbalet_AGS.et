@@ -1,0 +1,24 @@
+Vehicle : "{1D55B99B07DFD011}Prefabs/Vehicles/Wheeled/K17/APC_K17_base_arbalet.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{693A736A17CAC848}" {
+   MultiSlots {
+    MultiSlotConfiguration "{693A921C032A7764}" {
+     SlotTemplate InventoryStorageSlot fuel {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{812A1D1250EFB1FC}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_ArbaletAgs.et"
+    }
+   }
+  }
+ }
+ coords 190.722 1 131.339
+ angles 0 -55.319 0
+}

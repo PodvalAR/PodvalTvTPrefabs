@@ -1,0 +1,22 @@
+Vehicle : "{2729A71C3D53EE8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset -0.6177 0.1547 -1.0438
+     MergePhysics 1
+     Prefab "{3F83B02C0AE7F3E5}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Arbalet_base.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+   }
+  }
+ }
+ coords 197.15 1 122.145
+}
