@@ -21,6 +21,9 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et" "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
     }
     ItemsInitConfigurationItem "{65D68EE72CEBEB70}" {
      TargetStorage "Jacket/Jacket_M88_vietnam.et"
@@ -34,5 +37,5 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
    }
   }
  }
- coords -4.683 1.035 1.406
+ coords 1363.814 61.125 2012.75
 }
