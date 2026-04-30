@@ -19,5 +19,14 @@ SCR_ChimeraCharacter : "{EDA2E05FF70132C0}Prefabs/Characters/Factions/OPFOR/ChDK
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68968E3B4BC3B740}" {
+     PrefabsToSpawn {
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et" "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
  }
 }
