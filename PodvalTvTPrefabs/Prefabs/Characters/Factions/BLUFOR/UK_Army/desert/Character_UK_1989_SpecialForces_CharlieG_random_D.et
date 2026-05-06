@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{0B6C85E2E52C05B6}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_BaseLoadout_d.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#BritishForces-Character-Name-AntiTank"
+    Icon "{00B30C29FAF85E1C}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AntiTank.edds"
+    m_Image "{A47B68ECE20AC921}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_SpecialForces_CharlieG.edds"
+    m_aAuthoredLabels + {
+     TRAIT_ARMORPIERCING TRAIT_EXPLOSIVE
+    }
+    m_aAutoLabels {
+     SIZE_M ROLE_ANTITANK
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{92A0764C4EDF7C14}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_OliveGreen_Solid.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5A293B86B4EDF486}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Pakol_Hat_1.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{816B4F309B3B3D39}Prefabs/Items/Equipment/Backpacks/Rucksack_GS_assembled.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{694ACE1038C41769}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Rucksack_GS_assembled.et"
+     PrefabsToSpawn {
+      "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et" "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+     }
+    }
+   }
+  }
+ }
+}

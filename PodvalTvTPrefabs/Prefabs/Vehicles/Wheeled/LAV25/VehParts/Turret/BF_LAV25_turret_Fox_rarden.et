@@ -1,0 +1,36 @@
+Turret : "{A0514904A496A87C}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret.et" {
+ ID "656ADB45EE5F72F8"
+ components {
+  TurretComponent "{58F8DC79D093C81C}" {
+   components {
+    SCR_2DSightsComponent "{58F8DC79D093C819}" {
+     SightsPosition PointInfo "{58F8DC79D093C81B}" {
+      PivotID "v_gun_01"
+      Offset -0.8426 0.3462 -0.0009
+     }
+    }
+    SCR_2DSightsComponent "{64B2C87305F2A8AC}" {
+     SightsPosition PointInfo "{64B2C8731E2F0328}" {
+      PivotID "v_gun_01"
+      Offset -0.8426 0.3462 -0.0009
+     }
+    }
+   }
+   TurretInitStabilization None
+   TurretEnabledStabilization None
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{7F87F16EFEBC53CF}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_RARDEN_FOX_AP.et"
+  }
+  WeaponSlotComponent "{6118831970FD4F0C}" {
+   WeaponTemplate "{E92333CBF4AC3811}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_RARDEN_FOX.et"
+  }
+ }
+ coords 16.079 0 -0.131
+ {
+  GameEnvironmentProbeEntity {
+   ID "654E62C230094F4A"
+   Visible 0
+  }
+ }
+}

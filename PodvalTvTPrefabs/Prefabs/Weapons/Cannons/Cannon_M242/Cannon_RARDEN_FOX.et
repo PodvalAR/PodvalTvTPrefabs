@@ -1,0 +1,13 @@
+GenericEntity : "{DD96D9F427488A8C}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_HEIT.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineWell MagazineWell_RardenHE "{62C8A9A859AEEFE1}" {
+     }
+    }
+   }
+  }
+ }
+}

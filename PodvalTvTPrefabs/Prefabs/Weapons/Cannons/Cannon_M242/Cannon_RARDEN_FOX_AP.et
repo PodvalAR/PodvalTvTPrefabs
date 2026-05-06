@@ -1,0 +1,25 @@
+GenericEntity : "{1B01E6C550E2850F}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{649EA5EB339AF1AB}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{649EA5EB339AF1A6}" {
+     SourceMaterial "LAV25_interior"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazineWell MagazineWell_Rarden "{62C8A9A859AEEFE1}" {
+     }
+    }
+   }
+  }
+ }
+}

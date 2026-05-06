@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{2D871FD6FF2B99E3}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_BaseLoadout_d.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{9065E77698E63C1B}Prefabs/Items/Equipment/Binoculars/Binoculars_L12A1_Avimo.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName ""
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{77A96CF0A56DD594}Prefabs/Weapons/Rifles/L85/A1/Rifle_L85A1_Attachments_SUSAT.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{181D7939F4152B63}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower_20.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B8EDDED135ACD2DA}Prefabs/Characters/HeadGear/Helmet_Mk6_01/Helmet_Mk6_DesertDPM.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
+     PrefabsToSpawn {
+      "{652FDE999BB0BAC1}Prefabs/Items/Equipment/Radios/Radio_PRC349_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6572CAAA80562382}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 216.309 1 208.294
+}

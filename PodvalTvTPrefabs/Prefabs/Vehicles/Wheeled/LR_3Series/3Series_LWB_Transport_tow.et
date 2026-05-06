@@ -1,0 +1,70 @@
+Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+   MultiSlots {
+    
+    MultiSlotConfiguration "{68C545C863596934}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{E850E811DBCFB9EE}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_FCS.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C855781731}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B90699E7A808277A}Prefabs/Weapons/Tripods/BGM71TOW/Part_1_BGM-71D_Tripod.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C852EF9B37}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{FDCBE9CC0BEA96EC}Prefabs/Weapons/Tripods/BGM71TOW/Part_4_BGM-71D_Mount.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C858AF5AF1}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{CBC0F26A18152EBB}Prefabs/Weapons/Tripods/BGM71TOW/tow_D_N_Sight.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C846336C4D}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{1B3C0AA21203A575}Prefabs/Weapons/Tripods/BGM71TOW/tow_FCS_battery.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C84FE7D5BF}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C84A954587}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C836A45CC2}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C830A2E9AA}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{68C545C8324C88FB}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{DE25A434026D99AC}Prefabs/Weapons/Tripods/BGM71TOW/Part_BGM-71D_Launcher.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

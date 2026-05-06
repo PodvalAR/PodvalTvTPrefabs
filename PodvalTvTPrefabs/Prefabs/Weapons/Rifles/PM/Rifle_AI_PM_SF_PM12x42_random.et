@@ -1,0 +1,25 @@
+GenericEntity : "{15B19C64175DD25B}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6514D858454752A8}" {
+     AttachmentSlot InventoryStorageSlot Scope {
+      Prefab "{A50B0D66391CFC47}Prefabs/Weapons/Attachments/Optics/Optic_SB_PM/Optic_SB_PM_L13A1_12x42.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+    }
+   }
+  }
+ }
+ coords -0.398 0.947 -3.391
+}

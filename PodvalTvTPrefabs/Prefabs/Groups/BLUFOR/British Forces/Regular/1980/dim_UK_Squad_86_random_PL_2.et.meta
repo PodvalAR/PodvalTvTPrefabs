@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CA5BCC2E8432BDE2}Prefabs/Groups/BLUFOR/British Forces/Regular/1980/dim_UK_Squad_86_random_PL_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

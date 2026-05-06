@@ -11,7 +11,7 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
  angles 0 133.141 0
  m_faction "RHS_ION"
  m_aUnitPrefabSlots {
-  "{7190C1CBD3007C3E}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_SL.et" "{76573B9AB586C6FD}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_TL.et" "{1C1830D4E184DE2D}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_AR.et" "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman.et" "{5ADE3ACC5A6EB107}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman_2.et" "{974BDF9B605AC115}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Medic.et" "{B73805E442B03186}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Marksman.et"
+  "{AEC9840EA78E11E7}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SL_3.et" "{A8288D670C2B80B3}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_TL.et" "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_AR.et" "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Rifleman_3.et" "{2B951DA165375A8B}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_M72.et" "{A536AFA035B4146D}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Medic.et" "{B5A4124F110F3F38}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Marksman_2.et"
  }
  m_sCustomNameSet "ION Elite Force"
 }

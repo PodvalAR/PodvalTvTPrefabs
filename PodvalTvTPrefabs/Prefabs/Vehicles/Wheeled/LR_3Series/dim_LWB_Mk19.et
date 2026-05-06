@@ -1,0 +1,65 @@
+Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{FEA3C27143D1C401}Assets/Vehicles/Wheeled/LR3Series/3Series_LWB_Recce.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E86A8C9C339E7A1}" {
+     SlotTemplate InventoryStorageSlot Jerrycan {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo RearCargo {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Windscreen_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Windscreen_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_Door_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_Door_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo GunnerRear {
+     Offset 0 -0.0475 -0.2628
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{3E77A0AB31AD65EF}Prefabs/Vehicles/Wheeled/M151A2/LR3Series_gun_mount_Mk19.et"
+    }
+    RegisteringComponentSlotInfo Cargo_L1_01 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_L1_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_L2_01 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_L2_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_L2_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_L2_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Cargo_L2_05 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 7222.425 108.094 6967.581
+}

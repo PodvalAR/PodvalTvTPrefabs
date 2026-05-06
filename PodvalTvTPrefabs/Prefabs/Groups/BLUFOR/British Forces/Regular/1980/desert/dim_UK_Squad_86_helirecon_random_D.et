@@ -1,0 +1,7 @@
+SCR_AIGroup : "{654E3A922B11EC94}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad.et" {
+ ID "0000000000000001"
+ coords 7654.227 36.469 2080.848
+ m_aUnitPrefabSlots {
+  "{B74CB30665AC2ED3}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_Officer_random_D.et" "{319FFD84BDBEE6BB}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_GL_random_D.et" "{F0365B9A98D78F07}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_Saboteur_random_D.et" "{38D9609AD03F14FC}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_Sniper_random_D.et" "{0FB8BACBF557DB73}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_Trooper_random_D.et" "{B4F6FDE6A2D56D61}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_Sapper_random_D.et" "{6578C3D7600070CA}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_CharlieG_random_D.et"
+ }
+}

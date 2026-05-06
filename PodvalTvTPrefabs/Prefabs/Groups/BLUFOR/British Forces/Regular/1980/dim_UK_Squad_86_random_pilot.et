@@ -1,0 +1,7 @@
+SCR_AIGroup : "{654E3A922B11EC94}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad.et" {
+ ID "0000000000000001"
+ coords 7654.227 36.469 2080.848
+ m_aUnitPrefabSlots {
+  "{152074BB52FA8B94}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_Pilot.et" "{59A6189159B6C512}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_CoPilot.et"
+ }
+}

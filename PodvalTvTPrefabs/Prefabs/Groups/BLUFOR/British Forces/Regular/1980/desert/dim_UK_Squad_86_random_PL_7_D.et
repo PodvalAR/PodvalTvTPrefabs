@@ -1,0 +1,7 @@
+SCR_AIGroup : "{654E3A922B11EC94}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad.et" {
+ ID "0000000000000001"
+ coords 7654.227 36.469 2080.848
+ m_aUnitPrefabSlots {
+  "{A893D088C0140288}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_Officer_D.et" "{B163EB685284659B}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_HeavyMG_D.et" "{D23044D7E75E98ED}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_AMG_Random_D.et" "{1D7EBBE41D39330B}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_AT_D.et" "{2D05115B6DBC8C92}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_ATA_D.et" "{1D7EBBE41D39330B}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_AT_D.et" "{2D05115B6DBC8C92}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_ATA_D.et"
+ }
+}

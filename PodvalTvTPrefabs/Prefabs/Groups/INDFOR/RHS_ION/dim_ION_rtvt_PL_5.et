@@ -11,7 +11,7 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
  angles 0 -44.221 0
  m_faction "RHS_ION"
  m_aUnitPrefabSlots {
-  "{428D3323BE5B424B}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_Officer.et" "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SMAW.et" "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SMAW.et" "{E5D286AD0454E484}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Sapper_2.et" "{A536AFA035B4146D}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Medic.et"
+  "{428D3323BE5B424B}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_Officer.et" "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SMAW.et" "{E9893D293318AC54}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_SMAW.et" "{E318D6B7BA66E41F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Random/Char_RHS_ION_PMC_Rifl_AK_Random.et" "{A536AFA035B4146D}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Medic.et"
  }
  m_sCustomNameSet "ION STK"
 }

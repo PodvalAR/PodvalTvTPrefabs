@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{3B397572207A25EA}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_GL"
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+    m_Image "{1A449DDBB60B5BB0}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1989_SpecialForces_GL.edds"
+    m_aAuthoredLabels + {
+     TRAIT_EXPLOSIVE
+    }
+    m_aAutoLabels {
+     SIZE_M ROLE_GRENADIER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{7EBCAF2C32D6F491}Prefabs/Weapons/Rifles/M16/Variants/Rifle_CAR15_M203_OliveGreen_Sand_Stripes.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     PrefabsToSpawn + {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
+     PrefabsToSpawn + {
+      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Smock_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et" "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et" "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{694A8842D783BE66}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_COP/Vest_COP.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+    }
+   }
+  }
+ }
+}

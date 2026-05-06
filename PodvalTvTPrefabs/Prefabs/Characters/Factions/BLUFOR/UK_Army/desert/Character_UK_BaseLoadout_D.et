@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK/Character_UK_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{9065E77698E63C1B}Prefabs/Items/Equipment/Binoculars/Binoculars_L12A1_Avimo.et"
+       AffectedByOcluders {
+       }
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{072E87366E193577}Prefabs/Items/Equipment/Watches/Watch_SandY184A_UK.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_Image "{508E38BD5A30CDA8}UI/PreviewImages/Characters/BLUFOR/BritishForces/Character_UK_1983_Regulars_Rifleman.edds"
+    m_sFaction "UK"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_BRITISH CONTENT_MODDED ERA_BRITISHFORCES_1983
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B8EDDED135ACD2DA}Prefabs/Characters/HeadGear/Helmet_Mk6_01/Helmet_Mk6_DesertDPM.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{406B620B4285240C}Prefabs/Characters/Uniforms/Jacket_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{3E907D6732445C0F}Prefabs/Characters/Footwear/Boots_DMS_UK_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{694ACE1C9F9C82C0}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+     PrefabsToSpawn {
+      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{1A7FE1AC9E645F27}Prefabs/Items/Equipment/Radios/Radio_PRC349.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et"
+     }
+    }
+   }
+  }
+ }
+ coords -1.041 0 -5.51
+}

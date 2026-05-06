@@ -1,0 +1,7 @@
+SCR_AIGroup : "{654E3A922B11EC94}Prefabs/Groups/BLUFOR/British Forces/Regular/Group_UK_Squad.et" {
+ ID "0000000000000001"
+ coords 7654.227 36.469 2080.848
+ m_aUnitPrefabSlots {
+  "{052B51EEB6649B7F}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_SL_D.et" "{35C322E24FD89A8C}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_MG_D.et" "{B369B82E767085D0}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_Rifleman_D.et" "{0E2CCF95225FFF5A}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_Rifleman_AT_D.et" "{CA5B8AA366C79A3F}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_SR_D.et" "{35C322E24FD89A8C}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_MG_D.et" "{B369B82E767085D0}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_Rifleman_D.et" "{0E2CCF95225FFF5A}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_Rifleman_AT_D.et" "{0FB4E6F8957FF97B}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_CC.et" "{6EC55D1D2D67C1F1}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK_1980/UK1_1980_Crew.et"
+ }
+}
