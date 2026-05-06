@@ -1,0 +1,15 @@
+GenericEntity : "{F987F19ECCF91A48}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_B30_B31S_B33_PT1_RK3_OK7.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{664A45BAE035F356}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{6564A2220288B1D7}" {
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1452.233 140.457 1222.602
+}
