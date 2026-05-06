@@ -1,0 +1,15 @@
+GenericEntity : "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{7FBE9E1E3CCE9415}Assets/Weapons/Magazines/AK12_mag/ak12_mag.xob"
+   Materials {
+    MaterialAssignClass "{694CE3460927FC3B}" {
+     SourceMaterial "mtl_rhs_wpn_ak12_mag"
+     AssignedMaterial "{09D8188FC6058334}Assets/Weapons/Magazines/AK12_mag/Data/mtl_rhs_wpn_ak12_mag.emat"
+    }
+   }
+  }
+ }
+ coords 1451.392 140.562 1223.079
+}

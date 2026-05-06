@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_Plastic_AK103_30rnd_7N23.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
