@@ -6,6 +6,7 @@ GenericEntity : "{DD96D9F427488A8C}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M2
     MuzzleComponent "{50F64C4591CD7AA6}" {
      MagazineWell MagazineWell_RardenHE "{62C8A9A859AEEFE1}" {
      }
+     ReloadDuration 6
     }
    }
   }
