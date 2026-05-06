@@ -25,17 +25,31 @@ SCR_ChimeraCharacter : "{2D871FD6FF2B99E3}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{694ACE15C73D759E}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{694ACE15C73D759F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{694ACE15C73D7580}" {
+     PrefabsToSpawn {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
     ItemsInitConfigurationItem "{6572CAAA807D4321}" {
+     Enabled 0
      PrefabsToSpawn {
       "" "" "" "" ""
      }
     }
     ItemsInitConfigurationItem "{6572CAAA800569AD}" {
+     Enabled 0
      PrefabsToSpawn {
       "" "" "" "" ""
      }
     }
     ItemsInitConfigurationItem "{6572CAA9A0045B30}" {
+     TargetStorage "Vest/Vest_P58_rifleman_2_L85.et/Buttpack/Vest_P58_water_bottle_utility.et"
      PrefabsToSpawn {
       "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" ""
      }
