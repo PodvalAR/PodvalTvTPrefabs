@@ -8,9 +8,9 @@ Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Tra
    MultiSlots {
     MultiSlotConfiguration "{5E86A8C9C339E7A1}" {
      SlotTemplate InventoryStorageSlot Jerrycan {
-      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_32rnd_Base.et"
      }
-     NumSlots 4
+     NumSlots 8
     }
    }
   }

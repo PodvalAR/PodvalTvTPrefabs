@@ -25,8 +25,11 @@ SCR_ChimeraCharacter : "{3B397572207A25EA}Prefabs/Characters/Factions/BLUFOR/UK_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{820FCA0320915543}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM12x42_random.et"
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{232DA7FA5FC47802}Prefabs/Weapons/Rifles/MP5/Rifle_MP5SD3.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate ""
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {

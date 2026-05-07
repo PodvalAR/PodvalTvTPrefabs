@@ -28,6 +28,13 @@ SCR_ChimeraCharacter : "{0B6C85E2E52C05B6}Prefabs/Characters/Factions/BLUFOR/UK_
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{E0CFA3FE78FC5190}Prefabs/Weapons/Launchers/M72/Launcher_LAW66_L1A1.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{A3E19E754552334B}Prefabs/Items/Equipment/Radios/Radio_PRC351.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{610CC31428816D50}" {

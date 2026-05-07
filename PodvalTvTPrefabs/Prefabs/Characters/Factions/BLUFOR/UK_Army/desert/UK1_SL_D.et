@@ -38,6 +38,9 @@ SCR_ChimeraCharacter : "{2D871FD6FF2B99E3}Prefabs/Characters/Factions/BLUFOR/UK_
     LoadoutSlotInfo Pants {
      Prefab "{A04CE229E6FB3E74}Prefabs/Characters/Uniforms/Trousers_Tropical_DesertDPM_01.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{A3E19E754552334B}Prefabs/Items/Equipment/Radios/Radio_PRC351.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -48,7 +51,7 @@ SCR_ChimeraCharacter : "{2D871FD6FF2B99E3}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{6572CAAA80562382}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
    }
