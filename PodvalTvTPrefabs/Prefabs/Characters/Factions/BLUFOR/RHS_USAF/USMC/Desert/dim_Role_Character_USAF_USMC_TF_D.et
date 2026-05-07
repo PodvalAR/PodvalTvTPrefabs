@@ -1,13 +1,13 @@
-SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/dim_Role_Character_USAF_USMC_TF.et" {
+SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_TF.et" {
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{4FF9D07C56EAD06D}Prefabs/Weapons/M16_USMC/M16_ACOG_TF.et"
+   WeaponTemplate "{4FF9D07C56EAD06D}Prefabs/Weapons/Rifles/M16_USMC/M16_ACOG_TF.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{4DB910B180DD6831}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V3.et"
+     Prefab "{A620D6E0E424A7AD}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf_1.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
@@ -16,7 +16,10 @@ SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{FFAB2A3AE453608F}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_TF_Pouches.et"
@@ -85,5 +88,5 @@ SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 1458.864 134.553 4660.317
+ coords 78.903 1 232.912
 }

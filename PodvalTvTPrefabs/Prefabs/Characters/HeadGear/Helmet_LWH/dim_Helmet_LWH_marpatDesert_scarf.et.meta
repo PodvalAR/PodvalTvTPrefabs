@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1A21C8AD9E6F2967}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

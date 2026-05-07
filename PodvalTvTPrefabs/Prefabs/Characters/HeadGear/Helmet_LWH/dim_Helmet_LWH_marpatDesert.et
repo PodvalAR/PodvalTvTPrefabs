@@ -1,0 +1,40 @@
+GameEntity : "{B17F3E122C7EF592}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_BASE.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{694EFECD99EC5BE8}" {
+     SourceMaterial "RHS_LWH"
+     AssignedMaterial "{610540898C350473}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_marpatD.emat"
+    }
+   }
+  }
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LWH_Name - #RHS-Camo_MARPAT_D"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 0
+    }
+    LoadoutSlotInfo PASGT {
+     PivotID "Head"
+     Offset 0 0.0509 -0.0176
+     Angles 4.9497 -180 0
+     Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{610540898C350473}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_marpatD.emat"
+   }
+   ItemMaterialsOverride {
+    "{610540898C350473}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_marpatD.emat"
+   }
+  }
+ }
+ coords 95.862 1 232.998
+}

@@ -9,7 +9,13 @@ SCR_ChimeraCharacter : "{8C2948BE9CB45C25}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1CD9016949756E28}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V7.et"
+     Prefab "{1A21C8AD9E6F2967}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{70B5348CD5387289}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_filbe.et"
@@ -72,6 +78,5 @@ SCR_ChimeraCharacter : "{8C2948BE9CB45C25}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 9613.974 89.781 9017.973
- angles 0 0 0
+ coords 81.723 1 232.659
 }

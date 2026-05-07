@@ -39,7 +39,10 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{CD0637B5D67DEFC9}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Khaki.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
@@ -128,5 +131,5 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 182.84 1 183.318
+ coords 77.175 1 232.979
 }

@@ -12,11 +12,17 @@ SCR_ChimeraCharacter : "{396D531D125A3EDD}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Hat {
      Prefab "{95117970F954766D}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V5.et"
     }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{C3351EC6D64ED74A}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC77.et"
     }
    }
   }
  }
- coords 9385.346 113.863 8935.269
+ coords 80.908 1 232.741
 }

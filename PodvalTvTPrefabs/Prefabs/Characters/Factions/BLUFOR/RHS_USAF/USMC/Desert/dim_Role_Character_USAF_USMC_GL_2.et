@@ -2,12 +2,18 @@ SCR_ChimeraCharacter : "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{7A5BAA756809B73C}Prefabs/Weapons/M4A1/M4_USMC_2008_GL.et"
+   WeaponTemplate "{7A5BAA756809B73C}Prefabs/Weapons/Rifles/M4A1/M4_USMC_2008_GL.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
      Prefab "{C7E31755334DCB9E}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_Shroud_marpatDesert.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab ""
@@ -15,5 +21,5 @@ SCR_ChimeraCharacter : "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 3019.481 140.836 7854.885
+ coords 90.49 1 232.281
 }
