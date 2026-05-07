@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{5A1CC345188BACAC}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{2A194707534E52E1}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V10.et"
+     Prefab "{A620D6E0E424A7AD}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf_1.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
@@ -22,7 +22,10 @@ SCR_ChimeraCharacter : "{5A1CC345188BACAC}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{1A6EB94AF25F76A6}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_Grenadier_Pouches.et"
@@ -85,5 +88,5 @@ SCR_ChimeraCharacter : "{5A1CC345188BACAC}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 9617.782 89.887 9007.305
+ coords 78.077 1 233.035
 }
