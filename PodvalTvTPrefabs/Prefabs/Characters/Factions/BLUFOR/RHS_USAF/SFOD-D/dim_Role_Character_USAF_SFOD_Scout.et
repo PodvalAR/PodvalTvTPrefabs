@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{1D4A3A741DBFCBAC}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
-     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
      PrefabsToSpawn {
       "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
      }
@@ -69,5 +69,6 @@ SCR_ChimeraCharacter : "{1D4A3A741DBFCBAC}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 11766.196 2.124 3138.983
+ coords 221.7 1 187.803
+ angles 0 0 0
 }
