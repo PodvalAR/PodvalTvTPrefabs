@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{C4FD530A81D85F5D}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{687509FBD9BFBDC6}" {
      TargetStorage "Back/GD_DeltaBag_MC.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
    }

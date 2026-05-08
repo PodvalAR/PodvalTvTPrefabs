@@ -33,25 +33,25 @@ SCR_ChimeraCharacter : "{81A46802F77A86E5}Prefabs/Characters/Factions/OPFOR/AFRF
     ItemsInitConfigurationItem "{6712BC02CEB52194}" {
      TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch1/Pouch_Ratnik_Small1.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{6712BC02D8A26F81}" {
      TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch2/Pouch_Ratnik_Small1.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{6712BC02D8E1BECF}" {
      TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch3/Pouch_Ratnik_Small1.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{6712BC030DF417E1}" {
      TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch4/Pouch_Ratnik_Small1.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{6712BC0339D1F083}" {

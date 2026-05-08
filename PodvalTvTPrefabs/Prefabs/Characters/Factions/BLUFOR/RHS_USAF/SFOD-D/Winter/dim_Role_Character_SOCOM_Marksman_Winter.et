@@ -56,22 +56,22 @@ SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{67216527216AEEAC}" {
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{672165274B86F0C5}" {
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{672165275122E125}" {
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{672165219D1C33A9}" {
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{6724B8158927E66C}" {

@@ -68,7 +68,7 @@ SCR_ChimeraCharacter : "{1958A4565702D3D0}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E6D83F89602AF}" {
      TargetStorage "Vest/Vest_Type56.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
    }

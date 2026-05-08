@@ -55,19 +55,19 @@ SCR_ChimeraCharacter : "{A0D900A84F88554C}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{673857DD2405DACE}" {
      TargetStorage "Vest/GD_Multicam_USA_Var5.et/Pouch1/Pouch_jpc_placard_MC.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{673857DD241CF7A1}" {
      TargetStorage "Vest/GD_Multicam_USA_Var5.et/tako/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{673857DD24745121}" {
      TargetStorage "Vest/GD_Multicam_USA_Var5.et/takobelt/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{673857DD244DC698}" {
@@ -91,7 +91,7 @@ SCR_ChimeraCharacter : "{A0D900A84F88554C}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{673857DDE1C8F59D}" {
      TargetStorage "Vest/GD_Multicam_USA_Var5.et/Tako/Pouch_Shaw_Flex_MC.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{27BB7DC0B0C3897D}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{673857DDDCB340AA}" {

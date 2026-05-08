@@ -5,7 +5,7 @@ SCR_ChimeraCharacter : "{0317D4E3620F8905}Prefabs/Characters/Factions/INDFOR/NAP
    InitialInventoryItems {
     ItemsInitConfigurationItem "{621A9C027B8180E3}" {
      PrefabsToSpawn {
-      "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et"
+      "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et" "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
      }
     }
    }

@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{ACD11AD911B304A9}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{68CD44CFD845D974}" {
      TargetStorage "Pants/Pants_KZS.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68CD6B228F594D42}" {
@@ -50,7 +50,7 @@ SCR_ChimeraCharacter : "{ACD11AD911B304A9}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{6927665478F88940}" {
      TargetStorage "Vest/Vest_SovietHarness_sharpshooter_Black.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
+      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
      }
     }
    }

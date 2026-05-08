@@ -53,7 +53,7 @@ SCR_ChimeraCharacter : "{1E206ABD8FCA9145}Prefabs/Characters/Factions/BLUFOR/RHS
      Enabled 1
      TargetStorage "Vest/MSA_Paraclete_Sniper.et/filbevest/Pouch_Shaw_Nerd_Big.et"
      PrefabsToSpawn {
-      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{673751677F06BCE5}" {
