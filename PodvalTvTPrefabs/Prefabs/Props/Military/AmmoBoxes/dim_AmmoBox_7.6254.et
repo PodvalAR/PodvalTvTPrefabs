@@ -1,0 +1,24 @@
+GenericEntity : "{AEC75ADE97CCB664}Prefabs/Props/Military/AmmoBoxes/dim_AmmoBox_545.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{EE644BCACAF8B0A3}Assets/Props/Military/AmmoBox/AmmoBox_762x54_440rnd/AmmoBox_762x54_440rnd.xob"
+  }
+  SCR_FilteredInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{64F707D11FA7A94D}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    MultiSlotConfiguration "{6502C64ED28D7103}" {
+     SlotTemplate InventoryStorageSlot "{64DCC2F489C88F5C}" {
+      Prefab "{761A03A9C5BA8D68}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7661.82 17.713 4829.292
+ angles 0 105 0
+}
