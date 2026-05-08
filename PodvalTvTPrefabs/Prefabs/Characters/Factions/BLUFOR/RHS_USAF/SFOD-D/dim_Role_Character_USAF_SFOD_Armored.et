@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{863E9EB957705DF6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Role_Character_USAF_SFOD_Unarmed.et" {
+SCR_ChimeraCharacter : "{863E9EB957705DF6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Unarmed.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -18,19 +18,34 @@ SCR_ChimeraCharacter : "{863E9EB957705DF6}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{AD97DB78CDCA2594}Prefabs/Characters/HeadGear/EXFIL/GD_Exfil_Tan (GPNVG + Scarf).et"
+     Prefab "{AD97DB78CDCA2594}Prefabs/Characters/HeadGear/All_EXFIL/GD_Exfil_Tan (GPNVG + Scarf).et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{270A584B14FACCA5}Prefabs/Characters/Uniforms/Shirt_Crye_Rolled/Shirt_Crye_Rolled_Multicam.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Enabled 1
     }
+    LoadoutSlotInfo Pants {
+     Prefab "{7BDF3DD1CB3730A3}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_KpadsG3_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
     LoadoutSlotInfo Vest {
      Enabled 1
-     Prefab "{B79F6F56ECA300FA}Prefabs/Characters/Vests/JPC_Pounches_Variants/GD_Multicam_USA_Var1.et"
+     Prefab "{B79F6F56ECA300FA}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var1.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC.et"
+    }
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
      TargetStorage "Pants/Crye_G3_Pants_Base.et"
      PrefabsToSpawn {
@@ -46,5 +61,6 @@ SCR_ChimeraCharacter : "{863E9EB957705DF6}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4971.997 60.125 3024.918
+ coords 211.067 1 159.67
+ angles 0 -30 0
 }

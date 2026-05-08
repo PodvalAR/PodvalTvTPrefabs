@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
-     TargetStorage "Pants/Crye_G3_Pants_Base.et"
+     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
      PrefabsToSpawn +{
      }
     }
@@ -63,7 +63,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{672165276C1FD37A}" {
-     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
     }
     ItemsInitConfigurationItem "{67216526AF0371EE}" {
      TargetStorage "Vest/GD_Multicam_USA_Var2.et/m67_2/Pouch_Filbe_M67_Base.et"
@@ -84,13 +84,14 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{672165269BE3E457}" {
-     Enabled 0
-     TargetStorage "Vest/Multicam_USA_Var2.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+     Enabled 1
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/pistolbelt/Pouch_Highspeed_Pistol_MC.et"
      PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }
     }
    }
   }
  }
- coords 11763.972 2.106 3138.378
+ coords 227.04 1 177.434
 }
