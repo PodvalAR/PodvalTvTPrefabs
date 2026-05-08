@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{B18FBF7059854EB3}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_crewman.et"
+     Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
     }
    }
   }
@@ -41,28 +41,31 @@ SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Jacket/Shirt_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
-     TargetStorage "Vest/Vest_PCGen_II_crewman.et/breeder/Pouch_Highspeed_Bleeder.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/tako2/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CF30F74485}" {
-     TargetStorage "Vest/Vest_PCGen_II_crewman.et/breeder/Pouch_Highspeed_Bleeder.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/tako/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CF52C72A8A}" {
-     TargetStorage "Vest/Vest_PCGen_II_crewman.et/Pouch2/Pouch_OpenTop_M27_1_pouch.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18/Pouch_Filbe_M18_1.et"
     }
     ItemsInitConfigurationItem "{6720F9CF58ADF554}" {
-     TargetStorage "Vest/Vest_PCGen_II_crewman.et/Pouch2/Pouch_OpenTop_M27_1_pouch.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
     }
     ItemsInitConfigurationItem "{6720F9CF60F2A09C}" {
-     TargetStorage "Vest/Vest_PCGen_II_crewman.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
     }
     ItemsInitConfigurationItem "{6720F9CF6EC9F0D2}" {
-     TargetStorage "Vest/Vest_PCGen_II_crewman.et/Pouch2/Pouch_OpenTop_M27_1_pouch.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CF7F892BA2}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/util/Pouch_PCGEN3_util.et"
     }
     ItemsInitConfigurationItem "{6720F9C14E342086}" {
      Enabled 0
@@ -71,5 +74,5 @@ SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 83.579 1 232.558
+ coords 154.931 1 134.437
 }

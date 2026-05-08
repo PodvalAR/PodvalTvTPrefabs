@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{0A3CA53133D6BE06}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{7BDD612939D675FD}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_USMC_LWH_Goggles_On.et"
+     Prefab "{A620D6E0E424A7AD}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf_1.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
@@ -60,5 +60,5 @@ SCR_ChimeraCharacter : "{0A3CA53133D6BE06}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 92.5 1 232.068
+ coords 171.674 1 116.381
 }
