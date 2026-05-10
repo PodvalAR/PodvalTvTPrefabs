@@ -1,6 +1,11 @@
 Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Base.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_USAF"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{65AB02CD55B08A8C}" {
    MultiSlots {
     MultiSlotConfiguration "{6923125FA9EF1EAB}" {
@@ -10,6 +15,9 @@ Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
      NumSlots 1
     }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {

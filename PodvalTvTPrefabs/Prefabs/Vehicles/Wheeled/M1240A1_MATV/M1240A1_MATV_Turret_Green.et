@@ -4,6 +4,7 @@ Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_Image "{63982F16063ABC8F}UI/Textures/EditorPreviews/Vehicles/Wheeled/MATV/MATV_Green.edds"
+    m_sFaction "RHS_USAF"
    }
   }
   SCR_UniversalInventoryStorageComponent "{65AB02CD55B08A8C}" {
@@ -15,6 +16,9 @@ Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
      NumSlots 1
     }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_USAF"
   }
  }
 }
