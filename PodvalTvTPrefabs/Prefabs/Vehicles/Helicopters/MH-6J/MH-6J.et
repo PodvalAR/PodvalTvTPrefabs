@@ -1,0 +1,182 @@
+Vehicle : "{14AEC71148063163}Prefabs/Vehicles/Helicopters/MH-6J/MH-6J_Base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{68AF54DFC64A14CA}" {
+     EntryPositionInfo PointInfo "{68AF54DFE3E3F8CD}" {
+      Offset 0 -0.0001 -0.0924
+     }
+     AccessibilitySettings CompartmentAccessibilityContext "{68AF54DFF67DA6FE}" {
+      BBHalfExtents -0.5 0.7 0.005
+     }
+    }
+    CompartmentDoorInfo "{6954914984AF3658}" {
+     AnimDoorIndex 2
+     ContextName "door_l03"
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{6954914984AF37AC}" {
+      UIInfo SCR_ActionUIInfo "{6954914984AF37AA}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      VisibilityRange 1.6
+      "Sort Priority" 13
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{6954914984AF37A8}" {
+      UIInfo SCR_ActionUIInfo "{6954914984AF37A9}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      VisibilityRange 1.6
+      "Sort Priority" 11
+     }
+     EntryPositionInfo PointInfo "{6954914984AF37A6}" {
+      PivotID "stepIn_passanger_L01"
+     }
+     ExitPositionInfo PointInfo "{6954914984AF37A4}" {
+      PivotID "passanger_L01_idle"
+      Offset -0.5301 0 0
+     }
+     GetInTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+     AccessibilitySettings CompartmentAccessibilityContext "{6954914984AF37A5}" {
+      BBHalfExtents -0.5 0.7 0.005
+      TraceOffset 0 0.9 0.5
+      TraceLength -0.5
+      UseEntryPointsAsRefference 0
+     }
+    }
+    CompartmentDoorInfo "{6954914984AF37A3}" {
+     AnimDoorIndex 3
+     ContextName "door_r03"
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{6954914984AF37A0}" {
+      UIInfo SCR_ActionUIInfo "{6954914984AF37A1}" {
+       Name "#AR-UserAction_Open"
+       m_sIconName "veh_door"
+      }
+      VisibilityRange 1.6
+      "Sort Priority" 13
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{6954914984AF37BE}" {
+      UIInfo SCR_ActionUIInfo "{6954914984AF37BF}" {
+       Name "#AR-UserAction_Close"
+       m_sIconName "veh_door"
+      }
+      VisibilityRange 1.6
+      "Sort Priority" 11
+     }
+     EntryPositionInfo PointInfo "{6954914984AF37B5}" {
+      PivotID "stepIn_passanger_R01"
+     }
+     ExitPositionInfo PointInfo "{6954914984AF37B2}" {
+      PivotID "passanger_R01_idle"
+      Offset 0.5301 0 0
+     }
+     GetInTeleport 1
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+     AccessibilitySettings CompartmentAccessibilityContext "{6954914984AF37B0}" {
+      BBHalfExtents -0.5 0.7 0.005
+      TraceOffset 0 0.9 0.5
+      TraceLength -0.5
+      UseEntryPointsAsRefference 0
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "MH-6J"
+    m_Image "{3C3A3B8518964E00}UI/Icons/MH-6J.edds"
+    m_aAuthoredLabels + {
+     FACTION_US TRAIT_PASSENGERS_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6954914984AF378A}" {
+      m_BudgetType RANK_SERGEANT
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SideBench {
+     MergePhysics 1
+     Prefab "{2033789A3B6E7213}Prefabs/Vehicles/Helicopters/MH-6J/MH-6J_EPS_Fastrope.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6954914984AF3781}" {
+     UIInfo SCR_ActionContextUIInfo "{6954914984ACF711}" {
+     }
+     ContextName "passenger_l01"
+     Position PointInfo "{6954914984ACF70F}" {
+      Offset -1.2137 0.8149 0.1226
+      Angles 0 -93.8652 0
+     }
+    }
+    UserActionContext "{6954914984ACF70D}" {
+     UIInfo SCR_ActionContextUIInfo "{6954914984ACD0C4}" {
+     }
+     ContextName "passenger_r01"
+     Position PointInfo "{6954914984ACD0C3}" {
+      Offset 1.2238 0.8178 0.0984
+      Angles 0 93.8652 0
+     }
+    }
+    UserActionContext "{6954914984ACD0C2}" {
+     UIInfo SCR_ActionContextUIInfo "{6954914984ACD0C9}" {
+     }
+     ContextName "passenger_r02"
+     Position PointInfo "{6954914984ACD0B7}" {
+      Offset 1.1646 0.7536 -0.7271
+      Angles 0 93.8652 0
+     }
+    }
+    UserActionContext "{6954914984ACD0B5}" {
+     UIInfo SCR_ActionContextUIInfo "{6954914984ACD0BF}" {
+     }
+     ContextName "passenger_l02"
+     Position PointInfo "{6954914984ACD0BE}" {
+      Offset -1.0906 0.7241 -0.6965
+      Angles 0 -93.8652 0
+     }
+    }
+    UserActionContext "{6954914984ACD0BD}" {
+     UIInfo SCR_ActionContextUIInfo "{6954914984AC7330}" {
+      m_sIconName "veh_door"
+     }
+     ContextName "door_l03"
+     Position PointInfo "{6954914984AC7331}" {
+      PivotID "Scene_Root"
+      Offset -1.1726 0.8153 -0.4014
+     }
+    }
+    UserActionContext "{6954914984AC7337}" {
+     UIInfo SCR_ActionContextUIInfo "{6954914984AC7A31}" {
+      m_sIconName "veh_door"
+     }
+     ContextName "door_r03"
+     Position PointInfo "{6954914984AC7A32}" {
+      PivotID "Scene_Root"
+      Offset 1.1982 0.77 -0.4014
+     }
+    }
+   }
+  }
+ }
+}
