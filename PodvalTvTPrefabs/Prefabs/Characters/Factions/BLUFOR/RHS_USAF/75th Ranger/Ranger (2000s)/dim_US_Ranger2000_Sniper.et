@@ -39,19 +39,19 @@ SCR_ChimeraCharacter : "{D5783DA3BE00F01A}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{686F189084B51418}" {
      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
      PrefabsToSpawn {
-      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{686F189094875A11}" {
      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
      PrefabsToSpawn {
-      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{686F1890900E8780}" {
      TargetStorage "Jacket/ACU_jacket_rolled_up_UCP.et"
      PrefabsToSpawn {
-      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
@@ -59,7 +59,7 @@ SCR_ChimeraCharacter : "{D5783DA3BE00F01A}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
      PrefabsToSpawn {
-      "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+      "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE65}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{686F1883C2826043}" {
