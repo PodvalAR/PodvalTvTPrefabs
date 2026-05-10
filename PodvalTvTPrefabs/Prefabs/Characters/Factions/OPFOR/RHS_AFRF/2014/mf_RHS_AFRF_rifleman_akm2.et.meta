@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{CD8F4324362DFF1B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2014/mf_RHS_AFRF_rifleman_akm2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

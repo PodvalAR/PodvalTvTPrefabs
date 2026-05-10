@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{93E0018509F8BB63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2014/mf_RHS_AFRF_BaseLoadaunt.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C867CEF614892A30}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_PlumMag.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F14913F524AA2C55}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{695540273BE0D3BE}" {
+    }
+    ItemsInitConfigurationItem "{6955402579FDBD44}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6955402579AE1944}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69554025799DB91F}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Pouch3/Pouch_Ratnik_ak_3_pouch.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{695540257848FFCD}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_rifleman.et/Bayonet/Pouch_6x9Scabbard.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{695540254946D1A2}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+    }
+   }
+  }
+ }
+}
