@@ -1,0 +1,55 @@
+Vehicle : "{1B36C65100846228}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_ChDKZ_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE71E003CFF9}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{1CAF901A5E1D33A1}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Ses_TKA.emat"
+    }
+    MaterialAssignClass "{5C7AFE71E003CFE2}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{1F0197D271CC2579}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_ChDKZ.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_TKA"
+    m_aAutoLabels {
+     FACTION_Ses_TKA SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6956D01FBDC689FE}" {
+     SlotTemplate InventoryStorageSlot ags {
+      Prefab "{1085CCC052C7F50D}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_VOG17M.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo FIA_CoatOArms_decal {
+     Prefab "{F5AF1D728C9B719F}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_TKA_CoatOfArms_decal.et"
+    }
+    RegisteringComponentSlotInfo TURRET {
+     Offset 0 -0.1519 0
+     MergePhysics 1
+     Prefab "{70BA97724374AD8C}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_AGS_UAZ.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}
