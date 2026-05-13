@@ -9,38 +9,45 @@ SCR_ChimeraCharacter : "{93E0018509F8BB63}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Hat {
      Prefab "{53F44AFC856BA5FD}Prefabs/Characters/HeadGear/RUS_Beanie/GD_Chechen_Hat_Black.et"
     }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{A5EFBD3606768910}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
     LoadoutSlotInfo Vest {
-     Prefab "{CCB46533102B7298}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_BebraPKM_1.et"
+     Prefab "{9344E8C1A7CABF8D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG_Black.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{695514CC93148F57}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{695514CC93C2D328}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{695540273BE0D3BE}" {
-     Enabled 0
-     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     Enabled 1
+     TargetStorage "Vest/Vest_SovietHarness_MG_Black.et"
      PrefabsToSpawn {
-      ""
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6955402715F1C8DE}" {
      Enabled 1
-     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     TargetStorage "Vest/Vest_SovietHarness_MG_Black.et/Suspenders/Vest_SovietHarness_Suspenders_Black.et"
      PrefabsToSpawn {
       "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
      }
     }
-    ItemsInitConfigurationItem "{6955402F521A9BC4}" {
-     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+    ItemsInitConfigurationItem "{695A96ED1CA35D75}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
      PrefabsToSpawn {
-      "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
-     }
-    }
-    ItemsInitConfigurationItem "{6955402F52DA798A}" {
-     Enabled 1
-     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
-     PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
      }
     }
    }
