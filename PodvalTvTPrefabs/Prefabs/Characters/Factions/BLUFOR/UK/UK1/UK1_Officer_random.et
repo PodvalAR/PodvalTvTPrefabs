@@ -40,8 +40,8 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
-     PrefabsToSpawn {
-      "{652FDE999BB0BAC1}Prefabs/Items/Equipment/Radios/Radio_PRC349_Multi.et"
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn +{
      }
     }
    }
