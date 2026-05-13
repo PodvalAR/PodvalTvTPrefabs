@@ -78,19 +78,19 @@ SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{687509E7AC1EB16A}" {
      TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch3/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{687509E7B1EE0553}" {
      TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{687509E7C380D63E}" {
      TargetStorage "Vest/Ranger_2014_SCAR.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{687509E7D89A1479}" {
@@ -99,19 +99,19 @@ SCR_ChimeraCharacter : "{9646AE590958924A}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{687509E7EE5D7311}" {
      TargetStorage "Vest/Ranger_2014_SCAR.et/Grenade_Pouch1/Ranger_StanagPouch.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{687509E7F3602BD3}" {
      TargetStorage "Jacket/Patagonia_MC_Patch_US.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{687509FB93DA6366}" {
      TargetStorage "Pants/GD_Patagonia_L9_Pants_MC.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et" "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et" "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
    }

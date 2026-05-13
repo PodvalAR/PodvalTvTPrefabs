@@ -48,7 +48,7 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68AEDB5590B6AF3A}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/medkit/Pouch_Taktika_medpouch_BLK.et"
      PrefabsToSpawn {
-      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
     ItemsInitConfigurationItem "{68AEDB5590E98623}" {
@@ -114,7 +114,7 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{693CE320C42AD3C7}" {
      TargetStorage "Pants/Pants_Suit_01_black_V1.et"
      PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
    }
@@ -142,5 +142,5 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 1370.255 61.125 1997.089
+ coords 0 0 0
 }

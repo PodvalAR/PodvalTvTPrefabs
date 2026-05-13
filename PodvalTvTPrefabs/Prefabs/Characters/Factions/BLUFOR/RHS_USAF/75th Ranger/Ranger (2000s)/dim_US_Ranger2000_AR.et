@@ -60,19 +60,19 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{686F189084B51418}" {
      TargetStorage "Vest/Ranger_AR.et/MG_Pouch_L/Pouch_Eagle_Ind_AP_SAW200_MS.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{686F189094875A11}" {
      TargetStorage "Vest/Ranger_AR.et/MG_Pouch_R/Pouch_Eagle_Ind_AP_SAW200_MS.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{686F1890900E8780}" {
      TargetStorage "Vest/Ranger_AR.et/Medical_Pouch/Pouch_Eagle_Ind_MEDP_MS.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {

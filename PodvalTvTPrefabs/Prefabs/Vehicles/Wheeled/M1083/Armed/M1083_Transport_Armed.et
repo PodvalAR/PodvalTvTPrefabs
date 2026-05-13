@@ -28,7 +28,7 @@ Vehicle : "{D2CB0810A6F81E0D}Prefabs/Vehicles/Wheeled/M1083/M1083_Base.et" {
    MultiSlots {
     MultiSlotConfiguration "{68CE6E6E1F00C213}" {
      SlotTemplate InventoryStorageSlot Magazines {
-      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+      Prefab "{50A242E5D9742C62}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1Tracer.et"
      }
      NumSlots 3
     }

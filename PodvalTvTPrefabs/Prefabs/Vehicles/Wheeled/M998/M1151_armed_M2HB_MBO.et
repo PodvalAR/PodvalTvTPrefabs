@@ -86,13 +86,13 @@ Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" 
     }
     MultiSlotConfiguration "{68A15AF7FF8AA299}" {
      SlotTemplate InventoryStorageSlot M16ammo {
-      Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+      Prefab "{DD5358193169908C}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
      }
      NumSlots 16
     }
     MultiSlotConfiguration "{68A15AF7FF8AA29A}" {
      SlotTemplate InventoryStorageSlot SAWammo {
-      Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      Prefab "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
      NumSlots 2
     }

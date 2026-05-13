@@ -44,13 +44,13 @@ SCR_ChimeraCharacter : "{3FE04BC2D4D8A63A}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
      TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw2/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CF30F74485}" {
      TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CF52C72A8A}" {
@@ -71,7 +71,7 @@ SCR_ChimeraCharacter : "{3FE04BC2D4D8A63A}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{672117E7D5E5A471}" {
      TargetStorage "Back/FILBE_Backpack.et"
      PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
    }

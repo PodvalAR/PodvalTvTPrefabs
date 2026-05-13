@@ -34,13 +34,13 @@ SCR_ChimeraCharacter : "{BE5DC28EC176FEEB}Prefabs/Characters/Factions/OPFOR/USSR
     ItemsInitConfigurationItem "{68CD6B25CC289095}" {
      TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68CD6B2139A19151}" {
      TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68CD6B214EB70974}" {

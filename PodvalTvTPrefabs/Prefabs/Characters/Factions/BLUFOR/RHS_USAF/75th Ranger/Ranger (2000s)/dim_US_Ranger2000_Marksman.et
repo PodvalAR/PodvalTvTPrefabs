@@ -51,19 +51,19 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{686F189084B51418}" {
      TargetStorage "Vest/Ranger_Marksman.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{686F189094875A11}" {
      TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{686F1890900E8780}" {
      TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{686F18909C2BA8B1}" {
@@ -75,13 +75,13 @@ SCR_ChimeraCharacter : "{87C3C0F036803D0D}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{686F1883A3F8A639}" {
      TargetStorage "ArmoredVest/LV_MBAV_Khaki.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{686F1883C2826043}" {
      TargetStorage "Jacket/Jacket_PCU_5lvl_Base.et"
      PrefabsToSpawn {
-      "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et" "{CDA8C59B712B6B90}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80.et"
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
    }
