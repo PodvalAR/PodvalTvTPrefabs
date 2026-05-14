@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3D74845B9D0867B0}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+ }
+}
