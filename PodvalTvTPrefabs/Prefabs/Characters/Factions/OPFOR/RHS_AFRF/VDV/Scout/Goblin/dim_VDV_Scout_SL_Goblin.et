@@ -20,7 +20,7 @@ SCR_ChimeraCharacter : "{11797C4A3AA0D968}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{DD1AE486A0D01A52}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Closed_EMR.et"
+     Prefab "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
