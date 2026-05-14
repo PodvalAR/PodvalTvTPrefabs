@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{0B5C277FBC2C8224}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C7A9523AF75733AD}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/Helmet_6B47_Cover_EMR_3.et"
+    }
+   }
+  }
+ }
+ coords 14275.91 50.906 11920.205
+}
