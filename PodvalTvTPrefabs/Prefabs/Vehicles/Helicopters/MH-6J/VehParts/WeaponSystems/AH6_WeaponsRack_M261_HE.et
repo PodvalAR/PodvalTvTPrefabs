@@ -1,0 +1,15 @@
+Turret : "{248D05B01B65782A}Prefabs/Vehicles/Helicopters/MH-6J/VehParts/WeaponSystems/AH6_WeaponsRack_M134_M261_HEDP.et" {
+ ID "4B42E71698F5739C"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate ""
+  }
+  WeaponSlotComponent "{68B4D3DA13E7B203}" {
+   WeaponTemplate "{6F6DD9B360BA188D}Prefabs/Weapons/AircraftWeapons/T_Pod_M261_Loaded_HE_M229.et"
+  }
+  WeaponSlotComponent "{68B4D3DA4143B3EA}" {
+   WeaponTemplate "{6F6DD9B360BA188D}Prefabs/Weapons/AircraftWeapons/T_Pod_M261_Loaded_HE_M229.et"
+  }
+ }
+ coords 15496.969 52.125 4442.244
+}

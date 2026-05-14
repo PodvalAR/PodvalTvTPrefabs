@@ -1,0 +1,24 @@
+Vehicle : "{4ED7C573CCD46482}Prefabs/Vehicles/Helicopters/MH-6J/AH-6J_Doors_Base_M134.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "AH-6J (Doors) | M134 - M261 HEDP"
+    m_Image "{C795DF9480FCD70B}UI/Icons/AH-6J_Doors_M261.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 5300
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo AH6_WeaponRack {
+     Prefab "{C9F9DF669BFB173A}Prefabs/Vehicles/Helicopters/MH-6J/VehParts/WeaponSystems/AH6_WeaponsRack_M261_HE.et"
+    }
+   }
+  }
+ }
+ coords 15496.601 52.127 4441.415
+}
