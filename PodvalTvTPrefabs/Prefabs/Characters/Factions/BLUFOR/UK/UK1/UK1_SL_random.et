@@ -13,5 +13,15 @@ SCR_ChimeraCharacter : "{26ACCE7333F6CB13}Prefabs/Characters/Factions/BLUFOR/UK/
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{6C4B0814BB01611D}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Singl.et"
+     }
+    }
+   }
+  }
  }
 }
