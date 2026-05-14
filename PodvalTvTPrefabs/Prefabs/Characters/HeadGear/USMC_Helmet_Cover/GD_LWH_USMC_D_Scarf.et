@@ -1,0 +1,17 @@
+GameEntity : "{25FED7A6AFFE6D29}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_D_Shroud.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Scarf {
+     Prefab "{FAB488085CD5A462}Prefabs/Characters/HeadGear/Hat_Scarf/GD_Scarf Tan (Above Armor).et"
+    }
+   }
+   WornMaterialsOverride +{
+   }
+   ItemMaterialsOverride +{
+   }
+  }
+ }
+ coords 174.601 1 118.882
+}

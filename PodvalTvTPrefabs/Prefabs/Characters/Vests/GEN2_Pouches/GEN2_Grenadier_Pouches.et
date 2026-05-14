@@ -1,0 +1,55 @@
+GenericEntity : "{7F7EE6A33B6ACC12}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Grenadier.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0178 0.1843
+     Angles -0.6606 0 0
+     Prefab "{CBDA076D5A4FC8E0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Blueforce_Tri.et"
+    }
+    LoadoutSlotInfo Pouch2 {
+     Offset 0 0.009 -0.0197
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0063 0.275 0.1117
+     Angles 24.7872 0.8214 0.1844
+    }
+    LoadoutSlotInfo util {
+     Offset -0.1919 0.0311 -0.1623
+    }
+    LoadoutSlotInfo raid {
+     Offset 0 -0.1049 0.1839
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1909 0.0349 -0.1261
+     Angles -0.9437 20.1709 -1.0091
+    }
+    LoadoutSlotInfo ubgl1 {
+     Offset 0.1982 -0.0315 0.0317
+     Angles -1.8375 73.8127 -4.1862
+    }
+    LoadoutSlotInfo ubgl2 {
+     Offset 0.2007 -0.0267 -0.0198
+    }
+    LoadoutSlotInfo ubgl3 {
+     Offset 0.1992 -0.0249 -0.0643
+     Angles -0.4183 96.7894 -3.1893
+    }
+    LoadoutSlotInfo filbe_mag {
+     Offset -0.209 -0.0127 0.0071
+     Angles -7.5101 -82.5206 9.6073
+    }
+    LoadoutSlotInfo smoke {
+     Offset -0.2104 -0.053 -0.0789
+     Angles -5.0139 -92.4272 6.5902
+    }
+   }
+  }
+ }
+ coords 5910.842 57.232 4559.219
+}

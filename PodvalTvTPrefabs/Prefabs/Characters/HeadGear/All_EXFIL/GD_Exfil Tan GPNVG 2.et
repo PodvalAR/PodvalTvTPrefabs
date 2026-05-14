@@ -1,0 +1,32 @@
+GameEntity : "{A566522BE550D0F4}Prefabs/Characters/Helmet/EXFIL/Exfil_Tan_GPNVG.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Offset 0 0.1963 -0.0024
+     Angles 87.1513 -179.99988 179.99988
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Offset 0.0909 0.1467 -0.0017
+     Angles 29.4293 89.1168 88.9288
+     Prefab "{B8ABE98AE067D30B}Prefabs/Items/Equipment/Accessories/PONOS/Ponos.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Offset -0.0948 0.1571 -0.002
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+    RHS_LoadoutSlotInfo Back2 {
+     Offset 0 0.0833 0.1226
+     Angles -6.8077 0 0
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 1620.303 38.509 2910.372
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.323 0.323 0.323 1
+ BCRMap "{33886773C0051E1C}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawflex_blk_BCR.edds"
+ NMOMap "{4C4DCEE53BCBBF9C}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawflex_NMO.tif.edds"
+}

@@ -1,0 +1,13 @@
+GameEntity : "{90444484094BCE50}Prefabs/Characters/Helmet/USMC_Helmet_Cover/LWH_USMC_Shroud.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{B3B666B78636E10B}Prefabs/Characters/Headgear/Glasses/Military_Goggles.et"
+    }
+   }
+  }
+ }
+ coords 7356.997 57.469 7203.846
+}

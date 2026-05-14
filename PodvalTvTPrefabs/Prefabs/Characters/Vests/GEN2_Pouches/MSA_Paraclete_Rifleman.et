@@ -1,0 +1,54 @@
+GenericEntity : "{5704604FBF35F7C5}Prefabs/Characters/Vests/GEN2_Pouches/MSA_Paraclete_V1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo filbe {
+     Enabled 0
+    }
+    LoadoutSlotInfo flibe2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1139 0.1886 -0.1981
+     Angles 9.496 151.4469 -2.3968
+    }
+    LoadoutSlotInfo filbevest {
+     Offset 0.0798 -0.0085 0.1748
+    }
+    LoadoutSlotInfo filbevest4 : filbevest {
+     Offset 0.1655 -0.0059 0.1348
+     Angles -7.2795 42.3734 -1.5838
+    }
+    LoadoutSlotInfo filbevest2 {
+     Offset -0.0155 -0.0016 0.1804
+    }
+    LoadoutSlotInfo filbevest3 {
+     Offset -0.1141 -0.0075 0.1631
+    }
+    LoadoutSlotInfo Radios {
+     Offset -0.1741 -0.003 0.0993
+     Angles 0.5358 91.4056 -2.6571
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Scissors {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tour {
+     Offset 0.1339 0.3349 0.0309
+     Angles -35.2111 -17.0104 35.2775
+     Prefab "{70DFFC48DE5A307E}Prefabs/Misc/JPC_Pounches/JPC_Torniquet.et"
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset 0.0125 -0.1419 -0.0035
+     Angles 0 180 -6.138
+     Prefab "{77C14BE272131177}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS_Tan_RLeg.et"
+    }
+   }
+  }
+ }
+}

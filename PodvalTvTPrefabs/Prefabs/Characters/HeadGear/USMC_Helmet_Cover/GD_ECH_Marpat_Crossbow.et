@@ -1,0 +1,16 @@
+GameEntity : "{E68F5811BC80B8D4}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_coverd_p_crossbow.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{87CB578E42ED2B99}Prefabs/Characters/Helmet/USMC_Helmet_Cover/Cover_Marpat.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{76E61BEE80C6172B}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount.et"
+    }
+   }
+  }
+ }
+ coords 7357.814 57.469 7203.4
+}

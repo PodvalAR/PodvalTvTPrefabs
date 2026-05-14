@@ -1,0 +1,16 @@
+GameEntity : "{894DFD95DD0FFFF6}Prefabs/Characters/Helmet/EXFIL/Exfil Tan GPNVG 2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1391.504 68.875 4863.385
+}

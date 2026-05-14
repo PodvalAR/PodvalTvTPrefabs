@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1B6C19E128F6B17A}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_sbroska_brown.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

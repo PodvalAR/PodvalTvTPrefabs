@@ -1,0 +1,72 @@
+GenericEntity : "{90BE278E72F891DA}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_SL_Variant.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0049 0.2752 0.1137
+     Angles 26.7314 0.8283 0.1874
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1748 0.02 -0.0505
+    }
+    LoadoutSlotInfo filbe {
+     Offset -0.1753 -0.0002 0.1058
+    }
+    LoadoutSlotInfo flibe2 {
+     Offset -0.2197 0.0059 0.0191
+    }
+    LoadoutSlotInfo radio {
+     Offset -0.2021 0.0298 -0.1168
+     Angles 6.9098 158.86169 -2.1376
+    }
+    LoadoutSlotInfo filbevest {
+     Offset 0.082 0.0069 0.1896
+     Angles -7.0706 11.6259 2.3499
+    }
+    LoadoutSlotInfo filbevest2 {
+     Offset -0.002 0.0173 0.196
+     Angles -0.8798 -3.7342 -0.8363
+    }
+    LoadoutSlotInfo filbevest3 {
+     Offset -0.0869 0.0125 0.1848
+    }
+    LoadoutSlotInfo m67 {
+     Offset -0.1973 -0.0183 0.0394
+     Angles -8.0616 -80.2552 8.8702
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset -0.2065 -0.0059 -0.034
+     Angles -8.3754 -86.273 3.0891
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2021 -0.0488 0.0457
+    }
+    LoadoutSlotInfo Radios {
+     Offset -0.1626 0.0418 0.1234
+     Angles 2.2575 136.3885 -1.5006
+    }
+    LoadoutSlotInfo Scissors {
+     Offset 0.061 0.1366 0.1593
+    }
+    LoadoutSlotInfo Tour {
+     Offset 0.1011 0.3205 0.0603
+     Angles -40.6693 178.21201 163.7578
+    }
+    LoadoutSlotInfo Holster {
+     Offset 0.0125 -0.1419 -0.0035
+     Angles 0 180 -6.138
+     Prefab "{77C14BE272131177}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS_Tan_RLeg.et"
+    }
+    LoadoutSlotInfo Tros {
+     Offset -0.1701 -0.0572 0.0057
+     Angles -0.1782 -165.24899 -9.7157
+    }
+   }
+  }
+ }
+ coords 126.632 1 229.236
+}

@@ -1,0 +1,19 @@
+GameEntity : "{62E1A07F77B0B136}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_norotos_velcro_tan_camo.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{755CE97202EF4D24}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount_Tan.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+    LoadoutSlotInfo Beanie {
+     Prefab "{50985A0F0F863FF4}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black (Scarf).et"
+    }
+   }
+  }
+ }
+ coords 73.125 1 242.692
+}

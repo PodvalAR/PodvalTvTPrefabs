@@ -1,0 +1,68 @@
+GenericEntity : "{6B7199E09939ADE0}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MCBlk_ronin.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+    }
+    LoadoutSlotInfo mbiyt {
+     Offset 0.1216 -0.1384 -0.1632
+     Angles -7.2767 4.638 7.9308
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1561 0.0052 0.051
+    }
+    LoadoutSlotInfo tako2 {
+     Offset -0.1749 0.0073 -0.0219
+     Angles 6.0002 -103.5895 -1.1865
+    }
+    LoadoutSlotInfo glows : mbiyt {
+     PivotID "Spine1"
+     Offset 0.1271 -0.0646 0.1139
+     Angles -9.8731 -160.47729 8.0268
+     Prefab "{9DA0A0540E2BE6E2}Prefabs/Misc/JPC_Pounches/JPC_Glows.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.1786 0.0941 0.0712
+     Angles 0 -178.39799 0
+     Prefab "{BED89DEF177876B0}Prefabs/Misc/JPC_Pounches/JPC_Radio3.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset -0.03 0.1758 0.1529
+     Angles 90 0 180
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo JPC_Something {
+     PivotID "Spine5"
+     Offset 0.1902 0.0611 0.0377
+     Angles 0 -103.408 67.126
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+    LoadoutSlotInfo Glush {
+     PivotID "Spine5"
+     Offset 0.0807 0.1293 -0.1967
+     Angles 4.1385 -172.2119 0
+     Enabled 0
+     Prefab "{12DDB554C87C3B7F}Prefabs/Misc/JPC_Pounches/JPC_Glush.et"
+    }
+    LoadoutSlotInfo Tros {
+     PivotID "Spine1"
+     Offset -0.1691 -0.1253 -0.0157
+     Angles 0 -165 0
+     Enabled 0
+     Prefab "{A3659478F7F2539E}Prefabs/Misc/JPC_Pounches/JPC_Tros.et"
+    }
+    LoadoutSlotInfo Radios {
+     PivotID "Spine5"
+     Offset 0.1176 0.267 0.0843
+     Angles 33.562 16.4077 -164.3959
+     Prefab "{8F54EE49D3317266}Prefabs/Items/Equipment/Nightvision/VipLight/VipLight.et"
+    }
+   }
+  }
+ }
+ coords 153.827 1 102.005
+}

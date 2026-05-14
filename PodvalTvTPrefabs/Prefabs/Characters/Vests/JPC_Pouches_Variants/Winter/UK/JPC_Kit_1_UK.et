@@ -1,0 +1,13 @@
+GenericEntity : "{93402D3250A91B3D}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V4.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Mid {
+     Prefab "{E6675C959544D159}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Phone_UK.et"
+    }
+   }
+  }
+ }
+ coords 145 1 87.809
+}

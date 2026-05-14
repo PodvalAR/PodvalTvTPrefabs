@@ -1,0 +1,84 @@
+GenericEntity : "{941BC55B914C3898}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_4.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  RHS_ClothNodeStorageComponent "{6212A0DD8DDB0FEF}" {
+   UseCapacityCoefficient 0
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo up103 {
+     Offset 0.1214 0.014 -0.1086
+     Angles 2.88 144.30679 -1.8749
+     Enabled 1
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo up104 {
+     Offset -0.1399 0.0256 -0.0835
+     Angles 3.9628 -126.271 -2.4407
+     Prefab "{C08B2AD54A8A4A57}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+    LoadoutSlotInfo triple {
+     Offset 0.0001 -0.006 0.2012
+     Angles -1.5903 0 0
+     Prefab "{CBDA076D5A4FC8E0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Blueforce_Tri.et"
+    }
+    LoadoutSlotInfo pistol {
+     Offset 0.0875 0.022 0.2062
+     Angles 1.3958 12.6026 -0.4175
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0397 0.0226 0.22
+     Prefab "{063712DCDFB30053}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini.et"
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.2661 0.0418 0.0532
+     Angles -1.3672 83.6386 -4.8965
+     Prefab "{7B0E856BA78C0246}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    LoadoutSlotInfo drop {
+     Offset -0.0136 0.0276 -0.1313
+     Angles -0.5838 5.4966 -1.128
+    }
+    LoadoutSlotInfo grenade {
+     Offset -0.2341 0.0416 0.0379
+     Angles -2.8925 103.188 70.6205
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.1955 0.0782 0.0983
+     Angles 88.4595 137.8826 -171.6946
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Mag {
+     Offset -0.1786 0.0067 0.0167
+     Angles 6.5486 -76.8688 1.4171
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo holster2 {
+     Offset 0.2164 0.0038 -0.0284
+     Angles 6.5121 98.7458 2.0067
+     Prefab "{0B18049DFD080C8B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+    }
+    LoadoutSlotInfo Radio {
+     Angles 0.1889 179.7682 0
+    }
+    LoadoutSlotInfo holster3 : holster2 {
+     Offset 0.2002 0.0041 0.0671
+     Angles 5.1328 64.4625 0.0216
+     Prefab "{03F98F190A971B35}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+    }
+   }
+   WornModel "{082597690FD7CDD6}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{679A7DD7E4F374E8}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt_ground.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+  }
+ }
+ coords 162.121 1 121.812
+}

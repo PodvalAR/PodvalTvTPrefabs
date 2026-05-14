@@ -1,0 +1,22 @@
+GameEntity : "{88427B454AA3CDC9}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Variants/FORECON/Helmet_MICH2000_norotos_rail_coyote_FORECON4.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+   }
+  }
+ }
+ coords 7365.421 57.885 7178.777
+}

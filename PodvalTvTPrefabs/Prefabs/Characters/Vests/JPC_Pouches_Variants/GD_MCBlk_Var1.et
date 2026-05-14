@@ -1,0 +1,38 @@
+GenericEntity : "{85E4EB7B92BACF63}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MCBlk_ronin2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset 0.0582 0.1526 0.1533
+     Angles 90 0 0
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Gloves {
+     PivotID "Spine5"
+     Offset 0.1686 0.0638 0.099
+     Angles 0 -159.18221 0
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.1676 0.0672 0.1024
+     Angles -2.1093 120 0
+     Enabled 0
+     Prefab "{C2B29FA40FA88DBD}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio_3_Black.et"
+    }
+    LoadoutSlotInfo Torniquet {
+     PivotID "Spine5"
+     Offset 0.1506 0.3423 -0.0019
+     Angles -65.2632 -141.7921 -39.3635
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+   }
+  }
+ }
+ coords 157.212 1 100.326
+}

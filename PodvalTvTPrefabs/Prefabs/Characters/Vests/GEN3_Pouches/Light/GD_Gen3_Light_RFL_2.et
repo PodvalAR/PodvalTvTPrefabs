@@ -1,0 +1,29 @@
+GenericEntity : "{0B9A3A95D37B5CD5}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_SL_N.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo nerd {
+     Offset 0.1894 0.0377 0.0491
+     Angles -3.5296 87.0982 -6.7375
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.1711 0.0303 0.1269
+     Angles -0.0315 94.5756 -8.915
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo flex2 {
+     Offset -0.1808 0.0581 -0.0226
+     Angles -0.7721 -95.1692 6.3647
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2423 0.02 0.0549
+     Angles -6.2912 -7.6357 5.526
+    }
+    LoadoutSlotInfo Back {
+     Offset 0.2084 0.0312 -0.0343
+    }
+   }
+  }
+ }
+}

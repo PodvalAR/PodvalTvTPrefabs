@@ -1,0 +1,34 @@
+GenericEntity : "{11810158D0BCABEF}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_blueforcetriple.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.001 0.2308 0.1564
+     Angles 24.7006 0.821 0.1842
+     Enabled 1
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+    }
+    LoadoutSlotInfo Back {
+     PivotID "Spine5"
+     Offset -0.0801 0.2244 -0.1975
+     Angles -13.467 11.5379 -2.7219
+     Prefab "{94D436FEA7EE8E71}Prefabs/Misc/JPC_Pounches/JPC_Radiobag_Tan.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset 0.0566 0.1274 0.1766
+     Angles 0 0 -52.7748
+     Prefab "{D72FA1A1C9D40129}Prefabs/Misc/JPC_Pounches/JPC_Scissors.et"
+    }
+    RHS_LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset -0.0313 -0.1589 0
+     Angles 0 -180 6.2685
+     Prefab "{D34A519D3478F949}Prefabs/Misc/JPC_Pounches/JPC_Holster_Green_Work.et"
+    }
+   }
+  }
+ }
+ coords 7353.665 57.484 7207.323
+}

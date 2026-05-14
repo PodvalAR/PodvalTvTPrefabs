@@ -1,0 +1,19 @@
+GameEntity : "{9CE8952EE657B3F6}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/Helmet_Exfil_Blk_SOBR.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{AECEEE0A3F6CA7C3}Prefabs/Characters/Headgear/Balaclava/Balaclava_FullMask.et"
+    }
+    LoadoutSlotInfo Scarf {
+     Prefab "{54983CB068EF787D}Prefabs/Characters/Headgear/Scarf/Scarf Black.et"
+    }
+   }
+  }
+ }
+ coords 1612.182 38.256 2916.03
+}

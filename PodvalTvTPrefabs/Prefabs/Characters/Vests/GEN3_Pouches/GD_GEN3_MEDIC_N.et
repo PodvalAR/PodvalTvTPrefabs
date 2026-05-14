@@ -1,0 +1,56 @@
+GenericEntity : "{FD2D0DB75ECAACF1}Prefabs/Characters/Vests/RangerKits/Ranger_Medic.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Placard {
+     Offset 0 0.0101 0.0503
+    }
+    LoadoutSlotInfo nerdbig {
+     Offset 0 0.0012 0.2402
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.2131 0.0388 0.0461
+    }
+    LoadoutSlotInfo ifak {
+     Angles 3.4832 64.0193 4.7048
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.2463 0.0022 0.0629
+     Angles -4.2532 71.3191 -8.1188
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2566 0.0328 -0.0509
+    }
+    LoadoutSlotInfo filbe {
+     Angles 4.7872 -46.7432 -0.8221
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset 0.2034 -0.0467 0.0617
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1468 -0.0437 0.1253
+    }
+    LoadoutSlotInfo Scissors {
+     Enabled 0
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Torn {
+     Offset 0.0917 0.3147 0.0971
+     Angles -40.7434 -168.08369 161.4456
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo gloves {
+     Offset 0.1711 -0.0116 0.16
+    }
+    LoadoutSlotInfo Radioo {
+     Angles 87.4908 85.6964 -44.2791
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+   }
+   WornModel "{082597690FD7CDD6}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt.xob"
+   ItemModel "{679A7DD7E4F374E8}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt_ground.xob"
+  }
+ }
+ coords 194.749 1 101.111
+}

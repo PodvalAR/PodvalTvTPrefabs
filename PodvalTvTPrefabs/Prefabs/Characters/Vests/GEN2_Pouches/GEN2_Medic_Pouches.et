@@ -1,0 +1,55 @@
+GenericEntity : "{D0E5E5E78C3A4A3A}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Medic.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Placard {
+     Offset 0 0.0111 0.0315
+    }
+    LoadoutSlotInfo nerdbig {
+     Offset 0 0.0026 0.2225
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0063 0.2763 0.1129
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.1777 0.0115 0.0448
+     Angles -2.3446 -90.1883 2.7407
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1821 0.0381 -0.1503
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.21 -0.0045 0.0501
+     Angles -4.0421 72.7931 -8.2254
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2266 0.0185 -0.0502
+     Angles -2.0104 92.6867 -3.1515
+    }
+    LoadoutSlotInfo saw2 {
+     Angles 2.1885 -56.6316 -3.549
+    }
+    LoadoutSlotInfo raid {
+     Offset 0 -0.1242 0.1741
+    }
+    LoadoutSlotInfo Scissors {
+     Offset -0.0742 0.1019 0.1588
+    }
+    LoadoutSlotInfo Torn {
+     Offset 0.1113 0.3086 0.093
+     Angles -50.6551 -42.1768 68.2214
+    }
+    LoadoutSlotInfo gloves {
+     Offset 0.1738 -0.1062 0.1308
+    }
+    LoadoutSlotInfo Radioo {
+     Offset -0.145 0.1307 0.0969
+     Angles 0.4553 -178.17641 3.7689
+    }
+   }
+  }
+ }
+ coords 5912.132 57.25 4558.277
+ angles 0 0 0
+}

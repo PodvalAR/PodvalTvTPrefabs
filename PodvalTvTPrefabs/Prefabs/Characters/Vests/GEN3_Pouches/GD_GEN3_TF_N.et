@@ -1,0 +1,39 @@
+GenericEntity : "{FD41B78CEAAF39B8}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0516 0.1841
+     Angles -2.3557 0 0
+    }
+    LoadoutSlotInfo MBITR {
+     Enabled 0
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2046 0.0344 0.0875
+     Angles -4.9587 73.8782 -4.0232
+    }
+    LoadoutSlotInfo tako {
+     Angles 7.3779 -62.5133 -0.8392
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2564 0.0086 0.1003
+     Angles -4.0081 -16.4701 7.6038
+    }
+    LoadoutSlotInfo filbe2 {
+     Offset -0.2181 -0.0056 -0.0369
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2453 -0.022 0.0082
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset 0.2417 -0.0159 -0.0934
+    }
+   }
+   WornModel "{082597690FD7CDD6}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt.xob"
+   ItemModel "{679A7DD7E4F374E8}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt_ground.xob"
+  }
+ }
+ coords 165.614 1 182.616
+}

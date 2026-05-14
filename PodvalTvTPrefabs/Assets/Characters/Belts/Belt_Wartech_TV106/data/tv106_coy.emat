@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.591 0.515 0.392 1
+ SpecularMul 2.54
+ BCRMap "{9D9B33B1B2BAE928}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_olive_BCR.edds"
+ NMOMap "{825A21E1C486FCCE}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_NMO.edds"
+}

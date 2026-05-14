@@ -1,0 +1,13 @@
+GameEntity : "{FD4B1D528BF8E467}Prefabs/Characters/Helmet/EXFIL/Night Operations/Exfil_MCBlk_GPNVG.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1738.702 39.053 2887.952
+}

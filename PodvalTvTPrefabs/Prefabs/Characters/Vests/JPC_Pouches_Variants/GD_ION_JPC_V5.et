@@ -1,0 +1,51 @@
+GenericEntity : "{E30507B72C11067C}Prefabs/Characters/Vests/SHAW_ARC_Kits/GD_ION_Scout_ShawARC.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo up104 {
+     Prefab "{FD1537D7E8C139C2}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    LoadoutSlotInfo triple {
+     Offset 0.0001 0.0706 0.1632
+     Angles -4.685 0 0
+     Prefab "{7390CBCE20BAE62B}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_Blk.et"
+    }
+    LoadoutSlotInfo pistol {
+     Offset 0.0781 0.047 0.1997
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0395 0.0481 0.2203
+     Angles 1.0809 -5.887 0.5974
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.2421 0.0459 0.0106
+     Angles -0.7922 90.2598 -5.0213
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset 0.182 0.0911 0.0794
+     Angles 5.1342 -172.49741 -1.7378
+    }
+    LoadoutSlotInfo grenade {
+     Offset -0.2023 0.0457 0.0132
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.1381 0.0973 0.1124
+    }
+    LoadoutSlotInfo holster2 {
+     Offset 0.2016 -0.0263 -0.0066
+     Angles 0 0 0
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Radio {
+     Offset -0.0046 0.2241 0.158
+     Angles -2.5768 179.7682 0
+    }
+    LoadoutSlotInfo holster3 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 150.995 1.288 107.468
+}

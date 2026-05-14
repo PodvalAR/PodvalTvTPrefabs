@@ -1,0 +1,19 @@
+GameEntity : "{AD97DB78CDCA2594}Prefabs/Characters/Helmet/EXFIL/Exfil_Tan (GPNVG + Scarf).et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{B8ABE98AE067D30B}Prefabs/Items/Equipment/Accessories/PONOS/Ponos.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1395.425 69.698 4878.415
+}

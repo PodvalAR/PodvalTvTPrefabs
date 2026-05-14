@@ -1,0 +1,26 @@
+GameEntity : "{CA29B2E50A87C9D5}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_Marpat.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{7FF9467F2B34784F}Assets/Characters/HeadGear/Helmet_ACH_MICH/rhs_mich_cov_shroud.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{387E90715C817F1A}Prefabs/Characters/HeadGear/Helmet_Exfil/counterweight/Agilite_counterweight_Coy.et"
+    }
+    RHS_LoadoutSlotInfo Backvelcro2 : BackVelcro {
+     Offset 0 0.0967 0.1216
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{64322D5D501B7D79}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_Base.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{85D618A51C013F7A}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_yellow.et"
+    }
+   }
+  }
+ }
+ coords 3004 140.906 7863.643
+}

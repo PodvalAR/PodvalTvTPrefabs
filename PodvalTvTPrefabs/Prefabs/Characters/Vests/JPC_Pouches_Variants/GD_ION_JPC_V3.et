@@ -1,0 +1,67 @@
+GenericEntity : "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{EC0FD790E34AFF6A}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MCBlk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo nerd {
+     Prefab "{063712DCDFB30053}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini.et"
+    }
+    LoadoutSlotInfo flex {
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo Tako {
+     Prefab ""
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{7C42FEC44CE663B6}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio_1_Black.et"
+    }
+    LoadoutSlotInfo raid {
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo tako {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0 0.1984 0.1453
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{C99B8E8DB740439D}Prefabs/Items/Patches/PMC_Patch_Desc_2.et"
+    }
+    LoadoutSlotInfo GPS {
+     Offset -0.1066 0.2466 0.0387
+     Angles 23.6994 87.1303 -56.5353
+     Prefab "{F82C8B98C9D8632A}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_Garmin.et"
+    }
+    LoadoutSlotInfo JTAC {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 153.827 1 102.005
+}

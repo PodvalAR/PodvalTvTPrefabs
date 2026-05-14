@@ -1,0 +1,46 @@
+GenericEntity : "{3F09E61DCB860B81}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_filbe.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.001 0.2308 0.1564
+     Angles 24.7006 0.821 0.1842
+     Enabled 1
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+    }
+    LoadoutSlotInfo Radios {
+     PivotID "Spine5"
+     Offset -0.1875 0.0424 0.149
+     Angles -5.0635 136.58051 -1.5053
+     Prefab "{7501C505787BAA6D}Prefabs/Misc/JPC_Pounches/JPC_Radio_Tan.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset 0.061 0.1386 0.1767
+     Angles 6.4468 0 0
+     Prefab "{D72FA1A1C9D40129}Prefabs/Misc/JPC_Pounches/JPC_Scissors.et"
+    }
+    LoadoutSlotInfo Tour {
+     PivotID "Spine5"
+     Offset 0.102 0.2934 0.092
+     Angles -30.5068 174.81081 165.7453
+     Prefab "{99BA38DD91DFED40}Prefabs/Misc/JPC_Pounches/JPC_GPS.et"
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset -0.0229 -0.1414 0.0033
+     Angles 0 -180 3.3148
+     Prefab "{D34A519D3478F949}Prefabs/Misc/JPC_Pounches/JPC_Holster_Green_Work.et"
+    }
+    LoadoutSlotInfo Tros {
+     PivotID "Hips"
+     Offset -0.1482 -0.0636 0
+     Angles -0.1782 -165.24899 0.6767
+     Prefab "{A3659478F7F2539E}Prefabs/Misc/JPC_Pounches/JPC_Tros.et"
+    }
+   }
+  }
+ }
+ coords 1248.474 61.469 180.029
+}

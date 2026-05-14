@@ -1,0 +1,50 @@
+GenericEntity : "{46C3E23A7272F272}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC4.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo BackVelcro {
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1687 0.1335 0.096
+     Angles 0 -175.4668 0
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo pistol {
+    }
+    LoadoutSlotInfo pistolpouch2 {
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.0995 0.2159 -0.1989
+     Angles 0 -111.8225 0
+     MergePhysics 0
+     Prefab "{B1934198EEFDCB28}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    LoadoutSlotInfo tako {
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1821 0.0298 0.0584
+     Angles -0.9018 -136.41701 3.4287
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Scissors : pistolpouch2 {
+     Offset 0.0722 0.1175 0.1488
+     Angles 86.9589 -172.9863 -5.352
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Radio_Shoulder {
+     PivotID "Spine5"
+     Offset 0.1378 0.324 0.0314
+     Angles 56.7362 28.6332 -154.6935
+     MergePhysics 1
+     Prefab "{8F54EE49D3317266}Prefabs/Items/Equipment/Nightvision/VipLight/VipLight.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+  }
+ }
+ coords 149.732 1 100.647
+}

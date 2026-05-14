@@ -1,0 +1,27 @@
+GameEntity : "{4B3A4E4799F742A3}Prefabs/Characters/Helmet/USMC_Helmet_Cover/ECH_Marpat_Crossbow.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Angles 0 180 0
+     Enabled 0
+     Prefab "{13DFBA97324A9A81}Prefabs/Characters/Headgear/Glasses/Mil_Goggles_USMC.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Enabled 0
+    }
+    LoadoutSlotInfo GOG {
+     PivotID "Head"
+     Offset 0 0.1212 -0.0547
+     Angles -19.932 0 0
+     Prefab "{13DFBA97324A9A81}Prefabs/Characters/Headgear/Glasses/Mil_Goggles_USMC.et"
+    }
+   }
+  }
+ }
+ coords 1287.316 61.781 234.349
+}

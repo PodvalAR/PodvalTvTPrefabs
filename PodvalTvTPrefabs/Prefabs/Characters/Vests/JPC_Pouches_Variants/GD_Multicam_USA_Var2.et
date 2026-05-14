@@ -1,0 +1,38 @@
+GenericEntity : "{7BF7C702071E7B45}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo HSGI {
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.1166 0.2669 0.085
+     Angles 28.8479 -18.9391 138.88541
+     MergePhysics 0
+     Prefab "{8F54EE49D3317266}Prefabs/Items/Equipment/Nightvision/VipLight/VipLight.et"
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1464 0.3373 0.0138
+     Angles -63.0086 -154.27521 -32.2985
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo flexbelt {
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo flexbelt2 {
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo pistolbelt {
+    }
+    LoadoutSlotInfo m18_2 {
+    }
+    LoadoutSlotInfo zip {
+     Offset 0.1007 0.0732 -0.1803
+     Angles 2.2718 -55.6211 -4.7962
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+   }
+  }
+ }
+ coords 150.563 1 100.784
+}

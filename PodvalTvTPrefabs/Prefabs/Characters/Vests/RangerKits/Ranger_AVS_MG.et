@@ -1,0 +1,55 @@
+GenericEntity : "{6AACC58D09743363}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_6x6_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0626 0.1789
+     Enabled 0
+    }
+    LoadoutSlotInfo HSGI {
+     Offset -0.1131 -0.0613 -0.1158
+     Angles 1.9707 -6.5733 3.4815
+     Prefab "{7D639CF23CD6F1E9}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_MC.et"
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.2158 -0.0172 0.0258
+     Prefab "{017A91FB9EDDED04}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_AP_SAW200_MS.et"
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.2064 -0.0105 0.0521
+     Angles 5.5032 -66.4298 2.6725
+     Prefab "{017A91FB9EDDED04}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_AP_SAW200_MS.et"
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.176 -0.006 0.104
+     Enabled 0
+    }
+    LoadoutSlotInfo Tako2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pstl1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pstl2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2138 -0.0622 -0.0761
+     Enabled 0
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset 0.132 -0.0128 -0.1563
+     Prefab "{325F38C98ED87C7A}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MC.et"
+    }
+    LoadoutSlotInfo zip {
+     Offset -0.0038 0.1765 -0.269
+    }
+   }
+  }
+ }
+ coords 109.217 1 229.474
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{4BBEA261206C4B0A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{E8691A032A51650C}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_coy.emat"
+   }
+   ItemMaterialsOverride {
+    "{E8691A032A51650C}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_coy.emat"
+   }
+  }
+ }
+ coords 199.217 1 235.872
+}

@@ -1,0 +1,41 @@
+GenericEntity : "{2517DBCE68659483}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_Medic_shawplacard2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.001 0.2308 0.1564
+     Angles 24.7006 0.821 0.1842
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+     m_fMorphValue 0.3
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset -0.0946 0.1063 0.1781
+     Angles 12.8883 -19.1668 -4.6469
+     Prefab "{D72FA1A1C9D40129}Prefabs/Misc/JPC_Pounches/JPC_Scissors.et"
+    }
+    LoadoutSlotInfo Torn {
+     PivotID "Spine5"
+     Offset 0.1179 0.3055 0.0954
+     Angles -44.1878 -45.7407 70.8503
+     Prefab "{70DFFC48DE5A307E}Prefabs/Misc/JPC_Pounches/JPC_Torniquet.et"
+    }
+    LoadoutSlotInfo gloves {
+     PivotID "Spine5"
+     Offset 0.2002 -0.1073 0.1291
+     Angles 2.4075 -86.8116 -5.3705
+     Prefab "{924916D6F5E99BBD}Prefabs/Misc/JPC_Pounches/JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Radioo {
+     PivotID "Spine5"
+     Offset -0.1749 0.1113 0.1309
+     Angles 0 -171.2982 0
+     Prefab "{E204291A4DC1BD33}Prefabs/Misc/JPC_Pounches/JPC_Radio4_Tan.et"
+    }
+   }
+  }
+ }
+ coords 1287.039 61.781 235.088
+ angles 0 -46.508 0
+}

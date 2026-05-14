@@ -1,0 +1,13 @@
+GenericEntity : "{FFDEAD672E0AA14E}Prefabs/Characters/Vests/SHAW_ARC_Kits/GD_ION_TL_ShawARC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Holster {
+     Offset -0.0048 -0.0953 -0.018
+    }
+   }
+  }
+ }
+ coords 119.766 1 91.894
+}

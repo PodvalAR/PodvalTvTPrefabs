@@ -1,0 +1,45 @@
+GenericEntity : "{C41C60EA0CD22C53}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+    }
+    LoadoutSlotInfo HSGI {
+    }
+    LoadoutSlotInfo nerd {
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.0714 0.0813 0.2065
+     Angles 1.6631 -10.3214 -1.0078
+     Prefab "{65975AC25C5695DD}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_MC.et"
+    }
+    LoadoutSlotInfo Tako {
+    }
+    LoadoutSlotInfo pistol {
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1747 0.0177 0.0354
+     Angles 8.0606 -72.8384 2.0441
+    }
+    LoadoutSlotInfo takobelt {
+     Offset -0.1602 0.0156 -0.0548
+     Angles 5.4166 -120.1422 -2.8444
+    }
+    LoadoutSlotInfo Scissors : flex {
+     Offset 0.1451 0.1404 0.1136
+     Angles 62.7051 -25.5875 95.3416
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo GPS : flex {
+     PivotID "Spine1"
+     Offset -0.1685 -0.1174 -0.0222
+     Angles -0.6102 -169.7928 -3.8896
+     Enabled 0
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 147.798 1 101.464
+}

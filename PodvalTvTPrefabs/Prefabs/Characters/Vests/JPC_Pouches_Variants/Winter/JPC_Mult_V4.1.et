@@ -1,0 +1,33 @@
+GenericEntity : "{DBCB5BB650678FD4}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo flex {
+     Offset -0.1797 0.083 0.1064
+     Angles 1.1872 -170.54359 2.0055
+     Prefab "{3C87621A653D3B45}TEST/Prefabs/Vests/US_JPC_Pouches/GD_JPC_Radio2.et"
+    }
+    LoadoutSlotInfo Mid {
+     PivotID "Spine5"
+     Offset 0 0.1933 0.1694
+     Angles 6.4591 -180 0
+     Prefab "{DCEA26FB27C12D8D}TEST/Prefabs/Vests/US_JPC_Pouches/GD_JPC_Phone.et"
+    }
+    LoadoutSlotInfo pistolbelt {
+     PivotID "RightLeg"
+     Offset 0.0002 -0.1249 -0.0082
+     Angles 0 -180 -2.7033
+     Prefab "{77C14BE272131177}TEST/Prefabs/Vests/All_Holster_SLS/GD_Holster_SLS_Tan_RLeg.et"
+    }
+    LoadoutSlotInfo zip {
+     Offset 0.1299 0.0555 0.1184
+     Angles 9.7766 -163.13429 -3.2433
+     Enabled 0
+     Prefab "{F58AA5DA8B494123}TEST/Prefabs/Vests/US_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+   }
+  }
+ }
+ coords 8295.046 218.031 8809.544
+}

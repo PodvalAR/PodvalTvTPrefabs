@@ -1,0 +1,14 @@
+GenericEntity : "{5CC14D6DAF45EA9B}Prefabs/Characters/Vests/RangerKits/M110_Mag_Pouch_1.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{A7041E2AFA0FFB53}Assets/Characters/Vests/Vest_TV110_Pouches/data/mp117_Blk.emat"
+   }
+   ItemMaterialsOverride {
+    "{A7041E2AFA0FFB53}Assets/Characters/Vests/Vest_TV110_Pouches/data/mp117_Blk.emat"
+   }
+  }
+ }
+ coords 103.944 1.119 92.349
+}

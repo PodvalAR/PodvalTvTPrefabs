@@ -1,0 +1,112 @@
+GenericEntity : "{718789A29DA9AFF3}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_5.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 -0.0007 0.2064
+     Angles 0.6644 0 0
+     Prefab "{14BD08A15E2AB6FD}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Enabled 0
+    }
+    LoadoutSlotInfo m18_1 {
+     PivotID "Spine1"
+     Enabled 1
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Offset 0.1718 0.0104 -0.1279
+     Angles 1.0166 138.855 2.5722
+     Prefab "{7B0E856BA78C0246}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tako2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo takobelt {
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.1709 0.0201 0.0019
+     Angles -3.5562 -93.8876 4.8319
+     Prefab "{E2570E47232ACCAA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.2375 -0.0362 -0.0448
+     Enabled 0
+    }
+    LoadoutSlotInfo nerd {
+     PivotID "Spine5"
+     Offset 0.2142 0.0376 0.0595
+     Angles -2.6017 77.3079 -1.418
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo ifak {
+     PivotID "Spine1"
+     Offset -0.0043 0.0223 -0.1571
+     Angles 6.198 179.7509 -1.6045
+     Prefab "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+    }
+    LoadoutSlotInfo saw {
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.2616 0.0254 0.084
+     Angles -2.0958 -73.1795 4.7619
+     Prefab "{7B0E856BA78C0246}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    LoadoutSlotInfo flex2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Back2 {
+    }
+    LoadoutSlotInfo pistolcamer {
+     PivotID "Spine5"
+     Offset 0.2035 0.0473 -0.0722
+     Angles 10.2494 -64.2031 7.6682
+     Prefab "{E2570E47232ACCAA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+    }
+    LoadoutSlotInfo Pouch2 : Pouch1 {
+     Offset 0 0.1875 0.1776
+     Angles 12.8674 0 0
+     MergePhysics 0
+     Prefab "{D1498D51EC5747DC}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_ARC_Admin_Coy.et"
+     DisablePhysicsInteraction 0
+     DeactivatePhysicsOnAtaching 0
+    }
+    LoadoutSlotInfo m18_3 {
+     Offset -0.1781 -0.0312 -0.1047
+     Angles 6.1524 -126.8285 1.0481
+    }
+    LoadoutSlotInfo Raid {
+     PivotID "Spine5"
+     Offset 0 -0.1265 0.1969
+     Angles -8.6201 0 0
+     MergePhysics 1
+     Prefab "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+   WornModel "{082597690FD7CDD6}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{679A7DD7E4F374E8}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt_ground.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+  }
+ }
+ coords 158.278 1 116.155
+}

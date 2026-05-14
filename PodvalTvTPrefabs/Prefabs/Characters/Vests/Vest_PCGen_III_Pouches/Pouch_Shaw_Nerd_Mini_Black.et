@@ -1,0 +1,29 @@
+GenericEntity : "{80B50798C062384A}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{B77E6152EF020D41}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shaw_nerd_mini.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      PreviewModel "{B77E6152EF020D41}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shaw_nerd_mini.xob"
+     }
+    }
+   }
+   MaxCumulativeVolume 200
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornModel "{B77E6152EF020D41}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shaw_nerd_mini.xob"
+   WornMaterialsOverride {
+    "{A4B25B4EE3B0E269}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/nerd_black.emat"
+   }
+   ItemModel "{B77E6152EF020D41}Assets/Characters/Vests/Vest_PCGen_III_Pouches/shaw_nerd_mini.xob"
+   ItemMaterialsOverride {
+    "{A4B25B4EE3B0E269}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/nerd_black.emat"
+   }
+  }
+ }
+ coords 104.823 1 93.056
+}

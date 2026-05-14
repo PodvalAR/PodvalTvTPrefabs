@@ -1,0 +1,77 @@
+GameEntity : "{916484D0EB7F9923}Prefabs/Characters/Core/AttachableHeadgear_Base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{9224BD7D4ABD09DC}Assets/Characters/GenericGroundItems/rhs_cloth_item_small.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{671F1A608EA0BD5B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{671F1A608EA0B29F}" {
+     Name "#RHS-Item_ECHM_LC_Cover_Name - #RHS-Camo_MARPAT_WD"
+     Description "#RHS-Item_ECHM_LC_Cover_Description"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{671F1A608EA0B294}" {
+       Name "#RHS-UI_InventoryHint_CanBeattachedToHelmet"
+       Icon "{57075D9983C07F48}UI/Textures/InventoryIcons/Inspection-gizmo-helmet-cover-slot-UI.edds"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{671F1A608EA0B290}" {
+     ItemDimensions 5 2 5
+     ItemVolume 50
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{671F1A608EA0B28C}" {
+      CameraPreset Top
+      CameraDistanceToItem 0.15
+      FOV 40
+     }
+     RHS_CustomAttributes "{671F1A608EA0B28A}" {
+      m_sShortName "#RHS-Item_ECHM_LC_Cover_Name"
+      m_sCompatibleSlotNames {
+       "MeshCover"
+      }
+     }
+     RHS_HelmetCoverAttributes "{6179119727606B59}" : "{4AE0A6A6323E09EF}Prefabs/Characters/Core/Configs/HelmetCovers/DefaultHelmetCoverAttributes.conf" {
+      m_bUseInflatedOffsets 1
+      m_aInflatedSlotInfo {
+       RHS_InflatedSlotInfo "{61793699DFF446BF}" {
+        m_eSlotState BLOCKED
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446A0}" {
+        m_eSlotState BLOCKED
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446A1}" {
+        m_eSlotState BLOCKED
+       }
+       RHS_InflatedSlotInfo "{61793699DFF446AC}" {
+        m_eSlotState BLOCKED
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D17D88D18EF4F7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D17D88D157C3EC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D17D88D0CECA3A}" {
+      m_AffiliatedFactionKey "RHS_USAF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   AreaType RHS_LoadoutECHCoverSlotArea "{671F1A608EA0B57B}" {
+   }
+   WornModel "{55F774BD7815225C}Assets/Characters/HeadGear/Cover_ECH/rhs_cover_ech_lc.xob"
+   WornMaterialsOverride {
+    "{027F84F3FD7FD1F6}Assets/Characters/HeadGear/Cover_ECH/data/cover_ech_wd.emat"
+   }
+   ItemModel "{9224BD7D4ABD09DC}Assets/Characters/GenericGroundItems/rhs_cloth_item_small.xob"
+   ItemMaterialsOverride {
+    "{7DDF20D4BD81EE7B}Assets/Characters/GenericGroundItems/data/cloth_item_marpat_wd.emat"
+   }
+  }
+ }
+}

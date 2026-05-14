@@ -1,0 +1,14 @@
+GameEntity : "{470B6250EE4D685E}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_Summer_Goggles.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{41D6B7D2456B6C43}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_LWH.emat"
+   }
+   ItemMaterialsOverride {
+    "{41D6B7D2456B6C43}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_LWH.emat"
+   }
+  }
+ }
+ coords 100.68 1 217.135
+}

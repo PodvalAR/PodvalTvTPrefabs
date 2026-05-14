@@ -1,0 +1,62 @@
+GenericEntity : "{5704604FBF35F7C5}Prefabs/Characters/Vests/GEN2_Pouches/MSA_Paraclete_V1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0046 0.2659 0.1261
+     Angles 26.7026 -2.4845 -1.3023
+    }
+    LoadoutSlotInfo filbe {
+     Enabled 0
+    }
+    LoadoutSlotInfo flibe2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset -0.126 0.0026 -0.0888
+     Angles 0.386 41.93 6.4519
+    }
+    LoadoutSlotInfo radio {
+     Offset -0.1415 0.0691 -0.1565
+     Angles 0.9202 60.704 -1.0415
+     Prefab "{7950E322BE6927CC}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Nylon_Strap.et"
+    }
+    LoadoutSlotInfo filbevest {
+     Offset -0.0188 -0.0001 0.1727
+     Angles -2.2419 -0.0259 0.7692
+     Prefab "{80B50798C062384A}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big.et"
+    }
+    LoadoutSlotInfo filbevest2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo filbevest3 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Radios {
+     Offset 0.1425 0.0484 0.1432
+     Angles 0 157.3105 0
+     Prefab "{50D356FAD9F9B46B}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio1.et"
+    }
+    LoadoutSlotInfo Scissors {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tour {
+     Prefab ""
+    }
+    LoadoutSlotInfo Holster {
+     Offset 0.1989 -0.0189 -0.0093
+    }
+    LoadoutSlotInfo RRR : Radios {
+     Offset -0.1667 -0.0015 0.126
+     Angles 2.2575 136.3885 -91.5006
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+   }
+  }
+ }
+ coords 1450.942 135.066 4672.603
+}

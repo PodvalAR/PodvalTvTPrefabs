@@ -1,0 +1,9 @@
+GenericEntity : "{46CD5E10628CF628}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_OD2.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+  }
+ }
+ coords 202.876 1 84.557
+}

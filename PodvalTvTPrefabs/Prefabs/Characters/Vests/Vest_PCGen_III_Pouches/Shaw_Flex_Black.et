@@ -1,0 +1,14 @@
+GenericEntity : "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{556F5AA87D94E26E}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawflexBlk2.emat"
+   }
+   ItemMaterialsOverride {
+    "{556F5AA87D94E26E}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawflexBlk2.emat"
+   }
+  }
+ }
+ coords 104.967 1.242 92.659
+}

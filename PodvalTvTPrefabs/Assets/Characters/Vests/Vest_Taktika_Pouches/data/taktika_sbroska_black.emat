@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.392 0.392 0.392 1
+ BCRMap "{7A2D4CD4D5C78B58}Assets/Characters/Vests/US_JPC_Pouches/Data/DropPouch_Brown.edds"
+ NMOMap "{1E6856C8D7AB85EA}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_drop_NMO.edds"
+}

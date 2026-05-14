@@ -1,0 +1,42 @@
+GenericEntity : "{8DCD718658B14B55}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo up103 {
+     Prefab ""
+    }
+    LoadoutSlotInfo up104 {
+     Offset -0.1355 0.0252 -0.0778
+     Angles -3.2597 39.8021 3.3223
+     Prefab "{7AA57E45197D8749}Prefabs/Misc/JPC_Pounches/DropPouch_Brown.et"
+    }
+    LoadoutSlotInfo triple {
+     Offset 0 0.0401 0.1904
+    }
+    LoadoutSlotInfo pistol2 {
+     Prefab ""
+    }
+    LoadoutSlotInfo drop {
+     Enabled 0
+    }
+    LoadoutSlotInfo grenade {
+     Prefab ""
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab ""
+    }
+    LoadoutSlotInfo Mag {
+     Prefab ""
+    }
+    LoadoutSlotInfo raid {
+     Offset -0.0076 -0.0953 0.202
+    }
+   }
+   WornModel "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+   ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+   DebugWornModel 0
+  }
+ }
+ coords 3477.332 17.844 5465.95
+}

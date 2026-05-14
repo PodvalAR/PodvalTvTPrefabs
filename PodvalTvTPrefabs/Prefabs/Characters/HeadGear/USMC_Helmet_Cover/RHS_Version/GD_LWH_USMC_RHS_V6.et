@@ -1,0 +1,14 @@
+GameEntity : "{D246F1F2C64E1108}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_Goggles_Baf_D.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "" "{610540898C350473}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_marpatD.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{610540898C350473}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_marpatD.emat"
+   }
+  }
+ }
+ coords 88.58 1 214.187
+}

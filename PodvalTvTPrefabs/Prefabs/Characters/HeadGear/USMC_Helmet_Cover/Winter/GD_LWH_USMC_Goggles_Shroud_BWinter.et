@@ -1,0 +1,13 @@
+GameEntity : "{52DC26AE9E10661F}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_Summer_Googles_Shroud.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+  }
+ }
+ coords 615.773 5.644 1010.206
+}

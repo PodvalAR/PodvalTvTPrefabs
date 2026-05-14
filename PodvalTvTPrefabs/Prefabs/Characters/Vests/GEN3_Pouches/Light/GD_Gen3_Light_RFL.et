@@ -1,0 +1,40 @@
+GenericEntity : "{DD6E2B4B0277CBDA}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_RFL_N_2.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo triple {
+     Offset 0.0001 0.0221 0.1959
+     Angles -3.1748 0 0
+    }
+    LoadoutSlotInfo pistol {
+     Offset 0.0783 0.047 0.2008
+     Angles -1.0229 12.6202 -0.4174
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0409 0.0478 0.2342
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.2449 0.0458 0.0107
+     Angles -1.0493 87.3196 -4.9741
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset 0.1895 0.062 0.0946
+     Angles 3.4955 -163.16589 3.131
+    }
+    LoadoutSlotInfo grenade {
+     Offset -0.2057 0.0401 0.0313
+     Angles -4.9532 97.2543 71.0269
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.1818 0.0777 0.0869
+    }
+    LoadoutSlotInfo Radio {
+     Offset -0.0047 0.226 0.183
+     Angles -7.3659 179.7682 0
+    }
+   }
+  }
+ }
+ coords 165.614 1 182.616
+}

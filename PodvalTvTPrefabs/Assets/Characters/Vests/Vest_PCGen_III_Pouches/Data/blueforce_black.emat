@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.014 0.014 0.014 1
+ BCRMap "{E10FE679F41A8BB3}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/blueforce_tri_Coy_BCR.edds"
+ NMOMap "{54F1CBD9E1A4658A}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/blueforce_tri_NMO.edds"
+}

@@ -1,0 +1,16 @@
+GenericEntity : "{3E57174F5C8218BF}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo zip {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1328.213 26.572 821.613
+}

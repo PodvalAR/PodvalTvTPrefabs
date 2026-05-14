@@ -1,0 +1,13 @@
+GameEntity : "{40CA7A5661EA0146}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_Shroud_Eyewear.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+  }
+ }
+ coords 616.923 5.644 1010.42
+}

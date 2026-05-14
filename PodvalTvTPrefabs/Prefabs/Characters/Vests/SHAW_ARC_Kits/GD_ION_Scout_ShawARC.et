@@ -1,0 +1,48 @@
+GenericEntity : "{C6B0574EC8636313}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_RFL.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo up103 {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo up104 {
+     Prefab "{FD1537D7E8C139C2}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    LoadoutSlotInfo triple {
+     Prefab "{5B2C22A2C28D3953}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_BlueForce_Black.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{9F1B2CBD20793F3B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Shaw_Flex_Black.et"
+    }
+    LoadoutSlotInfo admin {
+     Prefab "{58CDC8484D60D2B0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini_Black.et"
+    }
+    LoadoutSlotInfo holster {
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Prefab "{7C42FEC44CE663B6}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio_1_Black.et"
+    }
+    LoadoutSlotInfo drop {
+     Prefab "{7DD4A49220294EE0}Prefabs/Misc/JPC_Pounches/DropPouch_Black.et"
+    }
+    LoadoutSlotInfo Mag {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo Radio {
+     Prefab "{9E44E4CCDB789950}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone_PMC.et"
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 158.048 1 102.489
+}

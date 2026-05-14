@@ -1,0 +1,34 @@
+GenericEntity : "{468B5FB07076FA9E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light_blueforce.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo triple {
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.001 0.2308 0.1564
+     Angles 24.7006 0.821 0.1842
+     Enabled 1
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.0537 0.1548 -0.0229
+     Angles 0 180 0
+     Prefab "{3050E9DAEC5AE37C}Prefabs/Misc/JPC_Pounches/JPC_Devices.et"
+    }
+    LoadoutSlotInfo Back {
+     PivotID "Spine5"
+     Offset 0 0.0595 -0.1953
+     Angles 19.3944 1.0061 5.664
+     Prefab "{E2570E47232ACCAA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.0317 0.2139 -0.1932
+     Angles 3.3577 174.97569 0
+     Prefab "{D1498D51EC5747DC}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_ARC_Admin_Coy.et"
+    }
+   }
+  }
+ }
+ coords 7351.232 57.484 7207.323
+}

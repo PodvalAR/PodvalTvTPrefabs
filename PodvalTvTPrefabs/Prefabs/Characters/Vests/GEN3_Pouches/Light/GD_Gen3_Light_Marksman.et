@@ -1,0 +1,25 @@
+GenericEntity : "{45FF8DB3ACBB1D67}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_RFL_N.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo nerd {
+     Offset 0.1915 0.0387 0.0545
+     Angles -2.0305 81.1318 -8.5766
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.2469 0.0277 0.0439
+     Angles -0.6811 -81.0358 4.7109
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.1903 0.0499 -0.0658
+    }
+    LoadoutSlotInfo Pouch2 {
+     Offset 0 0.1456 0.1981
+     Angles 2.6257 -180 0
+     Prefab "{E76DD315DC382F6C}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Phone_USA_Flag.et"
+    }
+   }
+  }
+ }
+}

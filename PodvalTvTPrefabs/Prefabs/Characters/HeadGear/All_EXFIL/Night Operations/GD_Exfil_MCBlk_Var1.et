@@ -1,0 +1,39 @@
+GameEntity : "{EE766BD06E945593}Prefabs/Characters/Helmet/EXFIL/Exfil_MCBlk.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 1
+     Prefab "{C9D8A5A261F688B7}Prefabs/Characters/Headgear/Glasses/Military_Googles_V2.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 1
+     Prefab "{35D00D3B430A2C9A}Prefabs/Characters/Headgear/Mask/Baf_Black.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Enabled 1
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     Offset 0.0909 0.1467 -0.0017
+     Angles 29.4293 89.1168 88.9288
+     Prefab "{B8ABE98AE067D30B}Prefabs/Items/Equipment/Accessories/PONOS/Ponos.et"
+    }
+    RHS_LoadoutSlotInfo Back_PVS {
+     PivotID "Head"
+     Offset 0 0.0808 0.1216
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 1646.611 38.969 2918.269
+}

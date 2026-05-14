@@ -1,0 +1,4 @@
+MatPBRBasic : "{0AC5F9D6EC713BD8}Assets/Characters/HeadGear/Cover_ECH/data/cover_ech.emat" {
+ Color 0.791 0.791 0.791 1
+ BCRMap "{58F1BCFDEDA34F5F}Assets/Characters/HeadGear/Cover_ECH/data/rhs_echlccover_d_BCR.edds"
+}

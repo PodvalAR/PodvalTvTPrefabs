@@ -1,0 +1,78 @@
+GenericEntity : "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0626 0.1765
+     Prefab "{02E7B984F6058447}Prefabs/Characters/Vests/RangerKits/Ranger_Stanag_Closed.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Offset -0.1714 0.0291 0.129
+     Angles 1.161 134.76939 -2.0729
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo nerd {
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.0147 -0.0787 -0.2362
+     Angles -2.4614 0 0
+     Enabled 1
+     Prefab "{FDE38A9BF1166060}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+    LoadoutSlotInfo Tako {
+     Offset 0 0.1801 0.1705
+     Angles 81.1767 180 0
+     Enabled 1
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1841 0.0615 0.0051
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1719 0.0737 0.1374
+     Angles -1.2818 177.8109 1.844
+    }
+    LoadoutSlotInfo raid {
+     Prefab "{9B29A7B15FAF488B}Prefabs/Characters/Vests/RangerKits/Ranger_Raid.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1494 0.0229 0.0786
+     Angles 4.0567 -43.8254 4.5809
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Offset -0.1748 0.017 0.0105
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2275 -0.0317 -0.0189
+     Angles -3.5007 88.2746 -3.9595
+    }
+    LoadoutSlotInfo m18_2 {
+     Angles -2.4197 -120.7708 6.552
+    }
+    LoadoutSlotInfo GPS {
+     Offset -0.1221 0.3028 0.0777
+     Angles -35.1048 160.54221 15.5777
+    }
+    LoadoutSlotInfo JTAC {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 4847.521 307.592 5877.457
+}

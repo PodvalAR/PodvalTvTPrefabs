@@ -1,0 +1,14 @@
+GenericEntity : "{F26A3F214A9DFE31}Prefabs/Items/Equipment/Radios/Radio_R107M_RF_6Sh117.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{AF0976670A4EFF0D}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/Data/6sh117_backpack_syria.emat"
+   }
+   ItemMaterialsOverride {
+    "{AF0976670A4EFF0D}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/Data/6sh117_backpack_syria.emat"
+   }
+  }
+ }
+ coords 202.738 1 244.608
+}

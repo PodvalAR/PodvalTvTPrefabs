@@ -1,0 +1,17 @@
+GameEntity : "{D0E1617FAC5B2BD0}Prefabs/Characters/HeadGear/All_EXFIL/EXFIL_Winter_NoGoggles.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Offset 0 0.1448 -0.1594
+     Prefab "{40B6A26895007260}Prefabs/Items/GPNVG/GD_GPNVG_Tan.et"
+    }
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+  }
+ }
+ coords 2583.915 5.719 495.581
+}

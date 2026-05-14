@@ -1,0 +1,5 @@
+MatPBRMulti {
+ Color 0.107 0 0 1
+ BCR_1 "{6ECAF8F717F706E8}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/Data/rhs_ion_casual_shirt_BCR.edds"
+ NMO_1 "{56124365CE805476}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/Data/rhs_ion_casual_shirt_NMO.edds"
+}

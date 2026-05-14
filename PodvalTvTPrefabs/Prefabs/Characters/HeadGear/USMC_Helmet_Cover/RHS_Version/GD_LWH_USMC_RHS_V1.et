@@ -1,0 +1,11 @@
+GameEntity : "{E62AC8416831F005}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_D.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   ItemMaterialsOverride {
+    "{610540898C350473}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_marpatD.emat"
+   }
+  }
+ }
+ coords 89.992 1 214.124
+}

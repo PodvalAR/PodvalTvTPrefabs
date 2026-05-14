@@ -1,0 +1,43 @@
+GenericEntity : "{8DCD718658B14B55}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo up103 {
+     Enabled 0
+    }
+    LoadoutSlotInfo up104 {
+     Enabled 0
+    }
+    LoadoutSlotInfo holster {
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo drop {
+     Enabled 0
+    }
+    LoadoutSlotInfo grenade {
+     Enabled 0
+    }
+    LoadoutSlotInfo grenade2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Mag {
+     Enabled 0
+    }
+    LoadoutSlotInfo holster2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo holster3 {
+     Enabled 0
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+   }
+   WornModel ""
+  }
+ }
+ coords 3829.797 17.844 6938.849
+}

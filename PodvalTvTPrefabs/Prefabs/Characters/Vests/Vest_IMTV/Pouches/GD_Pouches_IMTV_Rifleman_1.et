@@ -1,0 +1,120 @@
+GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{68E401AC3C0F6404}" {
+   Attributes SCR_ItemAttributeCollection "{68E401AC3C0F64F7}" {
+    ItemDisplayName UIInfo "{68E401AC3C0F64F5}" {
+     Name "#TF-Vest-Pouches-IMTV_Rifleman-Name"
+     Description "#TF-Vest-Pouches-IMTV_Rifleman-Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68E401AC3C0F64F0}" {
+     Weight 1
+     SizeSetupStrategy Volume
+     ItemVolume 2000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68E401AC3C0F64EF}" {
+      CameraOrbitAngles 0 180 0
+      CameraDistanceToItem 4
+      CameraOffset 0 0.05 0
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   Priority 10
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{A41138CEE1B35077}Assets/Empty/SEX_CUBE.xob"
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   ModelGeometry 1
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Mag_Pouch1 {
+     PivotID "Spine5"
+     Offset 0.0131 -0.1 0.1827
+     Angles 0 0 1.8576
+     Prefab "{A499125247F0237B}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    LoadoutSlotInfo Grenade_Pouch1 {
+     PivotID "Spine5"
+     Offset 0.0131 0.0883 0.1881
+     Angles 3.1752 0 -1.0753
+     Prefab "{A4D542851A764E65}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    LoadoutSlotInfo Grenade_Pouch3 {
+     PivotID "Spine5"
+     Offset 0.0921 0.0876 0.1754
+     Angles 3.0647 15.18 2.2885
+     Prefab "{A4D542851A764E65}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    LoadoutSlotInfo Grenade_Pouch2 {
+     PivotID "Spine5"
+     Offset -0.0703 0.0879 0.1813
+     Angles 3.1238 -10.3411 -1.6241
+     Prefab "{A4D542851A764E65}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_MC_FGC_1_MS.et"
+    }
+    LoadoutSlotInfo Mag_Pouch2 {
+     PivotID "Spine5"
+     Offset 0.0993 -0.098 0.1784
+     Angles 0 17.2152 1.819
+     Prefab "{8B107ABB3AB40E67}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    LoadoutSlotInfo Mag_Pouch3 {
+     PivotID "Spine5"
+     Offset -0.0904 -0.0994 0.184
+     Angles 0 -15.192 0.3871
+     Prefab "{8B107ABB3AB40E67}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
+    }
+    LoadoutSlotInfo Radio_Pouch {
+     PivotID "Spine5"
+     Offset -0.2068 -0.0584 0.1102
+     Angles 0 -47.2623 3.1721
+     Prefab "{B6669DAE7080DB96}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Radio_MBITR.et"
+    }
+    LoadoutSlotInfo Medical_Pouch {
+     PivotID "Spine5"
+     Offset -0.2535 -0.0906 -0.0025
+     Angles 0.6369 -86.2295 2.4665
+     Prefab "{B02DE855DDFD2BB1}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_MEDP_MS.et"
+    }
+    LoadoutSlotInfo Uni_Pouch {
+     PivotID "Spine5"
+     Offset 0.2218 -0.0854 0.1013
+     Angles 0 50.9364 -2.4854
+     Prefab "{7A22A0BAED60ECF7}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Pentagon_Tac_Keros_Utility.et"
+    }
+    LoadoutSlotInfo Smoke_Pouch {
+     PivotID "Spine5"
+     Offset 0.263 -0.1192 -0.0053
+     Angles -1.6551 88.71529 -1.9671
+     Prefab "{0C18B450F0919E80}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
+    LoadoutSlotInfo Smoke_Granade {
+     PivotID "Spine5"
+     Offset 0.2587 -0.0913 -0.0069
+     Angles -1.2759 88.70229 -1.9667
+     Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+    }
+    LoadoutSlotInfo Carabine {
+     PivotID "Spine5"
+     Offset 0.1153 0.2126 0.1333
+     Angles 10.3945 11.1735 -87.6455
+     Prefab "{2095F3F8EFAF72CA}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Carabine1.et"
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset 0.0039 -0.0975 -0.0238
+     Angles -2.1848 -180 -4.378
+     Prefab "{77C14BE272131177}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS_Tan_RLeg.et"
+    }
+   }
+   ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+  }
+ }
+ coords 1892.764 205.57 1362.945
+ angles 0 75 0
+}

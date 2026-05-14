@@ -1,0 +1,46 @@
+GenericEntity : "{941BC55B914C3898}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_4.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo sasarma1 {
+     PivotID "Spine5"
+     Offset 0.0568 0.192 -0.1855
+     Angles -11.0662 3.8761 4.8784
+     Enabled 1
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo sasarma2 {
+     PivotID "Spine5"
+     Offset -0.0963 0.0514 -0.2311
+     Angles 0.2643 -169.7908 3.8577
+     Enabled 1
+     Prefab "{BD1AE23200E4CA1E}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    LoadoutSlotInfo up104 {
+     Offset -0.1878 0.0462 -0.0362
+     Angles 4.5862 -104.3519 -0.7869
+     Prefab "{8B0DA8405586EC90}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_MC.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo admin {
+     Prefab "{FF1EA8C9DBF160FC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_base.et"
+    }
+    LoadoutSlotInfo drop {
+     Offset 0.0155 0.0128 -0.1197
+     Angles -1.4067 2.6786 2.0252
+    }
+    LoadoutSlotInfo Mag {
+     Offset 0.1617 0.0127 -0.1027
+     Angles -0.0059 138.3942 10.6077
+    }
+    LoadoutSlotInfo Radio {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 128.273 1 242.839
+}

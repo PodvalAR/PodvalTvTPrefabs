@@ -1,0 +1,13 @@
+GameEntity : "{E6A63966ED252156}Prefabs/Characters/HeadGear/Helmet_ECH/variants/Helmet_ECH_lc_c_l.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{87CB578E42ED2B99}Prefabs/Characters/Helmet/USMC_Helmet_Cover/Cover_Marpat.et"
+    }
+   }
+  }
+ }
+ coords 1625.863 38.688 2932.278
+}

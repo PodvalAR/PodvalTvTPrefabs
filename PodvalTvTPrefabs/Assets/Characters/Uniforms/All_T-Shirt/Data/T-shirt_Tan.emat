@@ -1,0 +1,7 @@
+MatPBRBasic {
+ SpecularMul 1.16
+ RoughnessScale 1.309
+ MetalnessScale 0
+ BCRMap "{2CB5FC176CE2DBF0}Assets/Characters/Uniforms/ACU_t-shirt/Data/USAF_ACU_02_BCR.edds"
+ NMOMap "{27CABE26783C50A4}Assets/Characters/Uniforms/ACU_pants/Data/USAF_ACU_02_NMO.edds"
+}

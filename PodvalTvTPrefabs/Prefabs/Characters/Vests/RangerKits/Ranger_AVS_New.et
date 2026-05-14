@@ -1,0 +1,25 @@
+GenericEntity : "{3E010420ECE9FC0D}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo flexcoret {
+     Offset -0.1787 0.0917 0.1214
+     Angles -0.9878 -163.2253 -1.446
+     Prefab "{3C87621A653D3B45}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio2.et"
+    }
+    LoadoutSlotInfo pistolcamer {
+    }
+    LoadoutSlotInfo filbe2 {
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset 0.0016 -0.122 0
+     Angles 0 180 -3.8684
+     Prefab "{77C14BE272131177}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS_Tan_RLeg.et"
+    }
+   }
+  }
+ }
+ coords 109.217 1 229.474
+}

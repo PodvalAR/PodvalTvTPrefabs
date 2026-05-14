@@ -1,0 +1,22 @@
+GenericEntity : "{9491D7A1C4D8412E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_ublg.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.001 0.2308 0.1564
+     Angles 24.7006 0.821 0.1842
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+    }
+    LoadoutSlotInfo Gloves {
+     PivotID "Spine1"
+     Offset -0.1914 -0.1151 0.0744
+     Angles 13.1958 -116.3609 -19.2629
+     Enabled 0
+     Prefab "{924916D6F5E99BBD}Prefabs/Misc/JPC_Pounches/JPC_Gloves.et"
+    }
+   }
+  }
+ }
+ coords 7358.719 57.46 7203.848
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{B79F6F56ECA300FA}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     PivotID "Spine5"
+     Offset 0 0.1405 -0.2446
+     Angles -6.7272 0 0
+     Prefab "{FD35858922374ECC}Prefabs/Characters/Vests/Vest_JPC_Pouches/Minimap_JPC_ZipOnPanel2.0_MC.et"
+    }
+    LoadoutSlotInfo Antenna {
+     PivotID "Spine5"
+     Offset -0.0013 -0.1943 -0.2833
+     Angles -6.7272 0 -9.964
+     Enabled 0
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 149.848 1 99.166
+}

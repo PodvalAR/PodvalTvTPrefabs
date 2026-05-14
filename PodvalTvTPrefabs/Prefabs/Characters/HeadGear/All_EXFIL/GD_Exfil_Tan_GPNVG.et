@@ -1,0 +1,30 @@
+GameEntity : "{0F610D0687FA5814}Prefabs/Characters/HeadGear/Helmet_Exfil/Helmet_Exfil_Base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{EF3DA9BEAE828F80}Prefabs/Characters/HeadGear/Helmet_Exfil/Headgear_exfil_cover_Coy.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{C1E3C76FE553F59E}Prefabs/Characters/Headgear/Mask/Baf Tan.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{387E90715C817F1A}Prefabs/Characters/HeadGear/Helmet_Exfil/counterweight/Agilite_counterweight_Coy.et"
+    }
+    RHS_LoadoutSlotInfo Back2 : BackVelcro {
+     Offset 0 0.0834 0.1272
+     Prefab "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Offset 0 0.1448 -0.1594
+     Prefab "{40B6A26895007260}Prefabs/Item/GPNVG/GPNVG_Tan.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+   }
+  }
+ }
+ coords 1637.037 38.86 2922.995
+}

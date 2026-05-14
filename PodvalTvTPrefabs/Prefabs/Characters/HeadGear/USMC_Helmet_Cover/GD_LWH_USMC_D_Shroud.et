@@ -1,0 +1,12 @@
+GameEntity : "{C7E31755334DCB9E}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_Shroud_marpatDesert.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride +{
+   }
+   ItemMaterialsOverride +{
+   }
+  }
+ }
+ coords 175.425 1 120.511
+}

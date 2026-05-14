@@ -1,0 +1,44 @@
+GenericEntity : "{4B7BDE6D7508C4F5}Prefabs/Characters/Vests/RangerKits/Ranger_Rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Grenade_Pouch1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Mag_Pouch2 {
+    }
+    LoadoutSlotInfo Mag_Pouch3 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Radio_Pouch {
+    }
+    LoadoutSlotInfo Medical_Pouch {
+     Enabled 0
+    }
+    LoadoutSlotInfo Uni_Pouch {
+    }
+    LoadoutSlotInfo Carabine {
+     Offset 0.1616 0.1102 -0.1299
+     Angles -11.6419 -25.2457 -147.69479
+    }
+    LoadoutSlotInfo Grenade_Pouch3 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine1"
+     Offset 0.2095 -0.0197 -0.0171
+     Angles 0 0 0
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Radio {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 4850.74 307.422 5877.457
+}

@@ -1,0 +1,37 @@
+GenericEntity : "{3153CA82B4F37635}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_5.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo radio {
+     Offset 0.1934 0.1125 -0.1134
+     Angles 2.6027 -150.2476 0.2598
+    }
+    LoadoutSlotInfo util {
+     Offset 0.1826 0.0274 -0.0951
+     Angles -5.7365 109.4012 6.6639
+    }
+    LoadoutSlotInfo drop {
+     Enabled 0
+    }
+    LoadoutSlotInfo placard {
+     Offset 0.0962 -0.0289 0.1615
+     Angles -2.623 14.5327 0.6643
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    LoadoutSlotInfo up101 {
+     Offset 0.001 -0.026 0.1721
+     Angles -2.7095 0.4123 -0.0195
+     Prefab "{BA789EFB0E131CFE}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     Offset -0.0928 -0.0255 0.1599
+     Angles -2.6562 -11.3927 0.5351
+     Prefab "{BA789EFB0E131CFE}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+   }
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+  }
+ }
+ coords 5885.502 255.937 5878.842
+}

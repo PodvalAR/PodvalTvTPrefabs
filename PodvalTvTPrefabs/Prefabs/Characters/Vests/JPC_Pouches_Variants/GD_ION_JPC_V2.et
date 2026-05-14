@@ -1,0 +1,57 @@
+GenericEntity : "{596CB4DEA8E3952C}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_MCBlk_Var1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo pistol {
+     PivotID "Spine5"
+     Offset -0.0029 -0.1114 0.1747
+     Angles 0 0 0
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    LoadoutSlotInfo Scissors {
+     Offset 0 0.2076 0.1679
+     Angles 2.5041 -180 0
+     Prefab "{9E44E4CCDB789950}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone_PMC.et"
+    }
+    LoadoutSlotInfo Gloves {
+     PivotID "RightLeg"
+     Offset -0.0002 -0.1045 -0.0007
+     Angles 0 180 0
+     Enabled 0
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo Torniquet {
+     Offset 0.1506 0.3423 -0.0019
+     Angles -65.2632 -141.7921 -39.3635
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo Holster : Gloves {
+     PivotID "Spine1"
+     Offset 0.2079 -0.0352 0
+     Angles 0 0 0
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Mag_Pouch {
+     PivotID "Spine5"
+     Offset 0.1783 0.0461 0.0977
+     Angles 0 68.5048 -3.3654
+     Prefab "{1C874B67C6D5BF61}Prefabs/Characters/Vests/RangerKits/M4_Mag_Pouch.et"
+    }
+    LoadoutSlotInfo Med {
+     PivotID "Spine5"
+     Offset 0.1876 0.0609 -0.0961
+     Angles -0.6195 105.0358 -2.3223
+     Prefab "{70C774BCEB3FFAAE}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_medpouch_BLK.et"
+    }
+   }
+  }
+ }
+ coords 153.827 1 102.005
+}

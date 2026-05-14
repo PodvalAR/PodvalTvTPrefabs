@@ -1,0 +1,24 @@
+GameEntity : "{EE766BD06E945593}Prefabs/Characters/HeadGear/All_EXFIL/Night Operations/GD_Exfil_MCBlk.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Offset 0 0.08 0.1034
+     Angles 19.9707 0 0
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro2 : BackVelcro {
+     Offset 0 0.0905 0.119
+     Prefab "{397A4D4ED2E51C6A}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK.et"
+    }
+   }
+  }
+ }
+ coords 97.854 1 96.441
+}

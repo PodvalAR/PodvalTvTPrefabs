@@ -1,0 +1,71 @@
+GenericEntity : "{C44B2D38D79B24CE}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_SL_Pouches.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0046 0.2659 0.1261
+     Angles 26.7026 -2.4845 -1.3023
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1733 -0.0038 -0.0539
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset 0.1237 0.0225 -0.0894
+     Angles -1.6404 -35.6416 -1.0533
+    }
+    LoadoutSlotInfo radio {
+     Offset -0.1871 0.0338 -0.1458
+     Angles -1.0507 -111.6401 0.9096
+     Prefab "{89849956DBF294E9}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Radio_MBITR_RG.et"
+    }
+    LoadoutSlotInfo filbevest {
+     Offset 0.0809 0.0086 0.1765
+    }
+    LoadoutSlotInfo filbevest2 {
+     Offset -0.0012 0.0175 0.1853
+    }
+    LoadoutSlotInfo filbevest3 {
+     Offset -0.085 0.0132 0.176
+    }
+    LoadoutSlotInfo m67 {
+     Offset -0.2086 -0.0331 0.0605
+     Angles -8.0616 -80.2552 -2.7146
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset -0.2272 -0.0451 -0.0276
+     Angles -8.3754 -86.273 -7.9712
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2159 -0.071 0.0479
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset 0.131 -0.0394 -0.1655
+     Angles -0.4723 153.2621 2.0772
+     Prefab ""
+    }
+    LoadoutSlotInfo Radios {
+     Offset -0.1667 -0.0015 0.126
+     Angles 2.2575 136.3885 -91.5006
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+    LoadoutSlotInfo Scissors {
+     Offset 0.061 0.1357 0.1514
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine1"
+     Offset 0.1985 -0.0116 -0.0089
+     Angles -2.5056 0.1223 -2.7952
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Tros {
+     PivotID "Spine5"
+     Offset -0.0175 -0.0702 -0.2239
+     Angles -3.7483 0 0
+     Prefab "{FDE38A9BF1166060}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+   }
+  }
+ }
+ coords 1450.942 135.066 4670.828
+}

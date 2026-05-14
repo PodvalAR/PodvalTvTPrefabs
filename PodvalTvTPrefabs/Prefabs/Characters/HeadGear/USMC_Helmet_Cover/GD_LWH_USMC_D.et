@@ -1,0 +1,21 @@
+GameEntity : "{F5869E329BA85904}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LWH_marpatDesert.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{5EE6AED317645057}" {
+     SourceMaterial "RHS_LWH"
+     AssignedMaterial "{27C692A3EEDD9837}Assets/Characters/HeadGear/USMC_Helmet_LWH/data/RHS_marpatD_USMC.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride +{
+   }
+   ItemMaterialsOverride +{
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 172.979 1 118.487
+}

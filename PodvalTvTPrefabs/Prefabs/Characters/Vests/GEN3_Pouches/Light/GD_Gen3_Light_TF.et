@@ -1,0 +1,45 @@
+GenericEntity : "{C6B0574EC8636313}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_RFL.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo triple {
+     Offset 0.0001 0.0402 0.1886
+    }
+    LoadoutSlotInfo pistol {
+     Offset 0.0914 0.0962 0.226
+     Angles -4.0344 12.6422 -0.4184
+     Prefab "{EF5AD2AE558D4FAA}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Coyout.et"
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0401 0.0479 0.2266
+    }
+    LoadoutSlotInfo raid : admin {
+     Offset -0.0078 -0.1369 0.2014
+     Angles -1.2284 -0.5169 0.4841
+     Prefab "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset -0.0071 0.1599 -0.0209
+     Angles -3.3659 1.808 0.2642
+     Prefab "{C635326F90364C34}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio_3.et"
+    }
+    LoadoutSlotInfo drop {
+     Offset -0.0132 0.0073 -0.1316
+     Prefab "{DB08308A11F0A1FA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+    }
+    LoadoutSlotInfo grenade {
+     Offset 0.0008 -0.2284 0.2057
+     Angles 79.8442 -12.3934 -105.8859
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.0139 -0.0733 0.2075
+     Angles 57.5394 -103.5007 -113.8979
+    }
+    LoadoutSlotInfo Radio {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

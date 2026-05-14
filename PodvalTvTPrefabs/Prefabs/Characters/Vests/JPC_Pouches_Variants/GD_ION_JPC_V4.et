@@ -1,0 +1,56 @@
+GenericEntity : "{93402D3250A91B3D}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V4.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{7390CBCE20BAE62B}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_Blk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo flex {
+     Prefab "{3CB2DFE1FAFAE1F1}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio_2_Black.et"
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1506 0.3423 -0.0019
+     Angles -65.2632 -141.7921 -39.3635
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo flexbelt {
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo flexbelt2 {
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo tako_camer {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolbelt {
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+    LoadoutSlotInfo zip {
+     Offset 0.1446 0.0386 0.1429
+     Angles 5.7453 158.95329 -8.5578
+     Enabled 1
+    }
+    LoadoutSlotInfo Mid {
+     Prefab "{72D3B213D0A15E16}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone_PMC_2.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 153.827 1 102.005
+}

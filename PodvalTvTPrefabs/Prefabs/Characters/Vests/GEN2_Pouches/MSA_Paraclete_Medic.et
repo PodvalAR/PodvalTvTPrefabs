@@ -1,0 +1,27 @@
+GenericEntity : "{FD2D0DB75ECAACF1}Prefabs/Characters/Vests/RangerKits/Ranger_Medic.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Placard {
+     Offset 0 0.0115 0.0247
+    }
+    LoadoutSlotInfo nerdbig {
+     Offset 0 0.0032 0.2152
+    }
+    LoadoutSlotInfo ifak {
+     Angles 3.2105 67.2723 4.8947
+    }
+    LoadoutSlotInfo Scissors {
+     Offset -0.0701 0.099 0.1467
+    }
+    LoadoutSlotInfo Torn {
+     Offset -0.1619 -0.0067 -0.1351
+     Angles 10.5728 45.827 -86.9547
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+   }
+  }
+ }
+ coords 1450.942 135.066 4670.828
+}

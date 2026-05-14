@@ -1,0 +1,121 @@
+GenericEntity : "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0563 0.1705
+     Angles -3.0506 0 0
+     Prefab "{F5148CC4FF751F44}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_base.et"
+    }
+    LoadoutSlotInfo HSGI {
+     PivotID "Spine1"
+     Offset 0.0587 0.0126 -0.16
+     Angles 2.3092 155.9846 0.5591
+     Enabled 1
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.2015 0.0582 0.0275
+     Angles -8.3687 -73.2224 1.51
+     Enabled 1
+    }
+    LoadoutSlotInfo m18_1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     PivotID "Spine5"
+     Offset 0.1593 0.0281 0.1374
+     Angles -3.1517 -41.98 0.0073
+     Prefab "{1826E35CFC90A18B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.136 0.0173 0.0777
+    }
+    LoadoutSlotInfo pistol2 {
+     Prefab "{1826E35CFC90A18B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
+    }
+    LoadoutSlotInfo Tako2 {
+     Offset 0.1799 0.0504 0.0762
+    }
+    LoadoutSlotInfo takobelt {
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.2054 -0.0218 -0.029
+     Angles -4.4009 2.6965 -4.1016
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1494 0.0131 -0.1293
+     Angles 10.6491 147.8223 3.5467
+    }
+    LoadoutSlotInfo m18_2 {
+     PivotID "Spine1"
+     Offset -0.1727 -0.047 -0.0742
+     Angles -4.2186 -121.3576 -2.1451
+     Enabled 1
+    }
+    LoadoutSlotInfo MBITR {
+     Enabled 0
+    }
+    LoadoutSlotInfo nerd {
+    }
+    LoadoutSlotInfo ifak {
+     Offset 0.0635 0.004 -0.1844
+    }
+    LoadoutSlotInfo saw {
+     PivotID "Spine1"
+     Offset -0.0654 0.0159 -0.1107
+     Angles 0.9132 -160.4458 -2.0332
+     Prefab "{FBFDC053E7491E6B}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Green.et"
+    }
+    LoadoutSlotInfo Back {
+     PivotID "Spine5"
+     Offset 0.0961 0.1496 -0.2125
+     Angles -6.2803 40.63 -5.2307
+     Prefab "{3C87621A653D3B45}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio2.et"
+    }
+    LoadoutSlotInfo tako2 {
+     Offset 0.1727 0.0281 0.082
+    }
+    LoadoutSlotInfo flexcoret {
+     PivotID "Spine5"
+     Offset -0.1835 0.0316 0.117
+     Angles -0.0166 106.9965 -4.7587
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo flexcoret2 : flexcoret {
+     Angles 0.689 137.31799 -1.0855
+     Enabled 0
+     Prefab "{DCEA26FB27C12D8D}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone.et"
+    }
+    LoadoutSlotInfo flexcoret3 : flexcoret {
+     Offset 0.0004 0.1922 0.1903
+     Angles 7.9782 179.75999 0
+     Enabled 0
+     Prefab "{E76DD315DC382F6C}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone_USA_Flag.et"
+    }
+    LoadoutSlotInfo flex2 {
+    }
+    LoadoutSlotInfo Back2 {
+     PivotID "Spine5"
+     Offset -0.0347 0.094 -0.2099
+     Angles 0 -175.2879 0
+     Prefab "{E3356736A8CBB4B7}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_MC.et"
+    }
+    LoadoutSlotInfo Back3 {
+     PivotID "Spine5"
+     Offset -0.1571 0.1425 -0.1708
+     Angles 0 47.0732 0
+     Prefab "{7950E322BE6927CC}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Nylon_Strap.et"
+    }
+   }
+  }
+ }
+ coords 73.406 1 204.849
+}

@@ -1,0 +1,21 @@
+GameEntity : "{F9454D904590F943}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V6.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo NVG {
+     Offset 0 0.1577 -0.1385
+     Angles 1.7739 -180 0
+     Prefab "{755CE97202EF4D24}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount_Tan.et"
+    }
+    LoadoutSlotInfo Googgles {
+     Enabled 0
+    }
+    LoadoutSlotInfo Baf {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 173.76 1 205.479
+}

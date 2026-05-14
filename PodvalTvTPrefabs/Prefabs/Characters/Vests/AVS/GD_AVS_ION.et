@@ -1,0 +1,31 @@
+GenericEntity : "{E10880E7746C033A}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_MG.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ifak {
+     Offset -0.184 0.0663 -0.122
+     Angles -0.6924 47.5091 -2.567
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1781 0.0585 0.0731
+     Angles 11.1932 123.1721 2.045
+    }
+    LoadoutSlotInfo saw2 {
+     Offset 0.1778 0.0503 0.0764
+     Angles 8.0163 -116.8924 3.0076
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1967 0.0847 -0.1571
+    }
+    LoadoutSlotInfo DROP {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 99.311 1 119.236
+}

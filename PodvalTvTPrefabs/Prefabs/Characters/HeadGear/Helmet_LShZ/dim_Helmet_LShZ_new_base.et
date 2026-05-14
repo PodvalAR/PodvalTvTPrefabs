@@ -1,0 +1,117 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{D979B251D1234F85}Assets/Characters/HeadGear/Helmet_LShZ/lshznew_HC_ground.xob"
+  }
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_LShZ_1plus_mod2_Name"
+     Description "#RHS-Headgear_LShZ_1plus_mod2_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69512A0EA644EF22}" {
+     Weight 1.5
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB13C57226FEA81}" {
+      AspectRatio 1.5
+     }
+     RHS_CustomAttributes "{5DB8F5B9ACB547EA}" {
+      m_sShortName "#RHS-Headgear_LShZ_Name_Short"
+     }
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{69512A0EA644EFCE}" {
+     Name "#RHS-Headgear_LShZ_3_mod2_Name"
+     Description "#RHS-Headgear_LShZ_1plus_mod2_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Enabled 1
+     Prefab "{0E39B712A057DD4B}Prefabs/Characters/HeadGear/Helmet_LShZ/Headgear_lshz_cover_MC.et"
+     AreaType RHS_LoadoutLSHZCoverSlotArea "{69512A0EA644EFC7}" {
+     }
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{2BBF17AC7CD7991D}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_1holes.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Offset 0 0.0987 0.1094
+     Angles 8.1921 0 0
+     Enabled 1
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.6
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Offset 0 0.1368 -0.143
+     Angles -6.894 180 0
+     Enabled 1
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{6D6ADA201AD4E09B}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_olive.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Offset -0.111 0.1235 -0.037
+     Angles 0 180 -5
+     Enabled 1
+    }
+    RHS_LoadoutSlotInfo Rail_Left {
+     Offset 0.1113 0.1193 -0.0217
+     Angles 0 180 5
+     Enabled 1
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     PivotID "Head"
+     Offset 0 0.2036 0.0026
+     Angles 87.3852 -180 -180
+     ChildPivotID "AttachmentPoint"
+     Enabled 1
+    }
+    RHS_LoadoutSlotInfo LeftVelcro {
+     PivotID "Head"
+     Offset 0.0909 0.1664 -0.0085
+     Angles 36.3063 89.0609 -3.5688
+     MergePhysics 1
+     InspectionWidgetOffset -0.09 1.79 0
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{69512A0EA644EFBB}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.4
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     PivotID "Head"
+     Offset -0.0879 0.1656 -0.0104
+     Angles 32.081 -89.6095 3.9609
+     MergePhysics 1
+     Prefab "{140729DAE2388C8E}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Camo_multicam.et"
+     InspectionWidgetOffset 0.09 1.79 0
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{69512A0EA644EFB7}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.4
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+   }
+   WornModel "{5B4F279A6E7CB535}Assets/Characters/HeadGear/Helmet_LShZ/lshznew_LC.xob"
+   ItemModel "{27040BD98911F471}Assets/Characters/HeadGear/Helmet_LShZ/lshznew_LC_ground.xob"
+  }
+ }
+ coords 151.332 1 220.886
+}

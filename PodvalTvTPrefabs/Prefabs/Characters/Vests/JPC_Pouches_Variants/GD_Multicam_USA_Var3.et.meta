@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3E57174F5C8218BF}Prefabs/Characters/Vest/JPC_Pounches_Variants/Multicam_USA_Var3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

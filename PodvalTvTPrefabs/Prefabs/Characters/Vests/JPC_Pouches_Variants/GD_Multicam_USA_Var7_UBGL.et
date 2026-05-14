@@ -1,0 +1,85 @@
+GenericEntity : "{C4ABBD7A8D4850A7}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var5.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+    }
+    LoadoutSlotInfo HSGI {
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1179 0.2655 0.0868
+     Angles 24.8952 15.0852 -147.7881
+     Prefab "{8F54EE49D3317266}Prefabs/Items/Equipment/Nightvision/VipLight/VipLight.et"
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.0679 0.043 0.201
+     Angles 3.1521 169.784 3.8861
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo Tako {
+    }
+    LoadoutSlotInfo pistol {
+    }
+    LoadoutSlotInfo saw {
+     Enabled 0
+    }
+    LoadoutSlotInfo radio {
+    }
+    LoadoutSlotInfo raid {
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+    }
+    LoadoutSlotInfo takobelt {
+     PivotID "Spine5"
+     Offset -0.1748 0.0696 -0.0682
+     Angles 4.8478 -106.5902 3.0108
+    }
+    LoadoutSlotInfo m18_1 {
+    }
+    LoadoutSlotInfo m18_2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_2 {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset 0 0.2025 0.1433
+     Angles 11.6485 0 0
+     Prefab "{89FDC21A848716E3}Prefabs/Items/Patches/GD_Patch_USA.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID ""
+     Offset 0 0 0
+     Angles 0 0 0
+     MergePhysics 0
+     Enabled 1
+     Prefab "{0DA7F2FF8E0BFBDC}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_bandolier.et"
+     DisablePhysicsInteraction 0
+     DeactivatePhysicsOnAtaching 0
+    }
+    LoadoutSlotInfo GPS {
+     Enabled 0
+    }
+    LoadoutSlotInfo nerd2 : nerd {
+     Offset 0.0366 0.1052 0.184
+     Angles 88.5266 -156.32919 -165.7402
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+   }
+   WornModel "{E492B453CB2FA2BE}Assets/Characters/Belts/Belt_Filbe_Bandolier/belt_USMC_bandolier.xob"
+   WornMaterialsOverride {
+   }
+   ItemModel "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+   ItemMaterialsOverride {
+   }
+  }
+ }
+ coords 147.798 1 101.464
+}

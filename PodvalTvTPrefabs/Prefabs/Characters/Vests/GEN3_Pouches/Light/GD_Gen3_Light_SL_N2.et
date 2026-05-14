@@ -1,0 +1,49 @@
+GenericEntity : "{0B9A3A95D37B5CD5}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_SL_N.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1653 0.0151 -0.1279
+     Angles 10.1816 137.01379 0.5499
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1874 0.0374 0.0519
+     Angles -3.9264 83.6758 -6.5148
+    }
+    LoadoutSlotInfo Back {
+     Offset 0.204 0.0291 -0.0335
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset 0.0054 0.1521 -0.0159
+     Angles -4.4447 -6.5128 -0.3956
+    }
+    LoadoutSlotInfo flex2 {
+     Offset -0.188 0.0464 0.0262
+     Angles -2.6041 -88.5228 3.5323
+    }
+    LoadoutSlotInfo Back2 {
+    }
+    LoadoutSlotInfo Back3 {
+     Offset -0.009 -0.0318 -0.1663
+     Angles -12.0454 -177.9268 90
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2404 0.015 0.0556
+     Angles -7.7381 -5.1133 5.8875
+    }
+    LoadoutSlotInfo GPU : Back2 {
+     Offset 0.0843 0.0745 -0.2093
+     Angles 0 -4.4685 0
+     Prefab "{49E3F9C138B65569}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Radio.et"
+    }
+    LoadoutSlotInfo GPU_2 : Back2 {
+     Offset 0.0843 0.1187 -0.2093
+     Angles 0 -4.4685 0
+     Prefab "{A96941E438432B75}Prefabs/Characters/Vests/US_LV119_Pouches/GD_ANPRC_Pouch_Brown.et"
+    }
+   }
+  }
+ }
+ coords 155.186 1 116.284
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{CBDA076D5A4FC8E0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Blueforce_Tri.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{B9364E1E286E7041}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/blueforce_black.emat"
+   }
+   ItemMaterialsOverride {
+    "{B9364E1E286E7041}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/blueforce_black.emat"
+   }
+  }
+ }
+ coords 105.384 2.214 92.138
+}

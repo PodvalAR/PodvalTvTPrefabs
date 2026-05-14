@@ -1,0 +1,22 @@
+GenericEntity : "{A0A2D40DDEB93D94}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_droppouch_BLK.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Materials {
+    MaterialAssignClass "{60CB251D595C0960}" {
+     SourceMaterial "taktika_sbroska"
+     AssignedMaterial "{1B6C19E128F6B17A}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_sbroska_brown.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{1B6C19E128F6B17A}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_sbroska_brown.emat"
+   }
+   ItemMaterialsOverride {
+    "{1B6C19E128F6B17A}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_sbroska_brown.emat"
+   }
+  }
+ }
+ coords 109.265 2.032 229.257
+}

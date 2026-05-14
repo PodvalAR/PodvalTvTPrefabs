@@ -1,0 +1,54 @@
+GenericEntity : "{5D9C1CF162CBEA66}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_TF_N.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{08AFD0B661910BF0}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_Coy.et"
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1877 0.0375 0.0663
+     Angles -1.4766 78.5797 -4.6837
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.1634 0.0752 0.092
+     Angles 15.5953 -142.1804 7.5169
+     Prefab "{A32321E3BEEE4F84}Prefabs/Characters/Vests/US_JPC_Pouches/GD_Knife.et"
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2428 0.0181 0.075
+     Angles -4.2248 -12.8722 3.3251
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2219 -0.0199 -0.0334
+     Angles -4.902 88.2462 -5.0289
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset 0.1962 -0.0137 -0.1347
+     Angles -4.4497 124.5933 -2.4904
+    }
+    LoadoutSlotInfo Flag {
+     PivotID "Spine5"
+     Offset 0.0084 -0.0467 -0.1714
+     Angles -13.7658 -2.6366 -90.1763
+     Prefab "{CD3C99E9EDF84A39}Prefabs/Characters/Vests/US_JPC_Pouches/GD_Flag.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.2202 0.0357 0.0569
+     Angles 0.6851 96.5142 -5.9662
+     Prefab "{A96941E438432B75}Prefabs/Characters/Vests/US_LV119_Pouches/GD_ANPRC_Pouch_Brown.et"
+    }
+    LoadoutSlotInfo Glush {
+     PivotID "Spine5"
+     Offset -0.2202 0.0357 0.0569
+     Angles 0.6851 96.5142 -5.9662
+     Prefab "{49E3F9C138B65569}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Radio.et"
+    }
+   }
+  }
+ }
+}

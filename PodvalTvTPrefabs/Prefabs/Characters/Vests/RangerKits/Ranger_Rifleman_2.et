@@ -1,0 +1,32 @@
+GenericEntity : "{78FCE7A9F2E97F0B}Prefabs/Characters/Vests/RangerKits/Ranger_2014_SCAR.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Grenade_Pouch1 {
+     Offset 0.1782 0.0311 0.1577
+     Prefab "{A499125247F0237B}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    LoadoutSlotInfo Hydrator_Pouch {
+    }
+    LoadoutSlotInfo Mag_Pouch3 {
+     Prefab "{0C18B450F0919E80}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
+    LoadoutSlotInfo Radio_Pouch {
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine1"
+     Offset 0.2061 -0.0132 0
+     Angles 0 0 -4.2922
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Radio {
+     Offset -0.1821 0.0736 0.1204
+     Angles 0 -61.6648 0
+     Prefab "{B6669DAE7080DB96}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Radio_MBITR.et"
+    }
+   }
+  }
+ }
+ coords 2814.669 10 3215.336
+}

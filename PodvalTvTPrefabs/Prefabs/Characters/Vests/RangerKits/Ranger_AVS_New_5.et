@@ -1,0 +1,63 @@
+GenericEntity : "{A92FE063E420B1AF}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{F2131FA4E55FD61C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_MC.et"
+    }
+    LoadoutSlotInfo ifak {
+     Offset -0.0225 0.0348 -0.1444
+     Angles 6.2016 -172.6992 1.7227
+     Prefab "{8B0DA8405586EC90}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_MC.et"
+    }
+    LoadoutSlotInfo saw {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Offset 0.1373 0.0183 -0.1257
+     Angles 4.1573 138.9964 -10.7234
+     Prefab "{F8EE0A17325E2C36}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_MC.et"
+    }
+    LoadoutSlotInfo tako2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo flex2 {
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2158 0.0447 -0.0762
+     Angles -2.3029 109.6737 -1.6417
+     MergePhysics 0
+     Prefab "{B02DE855DDFD2BB1}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_MEDP_MS.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset -0.1485 0.0107 0.069
+     Angles 5.6715 -51.6035 4.2664
+     Prefab "{3BACDF2B13C6ACFB}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.2161 -0.0358 -0.0109
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.2059 -0.0226 -0.0177
+    }
+    LoadoutSlotInfo m67_2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Back {
+     Enabled 0
+    }
+    LoadoutSlotInfo Back2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Back3 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 125.388 1 242.907
+}

@@ -1,0 +1,82 @@
+GenericEntity : "{755C04AB75FB709E}Prefabs/Characters/Vests/Vest_LV_MBAV/MP_USAF_USMC_2.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo up103 {
+     Enabled 0
+     Prefab "{A3DC8A3B052FDAD9}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_MC.et"
+    }
+    LoadoutSlotInfo up104 {
+     Offset -0.0847 0.0468 -0.1402
+     Angles 2.359 -154.19901 -4.0119
+     Prefab "{007021611B006CFE}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_MC.et"
+    }
+    LoadoutSlotInfo triple {
+     Offset 0.0001 0.0409 0.1805
+     Angles -4.926 0 0
+    }
+    LoadoutSlotInfo pistol {
+     Offset 0.0938 0.0563 0.1958
+     Angles 1.4337 19.0065 -0.2593
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0388 0.0634 0.2162
+    }
+    LoadoutSlotInfo holster {
+     PivotID "Spine5"
+     Offset 0.2362 0.0247 0.0504
+     Angles -1.9568 76.6156 0.2424
+     Prefab "{B7307B82844043AA}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP118_PistolTako2_MC.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     PivotID "Spine5"
+     Offset 0.1723 0.0953 0.1406
+     Angles 0.5409 174.019 2.5287
+     Prefab "{50D356FAD9F9B46B}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio1.et"
+    }
+    LoadoutSlotInfo drop {
+     Offset 0.0643 0.0161 -0.1061
+     Angles -2.6986 -15.4098 -3.7271
+     Enabled 1
+     Prefab "{7AA57E45197D8749}Prefabs/Misc/JPC_Pounches/DropPouch_Brown.et"
+    }
+    LoadoutSlotInfo grenade {
+     PivotID "Spine5"
+     Offset 0.2119 0.0416 -0.1427
+    }
+    LoadoutSlotInfo grenade2 {
+     PivotID "Spine5"
+     Offset 0.2638 0.0489 -0.0426
+    }
+    LoadoutSlotInfo Mag : up104 {
+     Offset -0.2024 0.0337 -0.0197
+     Angles 4.6137 -102.0903 -0.6054
+     Prefab "{F8EE0A17325E2C36}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_MC.et"
+    }
+    LoadoutSlotInfo holster2 : holster {
+     PivotID "Spine1"
+     Offset 0.2081 -0.0194 0.0258
+     Angles -2.7937 -12.4994 -5.9021
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.0149 0.1848 0.1926
+     Angles 12.9924 179.7682 0
+     Prefab "{E76DD315DC382F6C}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Phone_USA_Flag.et"
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{AE35131FC72C7FB0}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MC.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{AE35131FC72C7FB0}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MC.emat"
+   }
+  }
+ }
+ coords 128.273 1 242.839
+}

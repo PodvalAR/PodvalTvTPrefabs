@@ -1,0 +1,70 @@
+GenericEntity : "{5E4874EFAFC707DE}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_MachineGunner_1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Hydrator_Pouch {
+     Enabled 0
+    }
+    LoadoutSlotInfo Smoke_Pouch2 {
+     Offset -0.2109 -0.0178 0.0758
+     Angles -6.5505 -55.6586 8.4365
+    }
+    LoadoutSlotInfo MG_Pouch_L {
+     Offset 0.0967 -0.0597 0.1943
+     Angles -4.4647 11.59 -0.9346
+    }
+    LoadoutSlotInfo MG_Pouch_R {
+     Offset -0.0977 -0.0713 0.1823
+     Angles -8.1573 -12.2873 2.4282
+    }
+    LoadoutSlotInfo Smoke_Pouch {
+     Offset 0.2227 -0.001 0.0676
+     Angles -4.7133 69.2318 1.2876
+    }
+    LoadoutSlotInfo Smoke_Granade {
+     Offset 0.2217 0.0172 0.064
+     Angles -4.7133 69.2318 1.2876
+    }
+    LoadoutSlotInfo Smoke_Grenade_2 {
+     Offset -0.2046 0.0035 0.0803
+     Angles -6.5505 -55.6586 8.4365
+    }
+    LoadoutSlotInfo Torn {
+     PivotID "Spine5"
+     Offset -0.064 0.164 0.1689
+     Angles -3.3896 178.0426 -77.5354
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+    LoadoutSlotInfo Pistol {
+     PivotID "Spine5"
+     Offset 0.0898 0.157 0.1707
+     Angles 4.7276 15.3402 1.2952
+     Prefab "{F260F3ACD2304991}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_Base.et"
+    }
+    LoadoutSlotInfo Pistol2 {
+     PivotID "Spine5"
+     Offset 0.0264 0.1585 0.188
+     Angles 4.8938 3.2023 0.2735
+     Prefab "{F260F3ACD2304991}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_Base.et"
+    }
+    LoadoutSlotInfo GPS {
+     PivotID "Spine5"
+     Offset -0.1138 0.3143 0.0632
+     Angles -43.9681 -177.67419 0
+     Prefab "{99BA38DD91DFED40}Prefabs/Misc/JPC_Pounches/JPC_GPS.et"
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 4840.665 307.981 5868.954
+ angles 0 0 0
+}

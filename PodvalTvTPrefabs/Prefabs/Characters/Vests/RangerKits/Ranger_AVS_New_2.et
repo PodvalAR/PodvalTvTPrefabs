@@ -1,0 +1,65 @@
+GenericEntity : "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+    }
+    LoadoutSlotInfo HSGI {
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1618 0.0436 0.1378
+     Angles -0.851 138.12309 8.836
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+    }
+    LoadoutSlotInfo tako {
+    }
+    LoadoutSlotInfo pistol2 {
+    }
+    LoadoutSlotInfo Tako2 {
+     Offset 0.1821 0.0506 0.0722
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.136 0.0272 -0.0918
+     Angles 10.6799 150.09399 3.9177
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo m18_2 {
+    }
+    LoadoutSlotInfo Drop {
+     PivotID "Spine1"
+     Offset -0.0923 -0.0585 -0.1253
+     Angles 0.7948 -13.576 3.2874
+     Prefab "{7D639CF23CD6F1E9}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_MC.et"
+    }
+    LoadoutSlotInfo Radios {
+     PivotID "Spine5"
+     Offset -0.0741 0.158 -0.2291
+     Angles -4.6205 14.2721 -1.1739
+     Prefab "{49E3F9C138B65569}Prefabs/Characters/Vests/US_LV119_Pouches/GD_TV119_Radio.et"
+    }
+    LoadoutSlotInfo Pouch_Radio {
+     PivotID "Spine5"
+     Offset -0.0741 0.158 -0.2291
+     Angles -4.6205 14.2721 -1.1739
+     Prefab "{A96941E438432B75}Prefabs/Characters/Vests/US_LV119_Pouches/GD_ANPRC_Pouch_Brown.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset -0.0668 0.033 0.2097
+     Angles 83.0562 14.6306 -0.0831
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Tourniquet {
+     PivotID "Spine5"
+     Offset 0.1464 0.0824 0.1513
+     Angles 4.3439 166.7641 -1.8701
+     Prefab "{50D356FAD9F9B46B}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio1.et"
+    }
+   }
+  }
+ }
+ coords 109.217 1 229.474
+}

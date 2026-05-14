@@ -1,0 +1,66 @@
+GenericEntity : "{BA59C9EAD2F5ABD5}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouches_MBAV_Rifleman_2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Mag_Pouch1 {
+     Prefab "{A499125247F0237B}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    LoadoutSlotInfo Hydrator_Pouch {
+     Enabled 0
+    }
+    LoadoutSlotInfo Grenade_Pouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Mag_Pouch2 {
+    }
+    LoadoutSlotInfo Mag_Pouch3 {
+     Prefab "{A499125247F0237B}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
+    }
+    LoadoutSlotInfo Radio_Pouch {
+     Enabled 0
+    }
+    LoadoutSlotInfo Smoke_Pouch {
+    }
+    LoadoutSlotInfo Smoke_Granade {
+    }
+    LoadoutSlotInfo Smoke_Grenade_2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Grenade_Pouch3 {
+     PivotID "Spine5"
+     Offset 0.0654 0.2355 0.18
+     Angles 18.091 9.7488 0
+     Prefab "{6145A2BF6976C0C1}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_MC_FGC_1_MS_RG.et"
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset 0.0086 -0.1439 -0.0136
+     Angles -3.3559 -179.64191 -6.0945
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset -0.062 0.094 0.1624
+     Angles 89.972 -0.0001 -9.3507
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.1821 0.0812 0.1204
+     Angles 0 -166.66479 0
+     Prefab "{3C87621A653D3B45}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Radio2.et"
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+   }
+   ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 4842.775 307.884 5868.242
+ angles 0 0 0
+}

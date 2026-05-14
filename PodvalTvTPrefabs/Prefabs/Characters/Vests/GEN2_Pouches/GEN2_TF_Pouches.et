@@ -1,0 +1,68 @@
+GenericEntity : "{3C790529DBAB3C55}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_TF_Variant.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo blueforce {
+     Offset 0 -0.0065 0.1868
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0073 0.2722 0.1139
+     Angles 26.7186 0.8283 0.1874
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.1738 0.0279 0.0504
+     Angles -4.6544 -77.1365 1.9237
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.1738 0.022 0.0493
+     Angles -1.4771 73.3373 -4.2958
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1797 0.0355 -0.0681
+     Angles 1.6908 -78.8153 4.4055
+    }
+    LoadoutSlotInfo filbe {
+     Offset -0.1714 0.0101 0.104
+     Angles -0.0957 -38.1813 2.0601
+    }
+    LoadoutSlotInfo flibe2 {
+     Angles 0.6085 -93.8375 -1.2326
+    }
+    LoadoutSlotInfo flex3 {
+     Offset -0.1787 0.0323 -0.0297
+    }
+    LoadoutSlotInfo radio {
+     Offset -0.2031 0.0283 -0.1248
+     Angles 6.8992 158.5789 -2.1717
+    }
+    LoadoutSlotInfo m18_2 {
+     Angles 1.2325 157.2081 -1.322
+    }
+    LoadoutSlotInfo Back {
+     Offset 0.0652 0.1703 -0.1777
+     Angles -10.2878 42.0417 -3.8756
+     Prefab ""
+    }
+    LoadoutSlotInfo Scissors {
+     Offset 0.034 0.0641 0.1665
+     Angles 80.3181 89.9998 83.9537
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    RHS_LoadoutSlotInfo Holster {
+     Offset 0.0125 -0.1419 -0.0035
+     Angles 0 180 -7.4099
+     Prefab "{77C14BE272131177}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_Tan_RLeg.et"
+    }
+    LoadoutSlotInfo torn {
+     PivotID "Spine5"
+     Offset -0.1679 0.001 0.1292
+     Angles 4.9435 123.0555 -88.7248
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+   }
+  }
+ }
+ coords 103.125 1 222.245
+}

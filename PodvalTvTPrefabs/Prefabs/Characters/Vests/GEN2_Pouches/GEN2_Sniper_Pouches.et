@@ -1,0 +1,29 @@
+GenericEntity : "{7B2C0CC41FDB5B26}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_Sniper.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo triple {
+     Offset 0 -0.0032 0.1861
+    }
+    LoadoutSlotInfo ifak {
+     Offset 0.1758 0.0271 -0.0316
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0059 0.2744 0.1141
+     Angles 28.6441 0.8355 0.1907
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1147 0.098 -0.1934
+     Angles -4.3179 20.0657 -1.0609
+     Prefab "{94D436FEA7EE8E71}Prefabs/Misc/JPC_Pounches/JPC_Radiobag_Tan.et"
+    }
+    LoadoutSlotInfo Back {
+     Offset 0 0.0601 -0.1883
+     Angles 4.4224 -0.4659 5.3576
+    }
+   }
+  }
+ }
+ coords 5912.182 57.25 4558.581
+}

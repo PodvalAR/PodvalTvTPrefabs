@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D8A0271EBC32BE77}Prefabs/Characters/Helmet/USMC_Helmet_Cover/ECH_Marpat.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

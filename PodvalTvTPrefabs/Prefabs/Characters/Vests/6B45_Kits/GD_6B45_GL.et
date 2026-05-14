@@ -1,0 +1,45 @@
+GenericEntity : "{E711752AC6D2123D}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer_GL.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Etool {
+     PivotID "Spine1"
+     Offset -0.1978 -0.0041 -0.0232
+     Angles 1.3749 -95.218 -1.7425
+     Enabled 1
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo MagPouch2 : Etool {
+     PivotID "Spine1"
+     Offset -0.186 -0.0031 0.0605
+     Angles 3.929 -59.9341 1.4004
+     Enabled 1
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo MagPouch3 : Etool {
+     PivotID "Spine1"
+     Offset -0.1777 -0.0067 -0.0979
+     Angles -0.025 -134.12379 -2.2194
+     Enabled 1
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+   WornMaterialsOverride {
+    "{72D6EF145AA3FEE1}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_EMR.emat"
+   }
+   ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
+   ItemMaterialsOverride {
+    "{72D6EF145AA3FEE1}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_EMR.emat"
+   }
+  }
+ }
+ coords 5885.502 255.937 5878.842
+}

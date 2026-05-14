@@ -1,0 +1,16 @@
+GameEntity : "{C366832EA8199448}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Shirts/Helmet_Exfil_Coy_ION.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{899D70C332F2E303}Prefabs/Characters/HeadGear/Helmet_Exfil/Headgear_exfil_cover_winter.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{2BBF17AC7CD7991D}Prefabs/Characters/HeadGear/All_Facemask/GD_Balaclava_1holes.et"
+    }
+   }
+  }
+ }
+ coords 2293.004 75.719 904.073
+}

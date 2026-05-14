@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{894DFD95DD0FFFF6}Prefabs/Characters/Helmet/EXFIL/Exfil Tan GPNVG 2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

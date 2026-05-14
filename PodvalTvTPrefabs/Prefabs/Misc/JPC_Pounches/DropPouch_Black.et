@@ -1,0 +1,14 @@
+GenericEntity : "{7AA57E45197D8749}Prefabs/Misc/JPC_Pounches/DropPouch_Brown.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{7903BF67536D6E7E}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_sbroska_black.emat"
+   }
+   ItemMaterialsOverride {
+    "{7903BF67536D6E7E}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_sbroska_black.emat"
+   }
+  }
+ }
+ coords 104.005 1.298 90.794
+}

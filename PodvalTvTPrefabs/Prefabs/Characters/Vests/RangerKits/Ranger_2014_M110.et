@@ -1,0 +1,64 @@
+GenericEntity : "{78FCE7A9F2E97F0B}Prefabs/Characters/Vests/RangerKits/Ranger_2014_SCAR.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Mag_Pouch1 {
+    }
+    LoadoutSlotInfo Grenade_Pouch1 {
+     Offset 0.1758 0.0224 0.1466
+     Angles -2.8619 43.4041 -0.805
+     Prefab "{5CC14D6DAF45EA9B}Prefabs/Characters/Vests/RangerKits/M110_Mag_Pouch_1.et"
+    }
+    LoadoutSlotInfo Hydrator_Pouch {
+     Offset 0.0754 0.0467 -0.2303
+     Angles -0.7554 180 -90
+     Enabled 1
+     Prefab "{7A22A0BAED60ECF7}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Pentagon_Tac_Keros_Utility.et"
+    }
+    LoadoutSlotInfo Mag_Pouch3 {
+     Prefab "{0C18B450F0919E80}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
+    LoadoutSlotInfo Radio_Pouch {
+     Offset -0.0993 0.1074 -0.2103
+     Angles 1.0925 -174.89951 6.2094
+     Enabled 1
+    }
+    LoadoutSlotInfo Medical_Pouch {
+     Offset 0.2158 0.0045 -0.0089
+     Angles -2.995 99.313 -5.0959
+     Prefab "{54FB65C34AC5F701}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_OD.et"
+    }
+    LoadoutSlotInfo Uni_Pouch {
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine1"
+     Offset 0.2089 -0.0301 -0.0083
+     Angles -3.3559 0 -3.2037
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo Mag_Pouch_1_1 : Mag_Pouch1 {
+     Offset -0.1903 0.0313 0.1097
+     Angles -1.7319 -56.3222 4.0909
+     Prefab "{3095798D138165B5}Prefabs/Characters/Vests/RangerKits/M110_Mag_Pouch_2.et"
+    }
+    LoadoutSlotInfo Pistolpouch2 : Medical_Pouch {
+     Offset 0.2124 -0.0004 0.0548
+     Angles -4.9338 73.1589 -3.2555
+     Prefab "{3B30DE0E1F512495}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_OD.et"
+    }
+    LoadoutSlotInfo Carabine2 {
+     PivotID "Spine5"
+     Offset 0.0705 0.2395 0.1444
+     Angles 22.3186 -7.8457 178.7327
+     Enabled 1
+     Prefab "{EEFC1FAE08B24647}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Carabine2.et"
+    }
+   }
+  }
+ }
+ coords 109.262 1 232.325
+}

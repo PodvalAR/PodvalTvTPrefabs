@@ -1,0 +1,38 @@
+GenericEntity : "{03F534269367BAB3}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_MEDIC_N.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo flex {
+     Offset -0.1797 0.0402 0.0462
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1885 0.0559 -0.1562
+     Enabled 1
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.2235 0.004 0.0551
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2396 0.0334 -0.0501
+    }
+    LoadoutSlotInfo raid {
+     PivotID "Spine1"
+     Offset 0 0.0417 -0.1324
+     Angles 3.0429 0 0
+     Enabled 1
+     Prefab "{7AA57E45197D8749}Prefabs/Misc/JPC_Pounches/DropPouch_Brown.et"
+    }
+    LoadoutSlotInfo Torn {
+     Offset 0.0027 -0.0922 0.209
+     Angles 89.972 0 89.0038
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo Radioo {
+     Offset -0.1748 0.0866 0.0987
+    }
+   }
+  }
+ }
+ coords 168.655 1 203.339
+}

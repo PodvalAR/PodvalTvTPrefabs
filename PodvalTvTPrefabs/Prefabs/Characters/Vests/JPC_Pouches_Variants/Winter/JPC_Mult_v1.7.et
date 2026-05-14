@@ -1,0 +1,33 @@
+GenericEntity : "{2E907FB52FB20723}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_v2.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo nerd {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol {
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Offset 0.0194 0.1802 0.1655
+     Angles -9.3801 177.4157 14.5433
+     Enabled 0
+     Prefab "{89B6F2375E59D6EA}TEST/Prefabs/Vests/SAS_Vest_Pouches/GD_SAS_Vest_Holster.et"
+    }
+    LoadoutSlotInfo raid {
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.2117 -0.0218 0.0194
+     Angles -5.6154 -10.8657 -8.0819
+     Prefab "{AC78A989D0DFC5FC}TEST/Prefabs/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1709 -0.1192 -0.0844
+    }
+    LoadoutSlotInfo Scissors {
+    }
+   }
+  }
+ }
+ coords 1675.375 37.05 908.73
+}

@@ -1,0 +1,13 @@
+GameEntity : "{7655D197242A12E7}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_ECH_Marpat_Goggless.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{6C51FC9775C601E5}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_base.et"
+    }
+   }
+  }
+ }
+ coords 96.193 1 216.289
+}

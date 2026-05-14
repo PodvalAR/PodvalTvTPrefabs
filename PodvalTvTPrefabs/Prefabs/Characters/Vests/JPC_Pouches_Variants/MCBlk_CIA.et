@@ -1,0 +1,30 @@
+GenericEntity : "{85E4EB7B92BACF63}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_MCBlk_ronin2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Scissors {
+     Offset 0.0554 1.3663 0.1047
+     Angles 0 180 0
+     Prefab "{D72FA1A1C9D40129}Prefabs/Misc/JPC_Pounches/JPC_Scissors.et"
+    }
+    LoadoutSlotInfo Gloves {
+     Offset 0.1377 0.842 0.1035
+     Angles 0 -129.18221 0
+     Prefab "{924916D6F5E99BBD}Prefabs/Misc/JPC_Pounches/JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Radio {
+     Offset -0.1709 1.2384 0.0796
+     Angles -3.6801 129.59731 3.708
+     Prefab "{B822EA67E24D0B45}Prefabs/Misc/JPC_Pounches/JPC_Radio.et"
+    }
+    LoadoutSlotInfo Torniquet {
+     Offset 0.142 1.5339 -0.0518
+     Angles 0 180 0
+     Prefab "{70DFFC48DE5A307E}Prefabs/Misc/JPC_Pounches/JPC_Torniquet.et"
+    }
+   }
+  }
+ }
+ coords 1747.637 39 2940.839
+}

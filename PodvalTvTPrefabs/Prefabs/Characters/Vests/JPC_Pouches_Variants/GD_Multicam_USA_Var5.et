@@ -1,0 +1,16 @@
+GenericEntity : "{0363327729EE9188}Prefabs/Characters/Vests/JPC_Pounches_Variants/Multicam_USA_Var4.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     PivotID "Spine5"
+     Offset 0 0.1405 -0.2446
+     Angles -6.7272 0 0
+     Prefab "{95BCBF51DC7D11B9}Prefabs/Characters/Vests/Vest_JPC_Pouches/Minimap_JPC_ZipOnPanel2.0_MCBlk.et"
+    }
+   }
+  }
+ }
+ coords 1398.25 68.914 4862.275
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.591 0.515 0.392 1
+ BCRMap "{38BF1713C600026D}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_holster_BCR.edds"
+ NMOMap "{0067AC811F7750F3}Assets/Characters/Vests/Vest_Taktika_Pouches/data/taktika_holster_NMO.edds"
+}

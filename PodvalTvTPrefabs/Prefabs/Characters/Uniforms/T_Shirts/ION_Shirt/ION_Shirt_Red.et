@@ -1,0 +1,35 @@
+GameEntity : "{608CACF4D026697B}Prefabs/Characters/Uniforms/T_Shirts/T_shirt_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{1ECDE46ABFECBE2A}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/rhs_ion_casual_shirt_item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_ION_Casual_Shirt_Name"
+     Description "#RHS-Uniform_ION_Casual_Shirt_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 0
+      PreviewModel "{DCD87B27405D36F2}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/Preview/ION_Casual_Shirt_wear.et"
+      ShowAllChildrens 1
+     }
+    }
+   }
+   MaxCumulativeVolume 800
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{1D2351F85CFA11F5}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/rhs_ion_casual_shirt.xob"
+   WornMaterialsOverride {
+    "{A7EAE8AD90290C12}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/Data/rhs_ion_casual_shirt_red.emat"
+   }
+   ItemModel "{1ECDE46ABFECBE2A}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/rhs_ion_casual_shirt_item.xob"
+   ItemMaterialsOverride {
+    "{A7EAE8AD90290C12}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/Data/rhs_ion_casual_shirt_red.emat"
+   }
+  }
+ }
+ coords 5313.24 250.531 3364.711
+}

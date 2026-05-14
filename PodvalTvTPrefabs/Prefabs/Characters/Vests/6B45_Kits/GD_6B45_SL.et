@@ -1,0 +1,65 @@
+GenericEntity : "{D4CF867BB816E15E}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_4.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo arsbelt {
+     PivotID "Spine5"
+     Offset -0.1133 0.2363 0.1565
+     Angles 10.7207 81.2842 3.3457
+     Prefab "{08B558536A140488}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_EMR.et"
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo medkit {
+     Offset 0.231 0.0352 0.0133
+     Prefab "{0F5FFB8EC8B7CD5A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_EMR.et"
+    }
+    LoadoutSlotInfo radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo util {
+     Offset -0.2114 0.0475 -0.0585
+     Angles 1.3426 -103.4221 -5.9049
+    }
+    LoadoutSlotInfo holster {
+     Prefab "{BA5E1818670BB5AA}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_emr_3.et"
+    }
+    LoadoutSlotInfo drop {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol2 {
+    }
+    LoadoutSlotInfo placard {
+     Offset 0.0962 -0.0289 0.1615
+     Angles -2.623 14.5327 0.6643
+    }
+    LoadoutSlotInfo Grenade {
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset 0.2046 0.0102 0.0942
+     Angles -3.8518 54.0194 -3.063
+     Prefab "{675DE7AB8A0A0771}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP118_PistolTako2_EMR.et"
+    }
+    LoadoutSlotInfo up101 {
+     Offset 0.0103 -0.026 0.1721
+     Angles -2.7095 0.4123 -0.0195
+    }
+    LoadoutSlotInfo pistol1 {
+     Offset -0.1074 -0.0532 0.1669
+     Angles 1.6305 -8.2029 1.1251
+     Prefab "{A4A240907B301D41}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_EMR.et"
+    }
+    LoadoutSlotInfo Grenadus {
+     PivotID "Spine1"
+     Offset -0.2256 0.0518 0.092
+     Angles 5.4801 -63.2152 -5.2245
+     Prefab "{699A470D29854BF0}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_EMR.et"
+    }
+   }
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+  }
+ }
+ coords 5891.051 255.937 5876.443
+}

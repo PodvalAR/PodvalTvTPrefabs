@@ -1,0 +1,6 @@
+MatPBRBasic : "{AF0B778627F157D8}Assets/Characters/Pants/Pants_FROG/data/Pants_FROG_WD.emat" {
+ Color 0.497 0.497 0.497 1
+ SpecularMul 2.5
+ BCRMap "{AC42696677C8A782}Assets/Characters/Pants/Pants_FROG/data/rhs_frog_pants_D_01_BCR.edds"
+ NMOMap "{949AD2F4AEBFF51C}Assets/Characters/Pants/Pants_FROG/data/rhs_frog_pants_D_01_NMO.edds"
+}

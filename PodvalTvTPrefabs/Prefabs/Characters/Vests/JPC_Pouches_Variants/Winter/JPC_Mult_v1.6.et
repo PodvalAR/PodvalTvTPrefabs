@@ -1,0 +1,15 @@
+GenericEntity : "{A8FF899A318CDF89}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var6.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo m67_2 {
+     Offset -0.0114 -0.1205 -0.0085
+     Angles 0 172.5408 -1.1798
+     Prefab "{81C150C24FF3E7F2}TEST/Prefabs/Vests/All_Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+   }
+  }
+ }
+ coords 2037.356 66.658 1138.74
+}

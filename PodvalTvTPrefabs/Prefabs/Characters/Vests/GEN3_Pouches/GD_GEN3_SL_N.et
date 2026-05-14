@@ -1,0 +1,129 @@
+GenericEntity : "{A92FE063E420B1AF}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0.0805 0.0175 0.1717
+     Angles -0.08 11.6354 -0.0165
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tako {
+     Enabled 0
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset -0.187 -0.0339 0.0949
+     Enabled 0
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Enabled 0
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tako2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo takobelt {
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo m18_2 {
+     PivotID "Spine5"
+     Offset -0.2172 -0.0265 0.003
+     Angles -5.8188 -90.0077 7.1239
+     Enabled 0
+    }
+    LoadoutSlotInfo nerd {
+     PivotID "Spine5"
+     Offset 0.21 0.0359 0.0544
+     Angles -4.6549 77.0301 -6.0171
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo ifak {
+     PivotID "Spine1"
+     Angles 0 168.7802 0
+     Prefab "{7B0E856BA78C0246}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.0676 0.0161 -0.1244
+     Angles 0.85 -162.21449 -2.0604
+     Prefab "{C08B2AD54A8A4A57}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+    LoadoutSlotInfo Back {
+     Offset 0.2318 0.0084 -0.0352
+     Angles -2.1071 -82.2231 84.7508
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+    LoadoutSlotInfo tako2 {
+     PivotID "Spine1"
+     Offset 0.1753 0.0285 0.0835
+     Angles -1.0773 -29.2808 -8.193
+     Prefab "{91AAAD6DD4C4E0CD}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.0098 0.1071 -0.0142
+     Angles -2.5877 -2.4406 -2.979
+     Prefab "{C635326F90364C34}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio_3.et"
+    }
+    LoadoutSlotInfo flexcoret2 {
+     Offset 0.1625 0.0939 0.1019
+     Angles 1.1246 165.9248 -0.6231
+     Enabled 1
+     Prefab "{A32321E3BEEE4F84}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_Knife.et"
+    }
+    LoadoutSlotInfo flex2 {
+     PivotID "Spine5"
+     Offset 0.2344 0 0.1329
+     Angles 0 56.5869 0
+     Enabled 0
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo Back2 {
+     Offset -0.0372 0.0745 -0.2154
+     Prefab "{063712DCDFB30053}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini.et"
+    }
+    LoadoutSlotInfo Back3 {
+     Offset -0.1547 0.1425 -0.1775
+    }
+    LoadoutSlotInfo pistolcamer {
+     PivotID "Spine5"
+     Offset 0.2593 0.0075 0.0637
+     Angles -5.9202 -15.2917 6.1
+     Prefab "{91AAAD6DD4C4E0CD}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+    }
+    LoadoutSlotInfo Pouch2 : Pouch1 {
+     Offset 0 0.0171 0.1812
+     Angles -0.0815 0.1302 -0.0003
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+    LoadoutSlotInfo Pouch3 : Pouch1 {
+     Offset -0.0849 0.0171 0.1718
+     Angles -0.0792 -14.2543 0.0201
+     Prefab "{C21DCE954442DD12}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch.et"
+    }
+   }
+   WornModel "{082597690FD7CDD6}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{679A7DD7E4F374E8}Assets/Characters/Belts/Belt_USMC_subbelt/subbelt_ground.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+  }
+ }
+ coords 162.843 1.212 122.374
+}

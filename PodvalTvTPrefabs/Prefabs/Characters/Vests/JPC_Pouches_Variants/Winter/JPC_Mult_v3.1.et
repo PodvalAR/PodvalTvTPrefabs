@@ -1,0 +1,26 @@
+GenericEntity : "{B79F6F56ECA300FA}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo pistolpouch2 {
+     Offset 0.1692 0.0231 0.0897
+     Angles -5.0493 -41.5541 -6.9744
+    }
+    LoadoutSlotInfo m67_2 {
+     PivotID "Spine1"
+     Offset 0.2089 -0.0217 -0.0129
+     Angles 0 0 -5.676
+     Prefab "{AC78A989D0DFC5FC}TEST/Prefabs/Vests/All_Holster_SLS/GD_Holster_SLS.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine1"
+     Offset 0.0067 0.026 -0.1399
+     Angles 0 -180 90
+     Prefab "{7950E322BE6927CC}TEST/Prefabs/Vests/US_TV119_Pouches/GD_TV119_Nylon_Strap.et"
+    }
+   }
+  }
+ }
+ coords 1325.605 26.421 827.547
+}

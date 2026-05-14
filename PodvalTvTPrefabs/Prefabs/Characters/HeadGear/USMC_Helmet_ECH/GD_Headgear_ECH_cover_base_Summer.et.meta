@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1B3043A95D6E3B42}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_base_Summer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+GameEntity : "{24465F297D0F664A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_v_r.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     PivotID "Head"
+     Offset 0 0.1291 -0.0513
+     Angles -17.3251 0 0
+     Prefab "{13DFBA97324A9A81}Prefabs/Characters/Headgear/Glasses/Mil_Goggles_USMC.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{87CB578E42ED2B99}Prefabs/Characters/Helmet/USMC_Helmet_Cover/Cover_Marpat.et"
+    }
+   }
+  }
+ }
+ coords 7352.339 57.473 7200.252
+}

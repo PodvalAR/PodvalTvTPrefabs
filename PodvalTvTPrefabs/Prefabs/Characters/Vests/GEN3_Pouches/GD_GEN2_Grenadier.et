@@ -1,0 +1,16 @@
+GenericEntity : "{6FABD062FFB146FA}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_gl.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo TopChestVelctro {
+     Offset -0.0029 0.2726 0.1154
+     Angles 26.0128 0.833 0.1796
+     Enabled 1
+     Prefab "{CEBEFFB22576E147}Prefabs/Item/Patches/USMC_Patch.et"
+    }
+   }
+  }
+ }
+ coords 7351.232 57.484 7207.323
+}

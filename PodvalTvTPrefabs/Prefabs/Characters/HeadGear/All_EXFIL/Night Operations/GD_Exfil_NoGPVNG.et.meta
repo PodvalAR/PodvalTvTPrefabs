@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{65AB98630A9DC435}Prefabs/Characters/Helmet/EXFIL/Night Operations/Exfil_NoGPVNG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

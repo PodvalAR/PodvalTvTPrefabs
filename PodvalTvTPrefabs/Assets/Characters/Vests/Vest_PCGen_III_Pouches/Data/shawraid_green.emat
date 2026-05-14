@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.589 0.638 0.477 1
+ BCRMap "{4C29265534E1B09B}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawraid_coy_BCR.edds"
+ NMOMap "{F8DAC402614A6ECF}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawraid_NMO.edds"
+}

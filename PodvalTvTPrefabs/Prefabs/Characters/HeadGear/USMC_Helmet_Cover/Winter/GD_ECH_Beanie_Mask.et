@@ -1,0 +1,16 @@
+GameEntity : "{A6769D237D42FD52}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_ECH_Marpat_Scarf+Mask.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Baf {
+     Prefab "{A768B4F898E7855E}TEST/Prefabs/HeadGear/SAS_Facemask/GD_SAS_Facemask_Black.et"
+    }
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+  }
+ }
+ coords 1074.362 15.25 765.689
+}

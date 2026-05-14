@@ -1,0 +1,51 @@
+GenericEntity : "{1AC11B90A48392C4}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_Medic_Pouches.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo flex {
+    }
+    LoadoutSlotInfo radio {
+     Enabled 0
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.2314 -0.0061 0.0568
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2339 0.0182 -0.0507
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo Scissors {
+     Offset -0.0742 0.1021 0.161
+     Angles 84.5676 -152.90601 -152.9901
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Torn {
+     Offset 0.1037 0.3085 0.0937
+     Angles -42.3798 -175.68359 91.4923
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+    LoadoutSlotInfo gloves {
+     Offset 0.1733 -0.0118 0.1401
+     Angles 2.1045 -155.26579 -4.4094
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo Radioo {
+     Offset -0.1885 0.0871 0.1102
+     Angles 0.6187 -170.0365 -2.4317
+     Prefab "{3C87621A653D3B45}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio2.et"
+    }
+   }
+  }
+ }
+ coords 73.478 1 204.62
+}

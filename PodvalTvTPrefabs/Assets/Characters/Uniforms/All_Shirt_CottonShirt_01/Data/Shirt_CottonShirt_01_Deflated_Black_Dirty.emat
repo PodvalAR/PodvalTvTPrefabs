@@ -1,0 +1,11 @@
+MatPBRMulti {
+ Color 0 0 0 1
+ SpecularMul 1.26
+ VFXMap "{53F10F29CDA44F7E}Assets/Characters/Uniforms/Shirt_CottonShirt_01/Data/Shirt_CottonShirt_01_VFX.edds"
+ DirtUserOpacity 1
+ DirtOpacity 3
+ DirtRoughness 1.3
+ DirtBCRMap "{94F9B5D6142A30F0}Assets/Characters/Uniforms/Shirt_CottonShirt_01/Data/Shirt_CottonShirt_01_Deflated_V6_Dirty_Blood_BCR.edds"
+ BCR_1 "{6B9FEF00175B58D3}Assets/Characters/Uniforms/Shirt_CottonShirt_01/Data/Shirt_CottonShirt_01_Deflated_V6_Dirty_BCR.edds"
+ NMO_1 "{A4E411F2FE68445B}Assets/Characters/Uniforms/Shirt_CottonShirt_01/Data/Shirt_CottonShirt_01_Deflated_V1_Dirty_NMO.edds"
+}

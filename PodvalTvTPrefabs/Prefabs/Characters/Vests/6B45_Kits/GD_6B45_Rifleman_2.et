@@ -1,0 +1,95 @@
+GenericEntity : "{0C67EFBAC19FFF02}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_EMR_2.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo arsbelt {
+     Offset -0.1978 -0.0041 -0.0232
+     Angles 1.3749 -95.218 -1.7425
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Offset -0.186 -0.0031 0.0605
+     Angles 3.929 -59.9341 1.4004
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo radio {
+     PivotID "Spine1"
+     Offset 0.1938 0.1505 -0.1035
+     Angles -3.4856 -150.8152 -6.8474
+     MergePhysics 1
+     Prefab "{08B558536A140488}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_EMR.et"
+    }
+    LoadoutSlotInfo util {
+     Offset -0.23 0.0718 -0.0414
+     Angles -0.8142 -97.694 5.8423
+    }
+    LoadoutSlotInfo holster {
+     Enabled 0
+    }
+    LoadoutSlotInfo drop {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo placard {
+     Offset 0.0962 -0.0289 0.1615
+     Angles -2.623 14.5327 0.6643
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+    }
+    LoadoutSlotInfo up101 {
+    }
+    LoadoutSlotInfo grenade {
+     PivotID "Spine1"
+     Offset 0.249 0.033 0.0386
+     Angles 6.738 73.71761 -0.8806
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo grenade2 {
+     PivotID "Spine1"
+     Offset 0.2134 0.0355 0.1098
+     Angles 6.0951 54.8406 0.2652
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo arsbelt3 : arsbelt2 {
+     Offset -0.1777 -0.0067 -0.0979
+     Angles -0.025 -134.12379 -2.2194
+     Prefab "{58339CC6805E8529}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_EMR.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo placard2 : placard {
+     Offset 0.001 -0.026 0.1721
+     Angles -2.7095 0.4123 -0.0195
+     Prefab "{BA789EFB0E131CFE}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    LoadoutSlotInfo placard3 : placard {
+     Offset -0.0928 -0.0255 0.1599
+     Angles -2.6562 -11.3927 0.5351
+     Prefab "{BA789EFB0E131CFE}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_EMR.et"
+    }
+    LoadoutSlotInfo Phone {
+     PivotID "Spine5"
+     Offset 0 0.1559 0.1887
+     Angles 3.6251 -180 0
+     Enabled 0
+     Prefab "{F79CD854A5DFF6DA}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Phone_RF.et"
+    }
+   }
+   WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
+   WornMaterialsOverride {
+    "{72D6EF145AA3FEE1}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_EMR.emat"
+   }
+   ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
+   ItemMaterialsOverride {
+    "{72D6EF145AA3FEE1}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_EMR.emat"
+   }
+  }
+ }
+ coords 5892.188 255.969 5874.304
+}

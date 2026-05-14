@@ -1,0 +1,23 @@
+GenericEntity : "{67486AAA5D747349}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_V5.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0 0.2018 0.1486
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{345E0357074007A9}Prefabs/Items/Patches/UK_Patch.et"
+    }
+    LoadoutSlotInfo JTAC {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 144.505 1 88.03
+}

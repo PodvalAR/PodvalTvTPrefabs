@@ -1,0 +1,4 @@
+MatPBRBasic : "{0AC5F9D6EC713BD8}Assets/Characters/HeadGear/Cover_ECH/data/cover_ech.emat" {
+ Color 0.839 0.839 0.839 1
+ BCRMap "{71109ECA65D4CEF6}Assets/Characters/Headwear/USMC_Helmet/USMC_Desert.edds"
+}

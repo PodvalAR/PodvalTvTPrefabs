@@ -1,0 +1,98 @@
+GenericEntity : "{95DFCFC5E03CD676}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF_2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{2160B3182002C9FD}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_MCBlk.et"
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1598 0.0382 0.0607
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo ifak {
+     Offset 0.0884 0.0127 -0.1057
+     Angles 1.3687 166.6721 -0.0394
+     Prefab "{FD1537D7E8C139C2}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.0784 0.0106 -0.111
+     Angles 1.2354 -166.1326 0.5904
+     Prefab "{A3B10BB029196B12}Prefabs/Characters/Vests/US_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1684 0.0129 0.0375
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo tako2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.1358 0.0669 0.1133
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2109 0.02 0.0678
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo filbe2 {
+     Offset -0.1767 0.0142 -0.0313
+     Angles 3.1454 -120.8604 -5.1889
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2183 -0.0196 -0.0335
+     Enabled 0
+    }
+    LoadoutSlotInfo m18_2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Holster {
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+    LoadoutSlotInfo Flag {
+     Offset 0.074 0.1424 -0.2164
+     Angles 1.2081 -174.5361 -3.0306
+     Prefab "{439BF5FBD85F8060}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_Flag_ION.et"
+    }
+    LoadoutSlotInfo Radio {
+     Offset -0.1926 0.0361 0.0537
+     Angles 1.3305 96.4467 -5.9674
+     Prefab "{A939E4158FC52924}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_ANPRC_Pouch_Black.et"
+    }
+    LoadoutSlotInfo Glush {
+     Offset -0.1923 0.0109 0.051
+     Angles 1.3305 96.4467 -5.9674
+    }
+    LoadoutSlotInfo Adminka {
+     Offset -0.0457 0.0991 -0.2181
+     Prefab "{58CDC8484D60D2B0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini_Black.et"
+    }
+    LoadoutSlotInfo Antenna {
+     Offset -0.1263 0.3003 -0.143
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0 0.1984 0.1658
+     Angles -1.7219 0 0
+     Prefab "{C99B8E8DB740439D}Prefabs/Items/Patches/PMC_Patch_Desc_2.et"
+     InspectionWidgetOffset 0.0559 1.3005 0.2071
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 157.54 1 102.494
+}

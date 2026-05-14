@@ -1,0 +1,22 @@
+GameEntity : "{A7AA41A691D4A9FB}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_LWH_USMC_Shroud_Empty_BWinter.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     PivotID "Head"
+     Offset 0.0037 0.1362 -0.0211
+     Angles -5.4176 -180 0
+     Prefab "{69AB14F7DD2A9673}Prefabs/Characters/HeadGear/All_Glasses/GD_USMC_Goggles.et"
+    }
+   }
+   WornMaterialsOverride {
+    "" "{41D6B7D2456B6C43}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_LWH.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{41D6B7D2456B6C43}Assets/Characters/HeadGear/Helmet_LWH/data/RHS_LWH.emat"
+   }
+  }
+ }
+ coords 179.137 1 219.211
+}

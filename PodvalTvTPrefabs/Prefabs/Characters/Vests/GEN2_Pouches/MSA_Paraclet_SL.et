@@ -1,0 +1,113 @@
+GenericEntity : "{A92FE063E420B1AF}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0.0011 0.0118 0.166
+     Prefab "{11B1177729DE2939}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_RGR.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tako {
+     Enabled 0
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1954 -0.0085 -0.0806
+     Angles -1.0183 -120.8713 -3.8399
+     Prefab "{EA72920B4D45496E}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Tako2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo takobelt {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_1 {
+     Angles -3.9875 8.2016 -4.5045
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1592 0.0115 -0.1204
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.2142 -0.0463 0.0045
+     Angles 3.6045 -81.6894 1.753
+    }
+    LoadoutSlotInfo nerd {
+     PivotID "Spine5"
+     Offset 0.1962 -0.0174 0.0493
+     Angles 5.5692 -140.2063 -7.531
+     Prefab "{F58AA5DA8B494123}Prefabs/Characters/Vests/US_JPC_Pouches/GD_JPC_Gloves.et"
+    }
+    LoadoutSlotInfo ifak {
+     Enabled 0
+    }
+    LoadoutSlotInfo saw {
+     Enabled 0
+    }
+    LoadoutSlotInfo Back {
+     Offset 0.0964 0.0466 -0.2334
+     Angles -0.2827 160.5652 -1.1355
+     Prefab "{89849956DBF294E9}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Radio_MBITR_RG.et"
+    }
+    LoadoutSlotInfo tako2 {
+     PivotID "Spine1"
+     Offset 0.1701 0.0277 0.0798
+     Angles -7.3692 -38.6553 -6.1912
+     Prefab "{91AAAD6DD4C4E0CD}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.1626 0.0146 0.1246
+     Angles 0.5395 -35.5873 1.2236
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo flex2 {
+     PivotID "Spine5"
+     Offset -0.1931 0.0362 0.0512
+     Angles 0 -75 0
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo Back2 {
+     Offset -0.0161 0.01 -0.2448
+     Angles 0 -170.7881 0
+     Prefab "{3015931F34E2E360}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_OD.et"
+    }
+    LoadoutSlotInfo Back3 {
+     Offset -0.1454 0.1118 -0.1837
+    }
+    LoadoutSlotInfo pistolcamer {
+     PivotID "Spine5"
+     Offset 0.1459 0.0157 0.1115
+     Angles -1.919 51.3224 3.5189
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Hydration {
+     PivotID "Spine5"
+     Offset -0.0147 -0.0787 -0.2362
+     Angles -2.4614 0 0
+     Prefab "{FDE38A9BF1166060}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+   }
+   WornModel "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+   WornMaterialsOverride {
+    "{795DBACC03CF690F}Assets/Characters/Belts/Belt_Okinawa/data/okinawa_belt.emat"
+   }
+   ItemModel "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+   ItemMaterialsOverride {
+    "{795DBACC03CF690F}Assets/Characters/Belts/Belt_Okinawa/data/okinawa_belt.emat"
+   }
+  }
+ }
+ coords 2547.118 136.297 6429.163
+ angles 0 150 0
+}

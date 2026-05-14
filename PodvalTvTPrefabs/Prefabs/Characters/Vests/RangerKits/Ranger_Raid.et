@@ -1,0 +1,14 @@
+GenericEntity : "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{4D1E1EBC3898F436}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawraid_green.emat"
+   }
+   ItemMaterialsOverride {
+    "{4D1E1EBC3898F436}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/shawraid_green.emat"
+   }
+  }
+ }
+ coords 4847.996 307.837 5880.551
+}

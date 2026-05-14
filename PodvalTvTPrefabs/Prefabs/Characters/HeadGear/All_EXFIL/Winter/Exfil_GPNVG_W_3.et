@@ -1,0 +1,16 @@
+GameEntity : "{219A538E581A272D}Prefabs/Characters/HeadGear/All_EXFIL/GD_EXFIL_GPNVG_NoMask.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{899D70C332F2E303}Prefabs/Characters/HeadGear/Helmet_Exfil/Headgear_exfil_cover_winter.et"
+    }
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+  }
+ }
+ coords 2584.339 5.719 495.606
+}

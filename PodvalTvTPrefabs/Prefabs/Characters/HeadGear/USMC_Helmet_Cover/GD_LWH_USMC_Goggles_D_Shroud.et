@@ -1,0 +1,16 @@
+GameEntity : "{25FED7A6AFFE6D29}Prefabs/Characters/Helmet/USMC_Helmet_Cover/LWH_USMC_D_Shroud.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     PivotID "Head"
+     Offset 0 0.1255 -0.0505
+     Angles -10.3365 0 0
+     Prefab "{13DFBA97324A9A81}Prefabs/Characters/Headgear/Glasses/Mil_Goggles_USMC.et"
+    }
+   }
+  }
+ }
+ coords 1622.212 38.6 2933.747
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7BDD612939D675FD}Prefabs/Characters/Helmet/USMC_Helmet_Cover/USMC_LWH_Goggles_On.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

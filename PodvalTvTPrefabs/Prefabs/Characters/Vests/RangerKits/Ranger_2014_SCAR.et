@@ -1,0 +1,24 @@
+GenericEntity : "{4B7BDE6D7508C4F5}Prefabs/Characters/Vests/RangerKits/Ranger_Rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Grenade_Pouch1 {
+     Offset 0.1493 0.0354 0.1258
+     Angles 2.2382 40.5037 1.6754
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Grenade_Pouch3 {
+     Enabled 0
+    }
+   }
+   WornMaterialsOverride {
+    "{AE35131FC72C7FB0}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MC.emat"
+   }
+   ItemMaterialsOverride {
+    "{AE35131FC72C7FB0}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MC.emat"
+   }
+  }
+ }
+ coords 72.126 1 240.731
+}

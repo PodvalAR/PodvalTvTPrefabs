@@ -1,0 +1,19 @@
+GameEntity : "{98223DFBD28C5831}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_MC_BLK/Helmet_Exfil_Blk_ION6.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 0
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{68C135B5F4F7C759}Prefabs/Items/Equipment/Nightvision/PVS31/PVS31_BLK_MC.et"
+    }
+   }
+  }
+ }
+ coords 1760.265 39 2937.814
+}

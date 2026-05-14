@@ -1,0 +1,13 @@
+GameEntity : "{093C136ADDA746D9}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/GD_LWH_USMC_Goggles_D_2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Baf {
+     Prefab "{C1E3C76FE553F59E}Prefabs/Characters/HeadGear/All_Mask/GD_Baf Tan.et"
+    }
+   }
+  }
+ }
+ coords 5916.749 57.262 4560.991
+}

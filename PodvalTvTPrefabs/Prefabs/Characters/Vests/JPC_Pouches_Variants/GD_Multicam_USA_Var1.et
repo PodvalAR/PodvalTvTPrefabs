@@ -1,0 +1,46 @@
+GenericEntity : "{C41C60EA0CD22C53}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{83B93CF5F3C30807}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
+    }
+    LoadoutSlotInfo HSGI {
+    }
+    LoadoutSlotInfo nerd {
+     Enabled 0
+    }
+    LoadoutSlotInfo flex {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1639 0.0466 0.1131
+     Angles -2.907 123.6408 4.2952
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo pistol {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_1 {
+     Enabled 0
+    }
+    LoadoutSlotInfo m67_2 {
+     PivotID "RightLeg"
+     Offset -0.0155 -0.1227 -0.009
+     Angles 0 155.7767 0
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+    LoadoutSlotInfo GPS {
+     PivotID "Spine5"
+     Offset 0.1162 0.2687 0.0392
+     Angles -18.6423 95.4123 -61.5616
+     Prefab "{F82C8B98C9D8632A}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_Garmin.et"
+    }
+   }
+  }
+ }
+ coords 150.715 1 100.27
+}

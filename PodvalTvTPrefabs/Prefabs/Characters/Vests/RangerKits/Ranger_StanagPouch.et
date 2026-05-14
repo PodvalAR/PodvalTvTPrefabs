@@ -1,0 +1,14 @@
+GenericEntity : "{5CF58B97C240AA31}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_3_OD.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_EquipmentStorageSlot PouchStorage {
+     Offset -0.0312 -0.0369 0.0225
+     Angles 6.6894 -88.3269 -179.03999
+    }
+   }
+  }
+ }
+ coords 4848.093 307.778 5878.765
+}

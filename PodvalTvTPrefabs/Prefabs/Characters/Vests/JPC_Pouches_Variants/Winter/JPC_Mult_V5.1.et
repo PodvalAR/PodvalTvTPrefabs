@@ -1,0 +1,37 @@
+GenericEntity : "{DA98382D226F6F57}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_v3.1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo HSGI {
+     Offset -0.1963 0.0295 0.1256
+     Angles -2.2893 -53.1616 0.6359
+    }
+    LoadoutSlotInfo Tako {
+     Enabled 0
+    }
+    LoadoutSlotInfo saw {
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1641 0.0742 0.1173
+     Angles 1.7858 -176.3566 1.5668
+     Prefab "{50D356FAD9F9B46B}TEST/Prefabs/Vests/US_JPC_Pouches/GD_JPC_Radio1.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset -0.0508 0.026 -0.1489
+     Enabled 0
+    }
+    LoadoutSlotInfo GPS {
+     Offset -0.1064 0.2508 0.1025
+     Angles -37.6168 176.9516 31.5576
+    }
+    LoadoutSlotInfo JTAC {
+     PivotID "Spine5"
+     Offset 0 0.2018 0.1486
+     Prefab "{35CA38F72D2A8169}Prefabs/Items/Patches/JTAC_Patch.et"
+    }
+   }
+  }
+ }
+ coords 8295.046 218.031 8809.544
+}

@@ -1,0 +1,13 @@
+GameEntity : "{F5633B0DABE1F53F}Prefabs/Characters/HeadGear/All_EXFIL/EXFIL_Winter.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 331.005 64.643 2301.627
+}

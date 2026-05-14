@@ -1,0 +1,14 @@
+GenericEntity : "{11B1177729DE2939}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_RGR.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{92387FE32129426C}Assets/Characters/Vests/Vest_JPC_Pouches/data/AVS_front_pouches_Green.emat"
+   }
+   ItemMaterialsOverride {
+    "{92387FE32129426C}Assets/Characters/Vests/Vest_JPC_Pouches/data/AVS_front_pouches_Green.emat"
+   }
+  }
+ }
+ coords 4847.457 307.628 5880.535
+}

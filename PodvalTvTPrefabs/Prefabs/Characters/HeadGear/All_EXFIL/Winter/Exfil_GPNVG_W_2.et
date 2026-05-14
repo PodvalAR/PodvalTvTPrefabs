@@ -1,0 +1,19 @@
+GameEntity : "{894DFD95DD0FFFF6}Prefabs/Characters/HeadGear/All_EXFIL/GD_Exfil Tan GPNVG 2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{899D70C332F2E303}Prefabs/Characters/HeadGear/Helmet_Exfil/Headgear_exfil_cover_winter.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{35D00D3B430A2C9A}Prefabs/Characters/HeadGear/All_Mask/GD_Baf_Black.et"
+    }
+    LoadoutSlotInfo Beanie {
+     Prefab "{E1D9514DF31230C9}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Black.et"
+    }
+   }
+  }
+ }
+ coords 2584.725 5.719 495.632
+}

@@ -1,0 +1,31 @@
+GenericEntity : "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{302BB60AB83B93E7}Assets/Items/Equipment/Radios/Radio_R107M/Radio_R107M_01_Inflated.xob"
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      PreviewModel "{68544162A21D42F7}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/6sh117_backpack.xob"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   Slots {
+    LoadoutSlotInfo Antenna {
+     PivotID "Spine5"
+     Offset -0.0361 -0.0011 -0.2899
+     Angles 0 0 -22.2563
+     Prefab "{789211997EBE37F4}Prefabs/Items/Equipment/Radios/Attachments/Attachment_ANPRC152A_Antenna.et"
+    }
+   }
+   WornModel "{68544162A21D42F7}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/6sh117_backpack.xob"
+   ItemModel "{1E1D424D131F2CAE}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/6sh117_backpack_Item.xob"
+   DeflatedModel "{68544162A21D42F7}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/6sh117_backpack.xob"
+  }
+ }
+ coords 178.019 1 139.243
+}

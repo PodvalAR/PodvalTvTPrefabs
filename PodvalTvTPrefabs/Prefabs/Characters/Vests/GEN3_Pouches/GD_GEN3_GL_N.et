@@ -1,0 +1,89 @@
+GenericEntity : "{0B9A3A95D37B5CD5}Prefabs/Characters/Vests/GEN3_Pouches/GD_GEN3_SL_N.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0.0858 0.018 0.1972
+     Angles -2.4395 10.8289 0.0179
+     Prefab "{EA72920B4D45496E}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
+    }
+    LoadoutSlotInfo m18_1 {
+    }
+    LoadoutSlotInfo tako {
+    }
+    LoadoutSlotInfo takobelt {
+     Offset -0.1553 0.0151 -0.0689
+     Angles 5.2468 -123.3997 -3.1471
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.2064 0.0044 0.0024
+     Angles 0.0784 86.2635 -1.3117
+     Prefab "{0B18049DFD080C8B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.1389 0.0216 -0.0839
+     Prefab "{C08B2AD54A8A4A57}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1881 0.0378 0.0497
+     Angles -2.8976 83.1588 -6.4804
+    }
+    LoadoutSlotInfo ifak {
+     Offset 0.0596 0.0006 -0.1546
+     Angles -1.4751 -7.3368 179.89661
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo saw {
+     Angles -0.85 17.7855 2.0604
+     Prefab "{DB08308A11F0A1FA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+    }
+    LoadoutSlotInfo Back {
+     Offset 0.2318 0.0326 -0.0352
+     Angles 0 90 -3.479
+     Enabled 0
+     Prefab "{03F98F190A971B35}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+    }
+    LoadoutSlotInfo tako2 {
+     Offset 0.1787 0.0041 0.0849
+     Angles 8.1915 60.5641 -1.0884
+     Prefab "{0B18049DFD080C8B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+    }
+    LoadoutSlotInfo flexcoret {
+     Offset -0.2218 0.0422 0.0903
+     Angles -0.3406 -68.7083 4.7465
+     MergePhysics 0
+     Prefab "{89849956DBF294E9}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Radio_MBITR_RG.et"
+    }
+    LoadoutSlotInfo flex2 {
+     Offset -0.1883 0.0406 -0.0101
+     Angles -3.0362 -90.019 7.8847
+    }
+    LoadoutSlotInfo Back2 {
+     PivotID "Spine1"
+     Offset -0.0958 0.0553 -0.2061
+     Angles 16.4088 -155.1366 1.6966
+     Prefab "{B9E98F1464E93A9D}Prefabs/Items/Equipment/Patches/Patch_Blood_APos.et"
+    }
+    LoadoutSlotInfo Back3 {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistolcamer {
+     Offset 0.2396 0.0162 0.0588
+     Angles -6.261 -14.6992 2.4827
+    }
+    LoadoutSlotInfo Pouch2 {
+     Offset -0.0014 0.0242 0.2082
+     Angles -0.0815 0.1302 -1.6302
+     Prefab "{8626A6EBF181C640}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+    }
+    LoadoutSlotInfo Pouch3 {
+     Offset -0.0893 0.0231 0.2014
+     Angles -0.0792 -13.989 0.0198
+     Prefab "{8626A6EBF181C640}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+    }
+   }
+  }
+ }
+ coords 169.116 1 125.665
+}

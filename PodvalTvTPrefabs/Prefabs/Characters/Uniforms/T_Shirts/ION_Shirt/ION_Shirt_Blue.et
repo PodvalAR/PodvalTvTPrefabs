@@ -1,0 +1,17 @@
+GameEntity : "{FBB2874C06FA247F}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Tan.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   MaxCumulativeVolume 800
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{48008E1FC025DA79}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/Data/rhs_ion_casual_shirt_blue.emat"
+   }
+   ItemMaterialsOverride {
+    "{48008E1FC025DA79}Assets/Characters/Uniforms/T_Shirts/Shirt_ION/Data/rhs_ion_casual_shirt_blue.emat"
+   }
+  }
+ }
+ coords 5313.642 250.531 3364.915
+}

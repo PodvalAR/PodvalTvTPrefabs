@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{80A6FEF6E45E8E32}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/Winter/GD_LWH_USMC_Shroud_Eyewear_BWinter.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
