@@ -28,7 +28,7 @@ GameEntity : "{B17F3E122C7EF592}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LW
      PivotID "Head"
      Offset 0 0.0509 -0.0176
      Angles 4.9497 -180 0
-     Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
+     Prefab "{79D240C0D2390F4A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_goggles.et"
     }
    }
    WornMaterialsOverride {
