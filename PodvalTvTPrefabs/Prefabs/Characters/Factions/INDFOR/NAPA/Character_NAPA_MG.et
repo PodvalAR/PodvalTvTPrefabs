@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{D913D017BF6FA548}Prefabs/Characters/Factions/INDFOR/NAP
     ItemsInitConfigurationItem "{693B044CFE52EEBD}" {
      TargetStorage "Back/Backpack_M70_Swiss.et"
      PrefabsToSpawn {
-      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+      "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }

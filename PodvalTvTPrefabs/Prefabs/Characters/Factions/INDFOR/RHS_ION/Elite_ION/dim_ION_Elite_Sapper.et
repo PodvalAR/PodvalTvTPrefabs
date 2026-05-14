@@ -42,19 +42,19 @@ SCR_ChimeraCharacter : "{5ADE3ACC5A6EB107}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E6D8233474F95}" {
      TargetStorage "Vest/GD_ION_JPC_V4.et/flexbelt/Pouch_Shaw_Flex_Blk.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
      TargetStorage "Vest/GD_ION_JPC_V4.et/flexbelt2/Pouch_Shaw_Flex_Blk.et"
      PrefabsToSpawn {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
      TargetStorage "Vest/GD_ION_JPC_V4.et/tako_camer/Pouch_PCGEN3_takoPouch_MCBlk.et"
      PrefabsToSpawn + {
-      "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+      "{C9DBAD43CEFA9EB2}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{689E6D8254999773}" {

@@ -35,6 +35,9 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo ArmoredVest {
      Prefab "{3EE5D06F1BB8F48F}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_black.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{6271455F27BB4EBE}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_black1.et"
     }
@@ -45,11 +48,14 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68AEDB5590B6AF3A}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/medkit/Pouch_Taktika_medpouch_BLK.et"
      PrefabsToSpawn {
-      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
     ItemsInitConfigurationItem "{68AEDB5590E98623}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
+     }
     }
     ItemsInitConfigurationItem "{693CE320C42AA621}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch1/Pouch_Taktika_magpouch_open_BLK.et"
@@ -108,7 +114,7 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{693CE320C42AD3C7}" {
      TargetStorage "Pants/Pants_Suit_01_black_V1.et"
      PrefabsToSpawn {
-      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
      }
     }
    }
@@ -136,5 +142,5 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 1370.255 61.125 1997.089
+ coords 0 0 0
 }

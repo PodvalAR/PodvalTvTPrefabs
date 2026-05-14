@@ -1,0 +1,12 @@
+GenericEntity {
+ ID "5D652716B6E6EAC1"
+ components {
+  SCR_DamageManagerComponent "{62231CDA82941763}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Window {
+     MaxHealth 1200
+    }
+   }
+  }
+ }
+}

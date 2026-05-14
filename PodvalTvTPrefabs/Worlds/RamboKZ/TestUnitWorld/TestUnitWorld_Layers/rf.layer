@@ -1,0 +1,137 @@
+SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman.et" {
+ coords 238.291 1 56.881
+}
+SCR_ChimeraCharacter : "{01EABA05FE6F4111}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_TL.et" {
+ coords 235.962 1 64.541
+}
+SCR_ChimeraCharacter : "{023F309AE5470788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_sl.et" {
+ coords 237.617 1 53.478
+}
+SCR_ChimeraCharacter : "{062D405498E9FBD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SL.et" {
+ coords 240.58 1 63.833
+}
+SCR_ChimeraCharacter : "{2F81C1503EF73399}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman2.et" {
+ coords 239.782 1 56.898
+}
+SCR_ChimeraCharacter : "{39B26F51C4224D22}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_MG.et" {
+ coords 228.32 1 60.529
+}
+SCR_ChimeraCharacter : "{440A936461B6B52C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_medic.et" {
+ coords 243.958 1 53.076
+}
+$grp SCR_AIGroup : "{496070641528229D}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Group_RHS_AFRF_Regular_PL.et" {
+ {
+  coords 225.408 0.97 42.25
+  m_aUnitPrefabSlots {
+   "{FDDD8BD53FCE67F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AAT.et"
+   "{77623C0E28086D48}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AMG.et"
+   "{6BA5B14BAA6D59C1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AR.et"
+   "{B30DD88AD3E4479D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AT.et"
+   "{94F3D0FCB0D0A7F2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crew.et"
+   "{BAE74D5A541BB979}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crewCommander.et"
+   "{6670CF6A5DDA30EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_GL.et"
+   "{F7935AA38DC65302}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Helli.et"
+   "{8EA17424F2EFB5A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Medic.et"
+   "{39B26F51C4224D22}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_MG.et"
+   "{9F33F9CD850ECA42}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_PL.et"
+   "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman.et"
+   "{2F81C1503EF73399}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman2.et"
+   "{BF9F46425F42029D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_RPO.et"
+   "{B3BC4429C695754B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_sapper.et"
+   "{89BD0C2A465D934C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SeniorRifleman.et"
+   "{062D405498E9FBD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SL.et"
+   "{DD31DC48F1BA3AA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_sniper.et"
+   "{01EABA05FE6F4111}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_TL.et"
+   "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Unarrmed.et"
+   ""
+   ""
+  }
+ }
+ {
+  coords 225.408 0.97 46.824
+  m_aUnitPrefabSlots {
+   "{6BC62090C571B7F3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_LAT.et"
+   "{440A936461B6B52C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_medic.et"
+   "{735AC2C6BFCAB860}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_rifleman.et"
+   "{E4DCEE7AFFFCB442}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_RPO.et"
+   "{023F309AE5470788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_sl.et"
+   "{E39BF95FA4111FC2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_unarrmed.et"
+  }
+ }
+}
+SCR_ChimeraCharacter : "{6670CF6A5DDA30EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_GL.et" {
+ coords 237.091 1 63.077
+}
+SCR_ChimeraCharacter : "{6BA5B14BAA6D59C1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AR.et" {
+ coords 235.426 1 59.634
+}
+SCR_ChimeraCharacter : "{6BC62090C571B7F3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_LAT.et" {
+ coords 239.749 1 53.152
+}
+SCR_ChimeraCharacter : "{735AC2C6BFCAB860}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_rifleman.et" {
+ coords 235.763 1 53.815
+}
+SCR_ChimeraCharacter : "{77623C0E28086D48}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AMG.et" {
+ coords 229.64 1 60.613
+}
+SCR_ChimeraCharacter : "{89BD0C2A465D934C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SeniorRifleman.et" {
+ coords 238.519 1 61.433
+}
+SCR_ChimeraCharacter : "{8EA17424F2EFB5A7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Medic.et" {
+ coords 234.311 1 63.5
+}
+SCR_ChimeraCharacter : "{94F3D0FCB0D0A7F2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crew.et" {
+ coords 235.194 1 61.948
+}
+SCR_ChimeraCharacter : "{9F33F9CD850ECA42}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_PL.et" {
+ coords 242.522 1 66.43
+}
+SCR_ChimeraCharacter : "{B30DD88AD3E4479D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AT.et" {
+ coords 243.094 1 59.924
+}
+SCR_ChimeraCharacter : "{B3BC4429C695754B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_sapper.et" {
+ coords 241.674 1 57.665
+}
+SCR_ChimeraCharacter : "{BAE74D5A541BB979}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crewCommander.et" {
+ coords 233.916 1 61.813
+}
+SCR_ChimeraCharacter : "{BF9F46425F42029D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_RPO.et" {
+ coords 246.478 1 59.844
+}
+SCR_ChimeraCharacter : "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Unarrmed.et" {
+ coords 235.049 1.002 51.234
+}
+GenericEntity : "{C867CEF614892A30}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_PlumMag.et" {
+ coords 234.181 1 40.551
+}
+SCR_ChimeraCharacter : "{DD31DC48F1BA3AA1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_sniper.et" {
+ coords 236.778 1 56.906
+}
+$grp SCR_ChimeraCharacter : "{E39BF95FA4111FC2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_unarrmed.et" {
+ {
+  components {
+   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+    InitialInventoryItems {
+     ItemsInitConfigurationItem "{695B2A26DFB9FE2D}" {
+     }
+    }
+   }
+  }
+  coords 233.626 1 54.022
+ }
+ {
+  coords 225.018 1 50.843
+ }
+}
+SCR_ChimeraCharacter : "{E4DCEE7AFFFCB442}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_RPO.et" {
+ coords 241.985 1 52.935
+}
+SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Character_RHS_AFRF_Base.et" {
+ coords 230.402 1 54.331
+}
+SCR_ChimeraCharacter : "{F7935AA38DC65302}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Helli.et" {
+ coords 232.046 1 61.943
+}
+SCR_ChimeraCharacter : "{FDDD8BD53FCE67F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AAT.et" {
+ coords 244.814 1 59.892
+}

@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Unarrmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{C867CEF614892A30}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_PlumMag.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{695B0D0A3BEC5E3E}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{695B0D0A07252744}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" ""
+     }
+    }
+    ItemsInitConfigurationItem "{695B0D0A1306FB4C}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

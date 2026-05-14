@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Recon/Char_RHS_RF_Modern_EMR_Recon_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F411329BEBC58515}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_B30_B31S_B33_PT1_RK3_OK7_SD.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     PrefabsToSpawn {
+      "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et" "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et" "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     PrefabsToSpawn {
+      "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et" "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     PrefabsToSpawn {
+      "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et" "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     PrefabsToSpawn {
+      "{95CA2B437ED8DAD2}Prefabs/Weapons/Magazines/Magazine_762x39_AK103_30rnd_7N23.et"
+     }
+    }
+   }
+  }
+ }
+ coords -0.134 0 -0.331
+}

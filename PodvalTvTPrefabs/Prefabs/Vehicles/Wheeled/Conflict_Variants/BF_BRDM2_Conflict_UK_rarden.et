@@ -1,0 +1,111 @@
+Vehicle : "{F7B9B434FCFF00B3}Prefabs/Vehicles/Wheeled/Conflict_Variants/BRDM2_Conflict.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{694A8845DB8CDAA2}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{81753E3509B8CF08}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_FOX_UK.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger {
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "FV721 'Fox'"
+    IconSetName "US"
+    m_sFaction "UK"
+    m_aAutoLabels {
+     FACTION_BRITISH SIZE_M
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1100
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F49BC6FC6C984E}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et"
+     }
+    }
+    MultiSlotConfiguration "{62F49BC6FDB4BE5B}" {
+     SlotTemplate InventoryStorageSlot tourniquet {
+      Prefab "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et"
+     }
+    }
+    MultiSlotConfiguration "{62F49BC471C9DCC6}" {
+     SlotTemplate InventoryStorageSlot kpvt {
+      Prefab "{96DD0591AFDCC579}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_coax_200rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{62F49BC471367410}" {
+     SlotTemplate InventoryStorageSlot pkmt {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62F49BC4717082CC}" {
+     SlotTemplate InventoryStorageSlot ak74mags {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62F49BC472B41FC0}" {
+     SlotTemplate InventoryStorageSlot grenades {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{62F49BC472F0FE05}" {
+     SlotTemplate InventoryStorageSlot smokes {
+      Prefab "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{62F49BC4723FE6A4}" {
+     SlotTemplate InventoryStorageSlot flares {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{62F49BC4727D7B7B}" {
+     SlotTemplate InventoryStorageSlot mines {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{694A8845BBE524A0}" {
+     SlotTemplate InventoryStorageSlot kpvt {
+      Prefab "{16404FA7049468B3}Prefabs/Weapons/Magazines/Magazine_M242/Box_30x137_RARDEN_6rnd_AP.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{694A8845AB19239F}" {
+     SlotTemplate InventoryStorageSlot kpvt {
+      Prefab "{AD84BAFDE5181873}Prefabs/Weapons/Magazines/Magazine_M242/Box_30x137_RARDEN_6rnd_HE.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "UK"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.84 0
+     Prefab "{70A6B69EE8854C65}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/BF_LAV25_turret_Fox_rarden.et"
+    }
+   }
+  }
+ }
+ coords -4.627 0 -0.618
+}

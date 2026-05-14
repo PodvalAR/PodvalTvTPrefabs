@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F0365B9A98D78F07}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_Saboteur_random_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

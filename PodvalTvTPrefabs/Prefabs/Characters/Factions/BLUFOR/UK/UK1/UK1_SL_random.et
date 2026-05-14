@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{26ACCE7333F6CB13}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#BritishForces-Role_SectionCommander"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{A3E19E754552334B}Prefabs/Items/Equipment/Radios/Radio_PRC351.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
+     TargetStorage "Pants/Trousers_Combat_84Pat_DPM_01.et"
+     PrefabsToSpawn {
+      "{6C4B0814BB01611D}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Singl.et"
+     }
+    }
+   }
+  }
+ }
+}

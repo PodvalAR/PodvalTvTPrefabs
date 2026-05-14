@@ -1,0 +1,25 @@
+Vehicle : "{90DFEA5887596E2D}Prefabs/Vehicles/Helicopters/MH-6J/AH-6J_Base_M134.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "AH-6J | M134 - M260 HEDP"
+    m_Image "{026802077D573538}UI/Icons/AH6_M260.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 4000
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WeaponRackSlotInfo AH6_WeaponRack {
+     MergePhysics 1
+     Prefab "{0E4B8A752F3ECBFE}Prefabs/Vehicles/Helicopters/MH-6J/VehParts/WeaponSystems/AH6_WeaponRack_Full_M260_HEDP.et"
+     DisablePhysicsInteraction 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{051D24F3E7B428C7}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/Character_UK_1989_SpecialForces_RadioTrooper_random_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -21,6 +21,11 @@ SCR_ChimeraCharacter : "{D1C9C38D76278ABE}Prefabs/Characters/Factions/BLUFOR/RHS
       "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
+    ItemsInitConfigurationItem "{69374A4B912ACF31}" {
+     PrefabsToSpawn {
+      "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
    }
   }
  }

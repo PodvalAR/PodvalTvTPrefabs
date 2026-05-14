@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{5BB4228B5665F78A}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#BritishForces-Role_Section2IC"
+   }
+  }
+ }
+}

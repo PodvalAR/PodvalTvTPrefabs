@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{E39BF95FA4111FC2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_unarrmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ADD4BADCCFBF7AD0}Prefabs/Weapons/Rifles/AKM/Rifle_AKM_SteelMag_PBS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6712676F008320E1}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_Camo2_Balaclava.et"
+    }
+   }
+  }
+ }
+}
