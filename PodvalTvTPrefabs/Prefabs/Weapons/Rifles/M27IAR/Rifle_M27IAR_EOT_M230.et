@@ -6,10 +6,16 @@ GenericEntity : "{DFFC1A710376FCFC}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_EO
     AttachmentSlotComponent "{5CF88C80AF78DA73}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot PicattinyRailTop {
       Offset -0.0019 0.0928 0.1196
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{6950C60567E0B6D4}" {
+     AttachmentSlot InventoryStorageSlot "{6950C605746996BD}" {
       Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
      }
     }
    }
   }
  }
+ coords 169.567 1.327 238.222
 }

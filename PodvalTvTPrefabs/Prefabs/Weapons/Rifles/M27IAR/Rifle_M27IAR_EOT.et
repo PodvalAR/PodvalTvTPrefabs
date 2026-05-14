@@ -11,7 +11,17 @@ GenericEntity : "{66AAEDA477051298}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR.et
     MuzzleComponent "{CA6BE4D6B867541F}" {
      MagazineTemplate "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
     }
+    AttachmentSlotComponent "{6950C60567E0B6D4}" {
+     AttachmentSlot InventoryStorageSlot "{6950C605746996BD}" {
+      PivotID "barrel_chamber"
+      MergePhysics 1
+      InspectionWidgetOffset 0 0.0455 0.2487
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{6950C6057EA94891}" {
+     }
+    }
    }
   }
  }
+ coords 171.655 1.153 237.864
 }
