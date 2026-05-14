@@ -4,6 +4,13 @@ SCR_ChimeraCharacter : "{94D32EE566A604D4}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C4C8114EA48B8978}Prefabs/Weapons/Rifles/M27IAR/M27_IAR_SU230.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
+   }
+  }
  }
- coords 139.853 1 131.734
+ coords 6516.618 215.231 2412.193
 }

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{974BDF9B605AC115}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Medic.et" {
+SCR_ChimeraCharacter : "{974BDF9B605AC115}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Medic.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
@@ -8,6 +8,9 @@ SCR_ChimeraCharacter : "{974BDF9B605AC115}Prefabs/Characters/Factions/INDFOR/RHS
     }
     LoadoutSlotInfo Jacket {
      Prefab "{940ECDB0F69CBC5E}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Brand.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{C0F5CD383250FC96}Prefabs/Characters/Vests/Vest_SNS_PlateFrame/GD_SNS_Black.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{91D84F0E37E17441}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_Black_Dirty.et"
@@ -34,5 +37,5 @@ SCR_ChimeraCharacter : "{974BDF9B605AC115}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 5313.897 250.531 3362.265
+ coords 185.138 1 70.96
 }

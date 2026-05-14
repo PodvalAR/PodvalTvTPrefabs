@@ -37,6 +37,7 @@ SCR_ChimeraCharacter : "{371AD84E1186DC6A}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Jacket/GD_USMC_Frog_Shirt.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
       "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
      }
@@ -86,5 +87,5 @@ SCR_ChimeraCharacter : "{371AD84E1186DC6A}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 82.68 1 232.646
+ coords 172.569 1 107.447
 }

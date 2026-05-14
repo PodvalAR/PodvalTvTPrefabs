@@ -37,7 +37,7 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK/
      Prefab "{B3A77D1B193C84D4}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_Multicam.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+     Prefab "{91F7B81D1A3655FC}Prefabs/Characters/Footwear/CombatBoots_BCT_black.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{89E9C2AA886E3C07}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/UK/JPC_Kit_2_UK.et"
@@ -136,5 +136,5 @@ SCR_ChimeraCharacter : "{542CBB6908CA71D8}Prefabs/Characters/Factions/BLUFOR/UK/
    }
   }
  }
- coords 146.157 1 88.809
+ coords 143.665 1 53.209
 }

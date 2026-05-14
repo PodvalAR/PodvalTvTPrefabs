@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{8C2948BE9CB45C25}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Pants/Pants_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Vest/Vest_PCGen_II_filbe.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{673751677F8CDF0B}" {
      TargetStorage "Vest/Vest_PCGen_II_filbe.et/pouch3/Pouch_FILBE_doubleM4_3.et"
@@ -78,5 +78,5 @@ SCR_ChimeraCharacter : "{8C2948BE9CB45C25}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 81.723 1 232.659
+ coords 173.852 1 107.589
 }

@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{0106C3573DB78928}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_GoggleON.et"
+     Prefab "{FB1CB7DCA1830FC3}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6b50_1.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
@@ -25,9 +25,13 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     Enabled 0
+    }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
      TargetStorage "Back/Backpack_RPG_Assistant.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn + {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
@@ -42,5 +46,5 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 5278.729 11.594 9039.758
+ coords 161.324 1 83.533
 }

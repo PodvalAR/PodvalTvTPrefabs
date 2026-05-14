@@ -23,7 +23,7 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+     Prefab "{F26A3F214A9DFE31}Prefabs/Items/Equipment/Radios/Radio_R107M_RF_6Sh117.et"
     }
    }
   }
@@ -37,13 +37,24 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
-     TargetStorage "Vest/GD_6B45_SL.et/up101/Pouch_wartech_magpouch_mp105_3_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL.et/appi/Pouch_Ratnik_appi_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
      TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+     PrefabsToSpawn + {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL.et/uni2/Pouch_Ratnik_Uni_Pouch_2.et"
     }
    }
   }
  }
- coords 48.837 1 48.99
+ coords 14769.899 50.906 12209.65
 }

@@ -14,6 +14,9 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
     LoadoutSlotInfo Jacket {
      Prefab "{13A76CA95749F75D}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Shirt_Red.et"
     }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{0B2BA2C82B2FDC72}Prefabs/Characters/Vests/Vest_LV119/GD_LV119_Black.et"
+    }
     LoadoutSlotInfo Pants {
      Prefab "{91D84F0E37E17441}Prefabs/Characters/Uniforms/Pants_Trousers_01/GD_Pants_Trousers_01_Black_Dirty.et"
     }
@@ -60,5 +63,5 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 18.571 1 73.829
+ coords 176.557 1 71.146
 }

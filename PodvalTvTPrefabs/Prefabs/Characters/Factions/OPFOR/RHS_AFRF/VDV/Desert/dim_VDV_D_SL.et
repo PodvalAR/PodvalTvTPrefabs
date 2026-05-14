@@ -1,0 +1,98 @@
+SCR_ChimeraCharacter : "{820D405FE6ECA735}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F996AB0BFC9C765E}Prefabs/Characters/HeadGear/Helmet_6B47/Desert/6M2-1/Helmet_6B47_Syria_Goggle_Headset.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{50B10F8CACF2E61C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_Syria.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{32FDD445D102AA49}Prefabs/Items/Equipment/Radios/Radio_R107M_RF_6Sh117_Desert.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{5B51282B6A96A8DB}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_Desert/Vest_6Sh117_6B45_Pouches_SL_Desert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C13411A7E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/slot2/ak_pouch_syria_2.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C1A703648}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/slot3/ak_pouch_syria_3.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C2587DB41}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C25C7C2C6}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO_syrian.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C346D7F9E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/arsbelt/GND_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C37FA3A8E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/arsbelt2/GND_Pouch_3_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C373D24A4}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/arsbelt_pistol2/GND_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C377BB432}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4C944515}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4E2B06F1}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/grd4/GND_Pouch_4_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C608BE999FB4}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/appi/appi_pouch_syria.et"
+     PrefabsToSpawn {
+      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et" "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C608BECADB08}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/Mag_Pistol/GD_Ratnik_PistolPouch_Syria.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C608BE3EF826}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL_Desert.et/slot/GD_Ratnik_Holster_Syria.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+   }
+  }
+ }
+ coords 119.959 1 112.349
+}

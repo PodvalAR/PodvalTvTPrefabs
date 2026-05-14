@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{E70FC9BE29DD4945}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Командир роты"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8026745EB28227B0}Prefabs/Weapons/Rifles/AK200/AK200_VDV_1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+    }
+   }
+  }
+ }
+ coords 208.329 1 246.94
+}

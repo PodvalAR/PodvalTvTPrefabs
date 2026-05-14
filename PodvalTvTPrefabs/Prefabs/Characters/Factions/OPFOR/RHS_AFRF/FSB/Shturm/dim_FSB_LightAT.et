@@ -17,6 +17,26 @@ SCR_ChimeraCharacter : "{012A86F6711E5FA2}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C7714145469608}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68C771415B1D9767}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68C77141616B5FCA}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68C77147B8F1DED8}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
  }
- coords 68.587 1 132.021
+ coords 138.735 1 194.688
 }

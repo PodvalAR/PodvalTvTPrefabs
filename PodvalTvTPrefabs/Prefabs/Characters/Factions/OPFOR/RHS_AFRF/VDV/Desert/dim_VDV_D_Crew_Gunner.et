@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{820D405FE6ECA735}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Crew_Gunner"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{099AE885BB314867}Prefabs/Characters/Vests/Vest_Ratnik3K_6B48/Vest_Ratnik_6B48.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{DBF82226B236B6B6}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_Desert/Vest_6Sh117_6B45_Pouches_Crew_Desert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6950C60C13411A7E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/slot/ak_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C1A703648}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/slot2/ak_pouch_syria_2.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C2587DB41}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/slot3/ak_pouch_syria_3.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C25C7C2C6}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/slot4/ak_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C346D7F9E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/arsbelt/GND_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C37FA3A8E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/arsbelt2/GND_Pouch_3_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C373D24A4}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/arsbelt_pistol2/GND_Pouch_4_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C377BB432}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4C944515}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4E2B06F1}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew_Desert.et/appi/GND_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60BF7A425D8}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 6425.853 214.563 2366.132
+}

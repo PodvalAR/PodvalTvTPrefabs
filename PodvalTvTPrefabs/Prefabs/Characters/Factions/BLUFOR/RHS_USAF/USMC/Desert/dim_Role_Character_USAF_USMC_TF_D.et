@@ -38,7 +38,7 @@ SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Jacket/Shirt_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Vest/GEN2_TF_Pouches.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
      TargetStorage "Vest/GEN2_TF_Pouches.et/filbe/Pouch_FILBE_doubleM4_3.et"
@@ -64,6 +64,12 @@ SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6720F9CF6EC9F0D2}" {
      TargetStorage "Vest/GEN2_TF_Pouches.et/pistol2/Pouch_Filbe_M67_2.et"
     }
+    ItemsInitConfigurationItem "{6720F9CF7F892BA2}" {
+     TargetStorage "Vest/GEN2_TF_Pouches.et/flex3/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
     ItemsInitConfigurationItem "{6720F9CCE45EA295}" {
      TargetStorage "Vest/GEN2_TF_Pouches.et/blueforce/Pouch_Blueforce_Tri.et"
      PrefabsToSpawn {
@@ -80,13 +86,19 @@ SCR_ChimeraCharacter : "{4B7BF5D744A5B2A1}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/GEN2_TF_Pouches.et/Holster/GD_Holster_SLS_Tan_RLeg.et"
     }
     ItemsInitConfigurationItem "{6737517A948353D6}" {
-     TargetStorage "Vest/GEN2_TF_Pouches.et/flex2/Pouch_Shaw_Flex_MC.et"
+     TargetStorage "Vest/GEN2_TF_Pouches.et/flex2/Pouch_Shaw_Flex.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950EDDD6F291384}" {
+     TargetStorage "Vest/GEN2_TF_Pouches.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
    }
   }
  }
- coords 78.903 1 232.912
+ coords 92.857 1 184.072
 }

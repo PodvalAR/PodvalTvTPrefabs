@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{03FF161D3AC1E1E0}Prefabs/Characters/Uniforms/VKPO/Prefabs/Field_Jacket_VKPO_syrian.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3AF71F9ACC9B7AC5}Prefabs/Characters/Uniforms/VKPO/Prefabs/Field_Pants_VKPO_syrian.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8C3121C7FB112534}Prefabs/Characters/Footwear/Tropico_army_boots/Tropico_army_boots.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Field_Pants_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Field_Pants_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO_syrian.et"
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
+   }
+  }
+ }
+ coords 179.908 1 235.863
+}

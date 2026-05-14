@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F7F72FA887441FD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/MP/dim_VDV_D_MP_SR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

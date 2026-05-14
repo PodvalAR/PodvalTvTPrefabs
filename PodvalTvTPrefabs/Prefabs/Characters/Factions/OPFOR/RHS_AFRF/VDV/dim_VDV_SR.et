@@ -14,7 +14,7 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Старший стрелок"
+    Name "#PDVL_Role_SR"
     Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
@@ -24,13 +24,13 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{0106C3573DB78928}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_GoggleON.et"
+     Prefab "{5496CD34F8FA7608}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_emr_kondor.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{CAEDE923EF4071AE}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+     Prefab "{2D0591BC71661B0C}Prefabs/Items/Equipment/Backpacks/6Sh117_Backpack/GD_6Sh117_Patrol_Backpack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{F2CDEEC8922366C2}Prefabs/Characters/Vests/6B45_Kits/GD_6B45_GL.et"
+     Prefab "{27EA966BE91789D1}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_GL_2.et"
     }
    }
   }
@@ -42,49 +42,70 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
-     Enabled 0
-    }
-    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
-     TargetStorage "Vest/GD_6B45_GL.et/Etool/Pouch_wartech_magpouch_mp105_EMR.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
-     TargetStorage "Vest/GD_6B45_GL.et/MagPouch2/Pouch_wartech_magpouch_mp105_EMR.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
-     TargetStorage "Vest/GD_6B45_GL.et/MagPouch3/Pouch_wartech_magpouch_mp105_EMR.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
-     TargetStorage "Vest/GD_6B45_GL.et/Pouch2/Pouch_Ratnik_ak_2_pouch.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
-     TargetStorage "Vest/GD_6B45_GL.et/Pouch1/Pouch_Ratnik_ak_1_pouch.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
-     TargetStorage "Back/Backpack_Suharka_type1.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
-     TargetStorage "Back/Backpack_Suharka_type1.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
-     TargetStorage "Back/Backpack_Suharka_type1.et"
-    }
-    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
-     TargetStorage "Back/Backpack_Suharka_type1.et"
+     Enabled 1
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/holster/Pouch_Ratnik_vog_pouch_new2.et"
      PrefabsToSpawn {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
      }
     }
-    ItemsInitConfigurationItem "{68A2CC33A2CB989F}" {
-     TargetStorage "Vest/GD_6B45_GL.et/GL/Pouch_Ratnik_vog_pouches.et"
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/slot/Pouch_Ratnik_ak_pouch_new_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/slot2/Pouch_Ratnik_ak_pouch_new_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/slot3/Pouch_Ratnik_ak_pouch_new_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
      PrefabsToSpawn {
-      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/slot4/Pouch_Ratnik_ak_pouch_new_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/appi/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+     PrefabsToSpawn + {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
-     TargetStorage "Back/Backpack_Suharka_type1.et"
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/uni2/Pouch_Ratnik_Uni_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/Knife/Pouch_6x9Scabbard.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33A2CB989F}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_2.et/radio/Pouch_Ratnik_vog_pouch_new.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6947746596A54E59}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"
+     }
     }
    }
   }
  }
- coords 5278.345 11.594 9040.104
+ coords 195.41 1 240.977
 }

@@ -7,15 +7,15 @@ SCR_ChimeraCharacter : "{7942754277E36531}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{55EA85AD2C463025}Prefabs/Weapons/SVD/dim_SVDM.et"
+   WeaponTemplate "{55EA85AD2C463025}Prefabs/Weapons/Rifles/SVD/dim_SVDM.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{A5ADF9B6B8E27D27}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_White_Mask_Winter.et"
+     Prefab "{5A0C4A7E498EE8D0}Prefabs/Characters/HeadGear/Helmet_6B47/Winter/Helmet_6b47_Cover_Winter_Mask_Headset_2.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
+     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/Suit_6Sh122/GD_SH122_Suit_Klyaksa.et"
     }
     LoadoutSlotInfo Pants {
      Prefab ""
@@ -67,5 +67,5 @@ SCR_ChimeraCharacter : "{7942754277E36531}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 3813.12 54.987 4384.458
+ coords 127.567 1 66.417
 }

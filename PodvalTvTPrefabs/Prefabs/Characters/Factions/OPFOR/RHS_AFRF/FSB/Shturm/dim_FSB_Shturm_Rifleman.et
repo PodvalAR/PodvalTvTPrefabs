@@ -46,25 +46,25 @@ SCR_ChimeraCharacter : "{176649703E4F9DFE}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68C7714145469608}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag1/Pouch_KBS_Mag_1.et"
      PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
      }
     }
     ItemsInitConfigurationItem "{68C771415B1D9767}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag2/Pouch_KBS_Mag_2.et"
      PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
      }
     }
     ItemsInitConfigurationItem "{68C7714164D65516}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag3/Pouch_KBS_Mag_3.et"
      PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
      }
     }
     ItemsInitConfigurationItem "{68C77141616B5FCA}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/mag4/Pouch_KBS_Mag_4.et"
      PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
      }
     }
     ItemsInitConfigurationItem "{68C7714162F87DBB}" {
@@ -82,11 +82,11 @@ SCR_ChimeraCharacter : "{176649703E4F9DFE}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68C77147B8F1DED8}" {
      TargetStorage "Vest/Vest_KBS_Strelok_preset_rifleman1_heavy.et/admin/Pouch_KBS_Admin_base.et"
      PrefabsToSpawn {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et" "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
      }
     }
    }
   }
  }
- coords 68.934 1 141.552
+ coords 140.724 1 194.851
 }

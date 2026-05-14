@@ -9,10 +9,13 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     Prefab "{7D72E750E7EA924D}Prefabs/Characters/Uniforms/Jacket_Parka/Jacket_Parka_3_MulticamAlpine.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{E157F34E92F107D9}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_In_V2_Winter.et"
+     Prefab "{A2D14AE64904F25D}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_MCAlpine.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
@@ -22,13 +25,13 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
-     TargetStorage "Pants/GD_USMC_Pants_In_V2_Winter.et"
+     TargetStorage "Pants/Pants_CCUE_MCAlpine.et"
     }
     ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
-     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     TargetStorage ""
     }
     ItemsInitConfigurationItem "{68DAB33492420C29}" {
-     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     TargetStorage "Jacket/Jacket_Parka_3_MulticamAlpine.et"
     }
     ItemsInitConfigurationItem "{690D036E07EB2572}" {
      TargetStorage "Back/FILBE_Backpack.et"
@@ -39,5 +42,5 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4561.766 19.901 2123.688
+ coords 95.646 1 65.449
 }

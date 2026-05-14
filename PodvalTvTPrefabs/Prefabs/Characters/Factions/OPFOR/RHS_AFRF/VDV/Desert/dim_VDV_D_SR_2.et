@@ -1,0 +1,59 @@
+SCR_ChimeraCharacter : "{9A1725464C4E75DC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{89FFA4F316E327E9}Prefabs/Weapons/Rifles/AK200/AK200_GP.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{74039BFF9FBF8A91}Prefabs/Characters/HeadGear/Helmet_6B47/Desert/Helmet_6B47_Syria_Cover_2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{13D9D19860A2872C}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_Desert/Vest_6Sh117_6B45_Pouches_GL_Desert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6950C60C13411A7E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/slot/ak_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C1A703648}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/slot2/ak_pouch_syria_2.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C2587DB41}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/slot3/ak_pouch_syria_3.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C25C7C2C6}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/slot4/ak_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C346D7F9E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/arsbelt/GND_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C37FA3A8E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/arsbelt2/GND_Pouch_3_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C373D24A4}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/arsbelt_pistol2/GND_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C377BB432}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/appi/GND_Pouch_4_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4C944515}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4E2B06F1}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C6080BC917CF}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/radio/vog_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C6080B2170F9}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_GL_Desert.et/holster/vog_pouch_syria_2.et"
+    }
+   }
+  }
+ }
+ coords 117.048 1 113.205
+}

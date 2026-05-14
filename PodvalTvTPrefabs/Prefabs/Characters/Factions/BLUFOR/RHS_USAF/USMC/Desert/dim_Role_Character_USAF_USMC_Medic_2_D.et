@@ -43,7 +43,7 @@ SCR_ChimeraCharacter : "{F22AB385BF67D88C}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Jacket/Shirt_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Vest/GEN2_Medic_Pouches.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
      TargetStorage "Vest/GEN2_Medic_Pouches.et/flex2/Pouch_FILBE_doubleM4_2.et"
@@ -75,8 +75,15 @@ SCR_ChimeraCharacter : "{F22AB385BF67D88C}Prefabs/Characters/Factions/BLUFOR/RHS
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
+    ItemsInitConfigurationItem "{6720F9CCE45EA295}" {
+     Enabled 1
+     TargetStorage "Vest/GEN2_Medic_Pouches.et/flex/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
    }
   }
  }
- coords 86.345 1 232.473
+ coords 170.306 1 114.183
 }

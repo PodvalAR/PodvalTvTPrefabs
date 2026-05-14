@@ -9,10 +9,10 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{6335734EF68F79FD}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_Mask_White_Winter.et"
+     Prefab "{0B066D9632E39B7D}Prefabs/Characters/HeadGear/Helmet_6B47/Winter/6B50/Helmet_6b47_Cover_Winter_6b50_2.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
+     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/Suit_6Sh122/GD_SH122_Suit_Klyaksa.et"
     }
     LoadoutSlotInfo Pants {
      Prefab ""
@@ -28,6 +28,9 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
     }
     ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
      TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
     }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
@@ -61,5 +64,5 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 111.359 1 224.344
+ coords 125.797 1 66.757
 }

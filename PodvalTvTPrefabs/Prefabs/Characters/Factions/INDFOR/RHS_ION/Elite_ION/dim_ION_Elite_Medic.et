@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Elite_ION/dim_ION_Elite_Rifleman.et" {
+SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -12,16 +12,16 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Crye_Jacket/GD_Crye3_Rolled_BlackMC.et"
+     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_Rolled_BlackMC.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{15FA099B337F6BBA}Prefabs/Characters/Vests/SNS_PlateFrame/GD_SNS_Black.et"
+     Prefab "{C0F5CD383250FC96}Prefabs/Characters/Vests/Vest_SNS_PlateFrame/GD_SNS_Black.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{5E58E25D9FFF8C48}Prefabs/Items/Equipment/Backpacks/MR_TRIZIP/GD_MR_TRIZIP_Black.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{1A7935FE622451A5}Prefabs/Characters/Vests/SNS_PlateFrame/Kits/SNS_ION_V1.et"
+     Prefab "{1A7935FE622451A5}Prefabs/Characters/Vests/Vest_SNS_PlateFrame/Kits/SNS_ION_V1.et"
     }
    }
   }
@@ -93,5 +93,5 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
    }
   }
  }
- coords 4816.189 308.848 5887.409
+ coords 174.414 1 71.513
 }

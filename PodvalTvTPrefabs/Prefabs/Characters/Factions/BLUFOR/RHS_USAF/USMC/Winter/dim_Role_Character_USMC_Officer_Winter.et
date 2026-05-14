@@ -1,35 +1,41 @@
-SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Role_Character_USAF_USMC_Officer.et" {
+SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/dim_Role_Character_USAF_USMC_Officer.et" {
  ID "520EC961A090B1EE"
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{08B328972401CAEF}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Tan.et"
+     Prefab "{08B328972401CAEF}Prefabs/Characters/HeadGear/Hat_Beanie/GD_Beanie_Tan.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{87A20B3071F1F516}Prefabs/Characters/Uniforms/Jacket/GD_Jacket_Winter.et"
+     Prefab "{7D72E750E7EA924D}Prefabs/Characters/Uniforms/Jacket_Parka/Jacket_Parka_3_MulticamAlpine.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{18EDBBD3D38C5691}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_In_Winter.et"
+     Prefab "{A2D14AE64904F25D}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_MCAlpine.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
+     TargetStorage "Pants/Pants_CCUE_MCAlpine.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
+     TargetStorage "Pants/Pants_CCUE_MCAlpine.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/GD_Jacket_Winter.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/GD_Jacket_Winter.et"
+     TargetStorage "Jacket/Jacket_Parka_3_MulticamAlpine.et"
+    }
+    ItemsInitConfigurationItem "{6720F9C14E342086}" {
+     TargetStorage "Jacket/Jacket_Parka_3_MulticamAlpine.et"
     }
    }
   }
  }
- coords 1080.892 15.25 762.828
+ coords 96.583 1 65.964
 }

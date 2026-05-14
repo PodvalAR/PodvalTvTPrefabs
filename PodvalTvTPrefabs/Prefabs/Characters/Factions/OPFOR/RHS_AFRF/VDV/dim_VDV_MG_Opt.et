@@ -8,21 +8,21 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{E5E6AC89265603E7}Prefabs/Weapons/MachineGuns/PKM/dim_MG_PKP_1P78_7n14.et"
+   WeaponTemplate "{F3BA8BCC118DAF35}Prefabs/Weapons/MachineGuns/PKM/dim_MG_PKP_7N14_1P29.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{981421FB8D641F1D}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggleON_NoMC.et"
+     Prefab "{35F14FC54DDF3AEF}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6b50_Mask.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
+     Prefab "{2D0591BC71661B0C}Prefabs/Items/Equipment/Backpacks/6Sh117_Backpack/GD_6Sh117_Patrol_Backpack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{CCB46533102B7298}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_BebraPKM_1.et"
+     Prefab "{0BE9BAF58D72AAC7}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_PKM.et"
     }
    }
   }
@@ -37,13 +37,13 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
-     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/radio/Pouch_Mordor_PKM_EMR.et"
      PrefabsToSpawn {
       "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
-     TargetStorage "Vest/Vest_Ratin6B45_BebraPKM_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/arsbelt/Pouch_Mordor_PKM_EMR.et"
      PrefabsToSpawn {
       "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
@@ -61,25 +61,34 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 0
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
-     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
      PrefabsToSpawn {
       "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
-     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/slot2/Pouch_Ratnik_GND_Pouch_1.et"
     }
     ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
-     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/slot4/Pouch_Ratnik_GND_Pouch_3.et"
     }
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
-     TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
     }
     ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
      TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
     }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{694745885564C54D}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_PKM.et/uni2/Pouch_Ratnik_Uni_Pouch_2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
    }
   }
  }
- coords 5277.225 11.594 9037.765
+ coords 167.613 1 83.264
 }

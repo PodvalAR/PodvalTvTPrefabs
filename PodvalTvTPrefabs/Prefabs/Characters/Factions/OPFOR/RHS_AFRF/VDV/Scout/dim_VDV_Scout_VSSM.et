@@ -4,31 +4,49 @@ SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Диверсант-снайпер"
-    Icon "{141B98C585768CC4}UI/Icons/VDV.edds"
+    Icon "{141B98C585768CC4}UI/Icons/dim/VDV.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F82DF06C1E34128E}Prefabs/Weapons/Rifles/VSS/Rifle_VSS.et"
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{DC1C620336F0283A}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggle_NoMC.et"
+     Prefab "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3E96F1007C62980B}Prefabs/Characters/Vests/Vest_6Sh117/Vest_6SH117.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Boots {
     }
     LoadoutSlotInfo Back {
      Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{E7ABEDAB855ED764}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouches_6b45_Sniper.et"
+     Prefab "{3EF5689DDFB53F1D}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_Marksman.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
     ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
      TargetStorage "Jacket/Jacket_6b51_VKPO.et"
     }
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
@@ -41,45 +59,71 @@ SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 0
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
-     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch4/Pouch_Ratnik_Small1.et"
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/slot/Pouch_Ratnik_Uni_Pouch_2.et"
      PrefabsToSpawn {
       "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
-     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch3/Pouch_Ratnik_Small1.et"
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/slot2/Pouch_Ratnik_Uni_Pouch_1.et"
      PrefabsToSpawn {
       "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
-     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch2/Pouch_Ratnik_Small1.et"
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/slot3/Pouch_Ratnik_Uni_Pouch_1.et"
      PrefabsToSpawn {
       "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
-     TargetStorage "Vest/Pouches_6b45_Sniper.et/SVD_Pouch1/Pouch_Ratnik_Small1.et"
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/appi/Pouch_Ratnik_Uni_Pouch_2.et"
      PrefabsToSpawn {
       "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
-     TargetStorage "Back/Backpack_Suharka_type2.et"
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
      PrefabsToSpawn {
-      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
-     TargetStorage "Vest/Pouches_6b45_Sniper.et/RGD_Pouch2/Pouch_Ratnik_Small2.et"
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/holster/Pouch_Ratnik_GND_Pouch_4.et"
     }
     ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
-     Enabled 0
+     Enabled 1
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
     }
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Jacket/Jacket_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{6950C61CBACD77C9}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/uni2/Pouch_Ratnik_appi_pouch_new.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C61CBA267C9D}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/PistolHolster/GD_Ratnik_Holster.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C61CBA3FEA7D}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_Marksman.et/Mag_Holster/GD_Ratnik_PistolPouch.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
     }
    }
   }
  }
- coords 28.216 1 60.989
+ coords 223.04 1 185.367
 }

@@ -10,13 +10,27 @@ SCR_ChimeraCharacter : "{384685D103D1E575}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{73B08DC1499E8FE2}Prefabs/Characters/HeadGear/All_Cap/Variants/Desert Ver/Front/GD_Cap_Tan (Headphones).et"
+     Prefab "{0DA65B7332CA3BAD}Prefabs/Characters/HeadGear/USMC_8Point/USMC_8Point.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+   }
+  }
  }
- coords 6096.573 124.201 6141.788
+ coords 6457.252 214.344 2380.497
+ angles 0 60 0
 }

@@ -6,16 +6,79 @@ SCR_ChimeraCharacter : "{FBD41570B0C083C3}Prefabs/Characters/Factions/OPFOR/RHS_
     Name "Диверсант-пулеметчик"
    }
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{6025FB293D0597C1}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_Mask.et"
+     Prefab "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3E96F1007C62980B}Prefabs/Characters/Vests/Vest_6Sh117/Vest_6SH117.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4C58E7E43DDE2123}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_PKM.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/radio/Pouch_Mordor_PKM_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/arsbelt/Pouch_Mordor_PKM_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     Enabled 1
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/slot2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/slot4/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/uni2/Pouch_Ratnik_Uni_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{694745885564C54D}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM.et/uni2/Pouch_Ratnik_Uni_Pouch_2.et"
+    }
+   }
+  }
  }
- coords 32.311 1 60.365
+ coords 224.605 1 185.152
 }

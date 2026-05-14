@@ -16,12 +16,13 @@ SCR_ChimeraCharacter : "{30022753C96FAA6B}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
      PrefabsToSpawn {
-      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }
     }
    }
   }
  }
- coords 5112.023 57.469 3694.567
+ coords 115.317 1 221.783
 }

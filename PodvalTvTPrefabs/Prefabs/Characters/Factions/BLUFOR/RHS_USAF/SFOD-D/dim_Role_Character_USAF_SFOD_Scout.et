@@ -61,7 +61,7 @@ SCR_ChimeraCharacter : "{1D4A3A741DBFCBAC}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{672165276C1FD37A}" {
-     TargetStorage "Vest/GD_Multicam_USA_Var1.et/m67_2/JPC_Holster_Work.et"
+     TargetStorage "Vest/GD_Multicam_USA_Var1.et/m67_2/GD_Holster_SLS_RLeg.et"
      PrefabsToSpawn {
       "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
      }
@@ -69,6 +69,6 @@ SCR_ChimeraCharacter : "{1D4A3A741DBFCBAC}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 221.7 1 187.803
+ coords 186.704 1 97.523
  angles 0 0 0
 }

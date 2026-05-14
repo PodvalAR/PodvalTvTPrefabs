@@ -1,0 +1,14 @@
+SCR_AIGroup : "{39C6183A810AE059}Prefabs/Groups/BLUFOR/RHS_USAF/USMC/Summer/dim_USMC_HQ.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68B17A4378FC6401}" {
+   m_iCompanyCallsign 1
+  }
+ }
+ coords 13658.448 30.469 5862.747
+ angles 0 100.691 0
+ m_aUnitPrefabSlots {
+  "{47AC6CA0211A48A5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_SL.et" "{406B96F1479CF266}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_TL.et" "{2A249DBF139EEAB6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_AR.et" "{27F1E39EE429839C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_GL.et" "{7B298DFC5E2E5EB1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_Rifleman.et" "{89287B074086182C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_TL_2.et" "{2A249DBF139EEAB6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_AR.et" "{27F1E39EE429839C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_GL.et" "{BFF29AC77BE9C57E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/New/dim_USMC_W_Rifleman_4.et"
+ }
+ m_sCustomNameSet "Отряд USMC"
+}

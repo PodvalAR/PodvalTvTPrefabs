@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/GD_Multicam_USA_Var2.et/Pouch1/Pouch_avs_front_elastic_MC.et"
     }
     ItemsInitConfigurationItem "{672165274B86F0C5}" {
-     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt2/Pouch_Shaw_Flex.et"
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt2/Pouch_Shaw_Flex_MC.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
@@ -78,7 +78,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6721652695B6D214}" {
-     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt/Pouch_Shaw_Flex.et"
+     TargetStorage "Vest/GD_Multicam_USA_Var2.et/flexbelt/Pouch_Shaw_Flex_MC.et"
      PrefabsToSpawn {
       "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
      }
@@ -93,5 +93,5 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 227.04 1 177.434
+ coords 185.934 1 97.727
 }

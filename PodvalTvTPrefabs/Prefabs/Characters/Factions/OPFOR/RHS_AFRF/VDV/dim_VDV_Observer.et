@@ -1,0 +1,118 @@
+SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Observer"
+    Icon "{DCF0F63BF8F4B59B}UI/Icons/spotter.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{04389848D634EB81}Prefabs/Weapons/Rifles/VSS/dim_Rifle_VSSM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5E0A0717912CB2A9}Prefabs/Characters/HeadGear/Helmet_LShZ/dim_Helmet_LShZ_new_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6EFF865371B14546}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MC_GroinTriple.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A36DB549076733A1}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_Autumn.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{EBEACA9AB65AAA90}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_MC2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69515242A7A60E7D}" {
+     TargetStorage "Vest/Vest_TV115_Rifleman_MC2.et/triple/pouch_tv115_MC.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69515242B1313897}" {
+     TargetStorage "Vest/Vest_TV115_Rifleman_MC2.et/pistol/Pouch_HP103_Holster_MC.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69515242BAD7E21B}" {
+     TargetStorage "Vest/Vest_TV115_Rifleman_MC2.et/up118/Pouch_UP118_fannypack_MC.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69515242D4D37847}" {
+     TargetStorage "Vest/Vest_TV115_Rifleman_MC2.et/admin/Pouch_UP101_Admin_big_MC.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{695361DADC223F7E}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{695361DADFEEB8F2}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+   }
+  }
+ }
+ coords 15295.835 44.187 13971.282
+}

@@ -9,41 +9,89 @@ SCR_ChimeraCharacter : "{7942754277E36531}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{55EA85AD2C463025}Prefabs/Weapons/Rifles/SVD/dim_SVDM.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D7F87CE59E067534}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_HC_emr_6m2_1_kondor.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2D0591BC71661B0C}Prefabs/Items/Equipment/Backpacks/6Sh117_Backpack/GD_6Sh117_Patrol_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4859FEDC4C33AFAC}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_Marksman.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
      Enabled 0
     }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot4/Pouch_Ratnik_azart_pouch_new.et"
+    }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot/Pouch_Ratnik_Uni_Pouch_2.et"
      PrefabsToSpawn {
       "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot2/Pouch_Ratnik_Uni_Pouch_1.et"
      PrefabsToSpawn {
       "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot3/Pouch_Ratnik_Uni_Pouch_1.et"
      PrefabsToSpawn {
       "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/appi/Pouch_Ratnik_Uni_Pouch_2.et"
      PrefabsToSpawn {
       "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
      PrefabsToSpawn {
-      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }
     }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/holster/Pouch_Ratnik_GND_Pouch_4.et"
+    }
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
-     TargetStorage "Back/Backpack_Suharka_type2.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{6947458FBFA9B02F}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6947458FC10CD0CF}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/PistolHolster/GD_Ratnik_Holster.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6947458FC17C8050}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/Mag_Holster/GD_Ratnik_PistolPouch.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
     }
    }
   }
  }
- coords 4520.041 11.156 8843.745
+ coords 14895.403 50.906 12240.312
 }

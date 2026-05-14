@@ -1,0 +1,102 @@
+SCR_ChimeraCharacter : "{820D405FE6ECA735}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sharpshooter"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{55EA85AD2C463025}Prefabs/Weapons/Rifles/SVD/dim_SVDM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{48BD477945EAC7CA}Prefabs/Characters/HeadGear/Helmet_6B47/Desert/6M2-1/Helmet_6B47_Syria_Goggle_Headset_3.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{50B10F8CACF2E61C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45_folded_collar_Syria.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{55651DEBE8594483}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_Desert/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6950C60C13411A7E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/slot/UNI_Pouch_2_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C1A703648}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/slot2/UNI_Pouch_1_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C2587DB41}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/slot3/UNI_Pouch_1_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C25C7C2C6}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/appi/UNI_Pouch_2_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C346D7F9E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/holster/GND_Pouch_4_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C37FA3A8E}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/arsbelt/GND_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C373D24A4}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/arsbelt_pistol2/GND_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C377BB432}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/arsbelt2/GND_Pouch_3_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4C944515}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/appi/UNI_Pouch_2_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60C4E2B06F1}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60BF7A425D8}" {
+     PrefabsToSpawn {
+      "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C6095E479857}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+     PrefabsToSpawn {
+      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C60965B0255D}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/PistolHolster/GD_Ratnik_Holster_Syria.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6950C6096589F535}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman_Desert.et/Mag_Holster/GD_Ratnik_PistolPouch_Syria.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+   }
+  }
+ }
+ coords 128.141 1 113.292
+}

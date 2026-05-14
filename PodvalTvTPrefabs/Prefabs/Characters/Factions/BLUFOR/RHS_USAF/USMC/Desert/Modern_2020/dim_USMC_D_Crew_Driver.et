@@ -1,0 +1,60 @@
+SCR_ChimeraCharacter : "{3EEC3716FD9A9756}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/4x/dim_USMC_Modern_D_Rifleman_Holo.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Crew"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1608873B6690044C}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A4145024AE7084F6}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{468B5FB07076FA9E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_light_blueforce.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{689534819B7B5ACD}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/triple/Pouch_Blueforce_Tri.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68953486FD67A8C1}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/saw/Pouch_PCGEN3_util.et"
+    }
+    ItemsInitConfigurationItem "{68953486FB07BA77}" {
+     TargetStorage "Vest/Vest_PCGen_III_light_blueforce.et/ifak/Pouch_PCGEN3_ifak.et"
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+   }
+  }
+ }
+ coords 654.232 129.759 5242.088
+ angles 0 120 0
+}

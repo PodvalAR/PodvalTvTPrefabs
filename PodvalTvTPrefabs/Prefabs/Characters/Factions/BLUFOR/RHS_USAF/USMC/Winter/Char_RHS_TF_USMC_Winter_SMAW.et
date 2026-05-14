@@ -16,10 +16,13 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{9EFEE32C346C9F26}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_SHROUD_Cov_MarpatWD.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     Prefab "{7D72E750E7EA924D}Prefabs/Characters/Uniforms/Jacket_Parka/Jacket_Parka_3_MulticamAlpine.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{E157F34E92F107D9}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_In_V2_Winter.et"
+     Prefab "{A2D14AE64904F25D}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_MCAlpine.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
@@ -46,5 +49,5 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4574.217 19.934 2125.517
+ coords 93.421 1 65.731
 }

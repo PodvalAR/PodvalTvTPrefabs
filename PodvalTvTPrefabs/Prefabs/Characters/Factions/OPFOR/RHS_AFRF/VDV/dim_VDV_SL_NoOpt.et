@@ -9,8 +9,13 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
      TargetStorage "Back/Backpack_Suharka_type2.et"
     }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     PrefabsToSpawn {
+      "{D03F61DB37599FA8}Prefabs/Items/Equipment/Accessories/Scabbard_Bayonet_6X9-1/Scabbard_Bayonet_6X9-1_equip.et"
+     }
+    }
    }
   }
  }
- coords 5286.763 11.593 9046.135
+ coords 14903.398 50.906 12241.479
 }

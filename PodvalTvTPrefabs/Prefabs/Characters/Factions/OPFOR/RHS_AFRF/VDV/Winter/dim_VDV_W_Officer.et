@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{7551E181CE4C6845}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{A22C976003AA5BA3}Prefabs/Characters/HeadGear/Hat_Ushanka_01/Hat_Ushanka_01_folded.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
+     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/Suit_6Sh122/GD_SH122_Suit_Klyaksa.et"
     }
     LoadoutSlotInfo Pants {
      Prefab ""
@@ -28,35 +28,38 @@ SCR_ChimeraCharacter : "{7551E181CE4C6845}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
      TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
     }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
      TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
      PrefabsToSpawn {
-      "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/AK200/AK12_Mag/dim_AK12_Mag_7N10.et"
+      "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et" "{494F5D0145AB425A}Prefabs/Weapons/Magazines/dim_AK12_Mag_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
@@ -66,5 +69,5 @@ SCR_ChimeraCharacter : "{7551E181CE4C6845}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 3807.696 55.123 4385.589
+ coords 116.261 1 221.538
 }

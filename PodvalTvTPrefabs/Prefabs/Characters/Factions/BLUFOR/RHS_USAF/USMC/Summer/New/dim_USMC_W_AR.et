@@ -12,6 +12,9 @@ SCR_ChimeraCharacter : "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Jacket {
      Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -48,5 +51,5 @@ SCR_ChimeraCharacter : "{71DC3414967CCE24}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 5481.998 129.406 6924.984
+ coords 11217.151 30.38 5677.275
 }

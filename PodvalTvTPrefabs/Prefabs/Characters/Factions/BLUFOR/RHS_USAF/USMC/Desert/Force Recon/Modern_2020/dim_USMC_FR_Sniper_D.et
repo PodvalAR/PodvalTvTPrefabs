@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{DD0FB453D60AFC0F}Worlds/Vanya/ChernarusMinus/TVT_SHTURM_V2_chernarus/dim_USMC_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Разведчик-снайпер"
+    Icon "{480F9EE18B7CE141}UI/Icons/dim/ForceRecon.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D56459B8494BF69}Prefabs/Characters/HeadGear/Hat_BoonieHat/GD_Bonnie_Hat_Marpat_D_COMTAC.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68934730DDC9D76B}" {
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+    ItemsInitConfigurationItem "{689347331C18C584}" {
+     Enabled 0
+     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+    }
+   }
+  }
+ }
+ coords 5198.213 207.219 1792.768
+ angles 0 -180 0
+}

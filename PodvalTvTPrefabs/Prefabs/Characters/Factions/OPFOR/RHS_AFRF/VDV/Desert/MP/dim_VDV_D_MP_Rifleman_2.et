@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{7119B795E04AE71A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{25FC5D2B04D575FC}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2_syria.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F5B009186FBEC3C8}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_Desert/Armband/MP/MP_6Sh117_6B45_Crew_Desert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6950C60C13411A7E}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/slot/ak_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C1A703648}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/slot2/ak_pouch_syria_2.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C2587DB41}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/slot3/ak_pouch_syria_3.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C25C7C2C6}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/slot4/ak_pouch_syria_1.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C346D7F9E}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/arsbelt/GND_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C37FA3A8E}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/arsbelt2/GND_Pouch_3_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C373D24A4}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/arsbelt_pistol2/GND_Pouch_4_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C377BB432}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/appi/GND_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4C944515}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4E2B06F1}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Crew_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60BF7A425D8}" {
+     TargetStorage "Back/Backpack_Suharka_type2_syria.et"
+    }
+   }
+  }
+ }
+ coords 6394.218 216.199 2341.56
+}

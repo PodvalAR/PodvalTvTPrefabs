@@ -30,16 +30,19 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{08B328972401CAEF}Prefabs/Characters/HeadGear/All_Beanie/GD_Beanie_Tan.et"
+     Prefab "{08B328972401CAEF}Prefabs/Characters/HeadGear/Hat_Beanie/GD_Beanie_Tan.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     Prefab "{7D72E750E7EA924D}Prefabs/Characters/Uniforms/Jacket_Parka/Jacket_Parka_3_MulticamAlpine.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{CD0637B5D67DEFC9}Prefabs/Characters/Vests/LV_MBAV/LV_MBAV_Khaki.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{18EDBBD3D38C5691}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_In_Winter.et"
+     Prefab "{A2D14AE64904F25D}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_MCAlpine.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{F295A08AC4B2C3A7}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_grey.et"
@@ -55,16 +58,16 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
+     TargetStorage "Pants/Pants_CCUE_MCAlpine.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
+     TargetStorage "Pants/Pants_CCUE_MCAlpine.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
     }
     ItemsInitConfigurationItem "{673857DA77281F31}" {
-     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+     TargetStorage "Jacket/Jacket_Parka_3_MulticamAlpine.et"
      PrefabsToSpawn {
       "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
      }
@@ -131,5 +134,5 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 182.84 1 183.318
+ coords 89.961 1 66.231
 }

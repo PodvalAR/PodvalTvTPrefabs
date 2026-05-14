@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{D0B6BD0C6E6C6A22}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{650C7C0EB2C9F7BB}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1_syria.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{718500231A010EAF}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_Desert/Armband/MP/MP_6Sh117_6B45_Marksman_Desert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6950C60C13411A7E}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/slot/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C1A703648}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/slot2/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C2587DB41}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/slot3/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C25C7C2C6}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/appi/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C346D7F9E}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{6950C60C4C944515}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60C4E2B06F1}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C60BF7A425D8}" {
+     TargetStorage "Back/Backpack_Suharka_type1_syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C6095E479857}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{6950C60965B0255D}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/PistolHolster/GD_Ratnik_Holster_Syria.et"
+    }
+    ItemsInitConfigurationItem "{6950C6096589F535}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Marksman_Desert.et/Mag_Holster/GD_Ratnik_PistolPouch_Syria.et"
+    }
+   }
+  }
+ }
+ coords 6395.577 216.04 2341.329
+}

@@ -2,56 +2,63 @@ SCR_ChimeraCharacter : "{DFA2A3CA1EA36572}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{EC7240BE0E46A89E}Prefabs/Weapons/Weapons/AK200/AK200_VDV_2.et"
+   WeaponTemplate "{EC7240BE0E46A89E}Prefabs/Weapons/Rifles/AK200/AK200_VDV_2.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F8A031ED0207DA15}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Covered_Closed_6B50_Covered_EMR.et"
+     Prefab "{AA7CA604682B09DA}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6b50_5.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{41B0B846D69F90A0}Prefabs/Characters/Vests/6B45_Kits/GD_6B45_Rifleman_2.et"
+     Prefab "{F8B4DCE3F81C16EB}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_Crew.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/radio/Pouch_AVS_MBITR_Radio_EMR.et"
+     TargetStorage "Pants/Pants_6b51_VKPO.et"
      PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/arsbelt/Pouch_wartech_magpouch_mp105_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot/Pouch_Ratnik_ak_pouch_new_1.et"
     }
     ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/arsbelt2/Pouch_wartech_magpouch_mp105_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot2/Pouch_Ratnik_ak_pouch_new_2.et"
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/placard/Pouch_wartech_magpouch_mp105_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot3/Pouch_Ratnik_ak_pouch_new_3.et"
     }
     ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/arsbelt3/Pouch_wartech_magpouch_mp105_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot4/Pouch_Ratnik_ak_pouch_new_1.et"
     }
     ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/placard2/Pouch_wartech_magpouch_mp105_3_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/appi/Pouch_Ratnik_GND_Pouch_2.et"
     }
     ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
      TargetStorage "Vest/GD_6B45_Rifleman_2.et/placard3/Pouch_wartech_magpouch_mp105_3_EMR.et"
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
      PrefabsToSpawn + {
       "{F5347DE84CA1E3EE}Prefabs/Characters/HeadGear/Hat_VDV_Beret/Hat_VDV_Beret.et"
      }
     }
     ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/grenade/Pouch_GP106_RGD_Pouch_2_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
     }
     ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
-     TargetStorage "Vest/GD_6B45_Rifleman_2.et/grenade2/Pouch_GP106_RGD_Pouch_EMR.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
     }
    }
   }
  }
- coords 46.536 1 50.387
+ coords 167.541 1 84.027
 }

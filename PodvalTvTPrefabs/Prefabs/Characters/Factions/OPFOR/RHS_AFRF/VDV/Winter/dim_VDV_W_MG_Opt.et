@@ -4,10 +4,10 @@ SCR_ChimeraCharacter : "{FBD41570B0C083C3}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F1B6D1E85BFC2A16}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/Winter/GD_6B47_Cover_Goggles_Mask_White_Winter.et"
+     Prefab "{4C54925987D25CA5}Prefabs/Characters/HeadGear/Helmet_6B47/Winter/6B50/Helmet_6b47_Cover_Winter_6b50_Mask_2.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
+     Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/Suit_6Sh122/GD_SH122_Suit_Klyaksa.et"
     }
     LoadoutSlotInfo Pants {
      Prefab ""
@@ -28,8 +28,14 @@ SCR_ChimeraCharacter : "{FBD41570B0C083C3}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
      TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
     }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
    }
   }
  }
- coords 3810.371 55.082 4386.851
+ coords 131.368 1 66.426
 }

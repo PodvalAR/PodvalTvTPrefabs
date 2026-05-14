@@ -9,13 +9,27 @@ SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F5349E229B97D814}Prefabs/Weapons/Rifles/A545/dima_a545_gp.et"
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{981421FB8D641F1D}Prefabs/Characters/HeadGear/RUS_6b47/Prefabs/NoMC/GD_6B47_MaskGoggleON_NoMC.et"
+     Prefab "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{0E7F948772C006DB}Prefabs/Characters/Vests/Vest_6Sh117/Vest_6SH117_EMR_Olive.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C290C1B75B8CFB94}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_GL_2.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
@@ -24,14 +38,61 @@ SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
     ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
      TargetStorage "Jacket/Jacket_6b51_VKPO.et"
     }
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
      TargetStorage "Jacket/Jacket_6b51_VKPO.et"
     }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/radio/Pouch_Ratnik_vog_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/slot/Pouch_Ratnik_ak_pouch_new_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/slot2/Pouch_Ratnik_ak_pouch_new_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/slot3/Pouch_Ratnik_ak_pouch_new_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/slot4/Pouch_Ratnik_ak_pouch_new_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/appi/Pouch_Ratnik_GND_Pouch_2.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/uni2/Pouch_Ratnik_Uni_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33A2CB989F}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_GL_2.et/VOG/Pouch_Ratnik_vog_pouch_new2.et"
+    }
    }
   }
  }
- coords 6530.297 200.157 6467.416
+ coords 223.054 1 185.355
 }

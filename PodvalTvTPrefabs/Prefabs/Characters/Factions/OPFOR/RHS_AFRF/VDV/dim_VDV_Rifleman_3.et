@@ -4,6 +4,21 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{8936771AFC41F793}Prefabs/Weapons/Rifles/AK200/ak200_vdv_3.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0225 -0.1835 -0.0261
+   }
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/holster/Pouch_6x9Scabbard.et"
+    }
+   }
+  }
  }
- coords 4541.898 11.156 8815.268
+ coords 14911.137 50.907 12248.341
 }

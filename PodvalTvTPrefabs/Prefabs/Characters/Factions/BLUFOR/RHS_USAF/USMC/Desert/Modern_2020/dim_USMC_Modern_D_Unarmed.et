@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{A0A05B1B2C3FE369}Prefabs/Characters/Uniforms/USMC/GD_Pants_FROG_Trousers_Arid.et"
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
@@ -20,10 +20,10 @@ SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_Pants_FROG_Trousers_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_Pants_FROG_Trousers_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      Enabled 0
@@ -32,5 +32,6 @@ SCR_ChimeraCharacter : "{BEA7F7570EE811B2}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 177.769 1 205.982
+ coords 6459.395 214.344 2381.433
+ angles 0 45 0
 }

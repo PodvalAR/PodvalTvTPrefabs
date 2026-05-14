@@ -28,7 +28,17 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var5.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Vest/GD_Multicam_USA_Var5.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165248C6CCDE2}" {
      TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
     }
     ItemsInitConfigurationItem "{672165271728906D}" {
@@ -86,15 +96,15 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6724B8158927E66C}" {
-     Enabled 0
-     TargetStorage "Jacket/Crye_G3_Shirt_Base.et"
+     Enabled 1
+     TargetStorage "Vest/GD_Multicam_USA_Var5.et/flex/Pouch_HP103_Holster_MC.et"
      PrefabsToSpawn {
-      "{2A7C01B93CC92ACE}Prefabs/Items/Equipment/RangeCard/RangeCard_Notepad_AUTO.et"
+      "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
      }
     }
    }
   }
  }
- coords 15484.752 52.125 4433.786
- angles 0 90 0
+ coords 188.203 1 97.421
+ angles 0 0 0
 }

@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{7B52FA0B43F534DF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Desert/dim_VDV_D_Officer.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{96C346ADE550775E}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap_Syria.et"
+    }
+   }
+  }
+ }
+ coords 138.951 1 132.29
+}
