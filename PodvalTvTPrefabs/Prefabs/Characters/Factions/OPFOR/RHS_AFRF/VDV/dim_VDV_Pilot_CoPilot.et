@@ -10,6 +10,7 @@ SCR_ChimeraCharacter : "{B7A545F6ADBEE497}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 0
     }
     ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     Enabled 1
      TargetStorage "ArmoredVest/Vest_NAZ.et"
      PrefabsToSpawn {
       "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et"
