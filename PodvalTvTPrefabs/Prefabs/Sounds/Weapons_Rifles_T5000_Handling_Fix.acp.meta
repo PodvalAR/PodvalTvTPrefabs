@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{68E8B6867E61AE02}Prefabs/Sounds/Weapons_Rifles_T5000_Handling_Fix.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+  AudioProjectResourceClass Xbox : PC {
+  }
+ }
+}

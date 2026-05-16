@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{8BE014FF3D895F33}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SR_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5B3783D3B3FB12C8}Prefabs/Characters/HeadGear/Helmet_6B47/dim_Helmet_6B47.et"
+    }
+   }
+  }
+ }
+ coords 2480.149 187.687 5115.641
+ angles 0 165 0
+}
