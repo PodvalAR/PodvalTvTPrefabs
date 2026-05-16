@@ -1,0 +1,10 @@
+Projectile : "{44E9A6AA8158FEE9}Prefabs/Weapons/Ammo/338LM_Ammo.et" {
+ ID "70A3674123B4BC16"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   PenetrationDepth 18
+   PenetrationDensity 16.92
+   PenetrationSpeed 900
+  }
+ }
+}

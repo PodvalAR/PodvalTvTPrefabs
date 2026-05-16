@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 990.807 112.581 2755.233
+ m_aUnitPrefabSlots {
+  "{555894DAD878751D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Sharpshooter_SD.et" "{6EF24DEEA16F9057}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Observer_Optic.et"
+ }
+ m_sCustomNameSet "Снайперский отряд"
+}

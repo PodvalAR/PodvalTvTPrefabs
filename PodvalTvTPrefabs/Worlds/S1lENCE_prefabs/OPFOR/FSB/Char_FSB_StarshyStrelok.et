@@ -2,8 +2,12 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Старший стрелок"
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{3A05EEC9D3F0D317}UI/Icons/recon_sl.edds"
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C020CE919AB5AA07}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_SU230_Klesh_SD.et"
@@ -12,6 +16,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
     Prefab "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
    }
+   WeaponTemplate "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -94,8 +99,14 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
       "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
      }
     }
+    ItemsInitConfigurationItem "{6960CA466EEBD4A2}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/pistol1/Pouch_Taktika_magpouch_pistol.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
    }
   }
  }
- coords 114.981 1 144.246
+ coords 10144.486 213.844 4288.846
 }
