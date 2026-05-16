@@ -25,7 +25,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{745F82E71B69B692}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groinProtection_pistol.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{4B358F3E7963A716}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_CoyoteBrown.et"
+     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
@@ -97,5 +97,5 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 115.822 1 142.261
+ coords 117.549 1 140.866
 }
