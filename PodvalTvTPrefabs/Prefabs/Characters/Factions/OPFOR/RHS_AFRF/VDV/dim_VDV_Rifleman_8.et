@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{5A3C36A77584843D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman_7.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+  }
+ }
+ coords 14889.303 50.906 12227.138
+}
