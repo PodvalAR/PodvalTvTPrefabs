@@ -1,0 +1,34 @@
+$grp SCR_AIGroup {
+ {
+  coords 89.694 1 95.559
+ }
+ {
+  coords 81.313 0.572 108.526
+ }
+}
+SCR_AIGroup : "{DE02312EE68FD5ED}Prefabs/Groups/INDFOR/Ses_NAPA/Group_NAPA_Squad.et" {
+ coords 108.509 1 122.366
+ m_aUnitPrefabSlots {
+  "{D913D017BF6FA548}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_BaseLoadout.et"
+  "{F186A546CC076F56}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_PL.et"
+  "{68981CDFD1E05EC6}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_SL.et"
+  "{DDB884019AEDE28B}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AT.et"
+  "{004A9A6EBCD70241}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AAT.et"
+  "{570733DA8D2BE836}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG.et"
+  "{8AF52DB5AB1108FE}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG.et"
+  "{0510EDC0E364FCD7}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AR.et"
+  "{113CCCAA468FFE31}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_AMG_PKM.et"
+  "{BA5D8547FD0FFD30}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_MG_UK.et"
+  "{08C593E114D395FD}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_GL.et"
+  "{CD129913E6D6649B}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_LAT.et"
+  "{1C1D40B7C226FFFC}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Scout.et"
+  "{DCD11431A73AEC79}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_RTO.et"
+  "{E6A32FEAA73639D5}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Medic.et"
+  "{301CF1C9E9EF129C}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Ammo.et"
+  "{9B9DB2EAF6829D1D}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AK74.et"
+  "{7100030874838B4D}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Rifleman_AKSU.et"
+  "{4402179619992EC3}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Sharpshooter.et"
+  "{09E8D6A0898E9BAB}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_CC.et"
+  "{1CFF4E8E34E4C9D4}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_Crew.et"
+ }
+}
