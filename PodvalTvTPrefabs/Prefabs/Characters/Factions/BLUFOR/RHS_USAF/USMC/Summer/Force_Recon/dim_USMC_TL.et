@@ -18,11 +18,11 @@ SCR_ChimeraCharacter : "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Командир группы"
-    Icon "{480F9EE18B7CE141}UI/Icons/ForceRecon.edds"
+    Icon "{480F9EE18B7CE141}UI/Icons/dim/ForceRecon.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{815B9B15D00A2731}Prefabs/Weapons/Weapons/M27IAR/M27_Sup_VCOG.et"
+   WeaponTemplate "{815B9B15D00A2731}Prefabs/Weapons/Rifles/M27IAR/M27_Sup_VCOG.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
@@ -36,6 +36,9 @@ SCR_ChimeraCharacter : "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{8DCD718658B14B55}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF.et"
     }
