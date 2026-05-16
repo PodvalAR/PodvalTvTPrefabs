@@ -1,15 +1,17 @@
-SCR_ChimeraCharacter : "{94F3D0FCB0D0A7F2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crew.et" {
+SCR_ChimeraCharacter : "{F7935AA38DC65302}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Helli.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#PDVL_Role_Crew_Gunner"
+    Name "#PDVL_Role_HeliCoPilot"
+    m_aAuthoredLabels + {
+     ERA_RHS_MODERN
+    }
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
     }
    }
   }
