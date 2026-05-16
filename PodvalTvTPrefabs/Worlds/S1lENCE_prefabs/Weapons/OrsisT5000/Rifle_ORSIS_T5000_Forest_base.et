@@ -1,0 +1,18 @@
+GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Forest.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{D536EE16CCC63F0A}Prefabs/Weapons/Attachments/Optics/1p21/Optic_1P21_SVD.et"
+     }
+    }
+   }
+  }
+ }
+}

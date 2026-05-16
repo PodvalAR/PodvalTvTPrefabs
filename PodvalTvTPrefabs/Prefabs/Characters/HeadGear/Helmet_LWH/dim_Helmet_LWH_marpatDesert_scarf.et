@@ -25,9 +25,7 @@ GameEntity : "{B17F3E122C7EF592}Prefabs/Characters/HeadGear/Helmet_LWH/Helmet_LW
      Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
     }
     LoadoutSlotInfo PASGT {
-     PivotID "Head"
-     Offset 0 0.0509 -0.0176
-     Angles 4.9497 -180 0
+     Offset 0 0.0067 0
      Prefab "{79D240C0D2390F4A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_goggles.et"
     }
    }

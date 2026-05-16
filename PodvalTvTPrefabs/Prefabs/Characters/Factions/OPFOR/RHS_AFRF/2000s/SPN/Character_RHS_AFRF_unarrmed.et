@@ -5,6 +5,9 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    components {
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
       SCR_EquipmentStorageSlot WristwatchSlot {
        Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
       }
@@ -58,6 +61,8 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      PrefabsToSpawn {
       "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et"
      }
+    }
+    ItemsInitConfigurationItem "{695B2A26DFB9FE2D}" {
     }
    }
   }

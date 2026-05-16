@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6C6D4CF5F88AE48D}Prefabs/Vehicles/Core/Vehicle_AmmoBox_Base.et"
+ Name "{C9E4770F9B565A5D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Modern_Medic.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

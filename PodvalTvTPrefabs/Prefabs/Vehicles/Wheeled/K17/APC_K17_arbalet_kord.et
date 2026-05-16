@@ -3,7 +3,7 @@ Vehicle : "{2729A71C3D53EE8C}Prefabs/Vehicles/Wheeled/K17/APC_K17_base.et" {
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    Name "#Pdvl_Vehicle_k17_arbalet_AGS"
+    Name "#Pdvl_Vehicle_k17_arbalet_kord"
    }
   }
   SCR_UniversalInventoryStorageComponent "{693A736A17CAC848}" {
