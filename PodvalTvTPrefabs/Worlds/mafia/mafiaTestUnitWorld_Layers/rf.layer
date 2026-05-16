@@ -24,7 +24,7 @@ SCR_AIGroup : "{352169DDD17F2DFC}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_R
  angles 0 3.391 0
 }
 SCR_AIGroup : "{42D79475AC4DA229}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/SPN/Group_RHS_AFRF_2000s_SPN_recon.et" {
- coords 212.479 1 47.789
+ coords 212.479 1 36.919
 }
 SCR_AIGroup : "{4B121129F7355F87}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Sapper.et" {
  coords 231.208 1 49.767
@@ -33,7 +33,8 @@ SCR_AIGroup : "{5BFD30D07CB3A7A7}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_R
  coords 237.637 1 42.565
 }
 SCR_AIGroup : "{62A8F6223B89CDFD}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/SPN/Group_RHS_AFRF_2000s_SPN_All.et" {
- coords 212.414 0.994 52.82
+ coords 212.04 1 46.645
+ angles 0 0.554 0
 }
 SCR_AIGroup : "{65194423CBBAEEAC}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Motorized.et" {
  coords 222.903 1 41.367
@@ -68,20 +69,23 @@ SCR_AIGroup : "{B2A0F8E71EFC20DD}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_R
   ""
  }
 }
+SCR_AIGroup : "{C536CD6A6B2B951C}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/SPN/Group_RHS_AFRF_2000s_SPN_recon_opt.et" {
+ coords 212.866 1 42.892
+}
 SCR_AIGroup : "{CC733E26602B3392}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/SPN/Group_RHS_AFRF_2000s_SPN_reconRPO.et" {
- coords 212.592 1 50.187
+ coords 212.592 1 41.406
 }
 SCR_AIGroup : "{D7890C4E259B362D}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Regular_Squad4.et" {
  coords 223.143 1 42.58
-}
-SCR_ChimeraCharacter : "{E39BF95FA4111FC2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_unarrmed.et" {
- coords 220.932 1 52.758
 }
 SCR_AIGroup : "{EABD297650F7BF1A}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Regular_Squad3.et" {
  coords 222.965 1 43.821
 }
 SCR_AIGroup : "{EDD517E30DA7FB46}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Mechanized.et" {
  coords 223.801 1 51.043
+}
+SCR_AIGroup : "{EFBC3D60185A26EF}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/SPN/Group_RHS_AFRF_2000s_SPN_reconRPO_opt.et" {
+ coords 213.078 1 44.413
 }
 SCR_AIGroup : "{F6A50ABFA16F0C10}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_opt.et" {
  coords 225.63 1 54.391

@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{7F27DC6280D43B11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6BFAABBF2C4B2E48}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_1P29_SteelMag.et"
+  }
+ }
+}
