@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{62A8F6223B89CDFD}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/Group_RHS_AFRF_2000s_SPN_All.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

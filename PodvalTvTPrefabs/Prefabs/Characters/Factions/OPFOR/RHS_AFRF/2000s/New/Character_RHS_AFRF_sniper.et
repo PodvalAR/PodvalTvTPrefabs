@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{695B0D018BC53637}" {
-     TargetStorage "Vest/Vest_SovietHarness_sharpshooter_NoUseless.et/MagPouch_6Sh46/Pouch_Soviet_10rnd_SVD.et"
+     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et"
      PrefabsToSpawn {
       "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }

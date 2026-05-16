@@ -1,0 +1,7 @@
+SCR_AIGroup : "{219408F2ACD84019}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/Group_RHS_AFRF_2000s_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{062D405498E9FBD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SL.et" "{B3BC4429C695754B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_sapper.et" "{B3BC4429C695754B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_sapper.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Adeptus_Mechanicus"
+}

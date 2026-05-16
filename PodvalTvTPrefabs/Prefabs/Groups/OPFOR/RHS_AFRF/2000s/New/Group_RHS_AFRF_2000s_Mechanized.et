@@ -1,0 +1,7 @@
+SCR_AIGroup : "{219408F2ACD84019}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/Group_RHS_AFRF_2000s_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{BAE74D5A541BB979}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crewCommander.et" "{94F3D0FCB0D0A7F2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crew.et"
+ }
+ m_sCustomNameSet "Механизированный отряд"
+}

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{F904BEB3F323D651}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/Group_RHS_AFRF_2000s_SPN_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{023F309AE5470788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_sl.et" "{7F27DC6280D43B11}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_SR.et" "{735AC2C6BFCAB860}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_rifleman.et" "{6BC62090C571B7F3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_LAT.et" "{440A936461B6B52C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_medic.et" "{4DAE745370B550DB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_sniper.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Recon"
+}
