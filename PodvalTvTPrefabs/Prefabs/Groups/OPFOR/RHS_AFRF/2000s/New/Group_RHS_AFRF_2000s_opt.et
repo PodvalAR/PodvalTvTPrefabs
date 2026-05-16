@@ -1,0 +1,6 @@
+SCR_AIGroup : "{19DFC4C6B25464DF}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Ks.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{E3625902B353D148}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_KS_opt.et"
+ }
+}
