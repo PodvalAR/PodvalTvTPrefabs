@@ -1,0 +1,27 @@
+GenericEntity : "{2850466082C9AE9B}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30a2.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6918C6B18B3CDC53}" {
+     AttachmentSlot InventoryStorageSlot TopRis {
+     }
+    }
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6918C6B1F67488EC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{0D4DA75853FEBAA4}Prefabs/Weapons/Attachments/Suppressor_T5000.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 155.925 1 92.929
+}
