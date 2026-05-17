@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{9FD9B848778FD736}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Recon/Char_RHS_RF_Modern_EMR_Recon_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EBD4AA60CF379070}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30a2_SD.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693341AA832657CD}" {
+     PrefabsToSpawn {
+      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 166.48 1 95.175
+}
