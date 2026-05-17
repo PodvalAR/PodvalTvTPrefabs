@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 990.75 112.584 2757.4
+ m_aUnitPrefabSlots {
+  "{8FC57B6A84200E20}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_CrewCommader.et" "{F7FE665001AC32D4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Crew.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Mechanized"
+}

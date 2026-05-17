@@ -2,8 +2,12 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
  ID "520EC961A090B1EE"
  components {
   PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "Стрелок"
    m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{0D9BD3A9E383F660}UI/Icons/recon.edds"
+   }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F141D1E7984F802A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P87_Klesh_SD.et"
@@ -12,6 +16,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
     Prefab "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
    }
+   WeaponTemplate "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -25,7 +30,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{745F82E71B69B692}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groinProtection_pistol.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
+     Prefab "{4B358F3E7963A716}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_CoyoteBrown.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
@@ -94,5 +99,5 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 119.876 1 141.095
+ coords 10146.47 213.844 4293.863
 }

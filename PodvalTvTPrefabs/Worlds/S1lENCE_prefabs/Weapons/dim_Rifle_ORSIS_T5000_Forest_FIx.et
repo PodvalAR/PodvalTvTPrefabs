@@ -1,0 +1,31 @@
+GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Forest.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
+     }
+    }
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+      Prefab "{F527D4B2C74C5E6A}Prefabs/Weapons/Attachments/Camouflage/Camouflage_Orsis_V2.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6918C6B1F67488EC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 1
+        Prefab "{AE26AC1278EB4B4C}Prefabs/Weapons/Attachments/Suppressor_T5000_camo.et"
+       }
+      }
+     }
+     MagazineTemplate "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et"
+    }
+   }
+  }
+ }
+ coords 164.624 1 226.901
+}

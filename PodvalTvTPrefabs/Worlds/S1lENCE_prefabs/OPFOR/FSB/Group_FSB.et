@@ -1,7 +1,7 @@
 SCR_AIGroup : "{B851352F042E4F0B}Prefabs/Groups/OPFOR/RHS_AFRF/Recon/Group_RHS_AFRF_Recon_Squad.et" {
  ID "0000000000000001"
- coords 120.392 1 138.572
+ coords 113.849 1 154.739
  m_aUnitPrefabSlots {
-  "{FA0F4531F9E2F733}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_SL.et" "{8A363F7D39198DF2}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_StarshyStrelok.et" "{888B357D90047BDB}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Strelok.et" "{888B357D90047BDB}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Strelok.et" "{9A52CA0F3CD13C0A}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_GL.et" "{96102EA539ECE7B5}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Medic.et" "{543D3EC806DB925D}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Base.et"
+  "{FA0F4531F9E2F733}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_SL.et" "{8A363F7D39198DF2}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_StarshyStrelok.et" "{888B357D90047BDB}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Strelok.et" "{888B357D90047BDB}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Strelok.et" "{9A52CA0F3CD13C0A}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_GL.et" "{96102EA539ECE7B5}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Medic.et" "{9830E9F67E8C74F0}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Sniper.et"
  }
 }
