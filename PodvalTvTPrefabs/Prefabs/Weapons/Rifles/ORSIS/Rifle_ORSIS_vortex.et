@@ -1,0 +1,15 @@
+GenericEntity : "{2850466082C9AE9B}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30a2.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{9793014B3640A504}Prefabs/Weapons/Attachments/Optics/Vortex/Optic_Vortex_GE.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4065.803 139.309 2008.892
+}
