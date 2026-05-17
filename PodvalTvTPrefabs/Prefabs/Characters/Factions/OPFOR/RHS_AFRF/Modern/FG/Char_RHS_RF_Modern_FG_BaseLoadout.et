@@ -36,7 +36,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{6FA0C93CBFBA664B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_FG.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+     Prefab "{A18238B56E378F4B}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{DE2F0A4C83BD3A6F}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
@@ -58,13 +58,13 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
      PrefabsToSpawn {
       "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
     ItemsInitConfigurationItem "{689F3578E51BED3D}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_OD.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_ATACS.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
@@ -73,5 +73,5 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 25.851 1 135.874
+ coords 1437.874 140.469 1248.731
 }
