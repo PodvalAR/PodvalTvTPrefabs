@@ -6,11 +6,12 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon "{0D9BD3A9E383F660}UI/Icons/recon.edds"
+    Name "Разведчик-стрелок"
+    Icon "{286254E4AF3FFD04}UI/Icons/sabateur_v2_sl.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F141D1E7984F802A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P87_Klesh_SD.et"
+   WeaponTemplate "{B31D4120A872C74B}Worlds/S1lENCE_prefabs/Weapons/dim_Rifle_ORSIS_T5000_Forest_FIx.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
@@ -21,7 +22,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F21A67CBD937E634}Prefabs/Characters/HeadGear/Thor_FSB/GD_Kiver_FSB.et"
+     Prefab "{46AC3C151072512E}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/SSO/Helmet_LShZ_new_OD_HC_Peltor_SSO3.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Summer.et"
@@ -30,13 +31,16 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{745F82E71B69B692}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groinProtection_pistol.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{4B358F3E7963A716}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_CoyoteBrown.et"
+     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{BFF5F0615E93D2FC}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_arsarma_1_noAdmin.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
     }
    }
   }
@@ -99,5 +103,9 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 10146.47 213.844 4293.863
+<<<<<<< Updated upstream
+ coords 125.021 1 144.308
+=======
+ coords 110.915 1 161.931
+>>>>>>> Stashed changes
 }

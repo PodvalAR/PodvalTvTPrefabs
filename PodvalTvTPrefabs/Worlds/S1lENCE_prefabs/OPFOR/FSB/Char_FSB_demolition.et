@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{52DDA5729C953DF6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_TL_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sapper"
+    Icon "{DE9F30CD054BA54B}UI/Icons/sabateur_demolition.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9793E32071941967}Prefabs/Weapons/Rifles/AK200/AK200_SpecOps.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{46AC3C151072512E}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/SSO/Helmet_LShZ_new_OD_HC_Peltor_SSO3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Summer.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{745F82E71B69B692}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groinProtection_pistol.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BFF5F0615E93D2FC}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_arsarma_1_noAdmin.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{684866B26F61191C}" {
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{684866AC07DD680B}" {
+     PrefabsToSpawn {
+      "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
+     }
+    }
+   }
+  }
+ }
+ coords 120.23 1 147.477
+}
