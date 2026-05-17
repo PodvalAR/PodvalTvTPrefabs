@@ -6,12 +6,11 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Разведчик-стрелок"
-    Icon "{286254E4AF3FFD04}UI/Icons/sabateur_v2_sl.edds"
+    Icon "{0D9BD3A9E383F660}UI/Icons/recon.edds"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{B31D4120A872C74B}Worlds/S1lENCE_prefabs/Weapons/dim_Rifle_ORSIS_T5000_Forest_FIx.et"
+   WeaponTemplate "{42D30E06154569C1}Worlds/S1lENCE_prefabs/Weapons/SPR300/Rifle_SPR300_Fix.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
@@ -22,7 +21,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{46AC3C151072512E}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/SSO/Helmet_LShZ_new_OD_HC_Peltor_SSO3.et"
+     Prefab "{F21A67CBD937E634}Prefabs/Characters/HeadGear/Thor_FSB/GD_Kiver_FSB.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Summer.et"
@@ -31,7 +30,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{745F82E71B69B692}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_groinProtection_pistol.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
+     Prefab "{4B358F3E7963A716}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_CoyoteBrown.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
@@ -39,73 +38,83 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Vest {
      Prefab "{BFF5F0615E93D2FC}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_belt_arsarma_1_noAdmin.et"
     }
-    LoadoutSlotInfo HandWear {
-     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
-    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{695F57D7787D9BCC}" {
+    ItemsInitConfigurationItem "{6962D870E2CDBAD2}" {
      TargetStorage "Pants/Pants_CCUE_CoyoteBrown.et"
      PrefabsToSpawn {
       "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{98C79F5FAE12F9B6}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6Kh4.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787D9A1D}" {
+    ItemsInitConfigurationItem "{6962D870E2CDBAC5}" {
      TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
      PrefabsToSpawn {
       "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787D9A1E}" {
+    ItemsInitConfigurationItem "{6962D870E2CDBAC4}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
       "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787D9A1F}" {
+    ItemsInitConfigurationItem "{6962D870E2CDB5A2}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak1/Pouch_Taktika_magpouch_morphed_base.et"
      PrefabsToSpawn {
       ""
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787D9A18}" {
+    ItemsInitConfigurationItem "{6962D870E2CDB5A1}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak2/Pouch_Taktika_magpouch_morphed_base.et"
      PrefabsToSpawn {
-      ""
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787D9A19}" {
+    ItemsInitConfigurationItem "{6962D870E2CDB5A0}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak3/Pouch_Taktika_magpouch_morphed_base.et"
      PrefabsToSpawn {
       "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787D9A1A}" {
+    ItemsInitConfigurationItem "{6962D870E2CDC9F5}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak4/Pouch_Taktika_magpouch_morphed_base.et"
      PrefabsToSpawn {
-      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+      "{929094A12532234A}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum).et" "6x70_mm_(.338 Lapua Magnum).et"
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787DBFDE}" {
+    ItemsInitConfigurationItem "{6962D870E2CDC9F2}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak5/Pouch_Taktika_magpouch_base.et"
      PrefabsToSpawn {
-      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+      "{929094A12532234A}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum).et" "6x70_mm_(.338 Lapua Magnum).et"
      }
     }
-    ItemsInitConfigurationItem "{695F57D7787DBFC0}" {
+    ItemsInitConfigurationItem "{6962D870E2CDC9F3}" {
      TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak6/Pouch_Taktika_magpouch_base.et"
      PrefabsToSpawn {
-      "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+      "{929094A12532234A}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum).et" "6x70_mm_(.338 Lapua Magnum).et"
+     }
+    }
+    ItemsInitConfigurationItem "{6962D870E2CDC9F0}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/pistol1/Pouch_Taktika_magpouch_pistol.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6962D870E2CDF5B9}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/pistol2/Pouch_Taktika_magpouch_pistol.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6962D870E2CDF5B8}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et"
+     PrefabsToSpawn {
+      "{E256C0CC945E18A5}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP.et" "6x70_mm_(.338 Lapua Magnum)_BP.et"
      }
     }
    }
   }
  }
-<<<<<<< Updated upstream
- coords 125.021 1 144.308
-=======
- coords 110.915 1 161.931
->>>>>>> Stashed changes
+ coords 111.107 1 160.528
 }
