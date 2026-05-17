@@ -1,0 +1,6 @@
+SCR_AIGroup : "{65194423CBBAEEAC}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Motorized.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{47FAB1D3259D563F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SL_opt.et" "{6929DE330D711AE2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_SeniorRifleman_opt.et" "{B30DD88AD3E4479D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AT.et" "{FDDD8BD53FCE67F7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AAT.et" "{A96AFEEB0A001F1C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_AR_opt.et" "{6670CF6A5DDA30EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_GL.et" "{2F81C1503EF73399}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman2.et" "{BAE74D5A541BB979}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crewCommander.et" "{94F3D0FCB0D0A7F2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_crew.et"
+ }
+}

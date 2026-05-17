@@ -1,17 +1,8 @@
-SCR_ChimeraCharacter : "{735AC2C6BFCAB860}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_rifleman.et" {
+SCR_ChimeraCharacter : "{023F309AE5470788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_sl.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#PDVL_Role_LAT"
-    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
-   }
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C867CEF614892A30}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_PlumMag.et"
-  }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+   WeaponTemplate "{D71668F5509F5DD2}Prefabs/Weapons/Rifles/AK74/Rifle_AK74M_1P29_RHSMag.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

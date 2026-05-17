@@ -7,8 +7,20 @@ SCR_ChimeraCharacter : "{735AC2C6BFCAB860}Prefabs/Characters/Factions/OPFOR/RHS_
     Icon "{4D1BE7A821BBAC54}UI/Icons/flamethrower.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C867CEF614892A30}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_PlumMag.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{3F38EE51E904AE5B}Prefabs/Weapons/Launchers/RPOA/Launcher_RPOA.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{695B2A2560EE0FC0}" {
+     PrefabsToSpawn {
+      "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+   }
   }
  }
 }

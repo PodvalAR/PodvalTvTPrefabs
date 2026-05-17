@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7C3233B9F2B092D7}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Group_RHS_AFRF_2000s_Regular_Squad3_opt.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
