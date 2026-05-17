@@ -193,7 +193,7 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
       Offset 0 0 -0.0137
       InspectionWidgetOffset 0 0.0051 0.1543
      }
-     MagazineTemplate "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     MagazineTemplate "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
     }
     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
      AnimGraph "{EDECE7D87FFDE659}Assets/Weapons/Rifles/workspaces/SVDM.agr"
@@ -253,4 +253,5 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
    }
   }
  }
+ coords 157.594 1 97.529
 }
