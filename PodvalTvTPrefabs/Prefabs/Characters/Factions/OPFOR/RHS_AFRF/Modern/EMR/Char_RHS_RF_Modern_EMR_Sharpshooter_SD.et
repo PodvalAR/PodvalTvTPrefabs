@@ -4,6 +4,12 @@ SCR_ChimeraCharacter : "{E59F13C9E9FDD769}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{9F00FD1D667EAD90}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2_SUB.et"
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693341AA832657CD}" {
+    }
+   }
+  }
  }
  coords 66.24 1 51.47
 }
