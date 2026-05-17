@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{AE64E70A4407F167}Prefabs/Characters/Factions/BLUFOR/RHS
     Name "#PDVL_Role_CC"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ECF28783F3CE1B82}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_Converted.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {
