@@ -44,6 +44,9 @@ SCR_ChimeraCharacter : "{1BA31F07C6E31821}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
      TargetStorage "Jacket/Goblin_jacket_GRN.et"
     }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
+    }
    }
   }
  }
