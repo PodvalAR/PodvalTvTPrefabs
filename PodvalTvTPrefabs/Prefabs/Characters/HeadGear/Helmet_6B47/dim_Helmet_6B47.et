@@ -1,0 +1,13 @@
+GameEntity : "{3DABD1DE64E2A72E}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/Helmet_6B47_Cover_EMR_3_Mask_Headset.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Lenta {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 2480.6 187.688 5114.876
+}

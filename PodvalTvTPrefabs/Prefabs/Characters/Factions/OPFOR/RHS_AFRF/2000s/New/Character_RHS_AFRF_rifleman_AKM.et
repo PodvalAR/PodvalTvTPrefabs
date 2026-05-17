@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Unarrmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3E7DBB6F8655BBDD}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_SteelMag.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3D74845B9D0867B0}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696119070E330EA5}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+     PrefabsToSpawn {
+      "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et" "{BC59B375FF0F2377}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

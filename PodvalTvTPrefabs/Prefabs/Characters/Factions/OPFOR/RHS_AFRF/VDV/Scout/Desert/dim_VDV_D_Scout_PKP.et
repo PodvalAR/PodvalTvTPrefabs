@@ -1,0 +1,77 @@
+SCR_ChimeraCharacter : "{CD755E631AA40A57}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/dim_VDV_Scout_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{96C346ADE550775E}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap_Syria.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{03FF161D3AC1E1E0}Prefabs/Characters/Uniforms/VKPO/Prefabs/Field_Jacket_VKPO_syrian.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{CF866F87DB2A7567}Prefabs/Characters/Vests/Vest_6Sh117/Vest_6SH117_Desert_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3AF71F9ACC9B7AC5}Prefabs/Characters/Uniforms/VKPO/Prefabs/Field_Pants_VKPO_syrian.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8C3121C7FB112534}Prefabs/Characters/Footwear/Tropico_army_boots/Tropico_army_boots.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{436C13AD801234C8}Prefabs/Items/Equipment/Backpacks/6Sh117_Backpack/GD_6Sh117_Patrol_Backpack_Syria.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6C597581DE64085F}Prefabs/Characters/Vests/Vest_6Sh117/variants/Desert/Vest_6Sh117_Pouches_PKM_Desert.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Field_Pants_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Field_Pants_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Field_Jacket_VKPO_syrian.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/radio/Pouch_Mordor_PKM_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/arsbelt/Pouch_Mordor_PKM_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack_Syria.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/arsbelt2/GND_Pouch_2_Syria.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/arsbelt_pistol2/GND_Pouch_4_Syria.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/slot2/GND_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack_Syria.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/slot4/GND_Pouch_3_Syria.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/uni1/UNI_Pouch_1_Syria.et"
+    }
+    ItemsInitConfigurationItem "{694745885564C54D}" {
+     TargetStorage "Vest/Vest_6Sh117_Pouches_PKM_Desert.et/uni2/UNI_Pouch_2_Syria.et"
+    }
+   }
+  }
+ }
+ coords 6116.544 193.133 3852.434
+}

@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{3B3E604C59BDE61E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_D_Crew_Driver.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B18FBF7059854EB3}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_crewman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689534819B7B5ACD}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{68953486D2BFC417}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68953486FD67A8C1}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68953486FB07BA77}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68953486EF493850}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68953486F5840E7B}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/Pouch2/Pouch_OpenTop_M27_1_pouch.et"
+    }
+    ItemsInitConfigurationItem "{6895348707D4EE3F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689534870ECBB2E8}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/Pouch2/Pouch_OpenTop_M27_1_pouch.et"
+    }
+    ItemsInitConfigurationItem "{68953487176F97FB}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/Pouch2/Pouch_OpenTop_M27_1_pouch.et"
+    }
+    ItemsInitConfigurationItem "{689610050B41E57A}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 208.969 1 211.564
+ angles 0 0 0
+}

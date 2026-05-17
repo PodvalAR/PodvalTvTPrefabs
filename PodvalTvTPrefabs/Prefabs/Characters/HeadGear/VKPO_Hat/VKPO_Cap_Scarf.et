@@ -1,0 +1,13 @@
+GameEntity : "{96C346ADE550775E}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap_Syria.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Scarf {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+   }
+  }
+ }
+ coords 6120.449 193.195 3852.961
+}

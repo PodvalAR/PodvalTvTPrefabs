@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{023F309AE5470788}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/SPN/Character_RHS_AFRF_sl.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D71668F5509F5DD2}Prefabs/Weapons/Rifles/AK74/Rifle_AK74M_1P29_RHSMag.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{695B2A2560EE0FC0}" {
+     PrefabsToSpawn {
+      "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+   }
+  }
+ }
+}
