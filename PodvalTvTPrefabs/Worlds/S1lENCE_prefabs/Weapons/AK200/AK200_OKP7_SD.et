@@ -1,0 +1,29 @@
+GenericEntity : "{B71604F91171D7A4}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_B30_B31S_RailCover_XPS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot WCS_RailAttachmentSlot AttachmentSlot {
+      Prefab "{9DEFD58BBCB9A63B}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_OKP-7/Collim_OKP-7.et"
+     }
+    }
+    AttachmentSlotComponent "{66755D640445EF7B}" {
+     AttachmentSlot InventoryStorageSlot ForwardGrip {
+      Prefab "{74C04C2D52EE4276}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK1.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 596.393 6.416 998.212
+}

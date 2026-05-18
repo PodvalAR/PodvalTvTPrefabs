@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{61026BA8B600A1C0}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P87.et"
+   WeaponTemplate "{5D2289370D2D6E2B}Worlds/S1lENCE_prefabs/Weapons/Machineguns/MG_RPK74M_WCS.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -42,5 +42,5 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 1370.499 61.125 1990.85
+ coords 121.817 1 183.696
 }

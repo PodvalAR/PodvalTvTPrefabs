@@ -5,7 +5,7 @@ GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T500
    components {
     AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
      AttachmentSlot InventoryStorageSlot Optics {
-      Prefab "{ACC9B43941CE5EA6}Prefabs/Weapons/Attachments/Optics/Optic_leupoldMK4/Optic_leupoldMK4.et"
+      Prefab "{E9E4B001C12E71F8}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_SchmidtBender_PMII_5-25x/Optic_SchmidtBender_PMII_5-25x_base.et"
      }
     }
     AttachmentSlotComponent "{691B258A7C2D7822}" {
@@ -22,7 +22,7 @@ GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T500
        }
       }
      }
-     MagazineTemplate "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et"
+     MagazineTemplate "{E256C0CC945E18A5}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP.et"
     }
    }
   }

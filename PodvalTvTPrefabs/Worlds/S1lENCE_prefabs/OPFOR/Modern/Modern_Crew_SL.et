@@ -6,6 +6,9 @@ SCR_ChimeraCharacter : "{F7FE665001AC32D4}Prefabs/Characters/Factions/OPFOR/RHS_
     Name "#PDVL_Role_CC"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{06BB09909BF14989}Worlds/S1lENCE_prefabs/Weapons/AK200/Rifle_AK200_WCS.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
@@ -23,5 +26,5 @@ SCR_ChimeraCharacter : "{F7FE665001AC32D4}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 1430.128 140.469 1245.028
+ coords 116.482 1 184.241
 }

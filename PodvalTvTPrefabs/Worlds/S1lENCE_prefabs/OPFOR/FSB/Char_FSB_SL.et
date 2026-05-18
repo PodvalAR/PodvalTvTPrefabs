@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Character_RHS_AFRF_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
   PS_PlayableComponent "{5EFCC1946F475F15}" {
    m_bIsPlayable 1
   }
@@ -11,7 +22,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C020CE919AB5AA07}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_SU230_Klesh_SD.et"
+   WeaponTemplate "{6D389D2578287709}Worlds/S1lENCE_prefabs/Weapons/AK200/Rifle_AK200__SD_WCS.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
@@ -112,5 +123,5 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 122.079 1 143.955
+ coords 128.716 1 152.634
 }

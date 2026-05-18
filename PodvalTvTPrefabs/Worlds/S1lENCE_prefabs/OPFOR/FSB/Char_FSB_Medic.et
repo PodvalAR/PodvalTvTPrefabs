@@ -11,7 +11,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F141D1E7984F802A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_RK1_P87_Klesh_SD.et"
+   WeaponTemplate "{6C8E4C0B660403BE}Worlds/S1lENCE_prefabs/Weapons/AK200/AK200_OKP7_SD.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
@@ -124,5 +124,5 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 122.799 1 144.154
+ coords 130.224 1 152.813
 }
