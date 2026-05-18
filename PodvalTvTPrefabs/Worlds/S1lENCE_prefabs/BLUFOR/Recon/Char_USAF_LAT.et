@@ -15,6 +15,26 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BCC6A98B87FC466A}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A0FE518DE4DB6D}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    ItemsInitConfigurationItem "{68A0FE518D8BA448}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+    }
+   }
+  }
  }
- coords 135.904 1 154.743
+ coords 177.192 1 181.978
 }
