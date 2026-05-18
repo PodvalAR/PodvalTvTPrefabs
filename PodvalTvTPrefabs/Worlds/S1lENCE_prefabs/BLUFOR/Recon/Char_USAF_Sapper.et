@@ -26,10 +26,10 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A0FE518DE4DB6D}" {
-     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MARPAT.et"
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
     }
     ItemsInitConfigurationItem "{68A0FE518D8BA448}" {
-     TargetStorage "Pants/Pants_FROG_Trousers.et"
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MARPAT.et"
     }
     ItemsInitConfigurationItem "{696350B37CACDE91}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
