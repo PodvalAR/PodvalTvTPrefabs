@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{A7D5A6D5E9FBEDB3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{56E1DECE12C03C47}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30a2_Wood_SD.et"
+  }
+ }
+ coords 165.442 1 98.159
+}
