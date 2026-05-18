@@ -26,6 +26,12 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BCC6A98B87FC466A}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
     }
@@ -36,6 +42,12 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A0FE518DE4DB6D}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    ItemsInitConfigurationItem "{68A0FE518D8BA448}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+    }
     ItemsInitConfigurationItem "{68A0FE518DB31AD8}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy5_bandolier.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
      PrefabsToSpawn {
@@ -85,5 +97,5 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 139.812 1 153.795
+ coords 176.612 1 182.109
 }

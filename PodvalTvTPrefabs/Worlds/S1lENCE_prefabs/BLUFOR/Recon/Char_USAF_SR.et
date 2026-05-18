@@ -23,8 +23,24 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{BCC6A98B87FC466A}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A0FE518DE4DB6D}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MARPAT.et"
+    }
+    ItemsInitConfigurationItem "{68A0FE518D8BA448}" {
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
+    }
     ItemsInitConfigurationItem "{68A0FE518DB31AD8}" {
      PrefabsToSpawn {
       "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
@@ -53,5 +69,5 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 144.079 1 152.844
+ coords 174.463 1 182.929
 }
