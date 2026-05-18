@@ -5,11 +5,10 @@ GenericEntity : "{2850466082C9AE9B}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30
    components {
     AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
      AttachmentSlot InventoryStorageSlot Optics {
-      Prefab "{9793014B3640A504}Prefabs/Weapons/Attachments/Optics/Vortex/Optic_Vortex_GE.et"
+      Prefab "{E9E4B001C12E71F8}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_SchmidtBender_PMII_5-25x/Optic_SchmidtBender_PMII_5-25x_base.et"
      }
     }
    }
   }
  }
- coords 4065.803 139.309 2008.892
 }
