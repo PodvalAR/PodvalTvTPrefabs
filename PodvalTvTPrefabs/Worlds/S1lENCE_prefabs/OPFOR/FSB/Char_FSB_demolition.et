@@ -37,18 +37,54 @@ SCR_ChimeraCharacter : "{52DDA5729C953DF6}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{684866B252AD4194}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer.et"
+    }
+    ItemsInitConfigurationItem "{684866B25291690C}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    ItemsInitConfigurationItem "{684866B252EDB9F6}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
     ItemsInitConfigurationItem "{684866B26F61191C}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/radio/Pouch_UP111_radioClosed_FG.et"
      PrefabsToSpawn {
       "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
      }
+    }
+    ItemsInitConfigurationItem "{684866B26A1B97C2}" {
+     TargetStorage ""
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{684866B27BAA034D}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak3/Pouch_Taktika_magpouch_morphed_base.et"
+    }
+    ItemsInitConfigurationItem "{684866B2841C5D34}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak4/Pouch_Taktika_magpouch_morphed_base.et"
+    }
+    ItemsInitConfigurationItem "{684866B28130CE95}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/ak6/Pouch_Taktika_magpouch_base.et"
+    }
+    ItemsInitConfigurationItem "{684866B28D1C91B2}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/grenade2/Pouch_GP106_RGD_Pouch_FG.et"
+    }
+    ItemsInitConfigurationItem "{684866B294EB8306}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/grenade1/Pouch_GP106_RGD_Pouch_2_FG.et"
     }
     ItemsInitConfigurationItem "{684866AC07DD680B}" {
      PrefabsToSpawn {
       "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et"
      }
     }
+    ItemsInitConfigurationItem "{684866AC1EEF558A}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/pistol1/Pouch_Taktika_magpouch_pistol.et"
+    }
+    ItemsInitConfigurationItem "{684866AC2065BF9A}" {
+     TargetStorage "Vest/Vest_Taktika_belt_arsarma_1_noAdmin.et/pistol2/Pouch_Taktika_magpouch_pistol.et"
+    }
    }
   }
  }
- coords 149.975 1 151.667
+ coords 178.746 1 197.467
 }
