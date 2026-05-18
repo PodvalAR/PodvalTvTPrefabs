@@ -111,7 +111,7 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
       PivotID "slot_optics"
       MergePhysics 1
       ChildPivotID "snap_weapon"
-      Prefab "{9793014B3640A504}Prefabs/Weapons/Attachments/Optics/Vortex/Optic_Vortex_GE.et"
+      Prefab "{1ABA54E0E6E3C4CC}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_RAZOR1-6x/Optic_RAZOR1-6x_RMR_762x39.et"
       InspectionWidgetOffset 0 0.146 0.1816
      }
      AttachmentType AttachmentOpticsRIS1913 "{6962D871FC15EE5B}" {

@@ -1,0 +1,15 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_Rifle"
+   }
+  }
+ }
+ coords 125.286 1 157.175
+ m_aUnitPrefabSlots {
+  "{BE3305C99CE5B768}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_SL.et" "{B9F4FF98FA630DAB}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_TL.et" "{D3BBF4D6AE61157B}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_AR.et" "{DE6E8AF759D67C51}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_GL.et" "{E01BB5E6B916986E}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_LAT.et" "{B9F4FF98FA630DAB}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_TL.et" "{D3BBF4D6AE61157B}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_AR.et" "{E01BB5E6B916986E}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_LAT.et" "{95A18D58DF9D57A8}Worlds/S1lENCE_prefabs/BLUFOR/Regular/Char_USAF_Marksman.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

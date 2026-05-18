@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
     Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{06BB09909BF14989}Worlds/S1lENCE_prefabs/Weapons/AK200/Rifle_AK200_WCS.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -35,5 +38,5 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 70.339 1 56.135
+ coords 128.695 1 183.791
 }

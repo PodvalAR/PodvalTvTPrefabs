@@ -1,0 +1,8 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ coords 134.274 1 199.37
+ m_aUnitPrefabSlots {
+  "{457FC4CB637BCC3F}Worlds/S1lENCE_prefabs/BLUFOR/Recon/Char_USAF_SL.et" "{3867283306E8F0A6}Worlds/S1lENCE_prefabs/BLUFOR/Recon/Char_USAF_SR.et" "{28F735D451FF6E2C}Worlds/S1lENCE_prefabs/BLUFOR/Recon/Char_USAF_AR.et" "{25224BF5A6480706}Worlds/S1lENCE_prefabs/BLUFOR/Recon/Char_USAF_GL.et" "{7F15377AE7AA96B6}Worlds/S1lENCE_prefabs/BLUFOR/Recon/Char_USAF_LAT.et" "{67531DA1C067BD3B}Worlds/S1lENCE_prefabs/BLUFOR/Recon/Char_USAF_Sniper.et"
+ }
+ m_sCustomNameSet "Отряд разведки"
+}

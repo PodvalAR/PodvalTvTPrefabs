@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{AE87C0970E840E2A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_GP25_P87_Klesh.et"
+   WeaponTemplate "{C628CD2E1F71749A}Worlds/S1lENCE_prefabs/Weapons/AK200/Rifle_AK200_GP_WCS.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -30,5 +30,5 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 65.557 1 27.51
+ coords 118.509 1 184.106
 }

@@ -11,7 +11,7 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{B31D4120A872C74B}Worlds/S1lENCE_prefabs/Weapons/dim_Rifle_ORSIS_T5000_Forest_FIx.et"
+   WeaponTemplate "{6C8E4C0B660403BE}Worlds/S1lENCE_prefabs/Weapons/AK200/AK200_OKP7_SD.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
@@ -103,9 +103,5 @@ SCR_ChimeraCharacter : "{EDCFF009262F881C}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
-<<<<<<< Updated upstream
- coords 125.021 1 144.308
-=======
- coords 110.915 1 161.931
->>>>>>> Stashed changes
+ coords 148.614 1 149.073
 }
