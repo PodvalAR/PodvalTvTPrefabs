@@ -1,0 +1,15 @@
+GenericEntity : "{A210BD2E53650242}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30a2_Tan_SD.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+      Prefab "{F527D4B2C74C5E6A}Prefabs/Weapons/Attachments/Camouflage/Camouflage_Orsis_V2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 167.912 1 99.804
+}

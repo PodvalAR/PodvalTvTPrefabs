@@ -1,0 +1,44 @@
+GenericEntity : "{2850466082C9AE9B}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_ts30a2.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6964ADCBA27F2F5C}" {
+     SourceMaterial "SRifle_Additional_Rail"
+     AssignedMaterial "{F74E912C6B20FA09}Assets/Sniper/Data/Wood/SRifle_Additional_Rail_Wood.emat"
+    }
+    MaterialAssignClass "{6964ADCBA27F2F4B}" {
+     SourceMaterial "SRifle_Butt"
+     AssignedMaterial "{51C7C744E397D9AE}Assets/Sniper/Data/Wood/SRifle_Butt_Wood.emat"
+    }
+    MaterialAssignClass "{6964ADCBA27F2FB3}" {
+     SourceMaterial "SRifle_rifle"
+     AssignedMaterial "{30ED44B1BF107EC5}Assets/Sniper/Data/Wood/SRifle_rifle_Wood.emat"
+    }
+   }
+  }
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{B1C7EEC9ECD85AEC}Prefabs/Weapons/Attachments/Optics/ts30a2/optic_ts30a2_no_covers_camo.et"
+     }
+    }
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+      Prefab "{727F2DBEF43A6B5B}Prefabs/Weapons/Attachments/Camouflage/Camouflage_Orsis.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6918C6B1F67488EC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 167.125 1 100.362
+}
