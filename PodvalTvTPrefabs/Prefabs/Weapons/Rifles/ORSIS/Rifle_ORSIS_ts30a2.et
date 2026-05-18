@@ -14,10 +14,10 @@ GenericEntity : "{8865D6AEE1413CB5}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T500
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
-     MagazineTemplate "{E256C0CC945E18A5}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP.et"
+     MagazineTemplate "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
     }
    }
   }
  }
- coords 160.645 1.185 65.34
+ coords 4064.26 139.552 2010.103
 }
