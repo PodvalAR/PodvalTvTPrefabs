@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{3B3E604C59BDE61E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Modern_2020/dim_USMC_D_Crew_Driver.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ECF28783F3CE1B82}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_Converted.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo ArmoredVest {
