@@ -1145,6 +1145,7 @@ StringTable {
   }
   CustomStringTableItem "{68F2ECBD9742378E}" {
    Id "PDVL_Role_KS"
+   Target_en_us "Platoon Leader"
    Target_ru_ru "Командир стороны"
    Modified 1760756905
    Author "Biryuk"
