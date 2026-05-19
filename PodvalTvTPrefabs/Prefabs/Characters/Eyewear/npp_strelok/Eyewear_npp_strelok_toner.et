@@ -1,0 +1,15 @@
+GameEntity : "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{731067B8964A57B0}Assets/Characters/Eyewear/Eyewear_npp_strelok/Data/npp_strelok.emat" "{340C60C5BDEF9854}Assets/Characters/Eyewear/Eyewear_gascan/Data/glass_gasmask.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{340C60C5BDEF9854}Assets/Characters/Eyewear/Eyewear_gascan/Data/glass_gasmask.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 171.576 1.34 111.253
+}
