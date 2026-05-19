@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 171.691 1 224.087
+ m_aUnitPrefabSlots {
+  "{F4202C49BE9A6533}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_SL.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

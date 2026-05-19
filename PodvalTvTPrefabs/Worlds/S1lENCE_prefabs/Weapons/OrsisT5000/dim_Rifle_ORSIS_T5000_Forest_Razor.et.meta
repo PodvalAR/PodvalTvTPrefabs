@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{57D94D24831DF813}Worlds/S1lENCE_prefabs/Weapons/OrsisT5000/dim_Rifle_ORSIS_T5000_Forest_Razor.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_amg"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DD8A72AF88425D9C}Worlds/S1lENCE_prefabs/Weapons/M4A1/M4A1_Ranger.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696730B0768B5E9F}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{60D35A6492938E3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et" "{841A17E13B1FD467}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et" "{841A17E13B1FD467}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 171.433 1 214.988
+}

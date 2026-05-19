@@ -1,0 +1,17 @@
+SCR_AIGroup : "{AD9A850F5EA0E17F}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/MarpatWD/Group_RHS_USAF_Marpat_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+   m_iCompanyCallsign 0
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Squad_Rifle"
+   }
+  }
+ }
+ coords 194.176 1 222.788
+ m_aUnitPrefabSlots {
+  "{21F97CACC5D31C56}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/CharMarpat_SL_ACOG.et" "{F85AABE65E95A99A}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_TL_ACOG.et" "{53F0FC8E6D0EBFEF}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_MG.et" "{113A7678B8260AE3}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_Rifleman.et" "{AC448206FBC77B72}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_LAT.et" "{113A7678B8260AE3}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_Rifleman.et" "{113A7678B8260AE3}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_Rifleman.et" "{53F0FC8E6D0EBFEF}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_MG.et" "{174A67254C3424B7}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_Sniper.et"
+ }
+}
