@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{BD9BF00F4598B42E}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{E545153939CF74EB}Prefabs/Characters/HeadGear/Helmet_OPSCORE/ECH_SOCOM_GPNVG_Mask2.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{D7F42570A69A6B4A}Prefabs/Characters/Uniforms/USMC/Winter/GD_USMC_Pants_Winter.et"
+     Prefab "{933D729AF7E2E98E}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_ALP_camo/CP_G3_Pants_kpadsG3_MC_ALP.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
