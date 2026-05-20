@@ -21,10 +21,10 @@ SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Gryphon/Jacket_Gryphon_SNOW.et"
+     Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Jacket_Gryphon/Jacket_Gryphon_SNOW.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{3E5C7BD276167A2C}Prefabs/Characters/Uniforms/Crye_G4_Pants/GD_Crye_G4_Pants_Winter.et"
+     Prefab "{933D729AF7E2E98E}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_ALP_camo/CP_G3_Pants_kpadsG3_MC_ALP.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
@@ -34,10 +34,10 @@ SCR_ChimeraCharacter : "{63849351D71B1B01}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+     TargetStorage "Pants/CP_G3_Pants_kpadsG3_MC_ALP.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_Crye_G4_Pants_Winter.et"
+     TargetStorage "Pants/CP_G3_Pants_kpadsG3_MC_ALP.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
