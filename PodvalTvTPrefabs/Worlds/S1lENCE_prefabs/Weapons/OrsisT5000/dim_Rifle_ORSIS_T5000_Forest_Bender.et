@@ -1,6 +1,11 @@
 GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Forest.et" {
  ID "5260C45AAAA407F4"
  components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{9AA7F2A978A2CF0F}Sounds/Weapons/Rifles/T5000/Weapons_Rifles_T5000_Shot.acp" "{68E8B6867E61AE02}Prefabs/Sounds/Weapons_Rifles_T5000_Handling_Fix.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp" "{440921216B46C247}Sounds/Weapons/Rifles/T5000/Weapons_Rifles_T-5000_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
   FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
@@ -27,5 +32,5 @@ GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T500
    }
   }
  }
- coords 164.624 1 226.901
+ coords 154.319 1 229.6
 }

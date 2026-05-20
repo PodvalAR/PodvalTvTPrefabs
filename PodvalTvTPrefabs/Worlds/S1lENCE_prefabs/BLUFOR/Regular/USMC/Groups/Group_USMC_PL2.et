@@ -1,7 +1,7 @@
 SCR_AIGroup : "{BA8FD043B8B58150}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Groups/Group_USMC_PL3.et" {
  ID "0000000000000001"
- coords 2767.507 76.767 1644.375
+ coords 155.891 1 222.381
  m_aUnitPrefabSlots {
-  "{5875D92345878AF2}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_ACOG_GP_PL.et" "{DD0FB453D60AFC0F}Worlds/Vanya/ChernarusMinus/TVT_SHTURM_V2_chernarus/dim_USMC_Sniper.et"
+  "{5875D92345878AF2}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_ACOG_GP_PL.et" "{174A67254C3424B7}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_Sniper.et"
  }
 }

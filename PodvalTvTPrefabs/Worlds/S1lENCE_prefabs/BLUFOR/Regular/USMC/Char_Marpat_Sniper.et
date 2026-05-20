@@ -33,14 +33,34 @@ SCR_ChimeraCharacter : "{DD0FB453D60AFC0F}Worlds/Vanya/ChernarusMinus/TVT_SHTURM
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68934730EC96E78A}" {
      TargetStorage "Vest/GD_Gen3_Light_Sniper_1.et/triple/Pouch_Blueforce_Tri.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68934730F0F39227}" {
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
     }
     ItemsInitConfigurationItem "{68934730FD287580}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689347332B12FF35}" {
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68934733382BF0F6}" {
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{68934730F8EB90F0}" {
      TargetStorage "Vest/GD_Gen3_Light_Sniper_1.et/raid/Pouch_Shaw_Raid.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{6893473303960BA9}" {
@@ -54,19 +74,24 @@ SCR_ChimeraCharacter : "{DD0FB453D60AFC0F}Worlds/Vanya/ChernarusMinus/TVT_SHTURM
     }
     ItemsInitConfigurationItem "{689347331C18C584}" {
      TargetStorage "Pants/Pants_FROG_WD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{6893473323FF74C2}" {
      TargetStorage "Vest/GD_Gen3_Light_Sniper_1.et/admin/Pouch_Shaw_Nerd_Mini.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
      }
     }
     ItemsInitConfigurationItem "{689347334C694702}" {
      Enabled 0
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
     }
    }
   }
  }
- coords 195.672 1 217.095
+ coords 154.172 1 230.156
 }

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{BB4FFFEF193951C4}Worlds/S1lENCE_prefabs/OPFOR/FSB/Group_FSB.et" {
+ ID "0000000000000001"
+ coords 2754.918 77.436 1637.909
+ m_aUnitPrefabSlots + {
+  "{888B357D90047BDB}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Strelok.et"
+ }
+}

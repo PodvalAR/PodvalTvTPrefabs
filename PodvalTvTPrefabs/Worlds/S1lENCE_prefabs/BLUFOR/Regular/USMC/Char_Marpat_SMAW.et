@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{4402E2530CCF5BE1}Worlds/S1lENCE_prefabs/Weapons/M4A1/M4A1_Ranger_GP.et"
+   WeaponTemplate "{DD8A72AF88425D9C}Worlds/S1lENCE_prefabs/Weapons/M4A1/M4A1_Ranger.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
@@ -31,5 +31,5 @@ SCR_ChimeraCharacter : "{D5B0249971D53E95}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 194.237 1 217.852
+ coords 191.887 1 240.382
 }

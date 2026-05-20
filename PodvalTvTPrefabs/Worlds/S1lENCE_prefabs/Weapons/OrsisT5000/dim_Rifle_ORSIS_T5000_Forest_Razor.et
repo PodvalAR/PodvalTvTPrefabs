@@ -1,6 +1,10 @@
 GenericEntity : "{45780BC99834B380}Worlds/S1lENCE_prefabs/Weapons/OrsisT5000/dim_Rifle_ORSIS_T5000_Forest_Bender.et" {
  ID "5260C45AAAA407F4"
  components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
   FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
@@ -8,7 +12,13 @@ GenericEntity : "{45780BC99834B380}Worlds/S1lENCE_prefabs/Weapons/OrsisT5000/dim
       Prefab "{0481183D215F2D7B}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_RAZOR1-6x/Optic_RAZOR1-6x.et"
      }
     }
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+      Prefab ""
+     }
+    }
    }
   }
  }
+ coords 151.237 1 228.704
 }
