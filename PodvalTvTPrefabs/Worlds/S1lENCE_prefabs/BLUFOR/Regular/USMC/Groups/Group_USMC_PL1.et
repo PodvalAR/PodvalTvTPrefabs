@@ -1,0 +1,7 @@
+SCR_AIGroup : "{BA8FD043B8B58150}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Groups/Group_USMC_PL3.et" {
+ ID "0000000000000001"
+ coords 2768.367 76.65 1643.27
+ m_aUnitPrefabSlots {
+  "{5875D92345878AF2}Worlds/S1lENCE_prefabs/BLUFOR/Regular/USMC/Char_Marpat_ACOG_GP_PL.et"
+ }
+}

@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{6B8211C5BB3960B3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_ASMAW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5438B06D1CFAD191}Worlds/S1lENCE_prefabs/Weapons/M4A1/M4A1_Ranger_ACOG.et"
+  }
+ }
+ coords 172.463 1 214.56
+}

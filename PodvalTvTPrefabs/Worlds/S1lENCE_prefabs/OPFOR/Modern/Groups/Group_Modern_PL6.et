@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 197.909 1 227.938
+ m_aUnitPrefabSlots {
+  "{6D3E95D0A37D54A3}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_PL.et" "{A32C758584D2E4AB}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_StarshyStrelok.et" "{58D892FA2DE927C4}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_Strelok.et" "{947DA3777BA9AE0A}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_GL.et" "{C9E4770F9B565A5D}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_Medic.et" "{CC15B14D564556E4}Worlds/S1lENCE_prefabs/OPFOR/Modern/Modern_sniper.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Rifle"
+}

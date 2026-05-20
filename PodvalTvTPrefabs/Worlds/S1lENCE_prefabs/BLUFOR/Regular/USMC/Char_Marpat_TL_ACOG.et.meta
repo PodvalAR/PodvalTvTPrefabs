@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{11E41C3F190461AC}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/EMR/Group_Modern_PL.et"
+ Name "{F85AABE65E95A99A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_Marpat_TL_ACOG.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

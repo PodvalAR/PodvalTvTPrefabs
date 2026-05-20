@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{9830E9F67E8C74F0}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_FSB_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{57D94D24831DF813}Worlds/S1lENCE_prefabs/Weapons/OrsisT5000/dim_Rifle_ORSIS_T5000_Forest_Razor.et"
+  }
+ }
+ coords 181.784 1 212.955
+}

@@ -321,7 +321,7 @@ GenericEntity : "{F9E6107C47C1B088}Prefabs/Weapons/Core/LongRangeRifle_Base.et" 
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
       InspectionWidgetOffset 0 -0.0139 0.1655
      }
-     MagazineTemplate "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et"
+     MagazineTemplate "{ED1060C766EEBD33}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_.300AP_FIX.et"
     }
     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
      Enabled 0

@@ -1,0 +1,30 @@
+GenericEntity : "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "SPR .300 (Swiss P AP8)"
+     Description "SPR .300 (Swiss P AP8)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "SPR .300 (Swiss P AP8)"
+    Description "SPR .300 (Swiss P AP8)"
+    m_sAmmoCaliber "300Win"
+    m_eAmmoTypeFlags AP
+   }
+   ItemModel "{8F18D27FC061D902}Assets/Weapons/SPR300/mag/SPRmag.xob"
+   MaxAmmo 10
+   AmmoConfig "{53732A927930D2DE}Worlds/S1lENCE_prefabs/Weapons/Ammo/Ammo_300Win_FIX.conf"
+   AmmoMapping {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{8F18D27FC061D902}Assets/Weapons/SPR300/mag/SPRmag.xob"
+  }
+ }
+}

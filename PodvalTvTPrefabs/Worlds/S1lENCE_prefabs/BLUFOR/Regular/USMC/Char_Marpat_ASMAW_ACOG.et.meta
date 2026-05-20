@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{4A8F259EA82478F0}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_Marpat_ASMAW_ACOG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

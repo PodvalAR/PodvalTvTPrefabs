@@ -1,0 +1,22 @@
+GenericEntity : "{597378E657C7290B}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{658290F958FB0E5D}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{C616145F2710F517}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_RAZOR1-6x/Optic_RAZOR1-6x_RMR.et"
+     }
+    }
+    AttachmentSlotComponent "{68A54988357CD357}" {
+     AttachmentSlot InventoryStorageSlot bipod {
+      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+     }
+     AttachmentType AttachmentRIS1913Bipod "{696730B24D9E9277}" {
+     }
+    }
+   }
+  }
+ }
+ coords 4569.607 20.664 2125.213
+}
