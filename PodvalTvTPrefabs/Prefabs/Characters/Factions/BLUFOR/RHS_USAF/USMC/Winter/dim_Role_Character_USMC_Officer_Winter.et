@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Jacket/GD_Jacket_Winter.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/Jacket_Parka_3_MulticamAlpine.et"
+     TargetStorage "Vest/Vest_PCGen_III_Officer.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{6720F9C14E342086}" {
      TargetStorage "Jacket/Jacket_Parka_3_MulticamAlpine.et"
