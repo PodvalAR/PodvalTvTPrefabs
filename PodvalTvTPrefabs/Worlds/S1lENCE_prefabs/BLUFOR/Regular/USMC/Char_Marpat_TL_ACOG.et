@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{F125FB1401B0BA71}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C0BBA2BF2CF3AEF8}Worlds/S1lENCE_prefabs/Weapons/M4A1/M4A1_GP_ACOG.et"
+   WeaponTemplate "{9D309BA3ACB34EBF}Worlds/S1lENCE_prefabs/Weapons/M4A1/Rifle_M4A1_ACOG.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -29,5 +29,5 @@ SCR_ChimeraCharacter : "{F125FB1401B0BA71}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 197.235 1 217.088
+ coords 197.032 1 246.958
 }

@@ -7,5 +7,9 @@ SCR_ChimeraCharacter : "{7E2A7E856E33FAA5}Prefabs/Characters/Factions/BLUFOR/RHS
     Icon "{1CFADF7EA9F42D6A}UI/Icons/platoon.edds"
    }
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9D309BA3ACB34EBF}Worlds/S1lENCE_prefabs/Weapons/M4A1/Rifle_M4A1_ACOG.et"
+  }
  }
+ coords 198.241 1 246.88
 }

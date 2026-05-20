@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{1F52F4D146EE2D7E}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_ACOG_M203.et"
+   WeaponTemplate "{FE75B401E705E153}Worlds/S1lENCE_prefabs/Weapons/M4A1/Rifle_M4A1_ACOG_suppresed.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
@@ -69,5 +69,5 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 178.039 1 182.189
+ coords 200.062 1 246.817
 }
