@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{0B6C85E2E52C05B6}Prefabs/Characters/Factions/BLUFOR/UK_
     }
     ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
      PrefabsToSpawn + {
-      "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et" "{F605A4A0573F4BED}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_RadwayGreen_2+2.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{62849D41EBD4ECE4}" {
