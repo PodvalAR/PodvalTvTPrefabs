@@ -1,3 +1,56 @@
 GenericEntity : "{1414EEC1849D2447}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_base.et" {
  ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{F4FBD551741C8C96}Sounds/Weapons/Rifles/AKM/Weapons_Rifles_AKM_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{696B2071BFF927E3}" {
+       AttachmentSlot InventoryStorageSlot "{696B20718797BA87}" {
+        PivotID "slot_barrel_muzzle"
+        Offset 0 0 0.0274
+        MergePhysics 1
+        ChildPivotID "snap_weapon"
+        InspectionWidgetOffset 0 0.0939 0.7118
+       }
+       AttachmentType TF_AttachmentMuzzleA762 "{696B20718A770776}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5534BB9B9A3E36C0}" {
+       OverrideByAttachment 1
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ResetOnFire 0
+       OverrideByAttachment 1
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{696B32CBC971799C}" {
+     UIInfo SCR_ActionContextUIInfo "{696B32CA1F593456}" {
+     }
+     ContextName "muzzle"
+     Position PointInfo "{618A842792A66B70}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0 -0.0073
+     }
+     Radius 0.075
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{696B32CBAA072FD3}" {
+  }
+  RHS_WeaponRplComponent "{696B32CB9B360659}" {
+  }
+ }
+ coords 140.878 1.195 129.992
 }
