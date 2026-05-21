@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{D201553E77FBEB5A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.1013 -0.1545 -0.0156
+    Angles 45 0 180
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+ }
+ coords 1246.327 159.799 1095.72
+}

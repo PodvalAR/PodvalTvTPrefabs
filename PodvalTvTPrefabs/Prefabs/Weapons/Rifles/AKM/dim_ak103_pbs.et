@@ -1,0 +1,20 @@
+GenericEntity : "{B308EA8178A7AFBC}Prefabs/Weapons/Rifles/AKM/dim_ak103.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 -0.0404
+        Prefab "{0F09E96B94FD3BB8}Prefabs/Weapons/Attachments/Muzzle/Suppressor_A545_A762/Suppressor_762.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 173.411 1.346 83.735
+}

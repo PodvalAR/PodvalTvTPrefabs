@@ -1,0 +1,42 @@
+GenericEntity : "{135AF9FE4CE167BF}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_OD_GM94.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo medkit {
+     Offset 0.2247 0.0361 -0.0007
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1884 0.0731 -0.1215
+     Angles 2.698 112.6184 -2.9024
+    }
+    LoadoutSlotInfo Grenade {
+     Offset -0.1842 0.0573 0.0922
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.2431 0.0246 0.0059
+    }
+    LoadoutSlotInfo mp105_1 {
+     PivotID "Spine5"
+     Offset 0.022 0.1338 -0.2345
+     Prefab "{50B958C01C53BF80}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_OD.et"
+    }
+    LoadoutSlotInfo mp105_2 {
+     Offset 0.0004 0.0351 0.1624
+    }
+    LoadoutSlotInfo mp105_3 {
+     Offset -0.0822 0.0297 0.1565
+    }
+    LoadoutSlotInfo placard {
+     Offset 0.0828 0.0332 0.1603
+    }
+    LoadoutSlotInfo mp105holster {
+     Offset 0.1662 0.0395 0.0699
+     Angles -5.3108 66.5216 -2.4918
+     Prefab "{9B391B0A3716E93D}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp105_2_OD.et"
+    }
+   }
+  }
+ }
+ coords 154.354 1 60.673
+}
