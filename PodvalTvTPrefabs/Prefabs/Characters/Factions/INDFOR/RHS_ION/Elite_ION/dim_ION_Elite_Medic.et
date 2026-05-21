@@ -17,6 +17,9 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
     LoadoutSlotInfo ArmoredVest {
      Prefab "{C0F5CD383250FC96}Prefabs/Characters/Vests/Vest_SNS_PlateFrame/GD_SNS_Black.et"
     }
+    LoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{5E58E25D9FFF8C48}Prefabs/Items/Equipment/Backpacks/MR_TRIZIP/GD_MR_TRIZIP_Black.et"
     }

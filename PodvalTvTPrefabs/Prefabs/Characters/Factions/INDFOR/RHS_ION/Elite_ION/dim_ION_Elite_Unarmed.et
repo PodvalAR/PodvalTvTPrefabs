@@ -6,10 +6,10 @@ SCR_ChimeraCharacter : "{53F6F7CF18A303D4}Prefabs/Characters/Factions/INDFOR/RHS
     LoadoutSlotInfo Hat {
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Crye_Jacket/GD_Crye3_Rolled_BlackMC.et"
+     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_Rolled_BlackMC.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{CDFCFF874188E509}Prefabs/Characters/Uniforms/Crye_pants/GD_Crye3_Pants_BlackMC.et"
+     Prefab "{0431EA00E8B1CA6A}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_KpadsG3_MC_BLK.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
@@ -22,13 +22,13 @@ SCR_ChimeraCharacter : "{53F6F7CF18A303D4}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
-     TargetStorage "Pants/GD_Crye3_Pants_BlackMC.et"
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
      PrefabsToSpawn {
       "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
-     TargetStorage "Pants/GD_Crye3_Pants_BlackMC.et"
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
      PrefabsToSpawn {
       "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
      }
