@@ -3,6 +3,12 @@ GenericEntity : "{5E07E121D9688C2F}Prefabs/Characters/Vests/Vest_TV110/Variants/
  components {
   MeshObject "{61AA6069A5E48A87}" {
    Object "{FB90B45052FF775D}Assets/Characters/Belts/Belt_ArsArma_HSGI/belt_hsgi.xob"
+   Materials {
+    MaterialAssignClass "{696534BADE1BC9BD}" {
+     SourceMaterial "arsbelt"
+     AssignedMaterial "{69BBCA89C8DA4221}Assets/Characters/Belts/Belt_ArsArma_HSGI/data/arsbelt_olive.emat"
+    }
+   }
   }
   RHS_ClothNodeStorageComponent "{61AA6069A5E48A80}" {
    Attributes SCR_ItemAttributeCollection "{61AA6069A5E48A8F}" {
@@ -129,5 +135,5 @@ GenericEntity : "{5E07E121D9688C2F}Prefabs/Characters/Vests/Vest_TV110/Variants/
    DebugWornModel 0
   }
  }
- coords 62.268 1.389 93.757
+ coords 162.711 1.471 125.256
 }

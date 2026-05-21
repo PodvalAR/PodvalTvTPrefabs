@@ -1,0 +1,3 @@
+MatPBRBasicGlass : "{C4D05BD1A83FD4E8}Assets/Characters/HeadGear/Helmet_TOR2/data/tor2_transp.emat" {
+ SpecularIBL 0 0 0 1
+}
