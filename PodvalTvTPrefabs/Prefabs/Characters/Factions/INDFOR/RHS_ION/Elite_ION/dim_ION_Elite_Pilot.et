@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{E3BA31640CD7F87F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Pilot.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D8A65A692EDCBBA1}Prefabs/Characters/HeadGear/Helmet_CVC_01/dim_Helmet_CVC_Shroud_0.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E3DF5C439F99E94}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Vest/GD_ION_JPC_V2.et/mbiyt/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{689E807542DED578}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+   }
+  }
+ }
+ coords 13465.611 63.075 12172.205
+}

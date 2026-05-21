@@ -1,0 +1,34 @@
+Vehicle : "{B286EA56BC348B77}Prefabs/Vehicles/Helicopters/MH-6J/AH-6J_Doors_M261_HE.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_ION"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_ION"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Decal_ION_L {
+     PivotID "v_body"
+     Offset 0.1729 2.4619 1.2557
+     Angles 87.3222 -114.3117 43.8602
+     Prefab "{88BC8E66EF533FA9}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Decal_ION_R {
+     PivotID "v_body"
+     Offset -0.1807 2.4473 1.2635
+     Angles -85.3142 -112.5234 89.3481
+     Prefab "{88BC8E66EF533FA9}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 13461.587 60.414 12125.762
+}
