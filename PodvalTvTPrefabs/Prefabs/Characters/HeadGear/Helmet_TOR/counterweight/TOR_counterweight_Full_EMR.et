@@ -1,14 +1,22 @@
 GameEntity : "{94220372D72969ED}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_Full_BASE.et" {
  ID "5DB09136945FC6DB"
  components {
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{696B4821D0BC33F9}" {
+     SourceMaterial "TORcounterweight"
+     AssignedMaterial "{93B8FAC03D86D398}Assets/Characters/HeadGear/Helmet_TOR/Data/counterweight/Data/TOR_counterweight_EMR.emat"
+    }
+   }
+  }
   BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
    WornMaterialsOverride {
-    "{93B8FAC03D86D398}Assets/Characters/HeadGear/Helmet_TOR/Data/counterweight/Data/TOR_counterweight_EMR.emat"
+    "" "" "{93B8FAC03D86D398}Assets/Characters/HeadGear/Helmet_TOR/Data/counterweight/Data/TOR_counterweight_EMR.emat"
    }
    ItemMaterialsOverride {
-    "{93B8FAC03D86D398}Assets/Characters/HeadGear/Helmet_TOR/Data/counterweight/Data/TOR_counterweight_EMR.emat"
+    "" "" "{93B8FAC03D86D398}Assets/Characters/HeadGear/Helmet_TOR/Data/counterweight/Data/TOR_counterweight_EMR.emat"
    }
   }
  }
- coords 98.142 1.201 60.584
+ coords 189.867 1.048 134.064
 }
