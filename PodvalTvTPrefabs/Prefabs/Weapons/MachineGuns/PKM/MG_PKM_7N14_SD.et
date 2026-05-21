@@ -41,6 +41,20 @@ GenericEntity : "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.e
     }
    }
   }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{696B32CA349381F5}" {
+     UIInfo SCR_ActionContextUIInfo "{696B32CA150427CA}" {
+     }
+     ContextName "muzzle"
+     Position PointInfo "{618A842792A66B70}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0 -0.0207
+     }
+     Radius 0.075
+    }
+   }
+  }
  }
- coords 89.173 1.354 108.333
+ coords 143.354 1 126.196
 }
