@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{CC79897F0D00B78E}Prefabs/Characters/Factions/INDFOR/NAP
      Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{BD205C7B90BD399E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_officer.et"
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
     }
    }
   }
@@ -32,10 +32,10 @@ SCR_ChimeraCharacter : "{CC79897F0D00B78E}Prefabs/Characters/Factions/INDFOR/NAP
      TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
     }
     ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
-     TargetStorage "Vest/Vest_ALICE_officer.et/Suspenders/Vest_ALICE_suspenders_1.et"
+     TargetStorage "Vest/Vest_Lifchik.et"
     }
     ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
-     TargetStorage "Vest/Vest_ALICE_officer.et/Bayonet/Scabbard_Bayonet_M9.et"
+     TargetStorage "Jacket/Jacket_Parka_3_Flecktarn.et"
     }
     ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
      TargetStorage "Jacket/Jacket_Parka_3_Flecktarn.et"
