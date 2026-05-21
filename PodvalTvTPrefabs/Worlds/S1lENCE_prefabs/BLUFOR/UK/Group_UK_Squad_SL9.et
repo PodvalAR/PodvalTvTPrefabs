@@ -1,0 +1,8 @@
+SCR_AIGroup : "{17DE9065B07EB761}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
+ ID "0000000000000001"
+ coords 157.412 1 241.458
+ m_aUnitPrefabSlots {
+  "{1F9835E48B14E6CC}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_SL_Elcan.et" "{716047DF0AC6AC03}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_TL_Elcan.et" "{890C110D52F7AC51}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_MG.et" "{501DD0CC1A302A6D}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_LAT.et" "{890C110D52F7AC51}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_MG.et" "{501DD0CC1A302A6D}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_LAT.et" "{0E3C8046E376D8CB}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_Rifleman.et" "{2C70219D3347514D}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_Medic.et" "{1E0BB42B85D9BA80}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_Sniper.et"
+ }
+ m_sCustomNameSet "Пехотный отряд"
+}

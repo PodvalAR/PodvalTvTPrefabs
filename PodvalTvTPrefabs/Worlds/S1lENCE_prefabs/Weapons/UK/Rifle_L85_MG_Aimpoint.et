@@ -1,0 +1,59 @@
+GenericEntity : "{64E4E9A30D73B776}Prefabs/Weapons/Rifles/L85/Rifle_L85_LSW_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  RigidBody "{5D9F3AF79EC6B3C4}" {
+   Mass 6.45
+   CenterOfMass 0 0.057 -0.057
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#BF-Weapon_L86A1_LSW_Name"
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{4CFA64BAE2CCCC9E}Assets/Weapons/Rifles/L85A1/anims/p_rfl_l86_erc_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 0.95
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{3839AAF18D98B8F4}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_AimpointCompM4s/Collim_AimpointCompM4s_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     "LEFT HAND TARGET" DeploymentPointInfo LHT {
+      Offset -0.0261 -0.0278 -0.2722
+      Angles 0 -0.8539 66.4109
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo BST {
+      Offset 0 -0.0537 -0.3113
+     }
+    }
+    WeaponAnimationComponent "{5D9F3AF79EC9FBD7}" {
+     AnimInstance "{70A5C6CC823D4462}Assets/Weapons/Rifles/workspaces/l85_weapon.asi"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#BF-Weapon_L86A1_LSW_Name"
+    Description "#BF-Weapon_L86A1_LSW_Description"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{5D9F3AF79EC9FBC1}" {
+      Offset -0.0197 0.037 -0.0169
+     }
+    }
+   }
+  }
+ }
+ coords 156.922 1 243.047
+}

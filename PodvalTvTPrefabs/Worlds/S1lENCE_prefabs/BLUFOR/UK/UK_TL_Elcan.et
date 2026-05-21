@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{CE4A08ABF17C30E2}Prefabs/Characters/Factions/BLUFOR/UK/UK2/UK2_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_TL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{86D4F0D89D473CF7}Worlds/S1lENCE_prefabs/Weapons/UK/dim_Rifle_L85A1_AimpointMagn.et"
+  }
+ }
+ coords 156.212 1 244.988
+}
