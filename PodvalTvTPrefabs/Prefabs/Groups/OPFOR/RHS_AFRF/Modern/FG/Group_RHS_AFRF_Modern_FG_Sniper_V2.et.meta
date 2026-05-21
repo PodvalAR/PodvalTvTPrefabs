@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{42E9818E3F053CF9}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/FG/Group_RHS_AFRF_Modern_FG_Sniper_V2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

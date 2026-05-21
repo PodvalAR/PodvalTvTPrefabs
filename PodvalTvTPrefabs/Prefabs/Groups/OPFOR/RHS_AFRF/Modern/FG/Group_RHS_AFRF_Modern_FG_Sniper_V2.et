@@ -1,0 +1,7 @@
+SCR_AIGroup : "{6065C6E34F0B0799}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/FG/Group_RHS_AFRF_Modern_FG_Sniper.et" {
+ ID "0000000000000001"
+ coords 164.879 1 109.585
+ m_aUnitPrefabSlots {
+  "{E76D1BBA01B63B35}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sniper_SD.et" "{4586B76301FF7992}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Observer_Optic.et"
+ }
+}
