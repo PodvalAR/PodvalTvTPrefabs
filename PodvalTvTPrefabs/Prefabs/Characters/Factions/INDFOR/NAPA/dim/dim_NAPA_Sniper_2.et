@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{B1128011F9B8ECEB}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Marksman_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sniper"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C6F24C963EA4C1EF}Prefabs/Weapons/Rifles/L42A1/Rifle_L8T_M61.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A22C976003AA5BA3}Prefabs/Characters/HeadGear/Hat_Ushanka_01/Hat_Ushanka_01_folded.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CD9F83ACCDAF0067}Prefabs/Characters/Uniforms/Jacket_KZS/dim_Jacket_KZS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9CEA24A1A9CC2675}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_sniper.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Jacket/dim_Jacket_KZS.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Vest/Vest_ALICE_sniper.et/Bayonet/Scabbard_Bayonet_M9.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Jacket/dim_Jacket_KZS.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/Vest_ALICE_sniper.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     Enabled 1
+     TargetStorage "Vest/Vest_ALICE_sniper.et/MagPouch/Pouch_ALICE_20rnd_M14.et"
+     PrefabsToSpawn {
+      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     TargetStorage "Vest/Vest_ALICE_sniper.et/FirstAid/Vest_ALICE_firstaid.et"
+    }
+   }
+  }
+ }
+ coords 232.559 1 120.457
+}

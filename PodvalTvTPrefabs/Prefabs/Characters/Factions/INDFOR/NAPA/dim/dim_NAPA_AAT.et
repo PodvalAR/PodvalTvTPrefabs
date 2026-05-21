@@ -1,0 +1,66 @@
+SCR_ChimeraCharacter : "{8AB7274FFF449C2E}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Rifleman_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AAT"
+    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F0093303049F466F}Prefabs/Characters/HeadGear/Hat_Ushanka_01/dim_Hat_Ushanka_01_unfolded_4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{751991E63A016F1D}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_ion3.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8798949C614C95A5}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans_Navy.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Offset 0 0.0213 0.0227
+     Prefab "{6BB450E1A88B5D11}Prefabs/Characters/Vests/Vest_ChestRigLarge/Vest_ChestRigLarge_3.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Jacket/Night_parka_ion3.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Pants/GD_Jeans_Navy.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/Vest_ChestRigLarge_3.et"
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     TargetStorage "Vest/Vest_ChestRigLarge_3.et"
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+ coords 226.876 1 104.696
+}

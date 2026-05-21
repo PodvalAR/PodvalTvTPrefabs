@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{72AB8D9928B39CA2}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E9890F026F096476}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_Acog_Rif.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{CD9F83ACCDAF0067}Prefabs/Characters/Uniforms/Jacket_KZS/dim_Jacket_KZS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{78FE382AC114F152}Prefabs/Items/Equipment/Radios/dim_Radio_NAPA.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/Pants_KZS.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Jacket/dim_Jacket_KZS.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Jacket/dim_Jacket_KZS.et"
+     PrefabsToSpawn {
+      "{F0FE50B01B98C67A}Prefabs/Items/Equipment/Radios/Radio_R148_NAPA_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 229.426 1 107.804
+}

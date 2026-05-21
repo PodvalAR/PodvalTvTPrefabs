@@ -1,0 +1,56 @@
+SCR_ChimeraCharacter : "{29E5C58601E520E5}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_SL_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E9890F026F096476}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_Acog_Rif.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F29E38136C64F049}Prefabs/Characters/HeadGear/Helmet_SSh68_01/dim_Helmet_SSh68_01_Balaclava_3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6D73910B984C8F97}Prefabs/Characters/Uniforms/Jacket_Bomber_4.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{ADBC10EA4D0D97C2}Prefabs/Characters/Uniforms/Pants_Taksuit_7.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/Pants_Taksuit_7.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Jacket/Jacket_Bomber_4.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 208.271 1 105.861
+}

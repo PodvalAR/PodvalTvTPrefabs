@@ -1,0 +1,109 @@
+SCR_ChimeraCharacter : "{72AB8D9928B39CA2}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2F098F38D4D889ED}Prefabs/Weapons/Rifles/M4A1/M4_Ranger2000.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{517C55F2E90FC169}Prefabs/Characters/HeadGear/Helmet_6B47/dim_Helmet_6B47_no_cover_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F39929AB609C7943}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_base.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5418C9D338618BA9}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{12DE4B491BD275BB}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{13542D61356FFB4D}Prefabs/Characters/Vests/Vest_AVS/Variants/ION/Vest_AVS_Blk_NoBelt_Light.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "ArmoredVest/Vest_AVS_Blk.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_base.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/mbitr/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/flex1/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/flex2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF7206CD3AA}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF7204298C3}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF72059B58E}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF723AEDA9E}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF74D967785}" {
+     TargetStorage "Vest/Vest_AVS_Blk_NoBelt_Light.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF749588944}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/medkit/Pouch_UP103_Medkit_OD.et"
+    }
+    ItemsInitConfigurationItem "{696A3BF766E73A8D}" {
+     Enabled 0
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/holster/Pouch_HP103_Holster_Olive.et"
+     PrefabsToSpawn {
+      "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+     }
+    }
+   }
+  }
+ }
+ coords 195.4 1 93.876
+}
