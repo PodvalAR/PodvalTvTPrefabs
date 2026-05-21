@@ -6,6 +6,10 @@ GenericEntity : "{1414EEC1849D2447}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_base.e
     "{F4FBD551741C8C96}Sounds/Weapons/Rifles/AKM/Weapons_Rifles_AKM_Shot_Suppressed_SuperSonic.acp"
    }
   }
+  RHS_WeaponRplComponent "{696B32CB9B360659}" {
+  }
+  SCR_WeaponStatsManagerComponent "{696B32CBAA072FD3}" {
+  }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     MuzzleComponent "{50F64C4591CD7AA6}" {
@@ -13,7 +17,7 @@ GenericEntity : "{1414EEC1849D2447}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_base.e
       AttachmentSlotComponent "{696B2071BFF927E3}" {
        AttachmentSlot InventoryStorageSlot "{696B20718797BA87}" {
         PivotID "slot_barrel_muzzle"
-        Offset 0 0 0.0274
+        Offset 0 0 0.0323
         MergePhysics 1
         ChildPivotID "snap_weapon"
         InspectionWidgetOffset 0 0.0939 0.7118
@@ -46,10 +50,6 @@ GenericEntity : "{1414EEC1849D2447}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_base.e
      Radius 0.075
     }
    }
-  }
-  SCR_WeaponStatsManagerComponent "{696B32CBAA072FD3}" {
-  }
-  RHS_WeaponRplComponent "{696B32CB9B360659}" {
   }
  }
  coords 140.878 1.195 129.992
