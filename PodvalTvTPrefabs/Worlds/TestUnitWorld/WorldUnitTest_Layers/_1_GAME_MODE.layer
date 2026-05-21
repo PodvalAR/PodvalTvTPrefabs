@@ -1,0 +1,27 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 147.403 1 162.686
+ Factions {
+  SCR_Faction "{69391C43B7204D06}" : "{49C06D00B0B978C4}Configs/Factions/Drg_VCA.conf" {
+  }
+ }
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ m_bRemoveRedundantUnits 0
+ m_bFreezeTimeShootingForbiden 0
+}
+$grp SCR_AIGroup {
+ {
+  coords 156.951 1 239.19
+ }
+ {
+  coords 157.64 1 242.295
+ }
+}
+SCR_AIGroup : "{267668529664A418}Prefabs/Groups/INDFOR/Drg_VCA/drg_VCA_Showcase.et" {
+ coords 157.18 1 248.496
+ angles 0 0 0
+}

@@ -27,11 +27,12 @@ SCR_ChimeraCharacter : "{0B6C85E2E52C05B6}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
-    Prefab "{232DA7FA5FC47802}Prefabs/Weapons/Rifles/MP5/Rifle_MP5SD3.et"
+    Prefab ""
    }
+   WeaponTemplate "{232DA7FA5FC47802}Prefabs/Weapons/Rifles/MP5/Rifle_MP5SD3.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
-   WeaponTemplate "{232DA7FA5FC47802}Prefabs/Weapons/Rifles/MP5/Rifle_MP5SD3.et"
+   WeaponTemplate ""
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -42,8 +43,34 @@ SCR_ChimeraCharacter : "{0B6C85E2E52C05B6}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{694ACE1C9F9C82C0}" {
+     Enabled 0
+     PrefabsToSpawn {
+      "{C8B6565467AA8CB7}Prefabs/Items/Equipment/Compass/Compass_Baseplate.et" "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+     PrefabsToSpawn {
+      "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{379F10C00559D45F}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_UK.et" "{842E93279EA18647}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_UK_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{E67E7932C86FBB96}Prefabs/Items/Medicine/FieldDressing_UK_01.et" "{348AFA29B6D6BE0A}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget_UK_OD.et" "{D13A99EEED51784B}Prefabs/Items/Equipment/Flashlights/Flashlight_UK.et" "{1A7FE1AC9E645F28}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694ACE158C2377EA}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{694ACE158C2377ED}" {
+     Enabled 0
+    }
     ItemsInitConfigurationItem "{694ACE158C2377EE}" {
      TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{694ACE158C2377D0}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{694ACE158C2377D1}" {
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     }
     }
     ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
      TargetStorage "Vest/Vest_COP.et"
@@ -58,7 +85,7 @@ SCR_ChimeraCharacter : "{0B6C85E2E52C05B6}Prefabs/Characters/Factions/BLUFOR/UK_
      }
     }
     ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
-     TargetStorage "Pants/Trousers_Tropical_DesertDPM_01.et"
+     TargetStorage "Jacket/Jacket_Tropical_DesertDPM_01.et"
      PrefabsToSpawn {
       "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
      }
