@@ -1,0 +1,86 @@
+SCR_ChimeraCharacter : "{FB63F580989284E7}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D29F398B72BB6E9E}Prefabs/Weapons/Rifles/AK74M/drg_Rifle_AK74M_npz_b10m_b19n_tgpa_var4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6C4870CA9C63485E}Prefabs/Characters/HeadGear/Helmet_6B47/dim_Helmet_6B47_no_cover_5.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E63320E9C4B7E6B3}Prefabs/Characters/Uniforms/Jacket_PCU_Tape/GD_PCU_DPC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B776438826A2A82F}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B6A81AA5B31B2478}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_DPC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{91F7B81D1A3655FC}Prefabs/Characters/Footwear/CombatBoots_BCT_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/GD_ACU_Pants_DPC.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "ArmoredVest/Vest_Bagari_base.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Jacket/GD_PCU_DPC.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Jacket/GD_PCU_DPC.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et" "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696A3BF7206CD3AA}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696A3BF7204298C3}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696A3BF72059B58E}" {
+     TargetStorage "Jacket/GD_PCU_DPC.et"
+    }
+    ItemsInitConfigurationItem "{696A3BF723AEDA9E}" {
+     TargetStorage "Jacket/GD_PCU_DPC.et"
+    }
+    ItemsInitConfigurationItem "{696A3BF74D967785}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696A3BF749588944}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696A3BF766E73A8D}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 179.331 1 70.349
+}
