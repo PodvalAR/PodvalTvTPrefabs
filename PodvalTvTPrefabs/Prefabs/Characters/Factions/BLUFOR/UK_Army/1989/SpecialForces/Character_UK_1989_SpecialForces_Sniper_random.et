@@ -40,17 +40,44 @@ SCR_ChimeraCharacter : "{54075E157C54B2E3}Prefabs/Characters/Factions/BLUFOR/UK_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{610CC31428816D50}" {
+     TargetStorage "Pants/Trousers_Combat_68Pat_DPM_Tropical_01.et"
+    }
+    ItemsInitConfigurationItem "{696943E8A3FE2BD5}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696943E8A3FE2BD8}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
+    }
+    ItemsInitConfigurationItem "{696943E8A3FE2BDA}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696943E8A3FE2BDD}" {
+     TargetStorage "Vest/Vest_COP.et"
+    }
+    ItemsInitConfigurationItem "{696943E8A3FE2BDE}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696943E8A3FE2BC0}" {
+     TargetStorage "Vest/Vest_COP.et"
+     PrefabsToSpawn {
+      "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
+     }
+    }
     ItemsInitConfigurationItem "{62849D41EBD4ECE0}" {
+     TargetStorage "Vest/Vest_COP.et"
      PrefabsToSpawn {
       "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et"
      }
     }
     ItemsInitConfigurationItem "{62849D41EBD52DB8}" {
+     TargetStorage "Vest/Vest_COP.et"
      PrefabsToSpawn {
       "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
      }
     }
     ItemsInitConfigurationItem "{62849D41EBD52DBA}" {
+     TargetStorage "Jacket/Smock_Combat_84Pat_DPM_01.et"
      PrefabsToSpawn {
       "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{96FFE213B19D1D57}Prefabs/Weapons/Grenades/Smoke_No80_WP.et" "{D950FADF7FC188C0}Prefabs/Weapons/Grenades/Smoke_No83_Yellow.et"
      }

@@ -1,0 +1,6 @@
+SCR_ChimeraCharacter : "{AE66412838700F88}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sniper_random.et" {
+ coords 98.911 1 87.6
+}
+SCR_AIGroup : "{C068ABB2FCDC4EEE}Prefabs/Groups/BLUFOR/British Forces/Regular/1980/dim_UK_Squad_86_helirecon_random.et" {
+ coords 103.585 1 83.784
+}
