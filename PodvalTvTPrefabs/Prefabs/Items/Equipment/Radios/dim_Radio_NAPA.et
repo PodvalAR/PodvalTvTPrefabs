@@ -1,0 +1,9 @@
+GenericEntity : "{E0E85543D8A03A5C}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_ION_ColdWar.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "beefGoulash"
+  }
+ }
+ coords 233.409 1 109.129
+}

@@ -1,0 +1,41 @@
+GameEntity : "{D21DCE2165F63FB3}Prefabs/Characters/HeadGear/Hat_ZmijovkaCap_01/Hat_ZmijovkaCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{696976A7542CA88F}" {
+     SourceMaterial "Hat_ZmijovkaCap_01"
+     AssignedMaterial "{D32BCC7838E3A4E0}Assets/Characters/HeadGear/Hat_ZmijovkaCap_01/Data/Hat_ZmijovkaCap_01_red.emat"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#AR-Headgear_Zmijovka_Red_Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Mask {
+     Prefab "{648F95B93D8C28E9}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_3holes.et"
+     InspectionWidgetOffset 0 1.6 0
+     AreaType LoadoutHeadCoverArea "{696976A7542CAB7F}" {
+     }
+     m_sInspectIconTexture "{9D824B02D8CE6328}UI/Textures/InventoryIcons/Inspection-gizmo-mask-slot-UI.edds"
+    }
+    RHS_LoadoutSlotInfo Goggles {
+     InspectionWidgetOffset 0 1.6901 0.0813
+     m_sInspectIconTexture "{8C5C7CED1FFCE9F6}UI/Textures/InventoryIcons/Inspection-gizmo-goggles-slot-UI.edds"
+    }
+   }
+   WornMaterialsOverride {
+    "{D32BCC7838E3A4E0}Assets/Characters/HeadGear/Hat_ZmijovkaCap_01/Data/Hat_ZmijovkaCap_01_red.emat"
+   }
+   ItemMaterialsOverride {
+    "{D32BCC7838E3A4E0}Assets/Characters/HeadGear/Hat_ZmijovkaCap_01/Data/Hat_ZmijovkaCap_01_red.emat"
+   }
+  }
+ }
+}

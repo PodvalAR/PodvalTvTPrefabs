@@ -1,0 +1,21 @@
+GameEntity : "{FA21E1335F37B425}Prefabs/Characters/HeadGear/Hat_BallCap/dim_CAP.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Mask {
+     Prefab "{35D00D3B430A2C9A}Prefabs/Characters/HeadGear/Hat_Masks/GD_Baf_Black.et"
+     InspectionWidgetOffset 0 1.6 0
+     AreaType LoadoutHeadCoverArea "{5DB0913540BC60B8}" {
+     }
+     m_sInspectIconTexture "{9D824B02D8CE6328}UI/Textures/InventoryIcons/Inspection-gizmo-mask-slot-UI.edds"
+    }
+    RHS_LoadoutSlotInfo Goggle {
+     InspectionWidgetOffset 0 1.6901 0.0813
+     m_sInspectIconTexture "{8C5C7CED1FFCE9F6}UI/Textures/InventoryIcons/Inspection-gizmo-goggles-slot-UI.edds"
+    }
+   }
+  }
+ }
+ coords 222.926 1 108.157
+}

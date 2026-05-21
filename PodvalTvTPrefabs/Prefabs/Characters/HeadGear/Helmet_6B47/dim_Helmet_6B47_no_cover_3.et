@@ -1,0 +1,16 @@
+GameEntity : "{28A803BD4FD26F0C}Prefabs/Characters/HeadGear/Helmet_6B47/dim_Helmet_6B47_no_cover.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9556BCFB7A7D5D8C}Prefabs/Characters/Eyewear/Eyewear_6b50/GD_Eyewear_6b50_wear_on_6b47_2.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{FC70C1A7ABC37943}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_2holes.et"
+    }
+   }
+  }
+ }
+ coords 234.311 1 109.331
+}

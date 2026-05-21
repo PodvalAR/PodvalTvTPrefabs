@@ -1,0 +1,16 @@
+GameEntity : "{3AB108472781BA47}Prefabs/Characters/HeadGear/Helmet_SSh68_01/dim_Helmet_SSh68_01_Balaclava.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+    }
+    LoadoutSlotInfo PASGT {
+     Offset 0 0 0.0046
+     Prefab "{79D240C0D2390F4A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_goggles.et"
+    }
+   }
+  }
+ }
+ coords 234.541 1 106.381
+}
