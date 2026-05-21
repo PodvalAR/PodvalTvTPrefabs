@@ -1,0 +1,14 @@
+SCR_AIGroup : "{17DE9065B07EB761}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A4F09568F482B4}" {
+   m_iCompanyCallsign 3
+   m_iSquadCallsign 2
+  }
+ }
+ coords 162.312 1 239.497
+ m_aUnitPrefabSlots {
+  "{3E9BFA5FEF2614C9}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_Sniper.et" "{1E0BB42B85D9BA80}Worlds/S1lENCE_prefabs/BLUFOR/UK/Char_UK_Sniper.et"
+ }
+ m_sCustomNameSet "Снаперская пара"
+}

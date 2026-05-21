@@ -1,0 +1,8 @@
+SCR_AIGroup : "{17DE9065B07EB761}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
+ ID "0000000000000001"
+ coords 160.908 6.777 254.093
+ m_aUnitPrefabSlots {
+  "{C54DC6E27D5B9F3F}Prefabs/Characters/Factions/BLUFOR/UK/Regular/Char_UK_Regular_PL.et" "{716047DF0AC6AC03}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_TL_Elcan.et" "{2C70219D3347514D}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_Medic.et" "{1E0BB42B85D9BA80}Worlds/S1lENCE_prefabs/BLUFOR/UK/UK_Sniper.et"
+ }
+ m_sCustomNameSet "Командир Взвода"
+}

@@ -1,0 +1,10 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ coords 164.612 1 225.238
+ m_faction "UK"
+ m_aUnitPrefabSlots {
+  "{D77CDD218712C5A1}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_SL.et" "{D0BB2770E1947F62}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_TL.et" "{52660C294375445B}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_AT.et" "{DDE452E3A5CA0A8B}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_Rifleman.et" "{C0C66F69E85A56F0}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_Medic.et" "{3E9BFA5FEF2614C9}Worlds/S1lENCE_prefabs/BLUFOR/UK/Recon/UK_SPN_Sniper.et"
+ }
+ m_bPlayable 1
+ m_sCustomNameSet "Отряд разведки"
+}
