@@ -1,0 +1,13 @@
+GameEntity : "{F14913F524AA2C55}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Prefab "{63F1353AF0D18504}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_Sordin_black.et"
+    }
+   }
+  }
+ }
+ coords 172.979 1 123.605
+}
