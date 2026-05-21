@@ -12,13 +12,16 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{7231849F1B365DEC}Prefabs/Characters/Uniforms/PCU_Tape/GD_PCU_Tape.et"
+     Prefab "{7231849F1B365DEC}Prefabs/Characters/Uniforms/Jacket_PCU_Tape/GD_PCU_Tape.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{E164DC282D8A1B02}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk_Groin.et"
     }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E3DF5C439F99E94}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
     LoadoutSlotInfo Boots {
-     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{FFDEAD672E0AA14E}Prefabs/Characters/Vests/SHAW_ARC_Kits/GD_ION_TL_ShawARC.et"
@@ -27,6 +30,12 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
      TargetStorage "Jacket/GD_PCU_Tape.et"
      PrefabsToSpawn +{

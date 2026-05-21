@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1E9D13A5B4354F46}Prefabs/Characters/HeadGear/Hat_ZmijovkaCap_01/dim_Hat_ZmijovkaCap_01_red_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

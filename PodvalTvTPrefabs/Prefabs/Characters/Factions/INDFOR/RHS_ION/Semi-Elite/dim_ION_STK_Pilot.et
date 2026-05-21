@@ -25,7 +25,8 @@ SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
     }
     LoadoutSlotInfo Back {
-     Enabled 0
+     Enabled 1
+     Prefab "{FC5293E3973AAE8D}Prefabs/Items/Equipment/Radios/dim_Radio_ANPRC77_ION.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"

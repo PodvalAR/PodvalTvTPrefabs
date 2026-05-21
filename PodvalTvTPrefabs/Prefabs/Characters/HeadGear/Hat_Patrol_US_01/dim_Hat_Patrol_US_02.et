@@ -1,0 +1,41 @@
+GameEntity : "{F516AD5284661632}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{696976B4131A2A69}" {
+     SourceMaterial "Hat_Patrol_US_01"
+     AssignedMaterial "{254D1C369344DC06}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/Hat_Patrol_US_02.emat"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "#AR-Headgear_PatrolCap_Olive_Name"
+     Description "#AR-Headgear_PatrolCap_Olive_Description"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Mask {
+     InspectionWidgetOffset 0 1.6 0
+     AreaType LoadoutHeadCoverArea "{5DB0913540BC60B8}" {
+     }
+     m_sInspectIconTexture "{9D824B02D8CE6328}UI/Textures/InventoryIcons/Inspection-gizmo-mask-slot-UI.edds"
+    }
+    RHS_LoadoutSlotInfo Goggle {
+     InspectionWidgetOffset 0 1.6901 0.0813
+     m_sInspectIconTexture "{8C5C7CED1FFCE9F6}UI/Textures/InventoryIcons/Inspection-gizmo-goggles-slot-UI.edds"
+    }
+   }
+   WornMaterialsOverride {
+    "{5F31B2EEDF5123D1}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/dim_Hat_Patrol_US_02.emat"
+   }
+   ItemMaterialsOverride {
+    "{5F31B2EEDF5123D1}Assets/Characters/HeadGear/Hat_Patrol_US_01/Data/dim_Hat_Patrol_US_02.emat"
+   }
+  }
+ }
+}

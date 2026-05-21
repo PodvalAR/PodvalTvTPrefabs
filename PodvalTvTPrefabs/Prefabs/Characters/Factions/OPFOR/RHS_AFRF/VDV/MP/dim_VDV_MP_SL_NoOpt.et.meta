@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BE123FF7B7C3F265}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/MP/dim_VDV_MP_SL_NoOpt.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

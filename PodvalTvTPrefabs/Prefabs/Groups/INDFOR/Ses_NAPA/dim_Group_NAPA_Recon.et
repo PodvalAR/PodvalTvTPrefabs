@@ -1,0 +1,9 @@
+SCR_AIGroup : "{D5D0C33728F89BC6}Prefabs/Groups/INDFOR/Ses_NAPA/dim_Group_NAPA_KS.et" {
+ ID "0000000000000001"
+ coords 166.966 1 84.571
+ angles 0 0 0
+ m_aUnitPrefabSlots {
+  "{164BBFC492A34390}Prefabs/Characters/Factions/INDFOR/NAPA/dim/Recon/dim_NAPA_Rec_SL.et" "{DF927EC4D9006A84}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_GL_1.et" "{FC91FA73F4BCB67D}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_MG_2.et" "{C0B7FCD4E02BA6F7}Prefabs/Characters/Factions/INDFOR/NAPA/dim/Recon/dim_NAPA_Rec_Sapper.et" "{E6E313AF43801300}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Rifleman_1.et" "{2894A79DA29AF2EC}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Sniper_1.et"
+ }
+ m_sCustomNameSet "Разведка НАПА"
+}

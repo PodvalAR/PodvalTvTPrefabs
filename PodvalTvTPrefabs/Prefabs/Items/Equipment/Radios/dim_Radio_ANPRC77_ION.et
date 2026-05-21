@@ -1,0 +1,28 @@
+GenericEntity : "{F4331F64B94A47AC}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_ION.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{4208B441C7591373}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Inflated.xob"
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   Slots {
+    LoadoutSlotInfo Antenna {
+     PivotID "Spine5"
+     Offset -0.0566 -0.0291 -0.2404
+     Angles 0 0 -9.9544
+     Prefab "{789211997EBE37F4}Prefabs/Items/Equipment/Radios/Attachments/Attachment_ANPRC152A_Antenna.et"
+    }
+   }
+   WornModel "{08C82847017CEF05}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Spirit_DeltaBag_Def.xob"
+   WornMaterialsOverride {
+    "{91C691AA710C4AC6}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Data/Delta_Black.emat"
+   }
+   ItemModel "{2D49EED0BF90D5C7}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Spirit_DeltaBag_Item.xob"
+   ItemMaterialsOverride {
+    "{91C691AA710C4AC6}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Data/Delta_Black.emat"
+   }
+   DeflatedModel "{08C82847017CEF05}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Spirit_DeltaBag_Def.xob"
+  }
+ }
+ coords 13460.074 60.663 12121.854
+}

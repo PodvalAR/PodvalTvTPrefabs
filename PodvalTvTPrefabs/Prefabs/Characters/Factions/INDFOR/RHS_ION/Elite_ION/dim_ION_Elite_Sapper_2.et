@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{EFBCAE25566FAD89}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Sapper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8A81134ABF313ACE}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_2_2.et"
+    }
+   }
+  }
+ }
+ coords 13460.68 60.468 12131.961
+}

@@ -1,0 +1,28 @@
+GameEntity : "{76085FC2416A30F0}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH2000_tan.et" {
+ ID "50D485E1435D6C72"
+ components {
+  RHS_HelmetNodeStorageComponent "{5DB13C5777E6E695}" {
+   Attributes SCR_ItemAttributeCollection "{5DB13C5760610D64}" {
+    ItemDisplayName UIInfo "{5DB13C575E2AFE37}" {
+     Name "#RHS-Headgear_MICH2000_Name - #RHS-Color_Green"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{648F95B93D8C28E9}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_3holes.et"
+    }
+   }
+   WornModel "{09346E29A8DBAB9D}Assets/Characters/HeadGear/Helmet_MICH/MICH2000_Msa.xob"
+   WornMaterialsOverride {
+    "{605B007D84A27B2A}Assets/Characters/HeadGear/Helmet_MICH/data/MIch_Bare_green1.emat"
+   }
+   ItemMaterialsOverride {
+    "{605B007D84A27B2A}Assets/Characters/HeadGear/Helmet_MICH/data/MIch_Bare_green1.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 97.931 1 139.906
+}

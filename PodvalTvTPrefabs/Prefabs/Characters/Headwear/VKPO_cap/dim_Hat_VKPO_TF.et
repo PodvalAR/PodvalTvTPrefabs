@@ -1,0 +1,21 @@
+GameEntity : "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{A2C43394664D39C5}Assets/Characters/Headwear/VKPO_Cap/Item_VKPO_Cap.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Mask {
+     Prefab "{6CE649D0426A572F}Prefabs/Characters/HeadGear/Hat_Masks/GD_Baf Green.et"
+     InspectionWidgetOffset 0 1.6 0
+     AreaType LoadoutHeadCoverArea "{5DB0913540BC60B8}" {
+     }
+     m_sInspectIconTexture "{9D824B02D8CE6328}UI/Textures/InventoryIcons/Inspection-gizmo-mask-slot-UI.edds"
+    }
+   }
+   WornModel "{017A19D57F7CFADB}Assets/Characters/Headwear/VKPO_Cap/VKPO_Cap.xob"
+   ItemModel "{A2C43394664D39C5}Assets/Characters/Headwear/VKPO_Cap/Item_VKPO_Cap.xob"
+  }
+ }
+}
