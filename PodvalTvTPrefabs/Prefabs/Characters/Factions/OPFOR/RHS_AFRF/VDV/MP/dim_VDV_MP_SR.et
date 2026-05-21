@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{6E7C5806316CC858}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SR_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F9DF0AA717A9A9A1}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_GP25.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{CAEDE923EF4071AE}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7712AFA0649D92CC}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Armband/MP/MP_6Sh117_6B45_Pouches_GL.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/radio/Pouch_Ratnik_vog_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/slot/Pouch_Ratnik_ak_pouch_new_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/slot2/Pouch_Ratnik_ak_pouch_new_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/slot3/Pouch_Ratnik_ak_pouch_new_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/slot4/Pouch_Ratnik_ak_pouch_new_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/Knife/Pouch_6x9Scabbard.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33A2CB989F}" {
+     TargetStorage "Vest/MP_6Sh117_6B45_Pouches_GL.et/holster/Pouch_Ratnik_vog_pouch_new2.et"
+    }
+    ItemsInitConfigurationItem "{6947746596A54E59}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+   }
+  }
+ }
+ coords 13125.329 5.75 10326.03
+ angles 0 0 0
+}
