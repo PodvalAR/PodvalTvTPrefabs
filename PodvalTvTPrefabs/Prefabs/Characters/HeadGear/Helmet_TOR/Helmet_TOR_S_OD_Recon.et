@@ -1,0 +1,27 @@
+GameEntity : "{8C10414481051E1A}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_OD.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Offset -0.0034 0 -0.0082
+     Prefab "{6C8BC84DE28C48E0}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_toner_emr.et"
+    }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{3128AF01D21C4D28}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_emr.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Offset -0.0838 0.1721 -0.0085
+     Prefab "{7F43CA3BE4D42E42}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Camo.et"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 171.151 1 118.798
+}

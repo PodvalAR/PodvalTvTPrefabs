@@ -1,0 +1,60 @@
+SCR_ChimeraCharacter : "{58BB5DA1FF90CEE5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Recon/Char_RHS_RF_Modern_EMR_Recon_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sharpshooter  (Orsis)"
+    Icon "{57289CAE0D3DA346}UI/Icons/sabateur_sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9B41144AA8274250}Prefabs/Weapons/Rifles/ORSIS/dim_Rifle_ORSIS_T5000_Forest.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E29330565BD41436}Prefabs/Characters/Heads/Head_White_04_Camo.et"
+     Headcamo {
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C1E1A4FA418E969B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_OD_Recon.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE8616CA87C165E3}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_GRN.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+   }
+  }
+ }
+ coords 164.48 1 117.574
+}
