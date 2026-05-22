@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{A4E734CA26A281E2}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Crye_Jacket/GD_Crye3_Rolled_BlackMC.et"
+     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_Rolled_BlackMC.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{CDFCFF874188E509}Prefabs/Characters/Uniforms/Crye_pants/GD_Crye3_Pants_BlackMC.et"
+     Prefab "{7E3DF5C439F99E94}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_no_kpads_MC_BLK.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
@@ -20,14 +20,23 @@ SCR_ChimeraCharacter : "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
-     TargetStorage "Pants/GD_Crye3_Pants_BlackMC.et"
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
-     TargetStorage "Pants/GD_Crye3_Pants_BlackMC.et"
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
      TargetStorage "Jacket/GD_Crye3_Rolled_BlackMC.et"
      PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Vest/GD_AVS_ION.et/bag/GD_TV119_Pouch_JSTA_RHS_Brown.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{689E6D8233474F95}" {
@@ -45,6 +54,9 @@ SCR_ChimeraCharacter : "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E6D8254999773}" {
      PrefabsToSpawn +{
      }
+    }
+    ItemsInitConfigurationItem "{68A36ADD57FC10FD}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
     }
    }
   }

@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{FB63F580989284E7}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B308EA8178A7AFBC}Prefabs/Weapons/Rifles/AKM/dim_ak103.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{E63320E9C4B7E6B3}Prefabs/Characters/Uniforms/Jacket_PCU_Tape/GD_PCU_DPC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B6A81AA5B31B2478}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_DPC.et"
+    }
+   }
+  }
+ }
+ coords 179.334 1 70.349
+}

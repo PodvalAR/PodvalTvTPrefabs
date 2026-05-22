@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{6F2B6BB6F3A10B45}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{170274EA60816722}Prefabs/Characters/HeadGear/Helmet_SSh68_01/dim_Helmet_SSh68_01_Balaclava_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{13A76CA95749F75D}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Shirt_Red.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B776438826A2A82F}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{B67CD61E5DAFBE0C}Prefabs/Characters/HandWear/dim_LeatherGlove.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Jacket/ION_Shirt_Red.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 189.381 1 109.669
+}

@@ -1,0 +1,86 @@
+SCR_ChimeraCharacter : "{C657D0B8EDFE0DD0}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_4.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{46D829D1995F62D4}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_aimpoint_high.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{1828C5C23AE5E4CA}Prefabs/Weapons/GrenadeLaunchers/GM94/GL_GM94.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B6A81AA5B31B2478}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_DPC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FCB6D8B108CF6EF0}Prefabs/Characters/Vests/Vest_TV102/variants/dim_Vest_TV102_rifleman_OD_GM94.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/GD_ACU_Pants_DPC.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/mp105_2/Pouch_wartech_magpouch_mp105_3_OD.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/mp105_3/Pouch_wartech_magpouch_mp105_2_OD.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/mp105holster/Pouch_wartech_magpouch_mp105_2_OD.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF7206CD3AA}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/placard/Pouch_wartech_magpouch_mp105_OD.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF7204298C3}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/Grenade/Pouch_wartech_magpouch_mp103_OD.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF72059B58E}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{696A3BF723AEDA9E}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{696A3BF74D967785}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/mp105_1/Minimap_ArsArma_GMR_OD.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF749588944}" {
+     Enabled 1
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_OD_GM94.et/a20/Pouch_ArsArma_A20_Blk.et"
+     PrefabsToSpawn {
+      "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et"
+     }
+    }
+   }
+  }
+ }
+ coords 147.376 1 58.708
+}

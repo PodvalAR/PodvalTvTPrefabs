@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8A81134ABF313ACE}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_2_2.et"
+    }
+   }
+  }
+ }
+ coords 13462.286 60.391 12131.751
+}

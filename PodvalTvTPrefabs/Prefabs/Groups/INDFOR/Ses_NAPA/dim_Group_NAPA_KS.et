@@ -1,0 +1,17 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{696976B34559C462}" {
+  }
+ }
+ coords 12082.96 34.624 9375.562
+ angles 0 -150 0
+ m_faction "Ses_NAPA"
+ m_aUnitPrefabSlots {
+  "{992BA577EAF077F5}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Officer.et"
+ }
+ m_sCustomNameSet "Полевой командир НАПА"
+}

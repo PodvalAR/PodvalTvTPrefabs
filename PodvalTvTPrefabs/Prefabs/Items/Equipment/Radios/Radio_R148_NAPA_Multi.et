@@ -1,0 +1,9 @@
+GenericEntity : "{25503A55ED2D1295}Prefabs/Items/Equipment/Radios/Radio_R148_ChDKZ_Multi.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "beefGoulash"
+  }
+ }
+ coords 220.13 1 108.177
+}

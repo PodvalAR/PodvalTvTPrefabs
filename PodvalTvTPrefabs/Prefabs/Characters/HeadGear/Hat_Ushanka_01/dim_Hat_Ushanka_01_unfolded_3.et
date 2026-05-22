@@ -1,0 +1,13 @@
+GameEntity : "{28A15AC27D165833}Prefabs/Characters/HeadGear/Hat_Ushanka_01/dim_Hat_Ushanka_01_unfolded_2.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Balaclava {
+     Prefab "{35D00D3B430A2C9A}Prefabs/Characters/HeadGear/Hat_Masks/GD_Baf_Black.et"
+    }
+   }
+  }
+ }
+ coords 227.527 1 107.127
+}

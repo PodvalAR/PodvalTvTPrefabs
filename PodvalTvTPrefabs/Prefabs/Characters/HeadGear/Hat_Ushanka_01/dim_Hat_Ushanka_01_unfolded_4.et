@@ -1,0 +1,13 @@
+GameEntity : "{CD3D163B71F3CF58}Prefabs/Characters/HeadGear/Hat_Ushanka_01/dim_Hat_Ushanka_01_unfolded_3.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/Eyewear/Eyewear_Goggles/GD_Glasses_V1.et"
+    }
+   }
+  }
+ }
+ coords 227.162 1 107.439
+}

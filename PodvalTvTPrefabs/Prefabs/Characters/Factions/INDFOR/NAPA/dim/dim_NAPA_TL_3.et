@@ -1,0 +1,104 @@
+SCR_ChimeraCharacter : "{72AB8D9928B39CA2}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9A50B595DDDA7995}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{89D43C339086DF35}Prefabs/Characters/HeadGear/Helmet_6B47/dim_Helmet_6B47_no_cover_4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6A3F994EFFE22995}Prefabs/Characters/Uniforms/Shirt_Turtleneck_01/Shirt_Turtleneck_01_DarkBlue.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1231AE80902911AF}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{12DE4B491BD275BB}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{111A755A111BC52D}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_OD_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_DarkBlue.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Jacket/Shirt_Turtleneck_01_DarkBlue.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{696976A5EAA7156E}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A5FB19057E}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+     PrefabsToSpawn {
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et" "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696976A6020BFF73}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/mp105_2/Pouch_wartech_magpouch_mp105_3_OD.et"
+     PrefabsToSpawn {
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF7206CD3AA}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/mp105_3/Pouch_wartech_magpouch_mp105_2_OD.et"
+     PrefabsToSpawn {
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF7204298C3}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/placard/Pouch_wartech_magpouch_mp105_OD.et"
+     PrefabsToSpawn {
+      "{ABD59EB741A3F47D}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_7N23.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF72059B58E}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/Grenade/Pouch_GP106_RGD_Pouch_OD.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF723AEDA9E}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF74D967785}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/pistol/Pouch_GP106_RGD_Pouch_2_OD.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696A3BF749588944}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/medkit/Pouch_UP103_Medkit_OD.et"
+    }
+    ItemsInitConfigurationItem "{696A3BF766E73A8D}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et/holster/Pouch_HP103_Holster_Olive.et"
+     PrefabsToSpawn {
+      "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+     }
+    }
+   }
+  }
+ }
+ coords 195.4 1 93.876
+}

@@ -1,0 +1,53 @@
+Vehicle : "{999FC99369291EA4}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_AP.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6962D1D381BA6B62}" {
+     SourceMaterial "UH_1H_Body01_6224CA051369DE45"
+     AssignedMaterial "{FFDE0DE516E4816F}Assets/Vehicles/Helicopters/UH1H/Data/UH_1H_Body01_CIV.emat"
+    }
+    MaterialAssignClass "{64E86B9C19A2F290}" {
+     SourceMaterial "m_PRT_DoubleDoors_half_182B20BE4A5DF38E"
+     AssignedMaterial "{FCD51D86A834D109}Assets/_SharedMaterials/VehicleParts/m_PRT_Windows_opened.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_ION"
+    m_aAutoLabels {
+     FACTION_RHS_ION SIZE_M FACTION_RHS_USAF
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "RHS_ION"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo USArmyDecal {
+     PivotID "v_body"
+     Offset -0.3474 3.7176 1.1396
+     Angles -88.9787 -180 180
+     Prefab "{27DF1C16FB179D73}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo_alt.et"
+    }
+    RegisteringComponentSlotInfo ION_DECAL {
+     PivotID "v_body"
+     Offset 0.3562 3.7176 1.1396
+     Angles 88.9787 0.0003 -179.99969
+     Prefab "{27DF1C16FB179D73}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo_alt.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ION_DECAL_2 {
+     PivotID "v_body"
+     Offset 0 -3.8015 0.958
+     Angles 0 90 -46.9907
+     Prefab "{88BC8E66EF533FA9}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo.et"
+    }
+   }
+  }
+ }
+ coords 190.205 1 225.488
+}

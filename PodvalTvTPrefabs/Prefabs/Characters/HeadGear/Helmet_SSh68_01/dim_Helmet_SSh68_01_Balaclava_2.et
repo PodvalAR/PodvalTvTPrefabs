@@ -1,0 +1,13 @@
+GameEntity : "{3AB108472781BA47}Prefabs/Characters/HeadGear/Helmet_SSh68_01/dim_Helmet_SSh68_01_Balaclava.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Masks {
+     Prefab "{FC70C1A7ABC37943}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_2holes.et"
+    }
+   }
+  }
+ }
+ coords 212.539 1 112.759
+}

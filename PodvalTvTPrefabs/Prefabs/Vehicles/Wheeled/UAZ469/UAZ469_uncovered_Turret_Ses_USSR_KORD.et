@@ -1,0 +1,32 @@
+Vehicle : "{2F6A79FE1F3D2872}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_ChDKZ_KORD.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE71E003CFF9}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{4DCA5160040E0F0D}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body.emat"
+    }
+    MaterialAssignClass "{5C7AFE71E003CFE2}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{8B3A0978E3D802E1}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo FIA_CoatOArms_decal {
+     Prefab "{5A618AAC291936DD}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Logos/UAZ469_USSR_Star_decal.et"
+    }
+   }
+  }
+ }
+}
