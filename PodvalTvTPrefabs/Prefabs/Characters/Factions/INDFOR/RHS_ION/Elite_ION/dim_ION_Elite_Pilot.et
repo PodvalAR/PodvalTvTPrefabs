@@ -1,6 +1,18 @@
 SCR_ChimeraCharacter : "{E3BA31640CD7F87F}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/dim_ION_STK_Pilot.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Пилот ION"
+    Icon "{AF39CE6938074CF8}UI/Icons/pilot.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{ECF28783F3CE1B82}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_Converted.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
@@ -9,18 +21,79 @@ SCR_ChimeraCharacter : "{E3BA31640CD7F87F}Prefabs/Characters/Factions/INDFOR/RHS
     LoadoutSlotInfo Pants {
      Prefab "{7E3DF5C439F99E94}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_no_kpads_MC_BLK.et"
     }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Enabled 1
+     Prefab "{FC5293E3973AAE8D}Prefabs/Items/Equipment/Radios/dim_Radio_ANPRC77_ION.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
     ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
      TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+     PrefabsToSpawn + {
+      "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et"
+     }
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
      TargetStorage "Vest/GD_ION_JPC_V2.et/mbiyt/Pouch_AVS_MBITR_Radio_MCBlk.et"
     }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/GD_ION_JPC_V2.et/pistol/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     Enabled 1
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     Enabled 1
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     Enabled 1
+     TargetStorage "Vest/GD_ION_JPC_V2.et/Pouch1/Pouch_avs_front_elastic_MCBlk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et" "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     Enabled 0
+     TargetStorage "Pants/Pants_Pilot_USSR_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     Enabled 0
+     TargetStorage "Jacket/ION_Shirt_Blue.et"
+    }
     ItemsInitConfigurationItem "{689E6D827A21D340}" {
      TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{689E8075453DC1B7}" {
+     TargetStorage "Vest/GD_ION_JPC_V2.et/Mag_Pouch/M4_Mag_Pouch.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAD}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
     }
     ItemsInitConfigurationItem "{689E807542DED578}" {
      TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
