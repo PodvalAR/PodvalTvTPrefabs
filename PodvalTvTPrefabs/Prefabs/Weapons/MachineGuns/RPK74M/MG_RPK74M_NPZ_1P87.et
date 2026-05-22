@@ -5,11 +5,11 @@ GenericEntity : "{FB4C5D429348F1A2}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_
    components {
     AttachmentSlotComponent "{5E9087C1DD34883E}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot RIS {
-      Prefab "{349DE19C84303C7B}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_new.et"
+      Prefab "{C4B57488909B3B63}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87.et"
      }
     }
    }
   }
  }
- coords 89.393 1.082 103.453
+ coords -8.577 -4.221 9.329
 }

@@ -10,7 +10,7 @@ GenericEntity : "{40B328E889C88D6C}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M
     }
     AttachmentSlotComponent "{662EBD3033C84A71}" {
      AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
-      Prefab "{349DE19C84303C7B}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_new.et"
+      Prefab "{C4B57488909B3B63}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87.et"
      }
     }
     AttachmentSlotComponent "{662EBD315C621464}" {
