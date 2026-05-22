@@ -1,0 +1,20 @@
+GenericEntity : "{05FCAFCDC2224634}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65D91024FF77536C}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      Prefab "{259C731C32A0A85D}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_EOTech_Vudu1-6x/Optic_EOTech_Vudu1-6x_BLK_RMR.et"
+     }
+    }
+    MuzzleComponent "{65D96648CF6F1B74}" {
+     MagazinePosition InventoryStorageSlot "{65E0C5B137A45752}" {
+     }
+     MagazineTemplate "{0C3A5978F66BDFE1}Prefabs/Weapons/Magazines/Magazine_9x39mm_VSS_30Rnd_SP6.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
