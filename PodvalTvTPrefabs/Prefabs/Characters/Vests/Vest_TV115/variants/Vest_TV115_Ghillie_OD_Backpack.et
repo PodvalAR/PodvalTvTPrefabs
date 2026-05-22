@@ -1,0 +1,24 @@
+GenericEntity : "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_OD.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo radio {
+     PivotID "Spine5"
+     Offset 0.1348 0.0848 -0.2057
+     Angles 0 97.27129 0
+    }
+    LoadoutSlotInfo backpack {
+     PivotID "Spine5"
+     Offset 0.0181 0.1102 -0.2126
+     Angles -4.5756 0 0
+     Prefab "{50B958C01C53BF80}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_OD.et"
+    }
+   }
+   BlockedSlots {
+    LoadoutBackpackArea "{696CBDBC4D133B62}" {
+    }
+   }
+  }
+ }
+}
