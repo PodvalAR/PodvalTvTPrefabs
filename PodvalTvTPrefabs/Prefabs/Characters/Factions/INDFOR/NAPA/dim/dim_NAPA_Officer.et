@@ -41,10 +41,10 @@ SCR_ChimeraCharacter : "{CC79897F0D00B78E}Prefabs/Characters/Factions/INDFOR/NAP
      TargetStorage "Jacket/Jacket_Parka_3_Flecktarn.et"
     }
     ItemsInitConfigurationItem "{696976A5EAA7156E}" {
-     TargetStorage "Vest/Vest_ALICE_officer.et/MagPouch/Holster_M12_magpouch.et"
+     TargetStorage "Vest/Vest_Lifchik.et"
     }
     ItemsInitConfigurationItem "{696976A5FB19057E}" {
-     TargetStorage "Jacket/Jacket_Parka_3_Flecktarn.et"
+     TargetStorage "Vest/Vest_Lifchik.et"
     }
    }
   }
