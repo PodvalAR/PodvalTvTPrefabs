@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{692EEE4B1D51F5E0}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_PL"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FE5C49069C2499D9}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56393}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+    }
+   }
+  }
+ }
+}

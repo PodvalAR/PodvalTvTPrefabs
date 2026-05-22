@@ -1,0 +1,12 @@
+GameEntity : "{367BEEE3BE61C598}Prefabs/Characters/HeadGear/Headgear_TSh4/Helmet_tsh4.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{B24281041DAE30BC}Prefabs/Characters/HeadGear/Beard/Beard01.et"
+    }
+   }
+  }
+ }
+}

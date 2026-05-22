@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{D2D71F8670A01F9C}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F14913F524AA2C56}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A7101B0A8F80B41F}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696CF565A9A4CF05}" {
+     TargetStorage "Jacket/Jacket_M88_ChDKZ.et"
+    }
+    ItemsInitConfigurationItem "{696CF565C9544E61}" {
+     TargetStorage "Vest/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+   }
+  }
+ }
+}

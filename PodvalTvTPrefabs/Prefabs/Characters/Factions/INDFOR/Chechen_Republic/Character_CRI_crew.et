@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{D2D71F8670A01F9C}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Crew"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BFEA719491610A45}Prefabs/Weapons/Rifles/AKS74U/Rifle_AKS74U.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{367BEEE3BE61C598}Prefabs/Characters/HeadGear/Headgear_TSh4/Helmet_tsh4.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696CDB57ACD2FC57}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{696CF565C9544E61}" {
+     PrefabsToSpawn {
+      "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et" "{C1C6007D0FA471B4}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_ball_7n10.et"
+     }
+    }
+   }
+  }
+ }
+}
