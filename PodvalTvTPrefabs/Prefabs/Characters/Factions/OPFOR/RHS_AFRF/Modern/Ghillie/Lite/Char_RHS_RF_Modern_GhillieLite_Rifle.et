@@ -1,0 +1,89 @@
+SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8/Binoculars_B8.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{6CD708C8B13A2D38}UI/Icons/sabateur_v2.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DAEA2176AC082B5E}Prefabs/Characters/Heads/Head_White_08_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{29B9B3ED2FE3CF10}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_OD.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6932D730116002C1}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/triple/pouch_tv115_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/sasarma2/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/sasarma3/Pouch_wartech_magpouch_mp117_od.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/up104/Pouch_UP105_utilbig_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7EB0DCE04}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/grenade1/Pouch_GP106_RGD_Pouch_OD.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341BE0E76DAA3}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/grenade1/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58BB40C7}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/pistol/Pouch_Taktika_magpouch_pistol.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58C05243}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/pistol2/Pouch_Taktika_magpouch_pistol.et"
+    }
+    ItemsInitConfigurationItem "{696C9292840B6C52}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
