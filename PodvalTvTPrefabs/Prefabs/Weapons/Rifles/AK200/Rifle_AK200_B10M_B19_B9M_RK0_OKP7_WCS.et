@@ -1,0 +1,14 @@
+GenericEntity : "{42611210BBA9BDF7}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_B9M_RK0_OKP7.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{9DEFD58BBCB9A63B}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_OKP-7/Collim_OKP-7.et"
+     }
+    }
+   }
+  }
+ }
+}
