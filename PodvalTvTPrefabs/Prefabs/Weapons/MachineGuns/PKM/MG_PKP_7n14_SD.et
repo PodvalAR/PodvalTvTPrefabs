@@ -1,0 +1,19 @@
+GenericEntity : "{40A5BD4F05C59EA8}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_7n14.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{696B2071BFF927E3}" {
+       AttachmentSlot InventoryStorageSlot "{696B20718797BA87}" {
+        Prefab "{0F09E96B94FD3BB8}Prefabs/Weapons/Attachments/Muzzle/Suppressor_A545_A762/Suppressor_762.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 137.364 1 129.861
+}

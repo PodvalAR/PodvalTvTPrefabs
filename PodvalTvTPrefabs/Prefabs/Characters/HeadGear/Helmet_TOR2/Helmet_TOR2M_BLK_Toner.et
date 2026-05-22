@@ -1,0 +1,13 @@
+GameEntity : "{5802CFF8FF4D4DA7}Prefabs/Characters/HeadGear/Helmet_TOR2/Helmet_TOR2M_BLK.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo TOR2faceshield {
+     Prefab "{3AB2A9FBB3DE3903}Prefabs/Characters/HeadGear/Helmet_TOR2/TOR2_FaceShield_Toner.et"
+    }
+   }
+  }
+ }
+ coords 190.7 1 132.931
+}

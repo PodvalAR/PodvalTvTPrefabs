@@ -1,0 +1,24 @@
+GameEntity : "{29B9B3ED2FE3CF10}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{2852102F776A853D}Assets/Characters/HeadGear/Hat_Beanie/GD_Beanie_Item.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Masks {
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
+    }
+   }
+   WornModel "{74342B2AF8E04FB3}Assets/Characters/HeadGear/Hat_Beanie/GD_Beanie.xob"
+   WornMaterialsOverride {
+    "{02407C1701BB67A9}Assets/Characters/HeadGear/Hat_Beanie/Data/Beanie_Green.emat"
+   }
+   ItemModel "{2852102F776A853D}Assets/Characters/HeadGear/Hat_Beanie/GD_Beanie_Item.xob"
+   ItemMaterialsOverride {
+    "{02407C1701BB67A9}Assets/Characters/HeadGear/Hat_Beanie/Data/Beanie_Green.emat"
+   }
+  }
+ }
+ coords 173.602 1 123.652
+}

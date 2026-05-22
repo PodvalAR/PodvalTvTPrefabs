@@ -20,6 +20,19 @@ SCR_ChimeraCharacter : "{FB63F580989284E7}Prefabs/Characters/Factions/INDFOR/NAP
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
+     TargetStorage "Pants/GD_ACU_Pants_DPC.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
+     TargetStorage "Vest/Vest_TV102_rifleman_OD_2.et"
+    }
+    ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
+     TargetStorage "Pants/GD_ACU_Pants_DPC.et"
+    }
+   }
+  }
  }
  coords 179.334 1 70.349
 }

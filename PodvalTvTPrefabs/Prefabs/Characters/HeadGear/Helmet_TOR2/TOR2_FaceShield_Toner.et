@@ -1,0 +1,15 @@
+GameEntity : "{E96622207AEB6376}Prefabs/Characters/HeadGear/Helmet_TOR2/TOR2_FaceShield.et" {
+ ID "61A937578BF54A09"
+ components {
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{E4A82541ADAD3578}Assets/Characters/HeadGear/Helmet_TOR2/data/tor2olive.emat" "{340C60C5BDEF9854}Assets/Characters/Eyewear/Eyewear_gascan/Data/glass_gasmask.emat"
+   }
+   ItemMaterialsOverride {
+    "" "{340C60C5BDEF9854}Assets/Characters/Eyewear/Eyewear_gascan/Data/glass_gasmask.emat"
+   }
+   DebugWornModel 1
+  }
+ }
+ coords 188.177 1.09 131.449
+}

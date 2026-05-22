@@ -36,7 +36,7 @@ SCR_ChimeraCharacter : "{BD9BF00F4598B42E}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Pants/CP_G3_Pants_kpadsG3_MC_ALP.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/GD_USMC_Pants_Winter.et"
+     TargetStorage "Pants/CP_G3_Pants_kpadsG3_MC_ALP.et"
     }
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
      TargetStorage "Pants/GD_USMC_Pants_Winter.et"

@@ -6,6 +6,8 @@ GenericEntity : "{0BD021AF683E2307}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2
     "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp"
    }
   }
+  SCR_WeaponStatsManagerComponent "{68F46E184E7058ED}" {
+  }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     MuzzleComponent "{CA6BE4D6B867541F}" {
@@ -20,12 +22,11 @@ GenericEntity : "{0BD021AF683E2307}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2
        }
        AttachmentType AttachmentSuppressorTGPV "{68F46987DD58319B}" {
        }
+       ShowInInspection 1
       }
      }
     }
    }
-  }
-  SCR_WeaponStatsManagerComponent "{68F46E184E7058ED}" {
   }
  }
  coords 4590.071 26.415 3308.067

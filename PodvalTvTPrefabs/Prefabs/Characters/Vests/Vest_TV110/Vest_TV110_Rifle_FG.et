@@ -1,0 +1,61 @@
+GenericEntity : "{121112B27DF888B3}Prefabs/Characters/Vests/Vest_TV110/Vest_TV110_Rifle_OD.et" {
+ ID "61AA6069A5E48A28"
+ components {
+  BaseLoadoutClothComponent "{61AA6069A5E48AF6}" {
+   Slots {
+    LoadoutSlotInfo up102_admin {
+     Prefab "{10222E2CF0B96A05}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP102_Admin_small_FG.et"
+    }
+    LoadoutSlotInfo up118_fanny {
+     Prefab "{F95BF1BD612D3B38}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP118_fannypack_FG.et"
+    }
+    LoadoutSlotInfo medkit {
+     Prefab "{14E044018E49CD65}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_FG.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{B949AD0954715B54}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+    }
+    LoadoutSlotInfo camer_util_long {
+     Prefab "{3C31667ADEE0FB2C}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_FG.et"
+    }
+    LoadoutSlotInfo mp103_1 {
+     Prefab "{4FD2C42DB9383B8A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_FG.et"
+    }
+    LoadoutSlotInfo tarkov {
+     Prefab "{4FD2C42DB9383B8A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_FG.et"
+    }
+    LoadoutSlotInfo arsbelt {
+     Prefab "{25DA77988320DACA}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Prefab "{25DA77988320DACA}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    LoadoutSlotInfo arsbelt3 {
+     Prefab "{D2AB94F8D7308261}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_FG.et"
+    }
+    LoadoutSlotInfo drop {
+     Prefab "{CA5F52C8B7B0E655}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_FG.et"
+    }
+    LoadoutSlotInfo arsbelt_up105_bigutil {
+     Prefab "{A86EC5AC85B35FA3}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP120_utilmolleminus_FG.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{5063FC55C40B6B26}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_FG.et"
+    }
+    LoadoutSlotInfo grenade1 {
+     Prefab "{BE49825BE35FC8F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab "{BE49825BE35FC8F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    LoadoutSlotInfo util_long {
+     Prefab "{C9E74AC3DE3F2861}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_FG.et"
+    }
+    LoadoutSlotInfo pitsol3 {
+     Prefab "{30E75FD05D8AB76A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_FG.et"
+    }
+   }
+  }
+ }
+ coords 161.13 1.692 125.507
+}
