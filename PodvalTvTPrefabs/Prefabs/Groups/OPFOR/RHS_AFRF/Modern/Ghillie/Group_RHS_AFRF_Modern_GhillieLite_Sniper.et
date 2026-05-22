@@ -1,0 +1,7 @@
+SCR_AIGroup : "{47BCAA2DDC23F98F}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/EMR/Group_RHS_AFRF_Modern_GhillieLite_Recon.et" {
+ ID "0000000000000001"
+ coords 176.229 1 142.497
+ m_aUnitPrefabSlots {
+  "{4F0BFE70C805107B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_Sniper.et" "{AA8306D74D397D4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_Sharpshooter.et"
+ }
+}
