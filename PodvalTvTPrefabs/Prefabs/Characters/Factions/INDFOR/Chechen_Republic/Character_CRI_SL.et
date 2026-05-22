@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{143602B378C2C979}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{80562265CBB79324}Prefabs/Weapons/Assault/AKM/Rifle_AKM_metal.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{27DABFBB719485AA}Prefabs/Characters/Uniforms/Pants_US_BDU_base.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{4181B1C8B5E56393}Prefabs/Items/Equipment/Radios/Radio_R107M_FIA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696CDB57ACD2FC57}" {
+     TargetStorage "Pants/Pants_US_BDU_base.et"
+    }
+    ItemsInitConfigurationItem "{696CF565C9544E61}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{AF49CC337277A6B2}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_rifleman2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{81571896EE67B65D}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black_Beard.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C7861F11D5334C0E}Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6B}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696CDB57ACD2FC57}" {
+     TargetStorage "Pants/Pants_M88_ChDKZ.et"
+    }
+    ItemsInitConfigurationItem "{696CF565A9A4CF05}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+    }
+   }
+  }
+ }
+}

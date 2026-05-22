@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{EEA7739DF57AD26D}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_unnarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{80562265CBB79324}Prefabs/Weapons/Assault/AKM/Rifle_AKM_metal.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{23A15812C40D34C2}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_strippedShirt_dirty.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E45E8E203507300}Prefabs/Characters/Uniforms/Pants_M88_TTsKO.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{477A190AF2A17B8A}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_MG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{696CDB57ACD2FC57}" {
+     TargetStorage "Pants/Pants_M88_TTsKO.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{696CDB55EB46FFE3}" {
+     TargetStorage "Vest/Vest_ALICE_MG.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{696CF565A9A4CF05}" {
+     TargetStorage "Vest/Vest_ALICE_MG.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{4C67C6A2FE2E6FD6}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696CF565C9544E61}" {
+     TargetStorage "Vest/Vest_ALICE_MG.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et" "{A26404542E87D24E}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_AP.et"
+     }
+    }
+   }
+  }
+ }
+}

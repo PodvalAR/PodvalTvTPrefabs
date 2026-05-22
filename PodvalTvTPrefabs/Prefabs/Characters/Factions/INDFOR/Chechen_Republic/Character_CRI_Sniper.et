@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Unarrmed.et" {
+SCR_ChimeraCharacter : "{AF49CC337277A6B2}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_rifleman2.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -24,26 +24,19 @@ SCR_ChimeraCharacter : "{C6DD026D2AF8BAAD}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{D4028ED16DEE99EE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camonet.et"
+     Prefab "{81571896EE67B65D}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black_Beard.et"
     }
-    LoadoutSlotInfo Back {
-     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
-    }
-    LoadoutSlotInfo Vest {
-     Prefab "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6B}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{695B0D018BC53637}" {
-     TargetStorage "Vest/Vest_SovietHarness_sharpshooter.et"
-     PrefabsToSpawn {
-      "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
-     }
+    ItemsInitConfigurationItem "{696CDB57ACD2FC57}" {
+     TargetStorage "Pants/Pants_M88_ChDKZ.et"
     }
-    ItemsInitConfigurationItem "{695B0D00628494F9}" {
-     TargetStorage "Back/Backpack_Veshmeshok.et"
+    ItemsInitConfigurationItem "{696CF565C9544E61}" {
      PrefabsToSpawn {
       "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{22AB502744E23787}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
      }

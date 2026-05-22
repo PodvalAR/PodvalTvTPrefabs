@@ -1,0 +1,12 @@
+GameEntity : "{F14913F524AA2C56}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Masks {
+     Prefab "{B24281041DAE30BC}Prefabs/Characters/HeadGear/Beard/Beard01.et"
+    }
+   }
+  }
+ }
+}

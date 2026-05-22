@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F14913F524AA2C56}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
+ Name "{489CFB4495E4F34B}Prefabs/Characters/Core/Character_Base_RHSCRI.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
