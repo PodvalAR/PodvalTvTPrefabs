@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{D0E1617FAC5B2BD0}Prefabs/Characters/HeadGear/All_EXFIL/EXFIL_Winter_NoGoggles.et"
+     Prefab "{34B72B3F30E8B60A}Prefabs/Characters/HeadGear/All_EXFIL/GD_Exfil Tan (NoGPNVG).et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{21BCF2B1BC3B744B}Prefabs/Characters/Uniforms/Jacket_Gryphon/Jacket_Gryphon_SNOW.et"
