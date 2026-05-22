@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{A21DAD0A87B90D8C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{6CD708C8B13A2D38}UI/Icons/sabateur_v2.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{40A5BD4F05C59EA8}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_7n14.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E29330565BD41436}Prefabs/Characters/Heads/Head_White_04_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C1E1A4FA418E969B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_OD_Recon.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DE8616CA87C165E3}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_GRN.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Goblin_pants_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Goblin_jacket_GRN.et"
+    }
+   }
+  }
+ }
+ coords -4.035 -3.143 4.389
+}

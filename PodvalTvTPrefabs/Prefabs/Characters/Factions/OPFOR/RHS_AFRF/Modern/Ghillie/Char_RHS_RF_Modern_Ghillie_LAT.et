@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+  }
+ }
+}
