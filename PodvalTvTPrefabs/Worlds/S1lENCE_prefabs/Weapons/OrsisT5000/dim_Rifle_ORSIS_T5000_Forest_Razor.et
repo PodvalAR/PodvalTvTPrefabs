@@ -17,8 +17,17 @@ GenericEntity : "{45780BC99834B380}Worlds/S1lENCE_prefabs/Weapons/OrsisT5000/dim
       Prefab ""
      }
     }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6918C6B1F67488EC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EFD4D5A1F6304A02}Prefabs/Weapons/Attachments/Suppressor_T5000_BRT.et"
+       }
+      }
+     }
+    }
    }
   }
  }
- coords 151.237 1 228.704
+ coords 182.059 1 223.002
 }

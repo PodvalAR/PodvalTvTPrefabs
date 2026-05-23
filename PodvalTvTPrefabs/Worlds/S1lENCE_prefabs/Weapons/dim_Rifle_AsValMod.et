@@ -1,0 +1,59 @@
+GenericEntity : "{565EBE59164E74F3}Prefabs/Weapons/Rifles/VSS/Rifle_VSS_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{696F057B73B27CA1}" {
+     SourceMaterial "VSS_Vintorez_Barrel"
+     AssignedMaterial "{728E82E53D765505}Assets/Weapons/Rifles/VSS/Data/VSSM_Vintorez_Barrel.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#TF-Weapon_VSSM_Name"
+     Description "#TF-Weapon_VSSM_Description"
+    }
+   }
+  }
+  SlotManagerComponent "{65D96648AA0F185B}" {
+   Slots {
+    EntitySlotInfo Dovetail {
+     Enabled 0
+     Prefab ""
+    }
+    EntitySlotInfo Dustcover {
+     Prefab "{9C5CC723D7F3598C}Prefabs/Weapons/Attachments/Receivers/VSS_Platform/VSSM_Dustcover.et"
+    }
+    EntitySlotInfo Buttstock {
+     Prefab "{8642D61ECCBF25F4}Prefabs/Weapons/Attachments/Buttstocks/VSS_Platform/VSSM_Buttstock.et"
+    }
+    EntitySlotInfo Handguard {
+     PivotID "slot_handguard"
+     Prefab "{FDACBB9AD6F464CA}Prefabs/Weapons/Attachments/Handguards/VSS_Platform/Handguard_VSS_RIS.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65D91024FF77536C}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      PivotID "w_root"
+      Offset 0 0.0938 0.021
+      Prefab "{9DEFD58BBCB9A63B}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_OKP-7/Collim_OKP-7.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{65D91025035E86ED}" {
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsSwitchSkip 1
+    }
+    MuzzleComponent "{65D96648CF6F1B74}" {
+     MagazineTemplate "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et"
+    }
+   }
+  }
+ }
+ coords 186.233 1 224.831
+}
