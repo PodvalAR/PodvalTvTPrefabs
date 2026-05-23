@@ -36,6 +36,9 @@ SCR_ChimeraCharacter : "{D2D71F8670A01F9C}Prefabs/Characters/Factions/INDFOR/Che
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{696CDB57ACD2FC57}" {
+     TargetStorage "Pants/Pants_US_M65.et"
+    }
     ItemsInitConfigurationItem "{696CF565C9544E61}" {
      PrefabsToSpawn {
       "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et" "{7D29E55C899CC485}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_Base_n10.et"

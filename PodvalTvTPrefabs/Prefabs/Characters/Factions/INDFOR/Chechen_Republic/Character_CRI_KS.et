@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{692EEE4B1D51F5E0}Prefabs/Characters/Factions/INDFOR/Che
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_KS"
     Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+    m_sFaction "CRI"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

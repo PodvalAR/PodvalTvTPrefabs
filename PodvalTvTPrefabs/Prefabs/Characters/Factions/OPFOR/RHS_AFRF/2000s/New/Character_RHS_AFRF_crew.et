@@ -17,5 +17,14 @@ SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{695B0D084A1FBD7F}" {
+     PrefabsToSpawn {
+      "{AC04D0D1EABC994F}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Multi.et"
+     }
+    }
+   }
+  }
  }
 }
