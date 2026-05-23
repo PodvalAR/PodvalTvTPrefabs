@@ -4,6 +4,15 @@ SCR_ChimeraCharacter : "{597ED172A0733285}Prefabs/Characters/Factions/OPFOR/RHS_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{3A3C451159BCB760}Worlds/S1lENCE_prefabs/Weapons/AK200/Rifle_AK200_Optic_WCS.et"
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+   }
+  }
  }
- coords 127.72 1 183.697
+ coords 183.342 1 216.833
 }

@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{06BB09909BF14989}Worlds/S1lENCE_prefabs/Weapons/AK200/Rifle_AK200_WCS.et"
+   WeaponTemplate "{42D30E06154569C2}Prefabs/Weapons/Rifles/SPR300/Rifle_SPR300_FIX.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -31,11 +31,12 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
    }
   }
  }
- coords 185.597 1 243.717
+ coords 162.218 1 228.474
 }

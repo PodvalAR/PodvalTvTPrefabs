@@ -4,6 +4,18 @@ SCR_ChimeraCharacter : "{9830E9F67E8C74F0}Worlds/S1lENCE_prefabs/OPFOR/FSB/Char_
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{57D94D24831DF813}Worlds/S1lENCE_prefabs/Weapons/OrsisT5000/dim_Rifle_ORSIS_T5000_Forest_Razor.et"
   }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{1D78617D0A5870AC}Worlds/S1lENCE_prefabs/Weapons/dim_Rifle_AsValMod.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6960CA4411414260}" {
+     PrefabsToSpawn {
+      "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{802D74B8E6174355}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "6x70_mm_(.338 Lapua Magnum)_BP_FIX.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et"
+     }
+    }
+   }
+  }
  }
- coords 187.617 1 235.268
+ coords 181.172 1 222.782
 }
