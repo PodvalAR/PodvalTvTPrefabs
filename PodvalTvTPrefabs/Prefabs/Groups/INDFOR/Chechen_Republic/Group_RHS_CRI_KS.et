@@ -1,0 +1,6 @@
+SCR_AIGroup : "{5D211AD8FE4D201E}Prefabs/Groups/INDFOR/Chechen_Republic/Group_Base_RHS_CRI.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{706CE4C7955C3E4D}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_KS.et"
+ }
+}

@@ -1,21 +1,5 @@
-SCR_AIGroup : "{D069C12C0FA64D8C}Prefabs/Groups/INDFOR/PIR/drg_PIR_RifleSquad.et" {
- coords 59.986 1 24.844
- angles 0 0 0
- m_aUnitPrefabSlots +{
-  "{D10161065DC96DDF}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_crew.et"
-  "{085E2434453F308F}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_CC.et"
-  "{F448EF49A49611D2}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_AAT.et"
-  "{DC0E7695565C49AF}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_AT.et"
-  "{7EF75892B3501B6D}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_AMG.et"
-  "{56B1C14E419A4310}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_MG.et"
-  "{04A61F542FD557F3}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_AR.et"
-  "{A12559DF249109CA}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_Sniper.et"
-  "{706CE4C7955C3E4D}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_KS.et"
-  "{F03057D200B6C470}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_PL.et"
- }
-}
-SCR_ChimeraCharacter : "{D2D71F8670A01F9C}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_rifleman.et" {
- coords 54.302 1 17.819
+SCR_AIGroup : "{E33037876FBC6B05}Prefabs/Groups/INDFOR/Chechen_Republic/Group_RHS_CRI_KS.et" {
+ coords 55.05 1 23.467
 }
 GameEntity : "{F545C1BE7C99954A}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01.et" {
  components {

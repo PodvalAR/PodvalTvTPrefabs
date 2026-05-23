@@ -1,3 +1,10 @@
 SCR_ChimeraCharacter : "{C53F1DEC41054D11}Prefabs/Characters/Factions/INDFOR/Chechen_Republic/Character_CRI_baseLoadaut.et" {
  ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "CRI"
+   }
+  }
+ }
 }
