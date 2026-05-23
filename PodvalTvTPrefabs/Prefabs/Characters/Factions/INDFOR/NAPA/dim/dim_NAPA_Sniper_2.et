@@ -47,14 +47,14 @@ SCR_ChimeraCharacter : "{B1128011F9B8ECEB}Prefabs/Characters/Factions/INDFOR/NAP
     ItemsInitConfigurationItem "{696976A5EAA7156E}" {
      TargetStorage "Vest/Vest_ALICE_sniper.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
-      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+      "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et"
      }
     }
     ItemsInitConfigurationItem "{696976A5FB19057E}" {
      Enabled 1
      TargetStorage "Vest/Vest_ALICE_sniper.et/MagPouch/Pouch_ALICE_20rnd_M14.et"
      PrefabsToSpawn {
-      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+      "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et"
      }
     }
     ItemsInitConfigurationItem "{696976A6020BFF73}" {
