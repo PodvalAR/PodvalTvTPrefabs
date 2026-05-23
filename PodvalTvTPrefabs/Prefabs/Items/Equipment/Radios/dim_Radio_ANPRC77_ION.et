@@ -4,6 +4,19 @@ GenericEntity : "{F4331F64B94A47AC}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_
   MeshObject "{5A30BAE7673C63D1}" {
    Object "{4208B441C7591373}Assets/Items/Equipment/Radios/Radio_ANPRC77/Radio_ANPRC77_01_Inflated.xob"
   }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
+      PreviewModel "{08C82847017CEF05}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Spirit_DeltaBag_Def.xob"
+     }
+    }
+   }
+  }
+  SCR_RestrictedDeployableSpawnPointComponent "{5EA4A89F0D06E1A8}" {
+   Enabled 0
+  }
   BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
    Slots {
     LoadoutSlotInfo Antenna {

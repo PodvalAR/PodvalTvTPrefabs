@@ -90,7 +90,7 @@ SCR_ChimeraCharacter : "{07C9CD08A7D257B8}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E8075453DC1B7}" {
      TargetStorage "Jacket/ION_Shirt_Blue.et"
      PrefabsToSpawn {
-      "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et"
+      "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et" "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et" "{2C852C8C05FF603B}Prefabs/Weapons/Magazines/FN_P90/p90_mag.et"
      }
     }
     ItemsInitConfigurationItem "{689E807542DED578}" {
