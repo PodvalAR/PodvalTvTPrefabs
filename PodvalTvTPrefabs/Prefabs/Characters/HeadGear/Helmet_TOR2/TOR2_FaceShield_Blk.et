@@ -1,0 +1,22 @@
+GameEntity : "{F891878C93EF6B5F}Prefabs/Characters/HeadGear/Helmet_TOR2/TOR2_FaceShield_Blk.et" {
+ ID "61A937578BF54A09"
+ components {
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{696CE92A26E22D41}" {
+     SourceMaterial "tor2lp_transp"
+     AssignedMaterial "{19237FF000367414}Assets/Characters/HeadGear/Helmet_TOR2/data/tor2_transp_toner.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride + {
+    "{19237FF000367414}Assets/Characters/HeadGear/Helmet_TOR2/data/tor2_transp_toner.emat"
+   }
+   ItemMaterialsOverride + {
+    "{19237FF000367414}Assets/Characters/HeadGear/Helmet_TOR2/data/tor2_transp_toner.emat"
+   }
+  }
+ }
+ coords 191.201 1.321 134.398
+}

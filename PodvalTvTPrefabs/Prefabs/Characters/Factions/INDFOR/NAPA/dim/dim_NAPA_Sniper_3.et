@@ -34,9 +34,12 @@ SCR_ChimeraCharacter : "{B1128011F9B8ECEB}Prefabs/Characters/Factions/INDFOR/NAP
    InitialInventoryItems {
     ItemsInitConfigurationItem "{693B0449DFBBAE29}" {
      TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et"
+     }
     }
     ItemsInitConfigurationItem "{693B0449DFBBAE1E}" {
-     TargetStorage "Jacket/Jacket_ShirtSmall_2.et"
+     TargetStorage "Vest/Vest_ALICE_sniper.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }
     ItemsInitConfigurationItem "{693B0449DFBBAE1F}" {
      TargetStorage "Vest/Vest_ALICE_sniper.et/Bayonet/Scabbard_Bayonet_M9.et"
@@ -47,18 +50,30 @@ SCR_ChimeraCharacter : "{B1128011F9B8ECEB}Prefabs/Characters/Factions/INDFOR/NAP
     ItemsInitConfigurationItem "{696976A5EAA7156E}" {
      TargetStorage "Vest/Vest_ALICE_sniper.et/Buttpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
-      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+      "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et"
      }
     }
     ItemsInitConfigurationItem "{696976A5FB19057E}" {
      Enabled 1
      TargetStorage "Vest/Vest_ALICE_sniper.et/MagPouch/Pouch_ALICE_20rnd_M14.et"
      PrefabsToSpawn {
-      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+      "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et" "{5670092FD8D14448}Prefabs/Weapons/Magazines/Magazine_762x51_L42a1_10rnd_M61.et"
      }
     }
     ItemsInitConfigurationItem "{696976A6020BFF73}" {
      TargetStorage "Vest/Vest_ALICE_sniper.et/FirstAid/Vest_ALICE_firstaid.et"
+    }
+    ItemsInitConfigurationItem "{696A24CC6F559355}" {
+     TargetStorage "Jacket/Jacket_ShirtSmall_2.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{696EE2397E19F55D}" {
+     TargetStorage "Jacket/Jacket_ShirtSmall_2.et"
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
     }
    }
   }

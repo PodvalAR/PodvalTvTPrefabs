@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_GL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A22601E4178EFF4D}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_GP25_P87_Klesh_SD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{71EA4C187A6CC815}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Rifleman_OD_Backpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6932D730116002C1}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/placard/pouch_tv115_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/tarkov/Pouch_wartech_magpouch_mp103_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/drop/Pouch_UP113_DropPouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7EB0DCE04}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/bigutil/Pouch_UP120_utilmolleminus_base.et"
+    }
+    ItemsInitConfigurationItem "{693341BE0E76DAA3}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/holster/Pouch_HP103_Holster_Olive.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58BB40C7}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/pistol1/Pouch_MP111_PistolClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58C05243}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/pistol3/Pouch_MP111_PistolClosed2_OD.et"
+    }
+    ItemsInitConfigurationItem "{696CE923672C6CF2}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_OD_Backpack.et/Backpack/Minimap_ArsArma_GMR_OD.et"
+     PrefabsToSpawn {
+      "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+    }
+   }
+  }
+ }
+ coords 179.28 1 154.562
+}

@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A36DB549076733A1}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_Autumn.et"
+    }
+   }
+  }
+ }
+ coords 163.758 1 123.988
+}

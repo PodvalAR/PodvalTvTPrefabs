@@ -1,0 +1,17 @@
+GenericEntity : "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "SP6"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags AP
+   }
+   AmmoMapping {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+ }
+ coords 181.268 1.406 159.128
+ angles 0 0 0
+}

@@ -1,0 +1,108 @@
+GenericEntity : "{2DBBEA8AE9BD2C36}Prefabs/Weapons/Attachments/Stocks/Stock_VZ58/Stock_VZ58_base.et" {
+ ID "557E85EEE1B603F1"
+ components {
+  InventoryItemComponent "{557E85EEE1B60313}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{557E85EEE1B60310}" {
+    ItemDisplayName UIInfo "{696B32C0F041635B}" {
+     Name "Camouflage"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{696B32C0F0416343}" {
+     Weight 0.103
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 10
+     DimensionScaler 1
+     RestingUP Right
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+     ActivePhysicalSimulation None
+    }
+    CustomAttributes {
+     SCR_WeaponAttachmentAttributes "{557E85EEE1B60316}" {
+      AttachmentType AttachmentORSIS338WRAP "{696B32C0F041634E}" {
+      }
+     }
+     PreviewRenderAttributes "{557E85EEE1B60314}" {
+      CameraPreset Right
+     }
+    }
+    CommonItemType "BAYONET"
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{557E85EE39CED921}" {
+   Object "{1549A46CD2D384F0}Assets/Net/Wrap.xob"
+   Materials {
+    MaterialAssignClass "{696B32C0F041634A}" {
+     SourceMaterial "AK74_Barrel"
+     AssignedMaterial "{9182F4093FE06BF3}Assets/Weapons/Rifles/AK74/Data/FakeAK.emat"
+    }
+    MaterialAssignClass "{696B32C0F04163B4}" {
+     SourceMaterial "AK74_Grip"
+     AssignedMaterial "{9182F4093FE06BF3}Assets/Weapons/Rifles/AK74/Data/FakeAK.emat"
+    }
+    MaterialAssignClass "{696B32C0F04163B5}" {
+     SourceMaterial "AK74_Receiver1"
+     AssignedMaterial "{9182F4093FE06BF3}Assets/Weapons/Rifles/AK74/Data/FakeAK.emat"
+    }
+    MaterialAssignClass "{696B32C0F04163B6}" {
+     SourceMaterial "AK74_Receiver2"
+     AssignedMaterial "{9182F4093FE06BF3}Assets/Weapons/Rifles/AK74/Data/FakeAK.emat"
+    }
+    MaterialAssignClass "{696B32C0F04163B7}" {
+     SourceMaterial "AK74_Stock"
+     AssignedMaterial "{9182F4093FE06BF3}Assets/Weapons/Rifles/AK74/Data/FakeAK.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{696B32C0F04163B0}" {
+  }
+  ActionsManagerComponent "{557E85EEE1B603FA}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{557E85EEE1B603E0}" {
+     Position PointInfo "{557E85EEE1B603EB}" {
+      Offset 0 0.0201 -0.2204
+     }
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{557E85EEE1B603E8}" {
+     ParentContextList {
+      "muzzle"
+     }
+    }
+    SCR_PickUpItemAction "{696B32C0F04163BC}" {
+     ParentContextList {
+      "muzzle"
+     }
+    }
+    SCR_AttachementAction "{696B32C0F04163BD}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo UIInfo "{696B32C0F04163BE}" {
+      Name "#AR-UserAction_Detach"
+     }
+     Duration 2
+     m_WeaponAttachmentActionType Muzzle
+    }
+    SCR_AttachItemFromInventoryAction "{696B32C0F04163BF}" {
+     ParentContextList {
+      "muzzle"
+     }
+     UIInfo UIInfo "{696B32C0F041638F}" {
+      Name "#AR-UserAction_Attach"
+     }
+     Duration 2
+     "Inventory action" 1
+    }
+   }
+  }
+  RplComponent "{557E85EEE1B6031A}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+ coords 1.242 -0.771 0.686
+}

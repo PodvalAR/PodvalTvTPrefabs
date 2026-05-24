@@ -1,0 +1,73 @@
+GenericEntity : "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_OD.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo sasarma1 {
+     Offset -0.2087 0.0187 -0.024
+     Angles 7.8152 -98.6002 -4.2442
+    }
+    LoadoutSlotInfo sasarma2 {
+     Offset -0.1743 0.0092 -0.1026
+     Angles 4.4595 -130.05721 -7.6949
+    }
+    LoadoutSlotInfo up104 {
+     Offset 0.0514 0.0446 -0.169
+     Angles 5.8918 177.9169 -1.404
+     Prefab "{D350D54887293B29}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_OD.et"
+    }
+    LoadoutSlotInfo triple {
+     Offset 0.0001 0.0328 0.1395
+     Angles -12.2585 0 0
+    }
+    LoadoutSlotInfo pistol {
+     PivotID "Spine1"
+     Offset 0.2097 0.0092 0.0048
+     Angles 5.7756 90.67419 0.0642
+     Prefab "{F5B31B4BAA318B4D}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol.et"
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0415 0.0471 0.181
+     Angles -7.9892 -5.9821 0.6031
+    }
+    LoadoutSlotInfo holster {
+     Offset 0.191 0.0501 0.0838
+     Angles 2.232 61.6678 0.7479
+     Prefab "{05CD790F33DDF9D6}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Olive.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset 0.2427 -0.0116 0.0044
+     Angles 5.7756 90.67419 0.0642
+     Prefab "{F5B31B4BAA318B4D}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol.et"
+    }
+    LoadoutSlotInfo drop {
+     Enabled 0
+    }
+    LoadoutSlotInfo grenade1 {
+     Offset -0.2223 0.0394 0.0669
+     Angles -1.4008 -67.4539 -3.3929
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.1788 0.0453 0.1485
+     Angles 3.868 -38.6747 1.0204
+    }
+    LoadoutSlotInfo sasarma3 {
+     PivotID "Spine5"
+     Offset 0.0995 0.0294 0.1811
+     Angles -4.3439 22.242 0.1624
+     Prefab "{9DA0A02CB471C2EC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od.et"
+    }
+    LoadoutSlotInfo radio {
+     PivotID "Spine1"
+     Offset -0.0913 0.0229 -0.1724
+     Angles -0.4284 -167.0005 -2.98
+     Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
+    }
+   }
+   DebugWornModel 1
+  }
+ }
+ coords -2.661 0.152 -1.768
+ angles 0 18.68 0
+}

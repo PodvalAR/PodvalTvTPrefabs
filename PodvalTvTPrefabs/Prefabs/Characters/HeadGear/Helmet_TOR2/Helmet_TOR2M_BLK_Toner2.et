@@ -1,0 +1,16 @@
+GameEntity : "{C8BC620AC5DBAF3A}Prefabs/Characters/HeadGear/Helmet_TOR2/Helmet_TOR2M_BLK_Toner.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{63F1353AF0D18504}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_Sordin_black.et"
+    }
+    RHS_LoadoutSlotInfo TOR2faceshield {
+     Prefab "{F891878C93EF6B60}Prefabs/Characters/HeadGear/Helmet_TOR2/TOR2_FaceShield_Blk.et"
+    }
+   }
+  }
+ }
+ coords 189.527 1 137.904
+}

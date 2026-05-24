@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AR"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8B8210DB335DCF84}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P87_SD.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     PrefabsToSpawn {
+      "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     PrefabsToSpawn {
+      "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     PrefabsToSpawn {
+      "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et" "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     PrefabsToSpawn {
+      "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et"
+     }
+    }
+   }
+  }
+ }
+ coords -10.242 -4.615 3.687
+}

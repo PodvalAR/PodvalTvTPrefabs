@@ -1,0 +1,17 @@
+GameEntity : "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Offset 0 0 -0.0048
+     Prefab "{851A0915195D2BAC}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_toner.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
+    }
+   }
+  }
+ }
+ coords 173.082 1 118.108
+}
