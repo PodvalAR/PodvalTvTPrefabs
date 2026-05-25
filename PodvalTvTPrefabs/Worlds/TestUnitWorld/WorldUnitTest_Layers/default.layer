@@ -1,6 +1,38 @@
+$grp GenericEntity : "{0457BBAF5262EECE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_USSR_covered.et" {
+ {
+  coords 131.81 1 96.261
+ }
+ {
+  coords 131.81 1 94.79
+ }
+ {
+  coords 131.81 1 93.086
+ }
+ {
+  coords 131.81 1 91.453
+ }
+}
+SCR_ChimeraCharacter : "{0A7E4024FE229254}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Sniper.et" {
+ coords 91.249 1 96.478
+}
+Vehicle BTR72aberez1 : "{1A0C6B9108D0E089}Prefabs/Vehicles/Wheeled/BTR70/BTR72aberez.et" {
+ coords 106.179 1 90.152
+}
+SCR_AIGroup : "{5A167D0D52B736A8}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Attack/Group_RHS_AFRF_Recon_Sniper_2_Attack.et" {
+ coords 95.891 1 92.624
+}
+SCR_ChimeraCharacter : "{667018F7BDA1D7BF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_t5000random.et" {
+ coords 92.992 1 96.6
+}
+SCR_AIGroup : "{7AD8DBA3D53F2F6B}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_Sniper_2_Defend.et" {
+ coords 96.225 1 95.052
+}
 SCR_ChimeraCharacter : "{AE66412838700F88}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sniper_random.et" {
  coords 98.911 1 87.6
 }
 SCR_AIGroup : "{C068ABB2FCDC4EEE}Prefabs/Groups/BLUFOR/British Forces/Regular/1980/dim_UK_Squad_86_helirecon_random.et" {
  coords 103.585 1 83.784
+}
+SCR_ChimeraCharacter : "{FCC6A27BCBDC1ABC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_svdm.et" {
+ coords 94.608 1 96.874
 }
