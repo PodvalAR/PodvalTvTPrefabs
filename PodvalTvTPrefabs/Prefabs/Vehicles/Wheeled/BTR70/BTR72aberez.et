@@ -115,7 +115,7 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{8EEFEC75F6778F32}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42.et"
+     Prefab "{016DDA7D98E643AA}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42_berez.et"
     }
     RegisteringComponentSlotInfo AmmoStorage {
      PivotID "v_root"
@@ -137,6 +137,7 @@ Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
     RegisteringComponentSlotInfo turret2 {
      PivotID "v_turret_controler_01"
      Offset 0.0322 -2.3685 0.7791
+     Enabled 0
      Prefab "{62A0717EABA6E353}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red_berezok.et"
      DisablePhysicsInteraction 1
      RegisterActions 1

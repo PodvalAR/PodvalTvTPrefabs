@@ -1,3 +1,13 @@
+Turret : "{016DDA7D98E643AA}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42_berez.et" {
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0.0151 0.2959 1.4481
+   }
+  }
+ }
+ coords 100.489 1 94.38
+}
 $grp GenericEntity : "{0457BBAF5262EECE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_USSR_covered.et" {
  {
   coords 131.81 1 96.261
@@ -15,11 +25,26 @@ $grp GenericEntity : "{0457BBAF5262EECE}Prefabs/Props/Military/SupplyBox/SupplyS
 SCR_ChimeraCharacter : "{0A7E4024FE229254}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Sniper.et" {
  coords 91.249 1 96.478
 }
+Vehicle TEST_GAZ_TIGR_v2_Arbalet_KORD_Green1 : "{194C9425B0E2E2D2}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/TEST_GAZ_TIGR_v2_Arbalet_KORD_Green.et" {
+ coords 87.842 1 86.343
+}
 Vehicle BTR72aberez1 : "{1A0C6B9108D0E089}Prefabs/Vehicles/Wheeled/BTR70/BTR72aberez.et" {
  coords 106.179 1 90.152
 }
+Turret : "{3E77A0AB31AD65EF}Prefabs/Vehicles/Wheeled/M151A2/LR3Series_gun_mount_Mk19.et" {
+ coords 103.427 1 97.301
+}
+SCR_ChimeraCharacter : "{426F7FAAC77A2A6E}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_PL.et" {
+ coords 93.11 1 104.762
+}
 SCR_AIGroup : "{5A167D0D52B736A8}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Attack/Group_RHS_AFRF_Recon_Sniper_2_Attack.et" {
  coords 95.891 1 92.624
+}
+GenericEntity : "{62A0717EABA6E353}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red_berezok.et" {
+ coords 101.13 1 99.421
+}
+GenericEntity : "{665EB9DBECC0B5F5}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151.et" {
+ coords 105.279 1 98.348
 }
 SCR_ChimeraCharacter : "{667018F7BDA1D7BF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_t5000random.et" {
  coords 92.992 1 96.6
@@ -27,11 +52,17 @@ SCR_ChimeraCharacter : "{667018F7BDA1D7BF}Prefabs/Characters/Factions/OPFOR/RHS_
 SCR_AIGroup : "{7AD8DBA3D53F2F6B}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_Sniper_2_Defend.et" {
  coords 96.225 1 95.052
 }
+Turret : "{8EEFEC75F6778F32}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42.et" {
+ coords 102.269 1 94.221
+}
 SCR_ChimeraCharacter : "{AE66412838700F88}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sniper_random.et" {
  coords 98.911 1 87.6
 }
 SCR_AIGroup : "{C068ABB2FCDC4EEE}Prefabs/Groups/BLUFOR/British Forces/Regular/1980/dim_UK_Squad_86_helirecon_random.et" {
  coords 103.585 1 83.784
+}
+GenericEntity : "{D7B72696E407AF87}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK_Mk19.et" {
+ coords 103.57 1 101.34
 }
 SCR_ChimeraCharacter : "{FCC6A27BCBDC1ABC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_svdm.et" {
  coords 94.608 1 96.874
