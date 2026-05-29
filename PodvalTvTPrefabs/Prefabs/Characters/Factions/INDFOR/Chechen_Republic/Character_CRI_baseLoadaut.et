@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{489CFB4495E4F34B}Prefabs/Characters/Factions/INDFOR/Che
     Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
     m_sFaction "CRI"
     m_aAuthoredLabels + {
-     ENTITYTYPE_CHARACTER FACTION_RHS_AFRF
+     ENTITYTYPE_CHARACTER FACTION_FIA
     }
     m_aAutoLabels {
     }
