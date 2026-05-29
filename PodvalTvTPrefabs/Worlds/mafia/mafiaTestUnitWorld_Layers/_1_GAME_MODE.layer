@@ -5,12 +5,8 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
  coords -0.056 0 -0.034
  {
-  SCR_FactionManager {
+  SCR_FactionManager "6974AAC1B66B8837" {
    ID "5ED9088735FF2D8B"
-   Factions {
-    SCR_Faction "{696F0452AECFE5BE}" : "{A189688D8F79D10B}Configs/Factions/CRI.conf" {
-    }
-   }
   }
   SCR_EditorSettingsEntity {
    ID "61B4E967E6C20362"

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6435572AB8DD725A}Configs/Factions/CRI.conf"
+ Name "{DE17AC501F0CD5EB}Configs/Core/EditableEntityCore.conf"
  Configurations {
   CONFResourceClass PC {
   }
