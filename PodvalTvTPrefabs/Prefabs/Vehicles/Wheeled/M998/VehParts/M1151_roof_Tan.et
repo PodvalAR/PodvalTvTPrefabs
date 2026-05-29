@@ -16,10 +16,10 @@ GenericEntity : "{133708DDF374C472}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_
   SlotManagerComponent "{66F2D6986D44629B}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{4283E8F2AE389EB7}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_RoofHatch_Tan.et"
+     Prefab "{0C2356FF7C3AC01C}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GPK_Gunner_Hatch_Closed_Tan.et"
     }
    }
   }
  }
- coords 2786.231 78.747 2986.74
+ coords 171.729 1 192.063
 }
