@@ -1,3 +1,6 @@
 SCR_AIGroup : "{7AD8DBA3D53F2F6B}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_Sniper_2_Defend.et" {
  ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{667018F7BDA1D7BF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_t5000random.et" "{FCC6A27BCBDC1ABC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_svdm.et"
+ }
 }

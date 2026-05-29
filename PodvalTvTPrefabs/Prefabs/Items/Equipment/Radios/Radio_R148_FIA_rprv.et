@@ -62,7 +62,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    Materials {
     MaterialAssignClass "{61FAB444865A455F}" {
      SourceMaterial "Radio_R148_01"
-     AssignedMaterial "{D1D02402E0FE63BC}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_R148_01_FIA.emat"
+     AssignedMaterial "{65ED4A9394E71CE2}Assets/Items/Equipment/Radios/Radio_R148/Data/Radio_R148_02.emat"
     }
    }
   }
