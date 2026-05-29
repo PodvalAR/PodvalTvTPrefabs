@@ -1,3 +1,20 @@
 Vehicle : "{36ED190F9C9A8E0C}Prefabs/Vehicles/Wheeled/M998/M1151_armed_CROWS_M2_Tan.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68D4DD4BCD7F84AB}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Prefab "{DD5358193169908C}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    MultiSlotConfiguration "{68D4DD4BCD7F84A9}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Prefab "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 152.093 1 177.134
 }
