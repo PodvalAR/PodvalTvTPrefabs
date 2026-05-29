@@ -1,8 +1,8 @@
 SCR_AIGroup : "{EB059CC44716B326}Prefabs/Groups/INDFOR/Ses_NAPA/dim_Group_NAPA_Squad.et" {
  ID "0000000000000001"
- coords 12080.396 34.982 9377.531
- angles 0 -148.202 0
+ coords 6115.024 56.89 6956.754
+ angles 0 -125.124 0
  m_aUnitPrefabSlots {
-  "{CC79897F0D00B78E}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_SL_2.et" "{72AB8D9928B39CA2}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_1.et" "{31B02F8CAAB88891}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_AT_3.et" "{9C716F176E683D36}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_AAT.et" "{565A06DD692172C1}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_GL_3.et" "{90C5CE9348783953}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_MG_1.et" "{521F4E8E86CD8272}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Rifleman_4.et" "{B78302778A281519}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Rifleman_5.et" "{05EEDD303CF57D99}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Marksman_4.et"
+  "{CC79897F0D00B78E}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_SL_2.et" "{72AB8D9928B39CA2}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_TL_1.et" "{31B02F8CAAB88891}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_AT_3.et" "{9C716F176E683D36}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_AAT.et" "{565A06DD692172C1}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_GL_3.et" "{90C5CE9348783953}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_MG_1.et" "{521F4E8E86CD8272}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Rifleman_4.et" "{6C321CBBD9ED84D2}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Medic_3.et" "{05EEDD303CF57D99}Prefabs/Characters/Factions/INDFOR/NAPA/dim/dim_NAPA_Marksman_4.et"
  }
 }
