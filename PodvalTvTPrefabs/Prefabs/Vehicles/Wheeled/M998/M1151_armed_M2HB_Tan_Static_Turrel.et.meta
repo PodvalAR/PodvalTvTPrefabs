@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{D26E78556481B9CB}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_DIMKII.et"
+ Name "{D26E78556481B9CB}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_Static_Turrel.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

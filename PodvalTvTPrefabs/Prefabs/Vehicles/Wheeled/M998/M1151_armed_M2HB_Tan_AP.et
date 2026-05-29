@@ -1,12 +1,28 @@
-Vehicle : "{7C66F189E0FB7BF7}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_MBO.et" {
+Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
  ID "BBCBA43A9778AE21"
  components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{697B3E39682C131F}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+    MaterialAssignClass "{697B3E39682C1309}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{5E534CA9B3DC84E9}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Tan.et"
+    }
     RegisteringComponentSlotInfo Roof {
      Prefab "{0EA15229DF07598B}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Tan.et"
     }
    }
   }
  }
+ coords 165.014 1 248.601
 }

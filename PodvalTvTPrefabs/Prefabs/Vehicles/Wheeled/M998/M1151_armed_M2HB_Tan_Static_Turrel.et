@@ -30,6 +30,15 @@ Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" 
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{50A242E5D9742C62}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1Tracer.et"
+     }
+    }
+   }
+  }
   SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
     SCR_FlammableHitZone Hull {
@@ -103,6 +112,6 @@ Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" 
    }
   }
  }
- coords 9602.633 89.87 8990.085
- angles -1.4 -172.804 7.968
+ coords 160.564 1 221.655
+ angles 0 0 0
 }

@@ -1,7 +1,7 @@
 GenericEntity : "{0CB30483430284FD}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_AP.et" {
  ID "686C93C25A068BAD"
  components {
-  SlotManagerComponent "{686C93C25A068BF1}" {
+  SlotManagerComponent "{66F2D6986D44629B}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
      Offset 0 -0.6734 -2.0492

@@ -1,43 +1,13 @@
-Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+Vehicle : "{9C07B4B8CF07B8A1}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan_AP.et" {
  ID "BBCBA43A9778AE21"
  components {
-  MeshObject "{51DAA09FEFBFC0E7}" {
-   Materials {
-    MaterialAssignClass "{68A15AF7C85BBEFB}" {
-     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
-     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
-    }
-    MaterialAssignClass "{68A15AF7C85BBEC5}" {
-     SourceMaterial "HMMWV_Body_Details"
-     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
-    }
-   }
-  }
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_Image "{471A4B9A1135027B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Tan.edds"
-    m_aAutoLabels +{
-    }
-   }
-  }
-  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
-   MultiSlots {
-    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
-     SlotTemplate InventoryStorageSlot M2Ammo {
-      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
-     }
-    }
-   }
-  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
-    RegisteringComponentSlotInfo Tailgate {
-     Prefab "{5E534CA9B3DC84E9}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Tan.et"
-    }
     RegisteringComponentSlotInfo Roof {
      Prefab "{0EA15229DF07598A}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Tan_MBO.et"
     }
    }
   }
  }
+ coords 158.101 1 249.618
 }
