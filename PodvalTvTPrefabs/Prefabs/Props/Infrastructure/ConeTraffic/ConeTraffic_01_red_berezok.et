@@ -1,0 +1,16 @@
+GenericEntity : "{AEF9A26C2F0334B3}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{5D3871BFEAE7D9BE}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Dst/Weapons/RSW/Turret_RCWS_Arbalet_DM.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 0
+  }
+  Hierarchy "{6976A93923269B65}" {
+  }
+ }
+}

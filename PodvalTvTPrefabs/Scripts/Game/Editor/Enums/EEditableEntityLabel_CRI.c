@@ -1,4 +1,4 @@
 modded enum EEditableEntityLabel
 {
-	FACTION_CRI = 105108101,
+	FACTION_CRI = 1051081011,
 };

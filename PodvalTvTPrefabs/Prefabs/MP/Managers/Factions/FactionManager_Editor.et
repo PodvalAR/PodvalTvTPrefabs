@@ -3,5 +3,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  Factions {
   SCR_Faction "{6939379FA429389D}" : "{49C06D00B0B978C4}Configs/Factions/Drg_VCA.conf" {
   }
+  SCR_Faction "{6974AAC539A3FA4C}" : "{6435572AB8DD725A}Configs/Factions/CRI.conf" {
+  }
  }
 }
