@@ -1,0 +1,16 @@
+GameEntity : "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5E58B72A46DA985C}" {
+   MaxCumulativeVolume 3000
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GrenadeBelt {
+     Offset -0.0128 -0.0991 -0.0215
+     Prefab "{F6B1C3DB2B2D48B9}Prefabs/Props/Military/BLDR_Vest_SovietHarness_GrenadeBandolier.et"
+    }
+   }
+  }
+ }
+}

@@ -232,10 +232,19 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     }
    }
   }
+  SlotManagerComponent "{6976A93A09231C0F}" {
+   Slots {
+    EntitySlotInfo berezok {
+     PivotID "v_root"
+     Offset 0.0305 -0.301 -1.0037
+     Prefab "{62A0717EABA6E353}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red_berezok.et"
+    }
+   }
+  }
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
    shouldHandleObstruction 0
    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
-    Offset 0 0.0009 1.4481
+    Offset 0.0463 0.4855 0.9537
     MergePhysics 1
    }
    WeaponTemplate "{50441A9C9DA65037}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42.et"
@@ -248,7 +257,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    shouldHandleObstruction 0
    AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
     PivotID "v_gun_01"
-    Offset 0 0.0009 1.4481
+    Offset 0.0463 0.4855 0.9537
     MergePhysics 1
    }
    WeaponTemplate "{E6C710B3D6043754}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_HE.et"
