@@ -15,6 +15,9 @@ GameEntity : "{8C10414481051E1A}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
     RHS_LoadoutSlotInfo BackVelcro {
      Prefab ""
     }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+    }
     RHS_LoadoutSlotInfo RightVelcro {
      Offset -0.0838 0.1721 -0.0085
      Prefab "{7F43CA3BE4D42E42}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Camo.et"
@@ -23,5 +26,5 @@ GameEntity : "{8C10414481051E1A}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
    DebugWornModel 0
   }
  }
- coords 171.151 1 118.798
+ coords 180.515 1 169.242
 }

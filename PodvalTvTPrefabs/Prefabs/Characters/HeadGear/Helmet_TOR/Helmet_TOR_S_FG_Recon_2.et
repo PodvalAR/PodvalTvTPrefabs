@@ -10,8 +10,11 @@ GameEntity : "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
     RHS_LoadoutSlotInfo Masks {
      Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
     }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab ""
+    }
    }
   }
  }
- coords 173.082 1 118.108
+ coords 182.029 1 170.744
 }
