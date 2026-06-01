@@ -1,4 +1,4 @@
-GameEntity : "{29B9B3ED2FE3CF10}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
+GameEntity : "{F14913F524AA2C56}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
  ID "50D485E1435D6C72"
  components {
   MeshObject "{5112706CD4157AE0}" {
@@ -7,7 +7,6 @@ GameEntity : "{29B9B3ED2FE3CF10}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beani
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     LoadoutSlotInfo Masks {
-     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
     }
    }
    WornModel "{74342B2AF8E04FB3}Assets/Characters/HeadGear/Hat_Beanie/GD_Beanie.xob"
@@ -20,5 +19,5 @@ GameEntity : "{29B9B3ED2FE3CF10}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beani
    }
   }
  }
- coords 173.602 1 123.652
+ coords 203.589 1 178.807
 }

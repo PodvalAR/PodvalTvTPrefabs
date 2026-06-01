@@ -1,0 +1,18 @@
+GameEntity : "{F14913F524AA2C56}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+    }
+   }
+   WornMaterialsOverride {
+    "{BD8F9DE2660F5639}Assets/Characters/HeadGear/Hat_Knitted_01/Data/Hat_Knitted_01_brown.emat"
+   }
+   ItemMaterialsOverride {
+    "{BD8F9DE2660F5639}Assets/Characters/HeadGear/Hat_Knitted_01/Data/Hat_Knitted_01_brown.emat"
+   }
+  }
+ }
+ coords 204.107 1 178.472
+}
