@@ -65,7 +65,7 @@ GameEntity : "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/Ves
      Prefab "{DD55971A433E1B3F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_OD.et"
     }
    }
-   DebugWornModel 1
+   DebugWornModel 0
   }
  }
  coords 200.096 1 171.552

@@ -1,0 +1,13 @@
+GameEntity : "{50B958C01C53BF80}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_OD.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{8E0FE8D34FCDFF41}Assets/Characters/Vests/Vest_TV150/tv150_placard.xob"
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornModel "{8E0FE8D34FCDFF41}Assets/Characters/Vests/Vest_TV150/tv150_placard.xob"
+   ItemModel "{8E0FE8D34FCDFF41}Assets/Characters/Vests/Vest_TV150/tv150_placard.xob"
+  }
+ }
+ coords 203.369 1.411 174.853
+}

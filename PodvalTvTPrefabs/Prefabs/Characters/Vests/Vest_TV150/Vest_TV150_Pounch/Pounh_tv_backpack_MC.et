@@ -1,0 +1,14 @@
+GameEntity : "{C4BA6EB385AB4769}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_Pounch/Pounh_tv_backpack_OD.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{8EEAD6240DE4E7B0}Assets/Characters/Vests/Vest_TV150/Data/tv150_placard_MC.emat"
+   }
+   ItemMaterialsOverride {
+    "{8EEAD6240DE4E7B0}Assets/Characters/Vests/Vest_TV150/Data/tv150_placard_MC.emat"
+   }
+  }
+ }
+ coords 2726.489 86.685 2931.64
+}
