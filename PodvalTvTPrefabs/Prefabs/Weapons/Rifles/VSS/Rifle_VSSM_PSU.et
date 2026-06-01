@@ -5,7 +5,7 @@ GenericEntity : "{05FCAFCDC2224634}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM.et" {
    components {
     AttachmentSlotComponent "{65D91024FF77536C}" {
      AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
-      Prefab "{259C731C32A0A85D}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_EOTech_Vudu1-6x/Optic_EOTech_Vudu1-6x_BLK_RMR.et"
+      Prefab "{49CED2405ED88A44}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_NPZPSU1-4x/Optic_NPZPSU1-4x_BLK.et"
      }
     }
     MuzzleComponent "{65D96648CF6F1B74}" {
@@ -16,5 +16,5 @@ GenericEntity : "{05FCAFCDC2224634}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM.et" {
    }
   }
  }
- coords 0 0 0
+ coords 83 42.817 1818.77
 }

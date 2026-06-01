@@ -1,0 +1,15 @@
+GenericEntity : "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_EoTech6x.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65D91024FF77536C}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      Prefab "{D8147F3F740C29DF}Prefabs/Weapons/Attachments/Optics/Dedal_Narodovolec/Dedal_Narodovolec.et"
+     }
+    }
+   }
+  }
+ }
+ coords 181.331 1 160.368
+}

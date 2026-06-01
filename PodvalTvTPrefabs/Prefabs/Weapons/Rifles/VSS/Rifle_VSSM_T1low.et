@@ -1,0 +1,15 @@
+GenericEntity : "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_PSU.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65D91024FF77536C}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      Prefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+     }
+    }
+   }
+  }
+ }
+ coords 84.137 42.596 1819.107
+}

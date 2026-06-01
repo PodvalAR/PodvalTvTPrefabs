@@ -1,0 +1,15 @@
+GenericEntity : "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_EoTech6x.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65D91024FF77536C}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      Prefab "{9DEFD58BBCB9A63B}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_OKP-7/Collim_OKP-7.et"
+     }
+    }
+   }
+  }
+ }
+ coords 182.445 1.317 160.434
+}
