@@ -1,4 +1,4 @@
-GenericEntity : "{728D5536BF7F5414}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_FG.et" {
+GameEntity : "{728D5536BF7F5414}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_FG.et" {
  ID "6212A0DD8DDB0F88"
  components {
   BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
@@ -18,6 +18,5 @@ GenericEntity : "{728D5536BF7F5414}Prefabs/Characters/Vests/Vest_TV115/variants/
    }
   }
  }
- coords 202.03 1 181.585
- angles 0 0 0
+ coords 196.406 1 176.41
 }

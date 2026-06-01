@@ -1,4 +1,4 @@
-GenericEntity : "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_OD.et" {
+GameEntity : "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_OD.et" {
  ID "6212A0DD8DDB0F88"
  components {
   BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
@@ -21,4 +21,5 @@ GenericEntity : "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/
    }
   }
  }
+ coords 195.743 1 177.277
 }
