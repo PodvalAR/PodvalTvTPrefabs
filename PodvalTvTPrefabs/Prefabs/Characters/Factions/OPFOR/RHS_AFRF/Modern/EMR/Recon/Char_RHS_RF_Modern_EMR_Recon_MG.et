@@ -3,6 +3,7 @@ SCR_ChimeraCharacter : "{A21DAD0A87B90D8C}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG (ПКМ)"
     Icon "{FBB7E60937300171}UI/Icons/sso_icon_256.edds"
    }
   }
