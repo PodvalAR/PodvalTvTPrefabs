@@ -1,0 +1,14 @@
+GenericEntity : "{3503D3AD9D93F2EA}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/drg_Backpack_Wartech_BB102_EMR_RADIO.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornMaterialsOverride {
+    "{0E3EDB9B96D0444C}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/BB102_FG.emat"
+   }
+   ItemMaterialsOverride {
+    "{0E3EDB9B96D0444C}Assets/Items/Equipment/Backpacks/Wartech_BB102_Backpack/data/BB102_FG.emat"
+   }
+  }
+ }
+ coords 187.322 1 172.895
+}
