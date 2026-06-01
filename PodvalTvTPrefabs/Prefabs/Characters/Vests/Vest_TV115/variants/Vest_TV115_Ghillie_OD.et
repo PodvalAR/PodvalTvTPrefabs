@@ -1,4 +1,4 @@
-GenericEntity : "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_OD.et" {
+GameEntity : "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_OD.et" {
  ID "6212A0DD8DDB0F88"
  components {
   BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
@@ -54,8 +54,8 @@ GenericEntity : "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/
     }
     LoadoutSlotInfo sasarma3 {
      PivotID "Spine5"
-     Offset 0.0995 0.0294 0.1811
-     Angles -4.3439 22.242 0.1624
+     Offset 0.0988 0.0295 0.1796
+     Angles -4.3469 24.1017 0.0215
      Prefab "{9DA0A02CB471C2EC}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_od.et"
     }
     LoadoutSlotInfo radio {
@@ -68,6 +68,5 @@ GenericEntity : "{91238F347AA0B6B6}Prefabs/Characters/Vests/Vest_TV115/variants/
    DebugWornModel 1
   }
  }
- coords -2.661 0.152 -1.768
- angles 0 18.68 0
+ coords 200.096 1 171.552
 }

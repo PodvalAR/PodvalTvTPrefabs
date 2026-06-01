@@ -1,0 +1,55 @@
+GameEntity : "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_OD.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  RHS_ClothNodeStorageComponent "{6212A0DD8DDB0FEF}" {
+   Attributes SCR_ItemAttributeCollection "{6212A0DD8DDB0FEB}" {
+    ItemDisplayName UIInfo "{6212A0DD8DDB0FE9}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_TV115_Base_Name [1] - #RHS-Camo_ATACSFG"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo sasarma1 {
+     Prefab "{25DA77988320DACA}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    LoadoutSlotInfo sasarma2 {
+     Prefab "{25DA77988320DACA}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    LoadoutSlotInfo up103 {
+     Prefab "{14E044018E49CD65}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_FG.et"
+    }
+    LoadoutSlotInfo up104 {
+     Prefab "{B74CEF5B90667B42}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_FG.et"
+    }
+    LoadoutSlotInfo triple {
+     Prefab "{CA33342E733B1876}Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_FG.et"
+    }
+    LoadoutSlotInfo admin {
+     Enabled 1
+     Prefab "{5409A90C23ADA30B}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_FG.et"
+    }
+    LoadoutSlotInfo holster {
+     Prefab "{5063FC55C40B6B26}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_FG.et"
+    }
+    LoadoutSlotInfo drop {
+     Prefab "{CA5F52C8B7B0E655}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_FG.et"
+    }
+    LoadoutSlotInfo grenade1 {
+     Prefab "{85FF4B7AC75F41F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_FG.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab "{BE49825BE35FC8F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    LoadoutSlotInfo sasarma3 {
+     Enabled 1
+     Prefab "{F9BC9A3FA33E8287}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp117_fg.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{B949AD0954715B54}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+    }
+   }
+  }
+ }
+ coords 199.482 1 171.938
+}
