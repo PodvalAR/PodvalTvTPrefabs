@@ -1,4 +1,4 @@
-GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_preset_base.et" {
+GameEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_preset_base.et" {
  ID "6216975224AE5CFA"
  components {
   RHS_ClothNodeStorageComponent "{6216975224AE5B15}" {
@@ -118,6 +118,11 @@ GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/
      Angles 2.0662 -135.4467 -179.33211
      Prefab "{2BCEFE3EAE777BE1}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_OD.et"
     }
+    LoadoutSlotInfo patch_up102 {
+     PivotID "Spine5"
+     Offset 0.0012 0.2077 0.1995
+     Angles 19.5319 0 0
+    }
    }
    WornModel "{F0276F8B4435CA49}Assets/Characters/Belts/Belt_Wartech_TV106/TV106.xob"
    WornMaterialsOverride {
@@ -130,5 +135,5 @@ GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/
    DebugWornModel 0
   }
  }
- coords 67.351 1.534 32.582
+ coords 193.971 1.576 179.282
 }

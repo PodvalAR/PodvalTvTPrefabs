@@ -1,13 +1,6 @@
-GenericEntity : "{8F5B0494E485F488}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_base.et" {
+GameEntity : "{1231AE80902911AF}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et" {
  ID "50D8C49B3558F152"
  components {
-  RHS_ClothNodeStorageComponent "{5E8ECC6318C07954}" {
-   Attributes SCR_ItemAttributeCollection "{5E8ECC63152ECC55}" {
-    ItemDisplayName UIInfo "{5E8ECC6310D5F5D3}" {
-     Name "#RHS-Vest_TV102_Base_Name - #RHS-Color_Olive"
-    }
-   }
-  }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
     LoadoutSlotInfo ArmorPlate_Left {
@@ -16,12 +9,6 @@ GenericEntity : "{8F5B0494E485F488}Prefabs/Characters/Vests/Vest_TV102/Vest_TV10
     LoadoutSlotInfo ArmorPlate_Right {
      Prefab ""
     }
-   }
-   WornMaterialsOverride {
-    "{A560310CF73920CC}Assets/Characters/Vests/Vest_TV102/data/tv102_od.emat"
-   }
-   ItemMaterialsOverride {
-    "{A560310CF73920CC}Assets/Characters/Vests/Vest_TV102/data/tv102_od.emat"
    }
   }
  }
