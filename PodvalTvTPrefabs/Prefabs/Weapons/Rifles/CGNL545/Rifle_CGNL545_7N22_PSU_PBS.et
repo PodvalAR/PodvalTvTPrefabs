@@ -1,0 +1,15 @@
+GenericEntity : "{47EC117316BA5544}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_7N22_EXP_PBS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6890D47BC7CE8B45}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{374F35473800111F}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_NPZPSU1-4x/Optic_NPZPSU1-4x_BLK_545.et"
+     }
+    }
+   }
+  }
+ }
+ coords 184.664 1 172.437
+}

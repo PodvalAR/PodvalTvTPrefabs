@@ -1,0 +1,15 @@
+GenericEntity : "{583FFEE8D9D4908A}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6890D47BC7CE8B45}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+   }
+  }
+ }
+ coords 184.041 1 172.645
+}

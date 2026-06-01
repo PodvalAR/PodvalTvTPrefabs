@@ -1,3 +1,46 @@
 GenericEntity : "{169335D1F7A2D57C}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_base.et" {
  ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6890D47BC7CE8B45}" {
+     AttachmentSlot InventoryStorageSlot optics {
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8B59}" {
+     AttachmentSlot InventoryStorageSlot Attach_Right {
+      InspectionWidgetOffset 0.0297 0.0789 0.4508
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8BB2}" {
+     AttachmentSlot InventoryStorageSlot grip {
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset 0 0.1062 0.437
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8BBE}" {
+     AttachmentSlot InventoryStorageSlot "{6888F4A66B96B378}" {
+      Prefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset 0 0.1062 -0.0278
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6890D47BC7CE8BAB}" {
+       Enabled 1
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        InspectionWidgetOffset 0 0.0826 0.5424
+       }
+       AttachmentType AttachmentMuzzle545_39 "{697EB758B8DD5BB0}" {
+       }
+      }
+     }
+     MagazineTemplate "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+    }
+   }
+  }
+ }
+ coords 179.406 1.506 174.702
 }
