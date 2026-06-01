@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Recon/Char_RHS_RF_Modern_EMR_Recon_Rifle.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman (AK103)"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F411329BEBC58515}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_B30_B31S_B33_PT1_RK3_OK7_SD.et"
   }
@@ -29,5 +34,5 @@ SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords -0.134 0 -0.331
+ coords 1127.231 80.659 3187.234
 }
