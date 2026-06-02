@@ -3,6 +3,21 @@ GenericEntity : "{583FFEE8D9D4908A}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545.
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{6890D47BC7CE8B45}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{3D4B54552E600505}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_EotechEXPS3/Collim_EXPS3_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8B59}" {
+     AttachmentSlot InventoryStorageSlot Attach_Right {
+      Prefab "{CB8AB382E3F45336}Prefabs/Weapons/Attachments/Lasers/perst_classic/Laser_perst_classic_base.et"
+     }
+    }
+    AttachmentSlotComponent "{698348D83C56225E}" {
+     AttachmentSlot InventoryStorageSlot Attach_Bottom {
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
       AttachmentSlotComponent "{6890D47BC7CE8BAB}" {
@@ -16,5 +31,5 @@ GenericEntity : "{583FFEE8D9D4908A}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545.
    }
   }
  }
- coords 1129.832 80.96 3188.13
+ coords 188.082 1.207 171.894
 }
