@@ -4,10 +4,8 @@ GameEntity : "{728D5536BF7F5414}Prefabs/Characters/Vests/Vest_TV115/variants/Ves
   BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
    Slots {
     LoadoutSlotInfo admin {
-     Enabled 0
     }
     LoadoutSlotInfo sasarma3 {
-     Enabled 0
     }
     LoadoutSlotInfo backpack {
      PivotID "Spine5"
