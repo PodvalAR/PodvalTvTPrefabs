@@ -90,12 +90,6 @@ SCR_ChimeraCharacter : "{3ABB9C4873E7248B}Prefabs/Characters/Factions/OPFOR/RHS_
       "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
      }
     }
-    ItemsInitConfigurationItem "{6935392FA1FEF429}" {
-     TargetStorage "Vest/Vest_Taktika_Sniper.et/util/Pouch_UP105_utilbig_FG.et"
-     PrefabsToSpawn {
-      "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et" "{1F9F751F318EBEB0}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7N14.et"
-     }
-    }
    }
   }
  }
