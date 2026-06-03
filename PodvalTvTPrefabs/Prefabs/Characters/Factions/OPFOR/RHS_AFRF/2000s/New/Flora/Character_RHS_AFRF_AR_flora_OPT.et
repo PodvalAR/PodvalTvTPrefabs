@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{59AA378A99D8231F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_AR_flora.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BBF706D5B2B11FF0}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74N_1P29.et"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+SCR_AIGroup : "{88691E396D4C4630}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Flora/Group_RHS_AFRF_2000s_PL_Flora.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{5D9BF429639E2C5C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_PL_flora_OPT.et"
+ }
+}
