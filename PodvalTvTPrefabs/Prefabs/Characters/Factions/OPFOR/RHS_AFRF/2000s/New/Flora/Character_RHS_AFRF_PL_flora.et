@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman.et" {
+SCR_ChimeraCharacter : "{5E5277A8D76F7827}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_armed_flora.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,26 +14,25 @@ SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#PDVL_Role_AAT"
-    Icon "{EA3F6C9AF1C5F780}UI/Icons/supplie.edds"
+    Name "#PDVL_Role_PL"
+    Icon "{208FDC0A49380FD7}UI/Icons/platoon_leader.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{66196D85AB93D2BE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camo.et"
+     Prefab "{53F44AFC856BA5FD}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_Chechen_Hat_Black.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+     Prefab "{B31D9C2465D00D93}Prefabs/Items/Equipment/Radios/Radio_R107M_PL.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{695B0D0A07252744}" {
-     TargetStorage "Back/Backpack_RPG_Assistant.et"
+    ItemsInitConfigurationItem "{6986A56256D5E710}" {
      PrefabsToSpawn {
-      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      "{AC04D0D1EABC994F}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Multi.et"
      }
     }
    }

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{219408F2ACD84019}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/Group_RHS_AFRF_2000s_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{F7935AA38DC65302}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_Helli.et" "{9AEB6245F82146E5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_HeliCoPilot.et"
+ }
+ m_sCustomNameSet "#PDVL_Squad_Pilot"
+}

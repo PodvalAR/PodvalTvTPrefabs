@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman.et" {
+SCR_ChimeraCharacter : "{5E5277A8D76F7827}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_armed_flora.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -30,7 +30,7 @@ SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{695B0D0A07252744}" {
+    ItemsInitConfigurationItem "{6986A56630CEB92F}" {
      TargetStorage "Back/Backpack_RPG_Assistant.et"
      PrefabsToSpawn {
       "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"

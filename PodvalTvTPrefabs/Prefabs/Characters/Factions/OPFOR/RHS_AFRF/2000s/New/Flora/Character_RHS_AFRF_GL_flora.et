@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Character_RHS_AFRF_rifleman.et" {
+SCR_ChimeraCharacter : "{5E5277A8D76F7827}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_armed_flora.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -39,10 +39,10 @@ SCR_ChimeraCharacter : "{0098F4D7EEB8F4B4}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{695B0D0A3BEC5E3E}" {
+    ItemsInitConfigurationItem "{6986A56088785CC6}" {
      TargetStorage "Vest/Vest_Lifchik_GL.et"
     }
-    ItemsInitConfigurationItem "{695B0D0A07252744}" {
+    ItemsInitConfigurationItem "{6986A564B45FB5CD}" {
      TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et"

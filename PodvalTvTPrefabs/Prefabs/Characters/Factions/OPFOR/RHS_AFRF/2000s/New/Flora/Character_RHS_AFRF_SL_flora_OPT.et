@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{B523B2073E2D0B86}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_SL_flora.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{537A6A3F3D9AD4D6}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_1P29_RHSMag.et"
+  }
+ }
+}
