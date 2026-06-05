@@ -1,11 +1,13 @@
-Turret : "{016DDA7D98E643AA}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42_berez.et" {
+GenericEntity {
  components {
-  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
-   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
-    Offset 0.0151 0.2959 1.4481
-   }
+  MeshObject "{697819316273AD84}" {
+   Object "{3ECBCB38D738F6A5}Assets/Characters/Vests/Vest_6B45/Pouches/Techinkom_VOG_Pouch.xob"
   }
  }
+ coords 100.385 1.33 80.106
+ angles 0 174.965 0
+}
+Turret : "{016DDA7D98E643AA}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42_berez.et" {
  coords 100.489 1 94.38
 }
 $grp GenericEntity : "{0457BBAF5262EECE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Large_01/SupplyStack_Large_01_storage_USSR_covered.et" {
@@ -22,8 +24,14 @@ $grp GenericEntity : "{0457BBAF5262EECE}Prefabs/Props/Military/SupplyBox/SupplyS
   coords 131.81 1 91.453
  }
 }
+Vehicle M1167_armed_TOW1 : "{08DC83258B558A9E}Prefabs/Vehicles/Wheeled/M998/M1167_armed_TOW.et" {
+ coords 109.83 1 105.998
+}
 SCR_ChimeraCharacter : "{0A7E4024FE229254}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Sniper.et" {
  coords 91.249 1 96.478
+}
+SCR_ChimeraCharacter : "{145CC262F0C24EAB}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SR_KLMKdup.et" {
+ coords 105.496 1 78.941
 }
 Vehicle TEST_GAZ_TIGR_v2_Arbalet_KORD_Green1 : "{194C9425B0E2E2D2}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/TEST_GAZ_TIGR_v2_Arbalet_KORD_Green.et" {
  coords 87.842 1 86.343
@@ -31,17 +39,53 @@ Vehicle TEST_GAZ_TIGR_v2_Arbalet_KORD_Green1 : "{194C9425B0E2E2D2}Prefabs/Vehicl
 Vehicle BTR72aberez1 : "{1A0C6B9108D0E089}Prefabs/Vehicles/Wheeled/BTR70/BTR72aberez.et" {
  coords 106.179 1 90.152
 }
+$grp SCR_ChimeraCharacter : "{29786A5DBA2EC48A}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_Rifleman.et" {
+ {
+  coords 117.952 1 79.243
+ }
+ {
+  coords 113.339 1 79.123
+ }
+}
+SCR_ChimeraCharacter : "{2AC4BD0DD870A673}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_AR_Random.et" {
+ coords 100.68 1 84.751
+}
 Turret : "{3E77A0AB31AD65EF}Prefabs/Vehicles/Wheeled/M151A2/LR3Series_gun_mount_Mk19.et" {
  coords 103.427 1 97.301
 }
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_BaseLoadout.et" {
+ coords 110.84 1 78.832
+}
 SCR_ChimeraCharacter : "{426F7FAAC77A2A6E}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_PL.et" {
  coords 93.11 1 104.762
+}
+GameEntity : "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et" {
+ coords 97.684 1.597 84.265
+}
+SCR_ChimeraCharacter : "{573439FFD78F59FD}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/dubok/Char_USSR_MP_Random_BaseLoadout.et" {
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+    }
+   }
+  }
+ }
+ coords 99.748 1 87.055
+}
+Turret : "{59C00B28353902BB}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Camo.et" {
+ coords 117.806 1 102.1
 }
 SCR_AIGroup : "{5A167D0D52B736A8}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Attack/Group_RHS_AFRF_Recon_Sniper_2_Attack.et" {
  coords 95.891 1 92.624
 }
 GenericEntity : "{62A0717EABA6E353}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red_berezok.et" {
- coords 101.13 1 99.421
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0A1F9C3A189C5474}Assets/Vehicles/Tracked/Kurganets-25/VehParts/Turret_RWCS/Turret_RWCS_Kord.xob"
+  }
+ }
+ coords 112.468 0.64 95.091
 }
 GenericEntity : "{665EB9DBECC0B5F5}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151.et" {
  coords 105.279 1 98.348
@@ -49,20 +93,99 @@ GenericEntity : "{665EB9DBECC0B5F5}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pin
 SCR_ChimeraCharacter : "{667018F7BDA1D7BF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_t5000random.et" {
  coords 92.992 1 96.6
 }
+GenericEntity : "{70BC751317551D9B}Prefabs/Items/Equipment/Canteens/Canteen_Soviet_01.et" {
+ coords 98.6 1 87.321
+}
 SCR_AIGroup : "{7AD8DBA3D53F2F6B}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Recon_Sniper_2_Defend.et" {
  coords 96.225 1 95.052
+}
+Vehicle UAZ469_Kornet1 : "{810E4BC55BD51664}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_Kornet.et" {
+ coords 114.243 1 105.496
+ angles 0 0 0
+}
+GenericEntity : "{8C9F39278B899AE6}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et" {
+ coords 98.944 1 87.196
 }
 Turret : "{8EEFEC75F6778F32}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42.et" {
  coords 102.269 1 94.221
 }
+$grp SCR_ChimeraCharacter : "{9E9B8952B8EEC771}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_Randomized_KLMK.et" {
+ {
+  coords 102.442 1 78.98
+ }
+ {
+  coords 101.565 1 78.822
+ }
+ {
+  coords 100.679 1 79.256
+ }
+}
+GenericEntity : "{A01218E4F8EE0DE7}Prefabs/Items/Equipment/Accessories/Pouch_Soviet_10rnd_SVD/Pouch_Soviet_10rnd_SVD.et" {
+ coords 99.975 1.319 80.275
+ angles -85.769 0 0
+}
+GameEntity : "{A27EB1AD32F8F6CB}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3_mag.et" {
+ coords 98.87 1.523 85.83
+}
+SCR_ChimeraCharacter : "{A8507C7BBAF64A71}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_SL_KLMK.et" {
+ coords 101.818 1 80.858
+}
+Vehicle GAZ_TIGR_v2_KORD1 : "{AC12E5669B411D57}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD.et" {
+ coords 121.931 1 94.626
+}
 SCR_ChimeraCharacter : "{AE66412838700F88}Prefabs/Characters/Factions/BLUFOR/UK_Army/1989/SpecialForces/Character_UK_1989_SpecialForces_Sniper_random.et" {
- coords 98.911 1 87.6
+ coords 100.963 1 87.81
+}
+Vehicle BTR72a1 : "{AFA5940761CFDDF8}Prefabs/Vehicles/Wheeled/BTR70/BTR72a.et" {
+ coords 116.859 1 93.073
+}
+GameEntity : "{B8696E709AF5F85D}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3_GL.et" {
+ coords 100.021 1 82.818
 }
 SCR_AIGroup : "{C068ABB2FCDC4EEE}Prefabs/Groups/BLUFOR/British Forces/Regular/1980/dim_UK_Squad_86_helirecon_random.et" {
  coords 103.585 1 83.784
 }
+SCR_ChimeraCharacter : "{C425B14F87DAE72F}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_Rifleman_RANDOM.et" {
+ coords 115.442 1 80.074
+}
+Vehicle UAZ469_uncovered_Turret_USSR_AGS_PAG1 : "{C87CB5A604C952FD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_USSR_AGS_PAG.et" {
+ coords 113.395 1 110.827
+}
+Vehicle BTR72a_camo1 : "{C95038CAE8C8DB1B}Prefabs/Vehicles/Wheeled/BTR70/BTR72a_camo.et" {
+ coords 112.446 1 92.974
+}
+SCR_ChimeraCharacter : "{D01975FC83367BD9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_GL_Random.et" {
+ coords 101.099 1 82.832
+}
 GenericEntity : "{D7B72696E407AF87}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK_Mk19.et" {
  coords 103.57 1 101.34
+}
+SCR_AIGroup : "{E0FB84504F1CE926}Prefabs/Groups/OPFOR/USSR/RandomSpawn/Attack/Group_USSR_PL_2_Attack.et" {
+ coords 98.376 1 81.786
+ m_aUnitPrefabSlots {
+  "{75A43BDBDEE4B117}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_PL_RANDOM.et"
+  "{573439FFD78F59FD}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/dubok/Char_USSR_MP_Random_BaseLoadout.et"
+ }
+}
+GameEntity : "{F4374E252A995286}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3_GL_soviet.et" {
+ coords 99.209 1.408 83.293
+}
+$grp GenericEntity : "{F4A7F1D9DE968D5C}Prefabs/Characters/Vests/Vest_6B45/Pouches/Pouch_Ratnik_VOG.et" {
+ {
+  coords 103.526 1.275 80.701
+  angles 0 163.739 0
+ }
+ {
+  coords 100.017 1.345 80.135
+  angles 0 -128.895 0
+ }
+}
+GenericEntity : "{F6B1C3DB2B2D48B9}Prefabs/Props/Military/BLDR_Vest_SovietHarness_GrenadeBandolier.et" {
+ coords 98.472 1.294 85.141
+ angles 0 0 89.957
+}
+SCR_ChimeraCharacter : "{F89D79B340033E32}Prefabs/Characters/Factions/OPFOR/USSR_Army/KLMK/Character_USSR_AMG_KLMK.et" {
+ coords 103.494 1 78.703
 }
 SCR_ChimeraCharacter : "{FCC6A27BCBDC1ABC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/GRU/Ligth/Char_RHS_AFRF_GRU_Sniper_svdm.et" {
  coords 94.608 1 96.874
