@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{C1E7C2B8746D2A90}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9F263AD420624726}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A36DB549076733A1}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_Autumn.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F23AF79A715049C4}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_MG_FG.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+     Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{693341ADF96E1648}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{693341ADE9738E6F}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/PKM1/Pouch_Mordor_PKM.et"
+    }
+    ItemsInitConfigurationItem "{693341ADD9CDC608}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/PKM2/Pouch_Mordor_PKM.et"
+    }
+    ItemsInitConfigurationItem "{693341ADD83044BB}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/up104/Pouch_UP120_utilmolleminus_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341ADD8979841}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/grenade/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BEBED9FA8F}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/holster/Pouch_HP103_Holster_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BEBEC42C8C}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/up103/Pouch_UP103_Medkit_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BEA08698C3}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/up103/Pouch_UP103_Medkit_FG.et"
+    }
+    ItemsInitConfigurationItem "{696C928030EF9393}" {
+     TargetStorage "Vest/Vest_TV115_MG_FG.et/grenade2/Pouch_GP106_RGD_Pouch_FG.et"
+    }
+   }
+  }
+ }
+ coords 203.017 1 174.307
+}

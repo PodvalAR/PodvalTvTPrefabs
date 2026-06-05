@@ -3,7 +3,7 @@ SCR_ChimeraCharacter : "{58BB5DA1FF90CEE5}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#PDVL_Role_Sharpshooter  (Orsis)"
+    Name "#PDVL_Role_Sharpshooter (Orsis T-5000)"
     Icon "{57289CAE0D3DA346}UI/Icons/sabateur_sniper.edds"
    }
   }
@@ -56,5 +56,5 @@ SCR_ChimeraCharacter : "{58BB5DA1FF90CEE5}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 164.48 1 117.574
+ coords 188.514 1 164.988
 }

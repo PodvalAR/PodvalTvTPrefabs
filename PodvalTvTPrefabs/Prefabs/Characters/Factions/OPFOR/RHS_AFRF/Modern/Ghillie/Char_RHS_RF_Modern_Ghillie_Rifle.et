@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{C1E1A4FA418E969B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_OD_Recon.et"
+     Prefab "{345332182E17C5E7}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_EMR_Recon.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{02EE7A78CDF7EC68}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_GRN.et"
@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
     }
     LoadoutSlotInfo FaceSlot {
-     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
+     Prefab ""
     }
    }
   }
@@ -50,5 +50,5 @@ SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 164.875 1 120.224
+ coords 222.953 1 179.84
 }

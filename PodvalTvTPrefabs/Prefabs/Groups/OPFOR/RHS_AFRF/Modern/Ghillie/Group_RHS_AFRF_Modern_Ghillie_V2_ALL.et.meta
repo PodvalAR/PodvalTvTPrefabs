@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{AA8306D74D397D4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_Sharpshooter.et"
+ Name "{696E0BB2CCAD8571}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/Ghillie/Group_RHS_AFRF_Modern_Ghillie_V2_ALL.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,28 +1,13 @@
 SCR_ChimeraCharacter : "{852A1D9CC8ACAAB9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_Rifle.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
-   components {
-    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
-     InitialStorageSlots {
-      SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{BCEA0EB0D764D8DD}Prefabs/Items/Equipment/Binoculars/Rangefinder_PDU4.et"
-      }
-     }
-    }
-   }
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#PDVL_Role_Sharpshooter (Orsis T-5000)"
-    Icon "{57289CAE0D3DA346}UI/Icons/sabateur_sniper.edds"
+    Name "#PDVL_Role_GL (GM94)"
    }
   }
-  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9B41144AA8274250}Prefabs/Weapons/Rifles/ORSIS/dim_Rifle_ORSIS_T5000_Forest.et"
-  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{E0010C5E27F9FDB4}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd_rails.et"
+   WeaponTemplate "{1828C5C23AE5E4CA}Prefabs/Weapons/GrenadeLaunchers/GM94/GL_GM94.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -38,27 +23,15 @@ SCR_ChimeraCharacter : "{852A1D9CC8ACAAB9}Prefabs/Characters/Factions/OPFOR/RHS_
     }
     ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
      TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/triple/pouch_tv115_OD.et"
-     PrefabsToSpawn {
-      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
-     }
     }
     ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
      TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"
-     PrefabsToSpawn {
-      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
-     }
     }
     ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
      TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/sasarma2/Pouch_ArsArma_magouch_morphed_OD.et"
-     PrefabsToSpawn {
-      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
-     }
     }
     ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
-     TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/backpack/Minimap_ArsArma_GMR_OD.et"
-     PrefabsToSpawn {
-      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
-     }
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/sasarma3/Pouch_wartech_magpouch_mp117_od.et"
     }
     ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
      TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/up104/Pouch_UP105_utilbig_OD.et"
@@ -78,14 +51,14 @@ SCR_ChimeraCharacter : "{852A1D9CC8ACAAB9}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{696C9292840B6C52}" {
      TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
     }
-    ItemsInitConfigurationItem "{696CBDBA5949379D}" {
-     TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/sasarma3/Pouch_wartech_magpouch_mp117_od.et"
+    ItemsInitConfigurationItem "{698AD6D16C93F016}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_OD_Backpack.et/backpack/Minimap_ArsArma_GMR_OD.et"
      PrefabsToSpawn {
-      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+      "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et"
      }
     }
    }
   }
  }
- coords 79.236 42.531 1822.947
+ coords 222.468 1 188.797
 }

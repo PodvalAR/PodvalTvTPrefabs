@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{435195E86525EFBB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/V2/Char_RHS_RF_Modern_Ghillie_V2_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{6E71DB88423D28B3}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/drg_Backpack_Wartech_BB102_FG_RADIO.et"
+    }
+   }
+  }
+ }
+ coords 188.858 1 171.41
+}
