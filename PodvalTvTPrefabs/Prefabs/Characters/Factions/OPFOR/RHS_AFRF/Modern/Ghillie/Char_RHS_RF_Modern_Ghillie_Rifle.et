@@ -32,7 +32,6 @@ SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
     }
     LoadoutSlotInfo FaceSlot {
-     Prefab ""
     }
    }
   }

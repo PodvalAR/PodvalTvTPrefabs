@@ -18,6 +18,8 @@ SCR_ChimeraCharacter : "{9AB7C595A4A90D48}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Vest {
      Prefab "{2128FC6F4E91AA0B}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MG_FG.et"
     }
+    LoadoutSlotInfo FaceSlot {
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
@@ -58,5 +60,5 @@ SCR_ChimeraCharacter : "{9AB7C595A4A90D48}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 189.016 1 180.99
+ coords 213.263 1 185.85
 }

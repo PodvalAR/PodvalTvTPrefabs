@@ -38,7 +38,6 @@ SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
     }
     LoadoutSlotInfo FaceSlot {
-     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
     }
    }
   }
@@ -86,5 +85,5 @@ SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 187.039 1 168.966
+ coords 214.083 1 186.85
 }
