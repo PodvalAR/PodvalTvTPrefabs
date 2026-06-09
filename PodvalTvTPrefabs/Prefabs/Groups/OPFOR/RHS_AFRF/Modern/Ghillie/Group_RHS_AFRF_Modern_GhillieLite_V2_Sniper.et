@@ -1,0 +1,8 @@
+SCR_AIGroup : "{AC7A597E5645CFB6}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/Ghillie/Group_RHS_AFRF_Modern_GhillieLite_Sniper.et" {
+ ID "0000000000000001"
+ coords 192.142 0.999 205.913
+ angles 0 0 0
+ m_aUnitPrefabSlots {
+  "{43727F19F868D5D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_Sniper.et" "{DC1CCA8143E42B94}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_Sharpshooter.et"
+ }
+}

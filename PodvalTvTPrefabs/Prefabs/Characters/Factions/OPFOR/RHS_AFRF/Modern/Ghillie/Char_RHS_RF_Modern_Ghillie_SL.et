@@ -3,6 +3,7 @@ SCR_ChimeraCharacter : "{E6DD352FA5954E68}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
     Icon "{286254E4AF3FFD04}UI/Icons/sabateur_v2_sl.edds"
    }
   }
@@ -14,4 +15,5 @@ SCR_ChimeraCharacter : "{E6DD352FA5954E68}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
+ coords 189.686 1 171.517
 }

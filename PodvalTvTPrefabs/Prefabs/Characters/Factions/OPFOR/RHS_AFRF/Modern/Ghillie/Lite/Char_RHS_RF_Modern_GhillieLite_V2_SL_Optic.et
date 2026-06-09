@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{AC6A66619345F435}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B1CCF5AB22FF1319}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_B9M_RK0_PSU_WCS_SD.et"
+  }
+ }
+ coords 188.713 1 187.205
+}

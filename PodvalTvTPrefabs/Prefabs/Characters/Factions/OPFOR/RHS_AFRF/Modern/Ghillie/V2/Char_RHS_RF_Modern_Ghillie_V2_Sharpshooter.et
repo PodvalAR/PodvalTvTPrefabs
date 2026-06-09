@@ -1,0 +1,64 @@
+SCR_ChimeraCharacter : "{225A4EA74191FCD6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3B9A1714837FEF9A}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{762D9493876651C4}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A36DB549076733A1}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_Autumn.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CCCA81C17F80ADF2}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Sniper_FG.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{693341AAAE8FEE66}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/placard/pouch_tv115_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341AA832657CD}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/backpack/Minimap_ArsArma_GMR_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341AA8214FFBB}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE82DF0273}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/drop/Pouch_UP113_DropPouch_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE82F30A9C}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/bigutil/Pouch_UP120_utilmolleminus_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BEE47FF72F}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BEE4A3565F}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/pistol1/Pouch_MP111_PistolClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BD0539F6BF}" {
+     TargetStorage "Vest/Vest_TV102_Sniper_FG.et/pistol3/Pouch_MP111_PistolClosed_FG.et"
+    }
+   }
+  }
+ }
+ coords 211.301 1 186.113
+}

@@ -27,7 +27,7 @@ SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{29B9B3ED2FE3CF10}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
+     Prefab "{F14913F524AA2C56}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie_Black.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab ""
@@ -38,6 +38,7 @@ SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{16916F25A830147F}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_OD.et"
     }
     LoadoutSlotInfo FaceSlot {
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
     }
    }
   }

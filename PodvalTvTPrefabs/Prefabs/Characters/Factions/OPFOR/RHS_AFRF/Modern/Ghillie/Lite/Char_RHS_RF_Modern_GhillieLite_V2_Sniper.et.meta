@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_PSU.et"
+ Name "{43727F19F868D5D6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_Sniper.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,4 +1,4 @@
-GenericEntity : "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_EoTech6x.et" {
+GenericEntity : "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_EOTech.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
@@ -8,8 +8,19 @@ GenericEntity : "{FC5F0BB16133D541}Prefabs/Weapons/Rifles/VSS/Rifle_VSSM_EoTech6
       Prefab "{D8147F3F740C29DF}Prefabs/Weapons/Attachments/Optics/Dedal_Narodovolec/Dedal_Narodovolec.et"
      }
     }
+    AttachmentSlotComponent "{6984C0C337EA4747}" {
+     AttachmentSlot InventoryStorageSlot "{6984C0C339375DB1}" {
+      PivotID "Scene_Root"
+      Offset 0 0.0357 0.2695
+      Prefab "{8B408A3D9367CB43}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK0_base.et"
+      InspectionWidgetOffset 0 0.0442 0.2695
+     }
+     AttachmentType AttachmentAKForegrip "{6984C0C325A881EC}" {
+     }
+     ShowInInspection 1
+    }
    }
   }
  }
- coords 181.331 1 160.368
+ coords 199.122 1.136 172.876
 }

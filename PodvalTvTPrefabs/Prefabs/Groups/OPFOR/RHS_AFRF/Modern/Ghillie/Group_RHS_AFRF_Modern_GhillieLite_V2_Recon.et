@@ -1,0 +1,7 @@
+SCR_AIGroup : "{47BCAA2DDC23F98F}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/Ghillie/Group_RHS_AFRF_Modern_GhillieLite_Recon.et" {
+ ID "0000000000000001"
+ coords 193.155 1 198.056
+ m_aUnitPrefabSlots {
+  "{364B730985D4C15F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_SL_Optic.et" "{D1728A99F6D6C8AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_SR.et" "{2789B30D2F18C32B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_MG_SD.et" "{5AA4A6C1DA602DA7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_LAT.et" "{B26ED269A2394648}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_Rifle_V3.et" "{DC1CCA8143E42B94}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_Sharpshooter.et"
+ }
+}

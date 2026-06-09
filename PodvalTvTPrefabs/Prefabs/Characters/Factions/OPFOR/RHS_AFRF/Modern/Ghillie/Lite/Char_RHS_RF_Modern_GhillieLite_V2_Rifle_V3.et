@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{F12A2A0CE4167CC6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_V2_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman (SP-3M)"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E0010C5E27F9FDB4}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd_rails.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 218.624 1 178.717
+}
