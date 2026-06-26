@@ -12,7 +12,7 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Jacket {
-     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_Rolled_BlackMC.et"
+     Prefab "{78E591A78E8E5668}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_PushS_MC_BLK.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{C0F5CD383250FC96}Prefabs/Characters/Vests/Vest_SNS_PlateFrame/GD_SNS_Black.et"
@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{1F19F6D64338C82F}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
-     TargetStorage "Jacket/GD_Crye3_Rolled_BlackMC.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_PushS_MC_BLK.et"
     }
     ItemsInitConfigurationItem "{689E6D83F89602AF}" {
      TargetStorage "Vest/SNS_ION_V1.et/Pouch1/GD_SNS_Pouch_Black.et"

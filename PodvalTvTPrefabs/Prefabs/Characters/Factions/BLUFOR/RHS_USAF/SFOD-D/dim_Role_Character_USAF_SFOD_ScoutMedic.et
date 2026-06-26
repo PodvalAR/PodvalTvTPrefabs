@@ -21,6 +21,9 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Hat {
      Prefab "{B889E5A3F361810A}Prefabs/Characters/HeadGear/All_EXFIL/GD_EXFIL_Tan (Scarf+GPNVG).et"
     }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F894DB801742C052}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{3E57174F5C8218BF}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var3.et"
     }

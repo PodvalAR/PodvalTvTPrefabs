@@ -4,6 +4,20 @@ SCR_ChimeraCharacter : "{6A8AAB9EF4CA4EAE}Prefabs/Characters/Factions/INDFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{56C5A44B89D782D8}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_OutT_FullS_MC_BLK.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_FullS_MC_BLK.et"
+    }
+   }
+  }
  }
  coords 6729.704 54.438 7996.791
 }

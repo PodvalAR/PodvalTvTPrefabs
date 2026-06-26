@@ -15,7 +15,7 @@ SCR_ChimeraCharacter : "{CE938561FA2E6035}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{8A81134ABF313ACE}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_2_2.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_Rolled_BlackMC.et"
+     Prefab "{3BC516F2309FA28E}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{699F2FC5DF881F14}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_MCBlk.et"
@@ -42,6 +42,9 @@ SCR_ChimeraCharacter : "{CE938561FA2E6035}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{689E6D83F89602AF}" {
      TargetStorage "Vest/Vest_TV150_MCBlk_ronin.et/avs_placard/Pouch_avs_front_closed_MCBlk.et"
     }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
     ItemsInitConfigurationItem "{689E6D826BD04590}" {
      TargetStorage "Vest/Vest_TV150_MCBlk_ronin.et/pistol2/Pouch_Highspeed_Pistol_MCBlk.et"
     }
@@ -58,13 +61,16 @@ SCR_ChimeraCharacter : "{CE938561FA2E6035}Prefabs/Characters/Factions/INDFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{689E6D8254999773}" {
-     TargetStorage "Back/GD_DeltaBag_Black.et"
+     TargetStorage "Vest/Vest_TV150_MCBlk_ronin.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
     }
     ItemsInitConfigurationItem "{689E6D8266124935}" {
-     TargetStorage "Back/GD_DeltaBag_Black.et"
+     TargetStorage ""
     }
     ItemsInitConfigurationItem "{689E6D827A21D340}" {
      TargetStorage "Vest/Vest_TV150_MCBlk_ronin.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689EB51BF95E86C1}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
     }
    }
   }

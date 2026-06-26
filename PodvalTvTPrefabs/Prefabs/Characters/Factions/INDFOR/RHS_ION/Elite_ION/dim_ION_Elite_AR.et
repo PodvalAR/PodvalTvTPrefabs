@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{A4E734CA26A281E2}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{357E3E05EFFE2AA4}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_Rolled_BlackMC.et"
+     Prefab "{61AE0C785CF06A8D}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_FullS_MC_BLK.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{7E3DF5C439F99E94}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_no_kpads_MC_BLK.et"
@@ -26,7 +26,7 @@ SCR_ChimeraCharacter : "{C267862958299863}Prefabs/Characters/Factions/INDFOR/RHS
      TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
     }
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
-     TargetStorage "Jacket/GD_Crye3_Rolled_BlackMC.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_MC_BLK.et"
      PrefabsToSpawn +{
      }
     }

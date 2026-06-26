@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{D06052FEFB4BE5CD}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{A4E734CA26A281E2}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{1442E359521EE9BF}Prefabs/Characters/Uniforms/Jacket_Crye_G3/GD_Crye3_BlackMC_Tape.et"
+     Prefab "{61AE0C785CF06A8D}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_FullS_MC_BLK.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{0B2BA2C82B2FDC72}Prefabs/Characters/Vests/Vest_LV119/GD_LV119_Black.et"
@@ -46,7 +46,7 @@ SCR_ChimeraCharacter : "{D06052FEFB4BE5CD}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
-     TargetStorage "Jacket/GD_Crye3_BlackMC_Tape.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_MC_BLK.et"
      PrefabsToSpawn {
       "{2D14189B61A8F9DE}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Singl.et"
      }

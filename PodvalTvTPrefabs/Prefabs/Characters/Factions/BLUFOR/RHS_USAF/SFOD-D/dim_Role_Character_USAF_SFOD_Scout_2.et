@@ -27,6 +27,9 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
     LoadoutSlotInfo Hat {
      Prefab "{894DFD95DD0FFFF6}Prefabs/Characters/HeadGear/All_EXFIL/GD_Exfil Tan GPNVG 2.et"
     }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7F453261721CCE10}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{DBCB5BB650678FD4}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_Multicam_USA_Var2.et"
     }
@@ -35,7 +38,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
-     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
      PrefabsToSpawn +{
      }
     }

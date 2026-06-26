@@ -25,6 +25,9 @@ SCR_ChimeraCharacter : "{5F73276F860B5BFE}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7F453261721CCE10}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
+    }
     LoadoutSlotInfo Back {
      Enabled 0
      Prefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
@@ -41,7 +44,7 @@ SCR_ChimeraCharacter : "{5F73276F860B5BFE}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
-     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
     }
     ItemsInitConfigurationItem "{672165248C6CCDE2}" {
      TargetStorage ""
