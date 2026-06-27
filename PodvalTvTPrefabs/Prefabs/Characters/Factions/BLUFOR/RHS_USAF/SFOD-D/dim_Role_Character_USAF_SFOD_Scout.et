@@ -16,10 +16,17 @@ SCR_ChimeraCharacter : "{1D4A3A741DBFCBAC}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{C34F897AB78E1900}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_TA31RCO_ARD_NT4.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{66EF2939B2E40D9B}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_OutT_PushS_MC.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
-     TargetStorage "Jacket/Shirt_Crye_Rolled_Multicam.et"
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_PushS_MC.et"
      PrefabsToSpawn {
       "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
      }

@@ -32,6 +32,9 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{7F453261721CCE10}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
     }
@@ -43,6 +46,7 @@ SCR_ChimeraCharacter : "{3C14547A38D2B48C}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_RollS_MC.et"
      PrefabsToSpawn {
       "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
      }

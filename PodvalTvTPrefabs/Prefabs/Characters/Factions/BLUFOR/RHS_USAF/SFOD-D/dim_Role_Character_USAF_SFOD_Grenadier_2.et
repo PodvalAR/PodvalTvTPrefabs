@@ -9,6 +9,13 @@ SCR_ChimeraCharacter : "{DB8D6AD61AE8D8EB}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{64B46FAFCBD3507C}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_UBGL.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{F894DB801742C052}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
@@ -17,6 +24,9 @@ SCR_ChimeraCharacter : "{DB8D6AD61AE8D8EB}Prefabs/Characters/Factions/BLUFOR/RHS
     }
     ItemsInitConfigurationItem "{672165248C18FB8D}" {
      TargetStorage "Vest/GD_Multicam_USA_Var7_UBGL.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{672165248C6CCDE2}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_BaseT_FullS_MC.et"
     }
     ItemsInitConfigurationItem "{67216527216AEEAC}" {
      PrefabsToSpawn {
