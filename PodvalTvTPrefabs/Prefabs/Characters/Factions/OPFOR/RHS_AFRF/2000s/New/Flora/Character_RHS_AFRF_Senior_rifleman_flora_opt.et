@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{E25C387B7D21DEF4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_Senior_rifleman_flora.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SR"
+    Icon "{44B846FB4F46E36A}UI/Icons/team_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D71668F5509F5DD2}Prefabs/Weapons/Rifles/AK74/Rifle_AK74M_1P29_RHSMag.et"
+  }
+ }
+}

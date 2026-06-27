@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{AA8306D74D397D4F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Lite/Char_RHS_RF_Modern_GhillieLite_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9F263AD420624726}Prefabs/Characters/HeadGear/Hat_Beanie/Hat_beanie.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A36DB549076733A1}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_Autumn.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7106E4AA1D65C04C}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Ghillie_FG_Backpack.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+     Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{6932D730116002C1}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/triple/pouch_tv115_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/sasarma1/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/sasarma2/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/backpack/Minimap_ArsArma_GMR_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/backpack/Minimap_ArsArma_GMR_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7EB0DCE04}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/grenade1/Pouch_GP106_RGD_Pouch_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE0E76DAA3}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/holster/Pouch_MP111_PistolClosed2_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58BB40C7}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/pistol/Pouch_Taktika_magpouch_pistol.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58C05243}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/pistol2/Pouch_Taktika_magpouch_pistol.et"
+    }
+    ItemsInitConfigurationItem "{696C9292840B6C52}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/grenade2/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    ItemsInitConfigurationItem "{696CBDBA5949379D}" {
+     TargetStorage "Vest/Vest_TV115_Ghillie_FG_Backpack.et/sasarma3/Pouch_wartech_magpouch_mp117_fg.et"
+    }
+   }
+  }
+ }
+ coords 200.727 1 173.689
+}

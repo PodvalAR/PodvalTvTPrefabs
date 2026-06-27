@@ -7,11 +7,17 @@ GameEntity : "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
      Offset 0 0 -0.0048
      Prefab "{851A0915195D2BAC}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_toner.et"
     }
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{7E743612A8641FAB}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_fg.et"
+    }
     RHS_LoadoutSlotInfo Masks {
-     Prefab "{F9970F15155A1A46}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_CoyoteBrown.et"
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab ""
     }
    }
   }
  }
- coords 173.082 1 118.108
+ coords 228.392 1 201.142
 }

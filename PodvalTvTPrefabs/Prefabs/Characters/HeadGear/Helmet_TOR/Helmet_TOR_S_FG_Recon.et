@@ -4,7 +4,7 @@ GameEntity : "{E80C7B57964A5E71}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     RHS_LoadoutSlotInfo Goggles {
-     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+     Prefab "{851A0915195D2BAC}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_toner.et"
     }
     RHS_LoadoutSlotInfo Masks {
      Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
@@ -27,5 +27,5 @@ GameEntity : "{E80C7B57964A5E71}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
    }
   }
  }
- coords 110.103 1 50.819
+ coords 181.348 1 120.673
 }

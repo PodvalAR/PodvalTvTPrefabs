@@ -1,0 +1,85 @@
+SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C79D27A936F8D84B}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_EMRSummer.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{35FF6F97064F26B1}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_RGR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B84C9A94D2F316EE}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_EMRSummer.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8130726DE3BFC74F}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_Rifleman_OD.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Pants_CCUE_EMRSummer.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_EMRSummer.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_EMRSummer.et"
+    }
+    ItemsInitConfigurationItem "{6932D730116002C1}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/radio/Pouch_UP111_radioClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/placard/Pounh_tv_backpack_OD.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et" "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/arsbelt/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/arsbelt2/Pouch_ArsArma_magouch_morphed_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/ak_1/Pouch_wartech_magpouch_mp117_od.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/drop/Pouch_UP113_DropPouch_OD.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7EB0DCE04}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/utilbig/Pouch_UP105_utilbig_OD.et"
+    }
+    ItemsInitConfigurationItem "{693341BE0E76DAA3}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/holster/Pouch_HP103_Holster_Olive.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58BB40C7}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/holster/Pouch_HP103_Holster_Olive.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58C05243}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/pistol1/Pouch_MP111_PistolClosed_OD.et"
+    }
+    ItemsInitConfigurationItem "{698AD6D587A92CEC}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/pistol2/Pouch_MP111_PistolClosed2_OD.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{698AD6D587A92CD5}" {
+     TargetStorage "Vest/Vest_TV150_Rifleman_OD.et/ak_2/Pouch_wartech_magpouch_mp117_od.et"
+     PrefabsToSpawn {
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2734.229 86.243 2926.778
+ angles 0 -49.362 0
+}

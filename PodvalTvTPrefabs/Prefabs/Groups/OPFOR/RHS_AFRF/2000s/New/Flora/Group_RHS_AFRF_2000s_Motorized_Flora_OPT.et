@@ -1,0 +1,6 @@
+SCR_AIGroup : "{5501141593A4A5DA}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Flora/Group_RHS_AFRF_2000s_Motorized_Flora.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{CF0ABE75414D2E49}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_SL_flora_OPT.et" "{8F3FA6B16B4DD26C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_Senior_rifleman_flora_opt.et" "{D84A75C1F5E12791}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_AT_flora.et" "{E03C3C6D316F24FE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_AAT_flora.et" "{57065E3994BAA366}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_AR_flora_OPT.et" "{0E62F07CFB0D94D1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_GL_flora.et" "{2443E7C7E1199226}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_rifleman2_flora.et" "{02B61EE07D8ED1EB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_crew_commander_flora.et" "{5690CB7A1C3D0272}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_CREW_flora.et"
+ }
+}

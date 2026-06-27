@@ -4,16 +4,15 @@ GameEntity : "{1570D2924C18E7F4}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     RHS_LoadoutSlotInfo Goggles {
-     Prefab "{4CB556EEDA83FFFE}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_emr.et"
+     Prefab "{6C8BC84DE28C48E0}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_toner_emr.et"
     }
     RHS_LoadoutSlotInfo Masks {
-     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+     Prefab "{0CF0E6EBFDFED644}Prefabs/Characters/HeadGear/Hat_Balaclava/Balaclava_OD.et"
     }
     RHS_LoadoutSlotInfo BackVelcro {
-     Prefab "{D425E23E81C53360}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_Full_EMR.et"
     }
     RHS_LoadoutSlotInfo NVG {
-     Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+     Prefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
     }
     RHS_LoadoutSlotInfo RightVelcro {
      Offset -0.0838 0.1721 -0.0085
@@ -22,5 +21,5 @@ GameEntity : "{1570D2924C18E7F4}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
    }
   }
  }
- coords 125.355 1 54.962
+ coords 186.477 1 169.6
 }

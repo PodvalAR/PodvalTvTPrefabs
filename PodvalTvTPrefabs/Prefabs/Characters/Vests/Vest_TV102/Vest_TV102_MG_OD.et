@@ -1,4 +1,4 @@
-GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_preset_base.et" {
+GameEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_preset_base.et" {
  ID "6216975224AE5CFA"
  components {
   RHS_ClothNodeStorageComponent "{6216975224AE5B15}" {
@@ -41,10 +41,10 @@ GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/
      Prefab "{3B30DE0E1F512495}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_OD.et"
     }
     LoadoutSlotInfo pistol2 {
-     PivotID "Spine1"
-     Offset 0.1986 0.0016 0.1087
-     Angles 2.2165 62.8212 0.7926
-     Prefab ""
+     PivotID "Spine5"
+     Offset 0.2009 -0.005 0.0958
+     Angles -1.6524 53.4228 -5.1857
+     Prefab "{54FB65C34AC5F701}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_OD.et"
     }
     LoadoutSlotInfo PKM2 {
      PivotID "Spine1"
@@ -60,8 +60,8 @@ GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/
     }
     LoadoutSlotInfo grenade2 {
      PivotID "Spine5"
-     Offset 0.2248 0.0287 0.1407
-     Angles -5.0458 62.4216 -5.4403
+     Offset -0.2922 0.0478 -0.011
+     Angles 1.2281 -84.3366 7.313
      Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
     }
     LoadoutSlotInfo drop {
@@ -94,6 +94,11 @@ GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/
      Angles -2.0057 -153.62363 -0.2988
      Prefab "{582D5C69C9AFBB47}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_OD.et"
     }
+    LoadoutSlotInfo patch_up102 {
+     PivotID "Spine5"
+     Offset 0.0012 0.2077 0.1995
+     Angles 19.5319 0 0
+    }
    }
    WornModel "{474482B7D5A31C48}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_TV107.xob"
    WornMaterialsOverride {
@@ -101,8 +106,7 @@ GenericEntity : "{29597A53259F1BA8}Prefabs/Characters/Vests/Vest_TV102/variants/
    ItemModel "{595F3EF087206227}Assets/Characters/Belts/Belt_Wartech_TV106/TV106_ground.xob"
    ItemMaterialsOverride {
    }
-   DebugWornModel 0
   }
  }
- coords 64.866 1.768 32.167
+ coords 198.616 1 183.688
 }

@@ -1,0 +1,77 @@
+GameEntity : "{7D4E41BAADDF4A04}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Rifleman_OD.et" {
+ ID "6216975224AE5CFA"
+ components {
+  RHS_ClothNodeStorageComponent "{6216975224AE5B15}" {
+   Attributes SCR_ItemAttributeCollection "{6216975224AE5B1F}" {
+    ItemDisplayName UIInfo "{6216975224AE5B1A}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_TV102_Base_Name [1] #RHS-Camo_ATACSFG"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo arsbelt {
+     Prefab "{25DA77988320DACA}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Prefab "{25DA77988320DACA}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    LoadoutSlotInfo medkit {
+     Prefab "{14E044018E49CD65}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_FG.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{B949AD0954715B54}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
+    }
+    LoadoutSlotInfo bigutil {
+     Prefab "{A86EC5AC85B35FA3}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP120_utilmolleminus_FG.et"
+    }
+    LoadoutSlotInfo holster {
+     Prefab "{D2AB94F8D7308261}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_FG.et"
+    }
+    LoadoutSlotInfo drop {
+     Prefab "{CA5F52C8B7B0E655}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP113_DropPouch_FG.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{BE49825BE35FC8F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    LoadoutSlotInfo placard {
+     Prefab "{CA33342E733B1876}Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_FG.et"
+    }
+    LoadoutSlotInfo Grenade {
+     Prefab "{85FF4B7AC75F41F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_FG.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Prefab "{BE49825BE35FC8F4}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_FG.et"
+    }
+    LoadoutSlotInfo up101 {
+     Prefab "{5409A90C23ADA30B}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_FG.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     Prefab "{30E75FD05D8AB76A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_FG.et"
+    }
+    LoadoutSlotInfo pistol3 {
+     Prefab "{30E75FD05D8AB76A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_FG.et"
+    }
+    LoadoutSlotInfo up118 {
+     Prefab "{F95BF1BD612D3B38}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP118_fannypack_FG.et"
+    }
+    LoadoutSlotInfo admin {
+     Prefab "{10222E2CF0B96A05}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP102_Admin_small_FG.et"
+    }
+    LoadoutSlotInfo utillong {
+     Prefab "{3C31667ADEE0FB2C}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_FG.et"
+    }
+    LoadoutSlotInfo tarkov {
+     Prefab "{4FD2C42DB9383B8A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_wartech_magpouch_mp103_FG.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{6F128E41B1F7F211}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_FG.emat"
+   }
+   ItemMaterialsOverride {
+    "{8031C32D3D88626A}Assets/Characters/Belts/Belt_Wartech_TV106/data/tv106_MC.emat"
+   }
+  }
+ }
+ coords 199.855 1 182.709
+}

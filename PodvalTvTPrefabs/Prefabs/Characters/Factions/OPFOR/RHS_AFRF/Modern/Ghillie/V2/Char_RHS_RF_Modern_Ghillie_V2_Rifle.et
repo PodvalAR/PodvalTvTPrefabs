@@ -1,0 +1,89 @@
+SCR_ChimeraCharacter : "{FC83B78B4225E5C9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/Ghillie/Char_RHS_RF_Modern_Ghillie_Rifle.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{6CD708C8B13A2D38}UI/Icons/sabateur_v2.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{E29330565BD41436}Prefabs/Characters/Heads/Head_White_04_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3B9A1714837FEF9A}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{762D9493876651C4}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_FG.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{A36DB549076733A1}Prefabs/Characters/Uniforms/Goblin_pants/Goblin_pants_Autumn.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{660952F979E8EBF2}Prefabs/Characters/Footwear/Boots_solomon_ultra_x/Footwear_Altama_Boots.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FC734C55ECA996D1}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Rifleman_FG.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68FCE99309B281D8}" {
+     TargetStorage "Pants/Goblin_pants_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309DA1FBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{68FCE99309CDBCBC}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{6932D730116002C1}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/radio/Pouch_UP111_radioClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA21C10F3}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/placard/pouch_tv115_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA2C3727C}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/arsbelt/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DEAA581616F}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/arsbelt2/Pouch_ArsArma_magouch_morphed_ATACS.et"
+    }
+    ItemsInitConfigurationItem "{68FD0DE8FF1240CC}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/tarkov/Pouch_wartech_magpouch_mp103_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7E8C59960}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/drop/Pouch_UP113_DropPouch_FG.et"
+    }
+    ItemsInitConfigurationItem "{68FD35E7EB0DCE04}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/bigutil/Pouch_UP120_utilmolleminus_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE0E76DAA3}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/holster/Pouch_HP103_Holster_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58BB40C7}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/pistol1/Pouch_MP111_PistolClosed_FG.et"
+    }
+    ItemsInitConfigurationItem "{693341BE58C05243}" {
+     TargetStorage "Vest/Vest_TV102_Rifleman_FG.et/pistol3/Pouch_MP111_PistolClosed_FG.et"
+    }
+   }
+  }
+ }
+ coords 214.083 1 186.85
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{21BB6F2C22AE76F4}Prefabs/Groups/OPFOR/RHS_AFRF/2000s/New/Flora/Group_RHS_AFRF_2000s_Regular3_Flora.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

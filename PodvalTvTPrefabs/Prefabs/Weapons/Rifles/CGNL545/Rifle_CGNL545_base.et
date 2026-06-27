@@ -1,3 +1,65 @@
 GenericEntity : "{169335D1F7A2D57C}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_base.et" {
  ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6890D47BC7CE8B53}" {
+     AttachmentSlot InventoryStorageSlot Attach_Left {
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset -0.0273 0.0827 0.4194
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8B59}" {
+     AttachmentSlot InventoryStorageSlot Attach_Right {
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset 0.0259 0.0825 0.4856
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8BB2}" {
+     AttachmentSlot InventoryStorageSlot grip {
+      Prefab "{B05910AE5C2526DD}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_front.et"
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset 0 0.1062 0.437
+     }
+     AttachmentType AttachmentRIS1913BUISFront "{698348D186EC4FCB}" {
+     }
+    }
+    AttachmentSlotComponent "{6890D47BC7CE8BBE}" {
+     AttachmentSlot InventoryStorageSlot "{6888F4A66B96B378}" {
+      Prefab "{677E8A0792696783}Prefabs/Weapons/Attachments/Optics/mbus/mbus_blk_folding_sight_rear.et"
+      DisablePhysicsInteraction 0
+      InspectionWidgetOffset 0 0.1062 -0.0278
+     }
+     AttachmentType AttachmentRIS1913BUISRear "{698348D18CA92B10}" {
+     }
+    }
+    AttachmentSlotComponent "{698348D83C56225E}" {
+     AttachmentSlot InventoryStorageSlot Attach_Bottom {
+      Offset 0 0.055 0.4554
+      Angles 0 0 180
+      ChildPivotID "snap_weapon"
+      Prefab ""
+      InspectionWidgetOffset 0 0.055 0.4505
+     }
+     AttachmentType AttachmentRIS1913Short "{698348D8A9F6F2E7}" {
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6890D47BC7CE8BAB}" {
+       Enabled 1
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        InspectionWidgetOffset 0 0.0826 0.5462
+       }
+       AttachmentType AttachmentMuzzle545_39 "{697EB758B8DD5BB0}" {
+       }
+      }
+     }
+     MagazineTemplate "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+    }
+   }
+  }
+ }
+ coords 183.505 1 172.861
 }

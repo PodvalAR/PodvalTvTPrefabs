@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{D774903440CC9E74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Recon/Char_RHS_RF_Modern_EMR_Recon_MG_PKP.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3B5D9549D8DCDB28}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_B51_Eot_7n14.et"
+  }
+ }
+ coords 1126.918 80.504 3184.33
+}

@@ -1,0 +1,25 @@
+GenericEntity : "{9E580C8389CEDA1F}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_B9M_RK0_OKP7_WCS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{374F35473800111F}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_NPZPSU1-4x/Optic_NPZPSU1-4x_BLK_545.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+       }
+      }
+     }
+     MagazineTemplate "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
+    }
+   }
+  }
+ }
+ coords 81.951 42.849 1820.785
+}

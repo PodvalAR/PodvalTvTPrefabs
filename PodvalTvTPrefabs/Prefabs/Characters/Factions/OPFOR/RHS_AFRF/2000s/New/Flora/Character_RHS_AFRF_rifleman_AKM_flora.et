@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{8309CA2437EE68C4}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2000s/New/Flora/Character_RHS_AFRF_rifleman_flora.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3E7DBB6F8655BBDD}Prefabs/Weapons/Rifles/AKM/Rifle_AKMN_SteelMag.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6986A56088785CC6}" {
+     PrefabsToSpawn {
+      "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et" "{54BD5B63F036C09C}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_PMAG_30rnd_AP.et"
+     }
+    }
+   }
+  }
+ }
+}

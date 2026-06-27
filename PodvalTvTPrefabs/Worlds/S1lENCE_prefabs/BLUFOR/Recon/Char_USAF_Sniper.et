@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{42D30E06154569C1}Worlds/S1lENCE_prefabs/Weapons/SPR300/Rifle_SPR300_Fix.et"
+   WeaponTemplate "{D8BFB81B87DA2B54}Worlds/S1lENCE_prefabs/Weapons/M110/Rifle_M110_Razor.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    WeaponTemplate "{9C325E41A6DF40E1}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45_tan.et"
@@ -69,7 +69,7 @@ SCR_ChimeraCharacter : "{0E12ACF1B2CE68EA}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{696350B7A26B8733}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
-      "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{D3358CF406127364}Prefabs/Weapons/Magazines/Magazine_.300AP.et" "{0CAD83389EE8E3DC}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd_tan.et" "{0CAD83389EE8E3DC}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd_tan.et"
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{0CAD83389EE8E3DC}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd_tan.et" "{0CAD83389EE8E3DC}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd_tan.et"
      }
     }
    }

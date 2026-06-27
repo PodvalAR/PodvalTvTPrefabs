@@ -1,3 +1,18 @@
 GenericEntity : "{CC57BD80E4D9AEE9}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_base.et" {
  ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6890D47BC7CE8B45}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{B0D87E5898D91004}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_su278pvs_low.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
+    }
+   }
+  }
+ }
+ coords 186.559 1 172.185
 }

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C2F0429CE7967C1F}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_Pounch/Pounh_tv_backpack_mc.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
