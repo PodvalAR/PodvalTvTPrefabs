@@ -1,6 +1,6 @@
-SCR_AIGroup : "{CF5CA46C9E7A6CD2}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Group_RHS_AFRF_Regular_PL_2_Defend.et" {
+SCR_AIGroup : "{CF5CA46C9E7A6CD2}Prefabs/Groups/OPFOR/RHS_AFRF/RandomSpawn/Defend/Group_RHS_AFRF_Regular_PL_2_Defend.et" {
  ID "0000000000000001"
  m_aUnitPrefabSlots {
-  "{9AEBC61DAD798672}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_PL_opt.et" "{E4C1E22F77E5DBEF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_Sharpshooter.et"
+  "{7551E181CE4C6845}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Officer.et" "{45D9C54B3E235A46}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_AGS.et"
  }
 }

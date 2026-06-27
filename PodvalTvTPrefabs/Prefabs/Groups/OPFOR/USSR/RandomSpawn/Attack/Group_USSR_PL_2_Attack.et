@@ -1,3 +1,6 @@
 SCR_AIGroup : "{835028F44577FED1}Prefabs/Groups/OPFOR/USSR/RandomSpawn/Defend/Group_USSR_PL_2_Defend.et" {
  ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{75A43BDBDEE4B117}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_PL_RANDOM.et" "{BA92838DA2F16499}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_Sharpshooter_RANDOM.et"
+ }
 }
