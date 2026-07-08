@@ -5,11 +5,11 @@ GenericEntity : "{47EC117316BA5544}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_
    components {
     AttachmentSlotComponent "{6890D47BC7CE8B45}" {
      AttachmentSlot InventoryStorageSlot optics {
-      Prefab "{D1812ED36E915A07}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_EOTech_Vudu1-6x/Optic_EOTech_Vudu1-6x_BLK_545.et"
+      Prefab "{67C1C9310EBDD153}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_EOTech_Vudu1-6x/Optic_EOTech_Vudu1-6x_BLK_RMR_545.et"
      }
     }
    }
   }
  }
- coords 182.122 1 173.205
+ coords 3301.037 47.895 4350.151
 }
