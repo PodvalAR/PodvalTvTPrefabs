@@ -32,6 +32,7 @@ GenericEntity : "{169335D1F7A2D57C}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_
        }
       }
      }
+     MagazineTemplate "{B058F2233945BEB8}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N22.et"
     }
    }
   }
