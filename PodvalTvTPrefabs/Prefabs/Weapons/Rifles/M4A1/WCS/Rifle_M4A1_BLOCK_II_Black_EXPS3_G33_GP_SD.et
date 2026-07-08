@@ -1,0 +1,20 @@
+GenericEntity : "{B2E5D83D9035224D}Prefabs/Weapons/Rifles/M4A1/WCS/Rifle_M4A1_BLOCK_II_Black_EXPS3_G33_GP.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+       }
+      }
+     }
+     MagazineTemplate "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+    }
+   }
+  }
+ }
+ coords 3291.861 47.499 4356.646
+}

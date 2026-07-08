@@ -1,0 +1,33 @@
+GenericEntity : "{380447BDF6283330}Prefabs/Weapons/Rifles/M4A1/WCS/Rifle_M4A1_BLOCK_II_Black_EXPS3_G33.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{629ADD50107BFFEA}" {
+     Enabled 0
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD500DE777C8}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{647D57A4E99CBFA3}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{69C8A02CA84F81D8}" {
+     AttachmentSlot InventoryStorageSlot M203 {
+      PivotID "barrel_chamber"
+      MergePhysics 1
+      Prefab "{AAD55E46E75D3E1E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203_SU253.et"
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{69C8A02CDCCBC4B8}" {
+     }
+    }
+   }
+  }
+ }
+ coords 3291.452 47.854 4356.372
+}

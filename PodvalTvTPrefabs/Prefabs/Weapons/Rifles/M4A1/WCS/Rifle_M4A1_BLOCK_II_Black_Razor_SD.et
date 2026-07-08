@@ -1,0 +1,15 @@
+GenericEntity : "{3662C18AB78793FE}Prefabs/Weapons/Rifles/M4A1/WCS/Rifle_M4A1_BLOCK_II_Black_Optic_SD.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{C616145F2710F517}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_RAZOR1-6x/Optic_RAZOR1-6x_RMR.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3293.096 47.45 4356.317
+}
