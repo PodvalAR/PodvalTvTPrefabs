@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{BE5DC28EC176FEEB}Prefabs/Characters/Factions/OPFOR/USSR
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{C0F44394B5A8C275}Prefabs/Weapons/Rifles/AK74M/AK74M_SD.et"
+   WeaponTemplate "{604197C53C2110F0}Prefabs/Weapons/Rifles/AK74M/AK74M_SD_2.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate ""
@@ -36,7 +36,7 @@ SCR_ChimeraCharacter : "{BE5DC28EC176FEEB}Prefabs/Characters/Factions/OPFOR/USSR
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{63C769ABFCAF08AD}Prefabs/Characters/HeadGear/RUS_Beanie/GD_ChechenHat_Flora_Bal.et"
+     Prefab "{63C769ABFCAF08AD}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_ChechenHat_Flora_Bal.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"

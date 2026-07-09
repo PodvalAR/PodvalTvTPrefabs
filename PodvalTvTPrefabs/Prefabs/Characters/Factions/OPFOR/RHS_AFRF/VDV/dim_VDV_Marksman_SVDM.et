@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{7942754277E36531}Prefabs/Characters/Factions/OPFOR/RHS_
      Enabled 0
     }
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
-     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot4/Pouch_Ratnik_azart_pouch_new.et"
+     TargetStorage "Back/GD_6Sh117_Patrol_Backpack.et"
     }
     ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
      TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot/Pouch_Ratnik_Uni_Pouch_2.et"
