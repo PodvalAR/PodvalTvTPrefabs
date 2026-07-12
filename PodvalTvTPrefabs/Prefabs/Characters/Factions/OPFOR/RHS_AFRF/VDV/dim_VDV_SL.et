@@ -40,7 +40,7 @@ SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
-     TargetStorage "Jacket/Jacket_VKPO.et"
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_SL.et/slot4/Pouch_Ratnik_azart_pouch_new.et"
     }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
      Enabled 0
