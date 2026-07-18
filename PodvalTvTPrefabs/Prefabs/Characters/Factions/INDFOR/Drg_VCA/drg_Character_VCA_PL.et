@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{FD9D3E2649554017}Prefabs/Characters/Factions/INDFOR/Drg
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{E5E8A9347B1D8381}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R107M_PL.et"
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
     }
    }
   }

@@ -39,7 +39,7 @@ SCR_ChimeraCharacter : "{30848A84E27BFA64}Prefabs/Characters/Factions/INDFOR/Drg
     ItemsInitConfigurationItem "{65D6BA6F4A2ECBEE}" {
      TargetStorage "Jacket/Jacket_M88_rolledup_vietnam_blk.et"
      PrefabsToSpawn {
-      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
+      "{AC04D0D1EABC994F}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Multi.et"
      }
     }
    }
