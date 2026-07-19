@@ -1001,6 +1001,24 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{65F132EAC8466527}" {
+   Id "DRG_VictorTroska"
+   Target_en_us "Victor Troska"
+   Target_fr_fr "Victor Troska"
+   Target_it_it "Victor Troska"
+   Target_de_de "Victor Troska"
+   Target_es_es "Victor Troska"
+   Target_cs_cz "Victor Troska"
+   Target_pl_pl "Victor Troska"
+   Target_ru_ru "Виктор Трошка"
+   Target_ja_jp "ヴィクトル・トロスカ"
+   Target_ko_kr "빅토르 트로스카"
+   Target_pt_br "Victor Troska"
+   Target_zh_cn "维克托·特罗斯卡"
+   Modified 1710306483
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{68A005F783432763}" {
    Id "PDVL_Role_AAT"
    Target_en_us "Assistant Anti-Tank"
