@@ -17,6 +17,7 @@ Vehicle : "{B2EB0D29B109D2DC}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Tu
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     Name "#Pdvl_Vehicle_UAZ469_AGS"
     Icon "{5779776B5B20F50C}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Armed.edds"
+    m_sFaction "Ses_CDF"
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
