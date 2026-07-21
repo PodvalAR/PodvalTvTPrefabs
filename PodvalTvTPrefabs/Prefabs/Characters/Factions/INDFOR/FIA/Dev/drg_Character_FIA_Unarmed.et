@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{84F3E97BF33C5C5F}Prefabs/Characters/Factions/INDFOR/FIA
     ItemsInitConfigurationItem "{65F2DDE6395D238B}" {
      TargetStorage "Pants/Pants_M70.et"
      PrefabsToSpawn {
-      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et"
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{3F1B1BAD1F6DDC28}Prefabs/Weapons/Attachments/Bayonets/Bayonet_VZ58/Bayonet_VZ58_v1.et" "{4C67C6A2FE2E6FD6}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Singl.et"
      }
     }
     ItemsInitConfigurationItem "{65F2DDE6072B27E0}" {
