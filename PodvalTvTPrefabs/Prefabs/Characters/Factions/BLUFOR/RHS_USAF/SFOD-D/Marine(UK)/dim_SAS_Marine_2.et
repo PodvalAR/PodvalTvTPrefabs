@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{7AA6FFE4C2FC76FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D4610EEE10A5AA72}Prefabs/Weapons/Rifles/MP5/dim_Rifle_MP5K.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{4D620A90400F59D7}Prefabs/Characters/Heads/Head_White_09/Head_White_09_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E59549BE99688F32}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/dim_Balaclava_v1_BLK_headset.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69E5502EEA4EA9AF}" {
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E55021009F08DE}" {
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E5502EF99C3115}" {
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4609.722 36.448 -1668.407
+ angles 0 135 0
+}
