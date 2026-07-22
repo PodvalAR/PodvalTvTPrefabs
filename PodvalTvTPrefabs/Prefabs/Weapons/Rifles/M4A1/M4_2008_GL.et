@@ -8,6 +8,9 @@ GenericEntity : "{140239B2D3707B29}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_R
       Prefab "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1.et"
      }
     }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+    }
    }
   }
  }

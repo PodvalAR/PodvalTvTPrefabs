@@ -1,0 +1,41 @@
+GenericEntity : "{07D382F5CD1F543F}Prefabs/Weapons/Rifles/HK416A5/dim_Rifle_HK416A5_Var2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{696ADB536E8B6223}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot bayonet {
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E8B6224}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Offset 0.0278 0.0868 0.2225
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E949483}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E94948E}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{696ADB536E949498}" {
+     AttachmentSlot InventoryStorageSlot Handguard_lower {
+      PivotID "barrel_chamber"
+      Prefab "{239CEF0C9AB5556E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203.et"
+      DisablePhysicsInteraction 0
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{69E6BD6C22CCE57D}" {
+     }
+    }
+    AttachmentSlotComponent "{69E6BD640A7DDC14}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 212.633 1.179 250.881
+}

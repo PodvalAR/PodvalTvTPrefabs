@@ -1,0 +1,14 @@
+GenericEntity : "{FD0DE25AC213EC9E}Prefabs/Weapons/Rifles/MP5/Rifle_MP5K.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et"
+    }
+   }
+  }
+ }
+ coords 4610.312 37.688 -1669.315
+ angles 0 60 0
+}
