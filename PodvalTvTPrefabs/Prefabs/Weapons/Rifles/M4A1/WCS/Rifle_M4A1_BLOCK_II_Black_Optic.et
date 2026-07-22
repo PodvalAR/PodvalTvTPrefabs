@@ -1,0 +1,15 @@
+GenericEntity : "{380447BDF6283330}Prefabs/Weapons/Rifles/M4A1/WCS/Rifle_M4A1_BLOCK_II_Black_EXPS3_G33.et" {
+ ID "0000000000000001"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{E3D28C1345FC2D85}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_SpecterDR_1-4x/Optic_ElcanSpecterDR_BLK.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3292.826 47.447 4356.229
+}

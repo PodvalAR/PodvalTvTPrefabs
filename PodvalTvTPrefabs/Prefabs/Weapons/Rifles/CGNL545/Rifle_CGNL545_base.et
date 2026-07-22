@@ -60,6 +60,8 @@ GenericEntity : "{169335D1F7A2D57C}Prefabs/Weapons/Rifles/CGNL545/Rifle_CGNL545_
     }
    }
   }
+  RHS_WeaponRplComponent "{69CAB68501F41336}" {
+  }
  }
- coords 183.505 1 172.861
+ coords 195.493 1.223 175.834
 }

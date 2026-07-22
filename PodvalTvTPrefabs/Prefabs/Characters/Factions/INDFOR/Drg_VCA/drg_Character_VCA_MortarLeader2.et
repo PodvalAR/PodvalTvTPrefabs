@@ -6,6 +6,13 @@ SCR_ChimeraCharacter : "{8085D2DE2CC67C8E}Prefabs/Characters/Factions/INDFOR/Drg
     Name "#DRG-Role-Mortar-TL"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65DE93DE98DD817F}" {

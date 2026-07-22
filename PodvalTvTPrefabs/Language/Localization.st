@@ -152,6 +152,25 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{64D6E60496F5ECAB}" {
+   Id "DRG-Role-LeaderRebel"
+   Target_en_us "Rebel TeamLeader"
+   Target_fr_fr "Chef d'equipe rebelle"
+   Target_it_it "Caposquadra ribelle"
+   Target_de_de "Truppfuhrer (Rebellen)"
+   Target_es_es "Lider de equipo rebelde"
+   Target_cs_cz "Velitel tymu rebelu"
+   Target_pl_pl "Dowodca zespolu rebeliantow"
+   Target_ru_ru "Командир группы ополчения"
+   Target_ja_jp "反乱軍チームリーダー"
+   Target_ko_kr "반군 팀장"
+   Target_pt_br "Lider de equipe rebelde"
+   Target_zh_cn "叛军小队长"
+   Target_uk_ua "Командир групи ополчення"
+   Modified 1691812563
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{645CD4E0A9C7C030}" {
    Id "DRG-Role-Mortar-TL"
    Target_en_us "Mortar Crew Commander"
@@ -228,6 +247,25 @@ StringTable {
    Author "hasta"
    LastChanged "rezni"
   }
+  CustomStringTableItem "{64D6E606FA027633}" {
+   Id "DRG-Role-Rebel"
+   Target_en_us "Rebel"
+   Target_fr_fr "Rebelle"
+   Target_it_it "Ribelle"
+   Target_de_de "Rebell"
+   Target_es_es "Rebelde"
+   Target_cs_cz "Rebel"
+   Target_pl_pl "Rebeliant"
+   Target_ru_ru "Ополченец"
+   Target_ja_jp "反乱兵"
+   Target_ko_kr "반군"
+   Target_pt_br "Rebelde"
+   Target_zh_cn "叛军"
+   Target_uk_ua "Ополченець"
+   Modified 1691812308
+   Author "hasta"
+   LastChanged "hasta"
+  }
   CustomStringTableItem "{65D6B185041076C6}" {
    Id "DRG-Role-SubmachineGunner"
    Target_en_us "Submachine Gunner"
@@ -263,6 +301,63 @@ StringTable {
    Target_zh_cn "反坦克专家"
    Target_uk_ua "Гранатометник"
    Modified 1639283730
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{645CD4FC7BD30748}" {
+   Id "DRG-Role_CompanyLeader"
+   Target_en_us "Company Leader"
+   Target_fr_fr "Chef de compagnie"
+   Target_it_it "Comandante di compagnia"
+   Target_de_de "Kompaniechef"
+   Target_es_es "Jefe de compania"
+   Target_cs_cz "Velitel roty"
+   Target_pl_pl "Dowodca kompanii"
+   Target_ru_ru "Командир роты"
+   Target_ja_jp "中隊長"
+   Target_ko_kr "중대장"
+   Target_pt_br "Comandante de companhia"
+   Target_zh_cn "连长"
+   Target_uk_ua "Командир роти"
+   Modified 1683829399
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{61B543D639D70EE4}" {
+   Id "DRG-Role_CrewDriver"
+   Target_en_us "Crew Driver"
+   Target_fr_fr "Pilote d'equipage"
+   Target_it_it "Autista dell'equipaggio"
+   Target_de_de "Besatzungsfahrer"
+   Target_es_es "Conductor de la tripulacion"
+   Target_cs_cz "Ridic posadky"
+   Target_pl_pl "Kierowca zalogi"
+   Target_ru_ru "Механик-водитель"
+   Target_ja_jp "乗員運転手"
+   Target_ko_kr "승무원 운전자"
+   Target_pt_br "Motorista da guarnicao"
+   Target_zh_cn "乘员驾驶员"
+   Target_uk_ua "Механік-водій"
+   Modified 1639319711
+   Author "hasta"
+   LastChanged "hasta"
+  }
+  CustomStringTableItem "{61B543D66CC845E4}" {
+   Id "DRG-Role_CrewGunner"
+   Target_en_us "Crew Gunner"
+   Target_fr_fr "Tireur d'equipage"
+   Target_it_it "Cannoniere dell'equipaggio"
+   Target_de_de "Besatzungsschutze"
+   Target_es_es "Artillero de la tripulacion"
+   Target_cs_cz "Strelec posadky"
+   Target_pl_pl "Strzelec zalogi"
+   Target_ru_ru "Наводчик-оператор"
+   Target_ja_jp "乗員砲手"
+   Target_ko_kr "승무원 사수"
+   Target_pt_br "Atirador da guarnicao"
+   Target_zh_cn "乘员炮手"
+   Target_uk_ua "Навідник-оператор"
+   Modified 1697193476
    Author "hasta"
    LastChanged "hasta"
   }
@@ -322,6 +417,44 @@ StringTable {
    Modified 1639353787
    Author "hasta"
    LastChanged "hasta"
+  }
+  CustomStringTableItem "{6170D2157DE458A0}" {
+   Id "DRG-Role_Watchman"
+   Target_en_us "Old watchman"
+   Target_fr_fr "Vieux gardien"
+   Target_it_it "Vecchio guardiano"
+   Target_de_de "Alter Wachter"
+   Target_es_es "Viejo guardian"
+   Target_cs_cz "Stary hlidac"
+   Target_pl_pl "Stary straznik"
+   Target_ru_ru "Старый сторож"
+   Target_ja_jp "老見張り"
+   Target_ko_kr "늙은 파수꾼"
+   Target_pt_br "Velho vigia"
+   Target_zh_cn "老看守"
+   Target_uk_ua "Старий сторож"
+   Modified 1697849894
+   Author "hasta"
+   LastChanged "rezni"
+  }
+  CustomStringTableItem "{65290BEFFD3CE927}" {
+   Id "DRG-Roles-RHS_MedicRifleman"
+   Target_en_us "Medic"
+   Target_fr_fr "Infirmier"
+   Target_it_it "Medico"
+   Target_de_de "Sanitater"
+   Target_es_es "Medico"
+   Target_cs_cz "Zdravotnik"
+   Target_pl_pl "Medyk"
+   Target_ru_ru "Стрелок-санитар"
+   Target_ja_jp "衛生兵"
+   Target_ko_kr "의무병"
+   Target_pt_br "Medico"
+   Target_zh_cn "医护兵"
+   Target_uk_ua "Стрілець-санітаp"
+   Modified 1697852730
+   Author "hasta"
+   LastChanged "rezni"
   }
   CustomStringTableItem "{60D4D46322504D8F}" {
    Id "DRG-Sniper_SSO"
@@ -867,6 +1000,24 @@ StringTable {
    Modified 1697855022
    Author "hasta"
    LastChanged "rezni"
+  }
+  CustomStringTableItem "{65F132EAC8466527}" {
+   Id "DRG_VictorTroska"
+   Target_en_us "Victor Troska"
+   Target_fr_fr "Victor Troska"
+   Target_it_it "Victor Troska"
+   Target_de_de "Victor Troska"
+   Target_es_es "Victor Troska"
+   Target_cs_cz "Victor Troska"
+   Target_pl_pl "Victor Troska"
+   Target_ru_ru "Виктор Трошка"
+   Target_ja_jp "ヴィクトル・トロスカ"
+   Target_ko_kr "빅토르 트로스카"
+   Target_pt_br "Victor Troska"
+   Target_zh_cn "维克托·特罗斯卡"
+   Modified 1710306483
+   Author "hasta"
+   LastChanged "hasta"
   }
   CustomStringTableItem "{68A005F783432763}" {
    Id "PDVL_Role_AAT"

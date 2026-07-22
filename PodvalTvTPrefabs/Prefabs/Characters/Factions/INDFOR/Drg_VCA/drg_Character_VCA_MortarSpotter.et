@@ -12,6 +12,9 @@ SCR_ChimeraCharacter : "{648387BF54B27187}Prefabs/Characters/Factions/INDFOR/Drg
     LoadoutSlotInfo Hat {
      Prefab "{C8BD892538B20D82}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02_vietnam.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

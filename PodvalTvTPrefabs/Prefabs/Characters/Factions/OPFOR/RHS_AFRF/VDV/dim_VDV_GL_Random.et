@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{8BE014FF3D895F33}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SR_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_GL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AE87C0970E840E2A}Prefabs/Weapons/Rifles/AK200/Rifle_AK200_B10M_B19_GP25_P87_Klesh.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5B3783D3B3FB12C8}Prefabs/Characters/HeadGear/Helmet_6B47/dim_Helmet_6B47.et"
+    }
+   }
+  }
+ }
+ coords 2480.149 187.687 5115.641
+ angles 0 165 0
+}

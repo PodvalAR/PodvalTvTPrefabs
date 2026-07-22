@@ -15,18 +15,18 @@ SCR_ChimeraCharacter : "{8085D2DE2CC67C8E}Prefabs/Characters/Factions/INDFOR/Drg
      }
     }
     ItemsInitConfigurationItem "{693AB88C116BA030}" {
+     Enabled 0
      PrefabsToSpawn {
-      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
      }
     }
     ItemsInitConfigurationItem "{693AB88CA3915703}" {
+     Enabled 0
      PrefabsToSpawn {
-      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
      }
     }
     ItemsInitConfigurationItem "{65D68EE72CEBEB70}" {
      PrefabsToSpawn {
-      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
+      "{AC04D0D1EABC994F}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{65D68EE6F0D9C23C}" {

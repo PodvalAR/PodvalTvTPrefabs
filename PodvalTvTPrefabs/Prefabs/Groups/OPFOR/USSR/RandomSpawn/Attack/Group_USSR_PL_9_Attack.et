@@ -1,3 +1,6 @@
 SCR_AIGroup : "{A7C4BB04461165A7}Prefabs/Groups/OPFOR/USSR/RandomSpawn/Defend/Group_USSR_PL_9_Defend.et" {
  ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{75A43BDBDEE4B117}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_PL_RANDOM.et" "{CDE7F53CAD55EAE4}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_SR_RANDOM.et" "{635E00E006AD9962}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_MG_RANDOM.et" "{D67D1D2E58DBC25B}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_AMG_RANDOM.et" "{C3B3222B8D0344FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_RPO_RANDOM.et" "{C3B3222B8D0344FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_RPO_RANDOM.et" "{A6A94055EB791019}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_LAT_RANDOM.et" "{C425B14F87DAE72F}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_Rifleman_RANDOM.et" "{BA92838DA2F16499}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Radnom/Char_USSR_Sharpshooter_RANDOM.et"
+ }
 }
