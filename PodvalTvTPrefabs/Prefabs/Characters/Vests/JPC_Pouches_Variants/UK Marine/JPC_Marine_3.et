@@ -1,0 +1,54 @@
+GameEntity : "{89E9C2AA886E3C07}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/UK/JPC_Kit_2_UK.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{EC0FD790E34AFF6A}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MCBlk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{7C42FEC44CE663B6}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Radio_1_Black.et"
+    }
+    LoadoutSlotInfo raid {
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo tako {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab "{24E72D020E511EF1}Prefabs/Items/Patches/GD_UK_Patch.et"
+     m_bShouldUseCMorphedMesh 1
+    }
+    LoadoutSlotInfo GPS {
+     Offset -0.1141 0.2402 0.062
+     Angles -24.4913 -72.4982 47.8768
+    }
+    LoadoutSlotInfo JTAC {
+     Offset -0.0923 0.1928 -0.1805
+     Angles 0 -90 0
+     Enabled 1
+     Prefab "{42803A2880386367}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 236.117 1 235.081
+}

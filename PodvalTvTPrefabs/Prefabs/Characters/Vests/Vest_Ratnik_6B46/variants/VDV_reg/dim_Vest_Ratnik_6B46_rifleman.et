@@ -1,0 +1,35 @@
+GameEntity : "{7B2C9011713D35CA}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/VDV_reg/Vest_Ratnik_6B46_rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo azart {
+     Offset -0.0652 0.0464 -0.1952
+     Angles -1.3839 -177.9082 0.758
+    }
+    LoadoutSlotInfo pistolmag {
+     Prefab "{8B2DBD3D2E910C44}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/GD_Ratnik_PistolPouch.et"
+    }
+    LoadoutSlotInfo grd1 {
+     PivotID "Spine5"
+     Offset -0.094 0.1837 0.1703
+     Angles 0 -9.0576 0
+     Prefab "{62F362DB8F039849}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    LoadoutSlotInfo grd2 {
+     PivotID "Spine5"
+     Offset -0.0024 0.1837 0.178
+     Prefab "{0EA7563B33C71767}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    LoadoutSlotInfo grd3 {
+     PivotID "Spine5"
+     Offset 0.09 0.1837 0.1703
+     Angles 0 6.8889 0
+     Prefab "{EB3B1AC23F22800C}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 131.847 1 237.91
+}

@@ -1,0 +1,48 @@
+GameEntity : "{65446124DDC04DC7}Prefabs/Characters/REAPER_US_Pilot/REAPER_US_Pilot_FlightSuit.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{05F2E04DE4E9B865}Assets/Character/REAPER_Pilot_US/reaper_pilotUS_flightsuit.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    RHS_ClothNodeStorageComponent "{69E12245F346F5B2}" {
+     StoragePurpose 0x40 0x1
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemDimensions 15 15 15
+     ItemVolume 4000
+    }
+    m_Size SLOT_2x2
+   }
+   MaxCumulativeVolume 1600
+   MaxItemSize 10 10 10
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo RightArm {
+     PivotID "RightArm"
+     Offset 0 -0.1408 -0.0732
+     Angles -5.2879 -180 0
+     Prefab "{D213D8FAD8562B9C}Prefabs/Items/Patches/GD_RoyalNavy_AirCrew_Patch.et"
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{69E12245C17E3892}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.5
+    }
+    RHS_LoadoutSlotInfo LeftArm {
+     PivotID "LeftArm"
+     Offset 0.0216 0.1377 0.0768
+     Angles 8.8598 6.7297 -180
+     Prefab "{5D7A503577FEA677}Prefabs/Items/Patches/GD_UK_RoyalNavy.et"
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{69E122444802D39D}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+    }
+   }
+  }
+ }
+ coords 144.06 1 223.475
+}

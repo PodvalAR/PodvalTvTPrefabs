@@ -1,0 +1,32 @@
+GameEntity : "{42037B1DE689E161}Prefabs/Characters/Vests/Vest_TV115/variants/Vest_TV115_Rifleman_MC.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo sasarma1 {
+     Offset -0.1752 0.0474 0.0454
+     Prefab "{3BACDF2B13C6ACFB}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    LoadoutSlotInfo sasarma2 {
+     Offset -0.186 0.041 -0.0353
+     Prefab "{3BACDF2B13C6ACFB}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    LoadoutSlotInfo triple {
+     Offset 0.0001 0.0649 0.1721
+     Angles -5.3896 0 0
+     Prefab "{8F0C426FECEB72A3}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_jpc_placard_MC.et"
+    }
+    LoadoutSlotInfo admin {
+     Offset -0.0447 0.0469 0.212
+    }
+    LoadoutSlotInfo MBITR {
+     PivotID "Spine5"
+     Offset 0.2083 0.1349 0.0608
+     Angles 0 153.1537 -1.2252
+     Prefab "{B1934198EEFDCB28}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+   }
+  }
+ }
+ coords 194.174 1 249.604
+}

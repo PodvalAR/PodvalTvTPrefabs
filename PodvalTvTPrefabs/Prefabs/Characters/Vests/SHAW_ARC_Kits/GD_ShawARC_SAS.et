@@ -1,0 +1,16 @@
+GameEntity : "{BA7977E13255D569}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/Vest_Shaw_ARC_preset_placard.et" {
+ ID "6584F7DC1A90A8C7"
+ components {
+  BaseLoadoutClothComponent "{6584F7DC1A90A88E}" {
+   Slots {
+    LoadoutSlotInfo MBITR {
+     PivotID "Spine5"
+     Offset 0.1939 0.1077 -0.1392
+     Angles 4.5291 -150 0
+     Prefab "{42803A2880386367}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+   }
+  }
+ }
+ coords 239.509 1 245.426
+}
