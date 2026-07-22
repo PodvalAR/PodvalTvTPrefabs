@@ -42,7 +42,7 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{FFC8049A506A0F9F}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC_base.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{AB9E3D5524876346}Prefabs/Characters/Footwear/Boots_Faradey_1085/Footware_Faradey_1085.et"
+     Prefab "{8CDC9308C265ECCB}Prefabs/Characters/Footwear/ACU_boots/ACU_boots1_base.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
