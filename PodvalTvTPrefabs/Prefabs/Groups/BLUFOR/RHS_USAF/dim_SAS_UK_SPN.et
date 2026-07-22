@@ -1,0 +1,8 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ coords 176.328 1 235.472
+ m_aUnitPrefabSlots {
+  "{749BF50E1739890E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_SL.et" "{735C0F5F71BF33CD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_TL.et" "{7AA6FFE4C2FC76FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_1.et" "{16F2CB047E38F9D3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_2.et" "{DDBB6B6A5816ADAC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_Medic.et" "{D28A5255BF3E813E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_Sapper.et" "{B835C632618BAFBA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marksman.et"
+ }
+ m_sCustomNameSet "SAS"
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5466A8CA63A5EE79}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_CoPilot.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
