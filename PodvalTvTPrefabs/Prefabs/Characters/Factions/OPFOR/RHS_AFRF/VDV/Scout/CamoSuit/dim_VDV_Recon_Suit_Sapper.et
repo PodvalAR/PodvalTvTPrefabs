@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter : "{9BE3309876F5FBBD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/CamoSuit/dim_VDV_Recon_Suit_Rfl.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Диверсант-сапер"
+    Icon "{DE9F30CD054BA54B}UI/Icons/sabateur_demolition.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{72D4CFC511A21786}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6b50_3.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{43802D2484B1C1A1}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46.et"
+     PrefabsToSpawn {
+      "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     Enabled 1
+     TargetStorage "Back/Backpack_Ratnik_6B46.et"
+    }
+   }
+  }
+ }
+ coords 122.541 1 223.945
+}

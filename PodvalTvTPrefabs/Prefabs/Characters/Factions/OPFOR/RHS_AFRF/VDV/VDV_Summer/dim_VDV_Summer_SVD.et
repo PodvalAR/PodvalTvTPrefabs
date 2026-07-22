@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{2F6A9CD34B880FD2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Marksman_SVDM.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C828F6D563E1A9BE}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4E612A2347762BE8}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/Helmet_6B47_Cover_EMR_1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D05354B295318BC3}Prefabs/Characters/Uniforms/Jacket_Bars/Bars4_jacket_Relaxed_Summer.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{21507416103697A2}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer_In.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{CAEDE923EF4071AE}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Marksman.et/slot4/Pouch_Ratnik_azart_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type1.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Jacket/Bars4_jacket_Relaxed_Summer.et"
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 107.487 1 232.799
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{4FF9941CFBD838F2}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/VDV_reg/dim_Vest_Ratnik_6B46_rifleman.et.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,12 @@
+MatPBRBasic {
+ Color 0.658 0.658 0.658 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ AlphaTest 0.061
+ AlphaMul 0.87
+ BlendMode AlphaBlend
+ CrossFade 0
+ AllowUserAlphaBias 1
+ MetalnessScale 0.571
+ BCRMap "{DEE39BB36DE4BCB0}Assets/Vehicles/SharedMaterials/decals/numbers/Data/decal_BCR.edds"
+ OpacityMap "{9F8153D0C6AC1C09}Assets/Vehicles/SharedMeshes/Data/dim_RN_Decal.edds"
+}

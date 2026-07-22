@@ -1,0 +1,15 @@
+GenericEntity : "{C158CE23A0D7B73C}Prefabs/Weapons/Rifles/VAL/Rifle_VAL.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{689B495D05E3752A}" {
+     AttachmentSlot InventoryStorageSlot "{65D9102500CC7849}" {
+      Prefab "{A1D5833FF10C6503}Prefabs/Weapons/Attachments/Optics/Optic_PSO1/Optic_PSO1M2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 112.169 1.134 225.304
+}

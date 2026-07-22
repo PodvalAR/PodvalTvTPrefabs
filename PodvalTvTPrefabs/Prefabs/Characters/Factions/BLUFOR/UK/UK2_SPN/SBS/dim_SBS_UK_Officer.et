@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{7B4E54390F860D16}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_KS"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{CC7C040754AE7E00}Prefabs/Characters/HeadGear/Hat_Cap/Variants/GD_Cap (Scarf,Baf).et"
+    }
+   }
+  }
+ }
+ coords 11598.184 6.781 10800.45
+}

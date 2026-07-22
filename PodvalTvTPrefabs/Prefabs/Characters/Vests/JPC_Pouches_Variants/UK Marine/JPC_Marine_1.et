@@ -1,0 +1,62 @@
+GameEntity : "{4D4C73CEE553001B}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/JPC_Mult_v1.6.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{EC0FD790E34AFF6A}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MCBlk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo nerd {
+     Prefab "{14720E0E98478512}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big_MC.et"
+    }
+    LoadoutSlotInfo pistol {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1759 0.0624 -0.0036
+     Angles -3.503 -71.4034 2.5391
+     Prefab "{FD1537D7E8C139C2}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    LoadoutSlotInfo radio {
+     Prefab "{42803A2880386367}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+    LoadoutSlotInfo raid {
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo tako {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset -0.0043 -0.1207 -0.0076
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset 0 0.2032 0.1459
+     Angles 0.4423 0 0
+     Prefab "{24E72D020E511EF1}Prefabs/Items/Patches/GD_UK_Patch.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{531492ED72D38418}Prefabs/Characters/Vests/Vest_JPC_Pouches/Minimap_JPC_ZipOnPanel2.0.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 236.117 1 235.081
+}

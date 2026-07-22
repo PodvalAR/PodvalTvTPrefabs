@@ -1,0 +1,35 @@
+GameEntity : "{23428DF912E6E1DF}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_PushS_MC.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_CP_G3_Combat_Shirt_Name (#RHS-Descriptor_CollarDown/#RHS-Descriptor_TorsoTucked/#RHS-Descriptor_SleevesCuffed) - #RHS-Camo_MC_BLK"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{11EE6E4B5591CFB2}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_PushS_MC_BLK_wear.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     Offset -0.0058 -0.0424 -0.0715
+     Angles 10.2978 -170.53889 -26.9948
+     Prefab "{4135547E507D4471}Prefabs/Items/Equipment/Patches/Patch_USMC_Recon_Black.et"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+     PivotID "LeftArm"
+     Offset 0.0321 0.0989 0.0633
+     Angles 6.7711 28.086 -153.28799
+     Prefab "{2310A5C3FC6AD5E7}Prefabs/Items/Patches/GD_UK_Patch_Color.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{F7EC002106D10370}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp1_MC_BLK.emat" "{C8736E4310DDAD8D}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp2_MC_BLK.emat" "{B74DB2873CC4F077}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp3_MC_BLK.emat"
+   }
+  }
+ }
+}

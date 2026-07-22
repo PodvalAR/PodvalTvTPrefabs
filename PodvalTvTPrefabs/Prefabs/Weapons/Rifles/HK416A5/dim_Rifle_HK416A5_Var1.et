@@ -1,0 +1,64 @@
+GenericEntity : "{7C64E25D94F8003C}Prefabs/Weapons/Rifles/HK416A5/Rifle_HK416A5_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{696ADB536E8B6226}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD500DE777C8}" {
+      Offset -0.0253 0.0794 0.2225
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E949483}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Offset -0.0012 0.1181 0.2537
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E949485}" {
+     AttachmentSlot InventoryStorageSlot ChargingHandle {
+      Offset 0 0.0003 -0.0013
+      Prefab "{16C32FC90A9B9391}Prefabs/Weapons/Attachments/Misc/M4ChargingHandles/GA_ACH_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E949487}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Offset 0 0 0.0264
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E949761}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Offset 0 0.0047 -0.0164
+      Prefab "{BC68AE520F42BF35}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_Black.et"
+     }
+    }
+    AttachmentSlotComponent "{696ADB536E949765}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Offset 0 0.001 -0.0011
+      Prefab "{3515BB3BE4AE2414}Prefabs/Weapons/Attachments/Grips/PistolGrip_AR15_A2/RHS_M4A1_Grip.et"
+     }
+    }
+    AttachmentSlotComponent "{69E6BD640A7DDC14}" {
+     AttachmentSlot InventoryStorageSlot Grip {
+      PivotID "Scene_Root"
+      Offset 0 0.0004 0
+      Prefab "{84D10D9B6F038335}Prefabs/Weapons/Attachments/Misc/manta_railcover/kits/RHS_manta_kit_kacGrip_M27_4.et"
+     }
+     AttachmentType AttachmentM27RailCover "{69E6BD640A7DDC07}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{696ADB536E8B0718}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{DD6D71FB59CFBC1D}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_PRONG3.et"
+       }
+      }
+     }
+     MagazineTemplate "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

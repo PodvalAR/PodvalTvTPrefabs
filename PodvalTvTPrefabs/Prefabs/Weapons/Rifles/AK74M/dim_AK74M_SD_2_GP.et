@@ -1,0 +1,20 @@
+GenericEntity : "{F8AA2B3BADFCE19F}Prefabs/Weapons/Rifles/AK74M/dim_AK74M_SD_1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+    AttachmentSlotComponent "{5E9CA21FA76B5BFB}" {
+     AttachmentSlot InventoryStorageSlot gp_buttpad {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ coords 128.315 1.318 240.737
+}

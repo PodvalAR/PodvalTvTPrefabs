@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{7AA6FFE4C2FC76FD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/Marine(UK)/dim_SAS_Marine_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Medic"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{5EBD0E8A11703FF3}Prefabs/Characters/Heads/Head_White_06/Head_White_06_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E59549BE99688F32}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/dim_Balaclava_v1_BLK_headset.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{CF74EB1FEC37F88A}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_Medic_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{596CB4DEA8E3952C}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_MCBlk_Var1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/mbiyt/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E5502EEA4EA9AF}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/Pouch1/Pouch_avs_front_elastic_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E55021009F08DE}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E5502EF99C3115}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/Tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E550210B7E6FED}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/tako2/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E55021129CCBE8}" {
+     TargetStorage "Back/GD_DeltaBag_Medic_Black.et"
+    }
+    ItemsInitConfigurationItem "{69E55021188328B2}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/pistol/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E550211B441615}" {
+     TargetStorage "Vest/GD_MCBlk_Var1.et/pistol2/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{69E550221FA1C937}" {
+     TargetStorage "Back/GD_DeltaBag_Medic_Black.et"
+     PrefabsToSpawn {
+      "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 240.622 1 243.661
+}

@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{D9CC41C115798B88}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_GL"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E24FCE0CC1FAC354}Prefabs/Weapons/Rifles/HK416A5/dim_Rifle_HK416A5_Var3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6EFF865371B14546}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_MC_GroinTriple.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{346C939D1D8D0730}Prefabs/Characters/Vests/Vest_TV102/variants/dim_Vest_TV102_rifleman_MC_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76064C38}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/pistol1/Pouch_avs_front_closed_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F762C4AD2}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/util/Pouch_UP109_utillmid_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F7632DC6E}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/arsbelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76DB5D80}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/arsbelt2/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76A6E271}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/pistol/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C961E81E9}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/Grenade/Pouch_GP106_RGD_Pouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C96D9298F}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/grenade2/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C968D69C7}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/up101/Minimap_JPC_ZipOnPanel2.0_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF9A95BD2}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/util/Pouch_UP109_utillmid_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF845DC4C}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/holster/Pouch_HP103_Holster_MC.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666B286B26}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/up101/Minimap_JPC_ZipOnPanel2.0_MC.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666565B9EE}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/util/Pouch_UP109_utillmid_MC.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD707620AA0E}" {
+     TargetStorage "Vest/dim_Vest_TV102_rifleman_MC_2.et/up101/Minimap_JPC_ZipOnPanel2.0_MC.et"
+     PrefabsToSpawn {
+      "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+   }
+  }
+ }
+ coords 198.513 1 248.241
+}

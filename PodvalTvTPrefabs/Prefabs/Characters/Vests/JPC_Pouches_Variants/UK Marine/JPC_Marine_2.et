@@ -1,0 +1,42 @@
+GameEntity : "{834C92E73E7ECF80}Prefabs/Characters/Vests/JPC_Pouches_Variants/Winter/UK/JPC_Kit_1_UK.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{EC0FD790E34AFF6A}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MCBlk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.1756 0.1096 0.1049
+     Angles -0.6278 24.4479 -2.2443
+     Prefab "{42803A2880386367}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo flexbelt {
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo flexbelt2 {
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo tako_camer {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolbelt {
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 236.117 1 235.081
+}

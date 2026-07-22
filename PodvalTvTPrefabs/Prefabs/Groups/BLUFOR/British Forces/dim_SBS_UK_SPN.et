@@ -1,0 +1,8 @@
+SCR_AIGroup : "{17DE9065B07EB761}Prefabs/Groups/BLUFOR/British Forces/Group_UK_Base.et" {
+ ID "0000000000000001"
+ coords 179.184 1 246.971
+ m_aUnitPrefabSlots {
+  "{7B4E54390F860D16}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_SL.et" "{7C89AE686900B7D5}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_TL.et" "{1B13DB07CAB5C62F}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_GL.et" "{44D17B3C534DBBE6}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_MG.et" "{BA76250EEA5A69C0}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_LAT.et" "{D9CC41C115798B88}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Rifleman.et" "{610F25E9C797FE7A}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Rifleman_2.et" "{BD31DDAB3AF6086E}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Medic.et" "{4E4360DD943469CF}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Sapper.et" "{7522B4F28612639D}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Marksman.et"
+ }
+ m_sCustomNameSet "SBS"
+}

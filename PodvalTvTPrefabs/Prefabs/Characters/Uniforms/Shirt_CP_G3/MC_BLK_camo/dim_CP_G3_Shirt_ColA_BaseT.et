@@ -1,0 +1,25 @@
+GameEntity : "{61AE0C785CF06A8D}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_BaseT_FullS_MC_BLK.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     Offset -0.0062 -0.0433 -0.0712
+     Angles 10.2978 -170.53889 -26.9948
+     Prefab "{5D7A503577FEA677}Prefabs/Items/Patches/GD_UK_RoyalNavy.et"
+    }
+    RHS_LoadoutSlotInfo SleeveLeftVelcro {
+     Offset 0.0321 0.0989 0.0633
+     Angles 6.7711 28.086 -153.28799
+     Prefab "{2310A5C3FC6AD5E7}Prefabs/Items/Patches/GD_UK_Patch_Color.et"
+    }
+    RHS_LoadoutSlotInfo SleeveRightVelcro_2 : SleeveRightVelcro {
+     Offset -0.0212 -0.0966 -0.0645
+     Angles 1.8336 -166.213 -24.8671
+     Prefab "{4135547E507D4471}Prefabs/Items/Equipment/Patches/Patch_USMC_Recon_Black.et"
+    }
+   }
+  }
+ }
+ coords 154.367 1 226.96
+}

@@ -1,0 +1,105 @@
+SCR_ChimeraCharacter : "{7C89AE686900B7D5}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{843B3B353F31A527}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t_lc.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+    Icon "{2CA9CF1201B1A7D0}UI/Icons/dim/SAS_SL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6B87B61571DBDB11}Prefabs/Weapons/Rifles/HK416A5/dim_Rifle_HK416A5_Var1.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0FB2499B2B136696}Prefabs/Characters/HeadGear/Helmet_Exfil/GD_Exfil_UK_1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{110D17644C3DC09A}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/dim_CP_G3_Shirt_ColA_BaseT_PushS_MC_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{35958C7FA91365F1}Prefabs/Characters/Vests/Vest_TV150/Vest_TV150_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{5027D6CF3745778F}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit_Modern.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{094321EA391B7478}Prefabs/Characters/Vests/Vest_TV150/variants/dim_Vest_TV150_rifleman_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+     PrefabsToSpawn {
+      "{BA06414FB1F853F2}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_UK_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CE8F76064C38}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/arsbelt2/Pouch_PCGEN3_takoPouch_MC.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CE8F762C4AD2}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/placard/Pouch_Shaw_Flex_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F7632DC6E}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/ak_1/Pouch_Shaw_Flex_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76DB5D80}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/arsbelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76A6E271}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/Grenade/Pouch_GP106_RGD_Pouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C961E81E9}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/grenade2/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C96D9298F}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/pistol/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C968D69C7}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/up118/Pouch_UP118_fannypack_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF9A95BD2}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/pistol1/Pouch_MP111_PistolClosed_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF845DC4C}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/holster/Pouch_HP103_Holster_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C2716C218}" {
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_BaseT_PushS_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666B286B26}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/up118/Pouch_UP118_fannypack_MC.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666565B9EE}" {
+     TargetStorage "Vest/dim_Vest_TV150_rifleman_MC.et/pistol3/Pouch_MP111_PistolClosed2_MC.et"
+    }
+   }
+  }
+ }
+ coords 203.442 1 249.571
+}

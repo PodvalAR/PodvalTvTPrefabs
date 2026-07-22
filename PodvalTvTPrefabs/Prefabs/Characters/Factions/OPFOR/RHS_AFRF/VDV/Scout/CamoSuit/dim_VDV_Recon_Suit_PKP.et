@@ -1,0 +1,83 @@
+SCR_ChimeraCharacter : "{59154B82242F9575}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_MG_Goblin.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{35F14FC54DDF3AEF}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6b50_Mask.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D05354B295318BC3}Prefabs/Characters/Uniforms/Jacket_Bars/Bars4_jacket_Relaxed_Summer.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{69975371BB261B11}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8D21167F8C080A7E}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{43802D2484B1C1A1}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9217B5D545B811F6}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_MG_EMR_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/radio/Pouch_UP111_radioClosed_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/grenade2/Pouch_UP104_utilmini_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/grenade2/Pouch_UP104_utilmini_EMR.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/pistol2/Pouch_MP111_PistolClosed2_EMR.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/holster/Pouch_HP103_Holster_EMR.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/bayonet/Pouch_6x9Scabbard.et"
+    }
+    ItemsInitConfigurationItem "{694745885564C54D}" {
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/pistol1/Pouch_MP111_PistolClosed_EMR.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+   }
+  }
+ }
+ coords 128.7 1 238.201
+}

@@ -1,0 +1,61 @@
+SCR_ChimeraCharacter : "{7551E181CE4C6845}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Officer.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{386FED89E5217838}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_1p86.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{D05354B295318BC3}Prefabs/Characters/Uniforms/Jacket_Bars/Bars4_jacket_Relaxed_Summer.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{21507416103697A2}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer_In.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Jacket/Bars4_jacket_Relaxed_Summer.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 102.196 1 232.667
+}

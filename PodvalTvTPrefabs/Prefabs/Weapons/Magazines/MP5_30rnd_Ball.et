@@ -6,6 +6,11 @@ GenericEntity : "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_3
     CommonItemType "RHS_RIFLE_AMMO"
    }
   }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoMapping + {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
  }
  coords 1567.81 65.288 1109.005
 }

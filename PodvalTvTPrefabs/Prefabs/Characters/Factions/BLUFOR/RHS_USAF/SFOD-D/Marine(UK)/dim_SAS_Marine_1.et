@@ -1,0 +1,119 @@
+SCR_ChimeraCharacter : "{1D4A3A741DBFCBAC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/dim_Role_Character_USAF_SFOD_Armored.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
+    Icon "{8423DE22DED1105D}UI/Icons/dim/SAS.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{21F461A37ED516EA}Prefabs/Weapons/Rifles/M4A1/M4_2008_USMC.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DC036A9677A90E4B}Prefabs/Characters/Heads/Head_White_10/Head_White_10_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{53F44AFC856BA5FD}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_Chechen_Hat_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{AB7EEA8431916C9A}Prefabs/Characters/Uniforms/Suit_R7/GD_R7_DrySuit_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{82B95D8A4F84E283}Prefabs/Characters/Footwear/R7_DryBoots/GD_R7_Boots.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{3538803E14271A02}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_MCBlk_Var2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D73018D5DF4E2259}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Jacket/GD_R7_DrySuit_Black.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Jacket/GD_R7_DrySuit_Black.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     Enabled 0
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{672165248C18FB8D}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/Glush/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     PrefabsToSpawn {
+      "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{672165248C6CCDE2}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{69E5502EEA4EA9AF}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/Pouch1/Pouch_avs_front_closed_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E55021009F08DE}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/tako2/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E5502EF99C3115}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/Tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E550210B7E6FED}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/hsgi/Pouch_Highspeed_Bleeder_MCBlk.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E55021129CCBE8}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/Holster/GD_Holster_SLS_RLeg.et"
+     PrefabsToSpawn {
+      "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E55021188328B2}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/pistol/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E550211B441615}" {
+     TargetStorage "Vest/GD_MCBlk_Var2.et/pistol2/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+   }
+  }
+ }
+ coords 236.117 1 235.081
+ angles 0 0 0
+}

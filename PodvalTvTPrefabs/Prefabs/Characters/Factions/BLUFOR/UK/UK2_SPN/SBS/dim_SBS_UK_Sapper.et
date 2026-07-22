@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{D9CC41C115798B88}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sapper"
+    Icon "{1CE3CF091750A2C4}UI/Icons/dim/SAS_Demolition.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{522D9031F22C347C}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/dim_CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{F711EA887715B39E}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_MC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{36E175660DDBD0E0}Prefabs/Characters/Vests/Vest_TV115/variants/dim_Vest_TV115_Rifleman_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/MBITR/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76064C38}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/triple/Pouch_jpc_placard_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F762C4AD2}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{6576CE8F7632DC6E}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/sasarma1/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76DB5D80}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/sasarma2/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76A6E271}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/grenade/Pouch_GP106_RGD_Pouch_2_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C961E81E9}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/grenade2/Pouch_GP106_RGD_Pouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C96D9298F}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/admin/Pouch_UP101_Admin_big_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C968D69C7}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/admin/Pouch_UP101_Admin_big_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF9A95BD2}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/holster/Pouch_MP111_PistolClosed_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF845DC4C}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/pistol/Pouch_HP103_Holster_MC.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C2716C218}" {
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666B286B26}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/up103/Pouch_UP105_utilbig_MC.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666565B9EE}" {
+     TargetStorage "Vest/dim_Vest_TV115_Rifleman_MC.et/pistol2/Pouch_MP118_PistolTako2_MC.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD738D3C8771}" {
+     TargetStorage "Back/GD_DeltaBag_MC.et"
+     PrefabsToSpawn {
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+   }
+  }
+ }
+ coords 194.174 1 249.604
+}

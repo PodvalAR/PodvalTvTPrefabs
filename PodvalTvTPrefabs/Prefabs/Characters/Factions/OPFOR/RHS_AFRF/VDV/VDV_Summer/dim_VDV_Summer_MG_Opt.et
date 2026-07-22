@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{FBD41570B0C083C3}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_MG_Opt.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Summer.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{21507416103697A2}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer_In.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 106.586 1 232.92
+}

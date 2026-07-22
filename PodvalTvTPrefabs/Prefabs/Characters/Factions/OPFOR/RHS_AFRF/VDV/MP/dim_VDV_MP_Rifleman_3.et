@@ -26,6 +26,7 @@ SCR_ChimeraCharacter : "{EEC06B86B0C9154F}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Pants/Pants_VKPO.et"
     }
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Jacket_VKPO.et"
     }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
      TargetStorage "Back/Backpack_Suharka_type2.et"

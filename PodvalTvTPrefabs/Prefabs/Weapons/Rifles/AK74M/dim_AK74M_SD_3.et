@@ -1,0 +1,16 @@
+GenericEntity : "{F8AA2B3BADFCE19F}Prefabs/Weapons/Rifles/AK74M/dim_AK74M_SD_1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Offset 0 -0.0064 0.1313
+      Prefab "{D96641FBB4AAF5E2}Prefabs/Weapons/Attachments/Optics/Dedal_NV/Optic_Dedal_NV_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 127.942 1.314 240.883
+}

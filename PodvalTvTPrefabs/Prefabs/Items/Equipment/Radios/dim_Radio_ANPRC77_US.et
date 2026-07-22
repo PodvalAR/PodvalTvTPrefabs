@@ -1,0 +1,9 @@
+GenericEntity : "{FC5293E3973AAE8D}Prefabs/Items/Equipment/Radios/dim_Radio_ANPRC77_ION.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "chickenNuggets"
+  }
+ }
+ coords 236.32 1 240.225
+}

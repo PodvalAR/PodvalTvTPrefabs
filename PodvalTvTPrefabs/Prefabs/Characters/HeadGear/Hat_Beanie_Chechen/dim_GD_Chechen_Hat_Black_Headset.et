@@ -1,0 +1,19 @@
+GameEntity : "{9906879B750B7AF7}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_Chechen_Hat_Flora.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Prefab "{150CBCB5E706F291}Prefabs/Characters/HeadGear/Headphones_6M2/Headphones_6M2-1.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{9972D88E28538D45}Assets/Characters/HeadGear/Hat_Beanie_Chechenka/Data/Chechen_Shapka_Black.emat"
+   }
+   ItemMaterialsOverride {
+    "{9972D88E28538D45}Assets/Characters/HeadGear/Hat_Beanie_Chechenka/Data/Chechen_Shapka_Black.emat"
+   }
+  }
+ }
+ coords 7660.26 36.469 2097.014
+}

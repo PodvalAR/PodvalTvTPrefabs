@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{D9CC41C115798B88}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.03 -0.2112 0.0098
+   }
+   WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{522D9031F22C347C}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/dim_CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C2716C218}" {
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_BaseT_RollS_MC_BLK.et"
+    }
+   }
+  }
+ }
+ coords 189.117 1 242.557
+}
