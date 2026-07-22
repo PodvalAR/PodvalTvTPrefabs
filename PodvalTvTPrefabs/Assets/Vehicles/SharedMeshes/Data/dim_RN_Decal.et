@@ -1,0 +1,14 @@
+GenericEntity : "{4FE1F9772567F7E5}Prefabs/Vehicles/Shared/decal_vehicle_rosgvardiya.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{69E6BD49BCD8AC44}" {
+     SourceMaterial "decal_rg"
+     AssignedMaterial "{1188E400BD3E7681}Assets/Vehicles/SharedMeshes/Data/decal_royalnavy.emat"
+    }
+   }
+  }
+ }
+ coords 11633.695 7.321 10843.102
+}
