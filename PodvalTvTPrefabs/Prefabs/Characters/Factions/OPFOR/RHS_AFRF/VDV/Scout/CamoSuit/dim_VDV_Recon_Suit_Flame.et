@@ -1,0 +1,101 @@
+SCR_ChimeraCharacter : "{7B401E039F20A62B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_Flame_Goblin.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F8AA2B3BADFCE19F}Prefabs/Weapons/Rifles/AK74M/dim_AK74M_SD_1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C62892E4D4EF86F4}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6B50_6.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D05354B295318BC3}Prefabs/Characters/Uniforms/Jacket_Bars/Bars4_jacket_Relaxed_Summer.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{69975371BB261B11}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_EMR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{21507416103697A2}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer_In.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{43802D2484B1C1A1}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7B2C9011713D35CA}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/VDV_reg/Vest_Ratnik_6B46_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/azart/Pouch_Ratnik_azart_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/Pouch1/Pouch_Ratnik_ak_pouch_new_1.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/Pouch2/Pouch_Ratnik_ak_pouch_new_2.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/Pouch3/Pouch_Ratnik_ak_pouch_new_3.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/FirstAid/Pouch_Ratnik_GND_Pouch_4.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/ak_4/Pouch_Ratnik_ak_pouch_new_4.et"
+     PrefabsToSpawn {
+      "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et" "{188781BE6203A0B0}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_7n22AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/gnd3/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/gnd4/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/gnd_2/Pouch_Ratnik_appi_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/gnd_2/Pouch_Ratnik_appi_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/Bayonet/Pouch_6x9Scabbard.et"
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC3D06AD0FC4}" {
+     TargetStorage "Vest/Vest_Ratnik_6B46_rifleman.et/flyaga/Pouch_Ratnik_Holster_Base.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+   }
+  }
+ }
+ coords 129.823 1 238.064
+}

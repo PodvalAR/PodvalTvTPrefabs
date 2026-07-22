@@ -1,0 +1,63 @@
+SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{386FED89E5217838}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_1p86.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{23B4DE1DD80A119F}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/6B50/Helmet_6B47_Cover_EMR_6b50_7.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Summer.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{21507416103697A2}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer_In.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 97.17 1 232.773
+}

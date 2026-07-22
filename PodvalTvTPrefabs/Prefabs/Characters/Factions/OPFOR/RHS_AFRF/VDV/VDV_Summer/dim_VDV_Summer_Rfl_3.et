@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{5A3C36A77584843D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Rifleman_7.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA8BE6075AFFBCA8}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FA9D7702823BBA9A}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/Helmet_6B47_Cover_EMR_4.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{425238E1AA868A7D}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Summer.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{21507416103697A2}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Summer_In.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Summer_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+     PrefabsToSpawn {
+      "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et" "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32EE31C4E2}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{68CB278F4A570FFE}" {
+     TargetStorage "Back/Backpack_Suharka_type2.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Summer.et"
+     PrefabsToSpawn {
+      "{65506D3712FA2D29}Prefabs/Weapons/Attachments/Bayonets/Bayonet_6X9-1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 98.817 1 232.785
+}
