@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Boots {
     }
     LoadoutSlotInfo Vest {
-     Prefab "{1DCE8B3F4A8764AE}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_Crew.et"
+     Prefab "{9F478ED4C2D95098}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_Crew.et"
     }
    }
   }

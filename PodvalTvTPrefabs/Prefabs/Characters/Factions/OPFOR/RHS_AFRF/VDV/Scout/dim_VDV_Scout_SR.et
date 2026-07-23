@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Boots {
     }
     LoadoutSlotInfo Vest {
-     Prefab "{C290C1B75B8CFB94}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_GL_2.et"
+     Prefab "{4019C45CD3D2CFA2}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_GL_2.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{E9BD1B8888B6F37D}Prefabs/Characters/Handwear/Ratnik_gloves/Ratnik_gloves.et"

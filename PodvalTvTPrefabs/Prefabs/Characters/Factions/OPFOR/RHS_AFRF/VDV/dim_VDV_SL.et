@@ -29,7 +29,7 @@ SCR_ChimeraCharacter : "{D97F30826A9347B8}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{F26A3F214A9DFE31}Prefabs/Items/Equipment/Radios/Radio_R107M_RF_6Sh117.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{75159504D0645621}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_SL.et"
+     Prefab "{75159504D0645622}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_SL.et"
     }
    }
   }
