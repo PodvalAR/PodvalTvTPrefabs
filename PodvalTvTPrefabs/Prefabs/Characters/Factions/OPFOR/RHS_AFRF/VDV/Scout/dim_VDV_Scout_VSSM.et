@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{E213D14B86B1CC6E}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{A6B9DDC35384FE80}Prefabs/Items/Equipment/Backpacks/Backpack_Suharka_type2.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{3EF5689DDFB53F1D}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_Marksman.et"
+     Prefab "{8A3B547F1C807A4C}Prefabs/Characters/Vests/Vest_6Sh117/variants/EMR/Vest_6Sh117_Pouches_Marksman.et"
     }
    }
   }

@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{4A62BF3DB9E7E3A8}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{2D0591BC71661B0C}Prefabs/Items/Equipment/Backpacks/6Sh117_Backpack/GD_6Sh117_Patrol_Backpack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{F8B4DCE3F81C16EB}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_Crew.et"
+     Prefab "{F8B4DCE3F81C16EC}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_Crew.et"
     }
    }
   }
