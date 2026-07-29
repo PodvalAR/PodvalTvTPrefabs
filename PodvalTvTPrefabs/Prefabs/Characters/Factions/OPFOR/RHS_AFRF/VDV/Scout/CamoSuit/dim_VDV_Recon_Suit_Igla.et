@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{9BE3309876F5FBBD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/CamoSuit/dim_VDV_Recon_Suit_Rfl.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Диверсант-зенитчик"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.226 -0.1392 0.1345
+    Angles 60 0 -180
+   }
+   WeaponTemplate "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et"
+  }
+ }
+ coords 2200.541 292.349 5405.333
+}

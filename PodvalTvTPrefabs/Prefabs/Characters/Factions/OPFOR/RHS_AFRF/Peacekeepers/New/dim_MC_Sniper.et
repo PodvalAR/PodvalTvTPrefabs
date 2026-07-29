@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{25919A731E43E20C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VDV_Summer/dim_VDV_Summer_SVD.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Снайпер-миротворец"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{00EA44BA297093A2}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/MC/Helmet_6B47_Cover_MC_1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5A18982D70772684}Prefabs/Characters/Uniforms/VKPO_Jacket/TF_Jacket_VKPO_rolledup.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{15790CE5F4C5BEFE}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Armband/MC/MC_6Sh117_6B45_Marksman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/slot4/Pouch_Ratnik_azart_pouch_new.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/appi/Pouch_Ratnik_Uni_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/slot3/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/slot2/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/holster/Pouch_Ratnik_GND_Pouch_4.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Jacket/TF_Jacket_VKPO_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{6947458FBFA9B02F}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{6947458FC10CD0CF}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/PistolHolster/GD_Ratnik_Holster.et"
+    }
+    ItemsInitConfigurationItem "{6947458FC17C8050}" {
+     TargetStorage "Vest/MC_6Sh117_6B45_Marksman.et/Mag_Holster/GD_Ratnik_PistolPouch.et"
+    }
+   }
+  }
+ }
+ coords 71.278 1 21.554
+}

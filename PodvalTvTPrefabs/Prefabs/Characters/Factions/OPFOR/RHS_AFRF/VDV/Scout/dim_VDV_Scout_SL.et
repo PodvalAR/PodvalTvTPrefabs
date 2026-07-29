@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_SL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0DF7B952FA3E28CA}Prefabs/Items/Equipment/Binoculars/IRONIA/IRONIAY_Binoculars.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Командир группы"
@@ -21,7 +32,7 @@ SCR_ChimeraCharacter : "{A467DC7A0F007B21}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{E05D8C4D2B36C8F3}Prefabs/Characters/Uniforms/Jacket_6b51_VKPO.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{3E96F1007C62980B}Prefabs/Characters/Vests/Vest_6Sh117/Vest_6SH117.et"
+     Prefab "{3E96F1007C62980B}Prefabs/Characters/Vests/Vest_6Sh117/GD_Vest_6SH117.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{36C06BDF4F6F212B}Prefabs/Characters/Uniforms/Pants_VKPO.et"

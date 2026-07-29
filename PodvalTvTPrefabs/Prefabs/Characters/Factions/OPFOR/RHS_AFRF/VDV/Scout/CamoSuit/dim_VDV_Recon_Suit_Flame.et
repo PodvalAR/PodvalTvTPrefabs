@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{7B401E039F20A62B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Goblin/dim_VDV_Scout_Flame_Goblin.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{3A5D8010CADF3CEF}UI/Icons/dim/GRU_Demolition.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F8AA2B3BADFCE19F}Prefabs/Weapons/Rifles/AK74M/dim_AK74M_SD_1.et"
   }
