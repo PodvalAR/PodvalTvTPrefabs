@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{F9AA837A128033E8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Char_RHS_TF_USMC_D_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E16BC55ECAF46BCD}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatWoodland.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6AB179C7B0A85B55}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_WD.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{68DAB33492420C29}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+   }
+  }
+ }
+ coords 105.016 1 238.81
+}

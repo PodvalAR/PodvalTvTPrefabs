@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{83484A8AC9A53960}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/dim_Role_Character_USMC_M82man_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4AA18920B79775BC}Prefabs/Characters/HeadGear/Hat_BoonieHat/GD_Bonnie_Hat_Marpat_W_Comtac.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CAAF09E83B1DC3C}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_WD.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6AB179C7B0A85B55}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_WD.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B18FBF7059854EB3}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_crewman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_WD.et"
+    }
+    ItemsInitConfigurationItem "{673857DA77281F31}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/radio/Pouch_152_Radio.et"
+    }
+    ItemsInitConfigurationItem "{673857DD2405DACE}" {
+     TargetStorage "Vest/Vest_PCGen_II_crewman.et/breeder/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{673857DD241CF7A1}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{673857DD24745121}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{673857DD278A0EA0}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E5627E2E5D13AB}" {
+     TargetStorage "Back/FILBE_hydration_pack.et"
+    }
+    ItemsInitConfigurationItem "{68E5627E29B5FC02}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68E5627E3A3F9786}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68E5627E48C4EC57}" {
+     TargetStorage "Jacket/Shirt_FROG_WD.et"
+    }
+   }
+  }
+ }
+ coords 119.693 1 237.835
+}
