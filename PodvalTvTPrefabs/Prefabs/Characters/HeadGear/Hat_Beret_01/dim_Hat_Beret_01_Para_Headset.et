@@ -1,0 +1,42 @@
+GameEntity : "{2170423C70156AE1}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5DC2CC888B69F182}" {
+    ItemDisplayName UIInfo "{5DC2CC888B69F186}" {
+     Name "Para Beret"
+     Description "A soft, round, flat-crowned cap worn by soldiers of the Parachute Regiment"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DC2CC888B69F17B}" {
+      PreviewPrefab "{6DEF58AC49FA36A2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_Para.et"
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{5DC2CC9398F45804}" {
+     SourceMaterial "beret"
+     AssignedMaterial "{6F95F2CC86F1BFF9}Assets/Characters/HeadGear/Beret/Data/beret_para.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Capbadge {
+     Prefab "{19C476A32745A09F}Prefabs/Characters/HeadGear/Hat_Beret_01/Capbadge_01_Para.et"
+    }
+    LoadoutSlotInfo Headset {
+     Prefab "{150CBCB5E706F291}Prefabs/Characters/HeadGear/Headphones_6M2/Headphones_6M2-1.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{6F95F2CC86F1BFF9}Assets/Characters/HeadGear/Beret/Data/beret_para.emat"
+   }
+   ItemMaterialsOverride {
+    "{6F95F2CC86F1BFF9}Assets/Characters/HeadGear/Beret/Data/beret_para.emat"
+   }
+  }
+ }
+}

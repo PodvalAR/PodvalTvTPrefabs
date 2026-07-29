@@ -1,0 +1,13 @@
+GameEntity : "{D2F0D8F655BBEF50}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_MICH2000_FR_A2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+   }
+  }
+ }
+ coords 29.433 1 75.633
+}

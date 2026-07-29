@@ -1,0 +1,42 @@
+GameEntity : "{B5FEEF292633187B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0015 0.1809
+     Prefab "{F2131FA4E55FD61C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_MC.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Offset 0.2798 0.0087 0.0186
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1738 -0.0047 0.1191
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset -0.2473 -0.0602 0.0375
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.2168 0.0905 -0.1077
+     Angles 1.088 -154.8781 -2.4541
+    }
+    LoadoutSlotInfo raid {
+     Enabled 0
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{1826E35CFC90A18B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Prefab "{1826E35CFC90A18B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MC.et"
+    }
+    LoadoutSlotInfo Tako2 {
+     Offset 0.1829 -0.0017 0.0965
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.2249 -0.0577 -0.0702
+    }
+   }
+  }
+ }
+ coords 50.779 1 95.467
+}

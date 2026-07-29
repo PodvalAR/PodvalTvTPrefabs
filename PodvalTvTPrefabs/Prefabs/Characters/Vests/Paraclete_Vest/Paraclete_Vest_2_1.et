@@ -1,0 +1,22 @@
+GameEntity : "{66DDDF6174C266B6}Prefabs/Characters/Vests/Paraclete_Vest/Paraclete_Vest_2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Hydrator {
+     PivotID "Spine5"
+     Offset -0.0136 -0.0563 -0.209
+     Angles 0.008 0 0
+     Prefab "{FDE38A9BF1166060}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+    LoadoutSlotInfo PASGT {
+     PivotID "Spine5"
+     Offset -0.0009 0.2969 0.0194
+     Angles -46.7392 13.9593 -3.064
+     Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
+    }
+   }
+  }
+ }
+ coords 42.378 1 48.294
+}

@@ -1,0 +1,50 @@
+GameEntity : "{6AACC58D09743363}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_6x6_MC.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0015 0.1809
+     Angles -0.0818 0 0
+    }
+    LoadoutSlotInfo HSGI {
+     Angles 2.5641 -138.6485 -6.0592
+    }
+    LoadoutSlotInfo raid {
+     Offset 0 -0.1569 0.1883
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.2372 0.0083 -0.0229
+    }
+    LoadoutSlotInfo pstl1 {
+     Offset 0.2255 -0.0203 0.0782
+     Angles -2.5413 -23.0342 4.4805
+    }
+    LoadoutSlotInfo pstl2 {
+     Offset 0.2152 -0.0221 0.1479
+    }
+    LoadoutSlotInfo flexcorset {
+     Offset 0.1712 -0.0074 0.1166
+     Angles -0.4603 52.1446 -1.016
+    }
+    LoadoutSlotInfo zip {
+     Offset 0.0044 0.1082 -0.2765
+     Angles -5.0556 0 0
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Offset 0.0038 0.2447 -0.3104
+    }
+    LoadoutSlotInfo MBITR {
+     PivotID "Spine5"
+     Offset -0.2277 0.0888 -0.0718
+     Angles -4.172 -22.3138 -4.4941
+     Prefab "{B1934198EEFDCB28}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+   }
+  }
+ }
+ coords 48.073 1 93.889
+}

@@ -1,0 +1,54 @@
+GameEntity : "{0A89EB81C806E998}Prefabs/Characters/Vests/Paraclete_Vest/Paraclete_Vest_1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Tako {
+     Offset -0.2193 0.0044 0.0233
+     Angles 1.2894 -81.5349 0.222
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1349 0.1995 0.1248
+     Angles 15.6246 -26.5426 -0.7103
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1697 0.0208 -0.0934
+     Angles -2.8847 122.1044 -2.0771
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo raid {
+     Prefab ""
+    }
+    LoadoutSlotInfo Tako2 {
+     Offset 0.0415 0.1803 0.197
+     Angles 9.5954 5.2278 -0.6423
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset -0.0334 0.1786 0.1984
+     Angles 9.522 0.9552 -1.3521
+    }
+    LoadoutSlotInfo Pouch4 {
+     Offset -0.1416 0.1019 0.1486
+     Angles 0 57.2496 0
+     Prefab "{8CFB0B559B9167A3}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_RGR.et"
+    }
+    LoadoutSlotInfo Holster {
+     Offset -0.1774 0.0155 -0.1078
+     Angles 0 -120 0
+     Prefab "{ADFB70D0C970680A}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_OD.et"
+    }
+    LoadoutSlotInfo Admin {
+     Offset 0.173 0.0094 0.0739
+     Angles 0 60.7335 0
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Admin_Small {
+     Offset 0.1903 0.0129 -0.0012
+     Angles 0 90 0
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+   }
+  }
+ }
+}

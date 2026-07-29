@@ -1,0 +1,30 @@
+GameEntity : "{834193987827F1DD}Prefabs/Characters/Vests/Paraclete_Vest/ParaClete_Vest_3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo saw {
+     Offset -0.1126 0.1088 0.1421
+     Angles 78.0492 65.5517 73.3552
+     MergePhysics 0
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Tako2 {
+     Offset 0.1818 -0.0013 0.0979
+     Angles -2.7361 62.7529 -2.5898
+     Prefab "{54FB65C34AC5F701}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_OD.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2144 0.0214 0.0362
+     Angles -2.1589 79.1763 -2.4098
+     Prefab "{05CD790F33DDF9D6}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_Olive.et"
+    }
+    LoadoutSlotInfo Admin {
+     Offset -0.0136 -0.0563 -0.209
+     Angles 0.008 0 0
+     Prefab "{FDE38A9BF1166060}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+   }
+  }
+ }
+}

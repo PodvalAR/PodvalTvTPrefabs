@@ -1,0 +1,67 @@
+GameEntity : "{F9FF94759C5F8EE2}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_rifleman_MC_1.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo arsbelt {
+     Offset -0.1726 0.0333 0.0504
+     Angles 8.3647 -65.386 -2.1652
+     Prefab "{3BACDF2B13C6ACFB}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    LoadoutSlotInfo arsbelt2 {
+     Offset -0.1873 0.0285 -0.0288
+     Angles 7.2483 -99.9631 -2.9591
+     Prefab "{3BACDF2B13C6ACFB}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    LoadoutSlotInfo medkit {
+     Offset 0.2294 0.0016 0.0895
+    }
+    LoadoutSlotInfo radio {
+     Offset -0.0788 0.176 -0.2083
+     Angles 0.3971 -77.0683 2.7134
+     Prefab "{B1934198EEFDCB28}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    LoadoutSlotInfo placard {
+     Offset 0.0001 0.0109 0.1775
+     Prefab "{83B93CF5F3C30807}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_MC.et"
+    }
+    LoadoutSlotInfo Grenade {
+     Offset -0.2355 -0.0374 -0.0774
+     Angles 1.5201 -107.3747 4.5911
+     Prefab "{03F98F190A971B35}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+    }
+    LoadoutSlotInfo grenade2 {
+     Offset -0.2401 -0.0456 0.0302
+     Prefab "{03F98F190A971B35}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+    }
+    LoadoutSlotInfo up101 {
+     Offset 0.0486 -0.0095 0.2322
+     Prefab "{8A36F9AB3D124774}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini_MC.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     Offset -0.0857 -0.005 0.2011
+     Angles -0.2593 -7.7617 1.8433
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo pistol3 {
+     Offset -0.184 -0.0069 0.1118
+     Angles -2.8477 -53.0813 0.6444
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo up118 {
+     Enabled 0
+     Prefab ""
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{AE35131FC72C7FB0}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MC.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{AE35131FC72C7FB0}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MC.emat"
+   }
+  }
+ }
+ coords 48.073 1 96.93
+}

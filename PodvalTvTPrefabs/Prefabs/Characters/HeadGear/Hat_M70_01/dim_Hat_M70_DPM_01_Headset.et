@@ -1,0 +1,42 @@
+GameEntity : "{B02281435AED8274}Prefabs/Characters/HeadGear/Hat_M70_01/Hat_M70_01.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{400CB696AE97DFC9}Assets/Characters/HeadGear/Cap_Combat/Game_CapCombat_Ground_01.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "Cap, Combat, DPM"
+     Description "Crap Hat/DILAC Cap"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D35767351900}" {
+      CameraOrbitAngles -25 205 0
+      CameraDistanceToItem 1.3
+      CameraOffset 0 0 0
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{6196E25106CE0FF9}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966F25983BD}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966F17017A5}" {
+      m_AffiliatedFactionKey "UK"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Prefab "{3FDA3C5B74681C25}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_liberator.et"
+    }
+   }
+   WornModel "{AE3329894AB9AB15}Assets/Characters/HeadGear/Cap_Combat/Game_CapCombat_01.xob"
+   ItemModel "{400CB696AE97DFC9}Assets/Characters/HeadGear/Cap_Combat/Game_CapCombat_Ground_01.xob"
+  }
+ }
+ coords -0.385 1 -0.459
+}

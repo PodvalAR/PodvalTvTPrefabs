@@ -1,0 +1,79 @@
+GameEntity : "{F0FA0DF11A3E941B}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_nobelt_Coy.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0.1252 0.0051 0.1385
+     Angles -2.4257 22.5572 -1.0073
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Pouch2 {
+     PivotID "Spine5"
+     Offset 0.0464 0.0051 0.1455
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.2066 0.0041 0.0415
+     Angles 1.2667 -76.8136 0.3275
+     Prefab "{C9BCDDA43BD4FF1E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP104_utilmini_OD.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1442 0.191 0.122
+     Angles 10.7281 -26.4809 -0.6962
+     Prefab "{32F26D53C5308498}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_MPU5PTT.et"
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1911 0.1165 -0.1065
+     Prefab "{8CFB0B559B9167A3}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_RGR.et"
+    }
+    LoadoutSlotInfo raid {
+     Offset -0.0353 0.2069 -0.1744
+     Angles 0 180 0
+     Prefab "{3015931F34E2E360}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_OD.et"
+    }
+    LoadoutSlotInfo Tako2 {
+     Offset 0.198 -0.0208 0.0951
+     Prefab "{DA55B848F410889F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2305 -0.0143 0.0157
+     Prefab "{E1E37169D010019F}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_OD.et"
+    }
+    LoadoutSlotInfo Pouch3 {
+     PivotID "Spine5"
+     Offset -0.066 0.0051 0.1455
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Pouch4 {
+     PivotID "Spine5"
+     Offset -0.1312 0.0051 0.1324
+     Angles 0 -32.7504 0
+     Prefab "{2A807DB952600900}Prefabs/Characters/Vests/RangerKits/Ranger_StanagPouch.et"
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine5"
+     Offset -0.0108 0.2017 0.135
+     Angles 56.7213 -120.9194 -21.7076
+     Prefab "{AC78A989D0DFC5FC}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS.et"
+    }
+    LoadoutSlotInfo Admin {
+     PivotID "Spine5"
+     Offset -0.0362 0.03 -0.1951
+     Angles 0 180 0
+     Prefab "{3015931F34E2E360}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP101_Admin_big_OD.et"
+    }
+    LoadoutSlotInfo Admin_Small {
+     PivotID "Spine5"
+     Offset 0.0986 0.0116 -0.1878
+     Angles 4.0939 170.99249 -90
+     Prefab "{582D5C69C9AFBB47}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP108_utillong_OD.et"
+    }
+   }
+  }
+ }
+ coords 34.975 1 48.478
+}
