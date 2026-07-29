@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{586213CB2AA63C4B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USAF/Recon/dim_USAF_Recon_Scout.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
