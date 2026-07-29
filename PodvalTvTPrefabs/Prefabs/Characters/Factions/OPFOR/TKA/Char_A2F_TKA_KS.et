@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{36E5DA331A302342}Prefabs/Characters/Factions/OPFOR/TKA/Char_A2F_TKA_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_KS"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F64A99AA43EBA3D2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{725839B30825C6D8}Prefabs/Characters/Uniforms/Jacket_M88_rolledup_Green.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E8CB964B2847B}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_Green.et"
+    }
+   }
+  }
+ }
+ coords 1398.712 138.116 6752.833
+ angles 0 -120 0
+}
