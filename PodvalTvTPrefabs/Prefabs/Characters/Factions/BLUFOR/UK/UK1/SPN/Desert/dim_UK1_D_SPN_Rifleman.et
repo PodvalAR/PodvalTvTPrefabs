@@ -1,0 +1,99 @@
+SCR_ChimeraCharacter : "{C48808BE18E1FC22}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/dim_UK1_SPN_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{072E87366E193577}Prefabs/Items/Equipment/Watches/Watch_SandY184A_UK.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FF358089A15B5520}Prefabs/Weapons/Rifles/M4A1/dim_M4_SAS.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FD28163329323B1F}Prefabs/Characters/HeadGear/Hat_M70_01/dim_Hat_M70_DPM_01_Headset.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A8A4A6C6C10F49AD}Prefabs/Characters/Uniforms/Jacket_British_Parka/GD_BWS_DDPM.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{04DBF29B11ECDF0A}Prefabs/Characters/Vests/Vest_Paraclete/dim_Vest_Paraclete_RAV_flag.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{12DE4B491BD275BB}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_UCP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F68F4352DA8882E6}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{94D7D897AC9ECB07}Prefabs/Characters/Vests/Paraclete_Vest/Paraclete_Vest_2_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69F6F60D0E37B815}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E10A2C7}" {
+     TargetStorage "Pants/GD_ACU_pants_UCP.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E67AA98}" {
+     TargetStorage "Vest/Paraclete_Vest_2_1.et/radio/Pouch_AVS_MBITR_Radio_RGR.et"
+     PrefabsToSpawn {
+      "{F4AE1135B6A78993}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_UK_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E7A3472}" {
+     Enabled 1
+     TargetStorage "Vest/Paraclete_Vest_2_1.et/Pouch1/Ranger_StanagPouch.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FD859E834}" {
+     TargetStorage "Vest/Paraclete_Vest_2_1.et/Pouch2/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBB1882F}" {
+     TargetStorage "Vest/Paraclete_Vest_2_1.et/Pouch3/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDB8AF0BC}" {
+     TargetStorage "Vest/Paraclete_Vest_2_1.et/Pouch4/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBE2A488}" {
+     TargetStorage "Jacket/GD_BWS_DDPM.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9236}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FF972A233}" {
+     TargetStorage "Vest/Paraclete_Vest_2_1.et/Tako/Pouch_UP105_utilbig_base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+ coords 39.515 0.997 49.484
+}

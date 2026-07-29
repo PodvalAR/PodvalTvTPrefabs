@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{D78C81E5EC135DB0}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/Desert/dim_UK1_D_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6F08B1491594DCF6}Prefabs/Weapons/MachineGuns/M249/MG_M249_ACOG.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{667549099D32BEA2}Prefabs/Characters/HeadGear/Hat_Beret_01/dim_Hat_Beret_01_Khaki_Headset.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{28CDB52D1DBAAB57}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_DDPM.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69F6F60D0E37B815}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E10A2C7}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E67AA98}" {
+     TargetStorage "Jacket/GD_BWS_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E7A3472}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FD859E834}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBB1882F}" {
+     TargetStorage "Vest/Vest_ALICE_AR.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDB8AF0BC}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBE2A488}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{69F6F60FF972A233}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 18.506 1 71.069
+}

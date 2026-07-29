@@ -1,0 +1,95 @@
+SCR_ChimeraCharacter : "{D78C81E5EC135DB0}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/Desert/dim_UK1_D_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F96BBA7B329ADC1A}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Scout"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{85EA3632DA922609}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_MC51/dim_ARY_Rifle_MC51SD4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{A70331DBEE33975C}Prefabs/Characters/Uniforms/Jacket_British_Parka/GD_BWS_DPM.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{28CDB52D1DBAAB57}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_DDPM.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{60DF9F0FA143A373}Prefabs/Characters/Vests/Paraclete_Vest/Paraclete_Vest_3_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+    LoadoutSlotInfo FaceSlot {
+     Enabled 0
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69F6F60D0E37B815}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E10A2C7}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E67AA98}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/radio/Pouch_AVS_MBITR_Radio_RGR.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E7A3472}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/Tako2/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FD859E834}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/m18_1/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBB1882F}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/Pouch3/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDB8AF0BC}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/Pouch3/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBE2A488}" {
+     TargetStorage "Jacket/GD_BWS_DPM.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F60FF972A233}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/Tako/Pouch_UP105_utilbig_base.et"
+    }
+    ItemsInitConfigurationItem "{69F6F6099D41BBB1}" {
+     TargetStorage "Vest/Paraclete_Vest_3_1.et/Pouch4/Ranger_StanagPouch.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 33.563 1 49.554
+}
