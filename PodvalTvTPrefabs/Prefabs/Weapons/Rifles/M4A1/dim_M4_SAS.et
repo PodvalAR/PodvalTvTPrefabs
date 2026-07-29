@@ -1,0 +1,19 @@
+GenericEntity : "{21F461A37ED516EA}Prefabs/Weapons/Rifles/M4A1/M4_2008_USMC.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6188691D38DA6E2D}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC2.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 41.74 1.162 68.065
+}

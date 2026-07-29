@@ -1,0 +1,13 @@
+GenericEntity : "{B58128A159C049D0}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/ARY_Rifle_G3A3_Quality_WideBlack.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+    }
+   }
+  }
+ }
+ coords 3314.701 2.004 6432.104
+}

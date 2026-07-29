@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0C4F55D97AC3B090}Prefabs/Weapons/Rifles/ARY_G3/ARY_PSG1/dim_ARY_Rifle_G3_PSG1_Scoped.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
