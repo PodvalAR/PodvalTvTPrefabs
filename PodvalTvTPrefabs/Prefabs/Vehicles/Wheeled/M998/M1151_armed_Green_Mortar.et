@@ -1,0 +1,18 @@
+Vehicle : "{36CFD2EC7644EFF2}Prefabs/Vehicles/Wheeled/M998/M1151_armed_Green.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Enabled 1
+      Prefab "{039F825B8B83B86D}Prefabs/Props/Military/AmmoBoxes/drg_AmmoBox_81mm_mortar_10rnd_HE.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+ coords 2639.294 216.583 10523.304
+ angles -0.895 180 0
+}

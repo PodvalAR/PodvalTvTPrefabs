@@ -1,0 +1,19 @@
+Vehicle : "{EDEAE951AFF2A836}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_SWB_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65949A0452B0712D}" {
+     SourceMaterial "lr_3series_body"
+     AssignedMaterial "{1D196D6B3825E237}Assets/Vehicles/Wheeled/LR3Series/Data/Civvie/lr_3series_body_civvie_Sand.emat"
+    }
+    MaterialAssignClass "{6594D82251EE50D5}" {
+     SourceMaterial "lr_3series_body_swb"
+     AssignedMaterial "{2590C43036F5AA0B}Assets/Vehicles/Wheeled/LR3Series/Data/Civvie/lr_3series_body_swb_civvie_Sand.emat"
+    }
+   }
+  }
+ }
+ coords 5248.334 228.404 3526.063
+ angles 0 -120 0
+}

@@ -1,0 +1,25 @@
+Vehicle : "{7009ED8FBA7A1E7E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer_sand.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69FB06EC4C0724DA}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{86C0F62FDED7BA56}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_TKA.emat"
+    }
+    MaterialAssignClass "{69FB06EC4C0724CA}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{402A0ED342929F03}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_TKA.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C58171230A92}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65C300964ED41EAF}" {
+     NumSlots 200
+    }
+   }
+  }
+ }
+ coords 1342.983 134.718 6613.494
+}

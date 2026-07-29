@@ -1,0 +1,14 @@
+Vehicle : "{7F0CE77CBE1A1F65}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Camo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0.0039 0.9648 -0.3154
+     Prefab "{8C36D48C7EB2EE5A}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GPK_Gunner_Hatch_Closed.et"
+    }
+   }
+  }
+ }
+ coords 2632.684 217.219 10467.157
+}
