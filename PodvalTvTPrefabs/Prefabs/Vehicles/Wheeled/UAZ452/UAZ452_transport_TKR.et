@@ -1,0 +1,17 @@
+Vehicle : "{F57C79AD8C847276}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_CDF.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo FIA_CoatOfArms_decal {
+     Enabled 0
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 1713.333 139.579 3777.082
+}
