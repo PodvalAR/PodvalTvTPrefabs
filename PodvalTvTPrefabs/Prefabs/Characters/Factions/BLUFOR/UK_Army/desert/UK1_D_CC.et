@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{B369B82E767085D0}Prefabs/Characters/Factions/BLUFOR/UK_Army/desert/UK1_Rifleman_D.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_CC"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D4610EEE10A5AA72}Prefabs/Weapons/Rifles/MP5/dim_Rifle_MP5K.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FAF0D7C64A19CA8D}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01_UK.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{CFB5AA95F996BC65}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{694ACE15C73D759E}" {
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{694ACE15C73D759F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{694ACE15C73D7580}" {
+     PrefabsToSpawn {
+      "{CE179546A16382BA}Prefabs/Weapons/Grenades/Grenade_L2A2.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5516.931 123.219 5726.724
+}

@@ -1,0 +1,26 @@
+GenericEntity : "{A58071B2E64881B9}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#ary-g3-magazine-20rnd-alu-dm151-name"
+     Description "#ary-g3-magazine-alu-dm151-description"
+    }
+    CommonItemType "RHS_RIFLE_AMMO"
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#ary-g3-magazine-20rnd-alu-dm151-name"
+    Description "#ary-g3-magazine-alu-dm151-description"
+    m_sAmmoType "#ary-g3-ammo-dm151-name"
+    m_eAmmoTypeFlags AP
+   }
+   AmmoMapping {
+    2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+   }
+  }
+ }
+ coords 123.877 2 131.846
+}

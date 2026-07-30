@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{D78C81E5EC135DB0}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/Desert/dim_UK1_D_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{9065E77698E63C1B}Prefabs/Items/Equipment/Binoculars/Binoculars_L12A1_Avimo.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_TeamLeader"
+    Icon "{FE2FFF1498C603D2}UI/Icons/dim/SAS_TL.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0B262DD9B6D67DFE}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_DPM_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{28CDB52D1DBAAB57}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_DDPM.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{0A89EB81C806E998}Prefabs/Characters/Vests/Paraclete_Vest/Paraclete_Vest_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69F6F60D0E37B815}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E10A2C7}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E67AA98}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/radio/Pouch_AVS_MBITR_Radio_RGR.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E7A3472}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Pouch2/Ranger_StanagPouch.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60FD859E834}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Pouch3/Ranger_StanagPouch.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBB1882F}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Pouch4/Ranger_StanagPouch.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60FDB8AF0BC}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Pouch1/Ranger_StanagPouch.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60FDBE2A488}" {
+     TargetStorage "Jacket/GD_BWS_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60FF972A233}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Tako2/Pouch_GP106_RGD_Pouch_2_OD.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F608558E3C96}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/m18_1/Pouch_GP106_RGD_Pouch_OD.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F6085D86D836}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Tako/Pouch_UP104_utilmini_OD.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et" "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F6F6087FDB13CF}" {
+     TargetStorage "Vest/Paraclete_Vest_1.et/Holster/GD_Holster_SLS.et"
+     PrefabsToSpawn {
+      "{D9889FC9DB8C06C0}Prefabs/Weapons/Handguns/HiPower/Handgun_HiPower.et"
+     }
+    }
+   }
+  }
+ }
+ coords 29.348 1 50.108
+}

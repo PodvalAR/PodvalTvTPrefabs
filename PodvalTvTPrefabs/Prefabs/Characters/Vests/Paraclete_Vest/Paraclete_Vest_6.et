@@ -1,0 +1,41 @@
+GameEntity : "{0A89EB81C806E998}Prefabs/Characters/Vests/Paraclete_Vest/Paraclete_Vest_1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Tako {
+     Offset -0.1937 0.0942 0.0638
+     Angles -0.3274 13.1792 -1.7832
+     Prefab "{8CFB0B559B9167A3}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_RGR.et"
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.0531 0.1701 0.1502
+     Angles -4.692 168.5722 -162.5126
+     Prefab "{5B95A623EEA9D547}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_TV119_Torniquet.et"
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1971 0.063 -0.0758
+     Angles -0.0968 117.6166 -2.0732
+     Prefab "{D350D54887293B29}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP105_utilbig_OD.et"
+    }
+    LoadoutSlotInfo raid {
+     Offset -0.1834 -0.0003 -0.1068
+     Angles -3.7631 -119.5448 0.9755
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+    }
+    LoadoutSlotInfo Holster {
+     Offset 0.0919 0.1122 0.16
+     Angles 85.7609 -169.7653 180
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Admin {
+     Prefab ""
+    }
+    LoadoutSlotInfo Admin_Small {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 40.757 1 48.478
+}

@@ -12,6 +12,11 @@ SCR_ChimeraCharacter : "{B93672749A2623AD}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{99A301CD161E2F16}UI/Icons/dim/GRU_Rifleman.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{F8AA2B3BADFCE19F}Prefabs/Weapons/Rifles/AK74M/dim_AK74M_SD_1.et"
   }

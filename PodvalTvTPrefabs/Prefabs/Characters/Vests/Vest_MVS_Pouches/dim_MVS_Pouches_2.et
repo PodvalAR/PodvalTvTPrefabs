@@ -1,0 +1,45 @@
+GameEntity : "{9E6B8BFB0BFBEC2E}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0015 0.1809
+     Angles -0.0818 0 0
+    }
+    LoadoutSlotInfo HSGI {
+     Offset 0.2455 -0.0008 -0.1185
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.2201 0.0898 -0.0948
+     Angles -4.9143 -16.1241 -4.2724
+    }
+    LoadoutSlotInfo tako {
+     Angles 4.011 -43.2571 4.6209
+    }
+    LoadoutSlotInfo flex {
+     Offset -0.1822 -0.0108 0.0929
+    }
+    LoadoutSlotInfo m18 {
+     Offset 0.2121 -0.0613 0.097
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset 0.2429 -0.0546 0.0085
+    }
+    LoadoutSlotInfo flex2 {
+     Offset -0.214 -0.0143 0.0077
+     Angles -3.6531 -77.6464 4.9841
+    }
+    LoadoutSlotInfo pistol1 {
+     Offset -0.2294 -0.0332 0.1098
+     Angles -0.1279 -160.2691 4.9125
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset -0.2625 -0.0347 0.0151
+     Angles 5.7061 -168.4744 2.8217
+    }
+   }
+  }
+ }
+ coords 48.073 1 93.889
+}

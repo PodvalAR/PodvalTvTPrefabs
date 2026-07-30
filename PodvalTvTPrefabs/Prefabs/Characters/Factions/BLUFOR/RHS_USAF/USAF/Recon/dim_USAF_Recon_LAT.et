@@ -1,0 +1,82 @@
+SCR_ChimeraCharacter : "{5ED534ADC95D6EFA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_LAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{E85E8BD434DA1C6A}UI/Icons/berret.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{03ECC15DE6CCCB5F}Prefabs/Characters/Headwear/ACU_cap/ACU_cap.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B19F6A3318D2D57C}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9B26DF342C22CB68}Prefabs/Characters/Vests/Vest_MSV_Gen_II/Vest_MSV_II_base.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9A930120B47A2E2E}Prefabs/Characters/Vests/Vest_MVS_Pouches/dim_MVS_Pouches_Rfl.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A00A6AAA7D386F}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/pistol3/Pouch_Shaw_Flex_MC.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A00A6AAA6E64F1}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{68A09108178F884E}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/placard/Pouch_avs_front_elastic_MC.et"
+    }
+    ItemsInitConfigurationItem "{68A09108EC150941}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/arsbelt/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{68A09108FF4B9DE6}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/arsbelt2/Pouch_PCGEN3_takoPouch_MC.et"
+    }
+    ItemsInitConfigurationItem "{68A09108A8FD2A08}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/pistol1/Pouch_Shaw_Flex_MC.et"
+    }
+    ItemsInitConfigurationItem "{69F913B273BD1859}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/Grenade/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F913B27396BF9D}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/grenade2/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F913B273EE1F66}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/pistol/Pouch_GP106_RGD_Pouch_2_MC.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F913B273C7824E}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Rfl.et/holster/Pouch_HP103_Holster_MC.et"
+     PrefabsToSpawn {
+      "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69F913B273D9394C}" {
+    }
+   }
+  }
+ }
+ coords 37.382 1 103.806
+}

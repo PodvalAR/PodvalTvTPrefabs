@@ -1,0 +1,13 @@
+GenericEntity : "{3907380EF32083DB}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_MC51/ARY_Rifle_MC51A4.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+    }
+   }
+  }
+ }
+ coords 21.611 1.099 80.745
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BB954C5B49D909AD}Prefabs/Characters/HeadGear/Helmet_Mk6_01/dim_BF89_Helmet_Mk6_Cover_Goggle.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

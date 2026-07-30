@@ -1,0 +1,136 @@
+GameEntity : "{AA074754692261B1}Prefabs/Characters/Core/VestArmored_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{69F6F63AF10A0E43}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{69F6F63AF10A0E34}" {
+    ItemDisplayName UIInfo "{69F6F63AF10A0E33}" {
+     Name "#AR-Vest_6B2_Name"
+     Description "#AR-Vest_6B2_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F6F63AF10A0E2F}" {
+     Weight 4.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69F6F63AF10A0E2A}" {
+      CameraDistanceToItem 3.7
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+    m_Size SLOT_2x2
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{95F3981109D2B66F}Assets/Characters/Vests/Vest_Paraclete/Vest_Paraclete_RAV.xob"
+  }
+  RHS_ClothNodeStorageComponent "{69F6F63AF10A0E26}" {
+   Attributes SCR_ItemAttributeCollection "{69F6F63AF10A0E24}" {
+    ItemDisplayName UIInfo "{69F6F63AF10A0E22}" {
+     Name "MSA Paraclete RAV"
+     Description "a modular, high-end body armor system designed primarily for military and law enforcement use. It was widely used by U.S. Special Operations Forces (SOF), particularly during the early 2000s, including in Iraq and Afghanistan during the GWOT (Global War On Terror)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{69F6F63AF10A0E23}" {
+     Weight 0.98
+     SizeSetupStrategy Volume
+     ItemDimensions 15 15 15
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{69F6F63AF10A0E21}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 20
+      PreviewModel "{95F3981109D2B66F}Assets/Characters/Vests/Vest_Paraclete/Vest_Paraclete_RAV.xob"
+     }
+     SCR_ArmoredClothItemData "{69F6F63AF10A0E1D}" {
+      m_aProtectedHitZones {
+       "Chest"
+      }
+      m_aProtectedDamageTypes {
+      }
+      m_eProtection TYPE_IIA
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   StoragePurpose 0x40 0x1
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 0.1
+   MaxItemSize 10 10 10
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   SimState Simulation
+   Kinematic 1
+  }
+  SCR_ArmorDamageManagerComponent "{62D6849E44DF20AC}" {
+   "Additional hit zones" {
+    SCR_HitZone Armor {
+     ColliderNames {
+      "UTM_Vest_Paraclete_RAV_FireGeo_01" "UTM_Vest_Paraclete_RAV_FireGeo_02"
+     }
+    }
+   }
+   m_fPassedDamageScale 0.4
+  }
+  SCR_ItemOutfitFactionComponent "{69F6F63AF10A0E16}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{69F6F63AF10A0E12}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{69F6F63AF10A0E04}" {
+      m_AffiliatedFactionKey "RHS_USAF"
+      m_iOutfitFactionValue 20
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ArmorPlate_Front {
+     Prefab "{88E31AB238FFCB0A}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Front.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPIFrontPlateSlotArea "{69F6F63AF10A0EFE}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Back {
+     Prefab "{1B4129A0C0C752A3}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Back.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPIBackPlateSlotArea "{69F6F63AF10A0EFD}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Right {
+     Prefab "{5A047A7C413EE006}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Right.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPILeftPlateSlotArea "{69F6F63AF10A0EFA}" {
+     }
+    }
+    LoadoutSlotInfo ArmorPlate_Left {
+     Prefab "{9ADA1F5B703C1980}Prefabs/Characters/Vests/Vest_PCGen_III/Plates/DestructibleArmorPlate_PCGenIII_ESAPIrevJ_Left.et"
+     InheritParentSkeleton 1
+     AreaType RHS_LoadoutSAPILeftPlateSlotArea "{69F6F63AF10A0EFB}" {
+     }
+    }
+    RHS_LoadoutSlotInfo Chestvelcro {
+     PivotID "Spine5"
+     Offset 0 0.2677 0.1231
+     Angles 23.1165 0 0
+     Prefab "{2310A5C3FC6AD5E7}Prefabs/Items/Patches/GD_UK_Patch_Color.et"
+     InspectionWidgetOffset 0 1.438 0.0943
+     AreaType RHS_LoadoutMediumVelcroSlotArea "{69F6F63AF10A0EF9}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.5
+     m_sInspectIconTexture "{72869FB002B6ABC2}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-M-alt-UI.edds"
+    }
+   }
+   WornModel "{95F3981109D2B66F}Assets/Characters/Vests/Vest_Paraclete/Vest_Paraclete_RAV.xob"
+   ItemModel "{289E62EFE50DDDAD}Assets/Characters/Vests/Vest_Paraclete/Vest_Paraclete_RAV_Item.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   DepthFront 0.03
+  }
+ }
+ coords 3022.133 140.719 7849.919
+}

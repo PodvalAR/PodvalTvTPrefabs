@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 0.675
+ BCRMap "{3413D4CB0693524D}Assets/Characters/Glove/Data/T_Glove_BC.edds"
+ NMOMap "{25DFD80E48856700}Assets/Characters/Glove/Data/MODEL for texturing_Glove_Normal.edds"
+}

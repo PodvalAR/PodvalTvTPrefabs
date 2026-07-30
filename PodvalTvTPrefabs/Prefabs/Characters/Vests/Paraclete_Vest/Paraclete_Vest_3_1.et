@@ -1,0 +1,32 @@
+GameEntity : "{834193987827F1DD}Prefabs/Characters/Vests/Paraclete_Vest/ParaClete_Vest_3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Enabled 0
+    }
+    LoadoutSlotInfo Admin {
+     Offset 0 0.3012 0.0177
+     Angles -47.1399 0 0
+     Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
+    }
+    LoadoutSlotInfo Carbine {
+     Offset 0.0864 0.0645 0.1482
+     Angles -7.9387 175.1219 -50.0901
+    }
+    LoadoutSlotInfo Carabine2 {
+     Offset 0.0348 0.0579 0.1643
+     Angles -5.9112 164.2103 11.2296
+    }
+    LoadoutSlotInfo Hydrator {
+     PivotID "Spine5"
+     Offset -0.0136 -0.0563 -0.209
+     Angles 0.008 0 0
+     Prefab "{FDE38A9BF1166060}Prefabs/Characters/Vests/Vest_IMTV/Pouches/Pouch_Eagle_Ind_Hydrator_Pack_RG.et"
+    }
+   }
+  }
+ }
+ coords 40.757 1 48.478
+}

@@ -4,7 +4,7 @@ SCR_ChimeraCharacter : "{9BE3309876F5FBBD}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Диверсант-сапер"
-    Icon "{DE9F30CD054BA54B}UI/Icons/sabateur_demolition.edds"
+    Icon "{3A5D8010CADF3CEF}UI/Icons/dim/GRU_Demolition.edds"
    }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {

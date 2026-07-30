@@ -1,0 +1,13 @@
+GameEntity : "{2170423C70156AE1}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Prefab "{150CBCB5E706F291}Prefabs/Characters/HeadGear/Headphones_6M2/Headphones_6M2-1.et"
+    }
+   }
+  }
+ }
+ coords 18.698 1 72.423
+}

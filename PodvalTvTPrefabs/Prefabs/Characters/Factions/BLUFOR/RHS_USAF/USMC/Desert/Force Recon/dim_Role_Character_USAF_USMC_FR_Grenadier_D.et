@@ -7,10 +7,10 @@ SCR_ChimeraCharacter : "{A0D97D555EAC6433}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{69A029C4B6390FAD}Prefabs/Characters/HeadGear/USMC_Boonie_Hat/GD_USMC_Boonie_Hat_D.et"
+     Prefab "{69A029C4B6390FAD}Prefabs/Characters/HeadGear/Hat_BoonieHat/GD_USMC_Boonie_Hat_D.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A04}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
     }
    }
   }

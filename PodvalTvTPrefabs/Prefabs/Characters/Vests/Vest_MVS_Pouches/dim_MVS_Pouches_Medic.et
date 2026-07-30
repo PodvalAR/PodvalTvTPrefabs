@@ -1,0 +1,41 @@
+GameEntity : "{BC57726C23C22440}Prefabs/Characters/Vests/Vest_MVS_Pouches/dim_MVS_Pouches_1.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{0A27B2BB9096D36F}Assets/Characters/Belts/Belt_Okinawa/belt_okinawa.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 -0.0207 0.0458
+     Prefab "{6F0BA7B4993F31E3}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
+    }
+    LoadoutSlotInfo m67_1 {
+     Offset 0.1677 0.0171 -0.1218
+     Angles 8.8993 139.06371 4.1935
+    }
+    LoadoutSlotInfo m67_2 {
+     Offset 0.0966 0.0158 -0.1599
+     Angles 11.2872 157.96429 0.0564
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "Spine1"
+     Offset 0.2079 -0.009 -0.0126
+     Angles 0 0 -1.616
+     Prefab "{B70CF0AE4683D6D0}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_Tan.et"
+    }
+    LoadoutSlotInfo Medkit {
+     PivotID "Spine5"
+     Offset -0.0024 -0.0107 0.233
+     Prefab "{14720E0E98478512}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big_MC.et"
+    }
+    LoadoutSlotInfo Scissors {
+     PivotID "Spine5"
+     Offset 0.1414 0.0438 0.1469
+     Angles 80.3646 65.7325 21.1092
+     Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+GenericEntity : "{6027AF01487084D8}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_urban_patrol.et" {
+ ID "526492DCB8322C65"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{BF31C00AB7E87A44}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Buttpack {
+     Prefab "{9A21918AC35AC182}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+    }
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset -0.0067 -0.1445 0
+     Angles 0 -180 0
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+    LoadoutSlotInfo Goggles {
+     PivotID "Spine5"
+     Offset 0 0.2578 -0.006
+     Angles -60.6034 0 0
+     Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
+    }
+   }
+  }
+ }
+ coords 23.477 1 72.962
+}

@@ -3,7 +3,13 @@ GameEntity : "{86FE7EA528978CEB}Prefabs/Characters/Handwear/Gloves_Leather_01/Gl
  components {
   BaseLoadoutClothComponent "{5DF2774268A6E4AA}" {
    WornModel "{AB0E0461D261ABF7}Assets/Characters/Glove/Glove.xob"
+   WornMaterialsOverride {
+    "{3A6D8B8EF0E52D0F}Assets/Characters/Glove/Data/dim_Glove.emat"
+   }
    ItemModel "{8B65B818E48D1976}Assets/Characters/Glove/Glove_item.xob"
+   ItemMaterialsOverride {
+    "{3A6D8B8EF0E52D0F}Assets/Characters/Glove/Data/dim_Glove.emat"
+   }
   }
  }
  coords 2858.264 10 3072.336
