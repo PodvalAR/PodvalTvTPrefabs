@@ -1,11 +1,17 @@
 SCR_ChimeraCharacter : "{D5B6358321844788}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/ColdWar/dim_ION_CW_TL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterFactionAffiliationComponent "{6239642BBB275066}" {
+   "faction affiliation" "Ses_NAPA"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Старший стрелок-повстанец"
     Icon "{9BEC8B891B893C04}UI/Icons/terrorist_leader.edds"
     m_sFaction "Ses_NAPA"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_Ses_NAPA
+    }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -21,6 +27,7 @@ SCR_ChimeraCharacter : "{D5B6358321844788}Prefabs/Characters/Factions/INDFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
      PrefabsToSpawn {
       "{F0FE50B01B98C67A}Prefabs/Items/Equipment/Radios/Radio_R148_NAPA_Multi.et"
      }

@@ -1,11 +1,17 @@
 SCR_ChimeraCharacter : "{F0A1E261525F800C}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/ColdWar/dim_ION_CW_Medic.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterFactionAffiliationComponent "{6239642BBB275066}" {
+   "faction affiliation" "Ses_NAPA"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Медик-повстанец"
     Icon "{702AB9F4CD4CF5A2}UI/Icons/terrorist.edds"
     m_sFaction "Ses_NAPA"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_Ses_NAPA
+    }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

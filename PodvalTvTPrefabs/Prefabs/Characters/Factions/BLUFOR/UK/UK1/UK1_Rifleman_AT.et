@@ -12,6 +12,13 @@ SCR_ChimeraCharacter : "{9DE6729107141074}Prefabs/Characters/Factions/BLUFOR/UK/
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FC513D8A3D4F641B}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Cover_01.et"
+    }
+   }
+  }
  }
  coords 7643.113 36.469 2075.453
 }

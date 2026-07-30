@@ -1,10 +1,16 @@
 SCR_ChimeraCharacter : "{7DDD72E8B1279A4E}Prefabs/Characters/Factions/INDFOR/RHS_ION/Semi-Elite/ColdWar/dim_ION_CW_Officer.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterFactionAffiliationComponent "{6239642BBB275066}" {
+   "faction affiliation" "Ses_NAPA"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Командир-повстанец"
     m_sFaction "Ses_NAPA"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_Ses_NAPA
+    }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -14,6 +20,9 @@ SCR_ChimeraCharacter : "{7DDD72E8B1279A4E}Prefabs/Characters/Factions/INDFOR/RHS
    Slots {
     LoadoutSlotInfo ArmoredVest {
      Prefab "{AA5BAD3BE4FFAE3A}Prefabs/Characters/Vests/Vest_6B2/drg_Vest_6B2_FIA.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{78FE382AC114F152}Prefabs/Items/Equipment/Radios/dim_Radio_NAPA.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{1033EBAF2CD0FD52}Prefabs/Characters/Vests/Vest_58Pattern/Variants/Vest_P58_rifleman_2.et"
