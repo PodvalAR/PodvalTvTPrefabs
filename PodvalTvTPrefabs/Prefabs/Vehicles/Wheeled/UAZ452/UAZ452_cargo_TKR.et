@@ -6,6 +6,9 @@ Vehicle : "{17C7BC2F234DC253}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CDF.et
     m_sFaction "Ses_TKR"
    }
   }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKR"
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     EntitySlotInfo FIA_CoatOfArms_decal {
@@ -15,5 +18,6 @@ Vehicle : "{17C7BC2F234DC253}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_cargo_CDF.et
    }
   }
  }
- coords 1709.179 139.726 3786.916
+ coords 1704.643 139.605 3752.927
+ m_sAttachmentGroupName ""
 }

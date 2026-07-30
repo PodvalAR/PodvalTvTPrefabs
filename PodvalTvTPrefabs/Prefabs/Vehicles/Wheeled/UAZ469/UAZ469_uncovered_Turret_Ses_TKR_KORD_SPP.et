@@ -6,6 +6,9 @@ Vehicle : "{C259537CF2AC1053}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Tu
     m_sFaction "Ses_TKR"
    }
   }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKR"
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo FIA_CoatOArms_decal {
@@ -15,5 +18,5 @@ Vehicle : "{C259537CF2AC1053}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Tu
    }
   }
  }
- coords 1712.334 139.989 3797.31
+ coords 1703.346 139.622 3756.254
 }
