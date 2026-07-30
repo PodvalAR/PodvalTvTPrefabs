@@ -6,6 +6,9 @@ Vehicle : "{9B4F4245F8F62C70}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Tu
     m_sFaction "Ses_TKR"
    }
   }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKR"
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo FIA_CoatOArms_decal {
