@@ -1,0 +1,17 @@
+GenericEntity : "{52327EA0926E4EC7}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USAF.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{AA4879B1989DE6D7}Assets/Props/Fabric/Flags/Data/dim_Flag_1_2_Latvia.emat"
+  }
+  BaseActionsManagerComponent "{6202D4E6F133BF4A}" {
+   additionalActions {
+    PS_FlagChangeAction "{6202D4E6A53D4B3C}" {
+     m_bUseAnimation 1
+    }
+   }
+  }
+ }
+ coords 6543.25 75.672 6240.36
+ angles 0 45 30
+}
