@@ -1,0 +1,15 @@
+GenericEntity : "{318C9F9EFDD05516}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/dim_ARY_Rifle_G3A3_Quality_SlimBlack_Opt.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65F73688A412FC01}" {
+     AttachmentSlot InventoryStorageSlot "{65F73688A0F87C60}" {
+      Prefab "{12A4EED229D44180}Prefabs/Weapons/Attachments/Optics/ARY_Optic_ZF4/ARY_Optic_Z24_4x_Quality.et"
+     }
+    }
+   }
+  }
+ }
+ coords 91.714 1 220.104
+}

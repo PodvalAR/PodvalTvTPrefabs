@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1C00783E1F44FA7C}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/dim_ARY_Rifle_G3A3_Quality_SlimBlack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
