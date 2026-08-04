@@ -1,0 +1,15 @@
+Vehicle : "{658B80A790C7EFA7}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_9M114.et" {
+ ID "57DA6675519A417B"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{2FFB1076C8040CB4}Prefabs/Vehicles/Helicopters/Mi24/VehParts/Weapons/Mi24_Turret_base.et"
+    }
+   }
+  }
+ }
+ coords 14346.586 51.237 11997.48
+ angles 0 147.88 0
+ m_sAttachmentGroupName "RUS7"
+}
