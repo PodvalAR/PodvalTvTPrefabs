@@ -32,6 +32,7 @@ SCR_ChimeraCharacter : "{777E57D1BCD9EB5F}Prefabs/Characters/Factions/INDFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Back/Backpack_Kolobok.et"
      PrefabsToSpawn {
       "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et" "{1F88B4FC3FFD61CC}Prefabs/Weapons/Magazines/Magazine_762x51_Bren_Commonwealth_30rnd_AP.et"
      }
