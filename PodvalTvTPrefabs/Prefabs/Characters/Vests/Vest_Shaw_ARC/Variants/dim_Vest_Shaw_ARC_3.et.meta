@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5D52A79FA5CFF7A3}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/dim_Vest_Shaw_ARC_3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
