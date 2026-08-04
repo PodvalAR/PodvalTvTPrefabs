@@ -1,0 +1,19 @@
+GenericEntity : "{07D382F5CD1F543F}Prefabs/Weapons/Rifles/HK416A5/dim_Rifle_HK416A5_Var2.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{696ADB536E8B0718}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 85.719 1 226.9
+}
