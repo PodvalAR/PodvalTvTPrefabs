@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{5C0AE331B3038BC7}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6895089E4D87A991}" {
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
+    }
+    ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
+    }
+   }
+  }
+ }
+ coords 2174.233 100.314 3388.317
+}
