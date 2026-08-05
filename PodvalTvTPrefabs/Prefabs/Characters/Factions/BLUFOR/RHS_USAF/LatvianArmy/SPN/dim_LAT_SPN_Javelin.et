@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{B43AF1F19BC4C338}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/SPN/dim_LAT_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0299 -0.1961 0.004
+   }
+   WeaponTemplate "{246737687711A367}Prefabs/Weapons/Launchers/FGM148_Javelin/Launcher_FGM148_Javelin.et"
+  }
+ }
+ coords 6174.828 57.262 6049.623
+}

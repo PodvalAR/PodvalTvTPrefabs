@@ -1,0 +1,33 @@
+GameEntity : "{D4C9D29307ABAE44}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/dim_Vest_Shaw_ARC_preset_placard_coy.et" {
+ ID "6584F7DC1A90A8C7"
+ components {
+  BaseLoadoutClothComponent "{6584F7DC1A90A88E}" {
+   Slots {
+    LoadoutSlotInfo placard {
+     Prefab "{FBC306A177DF1621}Prefabs/Characters/Vests/Vest_Shaw_ARC_Pouches/Pouch_Shaw_Placard_4Mags_Coy.et"
+    }
+    LoadoutSlotInfo raid {
+     Offset 0 -0.1258 0.1827
+     Angles -10.8808 0 0
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset -0.0004 0.006 0.2135
+     Angles -4.9116 4.1009 -0.3517
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo pistol3 {
+     Offset -0.0833 0.0058 0.2091
+     Angles -4.9084 -4.5926 0.3938
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+    LoadoutSlotInfo pistol4 {
+     PivotID "Spine5"
+     Offset 0.0848 0.0066 0.2071
+     Angles -3.8112 5.3077 0
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+    }
+   }
+  }
+ }
+ coords 81.498 1.315 230.066
+}

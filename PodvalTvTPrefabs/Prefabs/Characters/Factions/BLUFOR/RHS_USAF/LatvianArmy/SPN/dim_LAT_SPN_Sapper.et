@@ -1,0 +1,92 @@
+SCR_ChimeraCharacter : "{5F44C873761F23B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/dim_LAT_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sapper"
+    Icon "{78C22BDA06C2F7AB}UI/Icons/sapper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3AE7A7CDB873DD08}Prefabs/Weapons/Rifles/HK416A5/dim_Rifle_HK416A5_Var5.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{10005CEE2839DDDD}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Shirts/dim_Helmet_Exfil_Coy_LAT.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{66177AF251E66DA5}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_Coy.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B8CEEB66A92A60C8}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/dim_Vest_Shaw_ARC_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A03584441C6C0B5}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/MBITR/Pouch_AVS_MBITR_Radio_Coy.et"
+     PrefabsToSpawn {
+      "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F934C8A}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/placard/Pouch_Shaw_Placard_4Mags_Coy.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1FD8B78E}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/flex1/Pouch_PCGEN3_takoPouch.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F325DB8}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/pistol3/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F0BA6B7}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/pistol2/Pouch_Shaw_Nerd_Mini.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C367858E7}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/medkit/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3F69738E}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/admin/Pouch_Shaw_ARC_Admin_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3F4BEBEA}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/admin/Pouch_Shaw_ARC_Admin_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3EA3B4E7}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/medkit/Pouch_Highspeed_Bleeder.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C4CBE421D}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et" "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A049042B8FBA80B}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/holster/ratnik_holster_latpat.et"
+    }
+    ItemsInitConfigurationItem "{6A049042B8D1D0DF}" {
+     TargetStorage "Vest/dim_Vest_Shaw_ARC_2.et/pistol/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 77.693 1 232.269
+}

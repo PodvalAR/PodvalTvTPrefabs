@@ -1,0 +1,100 @@
+SCR_ChimeraCharacter : "{DA27C1532D507433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/dim_LAT_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{0945E0E429457A22}Prefabs/Weapons/Rifles/SR25/Rifle_M110_RT6_M61.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{732C1A1D849E73EF}Prefabs/Characters/Vests/Vest_6Sh117/variants/LATPAT/6Sh117_Pouches_Marksman_LATPAT.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A03584441C6C0B5}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/slot4/ratnik_azart_latpat.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C1F934C8A}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/uni2/ratnik_appi_latpat.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1FD8B78E}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/uni1/GD_Pouch_Uni_LATPAT_1.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F325DB8}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/appi/GD_Pouch_Uni_LATPAT_2.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F0BA6B7}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/slot3/GD_Pouch_Uni_LATPAT_1.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C367858E7}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/holster/GD_Pouch_GND_LATPAT_4.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3F69738E}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/arsbelt/GD_Pouch_GND_LATPAT_2.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3F4BEBEA}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/arsbelt2/GD_Pouch_GND_LATPAT_3.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3EA3B4E7}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/arsbelt_pistol2/GD_Pouch_GND_LATPAT_1_1.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3EB8B539}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/slot/GD_Pouch_Uni_LATPAT_2.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C4CBE421D}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/slot2/GD_Pouch_Uni_LATPAT_1.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A049043F3735899}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/PistolHolster/ratnik_holster_latpat.et"
+     PrefabsToSpawn {
+      "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A049043F871958B}" {
+     TargetStorage "Vest/6Sh117_Pouches_Marksman_LATPAT.et/Mag_Holster/ratnik_pistolpouch_latpat.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 92.156 1 215.67
+}

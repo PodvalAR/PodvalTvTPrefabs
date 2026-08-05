@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{680C6463897436EC}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_SL_4x_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Связист ION"
+    Icon "{14AE995347CE8E7E}UI/Icons/pmc.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{67366317116DAF4B}Prefabs/Weapons/Rifles/M4A1/M4_PMC_2.et"
+  }
+ }
+ coords 5122.881 9.25 2319.925
+}

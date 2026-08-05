@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{D201553E77FBEB5A}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_Rifleman_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Оператор дрона ION"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{0CAEBEC1E5B84ADA}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/CP_G3_Shirt_ColA_OutT_RollS_MC_BLK.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{35B2AC8DF4747F2B}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_DeltaBag_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/CP_G3_Shirt_ColA_OutT_RollS_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6A051807C80300D6}" {
+     TargetStorage "Back/GD_DeltaBag_Black.et"
+     PrefabsToSpawn {
+      "{E2434ED1318D8476}Prefabs/Characters/Items/DroneController.et" "{8951045BFE8BC8E4}Prefabs/Characters/HeadGear/FPV_Goggles.et" "{FDA92D590B9C633B}Prefabs/Drones/DJIBase/DJIBase.et"
+     }
+    }
+   }
+  }
+ }
+ coords 12549.128 10.772 758.096
+}

@@ -1,0 +1,28 @@
+Vehicle : "{137518B322EAA4D6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Kord.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5CE26149257047CD}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5D557449317CA1EC}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{5D5574490FC7E93E}" {
+     SlotTemplate InventoryStorageSlot Bag {
+      Prefab "{D1D9A7D62DA0C120}Prefabs/Weapons/Magazines/57mm/Box_57mm_APT_80rnd.et"
+     }
+     NumSlots 6
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{A3A5D7F8473777CF}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/dim_Turret_Epoch57mm.et"
+    }
+   }
+  }
+ }
+ coords 13118.843 26.179 4514.106
+ angles 0 105 0
+ m_sAttachmentGroupName "AT5"
+}

@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{5F44C873761F23B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/dim_LAT_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Officer"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F64A99AA43EBA3D2}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{43C6129204623BF0}Prefabs/Characters/Uniforms/Jacket_Waffletop/Jacket_Waffletop.et"
+    }
+   }
+  }
+ }
+ coords 89.784 1 225.883
+}

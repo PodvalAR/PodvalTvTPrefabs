@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{DA27C1532D507433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/dim_LAT_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.03 -0.3383 -0.0286
+    Angles 87.0845 0.0001 -179.9996
+   }
+   WeaponTemplate "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{4BA48D3B0E53DF91}Prefabs/Items/Equipment/Backpacks/Rucksack_84mm_MAW_Carrier.et"
+    }
+   }
+  }
+ }
+ coords 96.454 1 221.951
+}

@@ -1,0 +1,36 @@
+Vehicle : "{B05C52F642F47298}Prefabs/Vehicles/Planes/Cessna172zbq.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{6A0906FC9762D8E5}" {
+   Attributes SCR_ItemAttributeCollection "{6A0906FC93547653}" {
+    ItemDisplayName UIInfo "{6A0906FC9FD0A547}" {
+     Name "#AR-Inventory_Trunk"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A0906FCA12AF92B}" {
+      CameraOrbitAngles -15 -35 0
+      CameraDistanceToItem 10
+      CameraOffset -1 -1 0
+      FOV 40
+     }
+    }
+    m_Size SLOT_3x3
+    m_bStackable 0
+    m_bRefundable 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 200000
+   m_fMaxWeight 2000
+  }
+ }
+ coords 3541.116 190.375 1554.037
+ {
+  GameEnvironmentProbeEntity {
+   ID "6A05158EF2A080AD"
+   VisibleDistance 20
+   LVReflectionBrightness 0.51
+   LVDiffuseBrightness 1.08
+   DiffuseColor 0.0976 0.0976 0.0976 1
+  }
+ }
+}

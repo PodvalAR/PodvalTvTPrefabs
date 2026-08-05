@@ -7,6 +7,13 @@ SCR_ChimeraCharacter : "{A15CDF8412BBEAA9}Prefabs/Characters/Factions/INDFOR/NAP
     Icon "{702AB9F4CD4CF5A2}UI/Icons/terrorist.edds"
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693B0449DFBBAE18}" {
+     TargetStorage "Vest/Vest_ALICE_sniper.et/Buttpack/Vest_ALICE_buttpack.et"
+    }
+   }
+  }
  }
  coords 3316.296 2.009 6442.842
 }

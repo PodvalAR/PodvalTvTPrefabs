@@ -1,0 +1,92 @@
+SCR_ChimeraCharacter : "{E9DFBD6D1F21C010}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/dim_LAT_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FB17CA6B322EB4B2}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/Quality/dim_ARY_Rifle_G3A3_Quality_SlimOD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{727461DAC0F953BF}Prefabs/Characters/HeadGear/Helmet_PASGT_01/variants/GD_Helmet_PASGT_01_Scrim_LATPAT_Facemask.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{64EA8477F233A3DF}Prefabs/Characters/Vests/Vest_6Sh117/Vest_6Sh117_LATPAT.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{59D27B251E844E11}Prefabs/Characters/Vests/Vest_6Sh117/variants/LATPAT/6Sh117_Pouches_Rfl_2_LATPAT.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A04904C1F934C8A}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/slot/ratnik_ak_pouch_latpat_1.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1FD8B78E}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/slot2/ratnik_ak_pouch_latpat_2.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F325DB8}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/slot3/ratnik_ak_pouch_latpat_3.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F0BA6B7}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/slot4/ratnik_ak_pouch_latpat_4.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C367858E7}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/arsbelt/GD_Pouch_GND_LATPAT_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C3F69738E}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/arsbelt2/GD_Pouch_GND_LATPAT_3.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C3F4BEBEA}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/arsbelt_pistol2/GD_Pouch_GND_LATPAT_1_1.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C3EA3B4E7}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/appi/GD_Pouch_GND_LATPAT_2.et"
+     PrefabsToSpawn {
+      "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C3EB8B539}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/uni1/GD_Pouch_Uni_LATPAT_1.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C4CBE421D}" {
+     TargetStorage "Vest/6Sh117_Pouches_Rfl_2_LATPAT.et/uni2/GD_Pouch_Uni_LATPAT_2.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 82.513 1 211.839
+}

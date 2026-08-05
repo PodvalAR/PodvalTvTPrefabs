@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{B43AF1F19BC4C338}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/SPN/dim_LAT_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Sniper"
+    Icon "{0C058E04C5ACCE05}UI/Icons/sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A004065E3624160D}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM6x42_M61.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{727461DAC0F953BF}Prefabs/Characters/HeadGear/Helmet_PASGT_01/variants/GD_Helmet_PASGT_01_Scrim_LATPAT_Facemask.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A9A47D309DE3B140}Prefabs/Characters/Uniforms/Goblin_jacket/Goblin_jacket_Autumn.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{0C1C0B3D4A6C6B4A}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_LVMBAV_SNIPER_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A03584441C6C0B5}" {
+     TargetStorage "Jacket/Goblin_jacket_Autumn.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C1F934C8A}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A04904C1FD8B78E}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A04904C1F325DB8}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/admin/Pouch_Shaw_Nerd_Mini.et"
+     PrefabsToSpawn {
+      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C1F0BA6B7}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/raid/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et" "{14F2C112BD9F9C56}Prefabs/Weapons/Magazines/Magazine_762x51_AIPM_10rnd_M61_L2A2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A04904C367858E7}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/holster2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3F69738E}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/holster3/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3F4BEBEA}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/admin/Pouch_Shaw_Nerd_Mini.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3EA3B4E7}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/admin/Pouch_Shaw_Nerd_Mini.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C3EB8B539}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/pistol/Pouch_HP103_Holster_Coyout.et"
+    }
+    ItemsInitConfigurationItem "{6A04904C4CBE421D}" {
+     TargetStorage "Vest/GD_LVMBAV_SNIPER_1.et/raid/Pouch_Shaw_Raid.et"
+    }
+    ItemsInitConfigurationItem "{6A049047A2B3F6C5}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A049047A28C7E07}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 82.897 1 233.41
+}

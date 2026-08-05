@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{DA27C1532D507433}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/dim_LAT_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_CC"
+    Icon "{FC10C2531B4A5AFF}UI/Icons/sso_meh.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FBFA6A4F1872BC97}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_02.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
+   }
+  }
+ }
+ coords 3047.997 57.375 2221.248
+}
