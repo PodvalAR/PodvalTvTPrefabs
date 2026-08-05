@@ -17,6 +17,13 @@ Vehicle : "{137518B322EAA4D6}Prefabs/Vehicles/Wheeled/K17/APC_K17_Kord.et" {
     }
    }
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8A388732EE70AB3C}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/dim_Turret_RWCS_Kord.et"
+    }
+   }
+  }
  }
  coords 13118.843 26.179 4514.106
  angles 0 105 0
