@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8A388732EE70AB3C}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/dim_Turret_RWCS_Kord.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

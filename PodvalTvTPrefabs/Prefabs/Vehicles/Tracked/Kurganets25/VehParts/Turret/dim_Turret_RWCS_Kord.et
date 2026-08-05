@@ -1,0 +1,941 @@
+Turret {
+ ID "6A0B0A1EFF454BA2"
+ components {
+  EventHandlerManagerComponent "{6A0B0A1EFF454B98}" {
+  }
+  Persistence "{6A0B0A1EFF454B8B}" {
+  }
+  SignalsManagerComponent "{6A0B0A1EFF454B88}" {
+  }
+  WeaponSoundComponent "{6A0B0A1EFF454B87}" {
+   Filenames {
+    "{A812DFB49F834CD3}Sounds/Vehicles/Tracked/T14/Vehicles_T14_Turret_LP.acp" "{A5DE959DF28B2744}Sounds/Vehicles/Tracked/T14/Vehicles_T14_Turret.acp"
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+  }
+  BaseWeaponManagerComponent "{6A0B0A1EFF454B80}" {
+   DefaultWeaponIndex 0
+  }
+  ColliderHistoryComponent "{6A0B0A1EFF454A7F}" {
+  }
+  ControllersManagerComponent "{6A0B0A1EFF454A7D}" {
+  }
+  MeshObject "{6A0B0A1EFF454A7B}" {
+   Object "{0A1F9C3A189C5474}Assets/Vehicles/Tracked/Kurganets-25/VehParts/Turret_RWCS/Turret_RWCS_Kord.xob"
+   LODFactors {
+    0
+   }
+   PixelSizeScale 10
+   ObjectHeightmapBias 0
+  }
+  RHS_StabilizedTurretControllerComponent "{6A0B0A1EFF454A79}" {
+   components {
+    AITurretAimingComponent "{6A0B0A1EFF454A74}" {
+     AimingPID 5 0 0
+     AimingPIDMaxErrorIntegral 0.07
+     AimingBasePID 5 2 0
+     AimingBasePIDMaxErrorIntegral 0.3
+    }
+   }
+   ApplyControls 1
+   CanAimOnlyInADS 1
+   LimitsHoriz -180 180
+   LimitsVert -5 40
+   TurretReloadPosition 500 0
+   TurretUnconsciousPosition 500 500
+   GetUpdateEventsWhenEmpty 1
+  }
+  RHS_TurretDestructionComponent "{6A0B0A1EFF454A72}" {
+   m_sUndamagedModel "{0A3A6B7396222806}Assets/Vehicles/Wheeled/K17bumerang/K17_Epoch_turret.xob"
+   m_sDestroyedModel "{C30921FB3EEAD594}Assets/Vehicles/Wheeled/K17bumerang/K17_Epoch_turret_damaged.xob"
+   m_sDestructionParticle "{3DFFA0F36BFA60D2}Particles/Vehicle/Vehicle_TurretDestruction.ptc"
+   m_DestructionParticlePosition PointInfo "{6A0B0A1EFF454A71}" {
+    PivotID "v_turret_01"
+    Offset 0 0.6804 -0.8003
+   }
+  }
+  RHS_TurretStabilizationComponent "{6A0B0A1EFF454A6C}" {
+  }
+  RHS_VehicleTurretScreensControllerComponent "{6A0B0A1EFF454A65}" {
+   m_aCameras {
+    RHS_CustomCameraPointInfoTurret "{6A0B0A1EFF454A61}" {
+     PivotID "v_Gun_01"
+     Offset 0.0212 0 0.7188
+     m_fCameraFoV 45
+     m_sCameraName "Turret"
+    }
+   }
+  }
+  RHS_WeaponRecoilComponent "{6A0B0A1EFF454A5A}" {
+   m_iWeaponIndex 1
+   m_fImpulse 2000
+   m_vRecoilPosition PointInfo "{6A0B0A1EFF454A5B}" {
+    PivotID "v_2A42.001"
+   }
+  }
+  RHS_WeaponRecoilComponent "{6A0B0A1EFF454A5F}" {
+   m_fImpulse 1900
+   m_vRecoilPosition PointInfo "{6A0B0A1EFF454A5C}" {
+    PivotID "v_2A42.001"
+   }
+  }
+  RigidBody "{6A0B0A1EFF454A59}" {
+   Mass 3500
+   CenterOfMass 0 2.496 -1.133
+   SimState Collision
+   ModelGeometry 1
+   Static 0
+   Kinematic 1
+  }
+  ProcAnimComponent "{6A0B0A1EFF454A54}" {
+   Parameters {
+    ProcAnimParams "{6A0B0A1EFF454A55}" {
+     ResourceName "{1D90341D392233E4}Anims/proc/Berezok_Turret.pap"
+     BoneNames {
+      "v_turret_01" "v_Gun_01" "v_Gun_02" "v_Gun_03"
+     }
+     SimulationDistance 2000
+     AlwaysSimulateOwner 1
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{6A0B0A1EFF454A50}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6A0B0A1EFF454A4E}" {
+     AnimDoorIndex 1
+     ContextName "RampDoor"
+     EntryPositionInfo PointInfo "{6A0B0A1EFF454A44}" {
+      PivotID ""
+      Offset 0 -0.1663 -5.1829
+     }
+     ExitPositionInfo PointInfo "{6A0B0A1EFF454A45}" {
+      PivotID "rear_door_getin"
+      Offset 0 -0.1663 -5.0977
+     }
+     AlignDuringGetOut 1
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     GetInSeatAligningOnEvent 1
+     GetOutAligningOnEvent 1
+     FakeDoor 1
+     AccessibilitySettings CompartmentAccessibilityContext "{6A0B0A1EFF454A3F}" {
+     }
+    }
+   }
+   CompartmentSlots {
+    RHS_TurretCompartmentSlot TurretCompartment {
+     CompartmentAction RHS_GetInK17UserAction "{6A0B0A1EFF454A39}" {
+      ParentContextList {
+       "BackDoor" "Ramp"
+      }
+      UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A37}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{77DC267E0B210FCC}UI/Textures/UserActions/getinturretaction.edds"
+       m_sIconName "veh_gunner"
+      }
+      CanAggregate 1
+      "Sort Priority" 1
+     }
+     GetOutAction RHS_GetOutK17UserAction "{6A0B0A1EFF454A35}" {
+      ParentContextList {
+       "BackDoor" "gunner"
+      }
+      UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A32}" {
+       Name "#AR-UserAction_GetOut"
+       m_sIconName "getOutCommand"
+      }
+     }
+     JumpOutAction RHS_JumpOutK17UserAction "{6A0B0A1EFF454A30}" {
+      ParentContextList {
+       "BackDoor" "gunner"
+      }
+      UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A31}" {
+       Name "#AR-Keybind_Eject"
+       m_sIconName "getOutCommand"
+      }
+      "Sort Priority" 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{6A0B0A1EFF454A2E}" {
+      ParentContextList {
+       "GunnerSeat" "GunnerOrCommander" "GoBackToMainCompartment"
+      }
+      UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A2F}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "veh_gunner"
+      }
+      Duration 0.5
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{6A0B0A1EFF454A2D}" {
+       ParentContextList {
+        "GunnerSeat"
+       }
+       UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A2A}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 9
+       m_bInteriorOnly 1
+      }
+      SCR_RemoveCasualtyUserAction "{6A0B0A1EFF454A28}" {
+       ParentContextList {
+        "BackDoor" "HatchTopLeft" "Ramp"
+       }
+       UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A29}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 9
+       m_bExteriorOnly 1
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "Gunner_Idle.001"
+      Offset -0.0727 0.1487 -0.4144
+     }
+     ForcedFreeLook 1
+     CharacterHasCollision 1
+     SeatType 1
+     DoorInfoList {
+      0
+     }
+     UIInfo UIInfo "{6A0B0A1EFF454A22}" {
+      Name "#AR-VehiclePosition_Gunner"
+     }
+     BaseCoverage 0.3
+     CanOccupantEquipGadget 1
+     RestrictedItemTypes {
+      "BINOCULARS"
+     }
+     CharacterWeaponHandling 1
+     m_bIsWaterTight 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6A0B0A1EFF454A1E}" {
+      m_sDefaultOccupantPrefab "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+     }
+     m_ScreenShakeData SCR_BaseScreenShakeData "{6A0B0A1EFF454A1D}" {
+     }
+     m_fFreelookAimLimitOverrideDown -78
+     m_bCameraIgnoreTurretRotation 1
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{6A0B0A1EFF454A19}" {
+   InfoDisplays {
+    SCR_WeaponInfoVehicle "{6A0B0A1EFF454A16}" {
+     m_LayoutPath "{8170DE93810F928A}UI/layouts/HUD/WeaponInfo/WeaponInfo.layout"
+     m_bAdaptiveOpacity 1
+     m_aHandlers {
+      SCR_InfoDisplaySlotHandler "{6A0B0A1EFF454A14}" {
+       m_bCanUpdate 1
+       m_sSlotName "Slot_WeaponInfo"
+      }
+     }
+     m_sInterfaceSettingName "m_bShowWeaponInfo"
+     m_sCompartmentName "TurretCompartment"
+    }
+    SCR_WeaponSelectionMenu "{6A0B0A1EFF454A12}" {
+     m_LayoutPath "{2180D62E7C6F0DFC}UI/layouts/HUD/WeaponSelection/WeaponSelectionMenu.layout"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{6A0B0A1EFF454A04}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Turret {
+     HZDefault 1
+     IgnoreExplosions 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{6A0B0A1EFF454A03}" {
+       m_fMultiplier 1
+       m_bPassToParent 1
+      }
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{6A0B0A1EFF454AFE}" {
+      m_bAllowHideWreck 0
+     }
+     m_vParticleOffset 0 0 0
+    }
+    SCR_VehicleHitZone Optic2 {
+     ColliderNames {
+      "UBX_GunnerOptics" "UBX_GunnerOptics2"
+     }
+     IgnoreExplosions 1
+     MaxHealth 300
+     CriticalDamage 0.1
+     DamageReduction 15
+     DamageThreshold 0
+     "Melee multiplier" 0
+     "Kinetic multiplier" 3
+     "Explosive multiplier" 0.2
+     "DamageState threshold" {
+      0.5 0.1
+     }
+     m_eHitZoneGroup OPTICS
+    }
+    SCR_VehicleHitZone Traverse {
+     ColliderNames {
+      "UTM_FG_Epoch"
+     }
+     MaxHealth 2000
+     DamageReduction 100
+     DamageThreshold 8
+     "Melee multiplier" 0.01
+     "Kinetic multiplier" 3
+     "Fragmentation multiplier" 0
+     "Explosive multiplier" 2
+     "Incendiary multiplier" 0.33
+     "DamageState threshold" {
+      0.7 0.4 0.2
+     }
+     m_eHitZoneGroup TURRET
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{6A0B0A1EFF454AFA}" {
+   m_fHeight 1.3
+   m_fBobScale 0
+   m_fShakeScale 0
+   m_fDist_Max 6
+   m_fDist_Min 4
+   m_pCameraAlignData SCR_VehicleCameraAlignment "{6A0B0A1EFF454AF9}" {
+   }
+  }
+  UniversalInventoryStorageComponent "{6A0B0A1EFF454AF5}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{6A0B0A1EFF454AF2}" {
+    ItemDisplayName UIInfo "{6A0B0A1EFF454AF0}" {
+     Name "#AR-Inventory_Turret"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6A0B0A1EFF454AEE}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      PreviewModel "{24BCE9A581367807}Assets/Vehicles/Wheeled/BTR70/BTR70_turret.xob"
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{6A0B0A1EFF454AEC}" {
+      m_bShowInVehicleOnly 1
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+   }
+   InitialStorageSlots {
+    InventoryStorageSlot HE {
+     Prefab "{479FDB5EDD601394}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_HE_340rnd.et"
+    }
+   }
+  }
+  TurretComponent "{6A0B0A1EFF454AE8}" {
+   components {
+    RHS_2DSightsComponentV2 "{6A0B0A1EFF454AE7}" {
+     SightsPosition PointInfo "{6A0B0A1EFF454AE4}" {
+      PivotID "v_Gun_01"
+      Offset 0.4 -0.08 1.5
+      Angles 0 0 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{6A0B0A1EFF454AE3}" {
+      m_fBaseZoom 0.5
+      m_fZoomMax 12
+      m_fStepZoomSize 1.5
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{6A0B0A1EFF454AE0}" {
+      PivotID "v_Gun_01"
+      Offset -0.5997 -0.0045 1.2054
+     }
+     SightsPointRear PointInfo "{6A0B0A1EFF454ADE}" {
+      PivotID "v_Gun_01"
+      Offset -0.5997 -0.0045 0.8585
+     }
+     ADSTime 0
+     m_sReticleTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_sReticleGlowTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0.718 0.983 1 1
+     m_fVignetteScale 10
+     m_bShouldHideParentObject 0
+     m_fMisalignmentDampingSpeed 60
+     m_fRotationScale 0
+     m_fRotationDampingSpeed 60
+     m_fMovementScale 0
+     m_fMovementDampingSpeed 0
+     m_fRollScale 0
+     m_fRollDampingSpeed 60
+     m_fMisalignmentScale 0
+     m_fVignetteMoveSpeed 60
+     m_fMotionBlurScale 0
+     m_fMotionBlurMax 0
+     m_bIsConfiguratedForRHSNVG 1
+     m_fReticleOffsetX -0.01
+     m_fObjectiveScale 10
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 3
+     m_fMagnification 3
+     m_sRHSLayoutOverlayResource "{97A704055824A7A0}UI/layouts/Sights/Optic_Widgets_K17_Epoch.layout"
+    }
+    RHS_VehicleNightVisionComponent "{6A0B0A1EFF454ADC}" {
+     m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
+     m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
+     m_aBlemSet {
+     }
+     m_aGainLevels {
+      1 0.002 0.003 0.005 0.01 0.03 0.065 0.1 0.3 0.6 1 2 3 4 5 6 7 8 9 10 15 20
+     }
+     m_bUseThermal 1
+     m_bUseMask 0
+     m_eUseMask CUSTOM
+     m_bManualGainControl 1
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{6A0B0A1EFF454ADA}" {
+    signalsSuffix "Turret"
+   }
+   ProvideAimingType MainTurret
+   LimitsHoriz -180 180
+   LimitsVert -5 30
+   AimingMaxSpeed 1 0.8
+   AimingSpeedControls 0.1 0.1
+   TurretSpeed 80 80
+   TurretAcceleration 120 120
+   TurretDeceleration 200 200
+   TurretCrankRatio 10 10
+   BaseSpeed 80
+   BaseAcceleration 120
+   BaseDeceleration 200
+  }
+  WeaponSlotComponent "{6A0B0A1EFF454AD5}" {
+   AttachType InventoryStorageSlot epoch_smokers {
+    PivotID "v_turret_01"
+    MergePhysics 1
+   }
+   WeaponTemplate "{43CB96B961C530FA}Prefabs/Weapons/HeavyWeapons/SmokeLauncher/Weapon_SmokeLauncherEpoch57mm_turret.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{6A0B0A1EFF454AD9}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{6A0B0A1EFF454AD6}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_Gun_01"
+    MergePhysics 1
+   }
+   WeaponTemplate "{9DDAAB3F81939C06}Prefabs/Weapons/MachineGuns/Kord/RWCS_Kord_K25.et"
+  }
+  SCR_TurretInventoryStorageManagerComponent "{6A0B0A1EFF454AD3}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{6A0B0A1EFF454AD1}" {
+   ActionContexts {
+    UserActionContext "{6A0B0A1EFF454ACF}" {
+     UIInfo SCR_ActionContextUIInfo "{6A0B0A1EFF454ACC}" {
+     }
+     ContextName "default"
+     Position PointInfo "{6A0B0A1EFF454ACA}" {
+      Offset 0 3.3863 0
+     }
+     Radius 0.8
+    }
+    UserActionContext "{6A0B0A1EFF454AC8}" {
+     ContextName "gunner"
+     Position PointInfo "{6A0B0A1EFF454AC6}" {
+      PivotID "Gunner_idle"
+     }
+     Radius 0.4
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454AC7}" {
+     ContextName "open_turret"
+     Position PointInfo "{6A0B0A1EFF454AC0}" {
+      PivotID "v_turret_01"
+      Offset 0 0 0.2
+     }
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454AC1}" {
+     ContextName "BackDoor"
+     Position PointInfo "{6A0B0A1EFF454ABF}" {
+      PivotID "v_BackDoor"
+     }
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454ABC}" {
+     ContextName "gunnerOrCommander"
+     Position PointInfo "{6A0B0A1EFF454ABD}" {
+      Offset 0 1.7933 -1.9106
+     }
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454ABB}" {
+     ContextName "Ramp"
+     Position PointInfo "{6A0B0A1EFF454AB9}" {
+      PivotID "getInRamp"
+     }
+     Radius 1
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454AB6}" {
+     ContextName "Optic"
+     Position PointInfo "{6A0B0A1EFF454AB7}" {
+      PivotID "v_Gun_03"
+     }
+     Radius 1
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454AB4}" {
+     ContextName "OpenRamp_gun"
+     Position PointInfo "{6A0B0A1EFF454AB5}" {
+      PivotID "pmf3"
+      Offset 0.072 -0.3029 -0.1047
+      Angles 0 55.5246 0
+     }
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454AB3}" {
+     ContextName "OpenRamp_com"
+     Position PointInfo "{6A0B0A1EFF454AB0}" {
+      PivotID "pmf4"
+      Offset -0.1021 0.0624 -0.2971
+      Angles 0 39.5655 0
+     }
+     Height 0
+    }
+    UserActionContext "{6A0B0A1EFF454AB1}" {
+     UIInfo SCR_ActionContextUIInfo "{6A0B0A1EFF454AAE}" {
+     }
+     ContextName "turret_reload"
+     Position PointInfo "{6A0B0A1EFF454AAF}" {
+      PivotID "v_turret_01"
+      Offset 0 0.693 -0.6702
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{6A0B0A1EFF454A99}" {
+     ContextName "repair_traverse"
+     Position PointInfo "{6A0B0A1EFF454A96}" {
+      PivotID "v_turret_01"
+      Offset -0.0402 0.741 -0.1899
+      Angles 90 -180 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6A0B0A1EFF454A94}" {
+     ContextName "repair_optic"
+     Position PointInfo "{6A0B0A1EFF454A95}" {
+      PivotID "v_turret_01"
+      Offset 0.4402 0.4264 1.1814
+      Angles 55.5683 0 0
+     }
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_ResupplyTurretBeltSupportStationAction "{6A0B0A1EFF454A90}" {
+     ParentContextList {
+      "turret_reload"
+     }
+     UIInfo SCR_ActionUIInfo "{6A0B0A1EFF454A91}" {
+      Name "#AR-SupportStation_Resupply_Vehicle_Weapon_ActionName"
+      m_sIconName "rearm"
+     }
+     ActionTitle "Resupply 2A42 AP"
+     Duration -0.5
+     CanAggregate 1
+     PerformPerFrame 1
+     m_fLoopActionHoldDuration 0.1
+     m_bLowerWeaponOnUse 1
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{6A0B0A1EFF454A8C}" {
+      m_sItemPrefab "{988E7C4F812130FA}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_APFSDS_160rnd.et"
+     }
+     m_iAddBulletsAmount 5
+    }
+    SCR_ResupplyTurretBeltSupportStationAction "{6A0B0A1EFF454A8A}" {
+     ParentContextList {
+      "turret_reload"
+     }
+     UIInfo SCR_ActionUIInfo "{6A0B0A1EFF44C3BD}" {
+      Name "#AR-SupportStation_Resupply_Vehicle_Weapon_ActionName"
+      m_sIconName "rearm"
+     }
+     ActionTitle "Resupply 2A42 HE"
+     Duration -0.5
+     CanAggregate 1
+     PerformPerFrame 1
+     m_fLoopActionHoldDuration 0.1
+     m_bLowerWeaponOnUse 1
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{6A0B0A1EFF44C3BF}" {
+      m_sItemPrefab "{479FDB5EDD601394}Prefabs/Weapons/Magazines/2A42/Box_30mm_2A42_HE_340rnd.et"
+     }
+     m_iWeaponSlotID 1
+     m_iAddBulletsAmount 5
+    }
+    SCR_ResupplyTurretBeltSupportStationAction "{6A0B0A1EFF44C3B1}" {
+     ParentContextList {
+      "turret_reload"
+     }
+     UIInfo SCR_ActionUIInfo "{6A0B0A1EFF44C3B0}" {
+      Name "#AR-SupportStation_Resupply_Vehicle_Weapon_ActionName"
+      m_sIconName "rearm"
+     }
+     ActionTitle "Resupply 9M113"
+     Duration -0.5
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 1
+     m_fLoopActionHoldDuration 0.1
+     m_bLowerWeaponOnUse 1
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{6A0B0A1EFF44C3B3}" {
+      m_sItemPrefab "{A2B376B9B13737A0}Prefabs/Weapons/Magazines/9M113/Box_Rockets_9M113_4.et"
+     }
+     m_iWeaponSlotID 3
+     m_iAddBulletsAmount 1
+    }
+    SCR_ResupplyTurretBeltSupportStationAction "{6A0B0A1EFF44C3B2}" {
+     ParentContextList {
+      "turret_reload"
+     }
+     UIInfo SCR_ActionUIInfo "{6A0B0A1EFF44C3B5}" {
+      Name "#AR-SupportStation_Resupply_Vehicle_Weapon_ActionName"
+      m_sIconName "rearm"
+     }
+     ActionTitle "Resupply Tucha"
+     Duration -0.5
+     CanAggregate 1
+     PerformPerFrame 1
+     "Sort Priority" 2
+     m_fLoopActionHoldDuration 0.1
+     m_bLowerWeaponOnUse 1
+     m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
+     m_ResupplyData SCR_ResupplyItemSupportStationData "{6A0B0A1EFF44C3B7}" {
+      m_sItemPrefab "{15B8556967BC79BD}Prefabs/Weapons/Magazines/Tucha/Box_Tucha_Smoke.et"
+     }
+     m_iWeaponSlotID 3
+     m_iAddBulletsAmount 1
+    }
+    SCR_RepairAtSupportStationAction "{6A0B0A1EFF44C3B6}" {
+     ParentContextList {
+      "repair_optic"
+     }
+     UIInfo SCR_ActionUIInfo "{6A0B0A1EFF44C449}" {
+      Name "#AR-SupportStation_Repair_ActionName"
+      m_sIconName "repair"
+     }
+     Duration -5
+     PerformPerFrame 1
+     "Sort Priority" -90
+     m_bLowerWeaponOnUse 1
+     m_eShownInVehicleState NOT_IN_VEHICLE
+     m_sInvalidRangeActionReason "#AR-SupportStation_Repair_ActionInvalid_Needs_SupportStation_Emergency"
+     m_iGadgetAnimationCommand 1
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{6A0B0A1EFF44C44A}" {
+      m_aDamageIntensityEntries {
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C44D}" {
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C44F}" {
+         Name "#AR-SupportStation_Repair_ActionInvalid_NoDamage"
+        }
+        m_fMaxValue 10
+        m_fMinValue 1
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C443}" {
+        m_eDamageIntensityType LOW
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C445}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_Low"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C444}" {
+        m_eDamageIntensityType MEDIUM
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C447}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_Medium"
+        }
+        m_fMaxValue 0.75
+        m_fMinValue 0.3
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C446}" {
+        m_eDamageIntensityType HIGH
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C459}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_High"
+        }
+        m_fMaxValue 0.3
+        m_fMinValue 0.1
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C458}" {
+        m_eDamageIntensityType CRITICAL
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C45A}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_Critical"
+        }
+        m_fMaxValue 0.1
+       }
+      }
+     }
+     m_aHitZoneGroups {
+      OPTICS
+     }
+     m_HitZoneGroupNames SCR_HitZoneGroupNameHolder "{6A0B0A1EFF44C45F}" {
+      m_aHitZoneGroupNames {
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C45E}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Wheel"
+        m_eVehicleHitZoneGroup WHEELS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C451}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_FuelTank"
+        m_eVehicleHitZoneGroup FUEL_TANKS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C453}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Engine"
+        m_eVehicleHitZoneGroup ENGINE
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C452}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_DriveTrain"
+        m_eVehicleHitZoneGroup DRIVE_TRAIN
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C454}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Hull"
+        m_eVehicleHitZoneGroup HULL
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C457}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Cargo"
+        m_eVehicleHitZoneGroup CARGO
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C469}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_AmmoStorage"
+        m_eVehicleHitZoneGroup AMMO_STORAGE
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C468}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Turret"
+        m_eVehicleHitZoneGroup TURRET
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C46A}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_RotorAssembly"
+        m_eVehicleHitZoneGroup ROTOR_ASSEMBLY
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C46C}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_TailRotor"
+        m_eVehicleHitZoneGroup TAIL_ROTOR
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C46F}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Optics"
+        m_eVehicleHitZoneGroup OPTICS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C460}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_NightOptics"
+        m_eVehicleHitZoneGroup NIGHT_OPTICS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C463}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Viewport"
+        m_eVehicleHitZoneGroup VIEWPORT
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C462}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Propeller"
+        m_eVehicleHitZoneGroup PROPELLER
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C464}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Instruments"
+        m_eVehicleHitZoneGroup INSTRUMENTS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C467}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Controls"
+        m_eVehicleHitZoneGroup CONTROLS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C479}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Light"
+        m_eVehicleHitZoneGroup LIGHT
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44C478}" {
+        m_sHitZoneGroupName "!Error!"
+        m_eVehicleHitZoneGroup VIRTUAL
+       }
+      }
+     }
+    }
+    SCR_RepairAtSupportStationAction "{6A0B0A1EFF44C47F}" {
+     ParentContextList {
+      "repair_traverse"
+     }
+     UIInfo SCR_ActionUIInfo "{6A0B0A1EFF44C47E}" {
+      Name "#AR-SupportStation_Repair_ActionName"
+      m_sIconName "repair"
+     }
+     Duration -5
+     PerformPerFrame 1
+     "Sort Priority" -90
+     m_bLowerWeaponOnUse 1
+     m_eShownInVehicleState NOT_IN_VEHICLE
+     m_sInvalidRangeActionReason "#AR-SupportStation_Repair_ActionInvalid_Needs_SupportStation_Emergency"
+     m_iGadgetAnimationCommand 1
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{6A0B0A1EFF44C471}" {
+      m_aDamageIntensityEntries {
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C473}" {
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C472}" {
+         Name "#AR-SupportStation_Repair_ActionInvalid_NoDamage"
+        }
+        m_fMaxValue 10
+        m_fMinValue 1
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C475}" {
+        m_eDamageIntensityType LOW
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C474}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_Low"
+        }
+        m_fMaxValue 1
+        m_fMinValue 0.75
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C477}" {
+        m_eDamageIntensityType MEDIUM
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C476}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_Medium"
+        }
+        m_fMaxValue 0.75
+        m_fMinValue 0.3
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C408}" {
+        m_eDamageIntensityType HIGH
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44C40B}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_High"
+        }
+        m_fMaxValue 0.3
+        m_fMinValue 0.1
+       }
+       SCR_DamageIntensityEntry "{6A0B0A1EFF44C40A}" {
+        m_eDamageIntensityType CRITICAL
+        m_UiInfo SCR_UIName "{6A0B0A1EFF44643F}" {
+         Name "#AR-Vehicle_DamageInfo_Damage_Critical"
+        }
+        m_fMaxValue 0.1
+       }
+      }
+     }
+     m_aHitZoneGroups {
+      TURRET
+     }
+     m_HitZoneGroupNames SCR_HitZoneGroupNameHolder "{6A0B0A1EFF446439}" {
+      m_aHitZoneGroupNames {
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44643A}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Wheel"
+        m_eVehicleHitZoneGroup WHEELS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446434}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_FuelTank"
+        m_eVehicleHitZoneGroup FUEL_TANKS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446435}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Engine"
+        m_eVehicleHitZoneGroup ENGINE
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446436}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_DriveTrain"
+        m_eVehicleHitZoneGroup DRIVE_TRAIN
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446437}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Hull"
+        m_eVehicleHitZoneGroup HULL
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446430}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Cargo"
+        m_eVehicleHitZoneGroup CARGO
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446432}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_AmmoStorage"
+        m_eVehicleHitZoneGroup AMMO_STORAGE
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446433}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Turret"
+        m_eVehicleHitZoneGroup TURRET
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44642D}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_RotorAssembly"
+        m_eVehicleHitZoneGroup ROTOR_ASSEMBLY
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44642E}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_TailRotor"
+        m_eVehicleHitZoneGroup TAIL_ROTOR
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446428}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Optics"
+        m_eVehicleHitZoneGroup OPTICS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446429}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_NightOptics"
+        m_eVehicleHitZoneGroup NIGHT_OPTICS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF44642A}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Viewport"
+        m_eVehicleHitZoneGroup VIEWPORT
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446424}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Propeller"
+        m_eVehicleHitZoneGroup PROPELLER
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446425}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Instruments"
+        m_eVehicleHitZoneGroup INSTRUMENTS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446426}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Controls"
+        m_eVehicleHitZoneGroup CONTROLS
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446427}" {
+        m_sHitZoneGroupName "#AR-Vehicle_HitZoneGroup_Light"
+        m_eVehicleHitZoneGroup LIGHT
+       }
+       SCR_VehicleHitZoneGroupName "{6A0B0A1EFF446421}" {
+        m_sHitZoneGroupName "!Error!"
+        m_eVehicleHitZoneGroup VIRTUAL
+       }
+      }
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  BaseItemAnimationComponent "{6A0B0A1EFF44641C}" {
+   Enabled 0
+   AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
+   AnimInstance "{F2DBB12250B5F75A}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR_vehicle.asi"
+   AnimInjection AnimationAttachmentInfo "{6A0B0A1EFF44641E}" {
+    AnimGraph "{E5D9CB02597071F5}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR70.agr"
+    AnimInstance "{5F52A6DF918B0033}Assets/Vehicles/Wheeled/BTR70/workspaces/BTR_player.asi"
+    BindingName "Vehicle"
+   }
+  }
+  VehicleAnimationComponent "{6A0B0A1EFF446418}" {
+   AnimGraph "{5EAE5936C06BE155}Assets/Vehicles/Wheeled/K17bumerang/workspaces/K17.agr"
+   AnimInstance "{2CBF96E7C6316FF7}Assets/Vehicles/Wheeled/K17bumerang/workspaces/K17_vehicle.asi"
+   StartNode "VehicleMasterControl"
+   AnimInjection AnimationAttachmentInfo "{6A0B0A1EFF44641A}" {
+    AnimGraph "{5EAE5936C06BE155}Assets/Vehicles/Wheeled/K17bumerang/workspaces/K17.agr"
+    AnimInstance "{F7242420E15DF00D}Assets/Vehicles/Wheeled/K17bumerang/workspaces/K17_player.asi"
+    BindingName "Vehicle"
+   }
+   AnimCommandsToBind {
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+   }
+   DeactivationDelay 0
+  }
+  RplComponent "{6A0B0A1EFF446415}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{6A0B0A1EFF446416}" {
+  }
+ }
+ coords 1102.105 8.186 696.704
+}
