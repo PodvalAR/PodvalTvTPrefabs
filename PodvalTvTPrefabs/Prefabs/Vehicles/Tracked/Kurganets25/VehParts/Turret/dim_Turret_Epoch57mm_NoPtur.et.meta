@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D69AC639E3F43041}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/dim_Turret_Epoch57mm_NoPtur.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

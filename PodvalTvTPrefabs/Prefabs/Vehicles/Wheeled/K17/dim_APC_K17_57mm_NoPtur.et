@@ -1,0 +1,15 @@
+Vehicle : "{482206FECB5F4AC4}Prefabs/Vehicles/Wheeled/K17/dim_APC_K17_57mm.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{D69AC639E3F43041}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/dim_Turret_Epoch57mm_NoPtur.et"
+    }
+   }
+  }
+ }
+ coords 5138.121 90.458 2349.205
+ angles -4.882 -38.632 1.042
+ m_sAttachmentGroupName "DEFD_RUS6"
+}

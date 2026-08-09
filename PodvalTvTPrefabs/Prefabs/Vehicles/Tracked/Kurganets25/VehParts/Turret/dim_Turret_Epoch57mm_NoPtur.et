@@ -1,0 +1,10 @@
+Turret : "{A3A5D7F8473777CF}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/dim_Turret_Epoch57mm.et" {
+ ID "6A0934AE42C0DF59"
+ components {
+  WeaponSlotComponent "{6A0934AE42C0DEFF}" {
+   Enabled 0
+   WeaponTemplate ""
+  }
+ }
+ coords 5142.308 90.684 2349.055
+}

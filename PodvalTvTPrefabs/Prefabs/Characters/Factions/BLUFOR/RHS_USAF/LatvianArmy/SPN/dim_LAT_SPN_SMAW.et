@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{0390FADF477668DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/LatvianArmy/SPN/dim_LAT_SPN_Javelin.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A049047A2E204DD}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4668.568 75.812 6073.134
+}
