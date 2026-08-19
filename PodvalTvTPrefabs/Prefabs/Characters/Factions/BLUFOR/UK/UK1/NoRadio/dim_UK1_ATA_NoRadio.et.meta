@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3FDE855B1C66A6AC}Prefabs/Characters/Factions/BLUFOR/UK/UK1/NoRadio/dim_UK1_ATA_NoRadio.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

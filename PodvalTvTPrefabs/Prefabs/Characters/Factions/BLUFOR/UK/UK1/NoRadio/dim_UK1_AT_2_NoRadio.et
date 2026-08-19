@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{938C56AD78FB775C}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_AT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 9056.366 66.933 5178.036
+}
