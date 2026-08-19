@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{14B335BCE270B066}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Rifleman.et" {
+ ID "520EC961A090BE1E"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C158CE23A0D7B73C}Prefabs/Weapons/Rifles/VAL/Rifle_VAL.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD44C47E5DC09A}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+    ItemsInitConfigurationItem "{68CD44CFD845D974}" {
+     PrefabsToSpawn {
+      "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+   }
+  }
+ }
+ coords 147.426 1 192.321
+ angles 0 0 0
+}
