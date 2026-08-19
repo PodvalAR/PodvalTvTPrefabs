@@ -32,13 +32,16 @@ SCR_ChimeraCharacter : "{D47DBA202C9FFBC4}Prefabs/Characters/Factions/BLUFOR/UK/
     LoadoutSlotInfo Hat {
      Prefab "{7EC7455E0E21D082}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_Scrim_01.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{CFB5AA95F996BC65}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
      PrefabsToSpawn {
-      "{652FDE999BB0BAC1}Prefabs/Items/Equipment/Radios/Radio_PRC349_Multi.et"
+      "{1A7FE1AC9E645F28}Prefabs/Items/Equipment/Radios/Radio_PRC349_Brit_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{6572CAAA80562382}" {
