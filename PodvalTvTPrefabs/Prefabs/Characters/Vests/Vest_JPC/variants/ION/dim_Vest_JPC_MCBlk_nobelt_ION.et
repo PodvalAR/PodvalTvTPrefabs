@@ -1,0 +1,27 @@
+GameEntity : "{179DC4383E11AC62}Prefabs/Characters/Vests/Vest_JPC/variants/ION/Vest_JPC_MCBlk_nobelt_4.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{8B4915CA07E05DA8}Prefabs/Characters/Vests/Vest_Shaw_ARC_Pouches/Pouch_Shaw_Placard_4Mags_MC_Blk.et"
+    }
+    LoadoutSlotInfo mbiyt {
+     Offset -0.0751 0.0897 0.1812
+     Angles 0 -6.3961 0
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo flex3 {
+     Offset 0.0759 0.0897 0.1831
+     Angles 0 3.6575 0
+    }
+    LoadoutSlotInfo hsgi2 {
+     Offset -0.0022 0.0897 0.1859
+     Angles 0 0.3843 0
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+   }
+  }
+ }
+ coords 150.864 1 175.316
+}

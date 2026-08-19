@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A63BA6EB7E1F1CE6}Prefabs/Characters/Factions/BLUFOR/UK/UK1/NoRadio/dim_UK1_Rifleman_1_NoRadio.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

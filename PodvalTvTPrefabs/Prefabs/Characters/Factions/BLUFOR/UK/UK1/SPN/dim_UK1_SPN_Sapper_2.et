@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{FFCE7B07E91CE615}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/dim_UK1_SPN_Sapper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{54E71CBA0B367596}Prefabs/Weapons/Rifles/L85/A1/SPN/dim_L85_SD_3.et"
+  }
+ }
+ coords 7956.546 36.469 1603.077
+}

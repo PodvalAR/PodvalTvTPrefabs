@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{2A23533F417F2531}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6572CAAA81AA0651}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 9054.148 66.946 5175.853
+}

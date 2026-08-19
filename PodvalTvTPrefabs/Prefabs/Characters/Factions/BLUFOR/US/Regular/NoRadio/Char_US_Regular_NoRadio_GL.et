@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{DF3DBB3D5D0AF907}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_GL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     PrefabsToSpawn {
+      ""
+     }
+    }
+   }
+  }
+ }
+ coords 536.185 73.428 7667.307
+}

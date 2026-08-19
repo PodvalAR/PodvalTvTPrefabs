@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{2496ED0A1041C597}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/Winter/dim_ION_Elite_W_Marksman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{600B485B2FCD53E7}Prefabs/Characters/Uniforms/Jacket_Bomber_Winter/GD_Jacket_Bomber_Winter_Work.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/GD_Jacket_Bomber_Winter_Work.et"
+    }
+   }
+  }
+ }
+ coords 151.155 1 128.979
+}

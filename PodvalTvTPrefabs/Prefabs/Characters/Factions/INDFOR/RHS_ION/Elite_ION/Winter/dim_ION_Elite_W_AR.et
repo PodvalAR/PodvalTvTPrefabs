@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{B615945A8AC2AFF4}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_AR_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2FFD7054805035E7}Prefabs/Characters/HeadGear/All_EXFIL/Exfil_ION_Winter.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{BF5CDC1D872FF18F}Prefabs/Characters/Uniforms/Jacket_Anorak/GD_Anorak_Black_MC_V2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E9316D5E26AABD70}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_ALP_camo/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D73018D5DF4E2259}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/GD_Anorak_Black_MC_V2.et"
+    }
+    ItemsInitConfigurationItem "{68A36ADD57FC10FD}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+   }
+  }
+ }
+ coords 136.543 1 167.785
+}

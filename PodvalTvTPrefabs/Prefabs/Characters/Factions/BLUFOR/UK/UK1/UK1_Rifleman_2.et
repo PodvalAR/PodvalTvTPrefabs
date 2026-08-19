@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{9DE6729107141074}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C9DDAC59E6FAC800}Prefabs/Characters/HeadGear/Helmet_Mk6_01/dim_BF89_Helmet_Mk6_Cover_Goggle_2.et"
+    }
+   }
+  }
+ }
+ coords 9086.382 65.338 5139.946
+ angles 0 -150 0
+}

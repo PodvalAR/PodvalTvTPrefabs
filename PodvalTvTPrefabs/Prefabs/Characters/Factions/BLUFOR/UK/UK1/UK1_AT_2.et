@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{938C56AD78FB775C}Prefabs/Characters/Factions/BLUFOR/UK/UK1/UK1_AT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C9DDAC59E6FAC800}Prefabs/Characters/HeadGear/Helmet_Mk6_01/dim_BF89_Helmet_Mk6_Cover_Goggle_2.et"
+    }
+   }
+  }
+ }
+ coords 9087.774 65.316 5138.478
+}

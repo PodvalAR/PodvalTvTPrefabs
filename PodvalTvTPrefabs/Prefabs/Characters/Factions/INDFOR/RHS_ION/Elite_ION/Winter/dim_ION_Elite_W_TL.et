@@ -1,0 +1,86 @@
+SCR_ChimeraCharacter : "{17EC666D101F5E2E}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/dim_ION_Elite_TL_4x_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2FFD7054805035E7}Prefabs/Characters/HeadGear/All_EXFIL/Exfil_ION_Winter.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{600B485B2FCD53E7}Prefabs/Characters/Uniforms/Jacket_Bomber_Winter/GD_Jacket_Bomber_Winter_Work.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6C898E08C37C0056}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk_IONBS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E9316D5E26AABD70}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_ALP_camo/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{458F47983798CAD4}Prefabs/Characters/Vests/Vest_JPC/variants/ION/dim_Vest_JPC_MCBlk_nobelt_ION.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D73018D5DF4E2259}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689B2D43EA87EF4F}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAE0FA83}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_ALP.et"
+    }
+    ItemsInitConfigurationItem "{689B2D43EAF841F3}" {
+     TargetStorage "Jacket/GD_Jacket_Bomber_Winter_Work.et"
+    }
+    ItemsInitConfigurationItem "{689E6D83F89602AF}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/Pouch1/Pouch_Shaw_Placard_4Mags_MC_Blk.et"
+     PrefabsToSpawn + {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8237974471}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D826BD04590}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/mbiyt/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8233474F95}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/flex1/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D823E1CA47C}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/flex2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8241C8AB1F}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/flex3/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E6D8254999773}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D8266124935}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{689E6D827A21D340}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/hsgi2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 127.998 1 164.007
+}

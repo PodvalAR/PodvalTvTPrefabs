@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{A5F18544EECD079D}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VDV_Summer/dim_VDV_Summer_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{36587E9EF54A67FE}Prefabs/Characters/HeadGear/Helmet_6B47/Winter/Helmet_6b47_Cover_Winter_Mask_Headset_1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{001011A913C3BFFE}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Klyaksa.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{772E2F1EA26AE867}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Winter_In.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Winter_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Winter_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Klyaksa.et"
+    }
+   }
+  }
+ }
+ coords 180.257 1 188.336
+}

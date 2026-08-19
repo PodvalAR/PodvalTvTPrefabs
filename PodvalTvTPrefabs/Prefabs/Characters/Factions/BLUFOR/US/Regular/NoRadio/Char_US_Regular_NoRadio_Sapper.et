@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{670BA84233CA3A0B}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_Sapper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A10C966459A5E47C}Prefabs/Weapons/Rifles/M16/Rifle_M16A4.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+ coords 3560.682 57.399 6179.775
+}

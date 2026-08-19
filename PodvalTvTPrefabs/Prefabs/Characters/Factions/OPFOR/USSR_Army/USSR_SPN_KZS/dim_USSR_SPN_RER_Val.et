@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{32CE4FE15263F37C}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/dim_USSR_SPN_Rifleman_VAL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Специалист РЭР ГРУ"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD44C47E5DC09A}" {
+     TargetStorage "Pants/Pants_KZS.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{CA4BD8A44BDFE545}Prefabs/Items/Equipment/Radios/SCANNER_SIGINT_antenna.et"
+     }
+    }
+   }
+  }
+ }
+ coords 5275.948 57.392 4701.501
+ angles 0 165 0
+}
