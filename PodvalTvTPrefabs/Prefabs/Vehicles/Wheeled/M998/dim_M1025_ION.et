@@ -1,0 +1,35 @@
+Vehicle : "{CD1B5570AF3D50B6}Prefabs/Vehicles/Wheeled/M998/M1025_ION.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{052E213C2E246A3D}Prefabs/Vehicles/Wheeled/M998/VehParts/dim_M1025_roof_ion.et"
+    }
+    RegisteringComponentSlotInfo Bumper {
+     PivotID "v_root"
+     Prefab "{5929C43F9F0554DB}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_AirLift_Bumper.et"
+     InheritParentSkeleton 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Wheel {
+     PivotID "v_root"
+     Offset -0.023 1.2781 -2.8907
+     Angles 0 -90 0
+     Prefab "{5C3724BBF45EB2BF}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01.et"
+     InheritParentSkeleton 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+ coords 1905.482 1.353 457.381
+}

@@ -1,0 +1,41 @@
+Vehicle : "{855C78199FBCC53A}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_ION_Camo.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68B535859059D800}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{50A242E5D9742C62}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1Tracer.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Bumper {
+     PivotID "v_root"
+     Prefab "{5929C43F9F0554DB}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_AirLift_Bumper.et"
+     InheritParentSkeleton 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Wheel {
+     PivotID "v_root"
+     Offset -0.023 1.2781 -2.8907
+     Angles 0 -90 0
+     Prefab "{5C3724BBF45EB2BF}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01.et"
+     InheritParentSkeleton 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+ coords 1907.085 1.264 463.833
+}

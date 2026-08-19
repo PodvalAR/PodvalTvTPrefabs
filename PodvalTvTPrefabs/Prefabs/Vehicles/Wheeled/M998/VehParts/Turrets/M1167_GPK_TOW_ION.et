@@ -1,0 +1,27 @@
+Turret : "{CD32C4DDC8D2EDD4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1167_GPK_TOW.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6A2309DBCD925D91}" {
+     SourceMaterial "GPK_M1167"
+     AssignedMaterial "{4162DAB1C884B298}Assets/Vehicles/Wheeled/M1151/Data/GPK_M1167_ION.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{690AB848CC1224F1}" {
+   Slots {
+    RegisteringComponentSlotInfo Hatch {
+     Prefab "{AB9E02460A7FB5FE}Prefabs/Vehicles/Wheeled/M998/Door/M1167_Hatch_ION.et"
+    }
+    RegisteringComponentSlotInfo rear_Shield {
+     Prefab "{E9C3BD99468C36C9}Prefabs/Vehicles/Wheeled/M998/Door/M1167_rear_Shield_ION.et"
+    }
+    RegisteringComponentSlotInfo L_Shield {
+     Prefab "{CF5C1476A8D4D5B7}Prefabs/Vehicles/Wheeled/M998/Door/M1167_L_Shield_ION.et"
+    }
+   }
+  }
+ }
+ coords 1916.178 0.897 466.194
+}

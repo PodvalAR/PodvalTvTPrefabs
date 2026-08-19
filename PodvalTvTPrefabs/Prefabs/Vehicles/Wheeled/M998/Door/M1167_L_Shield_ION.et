@@ -1,0 +1,34 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  ColliderHistoryComponent "{6132A72CCF77E788}" {
+   Enabled 1
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{26452E168EBBE333}Assets/Vehicles/Wheeled/M1151/Data/M1167_L_shield.xob"
+   Materials {
+    MaterialAssignClass "{6A2309DB88308FE1}" {
+     SourceMaterial "GPK_M1167"
+     AssignedMaterial "{4162DAB1C884B298}Assets/Vehicles/Wheeled/M1151/Data/GPK_M1167_ION.emat"
+    }
+   }
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Kinematic 1
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Door : "{C8F33AA9CC897E7D}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/UAZ469_HZ_VehPart.conf" {
+    }
+   }
+  }
+  SlotManagerComponent "{6A2309DB88308FD5}" {
+   Slots {
+    RegisteringComponentSlotInfo DoorTop {
+     MergePhysics 1
+     InheritParentSkeleton 1
+    }
+   }
+  }
+ }
+}
