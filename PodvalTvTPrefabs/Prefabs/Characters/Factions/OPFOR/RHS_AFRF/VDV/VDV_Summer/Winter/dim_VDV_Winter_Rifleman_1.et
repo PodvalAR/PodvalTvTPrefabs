@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{DC9CE5F7416CDCB7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/VDV_Summer/dim_VDV_Summer_Rfl_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.1244 -0.1053 0.1991
+    Angles 51.1457 180 0
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{363248AE478F124A}Prefabs/Characters/HeadGear/Helmet_6B47/Winter/6B50/Helmet_6b47_Cover_Winter_6b50_5.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{001011A913C3BFFE}Prefabs/Characters/Uniforms/Jacket_Bars/GD_Bars_Jacket_Klyaksa.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{772E2F1EA26AE867}Prefabs/Characters/Uniforms/Pants_Bars/GD_Bars_Pants_Winter_In.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_Bars_Pants_Winter_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_Bars_Pants_Winter_In.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/GD_Bars_Jacket_Klyaksa.et"
+    }
+   }
+  }
+ }
+ coords 185.342 1 188.144
+}

@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter : "{7AF24CE7336301FB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Winter/dim_VDV_W_Crew.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+ }
+ coords 2416.087 184.988 1926.838
+}
