@@ -1,0 +1,21 @@
+GenericEntity : "{50B41FF1D2E92DC9}Prefabs/Weapons/Rifles/L85/A1/SPN/dim_L85_SD.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D9F3AF79EC9FBC8}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab ""
+     }
+    }
+    AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Offset 0 0.0075 0
+      Prefab "{1A65771A9E7D37D7}Prefabs/Weapons/Attachments/Optics/Optic_L85_Irons/Optic_L85_Ironsight.et"
+     }
+    }
+   }
+  }
+ }
+ coords 7955.348 36.469 1604.763
+}
