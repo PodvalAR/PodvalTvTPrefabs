@@ -1,0 +1,32 @@
+GenericEntity : "{C9E05A9C3D9E5780}Prefabs/Weapons/Rifles/M14/Rifle_M21_M61_Opt_Camo.et" {
+ ID "5254ACCA959048B9"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{B11577EE99AA9F34}Sounds/Weapons/Rifles/M21/Weapons_Rifles_M21_Shot.acp" "{F6F479AE77E7A573}Sounds/Weapons/Rifles/M21/Weapons_Rifles_M21_Handling.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{F4FBD551741C8C96}Sounds/Weapons/Rifles/AKM/Weapons_Rifles_AKM_Shot_Suppressed_SuperSonic.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{6A26E8E46A7F3E16}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6A26E8E4144E40BA}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        PivotID "slot_barrel_muzzle"
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et"
+        InspectionWidgetOffset 0 0.0909 0.9078
+       }
+       AttachmentType Attachment556Muzzle "{6A26E8E423AE7F11}" {
+       }
+       ShowInInspection 1
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 134.471 1.067 235.01
+}

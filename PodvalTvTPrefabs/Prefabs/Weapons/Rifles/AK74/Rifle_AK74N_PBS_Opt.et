@@ -1,0 +1,13 @@
+GenericEntity : "{1B332B99C72DAF8B}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4_1P29.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+    }
+   }
+  }
+ }
+ coords 11976.846 7.707 10542.811
+}
