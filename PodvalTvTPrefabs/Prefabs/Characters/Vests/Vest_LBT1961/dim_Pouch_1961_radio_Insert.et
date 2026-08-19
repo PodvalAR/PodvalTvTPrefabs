@@ -1,0 +1,13 @@
+GameEntity : "{D1E18BA18A7168D6}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_radio_Insert.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot PouchStorage {
+     Prefab "{7DA004E7C6CF2E2C}Prefabs/Items/Equipment/Radios/Radio_PRC_USA_Multi.et"
+    }
+   }
+  }
+ }
+ coords 147.707 1.077 224.485
+}

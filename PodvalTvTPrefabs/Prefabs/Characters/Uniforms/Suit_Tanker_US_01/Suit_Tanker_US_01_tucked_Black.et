@@ -1,0 +1,21 @@
+GameEntity : "{80D4145C00839362}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   components {
+    SCR_EquipmentStorageComponent "{61C2862E3AAA12AE}" {
+     StoragePurpose 0x40 0x1
+     UseVirtualInventoryReplication 0
+    }
+   }
+   MaxCumulativeVolume 2400
+   m_fMaxWeight 14
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{268F94D4CB99BE51}Assets/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_tucked.xob"
+   WornMaterialsOverride {
+    "{7ED6B2CC26CF9538}Assets/Characters/Uniforms/Suit_Tanker_US_01/Data/dim_Suit_Tanker_US_01_Black.emat"
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+GameEntity : "{AA9A6E89D255CA05}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961_G3_black.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo mag1 {
+     Prefab "{D27F4EA6AB260E7A}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo mag2 {
+     Prefab "{D27F4EA6AB260E7A}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo mag3 {
+     Prefab "{D27F4EA6AB260E7A}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo mag4 {
+     Prefab "{D27F4EA6AB260E7A}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_magpouch_insert.et"
+    }
+   }
+  }
+ }
+ coords 169.394 1 224.876
+}

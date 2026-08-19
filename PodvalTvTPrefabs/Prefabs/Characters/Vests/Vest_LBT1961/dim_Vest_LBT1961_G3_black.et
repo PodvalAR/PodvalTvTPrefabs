@@ -1,0 +1,53 @@
+GameEntity : "{23715D37E03B24B5}Prefabs/Characters/Vests/Vest_LBT1961/Vest_LBT1961.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo ArmorPlate_Front {
+     Prefab ""
+    }
+    LoadoutSlotInfo ArmorPlate_Back {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab ""
+    }
+    LoadoutSlotInfo mag1 {
+     Prefab "{5EE6A10DE6CF45B2}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo mag2 {
+     Prefab "{5EE6A10DE6CF45B2}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo mag3 {
+     Prefab "{5EE6A10DE6CF45B2}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo mag4 {
+     Prefab "{5EE6A10DE6CF45B2}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_magpouch_insert.et"
+    }
+    LoadoutSlotInfo radio1 {
+     Offset -0.1717 -0.0415 0.0028
+     Angles 5.3627 97.3322 -3.1922
+     Prefab "{7A79D00B55324214}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_radio_Insert.et"
+    }
+    LoadoutSlotInfo radio2 {
+     Offset 0.1983 0.0082 0.0157
+     Angles -80.4498 -142.8902 130.1571
+     Prefab "{D997785BE1E9713D}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_pistol_holster_Insert.et"
+    }
+    LoadoutSlotInfo pistol1 {
+     Prefab "{1080367BF1A91C5F}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_pistol_insert.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Prefab "{1080367BF1A91C5F}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_pistol_insert.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{82718CD58420B3BC}Assets/Characters/Vests/Vest_LBT1961/data/dim_lbt1961_black.emat"
+   }
+   ItemMaterialsOverride {
+    "{82718CD58420B3BC}Assets/Characters/Vests/Vest_LBT1961/data/dim_lbt1961_black.emat"
+   }
+  }
+ }
+ coords 148.123 1 222.473
+}

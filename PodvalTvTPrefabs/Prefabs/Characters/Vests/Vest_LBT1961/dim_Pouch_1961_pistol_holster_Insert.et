@@ -1,0 +1,21 @@
+GameEntity : "{D1E18BA18A7168D6}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_radio_Insert.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot PouchStorage {
+     Offset -0.0014 0.003 -0.0058
+     Angles 0 0 0
+     Prefab "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+     AllowedItemTypes {
+      "RHS_PISTOL"
+     }
+     m_aCompatibleItemTypes {
+      "RHS_PISTOL"
+     }
+    }
+   }
+  }
+ }
+ coords 147.707 1.077 224.485
+}
