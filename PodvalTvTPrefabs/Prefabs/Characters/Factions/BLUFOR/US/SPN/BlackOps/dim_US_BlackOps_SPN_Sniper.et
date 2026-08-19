@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{07DB2A2C2FD68F06}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Sniper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C7FD336E64005F7F}Prefabs/Weapons/Rifles/M14/Rifle_M21_M61_Opt_Camo_SD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1A9466B2F39E7A9F}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_tucked_Black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{B65F585AFF6CDB4E}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961_M21_Black.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{336AE3CB49E19608}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_Black_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3A809E1C99}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked_Black.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80F6D72C}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80D0F11B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked_Black.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B394EFC6E76}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 138.373 1 235.475
+}

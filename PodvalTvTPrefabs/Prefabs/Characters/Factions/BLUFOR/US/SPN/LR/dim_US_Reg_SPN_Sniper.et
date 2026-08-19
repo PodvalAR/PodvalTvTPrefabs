@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{07DB2A2C2FD68F06}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Sniper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3598DCC1129110CC}Prefabs/Weapons/Rifles/m107/Barret_M107A1_Mk4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FE5C49069C2499D9}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C7861F11D5334C0E}Prefabs/Characters/Uniforms/Jacket_US_BDU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4B57C11AA5161760}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3A809E1C99}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80F6D72C}" {
+     TargetStorage "Jacket/Jacket_US_BDU.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80D0F11B}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     TargetStorage "Vest/Vest_ALICE_sniper.et/MagPouch/Pouch_ALICE_20rnd_M14.et"
+     PrefabsToSpawn {
+      "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
+     }
+    }
+   }
+  }
+ }
+ coords 150.461 1 222.636
+}

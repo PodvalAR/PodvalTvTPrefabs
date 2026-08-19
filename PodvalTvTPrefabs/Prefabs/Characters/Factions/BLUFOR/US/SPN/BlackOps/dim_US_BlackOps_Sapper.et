@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{6956B24D18F9C0EC}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Sapper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{18A7F53688D5334A}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_MC51/dim_ARY_Rifle_MC51SD4_NoOpt.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{473E20387338226D}Prefabs/Characters/Heads/Head_White_04/Head_White_04_camo_US_01.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Balaclavas/LShZ_Balaclava/Balaclava_LShZ_black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1A9466B2F39E7A9F}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_tucked_Black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{443304F1EC50BC27}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{AA9A6E89D255CA05}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961_G3_black.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{336AE3CB49E19608}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_Black_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3A809E1C99}" {
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked_Black.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80F6D72C}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80D0F11B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     TargetStorage "Back/Backpack_Veshmeshok_Black.et"
+     PrefabsToSpawn {
+      "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et" "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B394EFC6E76}" {
+     TargetStorage "Back/Backpack_Veshmeshok_Black.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B384D7B6772}" {
+     TargetStorage "Back/Backpack_Veshmeshok_Black.et"
+     PrefabsToSpawn + {
+      "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+   }
+  }
+ }
+ coords 145.584 1 229.049
+}
