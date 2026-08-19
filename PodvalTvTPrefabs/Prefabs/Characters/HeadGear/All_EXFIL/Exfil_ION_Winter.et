@@ -1,0 +1,13 @@
+GameEntity : "{8A81134ABF313ACE}Prefabs/Characters/HeadGear/Helmet_Exfil/Exfil_ION_2_2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{899D70C332F2E303}Prefabs/Characters/HeadGear/Helmet_Exfil/Headgear_exfil_cover_winter.et"
+    }
+   }
+  }
+ }
+ coords 137.479 1 168.457
+}

@@ -1,0 +1,34 @@
+GameEntity : "{0329AA884FEE0BE4}Prefabs/Characters/HeadGear/Helmet_Mk6_01/BF89_Helmet_Mk6_01.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{4A4EFDA08C34026E}Assets/Characters/HeadGear/Helmet_MK6/helmet_mk6_cover_01.xob"
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "Helmet, Mk6 (DPM)"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D35767351900}" {
+      LodModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{1524901762D5AE4B}Prefabs/Characters/Eyewear/Eyewear_6b50/Black/GD_Eyewear_6b50_Strap_On_Black.et"
+    }
+    LoadoutSlotInfo Google {
+     Enabled 0
+     Prefab ""
+    }
+   }
+   WornModel "{4A4EFDA08C34026E}Assets/Characters/HeadGear/Helmet_MK6/helmet_mk6_cover_01.xob"
+   ItemModel "{B955B08A12CEBD61}Assets/Characters/HeadGear/Helmet_MK6/helmet_mk6_cover_item_01.xob"
+  }
+ }
+ coords -0.222 1 -1.133
+}
