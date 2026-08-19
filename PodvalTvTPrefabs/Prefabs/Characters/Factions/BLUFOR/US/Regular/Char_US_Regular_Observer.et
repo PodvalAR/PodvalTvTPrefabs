@@ -1,0 +1,75 @@
+SCR_ChimeraCharacter : "{934D5DB8D0C2197F}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SL_Opt.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Observer"
+    Icon "{DCF0F63BF8F4B59B}UI/Icons/spotter.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F545C1BE7C99954A}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CCA7A9BB4FD3197}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{68C296C643D42AA9}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{68C296C24A8F554B}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{68C296CB56D87F2B}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{68C296CB31DBAE59}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Buttpack/Vest_ALICE_buttpack.et"
+    }
+    ItemsInitConfigurationItem "{6A251044FA85FA2B}" {
+     TargetStorage "Jacket/Jacket_US_BDU_rolledup.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A25104502E0ED36}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Holster/Holster_M12.et"
+     PrefabsToSpawn {
+      "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1559.102 57.156 6192.359
+}
