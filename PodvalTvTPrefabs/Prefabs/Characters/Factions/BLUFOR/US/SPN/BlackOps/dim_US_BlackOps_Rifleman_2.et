@@ -1,0 +1,33 @@
+SCR_ChimeraCharacter : "{FFA2C66FE2243A06}Prefabs/Characters/Factions/BLUFOR/US/SPN/BlackOps/dim_US_BlackOps_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4FF65ABEC303C011}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_m855a1_SD.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{A70960206DCCEC10}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961_M4_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     Enabled 1
+     TargetStorage "Jacket/Suit_Tanker_US_01_tucked_Black.et"
+     PrefabsToSpawn + {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 151.472 1 236.225
+}

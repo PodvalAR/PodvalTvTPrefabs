@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{118FE9C91F5CE369}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/USSR_Marines/VDV/KLMK/dim_VDV_Vanilla_KLMK_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

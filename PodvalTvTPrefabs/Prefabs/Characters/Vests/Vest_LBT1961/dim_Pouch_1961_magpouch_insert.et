@@ -1,0 +1,14 @@
+GameEntity : "{D27F4EA6AB260E7A}Prefabs/Characters/Vests/Vest_LBT1961/Pouch_1961_magpouch_insert.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_EquipmentStorageSlot PouchStorage {
+     Offset -0.013 -0.028 -0.0059
+     Prefab "{66410ECE9E686298}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/dim_ARY_Magazine_762x51_G3_20Rnd_Alu_DM151_AP.et"
+    }
+   }
+  }
+ }
+ coords 160.178 1 227.964
+}

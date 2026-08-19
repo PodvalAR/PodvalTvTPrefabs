@@ -1,0 +1,50 @@
+SCR_ChimeraCharacter : "{118FE9C91F5CE369}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/USSR_Marines/VDV/KLMK/dim_VDV_Vanilla_KLMK_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Стрелок ГРУ"
+    Icon "{99A301CD161E2F16}UI/Icons/dim/GRU_Rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C158CE23A0D7B73C}Prefabs/Weapons/Rifles/VAL/Rifle_VAL.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{53F44AFC856BA5FD}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_Chechen_Hat_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{5B0EC4D381A00605}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_30Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     TargetStorage "Jacket/Suit_KLMK.et"
+    }
+   }
+  }
+ }
+ coords 11979.884 7.476 10540.797
+}

@@ -1,0 +1,5 @@
+MatPBRBasic : "{5CDDE2709BA9A5EE}Assets/_BaseMaterials/Characters_MatPBRBasic.emat" {
+ Color 0.497 0.497 0.497 1
+ BCRMap "{0027CA9CBF6F17B1}Assets/Characters/Vests/Vest_LBT1961/data/lbt1961_black_BCR.edds"
+ NMOMap "{F853A7EBA2D37019}Assets/Characters/Vests/Vest_LBT1961/data/lbt1961_NMO.edds"
+}

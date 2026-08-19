@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{DC112CED1FDA9A15}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/USSR_Marines/VDV/dim_VDV_Vanilla_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DD35D5EBA6364E77}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_cover_KLMK.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CF221A167DE87E57}Prefabs/Characters/Uniforms/Suit_KLMK/Suit_KLMK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Jacket/Suit_KLMK.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/Suit_KLMK.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     TargetStorage "Jacket/Suit_KLMK.et"
+    }
+   }
+  }
+ }
+ coords 1931.42 132.5 7407.987
+}

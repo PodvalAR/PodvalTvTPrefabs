@@ -1,0 +1,20 @@
+GenericEntity : "{E9F0FEFEF0A8A847}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_m855a1_collimator.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{E52C9791E1554A5F}Prefabs/Weapons/Attachments/Muzzle/Suppressor_M16/Suppressor_M16.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 154.331 1 237.958
+ angles 0 0 0
+}

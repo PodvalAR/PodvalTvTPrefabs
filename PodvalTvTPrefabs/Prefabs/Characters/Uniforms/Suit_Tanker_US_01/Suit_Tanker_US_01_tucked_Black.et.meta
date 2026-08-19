@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1A9466B2F39E7A9F}Prefabs/Characters/Uniforms/Suit_Tanker_US_01/Suit_Tanker_US_01_tucked_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

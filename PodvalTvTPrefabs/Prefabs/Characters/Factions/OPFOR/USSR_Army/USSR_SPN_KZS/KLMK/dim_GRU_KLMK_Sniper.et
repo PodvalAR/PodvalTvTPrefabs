@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{7FC3EF284D9ABF16}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/USSR_Marines/VDV/KLMK/dim_VDV_Vanilla_KLMK_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Снайпер ГРУ"
+    Icon "{BC6FE581B38613F9}UI/Icons/dim/GRU_Sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F82DF06C1E34128E}Prefabs/Weapons/Rifles/VSS/Rifle_VSS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{53F44AFC856BA5FD}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_Chechen_Hat_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     PrefabsToSpawn {
+      "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{3543FA8AB4C1E88D}Prefabs/Weapons/Magazines/VSS/Magazine_9x39mm_VSS_20Rnd.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 11980.483 7.473 10540.627
+}

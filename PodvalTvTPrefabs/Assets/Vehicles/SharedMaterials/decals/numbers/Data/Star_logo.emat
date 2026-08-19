@@ -1,0 +1,15 @@
+MatPBRBasic {
+ Color 0.651 0.651 0.651 1
+ DisablePriorityProbes 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ AlphaMul 0.98
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ MetalnessScale 0
+ BCRMap "{BE12B15E6F65E764}Assets/Vehicles/Helicopters/Mi8/Data/Decals_Nation_RussianStar_BCR.edds"
+ OpacityMap "{DC93AD7C03DC7CEF}Assets/Vehicles/Helicopters/Mi8/Data/Decals_Nation_RussianStar_A.edds"
+ Refs {
+  "OpacityMap"
+  "RHS_MaterialController.m_iOpacityMapID"
+ }
+}

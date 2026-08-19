@@ -1,0 +1,46 @@
+GameEntity : "{DF2807C3DC82F9F8}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+  }
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      PreviewModel "{12BB4F5EEC9F8769}Assets/Characters/Vests/Vest_Taktika_Pouches/Taktika_pistolmag_pouch.xob"
+     }
+    }
+    CommonItemType "RHS_PISTOL_AMMO"
+    m_bDraggable 0
+    m_bVisible 0
+    m_bStackable 0
+   }
+   Priority 100
+   StoragePurpose 0x41 0
+   UseVirtualInventoryReplication 0
+   InitialStorageSlots {
+    RHS_EquipmentStorageSlot PouchStorage {
+     Offset 0.0248 0.0793 -0.0049
+     Angles -18.8066 -90 -180
+     ChildPivotID "snap_weapon"
+     Prefab "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     AllowedItemTypes {
+      "RHS_PISTOL_AMMO"
+     }
+     m_aCompatibleItemTypes {
+      "RHS_PISTOL_AMMO"
+     }
+    }
+   }
+  }
+  RigidBody "{51ECC3F9B51DDE22}" {
+   Enabled 0
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornModel "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+   ItemModel "{8D7B9D2378659684}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty_item.xob"
+  }
+ }
+ coords -0.439 0.109 -0.04
+}

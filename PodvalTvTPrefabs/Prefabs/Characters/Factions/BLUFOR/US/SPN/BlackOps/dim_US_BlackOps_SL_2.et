@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{3B04A8A248B584BE}Prefabs/Characters/Factions/BLUFOR/US/SPN/BlackOps/dim_US_BlackOps_SL.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8FC3C6F4DAB39F8A}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_m855a1_opt_SD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{A70960206DCCEC10}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961_M4_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 110.771 1 233.516
+}

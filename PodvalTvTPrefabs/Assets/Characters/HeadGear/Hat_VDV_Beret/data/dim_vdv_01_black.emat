@@ -1,0 +1,8 @@
+MatPBRBasic : "{5CDDE2709BA9A5EE}Assets/_BaseMaterials/Characters_MatPBRBasic.emat" {
+ SpecularMul 0.34
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{5BB5EE5CFB50502D}Assets/Characters/HeadGear/Hat_VDV_Beret/data/Black_Beret.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{E3BBF9DDC0F40E43}Assets/Characters/HeadGear/Hat_VDV_Beret/data/rhs_vdv_beret_01_NMO.edds"
+}
