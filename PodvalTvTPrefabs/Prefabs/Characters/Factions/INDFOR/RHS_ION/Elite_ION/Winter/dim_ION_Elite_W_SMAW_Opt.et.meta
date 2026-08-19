@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{30439D3AB048E2D5}Prefabs/Characters/Factions/INDFOR/RHS_ION/Elite_ION/Winter/dim_ION_Elite_W_SMAW_Opt.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
