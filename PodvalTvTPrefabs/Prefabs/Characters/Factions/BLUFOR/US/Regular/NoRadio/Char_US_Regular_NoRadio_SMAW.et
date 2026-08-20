@@ -19,6 +19,10 @@ SCR_ChimeraCharacter : "{C1EA5E8B4B295153}Prefabs/Characters/Factions/BLUFOR/US/
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{6A2533F28502E235}" {
      TargetStorage "Back/Backpack_ALICE_Medium.et"
      PrefabsToSpawn {

@@ -21,7 +21,7 @@ SCR_ChimeraCharacter : "{0060F5670ADD75E5}Prefabs/Characters/Factions/OPFOR/USSR
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689E8D71B384265F}" {
      PrefabsToSpawn {
-      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{941249F520FEAC08}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Singl.et"
      }
     }
     ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
