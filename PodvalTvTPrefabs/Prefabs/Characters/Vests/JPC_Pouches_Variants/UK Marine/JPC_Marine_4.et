@@ -1,0 +1,66 @@
+GameEntity : "{B77EF1C5A26667A9}Prefabs/Characters/Vests/JPC_Pouches_Variants/UK Marine/JPC_Marine_3.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{7390CBCE20BAE62B}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_Blk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Prefab ""
+    }
+    LoadoutSlotInfo Tako {
+     Enabled 1
+    }
+    LoadoutSlotInfo saw {
+     Offset -0.1912 0.0639 0.0172
+     Angles -2.3303 -92.8844 3.645
+     Prefab "{C75DBC6C455E4367}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_CCSS_RHS_Black.et"
+    }
+    LoadoutSlotInfo radio {
+     PivotID "Spine1"
+     Offset 0.1464 0.0405 0.1092
+     Angles 0.1553 -131.37781 89.3489
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo raid {
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Offset -0.1424 0.0207 0.106
+     Angles 4.4201 -128.87669 -9.0283
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1086 0.0173 0.1323
+     Angles 5.236 -123.5952 -8.5834
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Offset -0.1654 0.0362 0.0274
+     Angles 5.8064 -74.0079 1.9247
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.1437 0.0987 -0.0668
+     Angles 3.8341 111.9688 -2.6187
+     Prefab "{FD1537D7E8C139C2}Prefabs/Characters/Vests/Vest_LV119_Pouches/GD_LV119_Pouch_JSTA_RHS_Black.et"
+    }
+    LoadoutSlotInfo m18_2 {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Offset 0 0.2057 0.1418
+     Angles 11.6688 0 0
+     Prefab "{2310A5C3FC6AD5E7}Prefabs/Items/Patches/GD_UK_Patch_Color.et"
+     m_fMorphValue 0
+    }
+    LoadoutSlotInfo JTAC {
+     PivotID "Spine1"
+     Offset -0.1477 0.1228 -0.1004
+     Angles 0.9363 -43.4743 5.5427
+     Prefab "{764BEC04FC8F2A3C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+   }
+  }
+ }
+ coords 177.91 1 202.122
+}

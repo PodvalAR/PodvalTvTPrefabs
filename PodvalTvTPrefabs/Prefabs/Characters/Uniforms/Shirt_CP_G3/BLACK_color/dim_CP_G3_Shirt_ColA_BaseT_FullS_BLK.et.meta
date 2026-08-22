@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D1A0CAA6DF439FF8}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/dim_CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

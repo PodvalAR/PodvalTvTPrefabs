@@ -1,0 +1,104 @@
+SCR_ChimeraCharacter : "{D9CC41C115798B88}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/dim_SBS_UK_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3AE7A7CDB873DD08}Prefabs/Weapons/Rifles/HK416A5/dim_Rifle_HK416A5_Var5.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A91175C5CAF99538}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/ION/dim_Helmet_OPSCORE_XP_Black_PELTOR_ION2_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D1A0CAA6DF439FF8}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/dim_CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0B14BC25908C4570}Prefabs/Characters/Uniforms/Pants_CP_G3/BLACK_color/CP_G3_Pants_KpadsSP_BLK.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{DF886C6B22F49827}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8A4AD4FDD70AEE9E}Prefabs/Characters/Vests/JPC_Pouches_Variants/UK Marine/JPC_Marine_4.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6576CE8F77B6B572}" {
+     TargetStorage "Vest/JPC_Marine_4.et/JTAC/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F765D1A33}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsSP_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F766066BF}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsSP_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76064C38}" {
+     TargetStorage "Vest/JPC_Marine_4.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F762C4AD2}" {
+     TargetStorage "Vest/JPC_Marine_4.et/takobelt/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F7632DC6E}" {
+     TargetStorage "Vest/JPC_Marine_4.et/m18_1/GD_LV119_Pouch_JSTA_RHS_Black.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6576CE8F76DB5D80}" {
+     TargetStorage "Vest/JPC_Marine_4.et/saw/GD_LV119_Pouch_CCSS_RHS_Black.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8F76A6E271}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C961E81E9}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C96D9298F}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C968D69C7}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF9A95BD2}" {
+     TargetStorage "Vest/JPC_Marine_4.et/tako/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8CF845DC4C}" {
+     TargetStorage "Vest/JPC_Marine_4.et/m67_2/GD_Holster_SLS.et"
+    }
+    ItemsInitConfigurationItem "{6576CE8C2716C218}" {
+     TargetStorage "Vest/JPC_Marine_4.et/pistolpouch2/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69E6BD666B286B26}" {
+     TargetStorage "Back/Backpack_511_rush12_black.et"
+    }
+    ItemsInitConfigurationItem "{69E6BD666565B9EE}" {
+     Enabled 1
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_BaseT_FullS_BLK.et"
+     PrefabsToSpawn {
+      "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et" "{77931A76049826D6}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 174.975 1 205.98
+}

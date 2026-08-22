@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B1EF8436DD4A572F}Prefabs/Characters/Factions/BLUFOR/UK/UK2_SPN/SBS/Black/dim_SAS_Black_Sapper.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

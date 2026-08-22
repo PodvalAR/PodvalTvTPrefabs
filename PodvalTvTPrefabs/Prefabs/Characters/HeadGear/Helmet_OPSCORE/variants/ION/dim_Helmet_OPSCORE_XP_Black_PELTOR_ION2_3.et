@@ -1,0 +1,22 @@
+GameEntity : "{78F48BFA57915F49}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/ION/Helmet_OPSCORE_XP_Black_PELTOR_ION2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{F3672F802360D2E4}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk_clr.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Prefab "{2310A5C3FC6AD5E7}Prefabs/Items/Patches/GD_UK_Patch_Color.et"
+    }
+   }
+  }
+ }
+ coords 181.27 1 201.606
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{5027D6CF3745778F}Prefabs/Items/Equipment/Radios/Radio_PRC351_Brit_Modern.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{91C691AA710C4AC6}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Data/Delta_Black.emat"
+   }
+   ItemMaterialsOverride {
+    "{91C691AA710C4AC6}Assets/Items/Equipment/Backpacks/Spiritus_DeltaBag/Data/Delta_Black.emat"
+   }
+  }
+ }
+ coords 172.403 1 206.819
+}
