@@ -1,0 +1,34 @@
+Turret : "{B5378AEE13830537}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Tirret_Gun_CROWS_M2.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0 0 0.2983
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{68D4DD4BEB4AC738}" {
+   Slots {
+    TF_Display_Slot ControlPanel {
+     Offset 0.0293 0 0.4009
+    }
+    RegisteringComponentSlotInfo Mount {
+     Offset 0.031 0 0.4048
+    }
+   }
+  }
+  VehicleAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{CFB0BA9CCFD2C03C}Assets/Vehicles/Wheeled/workspaces/M1240A1.agr"
+   AnimInstance "{22DAEF47D3DB92D2}Assets/Vehicles/Wheeled/workspaces/M1240A1_vehicle.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{CFB0BA9CCFD2C03C}Assets/Vehicles/Wheeled/workspaces/M1240A1.agr"
+    AnimInstance "{3D4800A6E8E00905}Assets/Vehicles/Wheeled/workspaces/M1240A1_character.asi"
+   }
+  }
+ }
+ coords 2471.531 67.371 6747.768
+}
