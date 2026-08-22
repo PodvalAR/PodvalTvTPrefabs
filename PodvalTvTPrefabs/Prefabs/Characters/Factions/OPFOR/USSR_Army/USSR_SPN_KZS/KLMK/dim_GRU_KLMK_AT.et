@@ -29,6 +29,16 @@ SCR_ChimeraCharacter : "{0567EB83D52167CF}Prefabs/Characters/Factions/OPFOR/USSR
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_Lifchik.et"
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+    }
+   }
+  }
  }
  coords 11975.591 7.453 10540.788
 }
