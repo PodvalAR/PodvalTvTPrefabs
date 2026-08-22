@@ -291,7 +291,7 @@ Turret {
     }
     SCR_VehicleHitZone Optic2 {
      ColliderNames {
-      "UBX_GunnerOptics" "UBX_GunnerOptics2"
+      "UBX_GunnerOptics"
      }
      IgnoreExplosions 1
      MaxHealth 300
