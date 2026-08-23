@@ -1,0 +1,121 @@
+SCR_ChimeraCharacter : "{F04F220270B4B029}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{987455CBB522AE51}Prefabs/Weapons/Rifles/M4A1/PMC_New/M4_PMC_4X_SU230_noSD.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DA0B2D317FA35902}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Parka/Helmet_Exfil_CoyBlk_ION5.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5D76D9A08DEE2A01}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/dim_CP_G3_Shirt_ColA_OutT_RollS_BLK_US.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{8020A17F9C62EC93}Prefabs/Items/Equipment/Radios/dim_Radio_ANPRC77_US.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{25CD70C1CA24634A}Prefabs/Characters/Vests/JPC_Pouches_Variants/UK Marine/JPC_CAT_2.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset 0 0 0
+     Prefab ""
+    }
+    LoadoutSlotInfo Mustache {
+     Enabled 1
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/Pants_TrousersV2_Tan.et"
+    }
+    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetStorage "Vest/JPC_CAT_2.et/flex/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EB}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Multi.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3F5007EF}" {
+     TargetStorage "Vest/JPC_CAT_2.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E847E7B}" {
+     TargetStorage "Vest/JPC_CAT_2.et/flexbelt/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EE0EB43}" {
+     TargetStorage "Vest/JPC_CAT_2.et/flexbelt2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EF88868}" {
+     TargetStorage "Vest/JPC_CAT_2.et/tako_camer/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et" "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3ED2D86D}" {
+     TargetStorage "Vest/JPC_CAT_2.et/HSGI/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E2B55F7}" {
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_OutT_RollS_BLK_US.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E05982B}" {
+     TargetStorage "Vest/JPC_CAT_2.et/pistolbelt/GD_Holster_SLS_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E0ABBF4}" {
+     TargetStorage "Vest/JPC_CAT_2.et/pistolpouch2/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E6AB5E0}" {
+     TargetStorage "Vest/JPC_CAT_2.et/m67_2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E4487F5}" {
+     Enabled 1
+     TargetStorage "Vest/JPC_CAT_2.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E5EDAD4}" {
+     Enabled 1
+     TargetStorage "Vest/JPC_CAT_2.et/m18_1/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899EAC948B56}" {
+     TargetStorage "Vest/JPC_CAT_2.et/m67_1/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+ coords 106.273 1 109.161
+}

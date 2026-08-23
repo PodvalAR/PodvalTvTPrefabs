@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{950E548D3E0A91AB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/dim_Role_Character_USAF_MARSOC_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{E85E8BD434DA1C6A}UI/Icons/berret.edds"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{EDC5B8024684A4F8}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{36F41D3877B45994}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_Coy_Peltor_MARSOC6.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{90C1C7F6AA5343D7}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/USA/dim_G3_USA_2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{69E6641607E50A7C}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC_MARSOC_2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7E3DF5C439F99E94}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{702E0352F0889367}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy4.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+    LoadoutSlotInfo Hair {
+     Enabled 1
+     Prefab "{1EE181082BA8C087}Prefabs/Characters/HeadGear/Disguise/Hair/3/Hair_3_2.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset 0 -0.003 -0.004
+     Enabled 1
+     Prefab "{0341BE3BC36FBBC2}Prefabs/Characters/HeadGear/Disguise/Beard/4/Beard_4_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+     PrefabsToSpawn + {
+      "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     Enabled 0
+     TargetStorage "Jacket/dim_G3_USA_2.et"
+    }
+   }
+  }
+ }
+ coords 121.182 1 138.138
+}

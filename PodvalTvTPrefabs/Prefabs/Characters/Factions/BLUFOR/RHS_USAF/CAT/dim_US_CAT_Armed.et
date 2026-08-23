@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{8B84B426FDB15133}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EF6E61D5D903D195}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_MC_BLK/dim_Helmet_Exfil_Blk_CAT.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5418C9D338618BA9}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Blk.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7BB7B3CE253B02F9}Prefabs/Characters/Vests/US_CAT/dim_AVS_CAT_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{7AA4434C22E4B2EF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_USA_Singl.et"
+     }
+    }
+   }
+  }
+ }
+ coords 109.866 1 105.68
+}

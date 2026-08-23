@@ -1,0 +1,60 @@
+GameEntity : "{7E2DB938F7348CDC}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9_2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0369 0.178
+     Prefab "{EB01F0264EC064A6}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_Blk.et"
+    }
+    LoadoutSlotInfo MBITR {
+     Offset 0.0088 0.2093 0.1799
+     Angles 0 0.0001 75
+     Prefab ""
+    }
+    LoadoutSlotInfo nerd {
+     Offset 0.1836 0.0915 0.1118
+     Angles 1.2371 151.49809 -2.4933
+     MergePhysics 0
+     Prefab "{A32321E3BEEE4F84}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_Knife.et"
+    }
+    LoadoutSlotInfo ifak {
+     Offset 0.0959 0.0238 -0.1285
+     Angles 1.3583 161.05141 -0.1733
+     Prefab "{70C774BCEB3FFAAE}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_medpouch_BLK.et"
+    }
+    LoadoutSlotInfo saw {
+     Angles 0.9132 -160.4458 -2.0332
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    LoadoutSlotInfo tako2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo flexcoret {
+     Prefab ""
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset 0.2449 0.0452 -0.0055
+     Angles 3.9137 -91.8061 3.0159
+     Prefab "{6D1B180D001E190F}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Scissors.et"
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.2675 0.002 0.077
+     Prefab ""
+    }
+    LoadoutSlotInfo m67_1 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0.0011 0.1914 0.1724
+     Angles 7.1305 0 0
+     Prefab "{89FDC21A848716E3}Prefabs/Items/Patches/GD_Patch_USA.et"
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{6A2E8987EA21CC7A}" {
+     }
+    }
+   }
+  }
+ }
+ coords 103.145 1 113.255
+}

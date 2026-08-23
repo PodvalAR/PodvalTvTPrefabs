@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{B015FB7ACC8F368E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_SL_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_KS"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab ""
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{940ECDB0F69CBC5E}Prefabs/Characters/Uniforms/T_Shirts/ION_Shirt/ION_Casual_Shirt_Brand.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset -0.003 -0.005 -0.007
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A2E899E3E2B55F7}" {
+     TargetStorage "Jacket/ION_Casual_Shirt_Brand.et"
+    }
+   }
+  }
+ }
+ coords 6445.146 79.838 3391.209
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B1FBFAEFB0998F47}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_MC_BLK/dim_Helmet_Exfil_Blk_CAT_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,6 @@
+MatPBRMulti : "{0FB93B007F4E3A39}Assets/_BaseMaterials/Characters_MatPBRMulti.emat" {
+ Color 0.027 0.033 0.056 1
+ BCR_1 "{2CB1F88C77E181E2}Assets/Characters/Uniforms/Jacket_VKPO/data/rhs_vkpo_undershirt_BCR.edds"
+ NMO_1 "{1469431EAE96D37C}Assets/Characters/Uniforms/Jacket_VKPO/data/rhs_vkpo_undershirt_NMO.edds"
+ Roughness_1 1.4
+}

@@ -1,0 +1,11 @@
+GameEntity : "{C3F41AD15086CE44}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/dim_CP_G3_Shirt_ColA_BaseT_RollS_BLK_US.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{F7EC002106D10370}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp1_MC_BLK.emat" "{B74DB2873CC4F077}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp3_MC_BLK.emat"
+   }
+  }
+ }
+ coords 119.487 1 134.865
+}

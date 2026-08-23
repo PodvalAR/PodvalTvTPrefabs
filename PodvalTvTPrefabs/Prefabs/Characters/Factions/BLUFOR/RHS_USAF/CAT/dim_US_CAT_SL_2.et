@@ -1,0 +1,94 @@
+SCR_ChimeraCharacter : "{F788D85316320AEA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{2F3375E395C46AB3}Prefabs/Characters/Heads/Head_BaseBody_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1A96146BF8C2A811}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Parka/dim_Helmet_Exfil_CAT_3.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{5418C9D338618BA9}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{77453F3F9F1236BF}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Tan.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{AB116B8D9F8E374F}Prefabs/Characters/Footwear/Solomon_midtops.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7BB7B3CE253B02F9}Prefabs/Characters/Vests/US_CAT/dim_AVS_CAT_1.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset -0.003 -0.005 -0.007
+     Prefab "{0341BE3BC36FBBC2}Prefabs/Characters/HeadGear/Disguise/Beard/4/Beard_4_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/Pants_FROG_Tan.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Pants/Pants_FROG_Tan.et"
+    }
+    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/radio/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3F5007EF}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/Pouch1/Pouch_avs_front_closed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E847E7B}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/tako/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EE0EB43}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/Tako2/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EF88868}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/takobelt/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3ED2D86D}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E05982B}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/m67_1/GD_Holster_SLS.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E0ABBF4}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/pistolpouch2/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E6AB5E0}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E4487F5}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/m18_2/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E5EDAD4}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899EAC948B56}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/HSGI/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E898EB752C4DF}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/MBITR/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E898EBF233F5A}" {
+     TargetStorage "Vest/dim_AVS_CAT_1.et/pistol2/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+   }
+  }
+ }
+ coords 119.417 1 121.308
+}

@@ -1,0 +1,100 @@
+SCR_ChimeraCharacter : "{7EDD1022ABACA804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/New/dim_USAF_MARSOC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Medic"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{21363E70FCCBD6F9}Prefabs/Characters/Heads/Head_White_09/Head_White_09_camo_USSR_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{82084019B2F9C8E6}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_Coy_Peltor_MARSOC3.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{0D75783FF24B316B}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_Medic.et"
+    }
+    LoadoutSlotInfo Beard {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo Mustache {
+     Offset 0.0033 -0.007 -0.004
+     Enabled 1
+     Prefab "{E0896D1260EB7F1E}Prefabs/Characters/HeadGear/Disguise/Mustache/3/Mustache_3_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A2ECE33897EE573}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3389555FB4}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/Pouch1/Pouch_avs_front_closed_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388B0D441}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/tako/Pouch_FILBE_doubleM4_1.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE338889F343}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/takobelt2/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388E098A8}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/M67/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388F9C7FD}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/M18_2/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388D05B79}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/M18_3/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33882888D9}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/HSGI/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C96585AF}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/pistol2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C95F23EB}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/pistolpouch2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C8056710}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3FCBCF3F74}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/Tako/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3FCB010DA9}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_Medic.et/Shaw_Flex/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3FCB401192}" {
+     TargetStorage "Back/Backpack_511_rush12_Coy.et"
+     PrefabsToSpawn {
+      "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3FCAA5C397}" {
+    }
+   }
+  }
+ }
+ coords 138.31 1 155.263
+}

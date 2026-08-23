@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.027 0.033 0.056 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ RoughnessScale 2.342
+ EnableFarHiding 1
+ BCRMap "{1D08E06C30AD3770}Assets/Characters/HeadGear/Hat_BonnieHat/Data/Boonie_Hat_OD_BCR.edds"
+ NMOMap "{236417AEE6433D2A}Assets/Characters/HeadGear/Hat_BonnieHat/Data/Panama_NMO.edds"
+}

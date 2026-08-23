@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B997A336AF6C5D30}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/dim_Headphones_Sordin_Black_Baf.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

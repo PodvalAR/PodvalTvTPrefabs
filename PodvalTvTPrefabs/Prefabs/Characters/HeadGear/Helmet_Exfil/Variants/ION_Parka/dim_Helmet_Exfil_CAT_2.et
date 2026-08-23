@@ -1,0 +1,17 @@
+GameEntity : "{11EA45E262AD4074}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_MC_BLK/Helmet_Exfil_Blk_ION4.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 0
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+   }
+  }
+ }
+ coords 123.261 1 121.11
+}

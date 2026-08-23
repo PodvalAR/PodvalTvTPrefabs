@@ -1,0 +1,122 @@
+SCR_ChimeraCharacter : "{7EDD1022ABACA804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/New/dim_USAF_MARSOC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F96BBA7B329ADC1A}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5BE1510099FE5F36}Prefabs/Weapons/Rifles/SR25/Rifle_M110_RT6_M61_SUB.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DC036A9677A90E4B}Prefabs/Characters/Heads/Head_White_10/Head_White_10_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4FCD608871795C51}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/Helmet_OPSCORE_SF_MARSOC3.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{755D8B0FA6B6D4BC}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/USA/dim_G3_USA_3.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1C7A37B24C4C1C49}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy7.et"
+    }
+    LoadoutSlotInfo Beard {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo Mustache {
+     Offset 0 0.003 0
+     Enabled 1
+     Prefab "{5A38122DBF616364}Prefabs/Characters/HeadGear/Disguise/Mustache/2/Mustache_2_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6A2ECE33897EE573}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3389555FB4}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/Tako/Pouch_Shaw_Nerd_Mini.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388B0D441}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/tako/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE338889F343}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/tako2/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388E098A8}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388F9C7FD}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388D05B79}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33882888D9}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/HSGI/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C96585AF}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/pistol1/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C95F23EB}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/pistol2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C8056710}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/Tako/Pouch_Shaw_Nerd_Mini.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33EFF77696}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/flex/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE305921A457}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/flex2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE305915B6AC}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy7.et/flex3/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE30594A0622}" {
+    }
+    ItemsInitConfigurationItem "{6A2ECE3058E363C4}" {
+    }
+   }
+  }
+ }
+ coords 131.18 1 149.557
+}

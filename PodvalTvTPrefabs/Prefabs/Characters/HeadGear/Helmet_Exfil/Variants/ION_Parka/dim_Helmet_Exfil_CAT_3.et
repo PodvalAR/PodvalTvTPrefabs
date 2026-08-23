@@ -1,0 +1,14 @@
+GameEntity : "{FF0A5892F4273F7A}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_Parka/dim_Helmet_Exfil_CAT_2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Enabled 1
+     Prefab "{54983CB068EF787D}Prefabs/Characters/HeadGear/Hat_Scarf/GD_Scarf Black.et"
+    }
+   }
+  }
+ }
+ coords 120.347 1 122.541
+}

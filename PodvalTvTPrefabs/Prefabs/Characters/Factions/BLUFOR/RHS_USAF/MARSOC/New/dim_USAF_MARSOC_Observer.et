@@ -1,0 +1,106 @@
+SCR_ChimeraCharacter : "{12FA70528A165C02}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/New/dim_USAF_MARSOC_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Observer"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C4023CA59E243252}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_V6.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{B64F0403AD3C4D77}Prefabs/Characters/Heads/Head_White_05/Head_White_05_camo_USSR_01.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{27E1B019B58135EC}Prefabs/Characters/HeadGear/Hat_BoonieHat/GD_Bonnie_Hat_Comtac_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{8886A93A3B3ACD07}Prefabs/Characters/Uniforms/Jacket_Anorak/GD_Anorak_Black_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0431EA00E8B1CA6A}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7925C95DAFD61597}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961_Woodland.et"
+    }
+    LoadoutSlotInfo Hair {
+     Prefab "{E9E59F393B49FC1E}Prefabs/Characters/HeadGear/Disguise/Hair/4/Hair_4_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33897EE573}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE3389555FB4}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388B0D441}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE338889F343}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388E098A8}" {
+     Enabled 0
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388F9C7FD}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388D05B79}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE33882888D9}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C96585AF}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C95F23EB}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2ECE33EFF77696}" {
+     TargetStorage "Jacket/GD_Anorak_Black_MC.et"
+     PrefabsToSpawn + {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE32BD232202}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 139.127 1 147.549
+}

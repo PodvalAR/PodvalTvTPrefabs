@@ -1,0 +1,18 @@
+GameEntity : "{D1A0CAA6DF439FF8}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/dim_CP_G3_Shirt_ColA_BaseT_FullS_BLK.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo RightVelcro : SleeveRightVelcro {
+     Offset -0.0255 -0.1012 -0.064
+     Angles -3.4538 -160.9718 -26.6956
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{F7EC002106D10370}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp1_MC_BLK.emat" "{C8736E4310DDAD8D}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp2_MC_BLK.emat" "{B74DB2873CC4F077}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp3_MC_BLK.emat"
+   }
+  }
+ }
+ coords 120.475 1 134.831
+}

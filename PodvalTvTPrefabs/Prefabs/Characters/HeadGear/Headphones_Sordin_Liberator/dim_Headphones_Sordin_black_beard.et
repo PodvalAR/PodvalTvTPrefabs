@@ -1,0 +1,27 @@
+GameEntity : "{2162B5F1B9F5F6BB}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/Headphones_Sordin_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{5EBDADC08FBFA428}Assets/Characters/HeadGear/Headset_Sordin_Liberator/sordin_ground.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{E2AEE09BA445A688}Prefabs/Characters/Eyewear/npp_kondor/Eyewear_npp_kondor.et"
+    }
+    LoadoutSlotInfo hair {
+     Prefab "{1EE181082BA8C087}Prefabs/Characters/HeadGear/Disguise/Hair/3/Hair_3_2.et"
+    }
+   }
+   WornModel "{98A97B7CAFFBDF4C}Assets/Characters/HeadGear/Headset_Sordin_Liberator/sordin.xob"
+   WornMaterialsOverride {
+    "{DE4519363A53E636}Assets/Characters/HeadGear/Headset_Sordin_Liberator/data/sordin_black.emat"
+   }
+   ItemModel "{5EBDADC08FBFA428}Assets/Characters/HeadGear/Headset_Sordin_Liberator/sordin_ground.xob"
+   ItemMaterialsOverride {
+    "{DE4519363A53E636}Assets/Characters/HeadGear/Headset_Sordin_Liberator/data/sordin_black.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+}

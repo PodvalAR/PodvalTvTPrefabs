@@ -1,0 +1,11 @@
+GameEntity : "{BB68DC18E1C571D8}Prefabs/Characters/Uniforms/VKPO/Undershirt_VKPO.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{606F327860CD3A2C}" {
+   WornMaterialsOverride {
+    "{830AADCA138698CD}Assets/Characters/Uniforms/Jacket_VKPO/data/dim_vkpo_undershirt.emat"
+   }
+  }
+ }
+ coords 110.197 1 125.027
+}

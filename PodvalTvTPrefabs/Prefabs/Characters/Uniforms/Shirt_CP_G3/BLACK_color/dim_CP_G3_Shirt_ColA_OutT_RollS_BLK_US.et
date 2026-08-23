@@ -1,0 +1,26 @@
+GameEntity : "{AE11DE4E84EFA0FA}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/CP_G3_Shirt_ColA_OutT_RollS_BLK.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     Offset -0.0058 -0.0424 -0.0715
+     Angles 10.2978 -170.53889 -26.9948
+     Prefab "{4135547E507D4471}Prefabs/Items/Equipment/Patches/Patch_USMC_Recon_Black.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     PivotID "RightArm"
+     Offset -0.0255 -0.1012 -0.064
+     Angles -3.4538 -160.9718 -26.6956
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+     InspectionWidgetOffset 0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{6A2E8995E46DEF91}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.5
+    }
+   }
+  }
+ }
+ coords 111.93 1 101.436
+}

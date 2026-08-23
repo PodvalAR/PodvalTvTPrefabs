@@ -1,0 +1,14 @@
+GameEntity : "{1D19C13553062971}Prefabs/Characters/HeadGear/Hat_BoonieHat/GD_Bonnie_Hat_OD_Comtac.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{B7C1A06C5112CBFF}Assets/Characters/HeadGear/Hat_BonnieHat/Data/dim_Hat_Boonie_USMC_Black.emat" "{E14FEB955C60655F}Assets/Characters/HeadGear/Hat_BonnieHat/Data/MI_Comtac_6.emat"
+   }
+   ItemMaterialsOverride {
+    "{B7C1A06C5112CBFF}Assets/Characters/HeadGear/Hat_BonnieHat/Data/dim_Hat_Boonie_USMC_Black.emat"
+   }
+  }
+ }
+ coords 140.16 1 148.179
+}

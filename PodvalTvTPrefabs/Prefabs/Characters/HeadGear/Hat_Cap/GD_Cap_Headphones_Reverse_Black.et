@@ -1,0 +1,22 @@
+GameEntity : "{665EEF29CC2C672A}Prefabs/Characters/HeadGear/Hat_TruckerCap_01/Hat_TruckerCap_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{60E804ACB48422C8}Assets/Characters/HeadGear/Hat_Cap/GD_Cap_Reverse_Item.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggle {
+     Prefab "{26D6B02D8879F71E}Prefabs/Characters/Eyewear/Eyewear_Goggles/GD_Glasses_V1.et"
+     InspectionWidgetOffset 0 1.6901 0.0813
+     AreaType LoadoutGooglesArea "{6A2ECE3EA60069C9}" {
+     }
+     m_sInspectIconTexture "{8C5C7CED1FFCE9F6}UI/Textures/InventoryIcons/Inspection-gizmo-goggles-slot-UI.edds"
+    }
+   }
+   WornModel "{D7D1BBD916A0A8BA}Assets/Characters/HeadGear/Hat_Cap/GD_Cap_Headphones_Reverse.xob"
+   ItemModel "{60E804ACB48422C8}Assets/Characters/HeadGear/Hat_Cap/GD_Cap_Reverse_Item.xob"
+  }
+ }
+ coords 1740.97 39 2941.866
+}

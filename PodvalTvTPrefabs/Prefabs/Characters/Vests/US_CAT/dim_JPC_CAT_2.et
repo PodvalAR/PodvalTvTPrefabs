@@ -1,0 +1,28 @@
+GameEntity : "{3538803E14271A02}Prefabs/Characters/Vests/JPC_Pouches_Variants/GD_MCBlk_Var2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{7390CBCE20BAE62B}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_Blk.et"
+    }
+    LoadoutSlotInfo Scissors {
+     Offset -0.03 0.1421 0.1529
+    }
+    LoadoutSlotInfo Holster {
+     Offset 0.0051 -0.147 -0.0078
+     Angles 0 -180 -2.7033
+    }
+    RHS_LoadoutSlotInfo ChestVelcro {
+     PivotID "Spine5"
+     Offset 0 0.2031 0.1426
+     Angles 10.312 0 0
+     Prefab "{89FDC21A848716E3}Prefabs/Items/Patches/GD_Patch_USA.et"
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{6A2E898033258BFF}" {
+     }
+    }
+   }
+  }
+ }
+ coords 105.117 1 116.688
+}

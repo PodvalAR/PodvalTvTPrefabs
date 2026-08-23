@@ -1,0 +1,42 @@
+GameEntity : "{CF35ADF94798B23E}Prefabs/Characters/Vests/Vest_JPC/variants/ION/Vest_JPC_MCBlk_nobelt_2.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0613 0.172
+     Angles -2.1074 0 0
+     Prefab "{B9657A8CB50FBD4C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_front_molle_Blk.et"
+    }
+    LoadoutSlotInfo mbiyt {
+     Prefab ""
+    }
+    LoadoutSlotInfo flex1 {
+     Prefab ""
+    }
+    LoadoutSlotInfo flex2 {
+     Offset 0.0045 0.1913 0.1902
+     Angles 6.3112 180 0
+     Prefab "{E76DD315DC382F6C}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone_USA_Flag.et"
+    }
+    LoadoutSlotInfo flex3 {
+     Offset 0.0662 0.0411 0.2117
+     Angles 0.5326 8.6545 21.65
+     Prefab "{F75348AF05B91DD7}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+    }
+    LoadoutSlotInfo raid {
+     Offset -0.0627 0.0484 0.1946
+     Angles 0 -2.8606 -1.4141
+     Prefab "{70C774BCEB3FFAAE}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_medpouch_BLK.et"
+    }
+    LoadoutSlotInfo hsgi2 {
+     Offset -0.0929 0.0176 0.1978
+     Angles 0 -6.738 0
+     Enabled 0
+     Prefab "{84C4ED4CE6DD42F0}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_magpouch_pistol_BLK.et"
+    }
+   }
+  }
+ }
+ coords 103.145 1 113.255
+}

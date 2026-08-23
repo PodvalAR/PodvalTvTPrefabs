@@ -1,0 +1,13 @@
+GameEntity : "{8B4C2464906B832E}Prefabs/Characters/HeadGear/Hat_Cap/GD_Cap_Headphones_Reverse_Tan.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggle {
+     Prefab "{F3672F802360D2E4}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk_clr.et"
+    }
+   }
+  }
+ }
+ coords 109.622 1 111.783
+}

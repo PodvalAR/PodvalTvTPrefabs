@@ -1,0 +1,13 @@
+GameEntity : "{743A1C13B7709CC7}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/dim_Headphones_Sordin_black_beard.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Baf {
+     Prefab "{35D00D3B430A2C9A}Prefabs/Characters/HeadGear/Hat_Masks/GD_Baf_Black.et"
+    }
+   }
+  }
+ }
+ coords 134.359 1 153.653
+}

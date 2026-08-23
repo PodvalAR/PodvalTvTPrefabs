@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{F04F220270B4B029}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{743A1C13B7709CC7}Prefabs/Characters/HeadGear/Headphones_Sordin_Liberator/dim_Headphones_Sordin_black_beard.et"
+    }
+    LoadoutSlotInfo Hair {
+     Enabled 0
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 6434.999 79.906 3385.081
+}

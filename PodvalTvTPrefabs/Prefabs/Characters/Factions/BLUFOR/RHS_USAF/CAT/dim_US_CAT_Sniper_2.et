@@ -1,0 +1,116 @@
+SCR_ChimeraCharacter : "{12B0BA8C25BA10E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{843B3B353F31A527}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_t_lc.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8909A91CFF369BB3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D1ADDDD26BECEF15}Prefabs/Characters/HeadGear/Hat_Cap/dim_GD_Cap_Headphones_Reverse_Tan_CAT.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1E565EF533FFDEE7}Prefabs/Characters/Uniforms/Shirt_CP_G3/BLACK_color/dim_CP_G3_Shirt_ColA_OutT_PushS_BLK_US.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADA78EF0EA20E6F9}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_radio_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{77453F3F9F1236BF}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Tan.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{D99E6546F30B1EA1}Prefabs/Characters/Vests/US_CAT/dim_AVS_CAT_Sniper.et"
+    }
+    LoadoutSlotInfo Hair {
+    }
+    LoadoutSlotInfo Beard {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/Pants_FROG_Tan.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Pants/Pants_FROG_Tan.et"
+    }
+    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetStorage "ArmoredVest/Vest_AVS_radio_Blk.et/mbitr/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3F5007EF}" {
+     TargetStorage "Jacket/dim_CP_G3_Shirt_ColA_OutT_PushS_BLK_US.et"
+     PrefabsToSpawn {
+      "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E847E7B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EE0EB43}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EF88868}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E3ED2D86D}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E2B55F7}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E05982B}" {
+     TargetStorage "Vest/dim_AVS_CAT_Sniper.et/flex3/Pouch_Taktika_holster_BLK.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E0ABBF4}" {
+     TargetStorage "Vest/dim_AVS_CAT_Sniper.et/flex3/Pouch_Taktika_holster_BLK.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E6AB5E0}" {
+     TargetStorage "Vest/dim_AVS_CAT_Sniper.et/raid/Pouch_Taktika_medpouch_BLK.et"
+     PrefabsToSpawn + {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E4487F5}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E5EDAD4}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899EAC948B56}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 109.331 1 110.215
+}

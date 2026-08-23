@@ -1,0 +1,13 @@
+GameEntity : "{D997785BE1E9713D}Prefabs/Characters/Vests/Vest_LBT1961/dim_Pouch_1961_pistol_holster_Insert.et" {
+ ID "50E0B40D7407B664"
+ components {
+  RHS_EquipmentStorageComponent "{5222CB03D1147687}" {
+   InitialStorageSlots {
+    RHS_MorphedEquipmentStorageSlot PouchStorage {
+     Prefab "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+    }
+   }
+  }
+ }
+ coords 142.051 1 147.244
+}

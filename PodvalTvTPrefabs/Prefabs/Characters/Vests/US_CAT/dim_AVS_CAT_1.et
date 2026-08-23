@@ -1,0 +1,92 @@
+GameEntity : "{718789A29DA9AFF3}Prefabs/Characters/Vests/RangerKits/Ranger_AVS_New_5.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Offset 0 0.0287 0.1754
+     Prefab "{EB01F0264EC064A6}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_Blk.et"
+    }
+    LoadoutSlotInfo HSGI {
+     Offset 0.0581 0.0122 -0.1582
+     Angles 11.0815 161.202 -2.0328
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1807 0.0614 0.0212
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1956 0.1573 -0.1098
+     Angles 1.088 -154.8781 -3.9855
+     Enabled 1
+     Prefab "{764BEC04FC8F2A3C}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Blk.et"
+    }
+    LoadoutSlotInfo raid {
+     Offset 0 -0.1352 0.1898
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    LoadoutSlotInfo pistolpouch2 {
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo tako {
+     Offset 0.1274 0.0236 -0.0856
+     Angles 7.2702 142.4957 -10.4592
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo pistol2 {
+     Offset -0.0935 0.0163 0.1326
+     Angles -6.476 -113.9529 -6.2533
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo Tako2 {
+     Prefab "{347E53A3482B9600}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_Blk.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+    }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.177 -0.0379 -0.0954
+     Angles 6.5107 -134.3136 -4.7618
+    }
+    LoadoutSlotInfo MBITR {
+     PivotID "Spine1"
+     Offset -0.1362 0.0217 0.1059
+     Angles -7.7744 -122.6652 -9.562
+     Enabled 1
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+    }
+    LoadoutSlotInfo ifak {
+     PivotID "Spine5"
+     Prefab ""
+    }
+    LoadoutSlotInfo flexcoret2 {
+     Offset 0 0.2184 0.1963
+     Angles 0 -180 0
+     Enabled 1
+     Prefab "{E76DD315DC382F6C}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone_USA_Flag.et"
+    }
+    LoadoutSlotInfo flexcoret3 {
+     Offset -0.0035 0.218 0.1969
+     Angles 14.1601 0 0
+     Enabled 1
+     Prefab "{89FDC21A848716E3}Prefabs/Items/Patches/GD_Patch_USA.et"
+    }
+    LoadoutSlotInfo pistolcamer {
+     PivotID "Spine5"
+     Prefab ""
+    }
+   }
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+  }
+ }
+ coords 100.846 1 101.897
+}

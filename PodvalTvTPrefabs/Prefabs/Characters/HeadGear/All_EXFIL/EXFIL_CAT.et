@@ -1,0 +1,33 @@
+GameEntity : "{34B72B3F30E8B60A}Prefabs/Characters/HeadGear/All_EXFIL/GD_Exfil Tan (NoGPNVG).et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Offset 0 0.157 -0.1393
+     Enabled 1
+     Prefab "{76E61BEE80C6172B}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount.et"
+    }
+    RHS_LoadoutSlotInfo Back2 {
+     Prefab ""
+    }
+   }
+   WornMaterialsOverride {
+    "{8F8709AF71FCE173}Assets/Characters/HeadGear/Helmet_Exfil/Data/exfil_CoyBlk.emat"
+   }
+   ItemMaterialsOverride {
+    "{8F8709AF71FCE173}Assets/Characters/HeadGear/Helmet_Exfil/Data/exfil_CoyBlk.emat"
+   }
+  }
+ }
+ coords 120.806 1 116.627
+}

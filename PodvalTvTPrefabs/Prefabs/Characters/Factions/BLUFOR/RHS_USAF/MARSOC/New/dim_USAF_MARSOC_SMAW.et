@@ -1,0 +1,106 @@
+SCR_ChimeraCharacter : "{7EDD1022ABACA804}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/New/dim_USAF_MARSOC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AAT"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{35022055DCDDE98B}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{5EBD0E8A11703FF3}Prefabs/Characters/Heads/Head_White_06/Head_White_06_camo_USSR_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{4869AE37D3DA5D8B}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/USA/dim_G3_USA_4.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{0431EA00E8B1CA6A}Prefabs/Characters/Uniforms/Pants_CP_G3/MC_BLK_camo/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{95B24FABFC6D040C}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy5.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset 0.001 -0.004 0.009
+     Prefab "{DE249A469BC7CE53}Prefabs/Characters/HeadGear/Disguise/Beard/5/Beard_5_2.et"
+    }
+    LoadoutSlotInfo Mustache {
+     Offset 0.004 -0.008 0.004
+     Enabled 1
+     Prefab "{E0896D1260EB7F1E}Prefabs/Characters/HeadGear/Disguise/Mustache/3/Mustache_3_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/CP_G3_Pants_KpadsG3_MC_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33897EE573}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3389555FB4}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Pouch1/Pouch_avs_front_elastic_Coy.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388B0D441}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako/Pouch_FILBE_doubleM4_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE338889F343}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/tako/Pouch_FILBE_doubleM4_3.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388E098A8}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m67_1/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388F9C7FD}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m67_2/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388D05B79}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m18_1/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33882888D9}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C96585AF}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/pistolpouch2/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C95F23EB}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/pistol/Pouch_Highspeed_Pistol.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33C8056710}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33EFF77696}" {
+     TargetStorage "Jacket/dim_G3_USA_4.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE39BAE64411}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et" "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE3813CF1B78}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy5.et/Tako2/Pouch_Shaw_Flex.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2ECE38136E03DB}" {
+    }
+   }
+  }
+ }
+ coords 123.462 1 165.24
+}

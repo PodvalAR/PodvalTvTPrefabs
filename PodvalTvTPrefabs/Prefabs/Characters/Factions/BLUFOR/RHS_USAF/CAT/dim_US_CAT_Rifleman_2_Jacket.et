@@ -1,0 +1,114 @@
+SCR_ChimeraCharacter : "{12B0BA8C25BA10E4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2B3F0AA3CC72FE5C}Prefabs/Weapons/Rifles/M4A1/PMC_New/M4_PMC_noSD_2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{D7C470712EC4D596}Prefabs/Characters/Heads/Head_White_05.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab ""
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3041C64A0CAEBB60}Prefabs/Characters/Uniforms/Jacket_Bomber_Winter/dim_GD_Jacket_Bomber_Winter_Suit.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{037DD3060547B417}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MCBlk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{1A65EADE4B08583E}Prefabs/Characters/Uniforms/Pants_Suit_01/Pants_Suit_01_black_V1.et"
+    }
+    SCR_FeetLoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{458F47983798CAD4}Prefabs/Characters/Vests/Vest_JPC/variants/ION/dim_Vest_JPC_MCBlk_nobelt_ION.et"
+    }
+    LoadoutSlotInfo Hair {
+     Offset 0 0 0.002
+     Enabled 1
+     Prefab "{1EE181082BA8C087}Prefabs/Characters/HeadGear/Disguise/Hair/3/Hair_3_2.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset -0.003 -0.003 -0.004
+     Enabled 1
+     Prefab "{0341BE3BC36FBBC2}Prefabs/Characters/HeadGear/Disguise/Beard/4/Beard_4_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/Pants_Suit_01_black_V1.et"
+    }
+    ItemsInitConfigurationItem "{652C93AE8849C9D9}" {
+     TargetStorage "Jacket/dim_GD_Jacket_Bomber_Winter_Suit.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{652C93AFA7C32F0A}" {
+     TargetStorage "Jacket/dim_GD_Jacket_Bomber_Winter_Suit.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3F5007EF}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/Pouch1/Pouch_Shaw_Placard_4Mags_MC_Blk.et"
+     PrefabsToSpawn + {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E847E7B}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/mbiyt/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EE0EB43}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/flex1/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3EF88868}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/flex2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3ED2D86D}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/flex3/Pouch_Shaw_Flex_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E2B55F7}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/hsgi2/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6A2E899E3E05982B}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E0ABBF4}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E6AB5E0}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899E8E5EDAD4}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+    }
+    ItemsInitConfigurationItem "{6A2E899EAC948B56}" {
+     TargetStorage "Vest/dim_Vest_JPC_MCBlk_nobelt_ION.et/raid/Pouch_Shaw_Raid_MCBlk.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+   }
+  }
+ }
+ coords 105.714 1 125.155
+}
