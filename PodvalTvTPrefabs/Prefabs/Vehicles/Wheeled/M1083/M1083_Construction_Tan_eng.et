@@ -1,0 +1,30 @@
+Vehicle : "{60D35A6E23462128}Prefabs/Vehicles/Wheeled/M1083/M1083_Construction_Tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{65B6498665024F6E}" {
+   MultiSlots {
+    MultiSlotConfiguration "{65B6498665024F1D}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6A2ECE27E877C712}" {
+     SlotTemplate InventoryStorageSlot SAND {
+      Prefab "{1742632597955A55}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Plastic.et"
+     }
+     NumSlots 250
+    }
+    MultiSlotConfiguration "{6A2ECE27F947DFF4}" {
+     SlotTemplate InventoryStorageSlot REP {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      InspectionWidgetOffset 0 0 0
+     }
+     NumSlots 15
+    }
+   }
+  }
+ }
+ coords 6428.087 79.815 3396.086
+ angles 0 -75 0
+}
