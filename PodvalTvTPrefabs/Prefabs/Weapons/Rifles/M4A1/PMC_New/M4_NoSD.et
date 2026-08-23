@@ -1,0 +1,19 @@
+GenericEntity : "{0CF013CB2E2F06FA}Prefabs/Weapons/Rifles/M4A1/M4_SOCOM_V3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{DD6D71FB59CFBC1D}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_PRONG3.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 123.387 1 115.107
+}
