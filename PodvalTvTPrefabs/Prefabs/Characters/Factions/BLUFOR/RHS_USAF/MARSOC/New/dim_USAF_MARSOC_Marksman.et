@@ -112,6 +112,10 @@ SCR_ChimeraCharacter : "{7EDD1022ABACA804}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{6A2ECE30594A0622}" {
+     TargetStorage "Jacket/dim_G3_USA_3.et"
+     PrefabsToSpawn {
+      "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et" "{2903A481BA0FE138}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61.et"
+     }
     }
     ItemsInitConfigurationItem "{6A2ECE3058E363C4}" {
     }
