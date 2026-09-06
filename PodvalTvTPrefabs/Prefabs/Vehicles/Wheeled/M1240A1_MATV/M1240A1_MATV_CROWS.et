@@ -33,6 +33,11 @@ Vehicle : "{7F0CE77CBE1A1F65}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    ActionContexts {
+    UserActionContext "{65AB02CD55B08812}" {
+     Position PointInfo "{65AB02CD55B0881F}" {
+      Offset -0.034 0.2287 -0.9467
+     }
+    }
     UserActionContext "{65E4D1F9CE6677E5}" {
      Radius 0
     }

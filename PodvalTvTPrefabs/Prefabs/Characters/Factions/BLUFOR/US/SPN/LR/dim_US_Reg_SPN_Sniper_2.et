@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{A5B90EE384D195D8}Prefabs/Characters/Factions/BLUFOR/US/SPN/LR/dim_US_Reg_SPN_Sniper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{C9E05A9C3D9E5780}Prefabs/Weapons/Rifles/M14/Rifle_M21_M61_Opt_Camo.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     PrefabsToSpawn {
+      "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     PrefabsToSpawn {
+      "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 11094.471 35.688 1645.808
+ angles 0 -90 0
+}
