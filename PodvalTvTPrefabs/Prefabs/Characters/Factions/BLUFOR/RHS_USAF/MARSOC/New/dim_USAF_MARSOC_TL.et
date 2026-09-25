@@ -86,6 +86,9 @@ SCR_ChimeraCharacter : "{7EDD1022ABACA804}Prefabs/Characters/Factions/BLUFOR/RHS
       "{A540E8600876C2A3}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M855A1_last5tracer.et"
      }
     }
+    ItemsInitConfigurationItem "{6A2ECE33EFF77696}" {
+     TargetStorage "Jacket/dim_G3_USA_3.et"
+    }
     ItemsInitConfigurationItem "{6A2ECE32BD232202}" {
      TargetStorage "Vest/Vest_JPC_okinawa_Coy6.et/bandolier/Pouch_Filbe_bandolier.et"
      PrefabsToSpawn {

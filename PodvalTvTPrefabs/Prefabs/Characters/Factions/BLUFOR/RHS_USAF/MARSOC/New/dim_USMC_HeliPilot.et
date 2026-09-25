@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{E2C35369F43FD755}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_HeliPilot.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{B137B7CE988557D2}Prefabs/Characters/Uniforms/Suit_Pilot_US_01/Suit_Pilot_US_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{27C2E6D9812DA5C2}Prefabs/Characters/Vests/Vest_LBT1961/dim_Vest_LBT1961.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A00A6AAA54EFB8}" {
+     TargetStorage "Jacket/Suit_Pilot_US_01.et"
+    }
+    ItemsInitConfigurationItem "{68A00A6AAA7D386F}" {
+     TargetStorage "Jacket/Suit_Pilot_US_01.et"
+    }
+    ItemsInitConfigurationItem "{68A00A6AAA6E64F1}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A09108178F884E}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A09108EC150941}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A09108FF4B9DE6}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A09108A8FD2A08}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 3802.287 0.719 1647.023
+}
