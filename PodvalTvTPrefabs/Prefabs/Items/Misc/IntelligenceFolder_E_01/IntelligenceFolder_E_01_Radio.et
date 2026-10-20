@@ -33,6 +33,8 @@ GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/In
   RHS_RadioSourceComponent "{6286B4AE0E7E9A19}" {
    m_iSignalType Static
   }
+  PS_ProtectedFromDestructionComponent "{5A1E9C0D7B3F0002}" {
+  }
  }
  coords 3275.772 2.095 2873.216
 }
