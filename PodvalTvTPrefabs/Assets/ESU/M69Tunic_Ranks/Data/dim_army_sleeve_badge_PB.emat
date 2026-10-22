@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{0903DF47F1C4F0A3}Assets/ESU/M69Tunic_Ranks/Data/dim_badge_PB.edds"
+ NMOMap "{23C1018D73CD0370}Assets/ESU/M69Tunic_Ranks/Data/soviet_branch_insignia_army_nmo.edds"
+}

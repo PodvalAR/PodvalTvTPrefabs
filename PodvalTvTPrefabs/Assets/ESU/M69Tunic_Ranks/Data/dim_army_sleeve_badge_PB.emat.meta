@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BD5E15C14CA69ABC}Assets/ESU/M69Tunic_Ranks/Data/dim_army_sleeve_badge_PB.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}
