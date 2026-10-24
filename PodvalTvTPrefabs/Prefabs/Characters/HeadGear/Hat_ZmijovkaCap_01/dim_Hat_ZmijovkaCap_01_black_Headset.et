@@ -1,0 +1,13 @@
+GameEntity : "{6BCAA9E5BC957693}Prefabs/Characters/HeadGear/Hat_ZmijovkaCap_01/Hat_ZmijovkaCap_01_black.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Prefab "{2AE033D3A1D0963B}Prefabs/Characters/HeadGear/Hat_Hard_01/BF_Hat_Headset_Crew.et"
+    }
+   }
+  }
+ }
+ coords 5391.819 72.64 11371.475
+}

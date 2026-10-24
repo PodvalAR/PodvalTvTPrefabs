@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{39405394B3C2BEEC}Prefabs/Characters/HeadGear/Hat_Hard_01/dim_BF_Hat_Headset_Crew_Hair.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

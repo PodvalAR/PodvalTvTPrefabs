@@ -4,7 +4,7 @@ GenericEntity : "{90B654857D24A340}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_
   SlotManagerComponent "{66F2D6986D44629B}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Offset 0 -0.6734 -2.0492
+     Offset 0 -0.9212 -2.2073
      Prefab "{B750B0806B3620E3}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/ION_Hatch.et"
     }
    }

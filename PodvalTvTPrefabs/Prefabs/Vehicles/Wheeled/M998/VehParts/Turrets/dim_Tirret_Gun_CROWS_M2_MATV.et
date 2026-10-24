@@ -4,6 +4,15 @@ Turret : "{B5378AEE13830537}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Tirre
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    CompartmentSlots {
     TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList +{
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "passenger_l02" "switch_to_gunner"
+      }
+     }
      PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
       Offset 0 0 0.2983
      }
