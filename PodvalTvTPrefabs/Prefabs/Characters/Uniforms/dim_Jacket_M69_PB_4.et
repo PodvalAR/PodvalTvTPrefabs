@@ -1,0 +1,16 @@
+GameEntity : "{1CC117A86558C417}Prefabs/Characters/Uniforms/Jacket_M69_Midsleeve.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo Rank {
+     Prefab "{5C46E58DDD5BB4DE}Prefabs/Clothing/dim_m69_sovietarmy_en_0_PB.et"
+    }
+    LoadoutSlotInfo Watch {
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+   }
+  }
+ }
+ coords 230.383 1 102.045
+}
