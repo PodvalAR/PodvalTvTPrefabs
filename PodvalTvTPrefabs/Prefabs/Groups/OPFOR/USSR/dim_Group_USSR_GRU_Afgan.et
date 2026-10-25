@@ -1,0 +1,8 @@
+SCR_AIGroup : "{2E11F5063753932B}Prefabs/Groups/OPFOR/USSR/dim_Group_USSR_GRU.et" {
+ ID "0000000000000001"
+ coords 2754.428 10 3135.749
+ angles 0 32.642 0
+ m_aUnitPrefabSlots {
+  "{7BE5F871BB6B9FE9}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_SL.et" "{1BB8774F7E5854D0}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_GL.et" "{1BE9BDAA7DED76D0}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_Sapper.et" "{00DEDF1E04D48195}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_Rifleman.et" "{447AD774E7A02919}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_MG.et" "{756425CB4AC2393A}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_Sniper.et"
+ }
+}
