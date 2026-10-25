@@ -1,0 +1,5 @@
+MatPBRBasic : "{5CDDE2709BA9A5EE}Assets/_BaseMaterials/Characters_MatPBRBasic.emat" {
+ Color 0.88 0.88 0.88 1
+ DiffuseIBL 1 0.922 0.922 1
+ SpecularIBL 0.711 0.357 0.357 1
+}
