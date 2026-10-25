@@ -1,0 +1,38 @@
+SCR_ChimeraCharacter : "{0E2044CCEE0D3F50}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Afgan/dim_USSR_Afgan_SL_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{AE499BA64BCFACB4}Prefabs/Characters/Uniforms/Shirt_Telnyashka/Telnyashka_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{27494A16F172A97B}Prefabs/Characters/Uniforms/Pants_Tanker_USSR_01/Pants_Tanker_USSR_01.et"
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset 0.005 0 -0.002
+     Enabled 1
+     Prefab "{E0896D1260EB7F1E}Prefabs/Characters/HeadGear/Disguise/Mustache/3/Mustache_3_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01.et"
+     PrefabsToSpawn {
+      "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Pants/Pants_Tanker_USSR_01.et"
+    }
+   }
+  }
+ }
+ coords 195.873 1 116.74
+}

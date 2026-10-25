@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{61F3754A8D172C22}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B8789D8D64FF8CFD}Prefabs/Weapons/Rifles/M16/M16_Camo_NoSD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7127824E4ABE0EAB}Prefabs/Characters/HeadGear/Helmet_ProTec/ProTec_highcut_03.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3D17E4FA8F819ECE}Prefabs/Characters/Uniforms/BDU/1Jacket.et_tri.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{62DA4BCBA7D9324C}Prefabs/Characters/Vests/SpecOps_Vest/SpecOps_Vest.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C6BE0A871E7DE808}Prefabs/Characters/Uniforms/BDU/1Pants_tri.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{44FFBF7B471E23F7}Prefabs/Characters/Vests/Chest_Rig/Delta_Rig_03.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+    LoadoutSlotInfo Neck {
+     Enabled 1
+     Prefab "{F3AF4290149DC47E}Prefabs/Characters/Coms/Delta_PTT_02.et"
+    }
+    LoadoutSlotInfo Extra3 {
+     Enabled 1
+     Prefab "{B83001AA9E630337}Prefabs/Characters/Uniforms/knee_pads/ZEL_ExtraClothing_Base.et"
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{45503F95A25D7660}Prefabs/Characters/Belts/Delta_Belt_02.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3A809E1C99}" {
+     TargetStorage "Pants/1Pants_tri.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80F6D72C}" {
+     TargetStorage "Jacket/1Jacket.et_tri.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80D0F11B}" {
+     TargetStorage "Jacket/1Jacket.et_tri.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     TargetStorage "Vest/Delta_Rig_03.et"
+     PrefabsToSpawn + {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     TargetStorage "Pants/1Pants_tri.et"
+     PrefabsToSpawn {
+      "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et" "{DD5358193169908B}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B394EFC6E76}" {
+     TargetStorage "Jacket/1Jacket.et_tri.et"
+    }
+   }
+  }
+ }
+ coords 213.581 1 66.203
+}

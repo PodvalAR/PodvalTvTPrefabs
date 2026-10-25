@@ -10,35 +10,41 @@ SCR_ChimeraCharacter : "{E2AF46B0809FBCC0}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{0DA65B7332CA3BAD}Prefabs/Characters/HeadGear/USMC_8Point/USMC_8Point.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/Pants_FROG_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/Pants_FROG_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
      TargetStorage "Vest/Vest_PCGen_II_rifleman.et/tako2/Pouch_FILBE_doubleM4_3.et"

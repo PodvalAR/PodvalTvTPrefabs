@@ -1,0 +1,12 @@
+GameEntity : "{26D6B02D8879F71E}Prefabs/Characters/Eyewear/Eyewear_Goggles/GD_Glasses_V1.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{18E8CE42B04671CD}Assets/ESU/Sov_Glasses/sunglasses_adlers.xob"
+   WornMaterialsOverride {
+    "" ""
+   }
+  }
+ }
+ coords 3605.903 280 403.443
+}

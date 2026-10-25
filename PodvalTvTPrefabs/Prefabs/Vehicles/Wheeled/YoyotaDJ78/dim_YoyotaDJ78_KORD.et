@@ -1,0 +1,23 @@
+Vehicle : "{52D23EA9EC364F13}Prefabs/Vehicles/Wheeled/YoyotaDJ78/YoyotaDJ78_PKM.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69F8315180A8F176}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{6D518F289805B8A1}Prefabs/Weapons/Magazines/NSV/Box_127x108_KORD_50rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo PKM {
+     Offset 0 -0.7813 0.1946
+     Prefab "{158197D2B1170E8C}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_SPP_UAZ.et"
+    }
+   }
+  }
+ }
+ coords 2798.281 10 3119.814
+}

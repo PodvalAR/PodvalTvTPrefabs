@@ -1,0 +1,48 @@
+Vehicle : "{70B7A59379C0525B}Prefabs/Vehicles/Helicopters/UH60/UH-60_black.et" {
+ ID "6910AB9493C73382"
+ components {
+  SCR_BaseCompartmentManagerComponent "{6916DC2183CD40FF}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6916DC21B0628115}" {
+     GetInTeleport 0
+     GetOutTeleport 0
+     GetInAligningTeleport 0
+     GetOutAligningTeleport 0
+    }
+    CompartmentDoorInfo "{6916DC21B0D94D94}" {
+     GetInTeleport 0
+     GetOutTeleport 0
+     GetInAligningTeleport 0
+     GetOutAligningTeleport 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{693717E8204EADA4}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6A1683C6F69D1571}" {
+     SlotTemplate InventoryStorageSlot ammo {
+      Prefab "{9943B9AC9353FD9E}Prefabs/Weapons/Magazines/Box_762x51_M60_500rnd_1Ball_1Tracer_1AP.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SlotManagerComponent "{693717EA5E627710}" {
+   Slots {
+    RegisteringComponentSlotInfo Gunner_left {
+     Prefab "{273A9AE09880628E}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M60D_gunner_left.et"
+    }
+    RegisteringComponentSlotInfo Gunner_right {
+     Prefab "{7F99E6708A781708}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/UH1H_M60D_gunner_right.et"
+    }
+   }
+  }
+ }
+ coords 5791.108 12.5 4105.326
+ {
+  GameEnvironmentProbeEntity {
+   ID "6938C0E7BB917C04"
+   coords 0.236 1.556 0.118
+  }
+ }
+}

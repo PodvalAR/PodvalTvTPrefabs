@@ -10,26 +10,77 @@ SCR_ChimeraCharacter : "{6B8211C5BB3960B3}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{A620D6E0E424A7AD}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf_1.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1300A5F6CA51B204}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
-     TargetStorage "Pants/Pants_FROG_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
     ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D9}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/radio/Pouch_152_Radio.et"
     }
     ItemsInitConfigurationItem "{68DAB33492420C29}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    ItemsInitConfigurationItem "{68DAB33532C9099F}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m67/Pouch_Filbe_M67_Base.et"
+    }
+    ItemsInitConfigurationItem "{68DAB334D66DEC3E}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
+    }
+    ItemsInitConfigurationItem "{68DAB3344562C75F}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/m18_2/Pouch_Filbe_M18_2.et"
+    }
+    ItemsInitConfigurationItem "{68DAB334428EB47F}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/util/Pouch_Filbe_M18_1.et"
+    }
+    ItemsInitConfigurationItem "{68DAB334105B5B4D}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/camerleft/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DAB3341D71F53C}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/tako2/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DAB3343488399C}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/tako1/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DAB334307B332B}" {
+     TargetStorage "Vest/Vest_PCGen_III_rifleman.et/Pouch1/Pouch_OpenTop_M27_1_pouch.et"
+     PrefabsToSpawn {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DAB3343CDB05A4}" {
+     Enabled 0
     }
    }
   }

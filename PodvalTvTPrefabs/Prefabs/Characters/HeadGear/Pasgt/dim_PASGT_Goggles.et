@@ -1,0 +1,13 @@
+GameEntity : "{FE5C49069C2499D9}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover.et" {
+ ID "50D49DC5BC0CD17E"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{0F7546A421CCA5B6}Prefabs/Characters/Eyewear/Eyewear_6b50/GD_Eyewear_6b50_strap_on_6b47.et"
+    }
+   }
+  }
+ }
+ coords 232.243 1 75.708
+}

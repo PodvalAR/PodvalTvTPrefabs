@@ -1,0 +1,13 @@
+GameEntity : "{AA1B989ED4E9C24E}Prefabs/Characters/Uniforms/dim_Jacket_M69_Midsleeve_VDV_Serg.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo Rank {
+     Prefab "{95208638A15D6198}Prefabs/Clothing/dim_m69_co.et"
+    }
+   }
+  }
+ }
+ coords 215.271 1 112.919
+}

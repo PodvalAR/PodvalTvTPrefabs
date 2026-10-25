@@ -1,0 +1,1088 @@
+SCR_ChimeraCharacter : "{611EE4D65E98F87B}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  EventHandlerManagerComponent "{530284308E2527DD}" {
+   EventHandlers {
+    BaseEventHandler "{5302843088003484}" {
+     EventName "OnWeaponChanged"
+    }
+    BaseEventHandler "{5302CB86A280126D}" {
+     EventName "OnMuzzleChanged"
+    }
+    BaseEventHandler "{5302CB8699CE0C5C}" {
+     EventName "OnMagazineChanged"
+    }
+    BaseEventHandler "{53047B986210A519}" {
+     EventName "OnAmmoCountChanged"
+    }
+    BaseEventHandler "{5304890B382436DF}" {
+     EventName "OnMagazineCountChanged"
+    }
+    BaseEventHandler "{5304890B3113520D}" {
+     EventName "OnFiremodeChanged"
+    }
+    BaseEventHandler "{5304890B22C5A3DC}" {
+     EventName "OnZeroingChanged"
+    }
+    BaseEventHandler "{5304890B1D193A86}" {
+     EventName "OnADSChanged"
+    }
+    BaseEventHandler "{59388895E3B0CD26}" {
+     EventName "OnWeaponAttachementChanged"
+    }
+    BaseEventHandler "{5952C82EDD8E43E4}" {
+     EventName "OnTurretReload"
+    }
+    BaseEventHandler "{5A5A94D957DB58B7}" {
+     EventName "OnConsciousnessChanged"
+    }
+    BaseEventHandler "{699B1D1AC79C1666}" {
+     EventName "OnFreeLookStateChanged"
+    }
+   }
+  }
+  CharacterSoundComponent "{520EA1D2F659CF84}" {
+   Filenames +{
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+   FoliageCollisionLayer "Foliage"
+  }
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames +{
+   }
+  }
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}Prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+    SCR_HandSlotStorageComponent "{5EE8F81540A93631}" {
+     Priority -100
+     SaveInLoadout 0
+     InitialStorageSlots {
+      SCR_HandSlotStorageSlot HandSlot {
+      }
+     }
+    }
+    SCR_IdentityItemStorageComponent "{62AD01171918DA85}" {
+     Priority 1000
+     SaveInLoadout 0
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot IdentityItem {
+       Enabled 0
+       AllowedItemTypes +{
+       }
+      }
+     }
+    }
+    SCR_SalineStorageComponent "{5C82B07DFE223090}" {
+     StoragePurpose 0 0x1
+     SaveInLoadout 0
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_SalineBagStorageSlot SalineBagSlot {
+       PivotID "RightArm"
+       Offset -0.007 -0.1096 -0.116
+       Angles -90 0 0
+       Enabled 0
+       Prefab "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et"
+       AllowedItemTypes +{
+       }
+       AnimatedMeshRefference "{E6E83E5ED49B9DE5}Assets/Items/Medicine/SalineBag_01/SalineBag_US_01/SalineBag_US_01.xob"
+       m_eHitZoneGroup RIGHTARM
+      }
+     }
+    }
+    SCR_TourniquetStorageComponent "{5A68C9C9DF306618}" {
+     StoragePurpose 0 0x1
+     SaveInLoadout 0
+     UseVirtualInventoryReplication 0
+     InitialStorageSlots {
+      SCR_TourniquetStorageSlot TourniquetSlotLA {
+       AllowedItemTypes +{
+       }
+       m_eHitZoneGroup LEFTARM
+      }
+      SCR_TourniquetStorageSlot TourniquetSlotRA {
+       AllowedItemTypes +{
+       }
+       m_eHitZoneGroup RIGHTARM
+      }
+      SCR_TourniquetStorageSlot TourniquetSlotLL {
+       AllowedItemTypes +{
+       }
+       m_eHitZoneGroup LEFTLEG
+      }
+      SCR_TourniquetStorageSlot TourniquetSlotRL {
+       AllowedItemTypes +{
+       }
+       m_eHitZoneGroup RIGHTLEG
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
+   LeftHandPosition EntitySlotInfo "{520EA1D2F659CEAB}" {
+    PivotID "lefthandprop"
+    ChildPivotID "snap_weapon"
+   }
+   RightHandPosition InventoryStorageSlot RightHand {
+    PivotID "RightHandProp"
+    Enabled 0
+    Prefab ""
+   }
+   VehicleRagdollSpeed 27
+   WaterMovementLimits +{
+   }
+   AimingPID 0.4 1 0
+   AimingPIDMaxErrorIntegral 0.15
+   AimingPIDCloseMultiplier 0.1
+   AimingPIDCTargetCloseDistance 1.5
+   LeanSpeed 5
+   HoldInputForRoll 1
+   m_fDrowningDuration 45
+  }
+  CharacterAimingComponent "{520EA1D2F659CE42}" {
+   DeployedSensitivityScaler 0.5 0.6
+  }
+  CharacterHeadAimingComponent "{520EA1D2F659CF99}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{520EA1D2F659CF9E}" {
+    signalsSuffix "Head"
+   }
+   ProvideAimingType Head
+   LimitsHoriz -360 360
+   LimitsVert -360 360
+   AimingMaxSpeed 10 5
+   AimingSpeedControls 1.5 0.75
+   AimPivot PointInfo "{5990A4DF23E27E7E}" {
+    PivotID "Neck1"
+   }
+   PitchReduction +{
+   }
+  }
+  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
+   DefaultWeaponIndex 0
+   SlingPosition PointInfo "{548A2344DE7AA0F2}" {
+    PivotID "stomach3"
+    Offset 0 0.0102 0
+    Angles 0 140 -90
+   }
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    AICharacterAimingComponent "{520EA1D2DB109F0C}" {
+     AimingPID 0.3 0 0
+     UsePID 1
+    }
+    AICharacterMovementComponent "{520EA1D2DB109F01}" {
+     "Max Distance to Path" 10
+    }
+    AIPathfindingComponent "{56349A6F9C02E7A1}" {
+     NavmeshProject "Soldiers"
+     IgnoreFlags 0x40 0
+    }
+    PerceptionComponent "{54A2CBC75F06064B}" {
+     ForgetEnemyTime 60
+     ForgetDetectedTime 10
+     PositionInfo PointInfo "{520EA1D2DB109AB7}" {
+      PivotID "Head"
+      Offset -0.0332 0.0722 -0.094
+      Angles 10 180 0
+     }
+     SensorsList {
+      EyesSensor "{520EA1D2DB109AAD}" {
+       MaxRange 750
+       MinIlluminationFactor 0.04
+       RecognitionDetectDecay 0.2
+       RecognitionIdentifyDecay 0.05
+       AngularSizeFactor_a 0.055
+       AngularSizeFactor_b -0.35
+       AngularSizeFactor_c 0.075
+       AngularVelocityFactor_a 1300
+       AngularVelocityFactor_b 5
+      }
+      EarsSensor "{520EA1D2DB109AA9}" {
+       MaxRange 120
+       SoundIntensityMin_db 10
+      }
+     }
+     VehicleThreatMinSpeed 0.5
+     VehicleThreatCollisionTime 4
+    }
+   }
+   Agenttemplate "{B4C861A6DA2F5E05}AI/AIAgents/SCR_ChimeraAIAgentFull.et"
+   OverrideAIBehaviorData "{990D4960E5206005}AI/BehaviorTrees/Chimera/Soldier/Soldier.bt"
+   EnableAI 0
+   PhysicsLayerPreset "CharacterAI"
+  }
+  ClimbingDataComponent "{5304A49E934A0758}" {
+   CanClimbOver 0
+  }
+  EquipedWeaponStorageComponent "{520EA1D2DB118C70}" {
+   Priority 100
+   StoragePurpose 0x2 0x1
+  }
+  MeshObject "{520EA1D2F659C81F}" {
+   Object "{9F3AF591CD6DFE1A}Assets/Characters/Basebody/Basebody_Male_01.xob"
+   PixelSizeScale 10
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  PS_SpectatorLabelCharacter "{5F357473BDE91270}" {
+   m_cMapMarkerConfig PS_ManualMarkerConfig "{5F3693B7CB929BB6}" {
+    m_sImageSet "{F3A9B47F55BE8D2B}UI/Textures/Icons/PS_Atlas_x64.imageset"
+    m_sQuadName "Character"
+    m_fWorldSize 1.5
+    m_aVisibleForFactions +{
+    }
+    m_bVisibleForEmptyFaction 1
+    m_fMinSize 10
+   }
+   m_sSpectatorLabelLayout "{68625BAD23CEE68F}UI/Spectator/SpectatorLabelIconCharacter.layout"
+   m_sBoneName "Spine3"
+  }
+  RagdollCharacter "{69A4E3027505A42E}" {
+   Mass 80
+   Definition "{55BA23D026D8F0F8}Prefabs/Characters/character.ragdoll"
+  }
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+   InfoDisplays {
+    SCR_WeaponInfo "{520EA1D2DB11811A}" {
+     m_LayoutPath "{8170DE93810F928A}UI/layouts/HUD/WeaponInfo/WeaponInfo.layout"
+     m_sContentWidget "m_WeaponInfoPanel"
+     m_aHandlers {
+      SCR_InfoDisplaySlotHandler "{5D44B19866E29216}" {
+       m_bCanUpdate 1
+       m_sSlotName "Slot_WeaponInfo"
+      }
+     }
+     m_eShow 7
+     m_sInterfaceSettingName "m_bShowWeaponInfo"
+    }
+   }
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" : "{73C708A20F8B22E6}Prefabs/Characters/Core/DamageManager_Character_Base.ct" {
+   "Fall damage min speed" 8.85
+   "Fall damage max speed" 11.2
+  }
+  SCR_CharacterFactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_CharacterStaminaComponent "{520EA1D2F659C824}" {
+   StaminaDrainRun -0.008
+   StaminaDrainSprint -0.016
+   EncumbranceMassMax 140
+   EncumbranceDrainMax -0.1
+   BreathNormalFrequency 0.45
+   BreathExhaustedFrequency 1.1
+  }
+  SCR_CharacterVicinityComponent "{529A70D96D401B33}" {
+   DiscoveryRadius 3
+  }
+  SCR_CompartmentAccessComponent "{52249C842F1EF1F4}" {
+   CompartmentLayerPreset "CharNoCollide"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Пулеметчик-пограничник"
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_iMaxRandomAge 28
+   m_fChanceOfIdentityDocumentBeingValuable 1
+  }
+  SCR_PreviewEntityComponent "{55EE4A2A78856F12}" {
+   m_PreviewPrefab "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+  }
+  SCR_VoNComponent "{520EA1D2F659C856}" {
+   Filename "{B4C3941EC8B2AD20}Sounds/VON/von.acp"
+  }
+  TF_RadarSignalComponent "{6992C7A4B4F873A2}" {
+   m_eType Infantry
+  }
+  TagComponent "{5864D980062191CA}" {
+   "Tag categories" 0xc1 0
+   IsDynamic 1
+  }
+  BaseFlattenGrassComponent "{520EA1D2F659CE26}" {
+   ParametersCollection {
+    FlattenGrassParametersObject "{520EA1D2F659CE2C}" {
+     SizeX 1.2
+     SizeZ 0.8
+     Shape "Ellipse"
+     Flatten 0
+    }
+    FlattenGrassParametersObject "{520EA1D2F659CE28}" {
+     SizeX 0.8
+     SizeZ 0.9
+     Shape "Ellipse"
+     Flatten 0
+    }
+    FlattenGrassParametersObject "{520EA1D2F659CE27}" {
+     SizeX 1
+     SizeZ 2
+     Shape "Ellipse"
+    }
+   }
+  }
+  SCR_CharacterPerceivableComponent "{566CCE2397E28600}" {
+   "Additional aim points" {
+    AimPoint "{54D0A72DBE3FF822}" {
+     AimPointPosition AttachPoint "{520EA1D2F659C809}" {
+      Bone "Spine5"
+      Offset 0 0.2 0
+     }
+     AimpointChecked 1
+     VsibilityChecked 1
+     Dimension 0.5
+    }
+    AimPoint "{54D0A72DBE3FF84A}" {
+     AimPointPosition AttachPoint "{520EA1D2F659C809}" {
+      Bone "Head"
+      Offset 0 0.12 0
+     }
+     AimpointChecked 1
+     VsibilityChecked 1
+     Dimension 0.25
+     AimPointType Weak
+    }
+    AimPoint "{5A1EF5F9AB26B70A}" {
+     AimPointPosition AttachPoint "{5A1EF5F9A71AA60E}" {
+      Bone "Hips"
+     }
+     AimpointChecked 1
+     VsibilityChecked 1
+     Dimension 0.4
+     AimPointType Incapacitate
+    }
+   }
+   IlluminationLvPerLight 4
+   UnitType Infantry
+   VisualFactorStance_Prone 0.2
+   VisualFactorStance_Crouch 0.4
+   SoundPowerMaxDb 42
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterHandWeaponSlotComponent "{5C9CA35B6F6B604C}" {
+   AttachType InventoryStorageSlot a {
+    Enabled 0
+   }
+   WeaponSlotType "primary"
+   WeaponSlotIndex 3
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EEFE1A72E6C73339}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74_n10.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponType None
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+    PivotID "leftshoulderblade"
+    Offset 0.1 -0.2 -0.1
+    Angles 90 -90 90
+    Enabled 0
+   }
+   WeaponSlotType "secondary"
+   WeaponSlotIndex 2
+   HolsteredHidden 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{2F3375E395C46AB3}Prefabs/Characters/Heads/Head_BaseBody_01.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+    SoundIdentity SoundIdentity "{56E6D945D8F79290}" {
+     VoiceID 100
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1B857B5DDF795352}Prefabs/Characters/HeadGear/USSR_SovietOfficerCap/USSR_SovietOfficerCapGreen.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CA3AAFF83A56442}Prefabs/Characters/Uniforms/dim_Jacket_M69_PB_1.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{36EA38D8DF60ED87}Prefabs/Characters/Uniforms/Pants_M69.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{CCF51D153E1B66E7}Prefabs/Characters/Footwear/KerseyBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C71B8C59D15C438C}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR_NoUseless.et"
+    }
+    LoadoutSlotInfo HandWear {
+     AreaType LoadoutHandwearSlotArea "{5E38A40DE3C30495}" {
+     }
+    }
+    LoadoutSlotInfo Head {
+     AreaType ZEL_HeadArea "{64F94B2DC1F5467D}" {
+     }
+    }
+    LoadoutSlotInfo Eyes {
+     AreaType ZEL_EyesArea "{64F94B2CD2F2DE1C}" {
+     }
+    }
+    LoadoutSlotInfo Ears {
+     AreaType ZEL_EarsArea "{64F94B2CD5BACA5B}" {
+     }
+    }
+    LoadoutSlotInfo Face {
+     AreaType ZEL_FaceArea "{64F94B2CD7864FF6}" {
+     }
+    }
+    LoadoutSlotInfo Neck {
+     AreaType ZEL_NeckArea "{64F94B2CD942E115}" {
+     }
+    }
+    LoadoutSlotInfo Extra {
+     AreaType ZEL_ExtraArea "{64F94B2CDB36D75D}" {
+     }
+    }
+    LoadoutSlotInfo Extra2 {
+     AreaType ZEL_ExtraArea2 "{64F94B2CDD25A632}" {
+     }
+    }
+    LoadoutSlotInfo Extra3 {
+     AreaType ZEL_ExtraArea3 "{64F94B2CE0F21D48}" {
+     }
+    }
+    LoadoutSlotInfo Extra4 {
+     AreaType ZEL_ExtraArea4 "{64F94B2CE11A7F59}" {
+     }
+    }
+    LoadoutSlotInfo Extra5 {
+     AreaType ZEL_ExtraArea5 "{64F94B2B1608DCD8}" {
+     }
+    }
+    LoadoutSlotInfo Extra6 {
+     AreaType ZEL_ExtraArea6 "{64F94B2B19D4B6A0}" {
+     }
+    }
+    LoadoutSlotInfo Waist {
+     AreaType ZEL_WaistArea "{64F94B2CE40BEA3E}" {
+     }
+    }
+    LoadoutSlotInfo Hair {
+     Enabled 0
+     AreaType HB_Hair "{69930E667A1F3025}" {
+     }
+    }
+    LoadoutSlotInfo Beard {
+     Enabled 0
+     AreaType HB_Beard "{69932D1BA26E9421}" {
+     }
+    }
+    LoadoutSlotInfo Mustache {
+     Enabled 0
+     AreaType HB_Mustache "{69932D1BA8071A8A}" {
+     }
+    }
+    LoadoutSlotInfo FaceSlot {
+     AreaType VergyFaceSlot "{68C547B0A32C3960}" {
+     }
+    }
+   }
+  }
+  RHS_ThermalSlotManagerComponent "{60D6F4C7C990A7BB}" {
+   Slots {
+    EntitySlotInfo Body {
+     Prefab "{88BA5F3224A6C834}Prefabs/Characters/Thermal/CharacterBasebody_Thermal.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 1
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M69.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_NoUseless.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/dim_Jacket_M69_PB_1.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_NoUseless.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_NoUseless.et/GrenadePouch/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   ActionContexts {
+    UserActionContext "{520EA1D2F659CE17}" {
+     ContextName "default"
+     Position PointInfo "{520EA1D2F659CE14}" {
+      PivotID "spine3"
+     }
+     Radius 0.4
+    }
+    UserActionContext "{5A26F8E7B44B5FB6}" {
+     ContextName "Head"
+     Position PointInfo "{5A26F8E7C6902D3E}" {
+      PivotID "Head"
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5A26F8E7D24ECC4F}" {
+     ContextName "Chest"
+     Position PointInfo "{5A26F8E7EF55078D}" {
+      PivotID "Spine5"
+      Offset 0 0.2 0
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5A26F8E3CB279E0C}" {
+     ContextName "LeftLeg"
+     Position PointInfo "{5A26F8E3D249D2D4}" {
+      PivotID "LeftKnee"
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5A26F8E3C4CFD585}" {
+     ContextName "RightLeg"
+     Position PointInfo "{5A26F8E3EBC6A345}" {
+      PivotID "RightKnee"
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5A26F8E368562032}" {
+     ContextName "LowerTorso"
+     Position PointInfo "{5A26F8E3EBC6A345}" {
+      PivotID "Spine4"
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5A26F8E352327705}" {
+     ContextName "LeftArm"
+     Position PointInfo "{5A26F8E3EBC6A345}" {
+      PivotID "LeftForeArmTwist"
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{5A26F8E3537DEC6C}" {
+     ContextName "RightArm"
+     Position PointInfo "{5A26F8E3EBC6A345}" {
+      PivotID "RightForeArmTwist"
+     }
+     Radius 0.35
+     LineOfSightCheck 1
+    }
+    UserActionContext "{65E2E2B8999AF7CF}" {
+     ContextName "Back"
+     Position PointInfo "{65E2E2B891C140B4}" {
+      PivotID "Spine5"
+      Offset 0 0.1276 -0.3737
+     }
+    }
+   }
+   additionalActions {
+    SCR_BandageUserAction "{520EA1D2F659CE03}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{520EA1D2F659CE00}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup HEAD
+     m_eConsumableType BANDAGE
+    }
+    SCR_BandageUserAction "{5A26F8E67741AC1E}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A26F8E5870EFCC8}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup UPPERTORSO
+     m_eConsumableType BANDAGE
+    }
+    SCR_BandageUserAction "{5A26F8E460F2D5F7}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A26F8E5870EFCC8}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup LEFTLEG
+     m_eConsumableType BANDAGE
+    }
+    SCR_BandageUserAction "{5A26F8E47D6EE240}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A26F8E5870EFCC8}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup RIGHTLEG
+     m_eConsumableType BANDAGE
+    }
+    SCR_LootDeadBodyAction "{529A9D939CD27B4C}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{529A9D9399F23C21}" {
+      Name "#AR-UserAction_Loot"
+     }
+     CanAggregate 1
+     "Sort Priority" 999
+    }
+    SCR_BandageUserAction "{5A26F8E203EF1E0C}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A26F8E5870EFCC8}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup LEFTARM
+     m_eConsumableType BANDAGE
+    }
+    SCR_BandageUserAction "{5A26F8E21E230D0D}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A26F8E5870EFCC8}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup RIGHTARM
+     m_eConsumableType BANDAGE
+    }
+    SCR_BandageUserAction "{5A26F8E218841208}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A26F8E5870EFCC8}" {
+      Name "#AR-BandageAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup LOWERTORSO
+     m_eConsumableType BANDAGE
+    }
+    SCR_MorphineUserAction "{5A5CCAE2AF3D6445}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A5CCAE2BF554957}" {
+      Name "#AR-MorphineInjectionAction"
+      m_sIconName "medical"
+     }
+     m_eConsumableType MORPHINE
+    }
+    SCR_SalineBagUserAction "{5A5CCAE248697020}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5A5CCAE25BF08D86}" {
+      Name "#AR-SalineBagAction"
+      m_sIconName "medical"
+     }
+     m_eConsumableType SALINE
+    }
+    SCR_TourniquetUserAction "{5C68A05F8836889D}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5C68A05F9AB47F24}" {
+      Name "#AR-TourniquetAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup RIGHTLEG
+     m_eConsumableType TOURNIQUET
+    }
+    SCR_TourniquetUserAction "{5C68FB4586880C5E}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5C68FB4597F6E228}" {
+      Name "#AR-TourniquetAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup LEFTLEG
+     m_eConsumableType TOURNIQUET
+    }
+    SCR_TourniquetUserAction "{5C68FB458180EF70}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5C68FB45A6769C40}" {
+      Name "#AR-TourniquetAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup RIGHTARM
+     m_eConsumableType TOURNIQUET
+    }
+    SCR_TourniquetUserAction "{5C68FB459CB30804}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5C68FB45BC7B6A22}" {
+      Name "#AR-TourniquetAction"
+      m_sIconName "medical"
+     }
+     m_eHitZoneGroup LEFTARM
+     m_eConsumableType TOURNIQUET
+    }
+    SCR_InspectCasualtyUserAction "{5D8CD8E6AA772324}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5D8CD8E6B5E1FE92}" {
+      Name "#AR-UserAction_InspectCasualty"
+     }
+     VisibilityRange 2
+     Duration 1.25
+     CanAggregate 1
+     "Sort Priority" 10
+    }
+    SCR_HealSupportStationAction "{5E14966CF282A3BA}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966C0D73CD5C}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753DC70B41D}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup HEAD
+    }
+    SCR_HealSupportStationAction "{5E14966CF597F6B3}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966C2BD9BCF7}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     "Sort Priority" 100
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753BFBC8180}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup UPPERTORSO
+    }
+    SCR_HealSupportStationAction "{5E14966C08522B0C}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966FBECEC4CE}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753B36748F4}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup LEFTLEG
+    }
+    SCR_HealSupportStationAction "{5E14966FAD3FC9A6}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966F3A5303BB}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753B6A34DD3}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup RIGHTLEG
+    }
+    SCR_HealSupportStationAction "{5E14966FAFF46C89}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966F315076CC}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753CA671F34}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup LEFTARM
+    }
+    SCR_HealSupportStationAction "{5E14966FA1ED9E23}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966F3441FED6}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753CD1E45F3}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup RIGHTARM
+    }
+    SCR_HealSupportStationAction "{5E14966FA41B012C}" {
+     ParentContextList +{
+     }
+     UIInfo SCR_ActionUIInfo "{5E14966F4F500868}" {
+      Name "#AR-SupportStation_Heal_ActionName"
+      m_sIconName "medical"
+     }
+     Duration -3
+     PerformPerFrame 1
+     m_iGadgetAnimationCommand 2
+     m_DamageIntensityHolder SCR_DamageIntensityHolder "{5E20C753CF985B88}" : "{C9F04678B440BC1E}Configs/HitZones/CharacterDamageIntensityInfo.conf" {
+     }
+     m_eHitZoneGroup LOWERTORSO
+    }
+    SCR_ResupplyOtherSupportStationAction "{5E24ACE2ED47A29E}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5E24ACE2E25F92E5}" {
+      Name "#AR-SupportStation_Resupply_HeldWeaponAmmo_Give_ActionName"
+     }
+     Duration -1.55
+     PerformPerFrame 1
+     "Sort Priority" -10
+     m_iGadgetAnimationCommand 1
+     m_ResupplyData SCR_ResupplyHeldWeaponSupportStationData "{5E24AE21B0C56058}" {
+      m_aMuzzleTypes +{
+      }
+      m_bCheckFaction 1
+     }
+     m_iMaxResupplyCount 10
+     m_eNotificationOnUse SUPPORTSTATION_RESUPPLIED_BY_OTHER_AMMO
+    }
+    SCR_ResupplyOtherSupportStationAction "{5E24ACE21F4EA7CF}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5E24ACE2E25F92E5}" {
+      Name "#AR-SupportStation_Resupply_HeldWeaponGrenadeLauncher_Give_ActionName"
+     }
+     Duration -1.55
+     PerformPerFrame 1
+     "Sort Priority" -8
+     m_iGadgetAnimationCommand 1
+     m_ResupplyData SCR_ResupplyHeldWeaponSupportStationData "{5E24AE21CFE80E7F}" {
+      m_aMuzzleTypes +{
+      }
+      m_bCheckFaction 1
+     }
+     m_iMaxResupplyCount 15
+     m_eNotificationOnUse SUPPORTSTATION_RESUPPLIED_BY_OTHER_UGL
+    }
+    SCR_ResupplyOtherSupportStationAction "{5E24ACE21075F863}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5E24ACE2E25F92E5}" {
+      Name "#AR-SupportStation_Resupply_Grenade_Give_ActionName"
+     }
+     Duration -1.55
+     PerformPerFrame 1
+     "Sort Priority" -6
+     m_iGadgetAnimationCommand 1
+     m_ResupplyData SCR_ResupplyCatalogItemSupportStationData "{5E24AE21D6FAEB38}" {
+      m_eResupplyType GRENADE
+     }
+     m_iMaxResupplyCount 5
+     m_eNotificationOnUse SUPPORTSTATION_RESUPPLIED_BY_OTHER_GRENADE
+    }
+    SCR_ResupplyOtherSupportStationAction "{5E24ACE211BE0BC8}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5E24ACE2E25F92E5}" {
+      Name "#AR-SupportStation_Resupply_Bandage_Give_ActionName"
+     }
+     Duration -1.55
+     PerformPerFrame 1
+     "Sort Priority" 110
+     m_iGadgetAnimationCommand 1
+     m_ResupplyData SCR_ResupplyCatalogItemSupportStationData "{5E24AE21E4948DCB}" {
+      m_eResupplyType BANDAGE
+     }
+     m_eSupportStationType RESUPPLY_MEDICAL
+     m_iMaxResupplyCount 4
+     m_eNotificationOnUse SUPPORTSTATION_RESUPPLIED_BY_OTHER_BANDAGE
+    }
+    SCR_ResupplyOtherSupportStationAction "{5E24ACE213258F65}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5E24ACE2E25F92E5}" {
+      Name "#AR-SupportStation_Resupply_Morphine_Give_ActionName"
+     }
+     Duration -1.55
+     PerformPerFrame 1
+     "Sort Priority" 111
+     m_iGadgetAnimationCommand 1
+     m_ResupplyData SCR_ResupplyCatalogItemSupportStationData "{5E24AE21F31A8289}" {
+      m_eResupplyType MORPHINE
+     }
+     m_eSupportStationType RESUPPLY_MEDICAL
+     m_iMaxResupplyCount 2
+     m_eNotificationOnUse SUPPORTSTATION_RESUPPLIED_BY_OTHER_MORPHINE
+     m_bPlayerOnly 1
+    }
+    SCR_LoadCasualtySupportStationUserAction "{5E4AB1E0975F4DCD}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{5E4AB1E0AF696747}" {
+      Name "#AR-UserAction_LoadCasualtyInAmbulance"
+     }
+     Duration 2
+     "Sort Priority" 100
+     m_eShownInVehicleState NOT_IN_VEHICLE
+     m_bSameVehicleOnly 0
+     m_sInvalidRangeActionReason "#AR-UserAction_LoadCasualty_NoneInRange"
+     m_bShowSupplyCostOnAction 0
+     m_bDoesGadgetAnimationLoop 0
+    }
+    SAL_ToggleJammerCharacter "{65E2E2B8A067FCF8}" {
+     ParentContextList +{
+     }
+    }
+   }
+  }
+  SCR_CharacterAnimationComponent "{520EA1D2F659C994}" {
+   LinkingObjects LinkingObjectArray "{649C9A0C1A1B1AFF}" {
+    LinkingObjects {
+     LinkingObject "{649C9A0C19A63D73}" {
+      Prefab "{5A7E3ECE4599214B}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{649C9A0C2A03B5E5}" {
+        Collider "UBX_VC_cargo05"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{64B6E7AD71C7D27A}" {
+        Collider "UBX_VC_cargo01"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+      }
+     }
+     LinkingObject "{64A6ACAE924D6DEA}" {
+      Prefab "{58B3FB7F102A8B1B}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{64A6ACAEA3F6A1F5}" {
+        Collider "UBX_VC_uralcargo00"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{64B6E7AE8BBB825E}" {
+        Collider "UBX_VC_uralcargo01"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+      }
+     }
+     LinkingObject "{64B895E033E644F5}" {
+      Prefab "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{64B895E04511E5BA}" {
+        Collider "UBX_VEH_Base_vehicle_11"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{64B895E051CEFC85}" {
+        Collider "UBX_VEH_Base_vehicle_012"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{64B895E05D555910}" {
+        Collider "UBX_VEH_Base_vehicle_013"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{64B895E065BCE21F}" {
+        Collider "UCX_VEH_Base_vehicle_012"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+      }
+     }
+     LinkingObject "{671500CB23C47689}" {
+      Prefab "{935CA5B25EEF2E4D}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAK.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{671500CB2CC4660E}" {
+       }
+      }
+     }
+     LinkingObject "{68640B5677AD2676}" {
+      Prefab "{D36E2044EABF34A3}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_Cargo.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{66E11C5FA688E7AE}" {
+        Collider "UBX_VC_Cargo01"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{66E11C5F82DA2520}" {
+        Collider "UBX_VC_Cargo06"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+       LinkingColliderConfig "{66E11C5F8205095F}" {
+        Collider "UBX_VC_Cargo07"
+        LinkingConfig "{20D6C9A48069F770}Configs/CharacterLinking/TruckCargo.conf"
+       }
+      }
+     }
+     LinkingObject "{6890886B23680F79}" {
+      Prefab "{94020804B838124E}Prefabs/Vehicles/Helicopters/REAPER_NH90/REAPER_NH90_base.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{6890886B2D7D055D}" {
+        Collider "UCX_VC_cassis_floor"
+        LinkingConfig "{D25E9813A827D3F4}Configs/CharacterLinking/REAPER_NH90_CharLink.conf"
+       }
+       LinkingColliderConfig "{68EB77E8BC8E8B07}" {
+        Collider "UCX_VC_cargoDoor_low"
+        LinkingConfig "{D25E9813A827D3F4}Configs/CharacterLinking/REAPER_NH90_CharLink.conf"
+       }
+      }
+     }
+     LinkingObject "{6890886B334C6E3A}" {
+      Prefab "{A53A22AC33CDCEB6}Prefabs/Vehicles/Helicopters/REAPER_NH90/Parts/reaper_NH90_seats.et"
+      LinkingColliderConfig {
+       LinkingColliderConfig "{6890886B3C455C61}" {
+        LinkingConfig "{D25E9813A827D3F4}Configs/CharacterLinking/REAPER_NH90_CharLink.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterCameraHandlerComponent "{520EA1D2F659C98D}" {
+   "Camera entity prefab" "{2DF95AB3CCDF4FA5}Prefabs/Characters/Core/DefaultPlayerCamera.et"
+   "CameraSet name" "CharacterCameraSet"
+  }
+  RplComponent "{5238B6A9F3442EE7}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+ }
+ coords 226.741 1 98.92
+}

@@ -1,0 +1,36 @@
+SCR_ChimeraCharacter : "{1BB8774F7E5854D0}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_SPN_KZS/Afgan/dim_USSR_GRU_Afgan_GL.et" {
+ ID "520EC961A090BE1E"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{D7C470712EC4D596}Prefabs/Characters/Heads/Head_White_05.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{453AC937EC6338E5}Prefabs/Characters/Uniforms/TakShirts/ChilabaFull06.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD44C47E69EF1F}" {
+     TargetStorage "Jacket/ChilabaFull06.et"
+    }
+    ItemsInitConfigurationItem "{68CD44C479BA9399}" {
+     TargetStorage "Jacket/ChilabaFull06.et"
+    }
+   }
+  }
+ }
+ coords 3602.339 280 406.348
+}

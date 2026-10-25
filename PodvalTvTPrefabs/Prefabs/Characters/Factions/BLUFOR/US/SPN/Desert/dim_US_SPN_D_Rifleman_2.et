@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{01153F3842C23CEC}Prefabs/Characters/Factions/BLUFOR/US/SPN/Desert/dim_US_SPN_D_Rifleman.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4C13A7763FD2879C}Prefabs/Characters/HeadGear/Helmet_ProTec/ProTec_highcut_04.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{59ED88C65B34DA03}Prefabs/Characters/Vests/Chest_Rig/Delta_AWS_01.et"
+    }
+    LoadoutSlotInfo Waist {
+     Prefab "{ED24C80CA94AAC16}Prefabs/Characters/Belts/Delta_Belt_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3945F13073}" {
+     TargetStorage "Vest/Delta_AWS_01.et"
+    }
+   }
+  }
+ }
+ coords 1746.916 2 1810.607
+}
