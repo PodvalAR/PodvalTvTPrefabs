@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{F63F5413E513CCBE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Desert/Char_RHS_TF_USMC_D_SMAW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{DB53366D8C521124}Prefabs/Weapons/Launchers/MK153/Launcher_MK153mod2_NoMBS.et"
+  }
+ }
+ coords 3723.462 58.195 3317.76
+}
