@@ -1,0 +1,18 @@
+Vehicle : "{70B7A59379C0525B}Prefabs/Vehicles/Helicopters/UH60/UH-60_black.et" {
+ ID "6910AB9493C73382"
+ components {
+  SlotManagerComponent "{693717EA5E627710}" {
+   Slots {
+    RegisteringComponentSlotInfo RotorMain {
+    }
+    RegisteringComponentSlotInfo Gunner_left {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo Gunner_right {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 155.644 1 40.181
+}
