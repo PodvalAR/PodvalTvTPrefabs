@@ -1,0 +1,19 @@
+SCR_ChimeraCharacter : "{29119BCA182D3062}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_HeliCoPilot.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D4610EEE10A5AA72}Prefabs/Weapons/Rifles/MP5/dim_Rifle_MP5K.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C837FEFBB6}" {
+     TargetStorage "Vest/Vest_SRU21P.et"
+     PrefabsToSpawn {
+      "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{6BE70CC756D13B91}Prefabs/Weapons/Magazines/MP5_30rnd_Ball.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1627.45 2 1652.424
+}

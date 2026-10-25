@@ -1,0 +1,54 @@
+SCR_ChimeraCharacter : "{A6692ACBBF0E2764}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6852E0D026AA8F79}Prefabs/Characters/HeadGear/Hat_Panama_Soviet/Hat_Panama_Soviet_01_v2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5BD5149BF3DE1046}Prefabs/Characters/Uniforms/Jacket_KZS/dim_Jacket_KZS_Teln.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/dim_Jacket_KZS_Teln.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Jacket/dim_Jacket_KZS_Teln.et"
+     PrefabsToSpawn {
+      "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et" "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
+     PrefabsToSpawn + {
+      "{2C6530C410195644}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer_7n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C365138F1B9}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{68A08C0C93C4835B}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 212.826 1 103.612
+}

@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{F34FC121F4B43694}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6852E0D026AA8F79}Prefabs/Characters/HeadGear/Hat_Panama_Soviet/Hat_Panama_Soviet_01_v2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D262D2102B9931C6}Prefabs/Characters/Uniforms/Jacket_M88_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+   }
+  }
+ }
+ coords 211.775 1 103.569
+}

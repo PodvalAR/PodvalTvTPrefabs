@@ -1,0 +1,49 @@
+SCR_ChimeraCharacter : "{8E0519795F236EC0}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Afgan/dim_USSR_Afgan_VDV_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AR"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{EEFE1A72E6C73339}Prefabs/Weapons/MachineGuns/RPK74/MG_RPK74_n10.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{E5647944DE836792}Prefabs/Characters/Uniforms/dim_Jacket_M69_Midsleeve_VDV.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C71B8C59D15C438C}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR_NoUseless.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_NoUseless.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/dim_Jacket_M69_Midsleeve_VDV.et"
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR_NoUseless.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn {
+      "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     PrefabsToSpawn {
+      "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et" "{D78C667F59829718}Prefabs/Weapons/Magazines/Magazine_545x39_RPK_45rnd_4Ball_1Tracer_n10.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2806.56 10 3105.354
+}

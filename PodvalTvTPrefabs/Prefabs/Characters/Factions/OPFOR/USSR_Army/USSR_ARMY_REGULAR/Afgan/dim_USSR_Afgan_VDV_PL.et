@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{426F7FAAC77A2A6E}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_PL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{00B42932988C1817}Prefabs/Characters/Uniforms/dim_Jacket_M69_VDV_Leut.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Enabled 1
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{84CDA6D98D4672EF}Prefabs/Characters/Uniforms/Pants_M69_2.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{CCF51D153E1B66E7}Prefabs/Characters/Footwear/KerseyBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6462B8B3FFD8C594}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietOfficer_Kit.et"
+    }
+    LoadoutSlotInfo Eyes {
+     Offset -0.001 0.002 -0.003
+     Enabled 1
+     Prefab "{BA5948406FCFB3F8}Prefabs/Characters/FaceGear/Hair/mustash.et"
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M69_2.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/dim_Jacket_M69_VDV_Leut.et"
+     PrefabsToSpawn {
+      "{AC04D0D1EABC994F}Prefabs/Items/Equipment/Radios/Radio_R148_RF_Multi.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689E8D724D1D62D8}" {
+     Enabled 1
+     TargetStorage "Pants/Pants_M69_2.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 216.236 1 115.697
+}

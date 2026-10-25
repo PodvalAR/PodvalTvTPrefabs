@@ -1,0 +1,69 @@
+SCR_ChimeraCharacter : "{07DB2A2C2FD68F06}Prefabs/Characters/Factions/BLUFOR/US/SPN/dim_US_SPN_Sniper.et" {
+ ID "520EC961A090BBD5"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3439CE09C084FED7}Prefabs/Weapons/Rifles/M14/Rifle_M21_M61_Opt.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7127824E4ABE0EAB}Prefabs/Characters/HeadGear/Helmet_ProTec/ProTec_highcut_03.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3D17E4FA8F819ECE}Prefabs/Characters/Uniforms/BDU/1Jacket.et_tri.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{62DA4BCBA7D9324C}Prefabs/Characters/Vests/SpecOps_Vest/SpecOps_Vest.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{C6BE0A871E7DE808}Prefabs/Characters/Uniforms/BDU/1Pants_tri.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+    LoadoutSlotInfo Neck {
+     Enabled 1
+     Prefab "{F3AF4290149DC47E}Prefabs/Characters/Coms/Delta_PTT_02.et"
+    }
+    LoadoutSlotInfo Extra3 {
+     Enabled 1
+     Prefab "{B83001AA9E630337}Prefabs/Characters/Uniforms/knee_pads/ZEL_ExtraClothing_Base.et"
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{ED24C80CA94AAC16}Prefabs/Characters/Belts/Delta_Belt_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68CD6B3A809E1C99}" {
+     TargetStorage "Pants/1Pants_tri.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80F6D72C}" {
+     TargetStorage "Jacket/1Jacket.et_tri.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3A80D0F11B}" {
+     TargetStorage "Jacket/1Jacket.et_tri.et"
+    }
+    ItemsInitConfigurationItem "{68CD6B3943B7F161}" {
+     TargetStorage "Pants/1Pants_tri.et"
+     PrefabsToSpawn {
+      "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et" "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68CD6B394EFC6E76}" {
+     PrefabsToSpawn + {
+      "{C319540BC96AE9BB}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_M61_AP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 210.03 1 66.037
+}

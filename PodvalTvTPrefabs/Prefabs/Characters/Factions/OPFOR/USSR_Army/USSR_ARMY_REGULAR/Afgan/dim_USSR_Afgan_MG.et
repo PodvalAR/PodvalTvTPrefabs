@@ -1,0 +1,30 @@
+SCR_ChimeraCharacter : "{E4EEE9368656AD0D}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Char_USSR_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{AE499BA64BCFACB4}Prefabs/Characters/Uniforms/Shirt_Telnyashka/Telnyashka_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 1
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_KZS.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Back/Backpack_Veshmeshok.et"
+    }
+   }
+  }
+ }
+ coords 216.838 1 105.383
+}
