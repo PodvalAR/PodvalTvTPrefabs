@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{DBC7F2308F4A5E27}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Regular/dim_USMC_AMG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

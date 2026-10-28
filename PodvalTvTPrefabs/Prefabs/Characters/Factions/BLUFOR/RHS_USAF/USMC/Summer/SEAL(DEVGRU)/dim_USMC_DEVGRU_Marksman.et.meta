@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FBD6AE3DAC3B7552}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/SEAL(DEVGRU)/dim_USMC_DEVGRU_Marksman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

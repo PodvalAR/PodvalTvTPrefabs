@@ -1,0 +1,11 @@
+GameEntity : "{66B14B19A3AC7C46}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/GD_LWH_USMC_RHS_V9.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "" ""
+   }
+  }
+ }
+ coords 2491.213 47.913 5121.655
+}
