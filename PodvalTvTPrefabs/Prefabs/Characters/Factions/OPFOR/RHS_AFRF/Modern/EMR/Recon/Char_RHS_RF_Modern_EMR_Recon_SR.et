@@ -1,6 +1,9 @@
 SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Recon/Char_RHS_RF_Modern_EMR_Recon_Rifle.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank LIEUTENANT
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_SR"
@@ -16,5 +19,5 @@ SCR_ChimeraCharacter : "{644D82BAD0907E8B}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 81.182 1 70.847
+ coords 1427.663 140.649 1230.461
 }
