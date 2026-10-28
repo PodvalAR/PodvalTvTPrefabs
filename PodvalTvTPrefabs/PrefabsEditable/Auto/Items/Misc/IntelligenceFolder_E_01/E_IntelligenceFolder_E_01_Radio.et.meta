@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5ECEF02B0D034F4C}PrefabsEditable/Auto/Items/Misc/IntelligenceFolder_E_01/E_IntelligenceFolder_E_01_Radio.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
