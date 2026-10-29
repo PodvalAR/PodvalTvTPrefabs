@@ -1,0 +1,26 @@
+Vehicle : "{37EF248E158BAD57}Prefabs/CB90/Vehicles/CB90_Naval_Base.et" {
+ ID "6AA54D72F321991D"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6ABAED719D40860F}" {
+     SourceMaterial "CB90_DeckGrey_macro"
+     AssignedMaterial "{AC31CC0483414598}Assets/CB90/V41/Materials/dim_CB90_DeckGrey_macro.emat"
+    }
+    MaterialAssignClass "{6ABAED719D4086FD}" {
+     SourceMaterial "CB90_hull_coating_v05"
+     AssignedMaterial "{4F2D2CE0702A7D89}Assets/CB90/V41/Materials/dim_CB90_hull_coating_v05.emat"
+    }
+    MaterialAssignClass "{6ABAED719D4086F5}" {
+     SourceMaterial "CB90_olive_paint"
+     AssignedMaterial "{D91A8266A482ABE2}Assets/CB90/V41/Materials/dim_CB90_olive_paint.emat"
+    }
+    MaterialAssignClass "{6ABAED719D4086EA}" {
+     SourceMaterial "CB90_olive_paint_macro"
+     AssignedMaterial "{ECE1FCC509C5EA43}Assets/CB90/V41/Materials/dim_CB90_olive_paint_macro.emat"
+    }
+   }
+  }
+ }
+ coords 180.646 1 45.949
+}
