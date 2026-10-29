@@ -1,0 +1,25 @@
+PTVT_ProtectedDocumentEntity : "{231EF6796E1D97CE}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_Radio.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_EditableEntityComponent "{6286B4AE0E7E9A21}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6286B4AE0E7E9A22}" {
+    Name "Разведданные (Радио)"
+    Description "Папка с разведданными и встроенным радиопередатчиком"
+    Icon "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+    IconSetName "field-manual"
+    m_aAuthoredLabels {
+     ENTITYTYPE_ITEM FACTION_NONE
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6286B4AE0E7E9A23}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+ }
+}

@@ -12,6 +12,9 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  SCR_CharacterRankComponent "{528E6D4286AA2D8F}" {
+   m_iRank LIEUTENANT
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#PDVL_Role_SR"
@@ -35,5 +38,5 @@ SCR_ChimeraCharacter : "{DD9BE83B0434EDFA}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 70.339 1 56.135
+ coords 1428.665 140.741 1227.271
 }

@@ -1,6 +1,15 @@
-GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_base.et" {
+PTVT_ProtectedDocumentEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_base.et" {
  ID "508AB2013EEE1E00"
  components {
+  BaseRadioComponent "{6286B4AE1C80DBEB}" {
+   "Encryption key" "secret documents"
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{6286B4AE1AF50067}" {
+     "Transmitting Range" 2000
+    }
+   }
+  }
   InventoryItemComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
@@ -21,17 +30,30 @@ GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/In
     }
    }
   }
-  BaseRadioComponent "{6286B4AE1C80DBEB}" {
-   "Encryption key" "secret documents"
-   "Turned on" 1
-   Transceivers {
-    RelayTransceiver "{6286B4AE1AF50067}" {
-     "Transmitting Range" 2000
-    }
-   }
-  }
   RHS_RadioSourceComponent "{6286B4AE0E7E9A19}" {
    m_iSignalType Static
+  }
+  SCR_EditableEntityComponent "{6286B4AE0E7E9A21}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_EntityType ITEM
+   m_UIInfo SCR_EditableEntityUIInfo "{6286B4AE0E7E9A22}" {
+    Name "Разведданные (Радио)"
+    Description "Папка с разведданными и встроенным радиопередатчиком"
+    Icon "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+    IconSetName "field-manual"
+    m_aAuthoredLabels {
+     ENTITYTYPE_ITEM FACTION_NONE
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6286B4AE0E7E9A23}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+   m_bAutoRegister ALWAYS
   }
  }
  coords 3275.772 2.095 2873.216
