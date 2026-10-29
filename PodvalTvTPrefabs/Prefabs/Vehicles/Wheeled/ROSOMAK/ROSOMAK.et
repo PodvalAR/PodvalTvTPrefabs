@@ -1,4 +1,4 @@
-Vehicle : "{C713D3B110C397B6}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKdesert.et" {
+Vehicle : "{935CA5B25EEF2E4D}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAK.et" {
  ID "BBCBA43A9778AE21"
  components {
   MeshObject "{51DAA09FEFBFC0E7}" {
@@ -41,10 +41,23 @@ Vehicle : "{C713D3B110C397B6}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKdesert.et" {
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "UK"
   }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     BaseDamageMultiplier 1
+     MaxHealth 8000
+     "Explosive multiplier" 0.33
+     "Fire multiplier" 1
+    }
+    SCR_EngineHitZone Engine_01 {
+     MaxHealth 600
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Prefab "{12E03682316C2EDC}Vehicles/Wiled/ROSOMAK/Turret/LAV25_turret_ROSOMAK.et"
+     Prefab "{5CD84ECEAB6A819F}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/ROSOMAK_turretGREEN.et"
     }
    }
   }

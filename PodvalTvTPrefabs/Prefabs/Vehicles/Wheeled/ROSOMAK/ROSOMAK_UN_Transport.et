@@ -1,0 +1,53 @@
+Vehicle : "{9EA5E74FBE33D514}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKtransport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AB92CC981AE4624}" {
+     SourceMaterial "rosomak_Body_exterior"
+     AssignedMaterial "{AAF53E618331B520}modele/Data/rosomak_Body_exteriorWINTER.emat"
+    }
+    MaterialAssignClass "{6AB92CC981AE4611}" {
+     SourceMaterial "rosomak_body_exteriorSEC"
+     AssignedMaterial "{533E1A9E21E27656}modele/Data/rosomak_body_exteriorSECwinter.emat"
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     BaseDamageMultiplier 1
+     MaxHealth 8000
+     "Explosive multiplier" 0.33
+     "Fire multiplier" 1
+    }
+    SCR_FuelHitZone FuelTank_01 {
+     MaxHealth 450
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_body"
+     Offset 1.1814 0.155 1.1453
+     Angles 89.4834 -102.593 86.1395
+     Prefab "{B2D379B095B8D10C}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_UN_Decal.et"
+    }
+    RegisteringComponentSlotInfo Decal2 {
+     PivotID "v_body"
+     Offset -1.076 0.1352 1.1992
+     Angles -89.4834 77.4097 -67.372
+     Prefab "{B2D379B095B8D10C}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_UN_Decal.et"
+    }
+    RegisteringComponentSlotInfo Decal3 {
+     PivotID "v_body"
+     Offset -0.7313 -2.9737 1.0911
+     Angles 0 90 -99.9152
+     Prefab "{B2D379B095B8D10C}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_UN_Decal.et"
+    }
+   }
+  }
+ }
+ coords 192.692 1 53.35
+}

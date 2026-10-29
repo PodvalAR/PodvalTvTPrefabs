@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9FE42DBCD77A8BC0}Vehicles/Wiled/ROSOMAK/ROSOMAK.et"
+ Name "{9FE42DBCD77A8BC0}Prefabs/Vehicles/Wheeled/ROSOMAK/ROSOMAK.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

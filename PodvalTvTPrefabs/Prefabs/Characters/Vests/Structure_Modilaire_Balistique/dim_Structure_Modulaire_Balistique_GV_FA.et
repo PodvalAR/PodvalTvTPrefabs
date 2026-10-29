@@ -1,25 +1,19 @@
-GenericEntity : "{B95BD66EA8F863C9}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_Base.et" {
+GenericEntity : "{9AA80190308C3696}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_GV_FA.et" {
  ID "50E0B40D7407B664"
  components {
-  SCR_EquipmentStorageComponent "{56C48B5965A39F45}" {
-   Attributes SCR_ItemAttributeCollection "{6216EDCA4339FB24}" {
-    ItemDisplayName UIInfo "{6216EDCA4339FB2D}" {
-     Name "SMB Rifleman Vest"
-     Description ""
-    }
-   }
-   InitialStorageSlots {
-    SCR_EquipmentStorageSlot Slot01 {
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   Slots {
+    LoadoutSlotInfo Slot01 {
      Prefab "{B9802F488D88D9FA}Prefabs/Items/Equipment/Accessories/Pouch_Chargeur_556_Double/dim_Pouch_Chargeur_STANAG.et"
     }
-    SCR_EquipmentStorageSlot Slot02 {
+    LoadoutSlotInfo Slot02 {
      Prefab "{B9802F488D88D9FA}Prefabs/Items/Equipment/Accessories/Pouch_Chargeur_556_Double/dim_Pouch_Chargeur_STANAG.et"
     }
-    SCR_EquipmentStorageSlot Slot03 {
+    LoadoutSlotInfo Slot03 {
      Prefab "{B9802F488D88D9FA}Prefabs/Items/Equipment/Accessories/Pouch_Chargeur_556_Double/dim_Pouch_Chargeur_STANAG.et"
     }
    }
   }
  }
- coords 239.971 1 64.097
+ coords 23.051 1 33.1
 }
