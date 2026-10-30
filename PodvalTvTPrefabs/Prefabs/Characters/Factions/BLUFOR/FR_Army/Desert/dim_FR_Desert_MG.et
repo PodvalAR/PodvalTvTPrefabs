@@ -1,13 +1,19 @@
 SCR_ChimeraCharacter : "{4959B68AC63214EC}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_MG.et" {
  ID "520EC961A090B1EE"
  components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1078EF81CE12EBA4}Prefabs/Weapons/MachineGuns/MINIMI/FN_MINIMI_FELIN_MK2_Specter.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
      Prefab "{8F0BF779AF43D7A0}Prefabs/Characters/HeadGear/F3_HELMET/MSA_FELIN_TAN_Base.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{20C69D98851FDEA1}Prefabs/Characters/Uniforms/F3_Ubas/F3_Ubas_DA_Patch_FRANCE_BV01.et"
+     Prefab "{20C69D98851FDEA1}Prefabs/Characters/Uniforms/F3_Ubas/DA/F3_Ubas_DA_Patch_FRANCE_BV01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E83A12DECAE5BB67}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_GV_MG.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{F277891AB79F482D}Prefabs/Characters/Uniforms/F3_Pantalon/F3_Pantalon_DA.et"

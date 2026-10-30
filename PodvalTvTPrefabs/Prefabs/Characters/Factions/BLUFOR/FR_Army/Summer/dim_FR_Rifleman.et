@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{0810D32518B1B96F}Prefabs/Characters/Factions/BLUFOR/FR_
    WeaponTemplate "{2A1A0F3F15BBCAD7}Prefabs/Weapons/Grenades/GR_FUM_FR/GR_FUM_MA_White.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{44556840603D069B}Prefabs/Weapons/Weapons/M27IAR/M27IAR_Rfl.et"
+   WeaponTemplate "{44556840603D069B}Prefabs/Weapons/Rifles/M27IAR/M27IAR_Rfl.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -30,10 +30,10 @@ SCR_ChimeraCharacter : "{0810D32518B1B96F}Prefabs/Characters/Factions/BLUFOR/FR_
      Prefab "{2B816499D35CC83D}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/dim_Structure_Modulaire_Balistique_GV_FA.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{B11BA9F90C3AAFD5}Prefabs/Characters/Backpack/TECPACK45L.et"
+     Prefab "{B11BA9F90C3AAFD5}Prefabs/Characters/Backpack/TECPACK/TECPACK45L.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{C5DBCE6CB5A7B27F}Prefabs/Characters/Vests/Ceinture_De_Combat/dim_Ceinture_SMB.et"
+     Prefab "{ABAC4A7351DCC4FA}Prefabs/Characters/Vests/Ceinture_De_Combat/Ceinture_SMB.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{D1D8EF51D0C605F0}Prefabs/Characters/Handwear/Gloves_Oackley/Gloves_Oackley_Tan.et"

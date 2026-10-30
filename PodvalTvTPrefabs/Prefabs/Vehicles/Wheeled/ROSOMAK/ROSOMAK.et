@@ -45,7 +45,7 @@ Vehicle : "{935CA5B25EEF2E4D}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAK.et" {
    "Additional hit zones" {
     SCR_FlammableHitZone Hull {
      BaseDamageMultiplier 1
-     MaxHealth 8000
+     MaxHealth 15000
      "Explosive multiplier" 0.33
      "Fire multiplier" 1
     }

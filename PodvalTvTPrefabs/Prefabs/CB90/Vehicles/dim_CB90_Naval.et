@@ -19,6 +19,10 @@ Vehicle : "{37EF248E158BAD57}Prefabs/CB90/Vehicles/CB90_Naval_Base.et" {
      SourceMaterial "CB90_olive_paint_macro"
      AssignedMaterial "{ECE1FCC509C5EA43}Assets/CB90/V41/Materials/dim_CB90_olive_paint_macro.emat"
     }
+    MaterialAssignClass "{6ABB12ABC7ADE05E}" {
+     SourceMaterial "CB90_deck_macro"
+     AssignedMaterial "{7837D39D7170B94E}Assets/CB90/V41/Materials/dim_CB90_deck_macro.emat"
+    }
    }
   }
  }
