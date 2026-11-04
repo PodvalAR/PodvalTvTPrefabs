@@ -1,0 +1,29 @@
+GenericEntity : "{91BADE9DB28BBAD4}Prefabs/Weapons/Rifles/QBZ191/Rifle_QBZ192.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{F4FBD551741C8C96}Sounds/Weapons/Rifles/AKM/Weapons_Rifles_AKM_Shot_Suppressed_SuperSonic.acp" "{F9B575E37280E5D7}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Physical_Rifle_WoodMetal.acp"
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A20B5D1B4C64170}" {
+     AttachmentSlot InventoryStorageSlot optic {
+      Prefab "{595F1BCCA82D5E6E}Prefabs/Weapons/Attachments/Optics/QMQ171/Collim_QMQ171_DEV_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6A20B5D1B4C64270}" {
+       AttachmentSlot InventoryStorageSlot muzzle {
+        Prefab "{8D2D80877703529C}Prefabs/Weapons/Attachments/Muzzle/PLA189_Suppressor_191.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 175.438 1.227 133.546
+}

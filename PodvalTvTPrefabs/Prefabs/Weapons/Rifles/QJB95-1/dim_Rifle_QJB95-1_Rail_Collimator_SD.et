@@ -1,0 +1,24 @@
+GenericEntity : "{A51EC7249287F608}Prefabs/Weapons/Rifles/QJB95-1/Rifle_QJB95-1_Rail.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69669AA1ADB8A3C8}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{595F1BCCA82D5E6E}Prefabs/Weapons/Attachments/Optics/QMQ171/Collim_QMQ171_DEV_base.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{8D2D80877703529C}Prefabs/Weapons/Attachments/Muzzle/PLA189_Suppressor_191.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 195.96 1 154.519
+}
