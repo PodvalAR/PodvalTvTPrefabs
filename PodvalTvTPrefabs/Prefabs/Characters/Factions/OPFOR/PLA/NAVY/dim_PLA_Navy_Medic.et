@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{6B3DC10AFC193279}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Medic"
+    Icon "{611AE2DF8C37DF42}UI/Icons/medic.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7C333D5F67A29672}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_PASGT_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EB550ABB1139FD8D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_no_back_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2E381F6FB1F40A00}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{822A3DA8A95754D2}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_NAVY_2_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/azart/GD_AZART_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_NAVY_1.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_NAVY_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_NAVY_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/pistolmag/GD_Rattnik_PistolPouch_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/flyaga/GD_Ratnik_Holster_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC6ABE73315A275}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{21EF98BFC1EB3793}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_USSR.et" "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et" "{527D7C5D2E476BDC}Prefabs/Items/Medicine/SalineBag_01/SalineBag_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+   }
+  }
+ }
+ coords 142.396 1 85.644
+}

@@ -1,0 +1,14 @@
+Turret : "{82F515F8F9AC4D5E}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/dim_KBA105_Turret_Green_PLA.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6AC6B3ECB6A69565}" {
+     SourceMaterial "KBA105Shkval"
+     AssignedMaterial "{BC00B9629C6AE308}Assets/Vehicles/Wheeled/BTR70/Data/DIM_KBA105Shkval_PLA.emat"
+    }
+   }
+  }
+ }
+ coords 21.402 1 186.532
+}

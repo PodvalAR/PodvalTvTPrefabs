@@ -1,0 +1,51 @@
+SCR_ChimeraCharacter : "{3C9B391702B2240B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/dim_VDV_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_CharacterFactionAffiliationComponent "{6062F6587469882D}" {
+   "faction affiliation" "DIM_PLA"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_PLA
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{168036F42C0E51C8}Prefabs/Characters/Uniforms/Jacket_PLA_BDU_NAVY.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3B3E033CF5321229}Prefabs/Characters/Uniforms/Pants_PLA_BDU_NAVY.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+    }
+   }
+  }
+ }
+ coords 186.141 1 156.706
+}

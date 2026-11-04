@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 0.871
+ BCRMap "{CF1B9B9F623C7EFD}modele/Data/dim_rosomak_body_exteriorSECengine_PLA_NAVY_BCR.edds"
+ NormalPower 1.108
+ NMOMap "{9128A85D0D8A8EC7}modele/Data/rosomak_body_exteriorSECengine_NMO.edds"
+}

@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F64661C87D}" {
+  }
+ }
+ coords 104.692 1 36.932
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{51C1F90DB18F73E1}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_SL.et" "{5606035CD709C922}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_TL.et" "{E4E161D3FA82CFAE}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_AT.et" "{237EEC6FD7B7475D}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_AAT.et" "{3C490812830BD1F2}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_AR.et" "{5606035CD709C922}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_TL.et" "{E7C9CAA7FE399CB5}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Rifleman.et" "{4D7286A246A1B231}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Medic.et" "{E52D9F15D2DDA2F6}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Sniper.et"
+ }
+ m_sCustomNameSet "Отделение НОАК"
+}

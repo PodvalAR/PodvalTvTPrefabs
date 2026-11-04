@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F64661C87D}" {
+  }
+ }
+ coords 104.692 1 36.932
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{50FBFD947CCF4B50}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_SL.et" "{573C07C51A49F193}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_TL.et" "{E5DB654A37C2F71F}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_AT.et" "{5B8A94493E65C0CE}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_AAT.et" "{3D730C8B4E4BE943}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_AR.et" "{573C07C51A49F193}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_TL.et" "{6B3DC10AFC193279}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Rifleman.et" "{BBFC2D5AC7331627}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Medic.et" "{21ECACD33B93EEDC}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Sniper.et"
+ }
+ m_sCustomNameSet "Отделение МП НОАК"
+}

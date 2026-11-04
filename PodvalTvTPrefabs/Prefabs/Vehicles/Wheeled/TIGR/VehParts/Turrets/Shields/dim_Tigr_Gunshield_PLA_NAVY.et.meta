@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8A3A9CDE722B4413}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Shields/dim_Tigr_Gunshield_PLA_NAVY.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

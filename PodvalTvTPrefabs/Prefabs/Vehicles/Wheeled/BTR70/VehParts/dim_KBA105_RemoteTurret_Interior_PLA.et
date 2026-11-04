@@ -1,0 +1,18 @@
+GenericEntity : "{2C227B111DC60DB7}Prefabs/Vehicles/Wheeled/BTR70/VehParts/KBA105_RemoteTurret_Interior.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6AC4C3F93993F5A4}" {
+     SourceMaterial "Interior_Turret_Roof"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+    MaterialAssignClass "{6AC4C3F93993F595}" {
+     SourceMaterial "Interior_Turret_Roof_Screws"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+   }
+  }
+ }
+ coords 162.933 1 152.973
+}

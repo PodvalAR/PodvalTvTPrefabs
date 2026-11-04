@@ -1,0 +1,76 @@
+SCR_ChimeraCharacter : "{6B3DC10AFC193279}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_CC"
+    Icon "{916C4E2CE39A8915}UI/Icons/crew.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E800FA645BDA1B88}Prefabs/Weapons/Rifles/QCQ171/Rifle_QCQ171_Base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FBFA6A4F1872BC97}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_02.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{D0432401023F243F}Prefabs/Characters/Vests/Vest_Ratnik_6B46/DIM_Vest_6B46_no_plates_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{B773059745634E55}Prefabs/Items/Equipment/Radios/Radio_R107_PLA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{822A3DA8A95754D2}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_NAVY_2_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/azart/GD_AZART_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_NAVY_1.et"
+     PrefabsToSpawn {
+      "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et" "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_NAVY_2.et"
+     PrefabsToSpawn {
+      "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et" "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_NAVY_3.et"
+     PrefabsToSpawn {
+      "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et" "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/pistolmag/GD_Rattnik_PistolPouch_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/flyaga/GD_Ratnik_Holster_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/gnd_2/GD_APPI_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     PrefabsToSpawn {
+      "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et" "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 149.146 1 100.926
+}

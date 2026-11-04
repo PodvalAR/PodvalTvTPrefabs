@@ -1,0 +1,28 @@
+Turret : "{489DAF957C526B34}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Camo_SHIZA.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{655123ED7CE4CF48}" {
+     SourceMaterial "Turret"
+     AssignedMaterial "{31EB9BA2932689A9}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Data/Turret_Gunner/TIGR_Turret_Gunner.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "gunner" "default" "gunner"
+      }
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{98684A7A255AC21B}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/Kord_Tigr_SPP_Green.et"
+  }
+ }
+ coords 65.383 1 230.311
+}

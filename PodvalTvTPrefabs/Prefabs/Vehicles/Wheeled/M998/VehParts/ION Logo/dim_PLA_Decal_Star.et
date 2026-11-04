@@ -1,0 +1,15 @@
+GenericEntity : "{841978FC343422A0}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_Star_Decal.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{68B4D0FD868CE8F6}" {
+     SourceMaterial "decal_plane"
+     AssignedMaterial "{AE2E03F6922FA3EE}Assets/Vehicles/SharedMaterials/decals/numbers/Data/PLA_Star.emat"
+    }
+   }
+  }
+ }
+ coords 232.441 2.668 221.305
+ angles 0 0 0
+}

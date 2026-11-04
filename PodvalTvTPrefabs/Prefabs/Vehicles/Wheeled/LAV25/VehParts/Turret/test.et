@@ -1,0 +1,18 @@
+Turret : "{48638D9A654F2047}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/dim_ROSOMAK_turretGREEN_PLA.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.3737 -0.03 -0.29
+   }
+   WeaponTemplate "{DC00D74F5334EF56}Prefabs/Weapons/Cannons/ZTM1/KBA105_ZTM1_APT.et"
+  }
+  WeaponSlotComponent "{6118831970FD4F0C}" {
+   AttachType InventoryStorageSlot Cannon {
+    Offset -0.3737 -0.03 -0.29
+   }
+   WeaponTemplate "{CB5B42E36720E683}Prefabs/Weapons/Cannons/ZTM1/KBA105_ZTM1_HE.et"
+  }
+ }
+ coords 215.682 1 208.338
+}

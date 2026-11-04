@@ -1,0 +1,8 @@
+SCR_AIGroup : "{679238B227A50316}Prefabs/Groups/OPFOR/PLA/PLA_HQ.et" {
+ ID "0000000000000001"
+ coords 126.248 1 39.424
+ m_aUnitPrefabSlots {
+  "{7EB0090DB8486990}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Officer.et"
+ }
+ m_sCustomNameSet "Офицер МП НОАК"
+}

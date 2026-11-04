@@ -1,0 +1,84 @@
+SCR_ChimeraCharacter : "{6E0BA43142ED56C0}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4CFA2FF1D761F14D}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/dim_Hat_PLA_Navy_Boonie.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{168036F42C0E51C8}Prefabs/Characters/Uniforms/Jacket_PLA_BDU_NAVY.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6A74BD11E59F414D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3B3E033CF5321229}Prefabs/Characters/Uniforms/Pants_PLA_BDU_NAVY.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E0D17285B6B60E12}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/VDV_reg/dim_6B46_PLA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/azart/GD_AZART_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/Pouch1/GD_AK_Pouch_PLA_NAVY_1.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/Pouch2/GD_AK_Pouch_PLA_NAVY_2.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/Pouch3/GD_AK_Pouch_PLA_NAVY_3.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/ak_4/GD_AK_Pouch_PLA_NAVY_4.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/gnd3/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/grd1/GD_GND_Pouch_PLA_NAVY_1.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/grd2/GD_GND_Pouch_PLA_NAVY_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/grd3/GD_GND_Pouch_PLA_NAVY_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/gnd_2/GD_APPI_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 132.591 1 43.697
+}

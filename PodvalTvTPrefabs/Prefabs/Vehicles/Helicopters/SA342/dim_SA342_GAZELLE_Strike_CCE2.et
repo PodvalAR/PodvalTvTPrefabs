@@ -1,0 +1,33 @@
+Vehicle : "{65D25457E3A013AE}Prefabs/Vehicles/Helicopters/SA342/SA342_GAZELLE_Strike_CCE.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6A92F009EA77CAC8}" {
+     EntryPositionInfo PointInfo "{6A92F009EA77CAE3}" {
+      Offset 0.0465 -0.1642 -0.6042
+      Angles 0 -90 0
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+    CompartmentDoorInfo "{6A92F009EA77CAE4}" {
+     EntryPositionInfo PointInfo "{6A92F009EA77CAFB}" {
+      Offset -0.0677 -0.0298 -0.5298
+      Angles 0 90 0
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      Offset -0.0137 -0.0254 0.0948
+     }
+    }
+   }
+  }
+ }
+ coords 250.539 1 25.373
+}

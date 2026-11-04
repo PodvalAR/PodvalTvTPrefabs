@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{E52D9F15D2DDA2F6}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_Sharpshooter_S"
+    Icon "{207E36F90AE18DA1}UI/Icons/dim/pla_sf_sniper.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{AB0B32408E14EBFB}Prefabs/Weapons/Rifles/QBU88/dim_Rifle_QBU88_Opt_SD.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1172170055EEF822}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/dim_Hat_PLA_Boonie.et"
+    }
+   }
+  }
+ }
+ coords 173.094 1 133.922
+}

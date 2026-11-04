@@ -1,0 +1,37 @@
+Turret : "{840872E015915991}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/KBA105_Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -0.2799 0.0197 -1.2531
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{685C533B6B32D6B0}" {
+   Slots {
+    WCS_Armament_DispenserSlotInfo SmokeLaunchers {
+     Prefab "{5D7B323CD4FE485A}Prefabs/Weapons/Countermeasures/Dispenser_Smoke_KBA105_Green.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{685C1CC936963101}" {
+   WeaponTemplate "{B6E81AD130170DF1}Prefabs/Weapons/MachineGuns/PKM/KBA105_Coaxial_Green.et"
+  }
+  WeaponSlotComponent "{B1E5F761D0961461}" {
+   Enabled 0
+   WeaponTemplate ""
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset -0.2496 0 -1.4985
+     }
+    }
+   }
+  }
+ }
+}

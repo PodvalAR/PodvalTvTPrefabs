@@ -1,0 +1,13 @@
+GenericEntity : "{DC8C6A54E1F0A844}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_SPP_Shield.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{62B055D08026FF14}" {
+   Slots {
+    EntitySlotInfo Shield {
+     Prefab "{805928689326CBAD}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Shields/Tigr_Gunshield_Green.et"
+    }
+   }
+  }
+ }
+ coords 67.493 1 230.141
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{DF80CEF18C1A8239}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Shields/Tigr_turretshield_Green.et" {
+ ID "623E7D169615BDA0"
+ components {
+  MeshObject "{623E7D169615BD71}" {
+   Materials {
+    MaterialAssignClass "{623EA8622080F2B1}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{5BE900EE58DEEE45}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Dst/GunnerShield/Data/dim_TIGR_Gunner_Tower_PLA_NAVY.emat"
+    }
+   }
+  }
+ }
+ coords 174.267 1 193.607
+}

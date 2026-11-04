@@ -1,0 +1,8 @@
+SCR_AIGroup : "{4E33F981475EBF73}Prefabs/Groups/OPFOR/PLA/PLA_Inf_Squad_2.et" {
+ ID "0000000000000001"
+ coords 9163.577 0.264 9066.693
+ m_aUnitPrefabSlots {
+  "{BC603FF8C088F01D}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_HeliPilot.et" "{29DBCF68AF0F3099}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_HeliCoPilot.et"
+ }
+ m_sCustomNameSet "Экипаж вертолета МП НОАК"
+}

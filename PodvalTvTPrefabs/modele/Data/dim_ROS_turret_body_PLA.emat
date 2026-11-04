@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Cull none
+ AlphaTest 0.6
+ AlphaMul 0.814
+ RoughnessScale 0.966
+ MetalnessScale 1.39
+ BCRMap "{C4BDD4DDDCA4F1B0}modele/Data/dim_ROS_Turret_PLA.edds"
+ OpacityMap "{B25F6260B6CDDE45}modele/Data/Turret green/ROS_turret_body_A.edds"
+ NMOMap "{3D85CED2DBBA9BE8}modele/Data/Turret green/ROS_turret_body_NMO.edds"
+}

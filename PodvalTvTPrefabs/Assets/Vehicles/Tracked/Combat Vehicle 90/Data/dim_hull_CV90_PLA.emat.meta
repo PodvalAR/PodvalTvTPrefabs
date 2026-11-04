@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AA82E97D31F66D0D}Assets/Vehicles/Tracked/Combat Vehicle 90/Data/dim_hull_CV90_PLA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

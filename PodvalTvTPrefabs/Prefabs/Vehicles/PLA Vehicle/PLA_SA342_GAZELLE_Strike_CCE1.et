@@ -1,0 +1,29 @@
+Vehicle : "{8114B2759F1EC2AD}Prefabs/Vehicles/Helicopters/SA342/dim_SA342_GAZELLE_Strike_CCE2.et" {
+ ID "57DA6675519A417B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AA72B15BE644D27}" {
+     SourceMaterial "AS332_Body_02"
+     AssignedMaterial "{585DD83CDDBFC0C9}Assets/Vehicles/Helicopters/SA342/data/dim_SA342_Body_02_CE_PLA.emat"
+    }
+    MaterialAssignClass "{6AA72B15BE644D48}" {
+     SourceMaterial "SA342_Body_01"
+     AssignedMaterial "{0E38F947C2F015BF}Assets/Vehicles/Helicopters/SA342/data/SA342_Body_01_CE.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA SIZE_M
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+ }
+ coords 40.341 1 216.557
+}

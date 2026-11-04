@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F629AF1207}" {
+  }
+ }
+ coords 124.295 1 32.749
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{2A462163C5A67F2A}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_SL.et" "{2D81DB32A320C5E9}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_TL.et" "{47CED07CF722DD39}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_AR.et" "{6E0BA43142ED56C0}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Rifleman.et" "{4CCBE4C5194FC793}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_LAT.et" "{1EAB4369ACFF4ED7}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Medic.et" "{0609304534C83717}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Sapper.et" "{47C10C290C92BB83}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Sniper.et"
+ }
+ m_sCustomNameSet "Разведка НОАК"
+}

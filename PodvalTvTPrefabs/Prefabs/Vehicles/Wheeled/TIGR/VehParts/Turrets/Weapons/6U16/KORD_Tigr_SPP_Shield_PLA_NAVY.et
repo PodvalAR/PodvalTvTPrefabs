@@ -1,0 +1,27 @@
+GenericEntity : "{473B2BF3A7F1D75E}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_SPP.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{62B055D08026FF14}" {
+   Slots {
+    EntitySlotInfo Shield {
+     PivotID "v_turret_horizontal"
+     Offset 0.0279 -2.5018 0.1517
+     Prefab "{8A3A9CDE722B4413}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Shields/dim_Tigr_Gunshield_PLA_NAVY.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SCR_2DSightsComponent "{62B055D29D82956C}" {
+     SightsPointFront PointInfo "{62B055D289361533}" {
+      Angles 0 0 0
+     }
+     SightsPointRear PointInfo "{62B055D296DDDDA9}" {
+      Angles 0 0 0
+     }
+    }
+   }
+  }
+ }
+ coords -0.645 -1.413 1.616
+}

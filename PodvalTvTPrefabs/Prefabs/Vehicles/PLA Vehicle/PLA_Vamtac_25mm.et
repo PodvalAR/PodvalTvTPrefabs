@@ -1,0 +1,81 @@
+Vehicle : "{B92376134768511E}Prefabs/Vehicles/Wheeled/Vamtac_ST5/FFAA_VamtacST5_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{691354B3568DEB33}" {
+   MultiSlots {
+    MultiSlotConfiguration "{69152B3E84000893}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
+     }
+    }
+    MultiSlotConfiguration "{6915363026DCA6EE}" {
+     SlotTemplate InventoryStorageSlot M16Ammo {
+      Prefab "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    MultiSlotConfiguration "{69153630264FCAB8}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Prefab "{5D6DF8C83E5049F0}Prefabs/Weapons/Magazines/Magazine_58x45_QJB_75rnd_AP.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     MaxHealth 4000
+     DamageReduction 40
+     DamageThreshold 8
+     m_fIncendiaryReduction 3.5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo ffaa_Turret {
+     Offset -0.0636 -0.0336 1.1927
+     Prefab "{53D380453442582B}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/cringetest.et"
+    }
+    RegisteringComponentSlotInfo Decal1 {
+     PivotID "v_door_L01"
+     Offset 0.0186 -0.1266 -0.5323
+     Angles 0 0 -9.239
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+    RegisteringComponentSlotInfo Decal2 {
+     PivotID "v_door_R01"
+     Offset -0.0278 -0.1187 -0.5323
+     Angles 0 -180 -9.1423
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6914FD4279348C59}" {
+     Radius 0
+    }
+    UserActionContext "{6914FD42858BE4F8}" {
+     ContextName "gunner"
+     Position PointInfo "{51ACFBB061993925}" {
+      PivotID "passenger_01_idle"
+      Offset 0.1342 0.248 -0.1337
+     }
+    }
+   }
+  }
+ }
+ coords 44.477 1 229.34
+ angles 0 0 0
+}

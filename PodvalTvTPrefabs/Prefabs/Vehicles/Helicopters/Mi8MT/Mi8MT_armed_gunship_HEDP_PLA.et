@@ -1,0 +1,38 @@
+Vehicle : "{25DF9FF7A0D9B32A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP_Podval.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61AC9DD9ADF35174}" {
+     SourceMaterial "Exterior_Decals_C0FEB07CDCC06DC1"
+     AssignedMaterial "{D2D662B722626B92}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Exterior_Decals_RHS.emat"
+    }
+    MaterialAssignClass "{61AC9DD9ADF3514D}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{AE2E03F6922FA3EE}Assets/Vehicles/SharedMaterials/decals/numbers/Data/PLA_Star.emat"
+    }
+    MaterialAssignClass "{61AC9DD9ADF35147}" {
+     SourceMaterial "decals_23D9697A283FB7DF"
+     AssignedMaterial "{BACC5A891EF72B71}Assets/Vehicles/Helicopters/Mi8/Data/Helicopter_decals_01_black.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA SIZE_L
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo decalsAFRF {
+     Enabled 0
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 72.093 1 182.576
+}

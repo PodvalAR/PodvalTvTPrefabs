@@ -1,0 +1,22 @@
+Turret : "{489DAF957C526B34}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_KORD_Turret_Camo_SHIZA.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{6AC4C3E88C440FCC}" {
+   Slots {
+    RegisteringComponentSlotInfo Shield {
+     PivotID "v_turret_01"
+     Offset 0 -2.4 0.7
+     MergePhysics 0
+     Prefab "{0F4A9BE9D5261A0B}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Shields/Tigr_turretshield.et"
+     InheritParentSkeleton 0
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+ coords 185.533 1 237.045
+}

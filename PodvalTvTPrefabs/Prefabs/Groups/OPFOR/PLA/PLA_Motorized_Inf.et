@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F64661C87D}" {
+  }
+ }
+ coords 92.591 1 48.476
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{51C1F90DB18F73E1}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_SL.et" "{5606035CD709C922}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_TL.et" "{6E5ED608ED44C511}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_MG.et" "{A9C15BB4C0714DE2}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_AMG.et" "{EE26EF128DB62186}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_LAT.et" "{5606035CD709C922}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_TL.et" "{E7C9CAA7FE399CB5}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Rifleman.et" "{30B13372E9E1B68E}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_CC.et" "{23E29C268F5C85B8}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_CREW.et"
+ }
+ m_sCustomNameSet "Мото-отделение НОАК"
+}

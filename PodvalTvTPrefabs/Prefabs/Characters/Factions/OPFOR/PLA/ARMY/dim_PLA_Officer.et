@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{51C1F90DB18F73E1}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    Icon "{631E0A0EDCB63B8A}UI/Icons/company_leader.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FF08855748B8110F}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap_PLA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{99DB487910D8AF28}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/azart/GD_AZART_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_1.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/flyaga/GD_Ratnik_Holster_PLA.et"
+     PrefabsToSpawn {
+      "{334B8AF9D7C62059}Prefabs/Weapons/Handguns/92G/Handgun_QZS_92G_BASE.et"
+     }
+    }
+   }
+  }
+ }
+ coords 141.159 1 101.598
+}

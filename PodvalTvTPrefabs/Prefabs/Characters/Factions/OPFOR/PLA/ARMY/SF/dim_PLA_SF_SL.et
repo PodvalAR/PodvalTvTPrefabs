@@ -1,0 +1,65 @@
+SCR_ChimeraCharacter : "{5606035CD709C922}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{0DF7B952FA3E28CA}Prefabs/Items/Equipment/Binoculars/IRONIA/IRONIAY_Binoculars.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_SL_S"
+    Icon "{882F180436529602}UI/Icons/dim/pla_sf_sl.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B79D07DD6D28267A}Prefabs/Weapons/Rifles/QBZ191/dim_Rifle_QBZ192_Opt.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1172170055EEF822}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/dim_Hat_PLA_Boonie.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+   }
+  }
+ }
+ coords 124.597 1 81.311
+}

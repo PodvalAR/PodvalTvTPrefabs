@@ -1,0 +1,28 @@
+GenericEntity : "{1E60A20CFD66FC45}Prefabs/Weapons/AutoTurrets/AutoTurret_Base.et" {
+ ID "62ACAE2FAC6D2BB1"
+ components {
+  BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+   Enabled 0
+   components {
+    BON_AutoTurretAimingComponent "{671AAD5D15B361F0}" {
+     Enabled 0
+    }
+    BON_AutoTurretBaseLogicComponent "{673F148EDF2F1E63}" {
+     Enabled 0
+    }
+    BON_AutoTurretTargetingComponent "{671AAD5D3497D73F}" {
+     Enabled 0
+    }
+   }
+  }
+  BON_AutoTurretTargetComponent "{62C91C0D0A7CBA50}" {
+   Enabled 0
+  }
+  FactionAffiliationComponent "{62ACAE2F976BB213}" {
+   Enabled 0
+  }
+  PerceivableComponent "{62C90A57DDAC34D4}" {
+   Enabled 0
+  }
+ }
+}

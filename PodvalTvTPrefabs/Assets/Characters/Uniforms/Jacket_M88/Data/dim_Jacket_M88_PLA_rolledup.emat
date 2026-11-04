@@ -1,0 +1,10 @@
+MatPBRMulti : "{0FB93B007F4E3A39}Assets/_BaseMaterials/Characters_MatPBRMulti.emat" {
+ CavityFromAO 0.949
+ VFXMap "{352F6A90BA769E73}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_rolledup_VFX.edds"
+ DirtUserOpacity 1
+ DirtOpacity 3
+ DirtRoughness 1
+ DirtBCRMap "{0A7B75D775B62529}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_TTsKO_rolledup_wound_BCR.edds"
+ BCR_1 "{E401AFEC91A395EE}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_TTsKO_rolledup_BCR.edds"
+ NMO_1 "{DCD9147E48D4C770}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_TTsKO_rolledup_NMO.edds"
+}
