@@ -5,5 +5,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{6974AAC539A3FA4C}" : "{6435572AB8DD725A}Configs/Factions/CRI.conf" {
   }
+  SCR_Faction "{6AC5648B17B5E4EC}" : "{AD2735D3B55D9210}Configs/Factions/dim_PLA.conf" {
+  }
  }
 }
