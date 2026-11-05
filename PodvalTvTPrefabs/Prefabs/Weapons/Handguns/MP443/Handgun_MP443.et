@@ -1,0 +1,10 @@
+GenericEntity : "{442A6FFDE91AE37B}Prefabs/Weapons/Handguns/MP443/Handgun_MP443_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    CommonItemType "RHS_PISTOL"
+   }
+  }
+ }
+}

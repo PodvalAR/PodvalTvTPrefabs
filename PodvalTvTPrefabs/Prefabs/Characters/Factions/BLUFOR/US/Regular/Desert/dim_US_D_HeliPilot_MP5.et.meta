@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FFFAFFE6B001CC77}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_HeliPilot_MP5.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

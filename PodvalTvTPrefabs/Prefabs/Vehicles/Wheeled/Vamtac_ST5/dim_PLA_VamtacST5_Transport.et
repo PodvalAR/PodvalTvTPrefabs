@@ -1,0 +1,23 @@
+Vehicle : "{5E1039D9091D9242}Prefabs/Vehicles/Wheeled/Vamtac_ST5/FFAA_VamtacST5_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_door_L01"
+     Offset 0.0186 -0.1266 -0.5323
+     Angles 0 0 -9.239
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+    RegisteringComponentSlotInfo Decal2 {
+     PivotID "v_door_R01"
+     Offset -0.0278 -0.1187 -0.5323
+     Angles 0 -180 -9.1423
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+   }
+  }
+ }
+ coords 234.37 1 237.179
+ angles 0 0 0
+}

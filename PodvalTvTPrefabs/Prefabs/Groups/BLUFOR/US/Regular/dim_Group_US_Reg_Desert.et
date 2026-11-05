@@ -1,0 +1,14 @@
+SCR_AIGroup : "{EE2BCF5671083A76}Prefabs/Groups/BLUFOR/US/Regular/Group_US_Regular_Squad.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68C296C0889BBE2B}" {
+   m_iCompanyCallsign 4
+   m_iSquadCallsign 1
+  }
+ }
+ coords 549.715 73.375 7669.694
+ angles 0 2.911 0
+ m_aUnitPrefabSlots {
+  "{932E6B9F18A51EAA}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_SL.et" "{EE3687677D362233}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_SR.et" "{FEA69A802A21BCB9}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_AR.et" "{F373E4A1DD96D593}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_GL.et" "{A8AA59B963515242}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_LAT.et" "{A56D87D44775BC82}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_SR_Opt.et" "{FEA69A802A21BCB9}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_AR.et" "{CB68DC9141448C23}Prefabs/Characters/Factions/BLUFOR/US/Regular/Desert/dim_US_D_Reg_Rifle_2.et"
+ }
+}

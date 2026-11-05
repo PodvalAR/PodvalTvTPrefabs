@@ -1,0 +1,45 @@
+Vehicle : "{F80A043234877BFF}Prefabs/Vehicles/Wheeled/Neton_MK2/FFAA_NetonMK2_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6924A2FFCD80326F}" {
+     GetInTeleport 0
+    }
+    CompartmentDoorInfo "{6924A2FFCCC1C21D}" {
+     GetInTeleport 0
+    }
+    CompartmentDoorInfo "{6924A2FFCFCD1429}" {
+     GetInTeleport 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{6924A2FD8A469683}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6924A2FDA37CB447}" {
+     SlotTemplate InventoryStorageSlot M16Ammo {
+      Prefab "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    MultiSlotConfiguration "{6924A2FDA394AB4C}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Prefab "{5D6DF8C83E5049F0}Prefabs/Weapons/Magazines/Magazine_58x45_QJB_75rnd_AP.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+ }
+ coords 50.284 1 229.83
+ angles 0 0 0
+}

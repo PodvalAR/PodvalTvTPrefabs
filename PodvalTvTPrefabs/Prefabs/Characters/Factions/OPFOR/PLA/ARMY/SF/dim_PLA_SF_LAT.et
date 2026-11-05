@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{6E0BA43142ED56C0}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.2007 -0.3921 0.0277
+    Angles 58.6154 0 180
+   }
+   WeaponTemplate "{2A27E249BB618554}Prefabs/Weapons/Launchers/AT4CS/Launcher_AT4CS.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+ coords 125.222 1 41.269
+}

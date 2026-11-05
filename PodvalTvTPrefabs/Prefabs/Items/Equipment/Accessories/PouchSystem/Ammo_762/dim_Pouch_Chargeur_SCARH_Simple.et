@@ -1,0 +1,15 @@
+GenericEntity : "{97F2DE2038B6C933}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_762/Pouch_Chargeur_SCARH_Simple.et" {
+ ID "521AC0491712FB3A"
+ components {
+  SCR_EquipmentStorageComponent "{64E540EF34C751ED}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot SlotChargueur01 {
+     Offset 0.013 -0.0087 0.0147
+     Angles -0.7243 -90 180
+     Prefab "{23C815180F127C5F}Prefabs/Weapons/Magazines/FN_SCAR_H/Magazine_762x51_SCAR_H_20rnd_m80.et"
+    }
+   }
+  }
+ }
+ coords 112.425 1.109 83.025
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{D8DDD4941197A929}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_Commander.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Suspenders {
+     Prefab "{A7EF0103428D82BC}Prefabs/Characters/Vests/Vest_SovietHarness/Mapcase_SovietOfficer.et"
+    }
+    LoadoutSlotInfo GrenadePouch {
+     Enabled 0
+    }
+    LoadoutSlotInfo Canteen {
+     Offset -0.1049 -0.0798 -0.1448
+     Angles 0 -157.6597 0
+    }
+    LoadoutSlotInfo Etool {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 230.779 1 99.709
+}

@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/dim_FR_Rifleman.et" {
+SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -8,7 +8,7 @@ SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{AF0DB10F5FDBE3D6}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS3.et"
+   WeaponTemplate "{1078EF81CE12EBA4}Prefabs/Weapons/MachineGuns/MINIMI/FN_MINIMI_FELIN_MK2_Specter.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
@@ -16,7 +16,7 @@ SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_
      Prefab "{52A62092DB95EB57}Prefabs/Characters/HeadGear/F3_HELMET/MSA_FELIN_CE_Base.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{1575D2BAE81BC7C4}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/dim_Structure_Modulaire_Balistique_GV_MG.et"
+     Prefab "{E83A12DECAE5BB67}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_GV_MG.et"
     }
    }
   }

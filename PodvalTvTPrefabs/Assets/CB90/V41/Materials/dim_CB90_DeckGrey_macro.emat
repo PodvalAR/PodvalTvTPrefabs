@@ -1,0 +1,43 @@
+MatPBRMulti {
+ SpecularMul 0.5
+ VFXMap "{248D8B1356D9F2CB}Assets/CB90/V41/Textures/CB90_Weathering_VFX.edds"
+ CavityFromAO 0.18
+ GlobalAOPower 1.5
+ DirtOpacity 0.55
+ DirtColor 0.17 0.175 0.17 1
+ DirtRoughness 1.5
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ DirtUVTransform MatUVTransform "{6ABAED7149C32C9A}" {
+  TilingU 24
+  TilingV 24
+ }
+ GlobalMCRMap "{D56B4C09AE227BA6}Assets/CB90/V41/Textures/CB90_Usage_MCR.edds"
+ GlobalMCRMode Multiply
+ MCRBrightness 1
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{1F2CDECD9A6BA127}Assets/CB90/V41/Textures/CB90_Weathering_GLOBAL_MASK.edds"
+ UseGlobAOOnly 1
+ GlobalAOMap "{08D5E37418A54E69}Assets/CB90/V41/Textures/CB90_Contact_O.edds"
+ UVSrcGlobNormal "UV set 2"
+ Enabled_3 1
+ Color_3 0.1 0.1 0.1 1
+ BCR_3 "{FA742FE6A11B2766}Assets/_SharedData/Metal/ST_Steel_Base_01_BCR.edds"
+ NMO_3 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ Roughness_3 1.5
+ Metalness_3 0.5
+ Enabled_2 1
+ Color_2 0.035 0.043 0.048 1
+ BCR_2 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_2 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ Roughness_2 1.3
+ Metalness_2 0
+ Color_1 0.18 0.19 0.2 1
+ NMO_1 "{0D3393647E38BAFB}Assets/CB90/V41/Textures/CB90_Shared_GritCoarse_NMO.edds"
+ UVTransform_1 MatUVTransform "{6ABAED7149C32F3F}" {
+  TilingU 1
+  TilingV 1
+ }
+ Roughness_1 1.15
+ Metalness_1 0
+}

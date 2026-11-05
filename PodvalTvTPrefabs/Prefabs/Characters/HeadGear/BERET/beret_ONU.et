@@ -1,0 +1,12 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_EquipmentStorageComponent "{623D140941F2B3C9}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Insigne {
+     Prefab "{D4741F415BB1514D}Prefabs/Items/Equipment/Accessories/Insignes/Insigne_onu_base.et"
+    }
+   }
+  }
+ }
+}

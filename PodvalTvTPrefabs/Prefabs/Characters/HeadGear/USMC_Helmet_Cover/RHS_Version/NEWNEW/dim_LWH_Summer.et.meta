@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9F77D7975B23BDD4}Prefabs/Characters/HeadGear/USMC_Helmet_Cover/RHS_Version/NEWNEW/dim_LWH_Summer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

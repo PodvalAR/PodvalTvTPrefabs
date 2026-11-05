@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.597 0.597 0.597 1
+ BCRMap "{ADE2BCC794740676}modele/Data/dim_rosomak_pla_navy.edds"
+ NMOMap "{F6FA47851A8F5105}modele/Data/rosomak_Body_exteriorEngine_NMO.edds"
+}

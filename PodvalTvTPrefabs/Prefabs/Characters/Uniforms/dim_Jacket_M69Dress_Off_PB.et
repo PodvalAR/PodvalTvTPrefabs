@@ -1,0 +1,16 @@
+GameEntity : "{B12BD4B42BBBE191}Prefabs/Characters/Uniforms/Jacket_M69Dress_Off.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo Ranks {
+     Prefab "{2B7A6683C3103E26}Prefabs/Clothing/dim_m69dress_sovietarmy_co_1_PB.et"
+    }
+    LoadoutSlotInfo Watch {
+     Prefab "{FF3AD40CFB05A260}Prefabs/Clothing/sov_chaika_watch.et"
+    }
+   }
+  }
+ }
+ coords 234.454 1 97.763
+}

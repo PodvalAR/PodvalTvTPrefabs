@@ -1,0 +1,11 @@
+GameEntity : "{B67CD61E5DAFBE0C}Prefabs/Characters/HandWear/dim_LeatherGlove.et" {
+ ID "5DF2774398EBD275"
+ components {
+  BaseLoadoutClothComponent "{5DF2774268A6E4AA}" {
+   WornModel "{4E24B46D82269216}Assets/ESU/Sov_Gloves/sov_officer_leathergloves.xob"
+   WornMaterialsOverride {
+   }
+  }
+ }
+ coords 234.919 1 98.834
+}

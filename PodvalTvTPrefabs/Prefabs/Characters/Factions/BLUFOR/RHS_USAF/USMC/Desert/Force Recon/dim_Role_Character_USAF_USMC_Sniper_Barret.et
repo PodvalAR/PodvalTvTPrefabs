@@ -2,7 +2,11 @@ SCR_ChimeraCharacter : "{FB0695DF46E2DE77}Prefabs/Characters/Factions/BLUFOR/RHS
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{334637C0D98CBE44}Prefabs/Jase_Kotovich/Weapons/Rifles/m107/Barret_M107A1.et"
+   WeaponTemplate "{C116E8469755F520}Prefabs/Weapons/Rifles/M107A1/Barret_M107A_vortex.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
@@ -27,6 +31,8 @@ SCR_ChimeraCharacter : "{FB0695DF46E2DE77}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{688A7323EF9FCE7E}" {
+     Enabled 1
+     TargetStorage "Back/FILBE_hydration_pack.et"
      PrefabsToSpawn {
       "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et"
      }

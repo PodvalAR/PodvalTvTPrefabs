@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{969D3AB7DA6A6215}Prefabs/Characters/Factions/OPFOR/PLA/dim_PLA_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{57A24F4DA7F87E68}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_Helmet_PASGT_PLA_Navy.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6A74BD11E59F414D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{E0D17285B6B60E12}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/VDV_reg/dim_6B46_PLA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/azart/GD_AZART_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{CCDA875B52FCFE46}Prefabs/Items/Equipment/Radios/Radio_R187_PLA_Single.et"
+     }
+    }
+   }
+  }
+ }
+ coords 189.966 1 153.885
+}

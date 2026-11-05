@@ -1,0 +1,16 @@
+GameEntity : "{AC1A3A01D3C363F4}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_PLA_NAVY_Boonie.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{3CA110DB0BF86D7C}Assets/Characters/HeadGear/Boonie_USMC/USMC_Boonie_Hat_Ground.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo PTT {
+     Prefab "{F3AF4290149DC47E}Prefabs/Characters/Coms/Delta_PTT_02.et"
+    }
+   }
+  }
+ }
+ coords 166.16 1 170.29
+}

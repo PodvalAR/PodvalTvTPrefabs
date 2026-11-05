@@ -1,0 +1,19 @@
+GenericEntity : "{A4010219ED2C2806}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_Sharpshooter_SCARH.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   Slots {
+    LoadoutSlotInfo Slot01 {
+     Prefab "{B39B958086FFA602}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_762/dim_Pouch_Chargeur_SCARH_Simple.et"
+    }
+    LoadoutSlotInfo Slot02 {
+     Prefab "{B39B958086FFA602}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_762/dim_Pouch_Chargeur_SCARH_Simple.et"
+    }
+    LoadoutSlotInfo Slot03 {
+     Prefab "{B39B958086FFA602}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_762/dim_Pouch_Chargeur_SCARH_Simple.et"
+    }
+   }
+  }
+ }
+ coords 110.174 1.434 81.355
+}

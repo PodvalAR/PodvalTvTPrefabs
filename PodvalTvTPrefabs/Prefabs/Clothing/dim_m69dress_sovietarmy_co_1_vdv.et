@@ -1,0 +1,20 @@
+GameEntity : "{060C40D1EE0E34AE}Prefabs/Clothing/m69dress_sovietarmy_co_1.et" {
+ ID "60606ACE8BC23E65"
+ components {
+  MeshObject "{60606ACE8BC23E0C}" {
+   Materials {
+    MaterialAssignClass "{6AB13AF8B2674631}" {
+     SourceMaterial "ranks"
+     AssignedMaterial "{AFD7B5E41D940A72}Assets/ESU/M69Tunic_Ranks/Data/dim_ranks_PB.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{60606ACE8BC23E02}" {
+   WornMaterialsOverride {
+    "{333EF6D1F2019E41}Assets/ESU/M69Tunic_Ranks/Data/dim_ranks_vdv.emat" "{52B28949E9A4F9ED}Assets/ESU/M69Tunic_Ranks/Data/army_collar_badge.emat" "{594268A803A4B888}Assets/ESU/M69Tunic_Ranks/Data/dim_army_sleeve_badge_vdv.emat"
+   }
+  }
+ }
+ coords 1559.39 39.639 1258.923
+ angles 0 -180 0
+}

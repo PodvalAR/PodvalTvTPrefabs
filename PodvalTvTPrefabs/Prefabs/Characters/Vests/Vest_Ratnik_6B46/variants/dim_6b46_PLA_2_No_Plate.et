@@ -1,0 +1,34 @@
+GameEntity : "{F99D998756C872FD}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_NAVY_1_No_Plates.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     Prefab "{AB8C7C8A6DFAB6D3}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_AK_Pouch_PLA_1.et"
+    }
+    LoadoutSlotInfo Pouch2 {
+     Prefab "{C7D8486AD13E39FD}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_AK_Pouch_PLA_2.et"
+    }
+    LoadoutSlotInfo Pouch3 {
+     Prefab "{22440493DDDBAE96}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_AK_Pouch_PLA_3.et"
+    }
+    LoadoutSlotInfo gnd_2 {
+     Prefab "{DB417537AFF8324C}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_APPI_PLA.et"
+    }
+    LoadoutSlotInfo azart {
+     Prefab "{C5581536F179BF1F}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_AZART_PLA.et"
+    }
+    LoadoutSlotInfo flyaga {
+     Prefab "{1C161F22B17045F9}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_GND_Pouch_PLA_2.et"
+    }
+    LoadoutSlotInfo pistolmag {
+     Prefab "{C4BE76E3C8F95BA5}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_GND_Pouch_PLA_4.et"
+    }
+    LoadoutSlotInfo appi {
+     Prefab "{DB417537AFF8324C}Prefabs/Characters/Vests/Vest_6Sh117_Pouches/PLA/GD_APPI_PLA.et"
+    }
+   }
+  }
+ }
+ coords 183.725 1.54 137.084
+}

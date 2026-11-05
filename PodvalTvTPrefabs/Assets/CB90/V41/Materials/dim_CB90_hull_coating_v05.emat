@@ -1,0 +1,25 @@
+MatPBRMulti {
+ SpecularMul 0.5
+ VFXMap "{9F25A98159B482AD}Assets/CB90/V41/Textures/CB90_Hull_Usage_VFX.edds"
+ DirtOpacity 0.55
+ DirtColor 0.17 0.175 0.17 1
+ DirtRoughness 1.5
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ DirtUVTransform MatUVTransform "{6ABAED71644142AE}" {
+  TilingU 30
+  TilingV 8
+ }
+ GlobalMCRMode Multiply
+ MCRBrightness 1
+ UVSrcGlobalMaps "UV set 1"
+ UVSrcGlobNormal "UV set 1"
+ Color_1 0.21 0.22 0.23 1
+ NMO_1 "{EF1AE88929D2C339}Assets/CB90/V41/Textures/CB90_Hull_NMO.edds"
+ UVTransform_1 MatUVTransform "{6ABAED716441420E}" {
+  TilingU 1
+  TilingV 1
+ }
+ Roughness_1 1.15
+ Metalness_1 0
+}

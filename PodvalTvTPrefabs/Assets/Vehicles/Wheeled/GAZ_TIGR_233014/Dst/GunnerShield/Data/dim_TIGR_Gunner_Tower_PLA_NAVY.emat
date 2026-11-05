@@ -1,0 +1,6 @@
+MatPBRBasic : "{317C38C562643DF9}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Dst/GunnerShield/Data/TIGR_Gunner_Tower.emat" {
+ Color 0.597 0.597 0.597 1
+ SpecularIBL 0.192 0.367 0.462 1
+ Specular 0.368 0.432 0.462 1
+ BCRMap "{1E0C3EAB13AE6F95}Assets/Vehicles/Wheeled/GAZ_TIGR_233014/Dst/GunnerShield/Data/TIGR_Gunnet_Shield_PLA_NAVY_BCR.edds"
+}

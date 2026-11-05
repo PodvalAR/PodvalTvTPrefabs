@@ -1,0 +1,47 @@
+Vehicle : "{D035AB073A66F6C9}Prefabs/Vehicles/PLA Vehicle/PLA_ROSOMAK_KB105.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AC4C3FE25BFC64F}" {
+     SourceMaterial "rosomak_Body_exterior"
+     AssignedMaterial "{E7D8569437CEC955}modele/Data/dim_rosomak_Body_exterior_PLA_Navy.emat"
+    }
+    MaterialAssignClass "{6AC6DD2CBFF1CB72}" {
+     SourceMaterial "rosomak_body_exteriorSEC"
+     AssignedMaterial "{34B5CCA4ABCDA888}modele/Data/dim_rosomak_body_exteriorSECengine_PLA_NAVY.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_L04 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R04 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+   }
+  }
+ }
+ coords 5904.983 3.219 3498.133
+ angles 0 -123.015 0
+}

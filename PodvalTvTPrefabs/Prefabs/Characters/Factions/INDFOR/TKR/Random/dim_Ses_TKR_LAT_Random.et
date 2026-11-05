@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{C472228F83886D43}Prefabs/Characters/Factions/INDFOR/TKR/Random/dim_Ses_TKR_Sapper_Random.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_LAT"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68FAB34E21AA1F23}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FAB34E228F8AA5}" {
+      m_sVariantPrefab "{402CA8864C64596F}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_LAT_1.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E22BAA922}" {
+      m_sVariantPrefab "{2C789C66F0A0D641}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_LAT_2.et"
+     }
+     SCR_EditableEntityVariant "{68FAB34E22A2E26D}" {
+      m_sVariantPrefab "{C9E4D09FFC45412A}Prefabs/Characters/Factions/INDFOR/TKR/dim_Ses_TKR_LAT_3.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 2860.498 415 267.338
+}

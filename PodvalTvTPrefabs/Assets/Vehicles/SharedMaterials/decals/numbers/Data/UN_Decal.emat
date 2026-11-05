@@ -1,0 +1,13 @@
+MatPBRBasic {
+ DisablePriorityProbes 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ AlphaMul 0.98
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ BCRMap "{0A4041922BC47F35}Assets/Vehicles/SharedMaterials/decals/numbers/Data/UN_Decal.edds"
+ OpacityMap "{7333010C7A8A9A15}Assets/Vehicles/SharedMaterials/decals/numbers/Data/UN_Decal_Alpha.edds"
+ Refs {
+  "OpacityMap"
+  "RHS_MaterialController.m_iOpacityMapID"
+ }
+}

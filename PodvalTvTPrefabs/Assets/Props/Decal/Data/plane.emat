@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.708 0.708 0.708 0
+ CastShadow 0
+ AlphaMul 0.769
+ BlendMode AlphaBlend
+ AllowUserAlphaBias 1
+ BCRMap "{74CA89ABC6A04F15}Assets/Props/Decal/Data/PLA.edds"
+ OpacityMap "{458BBD2CAD98E71F}Assets/Props/Decal/Data/PLA_Alpha.edds"
+}

@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{296AA9719CD50E50}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_SR_Opt.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{9E0C23CAD63550DE}Prefabs/Characters/TOP/BDU_JACKET_DCU.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B4C5332F451EAB15}Prefabs/Characters/BOTTOMS/BDU_PANTS_DCU_SLIM.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{8C3121C7FB112534}Prefabs/Characters/Footwear/Tropico_army_boots/Tropico_army_boots.et"
+    }
+    LoadoutSlotInfo Extra3 {
+     Prefab "{B83001AA9E630337}Prefabs/Characters/Uniforms/knee_pads/ZEL_ExtraClothing_Base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     TargetStorage "Jacket/BDU_JACKET_DCU.et"
+    }
+    ItemsInitConfigurationItem "{68C296C643D42AA9}" {
+     TargetStorage "Jacket/BDU_JACKET_DCU.et"
+    }
+    ItemsInitConfigurationItem "{68C296C6496CFB2A}" {
+     TargetStorage "Pants/BDU_PANTS_DCU_SLIM.et"
+    }
+   }
+  }
+ }
+ coords 237.439 1 73.522
+}

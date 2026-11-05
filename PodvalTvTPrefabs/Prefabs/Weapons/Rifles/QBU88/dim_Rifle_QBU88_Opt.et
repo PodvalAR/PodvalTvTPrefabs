@@ -1,0 +1,16 @@
+GenericEntity : "{94646D6867835B94}Prefabs/Weapons/Rifles/QBU88/Rifle_QBU88_base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A1CAC517DC40E61}" {
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      Enabled 1
+      Prefab "{D3744E132349C55D}Prefabs/Weapons/Attachments/Optics/YMA QBU88/Scope_YMA_QBU88_DEV.et"
+     }
+    }
+   }
+  }
+ }
+ coords 196.759 1.192 154.239
+}

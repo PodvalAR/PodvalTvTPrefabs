@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F629AF1207}" {
+  }
+ }
+ coords 124.001 1 39.285
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{DA4F4E746F18FAAD}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Officer.et"
+ }
+ m_sCustomNameSet "Офицер НОАК"
+}

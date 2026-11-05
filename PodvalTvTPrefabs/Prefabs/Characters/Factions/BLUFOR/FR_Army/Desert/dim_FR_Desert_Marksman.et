@@ -7,10 +7,16 @@ SCR_ChimeraCharacter : "{E58783C62ADEAE8B}Prefabs/Characters/Factions/BLUFOR/FR_
      Prefab "{8F0BF779AF43D7A0}Prefabs/Characters/HeadGear/F3_HELMET/MSA_FELIN_TAN_Base.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{20C69D98851FDEA1}Prefabs/Characters/Uniforms/F3_Ubas/F3_Ubas_DA_Patch_FRANCE_BV01.et"
+     Prefab "{20C69D98851FDEA1}Prefabs/Characters/Uniforms/F3_Ubas/DA/F3_Ubas_DA_Patch_FRANCE_BV01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{A3E5B36719D34280}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/dim_Structure_Modulaire_Balistique_Sharpshooter_SCARH_2.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{F277891AB79F482D}Prefabs/Characters/Uniforms/F3_Pantalon/F3_Pantalon_DA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ABAC4A7351DCC4FA}Prefabs/Characters/Vests/Ceinture_De_Combat/Ceinture_SMB.et"
     }
    }
   }

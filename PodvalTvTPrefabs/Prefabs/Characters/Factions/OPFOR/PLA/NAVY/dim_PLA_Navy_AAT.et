@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{6B3DC10AFC193279}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_AAT"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{085FAB7A88595E5C}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_Helmet_PASGT_PLA_NAVY_NPP.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EB550ABB1139FD8D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_no_back_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{26223738A07F8202}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{822A3DA8A95754D2}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_NAVY_2_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/azart/GD_AZART_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_NAVY_1.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_NAVY_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_2_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_NAVY_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC6888AC28917AC}" {
+     TargetStorage "Back/Backpack_RPG_Assistant_Black.et"
+     PrefabsToSpawn {
+      "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et" "{FBBF84E3B447D822}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VL.et"
+     }
+    }
+   }
+  }
+ }
+ coords 174.284 1 157.586
+}

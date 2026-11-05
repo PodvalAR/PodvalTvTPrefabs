@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{48638D9A654F2047}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/dim_ROSOMAK_turretGREEN_PLA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,81 @@
+SCR_ChimeraCharacter : "{6B3DC10AFC193279}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{559290E2A7D633FE}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_B51.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EB550ABB1139FD8D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_no_back_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2E381F6FB1F40A00}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46_PLA_NAVY.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{AB475E4DFC224937}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_NAVY_3_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_3_No_Plates.et/azart/GD_AZART_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_3_No_Plates.et/Pouch2/GD_Rattnik_PistolPouch_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_3_No_Plates.et/Pouch1/GD_Ratnik_Holster_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     Enabled 0
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_1_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_NAVY_3.et"
+     PrefabsToSpawn {
+      "{5D6DF8C83E5049F0}Prefabs/Weapons/Magazines/Magazine_58x45_QJB_75rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_3_No_Plates.et/flyaga/GD_GND_Pouch_PLA_NAVY_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_3_No_Plates.et/pistolmag/GD_GND_Pouch_PLA_NAVY_4.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     Enabled 0
+     TargetStorage "Vest/dim_6b46_PLA_NAVY_1_No_Plates.et/gnd_2/GD_APPI_PLA_NAVY.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     Enabled 0
+     TargetStorage "Back/Backpack_Ratnik_6B46.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     Enabled 0
+     TargetStorage "Back/Backpack_Ratnik_6B46.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 171.558 1 145.235
+}

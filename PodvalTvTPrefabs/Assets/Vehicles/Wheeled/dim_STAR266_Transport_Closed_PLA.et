@@ -1,0 +1,22 @@
+Vehicle : "{F221B6591D356E1D}Assets/Vehicles/Wheeled/STAR266_Transport_Closed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_door_L01"
+     Offset -0.0047 -0.0597 -0.4756
+     Angles 0 0 0
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+    RegisteringComponentSlotInfo Decal2 {
+     PivotID "v_door_R01"
+     Offset 0.006 -0.0597 -0.4756
+     Angles 0 180 0
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+   }
+  }
+ }
+ coords 233.561 1 219.701
+}

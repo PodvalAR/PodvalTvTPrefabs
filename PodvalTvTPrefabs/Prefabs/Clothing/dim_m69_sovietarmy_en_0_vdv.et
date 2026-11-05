@@ -1,0 +1,72 @@
+GameEntity {
+ ID "6AB13AF85B6C0A66"
+ components {
+  ParametricMaterialInstanceComponent "{6AB13AF85B6C0A5C}" {
+   UserParamAlpha 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  SignalsManagerComponent "{6AB13AF85B6C0A1C}" {
+  }
+  SoundComponent "{6AB13AF85B6C0A1B}" {
+   Filenames {
+    "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp" "{F62001ED6E9FA253}Sounds/Items/_SharedData/Drop/Items_Drop_Clothes.acp"
+   }
+   DistanceManagement 0
+  }
+  InventoryItemComponent "{6AB13AF85B6C0A17}" {
+   Attributes SCR_ItemAttributeCollection "{6AB13AF85B6C0A12}" {
+    ItemDisplayName UIInfo "{6AB13AF85B6C0A11}" {
+     Name "Private Shoulderboards (M69 / Everyday)"
+     Description "Private Shoulderboards for M69 Tunic."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6AB13AF85B6C0A0A}" {
+     Weight 0.39
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AB13AF85B6C0A09}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 10
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  MeshObject "{6AB13AF85B6C0A02}" {
+   Object "{1E6B8720335EF45C}Assets/ESU/M69Tunic_Ranks/M69_soviet_army_en_0.xob"
+  }
+  RigidBody "{6AB13AF85B6C0A01}" {
+   Mass 1.5
+   ModelGeometry 1
+   Static 1
+  }
+  BaseLoadoutClothComponent "{6AB13AF85B6C0AFB}" {
+   AreaType ZEL_ExtraArea2 "{6AB13AF85B6C0AF6}" {
+   }
+   WornModel "{1E6B8720335EF45C}Assets/ESU/M69Tunic_Ranks/M69_soviet_army_en_0.xob"
+   WornMaterialsOverride {
+    "{333EF6D1F2019E41}Assets/ESU/M69Tunic_Ranks/Data/dim_ranks_vdv.emat" "{333EF6D1F2019E41}Assets/ESU/M69Tunic_Ranks/Data/dim_ranks_vdv.emat" "" "{594268A803A4B888}Assets/ESU/M69Tunic_Ranks/Data/dim_army_sleeve_badge_vdv.emat"
+   }
+   ItemModel "{48D7EE2C60EEA3B9}Assets/PlaceHolders/Dummy/DummyObject.xob"
+  }
+  ActionsManagerComponent "{6AB13AF85B6C0AF5}" {
+   ActionContexts {
+    UserActionContext "{6AB13AF85B6C0AD7}" {
+     ContextName "default"
+     Position PointInfo "{6AB13AF85B6C0AD2}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_EquipClothAction "{52E6EC76F51E12DE}" : "{83B98F1A96591AC6}Prefabs/Characters/Core/Actions/EquipClothAction.conf" {
+    }
+    SCR_PickUpItemAction "{52E6EC76F43FCD58}" : "{F39A4E9B190C1846}Prefabs/Characters/Core/Actions/PickUpItemAction.conf" {
+    }
+   }
+  }
+  RplComponent "{6AB13AF85B6C0ACF}" {
+  }
+ }
+}

@@ -1,0 +1,30 @@
+GameEntity : "{7881B797D813A28D}Prefabs/Characters/HeadGear/BERET/beret_Vert_Inverse.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{691111C0A58DFD4D}" {
+     SourceMaterial "BERET_BLEU_INFANTERIE"
+     AssignedMaterial "{0CBAD5971994B52D}Assets/Characters/HeadGear/BERETS/Data/BERET_ONU.emat"
+    }
+   }
+  }
+  SCR_EquipmentStorageComponent "{623D1409EC2A88CF}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Insigne {
+     Prefab "{D4741F415BB1514D}Prefabs/Items/Equipment/Accessories/Insignes/Insigne_onu_base.et"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{0CBAD5971994B52D}Assets/Characters/HeadGear/BERETS/Data/BERET_ONU.emat"
+   }
+   ItemMaterialsOverride {
+    "{0CBAD5971994B52D}Assets/Characters/HeadGear/BERETS/Data/BERET_ONU.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 120.118 1 52.194
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{FE8FDADAF95605BF}modele/ROSOMAKkolo3SP.xob"
+   Materials {
+    MaterialAssignClass "{6AC34A569EBF697E}" {
+     SourceMaterial "ROSOMAKkoloSP"
+     AssignedMaterial "{18DD998334EE0DD4}modele/Data/dim_ROSOMAKkoloSP_PLA.emat"
+    }
+   }
+  }
+ }
+}

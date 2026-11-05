@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{0DE99E7A90A5F44F}Prefabs/Characters/Factions/OPFOR/PLA/dim_PLA_Armored.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BF8C7775B0F42E71}Prefabs/Weapons/Rifles/QBZ95-1/Rifle_95-1_Base.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/Pouch1/GD_AK_Pouch_PLA_NAVY_1.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et" "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/Pouch2/GD_AK_Pouch_PLA_NAVY_2.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et" "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/Pouch3/GD_AK_Pouch_PLA_NAVY_3.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et" "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/ak_4/GD_AK_Pouch_PLA_NAVY_4.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et" "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/grd1/GD_GND_Pouch_PLA_NAVY_1.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/grd2/GD_GND_Pouch_PLA_NAVY_2.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/grd3/GD_GND_Pouch_PLA_NAVY_3.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/gnd4/Pouch_Ratnik_GND_Pouch_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Vest/dim_6B46_PLA.et/gnd_2/GD_APPI_PLA_NAVY.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_NAVY.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et" "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 193.834 1 154.064
+}

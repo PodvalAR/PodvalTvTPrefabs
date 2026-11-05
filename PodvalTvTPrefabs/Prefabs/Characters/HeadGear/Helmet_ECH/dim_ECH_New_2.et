@@ -1,0 +1,16 @@
+GameEntity : "{C04CE86CA95194F3}Prefabs/Characters/HeadGear/Helmet_ECH/dim_Helmet_ECH_lc_cd_google_scarf.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{6C51FC9775C601E5}Prefabs/Characters/HeadGear/Helmet_ECH/Headgear_ECH_cover_base.et"
+    }
+    LoadoutSlotInfo Scarf {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 2491.97 47.937 5121.563
+}

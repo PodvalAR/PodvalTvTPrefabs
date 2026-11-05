@@ -1,0 +1,61 @@
+Turret : "{7874DAF7EA007CD5}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{0A1F9C3A189C5474}Assets/Vehicles/Tracked/Kurganets-25/VehParts/Turret_RWCS/Turret_RWCS_Kord.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset -0.606 1.1153 -1.7519
+     }
+    }
+   }
+  }
+  TurretComponent "{1D3DA71B9107070D}" {
+   components {
+    TF_2DSightsComponent "{510B377BF6023291}" {
+     SightsPosition PointInfo "{51B2BA4E4C49D26A}" {
+      PivotID "v_Gun_01"
+      Offset 0.1745 0.0707 0.4436
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{61C46B0E4A008C26}" {
+   Slots {
+    TF_Camera_Slot Camera {
+     PivotID "v_Gun_01"
+     Offset 0.1745 0.0707 0.4436
+     InheritParentSkeleton 0
+    }
+    TF_Display_Slot ControlPanel {
+     Offset -0.6532 1.3645 -1.3561
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0 0
+   }
+   WeaponTemplate "{9DDAAB3F81939C06}Prefabs/Weapons/MachineGuns/Kord/RWCS_Kord_K25.et"
+  }
+  WeaponSlotComponent "{663B5041FB9B12F2}" {
+   AttachType InventoryStorageSlot S {
+    Offset 0 0 0
+   }
+   WeaponTemplate "{43CB96B961C530FA}Prefabs/Weapons/HeavyWeapons/SmokeLauncher/Weapon_SmokeLauncherEpoch57mm_turret.et"
+  }
+  VehicleAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{1FE5355287DFA1BD}Assets/Vehicles/Wheeled/Vamtac_ST5/Workspace/ffaa_vamtacST5_armed.agr"
+   AnimInstance "{75CB7944E9DF471F}Assets/Vehicles/Wheeled/Vamtac_ST5/Workspace/ffaa_vamtacST5_armed_vehicle.asi"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{1FE5355287DFA1BD}Assets/Vehicles/Wheeled/Vamtac_ST5/Workspace/ffaa_vamtacST5_armed.agr"
+    AnimInstance "{188191519B2C7A15}Assets/Vehicles/Wheeled/Vamtac_ST5/Workspace/ffaa_vamtacST5_armed_player.asi"
+   }
+  }
+ }
+ coords 227.812 1 200.362
+}

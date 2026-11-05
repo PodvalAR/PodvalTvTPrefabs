@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{153D8A03EC90E6C1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/MARSOC/New/dim_USAF_MARSOC_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{ED813CD39A237788}UI/Icons/dim/Seal_SL.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{FDC271A8FC924801}Prefabs/Characters/Heads/Head_White_03/Head_White_03_camo_US_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{3F8A43CF6BB9B0AD}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_AOR2.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{651F08B36A2E2A0C}Prefabs/Characters/Vests/Vest_CPC_NCPC/Vest_NCPC_AOR2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3123B204D2C0BFD}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_AOR2.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{64B94D8A4D92A4BD}Prefabs/Characters/Footwear/Boots_Altama/Footwear_Altama.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{EB6375B9360110DD}Prefabs/Characters/Vests/Vest_CPC_NCPC/variants/Vest_NCPC_AOR2_Pouch_Preset.et"
+    }
+    LoadoutSlotInfo Beard {
+     Enabled 0
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33897EE573}" {
+     TargetStorage "Vest/Vest_NCPC_AOR2_Pouch_Preset.et/side_radio/Pouch_NCPC_Radio_Base.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3389555FB4}" {
+     TargetStorage "Vest/Vest_NCPC_AOR2_Pouch_Preset.et/Pouch1/pouch_NCPN_kangroo_base.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE338889F343}" {
+     TargetStorage "Vest/Vest_NCPC_AOR2_Pouch_Preset.et/side_mags/Pouch_NCPC_Mag_side.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388E098A8}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388F9C7FD}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE3388D05B79}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33882888D9}" {
+     TargetStorage "Pants/Pants_FROG_Trousers_AOR2.et"
+    }
+    ItemsInitConfigurationItem "{6A2ECE33EFF77696}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_AOR2.et"
+    }
+   }
+  }
+ }
+ coords 116.51 1 63.898
+}

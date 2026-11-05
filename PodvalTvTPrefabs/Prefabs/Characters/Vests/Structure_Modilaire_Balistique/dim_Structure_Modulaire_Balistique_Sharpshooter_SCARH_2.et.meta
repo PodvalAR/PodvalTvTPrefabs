@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A3E5B36719D34280}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/dim_Structure_Modulaire_Balistique_Sharpshooter_SCARH_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

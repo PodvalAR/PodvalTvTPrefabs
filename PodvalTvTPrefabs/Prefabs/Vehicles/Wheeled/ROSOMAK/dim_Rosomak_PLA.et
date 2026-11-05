@@ -1,0 +1,23 @@
+Vehicle : "{9FE42DBCD77A8BC0}Prefabs/Vehicles/Wheeled/ROSOMAK/ROSOMAK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Decal_PLA {
+     PivotID "v_body"
+     Offset 1.2542 -0.2773 0.4464
+     Angles -90 0 -5
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_body"
+     Offset -1.1632 -0.2773 0.4158
+     Angles 90 180 -5
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+   }
+  }
+ }
+ coords 203.198 1 83.929
+ angles 0 0 0
+}

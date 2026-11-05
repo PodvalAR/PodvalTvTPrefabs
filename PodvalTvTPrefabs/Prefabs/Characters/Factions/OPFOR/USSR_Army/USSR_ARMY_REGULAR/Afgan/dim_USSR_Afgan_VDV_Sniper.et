@@ -1,0 +1,47 @@
+SCR_ChimeraCharacter : "{3280A28FD5A5D95E}Prefabs/Characters/Factions/OPFOR/USSR_Army/USSR_ARMY_REGULAR/Afgan/dim_USSR_Afgan_Sniper_2.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6852E0D026AA8F79}Prefabs/Characters/HeadGear/Hat_Panama_Soviet/Hat_Panama_Soviet_01_v2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{AA1B989ED4E9C24E}Prefabs/Characters/Uniforms/dim_Jacket_M69_Midsleeve_VDV_Serg.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{84CDA6D98D4672EF}Prefabs/Characters/Uniforms/Pants_M69_2.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{CCF51D153E1B66E7}Prefabs/Characters/Footwear/KerseyBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{070711EC19FDF25E}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56_base.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Pants/Pants_M69_2.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Vest/Vest_Type56_base.et"
+    }
+    ItemsInitConfigurationItem "{689E8D71B384265F}" {
+     TargetStorage "Jacket/dim_Jacket_M69_Midsleeve_VDV_Serg.et"
+    }
+    ItemsInitConfigurationItem "{68A08C39AF9DAB67}" {
+     TargetStorage "Vest/Vest_Type56_base.et"
+    }
+    ItemsInitConfigurationItem "{68A08C3946529762}" {
+     TargetStorage "Pants/Pants_M69_2.et"
+    }
+   }
+  }
+ }
+ coords 2801.043 10 3108.41
+}

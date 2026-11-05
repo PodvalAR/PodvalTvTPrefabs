@@ -1,0 +1,129 @@
+Vehicle : "{9EA5E74FBE33D514}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKtransport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AC6DD2F40BD8FE0}" {
+     SourceMaterial "rosomak_Body_exterior"
+     AssignedMaterial "{E7D8569437CEC955}modele/Data/dim_rosomak_Body_exterior_PLA_Navy.emat"
+    }
+    MaterialAssignClass "{6AC6DD2F40BD8FC8}" {
+     SourceMaterial "rosomak_body_exteriorSEC"
+     AssignedMaterial "{34B5CCA4ABCDA888}modele/Data/dim_rosomak_body_exteriorSECengine_PLA_NAVY.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{6AC6DD2FE758927E}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{6AC6DD2FE66B4241}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC6DD2FE64CC244}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC6DD2FE1A77EE0}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC6DD2FE1BD6F74}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA FACTION_NONE SIZE_M
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_L04 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    SCR_WheelSlotInfo Wheel_R04 {
+     Prefab "{31285588B56762C8}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_NAVY.et"
+    }
+    RegisteringComponentSlotInfo DECALPLA {
+     PivotID "v_body"
+     Offset 1.3304 -0.2773 0.4589
+     Angles -90 0 -11
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    RegisteringComponentSlotInfo DECAL {
+     PivotID "v_body"
+     Offset -1.1982 -0.2773 0.4233
+     Angles 90 0 171
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset 1.1871 -1.1825 1.1508
+     Angles 90 0 -170
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset 1.1842 -1.3926 1.1504
+     Angles 90 0 -170
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset 1.1842 -1.6121 1.1503
+     Angles 90 0 -170
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number1_R {
+     PivotID "v_body"
+     Offset -1.1005 -1.1825 1.1508
+     Angles -90 -180 -171.5206
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number2_R {
+     PivotID "v_body"
+     Offset -1.1169 -1.3983 1.1504
+     Angles -90 -180 -171.5206
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_R {
+     PivotID "v_body"
+     Offset -1.129 -1.6098 1.1503
+     Angles -90 -180 -171.5206
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+   }
+  }
+ }
+ coords 5907.957 3.219 3500.053
+ angles 0 -120 0
+}

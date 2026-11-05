@@ -1,0 +1,13 @@
+GameEntity : "{7547D491E46A3382}Prefabs/Characters/Uniforms/Jacket_M69.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo Rank {
+     Prefab "{19A34DF3B2D661BE}Prefabs/Clothing/dim_m69_sovietarmy_en_0_vdv.et"
+    }
+   }
+  }
+ }
+ coords 217.751 1 112.95
+}

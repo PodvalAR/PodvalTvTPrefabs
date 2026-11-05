@@ -1,0 +1,15 @@
+GenericEntity : "{A51EC7249287F608}Prefabs/Weapons/Rifles/QJB95-1/Rifle_QJB95-1_Rail.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{69669AA1ADB8A3C8}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Prefab "{595F1BCCA82D5E6E}Prefabs/Weapons/Attachments/Optics/QMQ171/Collim_QMQ171_DEV_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 195.96 1 154.519
+}

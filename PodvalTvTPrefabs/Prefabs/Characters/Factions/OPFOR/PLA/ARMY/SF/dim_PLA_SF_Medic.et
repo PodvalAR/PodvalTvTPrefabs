@@ -1,0 +1,105 @@
+SCR_ChimeraCharacter : "{E7C9CAA7FE399CB5}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/dim_PLA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_Medic_S"
+    Icon "{73533DE2A95E7C4E}UI/Icons/dim/pla_sf_rifleman.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{94A543D1FE1DE2F8}Prefabs/Weapons/Rifles/QBZ191/dim_Rifle_QBZ192_Collim.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Camouflaged 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1172170055EEF822}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/dim_Hat_PLA_Boonie.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9FCAE3441AF20031}Prefabs/Characters/Vests/Vest_Ratnik_6B46/DIM_Vest_6B46_no_plates_PLA.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{EA183C35B53D4C80}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46_PLA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{99DB487910D8AF28}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_No_Plates.et"
+    }
+    LoadoutSlotInfo HandWear {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/azart/GD_AZART_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_1.et"
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_2.et"
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_3.et"
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     PrefabsToSpawn {
+      "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et" "{00F6AAC903A71F0F}Prefabs/Weapons/Magazines/Magazine_191_30rnd_ap.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC68884ED931D7B}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+     PrefabsToSpawn {
+      "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC6889B03789EBF}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/flyaga/GD_Ratnik_Holster_PLA.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC6889B035557D5}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/pistolmag/GD_Ratnik_PistolPouch_PLA.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et" "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+   }
+  }
+ }
+ coords 174.033 1 133.984
+}

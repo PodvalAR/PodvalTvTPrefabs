@@ -7,16 +7,16 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{1A21C8AD9E6F2967}Prefabs/Characters/HeadGear/Helmet_LWH/dim_Helmet_LWH_marpatDesert_scarf.et"
+     Prefab "{739063AE2E70E5D9}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cd.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{E8EA7FFEFB072D20}Prefabs/Characters/Uniforms/Shirt_FROG/Shirt_FROG_Arid.et"
+     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{822B66CBF331F844}Prefabs/Characters/Vests/Vest_PCGen_II/Vest_PCGen_II_base.et"
+     Prefab "{1300A5F6CA51B206}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{7D4D8F909FCE3A05}Prefabs/Characters/Uniforms/Pants_FROG/Pants_FROG_Arid.et"
+     Prefab "{F6A9C2400BE103E4}Prefabs/Characters/Uniforms/Pants_FROG_Trousers_Arid.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{1F68B68021C89190}Prefabs/Characters/Footwear/CombatBoots_USMC.et"
@@ -25,68 +25,83 @@ SCR_ChimeraCharacter : "{67B4542E01521C15}Prefabs/Characters/Factions/BLUFOR/RHS
      Prefab "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{C44B2D38D79B24CE}Prefabs/Characters/Vests/GEN2_Pouches/GEN2_SL_Pouches.et"
+     Prefab "{95DFCFC5E03CD676}Prefabs/Characters/Vests/GEN3_Pouches/Light/GD_Gen3_Light_TF_2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/Pants_FROG_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/Pants_FROG_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Trousers_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CE79E73603}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CF230C187D}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/flibe2/Pouch_FILBE_doubleM4_2.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/Pouch1/Pouch_avs_front_closed_Coy.et"
      PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CF30F74485}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/filbe/Pouch_FILBE_doubleM4_1.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/tako/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CF52C72A8A}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/m18_2/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/m18_1/Pouch_Filbe_M18_2.et"
     }
     ItemsInitConfigurationItem "{6720F9CF58ADF554}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/m18_1/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/m18_2/Pouch_Filbe_M18_2.et"
     }
     ItemsInitConfigurationItem "{6720F9CF60F2A09C}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/m67/Pouch_Filbe_M67_Base.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/m67_1/Pouch_Filbe_M67_2.et"
     }
     ItemsInitConfigurationItem "{6720F9CF6EC9F0D2}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/m67_2/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/m67_2/Pouch_Filbe_M67_Base.et"
     }
     ItemsInitConfigurationItem "{6720F9CF7F892BA2}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/filbevest3/Pouch_FILBE_doubleM4_3.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/filbe2/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CCE45EA295}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/filbevest2/Pouch_FILBE_doubleM4_2.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/tako/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
       "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9CCF4A8966A}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/filbevest/Pouch_FILBE_doubleM4_1.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/nerd/Pouch_Shaw_Flex.et"
      PrefabsToSpawn {
-      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et" "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6720F9C14E342086}" {
-     TargetStorage "Vest/GEN2_SL_Pouches.et/Holster/GD_Holster_SLS_Tan_RLeg.et"
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/Holster/GD_Holster_SLS_Tan_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{6AB2E85A489E843B}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/tako2/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AB2E85A53BB8161}" {
+     TargetStorage "Vest/GD_Gen3_Light_TF_2.et/pistolcamer/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
     }
    }
   }

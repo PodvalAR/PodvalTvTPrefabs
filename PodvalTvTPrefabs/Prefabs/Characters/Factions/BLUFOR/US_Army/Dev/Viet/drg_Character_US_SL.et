@@ -7,6 +7,13 @@ SCR_ChimeraCharacter : "{318BD8D29F92DF2E}Prefabs/Characters/Factions/BLUFOR/US_
     Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_USA.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {

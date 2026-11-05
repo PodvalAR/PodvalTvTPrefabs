@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{9D5319F0ED3516A5}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_PL_Opt.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{8C3121C7FB112534}Prefabs/Characters/Footwear/Tropico_army_boots/Tropico_army_boots.et"
+    }
+   }
+  }
+ }
+ coords 224.269 1 72.298
+}

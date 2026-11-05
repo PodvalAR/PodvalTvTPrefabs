@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.738 0.738 0.738 1
+ BCRMap "{16BEF9F252AC86AE}Assets/ESU/M69Tunic_Ranks/Data/dim_badge_vdv.edds"
+ NMOMap "{23C1018D73CD0370}Assets/ESU/M69Tunic_Ranks/Data/soviet_branch_insignia_army_nmo.edds"
+}

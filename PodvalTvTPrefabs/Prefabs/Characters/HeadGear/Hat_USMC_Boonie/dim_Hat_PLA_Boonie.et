@@ -1,0 +1,60 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{3CA110DB0BF86D7C}Assets/Characters/HeadGear/Boonie_USMC/USMC_Boonie_Hat_Ground.xob"
+   Materials {
+    MaterialAssignClass "{6AC6888D8AA69387}" {
+     SourceMaterial "CAP_MCCUU"
+     AssignedMaterial "{1DC7272F727FA80B}Assets/Characters/HeadGear/Hat_Boonie_US_01/Data/Hat_Boonie_US_02.emat"
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{6AC6888D8AA69277}" {
+     Name "#RHS-Headgear_USMC_Boonie_Name"
+     Description "#RHS-Headgear_USMC_Boonie_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52C8D6017161AECA}" {
+     SizeSetupStrategy Manual
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AC6888D8AA69273}" {
+      PreviewModel "{3CA110DB0BF86D7C}Assets/Characters/HeadGear/Boonie_USMC/USMC_Boonie_Hat_Ground.xob"
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA9EE725D7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966DE76BABC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966DC437F32}" {
+      m_AffiliatedFactionKey "RHS_USAF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo PTT {
+     Prefab "{F3AF4290149DC47E}Prefabs/Characters/Coms/Delta_PTT_02.et"
+    }
+    LoadoutSlotInfo Badge {
+     PivotID "Head"
+     Offset 0 0.1417 -0.1024
+     Prefab "{EF4ECDA81FE6691F}Prefabs/Items/Equipment/ChineseStuff/PLA_Boonie_Badge.et"
+    }
+   }
+   WornModel "{FC4D80CED89ED79B}Assets/Characters/HeadGear/Boonie_USMC/USMC_Boonie_Hat.xob"
+   WornMaterialsOverride {
+    "{2AE6615E8EB4D5B4}Assets/Characters/HeadGear/Boonie_USMC/data/PLA_Boonie.emat"
+   }
+   ItemModel "{3CA110DB0BF86D7C}Assets/Characters/HeadGear/Boonie_USMC/USMC_Boonie_Hat_Ground.xob"
+   ItemMaterialsOverride {
+    "{2AE6615E8EB4D5B4}Assets/Characters/HeadGear/Boonie_USMC/data/PLA_Boonie.emat"
+   }
+  }
+ }
+ coords 949.659 7.942 717.792
+}

@@ -1,0 +1,16 @@
+GameEntity : "{739063AE2E70E5D9}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_cd.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{0F7546A421CCA5B6}Prefabs/Characters/Eyewear/Eyewear_6b50/GD_Eyewear_6b50_strap_on_6b47.et"
+    }
+    LoadoutSlotInfo Scarf {
+     Prefab "{29BA8EECE1EFD977}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Scarf_1.et"
+    }
+   }
+  }
+ }
+ coords 4004.015 58.933 3178.885
+}

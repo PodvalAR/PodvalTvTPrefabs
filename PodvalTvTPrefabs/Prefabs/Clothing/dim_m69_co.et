@@ -1,0 +1,11 @@
+GameEntity : "{81DAE170BEAA90B8}Prefabs/Clothing/m69_sovietarmy_co_1.et" {
+ ID "605A562C78496E3A"
+ components {
+  BaseLoadoutClothComponent "{605A562C78496EDE}" {
+   WornMaterialsOverride {
+    "{333EF6D1F2019E41}Assets/ESU/M69Tunic_Ranks/Data/dim_ranks_vdv.emat" "" "{594268A803A4B888}Assets/ESU/M69Tunic_Ranks/Data/dim_army_sleeve_badge_vdv.emat"
+   }
+  }
+ }
+ coords 221.2 1 110.137
+}

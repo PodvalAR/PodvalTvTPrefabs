@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Color 0.93 0.93 0.889 1
+ Cull none
+ DisableInteriorProbes 1
+ DisablePriorityProbes 1
+ BCRMap "{284F5B52C654A4C1}Assets/Vehicles/Wheeled/BTR70/Data/DIM_PLA_KBA105Shkval_BCR.edds"
+ NMOMap "{A8C748FBC3BDB358}Assets/Vehicles/Wheeled/BTR70/Data/Textures/KBA105Shkval_NMO.edds"
+}

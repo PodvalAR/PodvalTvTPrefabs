@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.597 0.597 0.597 1
+ Cull none
+ AlphaTest 0.6
+ AlphaMul 0.814
+ BCRMap "{3194197A224A7F79}modele/Data/dim_ROS_Turret_PLA_Navy.edds"
+ OpacityMap "{B25F6260B6CDDE45}modele/Data/Turret green/ROS_turret_body_A.edds"
+ NMOMap "{3D85CED2DBBA9BE8}modele/Data/Turret green/ROS_turret_body_NMO.edds"
+}

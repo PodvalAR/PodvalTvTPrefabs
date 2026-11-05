@@ -1,0 +1,681 @@
+Vehicle : "{9EA5E74FBE33D514}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKtransport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AC4C3FE25BFC64F}" {
+     SourceMaterial "rosomak_Body_exterior"
+     AssignedMaterial "{9994145031137657}modele/Data/dim_rosomak_Body_exterior_PLA.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56667885A8DC}" {
+      ParentContextList {
+       "driver" "driver" "gunner_switch_seat" "driver"
+      }
+     }
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot passenger_fr01c {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+     }
+    }
+    CargoCompartmentSlot passenger_fr02 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+     }
+    }
+    CargoCompartmentSlot passenger_fr03 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+     }
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+    CargoCompartmentSlot Passenger_l01 {
+     CompartmentAction SCR_GetInUserAction_PAP "{5086CC2FCCAA457D}" {
+     }
+     GetOutAction SCR_GetOutAction_PAP "{509D56665A8C6923}" {
+     }
+     JumpOutAction SCR_JumpOutAction_PAP "{5D0B1D46E1FC958A}" {
+      ParentContextList +{
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Angles 0 -9.5774 0
+     }
+     m_bIsWaterTight 1
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "KTO ROSOMAK (KBA105)"
+    m_Image "{9425702715AB8EAE}modele/Data/miniaturka.edds"
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA FACTION_NONE SIZE_M
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62C2BB5FC2DB12CF}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC2782DE3}" {
+     SlotTemplate InventoryStorageSlot canister {
+      Prefab "{5D6DF8C83E5049F0}Prefabs/Weapons/Magazines/Magazine_58x45_QJB_75rnd_AP.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC38BCCF2}" {
+     SlotTemplate InventoryStorageSlot repairkit {
+      Prefab "{A067D3FAF3B30627}Prefabs/Weapons/Magazines/PKM/KBA105_KT762_2500rnd.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+     SlotTemplate InventoryStorageSlot stanags {
+      Prefab "{59CF9367926F949D}Prefabs/Weapons/Magazines/ZTM1/KBA105_ZTM1_Magazine_APT.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Prefab "{A8007C7734917C17}Prefabs/Weapons/Magazines/ZTM1/KBA105_ZTM1_Magazine_HEFI.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.9004 -1.0277
+     MergePhysics 0
+     Prefab "{82F515F8F9AC4D5E}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/dim_KBA105_Turret_Green_PLA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{37684251058F7F6D}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_2.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{37684251058F7F6D}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_2.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    RegisteringComponentSlotInfo Decal_PLA {
+     PivotID "v_body"
+     Offset 1.3304 -0.2773 0.4589
+     Angles -90 0 -11
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_body"
+     Offset -1.1982 -0.2773 0.4233
+     Angles 90 0 171
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    EntitySlotInfo Cage {
+     PivotID "v_body"
+     Offset 0.3242 -2.703 -0.3395
+     Angles 90 0 -180
+     Prefab "{AD5B540949F41536}Prefabs/Vehicles/Wheeled/BTR70/VehParts/dim_KBA105_RemoteTurret_Interior_PLA.et"
+    }
+    RegisteringComponentSlotInfo Garbage {
+     PivotID "v_body"
+     Offset 0.0331 0.4177 1.1721
+     Angles -88.5266 0 0
+     Prefab "{8CE087E545BE4385}Prefabs/Vehicles/Shared/Gauges_Ru/T/GunnerOptics.et"
+    }
+    RegisteringComponentSlotInfo Garbage2 {
+     PivotID "v_body"
+     Offset -0.0802 0.4187 1.1721
+     Angles -88.5266 0 0
+     Prefab "{8CE087E545BE4385}Prefabs/Vehicles/Shared/Gauges_Ru/T/GunnerOptics.et"
+    }
+    RegisteringComponentSlotInfo Garbage3 {
+     PivotID "v_body"
+     Offset -0.2253 -0.1671 0.9921
+     Angles 0 -90 0
+     Prefab "{348369E8F58F4968}Prefabs/Vehicles/Shared/Gauges_Ru/T/EnergyBox.et"
+    }
+    RegisteringComponentSlotInfo Garbage5 {
+     PivotID "v_body"
+     Offset -0.6264 -0.4982 0.9921
+     Angles 0 -90 90
+     Prefab "{7C7591D5836F93B9}Prefabs/Vehicles/Shared/Gauges_Ru/T/Toolbox_03.et"
+    }
+    RegisteringComponentSlotInfo Garbage4 {
+     PivotID "v_body"
+     Offset -0.5152 -0.1671 1.1264
+     Angles 0 90 -90
+     Prefab "{E1EBAB390EB6BEF7}Prefabs/Props/Civilian/RadioSmall_USSR_01_black.et"
+    }
+    EntitySlotInfo Seat {
+     PivotID "v_body"
+     Offset -0.0211 -1.0038 0.317
+     Angles -86.0212 0 0
+     Prefab "{60286D87CC2ED275}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Seats/Mi8MT_seat_gunner.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset 1.1871 -1.1825 1.1508
+     Angles 90 0 -170
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset 1.1842 -1.3926 1.1504
+     Angles 90 0 -170
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset 1.1842 -1.6121 1.1503
+     Angles 90 0 -170
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number1_R {
+     PivotID "v_body"
+     Offset -1.1005 -1.1825 1.1508
+     Angles -90 -180 -171.5206
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number2_R {
+     PivotID "v_body"
+     Offset -1.1169 -1.3983 1.1504
+     Angles -90 -180 -171.5206
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_R {
+     PivotID "v_body"
+     Offset -1.129 -1.6098 1.1503
+     Angles -90 -180 -171.5206
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6272C09BD2A45F68}" {
+     ContextName "gunner"
+    }
+    UserActionContext "{68DEE8A9F9642FBF}" {
+     Position PointInfo "{5F18F2315855026C}" {
+      Offset -0.0755 -2.8246 -0.676
+     }
+     Radius 0
+    }
+    UserActionContext "{68DEE8A999900395}" {
+     Position PointInfo "{5F18F2315855026C}" {
+      Offset -0.4267 -2.9354 -0.0824
+     }
+     Radius 0
+    }
+    UserActionContext "{68DEE8A98CA16D09}" {
+     Position PointInfo "{5F18F2315855026C}" {
+      Offset 0.27 -2.675 -0.1253
+     }
+     Radius 0
+    }
+   }
+  }
+  RHS_GroupMaterialController "{6AC6DD2C7BAECD28}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{6AC6DD2C7B5F4B9B}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC6DD2C7AB51004}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+    }
+    RHS_MaterialGroupProperties "{6AC6DD2C7A915F91}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC6DD2C7AE5EBE4}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+ }
+ coords 45.526 1 241.136
+}

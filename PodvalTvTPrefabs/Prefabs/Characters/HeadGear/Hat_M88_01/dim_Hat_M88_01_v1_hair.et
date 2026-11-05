@@ -1,0 +1,17 @@
+GameEntity : "{2B29B7E1C6BD1048}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Hair {
+     Offset 0 -0.0187 0
+     Prefab "{3B6DA0F7E5AA3BC3}Prefabs/Characters/HeadGear/Disguise/Hair/4/Hair_4_1.et"
+    }
+    LoadoutSlotInfo Glass {
+     Prefab "{F58D9BD36CCF7061}Prefabs/Characters/Eyewear/Eyewear_Goggles/dim_GD_Glasses_V1.et"
+    }
+   }
+  }
+ }
+ coords 3646.787 20 3840.345
+}

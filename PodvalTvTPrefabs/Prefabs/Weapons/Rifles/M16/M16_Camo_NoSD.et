@@ -1,0 +1,19 @@
+GenericEntity : "{3CDA6F61ED2F1A2A}Prefabs/Weapons/Rifles/M16/Rifle_M16_A2_Carbine_m855a1_Camo.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 203.988 1 65.021
+}

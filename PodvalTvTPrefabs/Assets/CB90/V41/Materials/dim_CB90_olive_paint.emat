@@ -1,0 +1,10 @@
+MatPBRMulti {
+ SpecularMul 0.5
+ Color_1 0.21 0.22 0.23 1
+ NMO_1 "{1491A8C7B32D8391}Assets/CB90/V41/Textures/CB90_Shared_Paint_NMO.edds"
+ UVTransform_1 MatUVTransform "{6ABAED716856D63B}" {
+  TilingU 0.156
+  TilingV 0.156
+ }
+ Roughness_1 1.15
+}

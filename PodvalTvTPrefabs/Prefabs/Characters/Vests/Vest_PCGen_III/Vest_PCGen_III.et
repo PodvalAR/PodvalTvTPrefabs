@@ -1,0 +1,12 @@
+GameEntity : "{FF333CDF80EAE252}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    RHS_LoadoutSlotInfo ChestVelcro {
+     Prefab "{CEBEFFB22576E147}Prefabs/Items/Patches/GD_USMC_Patch.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+GenericEntity : "{9675A453B0D83B75}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_ION_Decal.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{53557363F1323F58}Assets/Props/Decal/dim_Decal.xob"
+  }
+ }
+ coords 202.504 1.985 40.463
+ angles 0 180 0
+}

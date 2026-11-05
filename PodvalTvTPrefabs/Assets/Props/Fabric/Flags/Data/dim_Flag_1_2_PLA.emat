@@ -1,0 +1,14 @@
+MatPBRBasic {
+ Cull none
+ BCRMap "{A1CD711E2A61D641}Assets/Props/Fabric/Flags/PLA_Flag_for_EMAT.edds"
+ NormalPower 1.2
+ NMOMap "{C39D234EF0D4B94D}Assets/Props/Fabric/Flags/Data/Flag_1_2_N.edds"
+ GlobalMapsUVTransform MatUVTransform "{589E89E1D82D5F77}" {
+ }
+ DetailNormalPower 0.35
+ DetailNormalMap "{61DE3875B9DBD343}Assets/_SharedData/Fabric/ST_FabricWrinkles_1m_01_NMO.edds"
+ DetailNormalMapUVTransform MatUVTransform "{5896CDA6F5123D6D}" {
+  TilingU 2
+  TilingV 2
+ }
+}

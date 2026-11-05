@@ -1,0 +1,15 @@
+Vehicle : "{1A0461D666A83FB0}Prefabs/Vehicles/Wheeled/YoyotaDJ78/dim_YoyotaDJ78_KORD.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AB2E8762952B197}" {
+     SourceMaterial "carpaint"
+     AssignedMaterial "{B820616C7E1D26E1}Assets/Vehicles/Wheeled/YoyotaDJ78/Data/Olive/YoyotaDJ78_olive_carpaint.emat"
+    }
+   }
+  }
+ }
+ coords 313.436 50.882 3178.369
+ angles 0 90 0
+}

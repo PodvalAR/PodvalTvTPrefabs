@@ -1,0 +1,45 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Head {
+     Enabled 0
+    }
+    LoadoutSlotInfo Eyes {
+     Enabled 0
+    }
+    LoadoutSlotInfo Ears {
+     Enabled 0
+    }
+    LoadoutSlotInfo Face {
+     Enabled 0
+    }
+    LoadoutSlotInfo Neck {
+     Enabled 0
+    }
+    LoadoutSlotInfo Extra {
+     Enabled 0
+    }
+    LoadoutSlotInfo Extra2 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Extra3 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Extra4 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Extra5 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Extra6 {
+     Enabled 0
+    }
+    LoadoutSlotInfo Waist {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

@@ -20,18 +20,18 @@ GenericEntity : "{B112DD31A5B9A6C1}Prefabs/Items/Equipment/Radios/Radio_ANPRC77_
      Offset 0.0208 0.2304 -0.1547
      Angles -82.6065 180 0
      Enabled 1
-     Prefab "{7DF42EF5BC8BED6C}Prefabs/Props/dim_PropForRadio_2_DontTouch.et"
+     Prefab ""
     }
     LoadoutSlotInfo Antenna2 {
      PivotID "Spine5"
      Offset 0.0244 0.2306 -0.1728
      Angles -80.6925 -180 7.3116
-     Prefab "{C476AF7148E657BC}Prefabs/Props/dim_PropForRadio_DontTouch.et"
+     Prefab ""
     }
    }
-   WornModel "{AC7A91AECDCE1C2B}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Deflated.xob"
-   ItemModel "{D545E0AC511A09DA}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Item.xob"
-   DeflatedModel "{1A74BF5202BAF15D}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault.xob"
+   WornModel "{3ED8DA0FC9DA3648}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Radio_Deflated.xob"
+   ItemModel "{1EDAFD3BE9F66865}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Radio_Item.xob"
+   DeflatedModel "{5EF7CE20BD2E782E}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Radio.xob"
   }
  }
  coords 3455.454 17.844 5468.083

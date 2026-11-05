@@ -1,0 +1,20 @@
+Vehicle : "{F80A043234877BFF}Prefabs/Vehicles/Wheeled/Neton_MK2/FFAA_NetonMK2_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6924A2FFCD80326F}" {
+     GetInTeleport 0
+    }
+    CompartmentDoorInfo "{6924A2FFCCC1C21D}" {
+     GetInTeleport 0
+    }
+    CompartmentDoorInfo "{6924A2FFCFCD1429}" {
+     GetInTeleport 0
+    }
+   }
+  }
+ }
+ coords 228.798 1 234.911
+ angles 0 0 0
+}

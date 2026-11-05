@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{35BEFD501A106018}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_CREW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{B09EC963B2030E7C}Prefabs/Characters/Uniforms/Jacket_PLA_BDU_UNI.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9FCAE3441AF20031}Prefabs/Characters/Vests/Vest_Ratnik_6B46/DIM_Vest_6B46_no_plates_PLA.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{1D105209613DEE43}Prefabs/Characters/Uniforms/Pants_PLA_BDU_UNI.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{99DB487910D8AF28}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_PLA_BDU_UNI.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_PLA_BDU_UNI.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_UNI.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/azart/GD_AZART_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_1.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/pistolmag/GD_Ratnik_PistolPouch_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/flyaga/GD_Ratnik_Holster_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/gnd_2/GD_APPI_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_UNI.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Jacket/Jacket_PLA_BDU_UNI.et"
+    }
+   }
+  }
+ }
+ coords 130.599 1 100.175
+}

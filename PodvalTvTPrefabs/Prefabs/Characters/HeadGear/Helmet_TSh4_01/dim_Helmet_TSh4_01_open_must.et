@@ -1,0 +1,17 @@
+GameEntity : "{D6B1ACA46036E9CE}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_open.et" {
+ ID "5102E7F0A35D6D90"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo must {
+     Offset 0.0029 0 -0.001
+     Prefab "{8CDD59F2DC2FF030}Prefabs/Characters/HeadGear/Disguise/Mustache/3/Mustache_3_1.et"
+    }
+    LoadoutSlotInfo glass {
+     Prefab "{F58D9BD36CCF7061}Prefabs/Characters/Eyewear/Eyewear_Goggles/dim_GD_Glasses_V1.et"
+    }
+   }
+  }
+ }
+ coords 3647.941 20 3839.272
+}

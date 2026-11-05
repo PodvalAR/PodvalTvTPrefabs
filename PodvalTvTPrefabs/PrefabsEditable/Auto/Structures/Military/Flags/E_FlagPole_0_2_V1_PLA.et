@@ -1,0 +1,18 @@
+GenericEntity : "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_EditableEntityComponent "{5EF0BDF2D0A30F85}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "PLA Flag"
+    m_sFaction "DIM_PLA"
+    m_aAuthoredLabels {
+     FACTION_PLA
+    }
+   }
+  }
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{28FCC1BC79C20B57}Assets/Props/Fabric/Flags/Data/dim_Flag_1_2_PLA.emat"
+  }
+ }
+ coords 234.745 1 244.175
+}

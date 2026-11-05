@@ -1,0 +1,75 @@
+SCR_ChimeraCharacter : "{6E0BA43142ED56C0}Prefabs/Characters/Factions/OPFOR/PLA/ARMY/SF/dim_PLA_SF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_GreenBeret_Sapper_S"
+    Icon "{54B99327C98FB40F}UI/Icons/dim/pla_sf_sapper.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C2EA9FC08AA3F1ED}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_PLA_Boonie_Comtac_NPP.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9FCAE3441AF20031}Prefabs/Characters/Vests/Vest_Ratnik_6B46/DIM_Vest_6B46_no_plates_PLA.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{EA183C35B53D4C80}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46_PLA.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{99DB487910D8AF28}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/dim_6b46_PLA_No_Plates.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/azart/GD_AZART_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch1/GD_AK_Pouch_PLA_1.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch2/GD_AK_Pouch_PLA_2.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/Pouch3/GD_AK_Pouch_PLA_3.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     Enabled 0
+     PrefabsToSpawn {
+      "{74A33AE739217ADE}Prefabs/Weapons/Magazines/Magazine_QBZ03_30rnd_AP.et" "{74A33AE739217ADE}Prefabs/Weapons/Magazines/Magazine_QBZ03_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/gnd_2/GD_APPI_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Vest/dim_6b46_PLA_No_Plates.et/flyaga/GD_Ratnik_Holster_PLA.et"
+     PrefabsToSpawn {
+      "{334B8AF9D7C62059}Prefabs/Weapons/Handguns/92G/Handgun_QZS_92G_BASE.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6AC6B3E932A6A089}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_PLA.et"
+     PrefabsToSpawn {
+      "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{B05A816C0BF50802}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4.et" "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et" "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+    }
+   }
+  }
+ }
+ coords 120.397 1 73.237
+}

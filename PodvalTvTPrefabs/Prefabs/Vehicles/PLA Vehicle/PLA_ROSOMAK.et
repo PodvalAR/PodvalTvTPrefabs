@@ -1,0 +1,153 @@
+Vehicle : "{9FE42DBCD77A8BC0}Prefabs/Vehicles/Wheeled/ROSOMAK/ROSOMAK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69CF0482F82AB7AF}" {
+     SourceMaterial "rosomak_suspension"
+     AssignedMaterial "{9994145031137657}modele/Data/dim_rosomak_Body_exterior_PLA.emat"
+    }
+    MaterialAssignClass "{672117EBA499B79C}" {
+     SourceMaterial "rosomak_Body_exterior"
+     AssignedMaterial "{9994145031137657}modele/Data/dim_rosomak_Body_exterior_PLA.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{6AC4F1348F7120DC}" {
+   m_aGroups {
+    RHS_MaterialGroupProperties "{6AC4F1348E3E64F4}" {
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC4F1348E196D86}" {
+     m_sGroupName "GROUP2"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC4F1348E71BBA3}" {
+     m_sGroupName "GROUP3"
+     m_iNumberOfTextures 10
+     m_bRandomize 1
+    }
+    RHS_MaterialGroupProperties "{6AC4F1348E4A9CE6}" {
+     m_sGroupName "LABELS"
+     m_iNumberOfTextures 13
+     m_bRandomize 1
+    }
+   }
+   m_iMaxAllowedDepth 2
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA FACTION_NONE SIZE_M
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62C2BB5FC2DB12CF}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC2782DE3}" {
+     SlotTemplate InventoryStorageSlot canister {
+      Prefab "{5D6DF8C83E5049F0}Prefabs/Weapons/Magazines/Magazine_58x45_QJB_75rnd_AP.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+     SlotTemplate InventoryStorageSlot stanags {
+      Enabled 0
+      Prefab ""
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Enabled 0
+      Prefab ""
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{48638D9A654F2047}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/dim_ROSOMAK_turretGREEN_PLA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{37684251058F7F6D}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_2.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{37684251058F7F6D}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_2.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{5B3C76B1B94BF043}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/dim_Rosomak_wheel_left_03_PLA_1.et"
+    }
+    RegisteringComponentSlotInfo Decal_PLA {
+     PivotID "v_body"
+     Offset 1.3304 -0.2773 0.4589
+     Angles -90 0 -11
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_body"
+     Offset -1.1982 -0.2773 0.4233
+     Angles 90 0 171
+     Prefab "{598702E06A9F487B}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal.et"
+    }
+    EntitySlotInfo Number1_L {
+     PivotID "v_body"
+     Offset 1.1871 -1.1825 1.1508
+     Angles 90 0 -170
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number1_R {
+     PivotID "v_body"
+     Offset -1.1005 -1.1825 1.1508
+     Angles -90 -180 -171.5206
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+    EntitySlotInfo Number2_R {
+     PivotID "v_body"
+     Offset -1.1169 -1.3983 1.1504
+     Angles -90 -180 -171.5206
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_R {
+     PivotID "v_body"
+     Offset -1.129 -1.6098 1.1503
+     Angles -90 -180 -171.5206
+     Prefab "{8AC1AB674F261603}Prefabs/Vehicles/Shared/decal_vehicle_group3.et"
+    }
+    EntitySlotInfo Number2_L {
+     PivotID "v_body"
+     Offset 1.1842 -1.3926 1.1504
+     Angles 90 0 -170
+     Prefab "{6F5DE79E43C38168}Prefabs/Vehicles/Shared/decal_vehicle_group2.et"
+    }
+    EntitySlotInfo Number3_L {
+     PivotID "v_body"
+     Offset 1.1842 -1.6121 1.1503
+     Angles 90 0 -170
+     Prefab "{0309D37EFF070E46}Prefabs/Vehicles/Shared/decal_vehicle_group1.et"
+    }
+   }
+  }
+ }
+ coords 51.611 1 241.261
+ angles 0 0 0
+}
