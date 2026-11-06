@@ -1,0 +1,117 @@
+GenericEntity : "{0DCE9A9A4F31BE1C}Prefabs/Weapons/Core/SmokeGrenade_Base.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  SoundComponent "{57227A5D228316FB}" {
+   Filenames +{
+   }
+  }
+  TimerTriggerComponent "{5934C8C5C9FDF999}" {
+   PROJECTILE_EFFECTS {
+    SpawnParticleEffect "{5CAADB9AD0C61F3F}" {
+     ParticleEffect "{D9E301D28125234A}Particles/Weapon/Smoke_grenade_AN-M8_HC.ptc"
+     SoundEvent "SOUND_M18_FUZE"
+    }
+   }
+  }
+  GrenadeMoveComponent "{1F80A73ADE35BFF1}" {
+   InitSpeed 30
+   Mass 0.397
+   BallisticTableConfig "{E26B2BD5B751713D}Configs/Weapons/AIBallisticTables/AIBT_Smoke_ANM8HC.conf"
+  }
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    CommonItemType "RHS_SMOKE_GRENADE"
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{B7D40C3C1366B89D}Assets/Weapons/Grenades/ANM8HC/Smoke_ANM8HC.xob"
+  }
+  RigidBody "{0F2AA6AEC948C9D6}" {
+   Mass 0.397
+  }
+  SCR_WeaponAttachmentsStorageComponent "{5260C4469D03696E}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5260C447E3ACEAD0}" {
+    ItemDisplayName WeaponUIInfo "{5270794E931CF29B}" {
+     Name "#AR-Weapon_ANM8HC_Name"
+     Description "#AR-Weapon_ANM8HC_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.68
+     SizeSetupStrategy Volume
+     ItemVolume 200
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{528499F861F2E34A}" {
+     IkSettings {
+      ItemIKSettings "{5526E345066F55BC}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+      }
+      ItemIKSettings "{552884E757B9CD06}" {
+       MovementSpeedRange 0 4
+       IkSettingsStand 0x4 0
+       IkSettingsCrouch 0x4 0
+       IkSettingsProne 0x4 0
+      }
+      ItemIKSettings "{552884E709BF5C9A}" {
+       Jumping 1
+       InAds 0
+       OutAds 0
+       IkSettingsStand 0x4 0
+      }
+     }
+     AnimationInstance "{4FCBEA45CAEBC9C0}anims/workspaces/player/player_main_1h.asi"
+     AnimInstanceBlendDuration 0.3
+     ExcludeBonesBlend +{
+     }
+     AnimationIKPose "{645993D8C20DEC8B}Assets/Weapons/Grenades/ANM8HC/anims/anm/p_anm8hc_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D4E9EFBF20D949}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      FOV 8
+     }
+    }
+    m_Size SLOT_1x1
+   }
+   StoragePurpose 0x20 0x1
+  }
+  WeaponComponent "{6D23670EA18BF513}" {
+   components {
+    BaseItemAnimationComponent "{5238E9EC9BC5D973}" {
+     AnimGraph "{B729FA5C7BF0C443}Assets/Weapons/Grenades/workspaces/Grenade_ANM8HC.agr"
+     AnimInstance "{5A43AF8767F996AD}Assets/Weapons/Grenades/workspaces/Grenade_ANM8HC.asi"
+     AnimInjection AnimationAttachmentInfo "{5238BA5363FA0CA9}" {
+      AnimGraph "{B729FA5C7BF0C443}Assets/Weapons/Grenades/workspaces/Grenade_ANM8HC.agr"
+      AnimInstance "{E0E8C4037B3E193D}Assets/Weapons/Grenades/workspaces/Player_ANM8HC.asi"
+      BindingName "Grenade"
+     }
+     BindWithInjection 1
+     AutoVariablesBind 1
+     AnimVariablesToBind +{
+     }
+     MeshVisibilityConfigurations {
+      MeshesVisibilitySwitchConfig "{5ADE98BA727C2C87}" {
+       Event "HidePin"
+       Meshes +{
+       }
+      }
+      MeshesVisibilitySwitchConfig "{5ADE98BA72B66F01}" {
+       Event "ShowPin"
+       Meshes +{
+       }
+       HideMesh 0
+      }
+     }
+    }
+   }
+   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{5874D63F02CE4562}" {
+    }
+    m_sAmmoType "#AR-AmmoType_ANM8HC"
+   }
+  }
+ }
+}

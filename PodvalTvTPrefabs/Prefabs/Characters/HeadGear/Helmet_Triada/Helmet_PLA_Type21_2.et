@@ -1,0 +1,14 @@
+GameEntity : "{AFB3779A551639DD}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_PLA_Type21_Desert_NPP.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{8218C908EFE9D9D2}Assets/Characters/HeadGear/Helmet_Triada/data/marlit_low_PLA.emat"
+   }
+   ItemMaterialsOverride {
+    "{8218C908EFE9D9D2}Assets/Characters/HeadGear/Helmet_Triada/data/marlit_low_PLA.emat"
+   }
+  }
+ }
+ coords 201.762 1 38.186
+}

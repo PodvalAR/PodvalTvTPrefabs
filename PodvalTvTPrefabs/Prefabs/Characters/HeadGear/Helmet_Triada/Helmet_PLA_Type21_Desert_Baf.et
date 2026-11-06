@@ -1,0 +1,19 @@
+GameEntity : "{034EC83B216F6F00}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_Triada_EmrM.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{C1E3C76FE553F59E}Prefabs/Characters/HeadGear/Hat_Masks/GD_Baf Tan.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{525DBDAF97B3BF25}Assets/Characters/HeadGear/Helmet_Triada/data/marlit_low_PLA_Type21_Desert.emat"
+   }
+   ItemMaterialsOverride {
+    "{525DBDAF97B3BF25}Assets/Characters/HeadGear/Helmet_Triada/data/marlit_low_PLA_Type21_Desert.emat"
+   }
+  }
+ }
+ coords 92.161 1 144.739
+}

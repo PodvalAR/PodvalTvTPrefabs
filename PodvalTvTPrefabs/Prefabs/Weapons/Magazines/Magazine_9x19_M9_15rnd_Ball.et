@@ -1,3 +1,10 @@
 GenericEntity : "{DFFBF5F097FCF797}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Base.et" {
  ID "532EF6B3452A8E37"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    CommonItemType "RHS_PISTOL_AMMO"
+   }
+  }
+ }
 }

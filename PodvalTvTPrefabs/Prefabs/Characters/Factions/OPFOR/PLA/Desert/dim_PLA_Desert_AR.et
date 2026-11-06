@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{3D730C8B4E4BE943}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{96E536292D74D682}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_PLA_Type21_Desert_Google_Shem.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E6BC60C7ABA53075}Prefabs/Characters/Uniforms/Jacket_PLA_Type21_Desert.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{BD348E167D546BAE}Prefabs/Characters/Vests/Vest_Ratnik_6B46/Vest_6B46_no_back_PLA_Type21_Desert.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{485F7D09BFE86E90}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_PLA_Type21_Desert.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F68F4352DA8882E6}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{2F654487ACBAFF4E}Prefabs/Items/Equipment/Backpacks/backpack_Ratnik_6B46/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{95D84B473CFDF67D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/Type21_Desert/Vest_6B46_Type21_Desert_3.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/ACU_pants_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/ACU_pants_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_3.et/azart/GD_AZART_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_3.et/gnd_2/GD_APPI_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_3.et/flyaga/GD_GND_Pouch_Type21_Desert_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_3.et/appi/GD_UNI_Pouch_Type21_Desert_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Back/Backpack_Ratnik_6B46_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/Jacket_PLA_Type21_Desert.et"
+    }
+   }
+  }
+ }
+ coords 116.983 1 99.951
+}
