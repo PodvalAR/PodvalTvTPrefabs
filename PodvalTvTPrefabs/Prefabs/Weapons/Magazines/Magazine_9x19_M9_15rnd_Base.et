@@ -1,0 +1,10 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "39D3A791BB854198"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    CommonItemType "RHS_PISTOL_AMMO"
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{D552D6D0AB2C24A7}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_PLA_Type21_Desert_Shemagh_6b50.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

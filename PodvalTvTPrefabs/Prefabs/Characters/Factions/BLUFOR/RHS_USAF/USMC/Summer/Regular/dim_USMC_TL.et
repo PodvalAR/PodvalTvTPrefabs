@@ -25,6 +25,12 @@ SCR_ChimeraCharacter : "{C3168FC723F4AE58}Prefabs/Characters/Factions/BLUFOR/RHS
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
     }
+    ItemsInitConfigurationItem "{6720F9CCF4A8966A}" {
+     TargetStorage "Jacket/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn + {
+      "{DEDC311A2B0F9235}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855A1_Last_5Tracer.et"
+     }
+    }
    }
   }
  }

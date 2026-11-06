@@ -1,0 +1,80 @@
+SCR_ChimeraCharacter : "{21ECACD33B93EEDC}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C0B55848BEF9A8C3}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_PLA_Type21_Desert_Baf.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E6BC60C7ABA53075}Prefabs/Characters/Uniforms/Jacket_PLA_Type21_Desert.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9CEE0B540448854D}Prefabs/Characters/Vests/Vest_Ratnik_6B46/DIM_Vest_6B46_no_plates_PLA_Type21_Desert.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{485F7D09BFE86E90}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_PLA_Type21_Desert.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F68F4352DA8882E6}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{1C10335E8CDCEE38}Prefabs/Characters/Vests/Vest_Ratnik_6B46/variants/Type21_Desert/Vest_6B46_Type21_Desert_1.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/ACU_pants_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/ACU_pants_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/Jacket_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/azart/GD_AZART_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/Pouch1/Pouch_ArsArma_magouch_morphed_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/Pouch2/Pouch_ArsArma_magouch_morphed_Type21_Desert_2.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/Pouch3/Pouch_ArsArma_magouch_morphed_Type21_Desert_3.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/gnd_2/GD_APPI_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/pistolmag/GD_PistolPouch_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/gnd_2/GD_APPI_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/Jacket_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Jacket/Jacket_PLA_Type21_Desert.et"
+    }
+    ItemsInitConfigurationItem "{6ACB6425C665FACB}" {
+     TargetStorage "Vest/Vest_6B46_Type21_Desert_1.et/flyaga/GD_Holster_Type21_Desert.et"
+     PrefabsToSpawn {
+      "{334B8AF9D7C62059}Prefabs/Weapons/Handguns/92G/Handgun_QZS_92G_BASE.et"
+     }
+    }
+   }
+  }
+ }
+ coords 111.902 1 99.965
+}

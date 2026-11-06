@@ -47,6 +47,9 @@ Vehicle : "{B92376134768511E}Prefabs/Vehicles/Wheeled/Vamtac_ST5/FFAA_VamtacST5_
      Offset -0.0636 -0.0336 1.1927
      Prefab "{53D380453442582B}Prefabs/Vehicles/Tracked/Kurganets25/VehParts/Turret/cringetest.et"
     }
+    RegisteringComponentSlotInfo ffaa_TurretCover {
+     Enabled 1
+    }
     RegisteringComponentSlotInfo Decal1 {
      PivotID "v_door_L01"
      Offset 0.0186 -0.1266 -0.5323
@@ -78,4 +81,5 @@ Vehicle : "{B92376134768511E}Prefabs/Vehicles/Wheeled/Vamtac_ST5/FFAA_VamtacST5_
  }
  coords 44.477 1 229.34
  angles 0 0 0
+ m_sAttachmentGroupName "SPN"
 }

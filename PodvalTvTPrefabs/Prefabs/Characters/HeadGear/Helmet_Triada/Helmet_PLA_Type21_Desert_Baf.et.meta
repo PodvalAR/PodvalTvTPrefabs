@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C0B55848BEF9A8C3}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_PLA_Type21_Desert_Baf.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

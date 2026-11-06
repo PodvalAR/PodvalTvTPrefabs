@@ -1,0 +1,10 @@
+Projectile : "{D40A105437369C1D}Prefabs/Weapons/Core/Ammo_GrenadeLauncher_Base.et" {
+ ID "50C6F965BA00FAAC"
+ components {
+  InventoryItemComponent "{52627A12350994B6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1234AD20A4}" {
+    CommonItemType "RHS_GL_AMMO"
+   }
+  }
+ }
+}

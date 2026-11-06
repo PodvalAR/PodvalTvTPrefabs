@@ -1,0 +1,110 @@
+Turret : "{8E9A65E549130F4F}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Berezok_ptur.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6AC97A105904B79F}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+    MaterialAssignClass "{6AC8EB841DF1C147}" {
+     SourceMaterial "Hull"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+   }
+  }
+  RHS_K17AnimationsComponent "{61CC062B0E40C324}" {
+   Enabled 0
+  }
+  RHS_K17AnimationsComponent "{61CC063EC0E4C45B}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B917CA9C90BD91}" {
+     ExitPositionInfo PointInfo "{608F2EE8B0901FC2}" {
+      Offset 0 0.6253 0
+     }
+    }
+   }
+   CompartmentSlots {
+    RHS_TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0.5015 0.0799 0.7091
+     }
+    }
+   }
+  }
+  TurretComponent "{5C829B12B0DE6BCA}" {
+   components {
+    RHS_2DSightsComponentV3 "{5C829B12B0DE6BC1}" {
+     m_bEnableThermal 0
+    }
+    RHS_VehicleNightVisionComponent "{5E7C86A542463356}" {
+     Enabled 0
+    }
+    RHS_VehicleThermalComponent "{69C34D679B189AC9}" {
+     Enabled 0
+    }
+   }
+  }
+  SlotManagerComponent "{5E356B9303D2FD46}" {
+   Slots {
+    RegisteringComponentSlotInfo CommanderTurret {
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0335 -2.1107
+   }
+   WeaponTemplate "{DC00D74F5334EF56}Prefabs/Weapons/Cannons/ZTM1/KBA105_ZTM1_APT.et"
+  }
+  WeaponSlotComponent "{5C829B12B0DE0800}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0335 -2.1107
+   }
+   WeaponTemplate "{CB5B42E36720E683}Prefabs/Weapons/Cannons/ZTM1/KBA105_ZTM1_HE.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{6107222E6426A61D}" {
+     Position PointInfo "{5EC5119F8D93D1DF}" {
+      Offset 0.072 -2.3563 -0.1047
+     }
+     Radius 0
+    }
+    UserActionContext "{6107222E0030333B}" {
+     Position PointInfo "{5EC5119E2465F248}" {
+      Offset 0 -1.2864 -1.9106
+     }
+     Radius 0
+    }
+    UserActionContext "{6A54D326D0095202}" {
+     Position PointInfo "{6A54D326386BC314}" {
+      Offset 0.5884 0.5459 0.2402
+     }
+    }
+    UserActionContext "{6A54D326C384516F}" {
+     Position PointInfo "{6A54D3263C929C7E}" {
+      Offset 0 -4.8582 -0.115
+     }
+     Radius 0
+    }
+    UserActionContext "{6A54D32617B07C5B}" {
+     Position PointInfo "{6A54D3260ED26900}" {
+      Offset 0 -2.2924 0
+     }
+     Radius 0
+    }
+   }
+  }
+  VehicleAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{FCFED299FFB7F3E9}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25-rosomak.agr"
+    AnimInstance "{439CC0723EFC57A5}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player-rosomak.asi"
+   }
+  }
+ }
+ coords 36.68 1 161.498
+}

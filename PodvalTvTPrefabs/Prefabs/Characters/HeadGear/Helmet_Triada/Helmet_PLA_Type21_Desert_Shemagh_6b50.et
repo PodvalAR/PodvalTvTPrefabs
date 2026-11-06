@@ -1,0 +1,22 @@
+GameEntity : "{034EC83B216F6F00}Prefabs/Characters/HeadGear/Helmet_Triada/Helmet_Triada_EmrM.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{8F3364A5F7906886}Prefabs/Characters/Eyewear/Eyewear_6b50/GD_Eyewear_6b50_wear_on_6b47.et"
+    }
+    LoadoutSlotInfo Shemagh {
+     Prefab "{F6AD0C45143005B7}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Shemag_1.et"
+    }
+   }
+   WornMaterialsOverride {
+    "{525DBDAF97B3BF25}Assets/Characters/HeadGear/Helmet_Triada/data/marlit_low_PLA_Type21_Desert.emat"
+   }
+   ItemMaterialsOverride {
+    "{525DBDAF97B3BF25}Assets/Characters/HeadGear/Helmet_Triada/data/marlit_low_PLA_Type21_Desert.emat"
+   }
+  }
+ }
+ coords 92.161 1 144.739
+}

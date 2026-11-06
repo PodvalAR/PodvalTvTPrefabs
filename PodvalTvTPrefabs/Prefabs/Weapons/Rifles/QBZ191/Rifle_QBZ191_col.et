@@ -1,0 +1,15 @@
+GenericEntity : "{03C6C519FEA861EC}Prefabs/Weapons/Rifles/QBZ191/Rifle_QBZ191_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6A20B5D1B4C64170}" {
+     AttachmentSlot InventoryStorageSlot optic {
+      Prefab "{595F1BCCA82D5E6E}Prefabs/Weapons/Attachments/Optics/QMQ171/Collim_QMQ171_DEV_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 120.474 1.248 99.985
+}

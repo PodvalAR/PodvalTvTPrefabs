@@ -1,0 +1,32 @@
+GameEntity : "{FFC8049A506A0F9F}Prefabs/Characters/Uniforms/ACU_pants/ACU_pants_MC_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{7FF89F28B220BF6A}Assets/Characters/Uniforms/ACU_pants/ACU_pants_item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#TF-Uniform_ACU_Trousers_Name (UCP)"
+     Description "#TF-Uniform_ACU_Trousers_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewWornModel 1
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{4692AFC32D51301B}Assets/Characters/Uniforms/ACU_pants/ACU_pants.xob"
+   WornMaterialsOverride {
+    "{A21A14873441E501}Assets/Characters/Uniforms/ACU_pants/Data/ACU_pants_tshirt_UCP_02.emat"
+   }
+   ItemModel "{7FF89F28B220BF6A}Assets/Characters/Uniforms/ACU_pants/ACU_pants_item.xob"
+   ItemMaterialsOverride {
+    "{A21A14873441E501}Assets/Characters/Uniforms/ACU_pants/Data/ACU_pants_tshirt_UCP_02.emat"
+   }
+  }
+ }
+ coords 184.626 51 2437.026
+}
