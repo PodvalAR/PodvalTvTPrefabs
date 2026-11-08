@@ -1,0 +1,13 @@
+Vehicle : "{1E25D1AD1CA02030}Prefabs/CB90/Vehicles/PlainGrey/CB90_Naval_France_Plain.et" {
+ ID "88E9973A3DF975A3"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo CB90_AnimatedEnsign {
+     Prefab "{6D8333F825B3120E}Prefabs/CB90/Liveries/CB90_Ensign_China.et"
+    }
+   }
+  }
+ }
+ coords 11009.037 0 262.894
+}

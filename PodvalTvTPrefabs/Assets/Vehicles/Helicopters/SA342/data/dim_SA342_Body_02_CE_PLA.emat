@@ -1,6 +1,7 @@
 MatPBRBasic {
  OccludeWetness 0
  DisablePriorityProbes 1
+ SpecularMul 3.23
  BCRMap "{82FF14808135840D}Assets/Vehicles/Helicopters/SA342/data/dim_SA342_PLA.edds"
  NMOMap "{C0E7124FB876AB80}Assets/Vehicles/Helicopters/SA342/data/Textures/SA342_Body_02_CE_NMO.edds"
 }

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0A2E82CA3FCAF431}Prefabs/Groups/OPFOR/PLA/NAVY/MODERN/PLA_NAVY_MODERN_MOTO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

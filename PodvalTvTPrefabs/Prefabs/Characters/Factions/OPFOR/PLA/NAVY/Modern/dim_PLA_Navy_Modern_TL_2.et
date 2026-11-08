@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{B218E5BF4A6B8F58}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{4B3D25C70C0F11B0}Prefabs/Weapons/Rifles/QBZ95-1/dim_Rifle_95-1_dovetail_Opt_2.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{36897D95F51C1F91}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_PASGT_PLA_NAVY_Headset_2.et"
+    }
+   }
+  }
+ }
+ coords 97.688 1 51.593
+}

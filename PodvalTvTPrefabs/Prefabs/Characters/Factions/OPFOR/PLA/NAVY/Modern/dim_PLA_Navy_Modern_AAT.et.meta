@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{942E7F9D0D2E8FBE}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_AAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,78 @@
+SCR_ChimeraCharacter : "{6F64D2912004FDA0}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{734CEB660648B80E}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_Helmet_PASGT_PLA_Navy_Headest.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3B607DCD63B3EB15}Prefabs/Characters/Uniforms/Jacket_Anorak/GD_Anorak_PLA.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E164DC282D8A1B02}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk_Groin.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{47341C8402A0177F}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A50DA71E874823AA}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_PLA_preset_black_9_PKM.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_9_PKM.et/Radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_9_PKM.et/holster/GD_Holster_SLS_RLeg_ACU.et"
+     PrefabsToSpawn {
+      "{334B8AF9D7C62059}Prefabs/Weapons/Handguns/92G/Handgun_QZS_92G_BASE.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_9_PKM.et/PKM/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_9_PKM.et/PKM3/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     Enabled 1
+     TargetStorage "Vest/Vest_PLA_preset_black_9_PKM.et/Bayonet/Minimap_ArsArma_GMR_OD.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+ coords 225.494 1 27
+}

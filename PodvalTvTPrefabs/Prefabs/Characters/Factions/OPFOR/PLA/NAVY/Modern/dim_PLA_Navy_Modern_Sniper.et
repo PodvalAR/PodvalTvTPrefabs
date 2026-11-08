@@ -1,0 +1,107 @@
+SCR_ChimeraCharacter : "{21ECACD33B93EEDC}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_Sniper.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B95A7D03B3B5F6BD}Prefabs/Weapons/Rifles/ORSIS/dim_rifle_T5000_PLA_2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.03 -0.1904 -0.05
+   }
+   WeaponTemplate "{EEB18452CCBB4CCB}Prefabs/Weapons/Rifles/QCQ171/dim_Rifle_QCQ171.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{36897D95F51C1F91}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_PASGT_PLA_NAVY_Headset_2.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3B607DCD63B3EB15}Prefabs/Characters/Uniforms/Jacket_Anorak/GD_Anorak_PLA.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{DCFAD802CF90F4B8}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{47341C8402A0177F}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{FA6D7FA30BB6C8F3}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_PLA_2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouch1/Pouch_Shaw_Placard_3Mags.et"
+     PrefabsToSpawn {
+      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouchvest/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouchvest2/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouch5/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouch6/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{0B326400D85C4173}Prefabs/Weapons/Magazines/QCQ171_Magazine_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/holster/GD_Holster_SLS_RLeg_ACU.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouch3/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouch4/Pouch_GP106_RGD_Pouch_2_OD.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/util/Pouch_Taktika_universalpouch_od.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Vest/Vest_Taktika_preset_PLA_2.et/pouch2/Minimap_ArsArma_GMR_OD.et"
+     PrefabsToSpawn {
+      "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et" "{EC7B103D65AE78EC}Prefabs/Weapons/Magazines/Magazine_338_Orsis_5rnd_BP.et"
+     }
+    }
+   }
+  }
+ }
+ coords 223.152 1 27.051
+}

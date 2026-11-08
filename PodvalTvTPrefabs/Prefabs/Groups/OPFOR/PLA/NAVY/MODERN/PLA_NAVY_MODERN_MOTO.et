@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F64661C87D}" {
+  }
+ }
+ coords 75.692 1 43.778
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{B5DF1FEE2CED359B}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_SL.et" "{B218E5BF4A6B8F58}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_TL.et" "{8A4030EB7026836B}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_MG.et" "{1E91C8461AE88501}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_AMG.et" "{A79B0F186FA52734}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_LAT_2.et" "{D389FF90CE404232}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_TL_2.et" "{977F3C52BE122389}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/Modern/dim_PLA_Navy_Modern_Rifleman.et" "{318B37EB24A18E3F}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_CC.et" "{35BEFD501A106018}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_CREW.et"
+ }
+ m_sCustomNameSet "Мото-отделение МП НОАК"
+}

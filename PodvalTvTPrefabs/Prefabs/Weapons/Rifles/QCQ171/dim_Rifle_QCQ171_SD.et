@@ -1,0 +1,24 @@
+GenericEntity : "{E800FA645BDA1B88}Prefabs/Weapons/Rifles/QCQ171/Rifle_QCQ171_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6ACF2D42F7F1ED8D}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      PivotID "slot_optic"
+      Prefab "{595F1BCCA82D5E6E}Prefabs/Weapons/Attachments/Optics/QMQ171/Collim_QMQ171_DEV_base.et"
+     }
+    }
+    MuzzleComponent "{6A4A2E10DB58AE95}" {
+     components {
+      AttachmentSlotComponent "{6A4A2E10DB58AE9B}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 90.783 1.198 78.703
+}

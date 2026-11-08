@@ -1,0 +1,88 @@
+Vehicle : "{9B4BEDBA3AA8614B}Prefabs/Vehicles/PLA Vehicle/PLA_ROSOMAK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{E8F04C99140AB7B5}modele/RosomakN.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{60488A9A95F85114}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62C2BB5FC3172633}" {
+     SlotTemplate InventoryStorageSlot smoke {
+      Prefab "{A8007C7734917C17}Prefabs/Weapons/Magazines/ZTM1/KBA105_ZTM1_Magazine_HEFI.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{62C2BB5FC4AFFD6E}" {
+     SlotTemplate InventoryStorageSlot stanags {
+      Enabled 1
+      Prefab "{A067D3FAF3B30627}Prefabs/Weapons/Magazines/PKM/KBA105_KT762_2500rnd.et"
+     }
+    }
+    MultiSlotConfiguration "{62C2BB5FC4E44E4D}" {
+     SlotTemplate InventoryStorageSlot m249 {
+      Enabled 1
+      Prefab "{59CF9367926F949D}Prefabs/Weapons/Magazines/ZTM1/KBA105_ZTM1_Magazine_APT.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.9004 -1.0277
+     Prefab "{82F515F8F9AC4D5E}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/dim_KBA105_Turret_Green_PLA.et"
+    }
+    EntitySlotInfo Garbage1 {
+     PivotID "v_body"
+     Offset 0.3242 -2.703 -0.3395
+     Angles 90 0 -180
+     Prefab "{AD5B540949F41536}Prefabs/Vehicles/Wheeled/BTR70/VehParts/dim_KBA105_RemoteTurret_Interior_PLA.et"
+     DisablePhysicsInteraction 1
+    }
+    EntitySlotInfo Garbage2 {
+     PivotID "v_body"
+     Offset -0.0211 -1.0038 0.317
+     Angles -86.0212 0 0
+     Prefab "{60286D87CC2ED275}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Seats/Mi8MT_seat_gunner.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Garbage3 {
+     PivotID "v_body"
+     Offset -0.2253 -0.1671 0.9921
+     Angles 0 -90 0
+     Prefab "{348369E8F58F4968}Prefabs/Vehicles/Shared/Gauges_Ru/T/EnergyBox.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Garbage4 {
+     PivotID "v_body"
+     Offset -0.0802 0.4187 1.1721
+     Angles -88.5266 0 0
+     Prefab "{8CE087E545BE4385}Prefabs/Vehicles/Shared/Gauges_Ru/T/GunnerOptics.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Garbage5 {
+     PivotID "v_body"
+     Offset 0.0331 0.4177 1.1721
+     Angles -88.5266 0 0
+     Prefab "{8CE087E545BE4385}Prefabs/Vehicles/Shared/Gauges_Ru/T/GunnerOptics.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Garbage6 {
+     PivotID "v_body"
+     Offset -0.6264 -0.4982 0.9921
+     Angles 0 -90 0
+     Prefab "{7C7591D5836F93B9}Prefabs/Vehicles/Shared/Gauges_Ru/T/Toolbox_03.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Garbage7 {
+     PivotID "v_body"
+     Offset -0.5152 -0.1671 1.1264
+     Angles 0 90 -90
+     Prefab "{E1EBAB390EB6BEF7}Prefabs/Props/Civilian/RadioSmall_USSR_01_black.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+ coords 13.32 1 180.2
+}

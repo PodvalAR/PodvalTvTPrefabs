@@ -1,0 +1,98 @@
+SCR_ChimeraCharacter : "{D135239229A3CA71}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2D086F9D760F47BF}Prefabs/Characters/HeadGear/Helmet_PASGT_01/GD_Helmet_PASGT_PLA_NAVY_6b50.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3B607DCD63B3EB15}Prefabs/Characters/Uniforms/Jacket_Anorak/GD_Anorak_PLA.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{DCFAD802CF90F4B8}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{47341C8402A0177F}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{CE8E7DB97AEF9BB3}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_PLA_preset_Black_7.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouch1/Pouch_Shaw_Placard_Elastic.et"
+     PrefabsToSpawn + {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouchvest/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouchvest2/Pouch_Taktika_magpouch_open_BLK.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouch5/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AD0D7C08779EFF8}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouch6/Pouch_Shaw_Flex_Blk.et"
+     PrefabsToSpawn {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC564864C1E74B7}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouch7/Pouch_Shaw_ARC_Admin_MC_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486542D0F06}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/pouch7/Pouch_Shaw_ARC_Admin_MC_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6AC564865418B848}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/util/Pouch_Taktika_universalpouch_od.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648654723381}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/util/Pouch_Taktika_universalpouch_od.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486656AD79D}" {
+     TargetStorage "Vest/Vest_PLA_preset_Black_7.et/holster/GD_Holster_SLS_RLeg_ACU.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+   }
+  }
+ }
+ coords 231.397 1 27.171
+}

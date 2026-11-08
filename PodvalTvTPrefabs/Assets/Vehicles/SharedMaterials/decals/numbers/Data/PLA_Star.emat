@@ -2,10 +2,11 @@ MatPBRBasic {
  Color 0.309 0.309 0.309 1
  DisablePriorityProbes 1
  SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
- AlphaTest 0.837
+ AlphaTest 0.682
  AlphaMul 0.98
  BlendMode AlphaBlend
  AllowUserAlphaBias 1
+ RoughnessScale 0.303
  MetalnessScale 0
  BCRMap "{C895AD136DB732E3}Assets/Vehicles/SharedMaterials/decals/numbers/Data/PLA_Star.edds"
  OpacityMap "{DC93AD7C03DC7CEF}Assets/Vehicles/Helicopters/Mi8/Data/Decals_Nation_RussianStar_A.edds"

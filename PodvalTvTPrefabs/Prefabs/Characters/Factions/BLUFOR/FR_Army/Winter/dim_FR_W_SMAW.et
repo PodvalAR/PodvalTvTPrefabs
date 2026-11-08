@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{1C681EAB667ACE5F}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_SMAW.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{70124083557AC666}Prefabs/Characters/Uniforms/F3_Ubas/Tundra/F3_Ubas_Tundra_Patch_FRANCE_BV02.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{AFFA424D3F916C2B}Prefabs/Characters/Uniforms/F3_Pantalon/F3_Pantalon_TUNDRA.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B0DD431891FC70}" {
+     TargetStorage "Pants/F3_Pantalon_TUNDRA.et"
+    }
+    ItemsInitConfigurationItem "{68B0DD4318E8B310}" {
+     TargetStorage "Pants/F3_Pantalon_TUNDRA.et"
+    }
+    ItemsInitConfigurationItem "{68B0DD4318C59FBA}" {
+     TargetStorage "Jacket/F3_Ubas_Tundra_Patch_FRANCE_BV02.et"
+    }
+   }
+  }
+ }
+ coords 61.47 1 57.176
+}

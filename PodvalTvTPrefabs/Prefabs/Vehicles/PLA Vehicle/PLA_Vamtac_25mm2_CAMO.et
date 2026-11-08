@@ -1,0 +1,25 @@
+Vehicle : "{487786D901F66008}Prefabs/Vehicles/PLA Vehicle/PLA_Vamtac_25mm.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AD10ED570CF7EEF}" {
+     SourceMaterial "cuerpo_st5"
+     AssignedMaterial "{548D98722D68D7CF}Assets/Vehicles/Wheeled/Vamtac_ST5/Data/cuerpo_st5_FN.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo ffaa_PlateBack {
+     Prefab "{D45F642B6964245B}Prefabs/Vehicles/Generic/VehParts/LicensePlate_01/LicensePlate_01_mil.et"
+    }
+    RegisteringComponentSlotInfo ffaa_PlateFront {
+     Prefab "{D45F642B6964245B}Prefabs/Vehicles/Generic/VehParts/LicensePlate_01/LicensePlate_01_mil.et"
+    }
+   }
+  }
+ }
+ coords 8781.025 197.532 3921.315
+ angles -3.016 -174.471 3.297
+}
