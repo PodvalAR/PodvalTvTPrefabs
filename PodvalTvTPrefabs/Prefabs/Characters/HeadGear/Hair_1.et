@@ -1,0 +1,22 @@
+GameEntity : "{FA24C83B128D3A20}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_Lenta.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "Hair"
+     Description "Hair"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Glasses {
+     Prefab "{F58D9BD36CCF7061}Prefabs/Characters/Eyewear/Eyewear_Goggles/dim_GD_Glasses_V1.et"
+    }
+   }
+   WornModel "{23D6E303CB9F6FEC}Assets/Characters/FaceGear/mustache/Full_Hair.xob"
+  }
+ }
+ coords 4751.331 48.445 4522.498
+}

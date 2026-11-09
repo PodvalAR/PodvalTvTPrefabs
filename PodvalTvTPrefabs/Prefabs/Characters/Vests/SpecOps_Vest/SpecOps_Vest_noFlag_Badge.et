@@ -1,0 +1,46 @@
+GameEntity : "{07B1F856943B7075}Prefabs/Characters/Vests/Vest_M69/Vest_M69_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{5B10DCF8B39CF38D}" {
+   Attributes SCR_ItemAttributeCollection "{5B10DCF8B39CF275}" {
+    ItemDisplayName UIInfo "{5B10DCF8B39CF277}" {
+     Name "NATO SF armor"
+     Description ""
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5B10DCF8B39CF27D}" {
+      PreviewWornModel 1
+      PreviewModel ""
+     }
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{3D17952C8B7BB3B4}Assets/Characters/Vest/Spec_Ops_armor.xob"
+   Materials {
+    MaterialAssignClass "{5D7291CC247DD40F}" {
+     SourceMaterial "Vest_M69"
+     AssignedMaterial ""
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo BADGE {
+     PivotID "Spine5"
+     Offset -0.0757 0.1266 0.1519
+     Angles -22.869 0 0
+     Prefab "{A7AF9B674A62B6B0}Assets/Props/Badge/CIA_BADGE.et"
+    }
+   }
+   WornModel "{E81E4F18FF5D560F}Assets/Characters/Vest/Spec_Ops_armor_NoFlag.xob"
+   WornMaterialsOverride {
+    ""
+   }
+   ItemModel "{BD9B8FF129762E8E}Assets/Characters/Vest/Spec_Ops_armor_Ground.xob"
+   ItemMaterialsOverride {
+    ""
+   }
+  }
+ }
+}

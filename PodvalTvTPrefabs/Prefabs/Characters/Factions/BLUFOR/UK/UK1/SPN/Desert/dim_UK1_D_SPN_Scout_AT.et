@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{7C2F5016F82023CF}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/Desert/dim_UK1_D_SPN_Scout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+    Offset 0.0843 -0.4118 0.004
+    Angles 55.9208 0 180
+   }
+   WeaponTemplate "{2A27E249BB618554}Prefabs/Weapons/Launchers/AT4CS/Launcher_AT4CS.et"
+  }
+ }
+ coords 4747.521 48.445 4527.04
+}

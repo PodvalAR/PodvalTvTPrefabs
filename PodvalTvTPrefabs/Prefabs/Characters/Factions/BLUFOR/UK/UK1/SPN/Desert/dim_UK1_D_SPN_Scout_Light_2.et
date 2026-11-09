@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{80DEFFA1022CCE17}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/Desert/dim_UK1_D_SPN_Scout_Light.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{97852A079D2D088E}Prefabs/Characters/Vests/Vest_PLCE/Variants/dim_BF_Vest_PLCE_Support.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69F6F60D0E7A3472}" {
+     TargetStorage "Vest/dim_BF_Vest_PLCE_Support.et/MagPouch2/BF_Pouch_PLCE_AmmoPouch_02.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60FD859E834}" {
+     TargetStorage "Vest/dim_BF_Vest_PLCE_Support.et/MagPouch/BF_Pouch_PLCE_Utility_01.et"
+    }
+    ItemsInitConfigurationItem "{69F7480B62082C01}" {
+     TargetStorage "Vest/dim_BF_Vest_PLCE_Support.et/Holster/GD_Holster_SLS_RLeg.et"
+    }
+    ItemsInitConfigurationItem "{69F7480C1DD874C4}" {
+     TargetStorage "Vest/dim_BF_Vest_PLCE_Support.et/Buttpuck/Vest_ALICE_buttpack.et"
+    }
+   }
+  }
+ }
+ coords 4739.775 48.445 4525.638
+ angles 0 -47.567 0
+}

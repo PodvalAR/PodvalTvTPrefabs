@@ -1,0 +1,10 @@
+GameEntity {
+ ID "6A628DC45504EF8F"
+ components {
+  BaseLoadoutClothComponent "{6A628DC45504EFBF}" {
+   WornMaterialsOverride {
+    "{0A866960BFD8AE3F}Assets/Characters/HeadGear/Goggles/Data/M44_goggles.emat" "{074D1840A34E6001}Assets/Characters/HeadGear/Pro_Tec/Data/glass.emat"
+   }
+  }
+ }
+}

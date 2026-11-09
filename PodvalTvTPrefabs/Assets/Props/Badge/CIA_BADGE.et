@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "6AD32196B3EBA2C9"
+ components {
+  MeshObject "{6AD32196B7FE9130}" {
+   Object "{EEAD76D7595BCBC8}Assets/Props/Badge/CIABadge.xob"
+  }
+ }
+ coords 4745.816 48.445 4525.613
+}

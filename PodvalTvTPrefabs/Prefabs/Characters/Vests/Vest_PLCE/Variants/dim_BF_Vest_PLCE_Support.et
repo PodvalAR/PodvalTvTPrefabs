@@ -1,0 +1,33 @@
+GenericEntity : "{984E7A36E686DE23}Prefabs/Characters/Vests/Vest_PLCE/Variants/BF_Vest_PLCE_Support.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{BF31C00AB7E87A44}Assets/Characters/Vests/Vest_ALICE/Vest_ALICE_belt.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Holster {
+     PivotID "RightLeg"
+     Offset -0.0067 -0.1445 0
+     Angles 0 -180 0
+     Prefab "{81C150C24FF3E7F2}Prefabs/Characters/Vests/Holster_SLS/GD_Holster_SLS_RLeg.et"
+    }
+    LoadoutSlotInfo Goggle {
+     PivotID "Spine5"
+     Offset 0 0.2578 -0.006
+     Angles -60.6034 0 0
+     Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
+    }
+    LoadoutSlotInfo Buttpuck {
+     PivotID "Spine3"
+     Offset -0.064 0.046 -0.1111
+     Angles -0.456 -160.1908 2.1123
+     Prefab "{9A21918AC35AC182}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+    }
+   }
+   DebugWornModel 0
+  }
+ }
+ coords 4738.647 48.445 4529.252
+ angles 0 -90 0
+}

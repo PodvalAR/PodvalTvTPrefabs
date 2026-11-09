@@ -5,7 +5,8 @@ GenericEntity : "{EA0375CBD876C102}Prefabs/Weapons/Rifles/L85/A1/SPN/Rifle_L85A2
    components {
     AttachmentSlotComponent "{5D9F3AF79EC9FBD4}" {
      AttachmentSlot InventoryStorageSlot optics {
-      Prefab "{50475BC9E6A7ABD0}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_army.et"
+      Offset 0 0 0
+      Prefab "{2EC97B1A04DDAE01}Prefabs/Weapons/Attachments/Optics/Optic_SUSAT/Optic_SUSAT_base.et"
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {

@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.527 0.527 0.527 1
+ SpecularMul 1.86
+ MetalnessScale 0
+ DielectricReflectance 0.042
+ BCRMap "{9DCBD374E053F107}Prefabs/ID/Data/ID_BCR.edds"
+ NormalPower 0.121
+ NMOMap "{A51368E63924A399}Prefabs/ID/Data/ID_NMO.edds"
+}

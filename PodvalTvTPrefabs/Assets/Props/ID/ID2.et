@@ -1,0 +1,10 @@
+GenericEntity {
+ ID "6630EE970D891EE4"
+ components {
+  MeshObject "{6630EE9706A2BCCF}" {
+   Object "{DDD89C4CB95F60DD}Assets/Props/ID/ID2.xob"
+  }
+ }
+ coords 125.314 1 575.348
+ scale 0.046
+}

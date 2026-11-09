@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{D78C81E5EC135DB0}Prefabs/Characters/Factions/BLUFOR/UK/UK1/SPN/Desert/dim_UK1_D_SPN_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{28CDB52D1DBAAB57}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_pants_DDPM.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{69F6F60D0E37B815}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+    ItemsInitConfigurationItem "{69F6F60D0E10A2C7}" {
+     TargetStorage "Pants/GD_ACU_pants_DDPM.et"
+    }
+   }
+  }
+ }
+ coords 4743.024 48.445 4531.127
+}

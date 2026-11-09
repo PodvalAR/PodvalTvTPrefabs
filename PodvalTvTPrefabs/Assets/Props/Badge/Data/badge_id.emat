@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{EF3949855EB1AC56}Assets/Props/Badge/Data/badge_bcr.edds"
+ NMOMap "{D7E1F21787C6FEC8}Assets/Props/Badge/Data/badge_nmo.edds"
+}

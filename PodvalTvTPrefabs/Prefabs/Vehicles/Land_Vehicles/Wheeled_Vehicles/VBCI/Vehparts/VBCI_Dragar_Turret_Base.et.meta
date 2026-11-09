@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{4AD877DEA242E513}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/VBCI/Vehparts/VBCI_Dragar_Turret_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

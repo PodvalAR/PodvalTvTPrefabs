@@ -1,0 +1,9 @@
+GameEntity : "{22CCB8F2BCCE29E6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   MaxCumulativeVolume 1600
+   m_fMaxWeight 10
+  }
+ }
+}

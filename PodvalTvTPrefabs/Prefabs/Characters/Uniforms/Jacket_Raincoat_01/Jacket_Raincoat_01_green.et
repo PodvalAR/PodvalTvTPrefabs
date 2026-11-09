@@ -1,0 +1,9 @@
+GameEntity : "{C472D4DFBF3652EB}Prefabs/Characters/Uniforms/Jacket_Raincoat_01/Jacket_Raincoat_01_base.et" {
+ ID "5104869D194C6243"
+ components {
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   MaxCumulativeVolume 1600
+   m_fMaxWeight 10
+  }
+ }
+}

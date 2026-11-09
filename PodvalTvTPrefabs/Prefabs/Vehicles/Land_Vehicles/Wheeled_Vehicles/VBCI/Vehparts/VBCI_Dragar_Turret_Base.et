@@ -1,0 +1,13 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "662AB197E81171B9"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{66B89EFB839C0B7E}" {
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+   }
+  }
+ }
+}

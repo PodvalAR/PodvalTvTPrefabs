@@ -6,8 +6,14 @@ GenericEntity : "{6027AF01487084D8}Prefabs/Characters/Vests/Vest_58Pattern/Varia
   }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
+    LoadoutSlotInfo Suspenders {
+     Prefab "{C0276988B7390EA3}Prefabs/Characters/Vests/Vest_PLCE/BF_Vest_PLCE_suspenders.et"
+    }
     LoadoutSlotInfo Buttpack {
      Prefab "{9A21918AC35AC182}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+    }
+    LoadoutSlotInfo Cateen {
+     PivotID "Spine3"
     }
     LoadoutSlotInfo Holster {
      PivotID "RightLeg"
@@ -22,6 +28,9 @@ GenericEntity : "{6027AF01487084D8}Prefabs/Characters/Vests/Vest_58Pattern/Varia
      Prefab "{BE5A1F7A2EDE094E}Prefabs/Characters/Eyewear/Goggles_PASGT_01.et"
     }
    }
+   WornModel "{CC1561F67EEF0C7A}Assets/Characters/Vests/Vest_PLCE/PLCE_Belt_01.xob"
+   ItemModel "{9FF40F97161DC829}Assets/Characters/Vests/Vest_PLCE/PLCE_Belt_Item_01.xob"
+   DeflatedModel "{832C1A66FB32557D}Assets/Characters/Vests/Vest_PLCE/PLCE_Belt_Inflated_01.xob"
   }
  }
  coords 23.477 1 72.962

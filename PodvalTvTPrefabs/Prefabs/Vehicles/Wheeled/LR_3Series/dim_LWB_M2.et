@@ -16,6 +16,17 @@ Vehicle : "{701ADC27F9D842DF}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Tra
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo DoorRear {
+    }
+    RegisteringComponentSlotInfo Door_L01_Top {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo Door_R01_Top {
+     Prefab ""
+    }
     RegisteringComponentSlotInfo RearCargo {
      Enabled 0
     }

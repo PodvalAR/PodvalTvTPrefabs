@@ -1,0 +1,50 @@
+MetaFileClass {
+ Name "{EEAD76D7595BCBC8}Assets/Props/Badge/CIABadge.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6AD2F05CB6DAA5F5}" {
+     SourceMaterial "badge_plastic"
+     AssignedMaterial "{A07C44B875F71B77}Assets/Props/Badge/Data/badge_plastic.emat"
+    }
+    MaterialAssignClass "{6AD2F05CB6DAA5E6}" {
+     SourceMaterial "badge_id"
+     AssignedMaterial "{CA80B8DB0A8B05D5}Assets/Props/Badge/Data/badge_id.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "c_t9_uk_pl_mi6_sis_arms_LOD0_SEModelMesh.044" {
+    }
+   }
+   Common TXOCommonClass "{6AD2F050FEE64F2D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.3.2"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6AD2F050FEE63E19}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6AD2F050FEE63EA3}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6AD2F050FEE631A8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6AD2F050FEE63066}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6AD2F050FEE63023}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass Xbox : PC {
+   Common TXOCommonClass "{6AD2F050FEE630E7}" {
+   }
+  }
+ }
+}

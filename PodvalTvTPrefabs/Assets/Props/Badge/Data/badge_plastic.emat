@@ -1,0 +1,4 @@
+MatPBRBasic {
+ SpecularMul 0.03
+ BCRMap "{C6C7EA5D8A6F8A7A}Assets/Props/Badge/Data/badge_plastic.edds"
+}

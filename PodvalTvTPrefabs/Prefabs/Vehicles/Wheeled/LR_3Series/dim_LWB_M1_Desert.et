@@ -9,6 +9,19 @@ Vehicle : "{8ACB8116F334AE6C}Prefabs/Vehicles/Wheeled/LR_3Series/dim_LWB_M2.et" 
     }
    }
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo Door_L01_Top {
+     Prefab ""
+    }
+    RegisteringComponentSlotInfo Door_R01_Top {
+     Prefab ""
+    }
+   }
+  }
  }
  coords 5251.401 228.44 3527.669
  angles 0 -120 0
