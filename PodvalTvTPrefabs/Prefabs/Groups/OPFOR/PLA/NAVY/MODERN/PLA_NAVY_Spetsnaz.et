@@ -1,0 +1,16 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "1"
+  }
+  PS_GroupCallsignAssigner "{6AC6C5F629AF1207}" {
+  }
+ }
+ coords 128.677 1 20.138
+ m_faction "DIM_PLA"
+ m_aUnitPrefabSlots {
+  "{EF88FC30443FC383}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_SL.et" "{E84F066122B97940}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_TL.et" "{82000D2F76BB6190}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_AR.et" "{F5301BA4090CE7AB}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Rifleman.et" "{A52AD73FB005E13D}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_LAT.et" "{3658DFE1D6B5B949}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Medic.et" "{84CC21474C0CB809}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Sapper.et" "{A78BE6F7818C2ABC}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Marksman.et" "{EA41B9267B23F7E3}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Sniper.et"
+ }
+ m_sCustomNameSet "Спецназ МП НОАК"
+}

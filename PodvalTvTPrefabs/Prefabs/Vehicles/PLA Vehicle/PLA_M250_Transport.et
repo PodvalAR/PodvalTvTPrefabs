@@ -1,0 +1,27 @@
+Vehicle : "{702F5E209CCD54CC}Prefabs/Vehicles/Wheeled/M250/FFAA_M250_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo ffaa_PlateFront {
+     Prefab "{D45F642B6964245B}Prefabs/Vehicles/Generic/VehParts/LicensePlate_01/LicensePlate_01_mil.et"
+    }
+    RegisteringComponentSlotInfo ffaa_PlateBack {
+     Prefab "{D45F642B6964245B}Prefabs/Vehicles/Generic/VehParts/LicensePlate_01/LicensePlate_01_mil.et"
+    }
+    EntitySlotInfo Star {
+     PivotID "v_door_L01"
+     Offset -0.0074 0 -0.4792
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+    EntitySlotInfo Star2 {
+     PivotID "v_door_R01"
+     Offset -0.0074 0.0195 -0.4792
+     Angles 0 180 90
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+   }
+  }
+ }
+ coords 88.176 1 239.399
+}

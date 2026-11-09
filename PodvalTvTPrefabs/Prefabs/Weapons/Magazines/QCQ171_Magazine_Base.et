@@ -1,0 +1,10 @@
+GenericEntity {
+ ID "6A4A2E13BCE6ED20"
+ components {
+  InventoryMagazineComponent "{6A4A2E13BCE6ED3C}" {
+   Attributes SCR_ItemAttributeCollection "{6A4A2E13BCE6ED02}" {
+    CommonItemType "RHS_RIFLE_AMMO"
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A78BE6F7818C2ABC}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Marksman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

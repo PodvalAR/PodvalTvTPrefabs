@@ -1,0 +1,17 @@
+GenericEntity : "{BC997778D02FBAA4}Prefabs/Items/Equipment/Radios/Radio_ANPRC_77_USA_Backpack.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "Taiwan"
+  }
+  BaseLoadoutClothComponent "{5EA4A89F0D06E1DE}" {
+   WornMaterialsOverride {
+    "{271B5897A8332C88}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Data/dim_pla_radio_emat.emat"
+   }
+   ItemMaterialsOverride {
+    "{271B5897A8332C88}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Data/dim_pla_radio_emat.emat"
+   }
+  }
+ }
+ coords 88.661 1 77.527
+}

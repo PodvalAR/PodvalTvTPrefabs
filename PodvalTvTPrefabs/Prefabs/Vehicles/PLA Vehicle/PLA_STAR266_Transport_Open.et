@@ -1,0 +1,38 @@
+Vehicle : "{F221B6591D356E1D}Assets/Vehicles/Wheeled/STAR266_Transport_Closed.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "STAR 266 Transport Truck Open"
+    m_Image "{1EFF7F3AA80F5E74}Assets/photos/transportOpen.edds"
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA SIZE_M VEHICLE_TRUCK
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "DIM_PLA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{79BEB0FEA419E4A8}Prefabs/Vehicles/Wheeled/M923A1/STAR266_cargo.et"
+    }
+    RegisteringComponentSlotInfo Decal {
+     PivotID "v_door_L01"
+     Offset -0.0047 -0.0597 -0.4756
+     Angles 0 0 0
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+    RegisteringComponentSlotInfo Decal2 {
+     PivotID "v_door_R01"
+     Offset 0.006 -0.0597 -0.4756
+     Angles 0 180 0
+     Prefab "{9AD9B4244AE77079}Prefabs/Vehicles/Wheeled/M998/VehParts/ION Logo/dim_PLA_Decal_Star.et"
+    }
+   }
+  }
+ }
+ coords 68.061 1 243.381
+}

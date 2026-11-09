@@ -1,0 +1,24 @@
+GenericEntity : "{9B41144AA8274250}Prefabs/Weapons/Rifles/ORSIS/dim_Rifle_ORSIS_T5000_Forest.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+      Prefab "{727F2DBEF43A6B5B}Prefabs/Weapons/Attachments/Camouflage/Camouflage_Orsis.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6918C6B1F67488EC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{EFD4D5A1F6304A02}Prefabs/Weapons/Attachments/Suppressor_T5000_BRT.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 93.577 1.167 79.925
+}

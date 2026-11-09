@@ -1,0 +1,53 @@
+Vehicle : "{6CDEEEFB7ECB5E97}Prefabs/Vehicles/Helicopters/SA342/SA342_GAZELLE_M134_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AA72B15BE644D27}" {
+     SourceMaterial "AS332_Body_02"
+     AssignedMaterial "{585DD83CDDBFC0C9}Assets/Vehicles/Helicopters/SA342/data/dim_SA342_Body_02_CE_PLA.emat"
+    }
+    MaterialAssignClass "{6AA72B15BE644D48}" {
+     SourceMaterial "SA342_Body_01"
+     AssignedMaterial "{0E38F947C2F015BF}Assets/Vehicles/Helicopters/SA342/data/SA342_Body_01_CE.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6A92F009EA77CAC8}" {
+     EntryPositionInfo PointInfo "{6A92F009EA77CAE3}" {
+      Offset 0.0465 -0.1642 -0.6042
+      Angles 0 -90 0
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+    CompartmentDoorInfo "{6A92F009EA77CAE4}" {
+     EntryPositionInfo PointInfo "{6A92F009EA77CAFB}" {
+      Offset -0.0677 -0.0298 -0.5298
+      Angles 0 90 0
+     }
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+    CompartmentDoorInfo "{307B00D3D0EF7C9E}" {
+     EntryPositionInfo PointInfo "{5C44146E9A0FD88B}" {
+      Angles 0 -90 0
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Z-11 (M134)"
+    m_sFaction "DIM_PLA"
+    m_aAutoLabels {
+     FACTION_PLA SIZE_M
+    }
+   }
+  }
+ }
+ coords 18.846 1 222.233
+ angles 0 -175.811 0
+}

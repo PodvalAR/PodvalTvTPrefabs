@@ -19,16 +19,40 @@ Turret : "{8E9A65E549130F4F}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Bere
   RHS_K17AnimationsComponent "{61CC063EC0E4C45B}" {
    Enabled 0
   }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Enabled 1
+  }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    DoorInfoList {
     CompartmentDoorInfo "{50B917CA9C90BD91}" {
-     ExitPositionInfo PointInfo "{608F2EE8B0901FC2}" {
-      Offset 0 0.6253 0
+     AnimDoorIndex 2
+     ContextName "door_side_left"
+     EntryPositionInfo PointInfo "{50B917CA96E757AA}" {
+      Offset 0 1.0158 0.0507
+      Angles 0 0 0
      }
+     ExitPositionInfo PointInfo "{608F2EE8B0901FC2}" {
+      PivotID "Scene_Root"
+      Offset 0 1.5622 -3.7096
+      Angles 0 -180 0
+     }
+     GetInAligningTeleport 1
+     GetOutAligningTeleport 1
+     FakeDoor 0
     }
    }
    CompartmentSlots {
     RHS_TurretCompartmentSlot TurretCompartment {
+     CompartmentAction RHS_GetInK17UserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "BackDoor" "door_back_left" "gunner" "door_back_right"
+      }
+     }
+     GetOutAction RHS_GetOutK17UserAction "{509D56664FF79DDB}" {
+      ParentContextList {
+       "door_back_left" "gunner" "BackDoor" "door_back_right"
+      }
+     }
      PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
       Offset 0.5015 0.0799 0.7091
      }
@@ -100,10 +124,14 @@ Turret : "{8E9A65E549130F4F}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Bere
    }
   }
   VehicleAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{FCFED299FFB7F3E9}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25-rosomak.agr"
+   AnimInstance "{439CC0723EFC57A5}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player-rosomak.asi"
+   AlwaysActive 0
    AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
     AnimGraph "{FCFED299FFB7F3E9}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25-rosomak.agr"
     AnimInstance "{439CC0723EFC57A5}Assets/Vehicles/Wheeled/LAV25/workspaces/LAV25_player-rosomak.asi"
    }
+   BindWithInjection 0
   }
  }
  coords 36.68 1 161.498

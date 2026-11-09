@@ -1,0 +1,19 @@
+GameEntity : "{E8FD6022F71667B3}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/dim_GD_Chechen_Hat_Black_Headset.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Baf {
+     Prefab "{35D00D3B430A2C9A}Prefabs/Characters/HeadGear/Hat_Masks/GD_Baf_Black.et"
+    }
+    LoadoutSlotInfo Badge {
+     PivotID "Head"
+     Offset -0.0013 0.145 -0.0939
+     Angles 5.1956 -2.6696 0
+     Prefab "{EF4ECDA81FE6691F}Prefabs/Items/Equipment/ChineseStuff/PLA_Boonie_Badge.et"
+    }
+   }
+  }
+ }
+ coords 235.364 1 27.793
+}

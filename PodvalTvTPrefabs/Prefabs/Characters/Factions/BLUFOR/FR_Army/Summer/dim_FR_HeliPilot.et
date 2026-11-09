@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{F9199CDE3922344E}Prefabs/Characters/HeadGear/ALPHA900/Alpga900_base.et"
+     Prefab "{168D2343B653197E}Prefabs/Characters/HeadGear/ALPHA900_Helmet/Alpha900_base.et"
     }
     LoadoutSlotInfo Back {
      Prefab ""

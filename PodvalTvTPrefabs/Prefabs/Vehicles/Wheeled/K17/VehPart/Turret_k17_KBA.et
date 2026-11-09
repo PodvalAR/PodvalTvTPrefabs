@@ -1,0 +1,18 @@
+Turret : "{8E9A65E549130F4F}Prefabs/Vehicles/Wheeled/K17/VehPart/Turret_K17_Berezok_ptur.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0335 -2.0898
+   }
+   WeaponTemplate "{DC00D74F5334EF56}Prefabs/Weapons/Cannons/ZTM1/KBA105_ZTM1_APT.et"
+  }
+  WeaponSlotComponent "{5C829B12B0DE0800}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.0335 -2.0898
+   }
+   WeaponTemplate "{CB5B42E36720E683}Prefabs/Weapons/Cannons/ZTM1/KBA105_ZTM1_HE.et"
+  }
+ }
+ coords 4785.253 27.907 11306.336
+}

@@ -1,0 +1,26 @@
+GenericEntity : "{D28011477B4A7B70}Prefabs/Vehicles/Wheeled/M923A1/STAR266_cargo_canvas.et" {
+ ID "4B42E71698F5739C"
+ components {
+  SCR_BaseCompartmentManagerComponent "{2CD4A765A7D52986}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B8D5DD7BC767A1}" {
+     ExitPositionInfo PointInfo "{51B07C0BE19AA3FF}" {
+      Offset 0 0 0.8643
+     }
+     AlignDuringGetOut 1
+     GetOutAligningTeleport 1
+     GetOutAligningOnEvent 1
+    }
+    CompartmentDoorInfo "{61D48484312FE98B}" {
+     ExitPositionInfo PointInfo "{51B07C0BE19AA3FF}" {
+      Offset 0 0 -1.2065
+     }
+     AlignDuringGetOut 1
+     GetOutAligningTeleport 1
+     GetOutAligningOnEvent 1
+    }
+   }
+  }
+ }
+ coords 7179.674 137.156 2405.118
+}

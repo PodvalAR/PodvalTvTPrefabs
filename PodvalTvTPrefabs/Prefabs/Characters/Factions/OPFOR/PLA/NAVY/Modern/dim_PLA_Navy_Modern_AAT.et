@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{5B8A94493E65C0CE}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/dim_PLA_Navy_AAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{3B607DCD63B3EB15}Prefabs/Characters/Uniforms/Jacket_Anorak/GD_Anorak_PLA.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{DCFAD802CF90F4B8}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{47341C8402A0177F}Prefabs/Characters/Uniforms/ACU_pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F9AE2BDEB36D89DF}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs_black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2B123140760A0CD8}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_PLA_preset_black_6.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/GD_ACU_Pants_PLA_Galoshi_Holster.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6AC564862E16CCCA}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/pouch1/Pouch_Shaw_Placard_4Mags.et"
+     PrefabsToSpawn + {
+      "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et" "{7D2C9BAEA675F369}Prefabs/Weapons/Magazines/Magazine_95_30rnd_AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6AC5648629A49997}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/pouchvest/Pouch_ArsArma_magouch_morphed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6AC5648629BB8DFE}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/pouchvest2/Pouch_ArsArma_magouch_morphed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486299315BC}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/pouch3/Pouch_ArsArma_magouch_morphed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486A1FA721D}" {
+     TargetStorage "Jacket/GD_Anorak_PLA.et"
+    }
+    ItemsInitConfigurationItem "{6AC56486AECD012F}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/pouch4/Pouch_ArsArma_magouch_morphed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6AD0D7C0C3CCBE6D}" {
+     TargetStorage "Vest/Vest_PLA_preset_black_6.et/holster/GD_Holster_SLS_RLeg_ACU.et"
+     PrefabsToSpawn {
+      "{334B8AF9D7C62059}Prefabs/Weapons/Handguns/92G/Handgun_QZS_92G_BASE.et"
+     }
+    }
+   }
+  }
+ }
+ coords 232.902 1 27.127
+}

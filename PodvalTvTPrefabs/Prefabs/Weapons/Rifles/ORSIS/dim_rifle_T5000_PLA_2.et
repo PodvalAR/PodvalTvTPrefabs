@@ -1,0 +1,41 @@
+GenericEntity : "{5689013DE2CA80B8}Prefabs/Weapons/Rifles/ORSIS/dim_Rifle_T5000_PLA.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{6964ADCBA27F2F5C}" {
+     SourceMaterial "SRifle_Additional_Rail"
+     AssignedMaterial "{F143FEE89C9811C6}Assets/Sniper/Data/SRifle_Additional_Rail.emat"
+    }
+    MaterialAssignClass "{6964ADCBA27F2F4B}" {
+     SourceMaterial "SRifle_Butt"
+     AssignedMaterial "{F67D1DA6D8C6FC60}Assets/Sniper/Data/SRifle_Butt.emat"
+    }
+   }
+  }
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{66DCE8E2EDCA4A66}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{E78D21AD695D0342}Prefabs/Weapons/Attachments/Optics/vc18dsco/optic_vc18dsco_rmr.et"
+     }
+    }
+    AttachmentSlotComponent "{691B258A7C2D7822}" {
+     AttachmentSlot InventoryStorageSlot Wrap {
+      Prefab ""
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6918C6B1F67488EC}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab ""
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 229.358 1.297 34.603
+}

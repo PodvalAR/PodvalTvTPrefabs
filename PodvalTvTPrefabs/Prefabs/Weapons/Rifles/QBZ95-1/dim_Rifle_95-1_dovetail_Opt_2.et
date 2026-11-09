@@ -1,0 +1,15 @@
+GenericEntity : "{BDEC4B60B9741E61}Prefabs/Weapons/Rifles/QBZ95-1/dim_Rifle_95-1_Dovetail_Opt.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{695A8254DC0C4EDF}" {
+     AttachmentSlot InventoryStorageSlot YMA600 {
+      Prefab "{FF769C1DDF96103F}Prefabs/Weapons/Attachments/Optics/QMK171A/Scope_QMK171.et"
+     }
+    }
+   }
+  }
+ }
+ coords 98.56 1.129 51.469
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.047 0.067 0.15 1
+ Emissive 0 0 0 1
+ SpecularMul 1.59
+ BCRMap "{5603B36188FCB8F8}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Data/rhs_filbeassault2_01_BCR.edds"
+ NMOMap "{6EDB08F3518BEA66}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Data/rhs_filbeassault2_01_NMO.edds"
+}

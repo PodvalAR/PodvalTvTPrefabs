@@ -1,0 +1,42 @@
+GenericEntity {
+ ID "6AD10ED15C248BE3"
+ components {
+  Hierarchy "{6AD10ED15C2558C5}" {
+  }
+ }
+ {
+  GenericEntity CB90_WavingFlag {
+   ID "6AD10ED15C2558FF"
+   components {
+    SignalsManagerComponent "{6AD10ED15C2558D5}" {
+    }
+    MeshObject "{6AD10ED15C2558DB}" {
+     Object "{94F7CE276B05E84B}Assets/Props/Fabric/Flags/Flag_1_2.xob"
+     Materials {
+      MaterialAssignClass "{6AD10ED15C2558DE}" {
+       SourceMaterial "Flag_1_2"
+       AssignedMaterial "{56AC392F1AB60DEF}Assets/CB90/V41/Materials/CB90_Ensign_China.emat"
+      }
+     }
+    }
+    StaticSoundComponent "{6AD10ED15C2558DD}" {
+     Filenames {
+      "{F5150056033CF272}Sounds/Props/Fabric/Flag/Props_Flag.acp"
+     }
+     Signals 0x16 0
+    }
+    BaseItemAnimationComponent "{6AD10ED15C2558A3}" {
+     AnimGraph "{040A7788BBAD6A87}Assets/Props/Fabric/Workspace/flag.agr"
+     AnimInstance "{C647A1991EFA303F}Assets/Props/Fabric/Workspace/item.asi"
+     StartNode "State Machine 1"
+     AlwaysActive 1
+     SimulateOnHeadless 0
+    }
+    Hierarchy "{6AD10ED15C2558A1}" {
+    }
+   }
+   coords 0 0 0
+   scale 0.533
+  }
+ }
+}

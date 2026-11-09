@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F5301BA4090CE7AB}Prefabs/Characters/Factions/OPFOR/PLA/NAVY/SF/Modern/dim_PLA_Modern_SF_N_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
