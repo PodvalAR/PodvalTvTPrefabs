@@ -1,0 +1,10 @@
+GenericEntity : "{A799F8BA47DB69F5}PrefabsEditable/Auto/Structures/Military/Flags/FlagPole_02_V1_TKA_Editable.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{B5299508434E612E}Assets/Props/Fabric/Flags/Data/dim_Flag_1_2_IR.emat"
+  }
+ }
+ coords 2793.401 54.233 2693.126
+ angles 0 91.007 0
+}
