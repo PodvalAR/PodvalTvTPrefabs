@@ -1,0 +1,73 @@
+GameEntity : "{BC7FE8DD442A42A1}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/Vest_Shaw_ARC_preset_base.et" {
+ ID "6584F7DC1A90A8C7"
+ components {
+  RHS_ClothNodeStorageComponent "{6584F7DC1A90A8BF}" {
+   Attributes SCR_ItemAttributeCollection "{6584F7DC1A90A8B9}" {
+    ItemDisplayName UIInfo "{6584F7DC1A90A8A4}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_Shaw_ARC_Name [3] - #RHS-Color_COY"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6584F7DC1A90A8AC}" {
+      CameraDistanceToItem 2.35
+      CameraOffset 0 -0.024 0
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6584F7DC1A90A88E}" {
+   Slots {
+    LoadoutSlotInfo placard {
+     PivotID "Spine5"
+     Offset -0.0028 0.0022 0.189
+     Angles -4.9241 0 0
+     MergePhysics 1
+     Prefab "{FBC306A177DF1621}Prefabs/Characters/Vests/Vest_Shaw_ARC_Pouches/Pouch_Shaw_Placard_4Mags_Coy.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo raid {
+     PivotID "Spine5"
+     Offset 0 -0.1258 0.1827
+     Angles -10.8808 0 0
+     MergePhysics 1
+     Prefab "{D075481CB65F1AB5}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo admin {
+     PivotID "Spine5"
+     Offset 0 0.1921 0.1836
+     Angles -7.2132 0 0
+     MergePhysics 1
+     Enabled 0
+     Prefab "{D1498D51EC5747DC}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_ARC_Admin_Coy.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo nerd {
+     PivotID "Spine5"
+     Offset 0.0352 -0.0048 0.2384
+     Angles -4.9116 4.1009 -0.3517
+     MergePhysics 1
+     Prefab "{063712DCDFB30053}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Mini.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo flex {
+     PivotID "Spine5"
+     Offset -0.0833 0.0058 0.2091
+     Angles -4.9084 -4.5926 0.3938
+     MergePhysics 1
+     Prefab "{77D939687560A1F0}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+  }
+ }
+}

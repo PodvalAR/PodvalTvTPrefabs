@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{0810D32518B1B96F}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Unarmed.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{9C8E52A8BCA628A0}Prefabs/Items/Equipment/Watches/Watch_SandY184A_French.et"
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Rifleman"

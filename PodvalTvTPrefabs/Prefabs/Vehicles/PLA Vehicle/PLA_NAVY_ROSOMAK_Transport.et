@@ -47,6 +47,13 @@ Vehicle : "{9EA5E74FBE33D514}Prefabs/Vehicles/Wheeled/LAV25/ROSOMAKtransport.et"
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "DIM_PLA"
   }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     MaxHealth 12000
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     SCR_WheelSlotInfo Wheel_L01 {

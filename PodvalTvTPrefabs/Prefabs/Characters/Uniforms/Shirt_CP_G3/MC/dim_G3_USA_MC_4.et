@@ -1,0 +1,11 @@
+GameEntity : "{4869AE37D3DA5D8B}Prefabs/Characters/Uniforms/Shirt_CP_G3/MC_BLK_camo/USA/dim_G3_USA_4.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{AB5E16E63B75B647}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp3.emat" "{F5B63FA584F83848}Assets/Characters/Jackets/Shirt_CP_G3/Data/rhs_cp_g3_shirt_tp1.emat"
+   }
+  }
+ }
+ coords 6361.61 234.125 1809.092
+}

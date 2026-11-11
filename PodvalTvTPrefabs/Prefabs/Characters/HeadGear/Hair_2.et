@@ -12,7 +12,7 @@ GameEntity : "{FA24C83B128D3A20}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
     LoadoutSlotInfo Glasses {
-     Prefab "{F58D9BD36CCF7061}Prefabs/Characters/Eyewear/Eyewear_Goggles/dim_GD_Glasses_V1.et"
+     Prefab "{99D9AF33D00BFF4F}Prefabs/Characters/Eyewear/Eyewear_Goggles/dim_GD_Glasses_V2.et"
     }
    }
    WornModel "{FF1D538253C71BC7}Assets/Characters/FaceGear/mustache/Hair.xob"

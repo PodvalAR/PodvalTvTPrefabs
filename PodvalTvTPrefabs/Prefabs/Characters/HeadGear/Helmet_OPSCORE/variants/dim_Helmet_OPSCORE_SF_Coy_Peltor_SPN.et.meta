@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3BC5E0666CC3F26A}Prefabs/Characters/HeadGear/Helmet_OPSCORE/variants/dim_Helmet_OPSCORE_SF_Coy_Peltor_SPN.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+GameEntity : "{F58D9BD36CCF7061}Prefabs/Characters/Eyewear/Eyewear_Goggles/dim_GD_Glasses_V1.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{A7B627D89363BC65}Assets/Characters/FaceGear/aviators/aviators.xob"
+  }
+ }
+ coords 7463.075 164.563 4334.062
+}

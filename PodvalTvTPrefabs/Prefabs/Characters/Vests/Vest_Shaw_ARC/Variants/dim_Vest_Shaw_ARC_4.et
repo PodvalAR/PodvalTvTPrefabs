@@ -1,0 +1,18 @@
+GameEntity : "{D4C9D29307ABAE44}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/dim_Vest_Shaw_ARC_preset_placard_coy.et" {
+ ID "6584F7DC1A90A8C7"
+ components {
+  BaseLoadoutClothComponent "{6584F7DC1A90A88E}" {
+   Slots {
+    LoadoutSlotInfo holster {
+     Prefab "{65975AC25C5695DD}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_MC.et"
+    }
+    LoadoutSlotInfo BACK : holster {
+     Offset 0 0.1431 -0.2471
+     Angles -4.7901 0 0
+     Prefab "{FD35858922374ECC}Prefabs/Characters/Vests/Vest_JPC_Pouches/Minimap_JPC_ZipOnPanel2.0_MC.et"
+    }
+   }
+  }
+ }
+ coords 6357.881 234.125 1813.229
+}

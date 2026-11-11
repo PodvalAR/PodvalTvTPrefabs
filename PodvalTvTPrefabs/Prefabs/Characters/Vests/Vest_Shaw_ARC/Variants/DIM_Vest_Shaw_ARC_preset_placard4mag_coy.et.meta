@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2CCAFA10EAC77B65}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/DIM_Vest_Shaw_ARC_preset_placard4mag_coy.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
