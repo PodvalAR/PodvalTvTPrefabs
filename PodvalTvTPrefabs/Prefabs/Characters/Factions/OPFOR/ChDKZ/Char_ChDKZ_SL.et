@@ -24,13 +24,13 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{B4D5A70A1B7CAC15}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_Camonet_Balaclava.et"
+     Prefab "{073F9D91EB3683BB}Prefabs/Characters/HeadGear/Hair_4.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{34B89390DAD5390B}Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{DCF980831E880F6B}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
+     Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
     }
     LoadoutSlotInfo Back {
      Prefab "{07E67141E21E6193}Prefabs/Items/Equipment/Radios/Radio_RF10_ChDKZ.et"
@@ -43,13 +43,13 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6895089E4D87A991}" {
-     TargetStorage "Pants/Pants_M88_ChDKZ.et"
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
     }
     ItemsInitConfigurationItem "{6895089E6D2552B8}" {
      TargetStorage "Vest/Vest_Lifchik_GL.et"
     }
     ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
-     TargetStorage "Pants/Pants_M88_ChDKZ.et"
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
     }
     ItemsInitConfigurationItem "{6896674CC7107619}" {
      TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"

@@ -3,8 +3,20 @@ SCR_ChimeraCharacter : "{5C0AE331B3038BC7}Prefabs/Characters/Factions/OPFOR/ChDK
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B8B7CB8DE9BD2B32}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F1E29085C62F0D55}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
+    }
     LoadoutSlotInfo Pants {
      Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
     }
    }
   }

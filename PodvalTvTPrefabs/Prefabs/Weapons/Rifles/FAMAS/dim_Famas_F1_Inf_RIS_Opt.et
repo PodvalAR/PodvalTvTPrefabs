@@ -1,0 +1,16 @@
+GenericEntity : "{F558990D26907494}Prefabs/Weapons/Rifles/FAMAS/Famas_F1_Inf_RIS_Eotech512_Handguard.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{68A7170A3D741C44}" {
+     AttachmentSlot InventoryStorageSlot OpticPGMP {
+      Prefab "{5109418A5C927E42}Prefabs/Weapons/Attachments/Optics/Scrome_J4/J4F1_Ris_NoCover.et"
+     }
+    }
+   }
+  }
+ }
+ coords 12152.503 148.941 12605.401
+ angles 0 0 0
+}

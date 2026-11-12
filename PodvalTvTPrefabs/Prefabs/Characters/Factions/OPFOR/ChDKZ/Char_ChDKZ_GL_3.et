@@ -1,13 +1,34 @@
 SCR_ChimeraCharacter : "{B607ABC153150ABF}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_GL.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 0
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{3C2C345310D0CD01}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_Flora.et"
+    }
     LoadoutSlotInfo Jacket {
      Prefab "{F1E29085C62F0D55}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
     }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
     LoadoutSlotInfo Pants {
      Prefab "{DCF980831E880F6B}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+    LoadoutSlotInfo Beard {
+     Enabled 0
+     Prefab ""
+    }
+    LoadoutSlotInfo Mustache {
+     Offset 0.005 0 -0.002
+     Enabled 1
+     Prefab "{E0896D1260EB7F1E}Prefabs/Characters/HeadGear/Disguise/Mustache/3/Mustache_3_2.et"
     }
    }
   }

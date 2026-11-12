@@ -1,0 +1,21 @@
+GenericEntity : "{9AA80190308C3696}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_GV_FA.et" {
+ ID "50E0B40D7407B664"
+ components {
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   Slots {
+    LoadoutSlotInfo Slot01 {
+     Prefab "{D66B3F44C82D6C9A}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_556/Pouch_Chargeur_FAMAS.et"
+    }
+    LoadoutSlotInfo Slot02 {
+     Prefab "{D66B3F44C82D6C9A}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_556/Pouch_Chargeur_FAMAS.et"
+    }
+    LoadoutSlotInfo Slot03 {
+     Prefab "{D66B3F44C82D6C9A}Prefabs/Items/Equipment/Accessories/PouchSystem/Ammo_556/Pouch_Chargeur_FAMAS.et"
+    }
+    LoadoutSlotInfo Holster {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

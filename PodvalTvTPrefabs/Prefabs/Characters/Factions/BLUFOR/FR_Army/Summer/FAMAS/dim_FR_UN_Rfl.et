@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{B73C7E95A25E639C}Prefabs/Characters/Factions/BLUFOR/FR_Army/Summer/dim_FR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{837EDA3789EC1C89}Prefabs/Weapons/Rifles/FAMAS/Famas_F1_Inf.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9C6F08D4C1D9486A}Prefabs/Characters/HeadGear/BERET/beret_ONU.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{1AEA725E5BB518ED}Prefabs/Characters/Uniforms/FELIN_T4S2_Vest/dim_FELIN_T4S2_Vest_CCE_Patch.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{740CCF55A4F1C51C}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/dim_Structure_Modulaire_Balistique_GV_FA_FAMAS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7ACBEAC605222C8A}Prefabs/Characters/Uniforms/FELIN_T4S2_Pantalon/Pants_FELIN_T4S2_CCE_base.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B0DD431891FC70}" {
+     TargetStorage "Pants/Pants_FELIN_T4S2_CCE_base.et"
+    }
+    ItemsInitConfigurationItem "{68B0DD4318E8B310}" {
+     TargetStorage "Pants/Pants_FELIN_T4S2_CCE_base.et"
+    }
+    ItemsInitConfigurationItem "{68B0DD4318C59FBA}" {
+     TargetStorage "Jacket/dim_FELIN_T4S2_Vest_CCE_Patch.et"
+    }
+   }
+  }
+ }
+ coords 12157.25 148.781 12603.095
+ angles 0 -90 0
+}

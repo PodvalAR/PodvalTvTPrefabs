@@ -1,0 +1,29 @@
+GenericEntity : "{B95BD66EA8F863C9}Prefabs/Characters/Vests/Structure_Modilaire_Balistique/Structure_Modulaire_Balistique_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  ClothNodeStorageComponent "{5CBB94DEFFB84EDB}" {
+   Attributes SCR_ItemAttributeCollection "{9F57E94ACA2F0BB4}" {
+    ItemDisplayName UIInfo "{8B6944136E48AC8C}" {
+     Name "#AMF-SMB-MG-Name"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5174C3E615D4689F}" {
+   Slots {
+    LoadoutSlotInfo Slot01 {
+     Prefab ""
+    }
+    LoadoutSlotInfo Slot02 {
+     Prefab "{BD87EE9AD7C9D662}Prefabs/Items/Equipment/Accessories/PouchSystem/MG_Minimi/Pouch_Minimi.et"
+    }
+    LoadoutSlotInfo Slot03 {
+     Prefab ""
+    }
+    LoadoutSlotInfo Holster {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 1382.147 36.089 2396.582
+}

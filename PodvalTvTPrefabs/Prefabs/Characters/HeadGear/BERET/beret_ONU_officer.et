@@ -1,0 +1,19 @@
+GameEntity : "{9C6F08D4C1D9486A}Prefabs/Characters/HeadGear/BERET/beret_ONU.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_EquipmentStorageComponent "{623D140941F2B3C9}" {
+   InitialStorageSlots {
+    SCR_EquipmentStorageSlot Insigne {
+     Prefab "{D4741F415BB1514D}Prefabs/Items/Equipment/Accessories/Insignes/Insigne_onu_base.et"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Headset {
+     Prefab "{1BD5B11497CFCA85}Prefabs/Characters/EarsGear/ELNO_IH_295/ELNO_IH_295_Base.et"
+    }
+   }
+  }
+ }
+}

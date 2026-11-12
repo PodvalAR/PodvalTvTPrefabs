@@ -4,13 +4,20 @@ SCR_ChimeraCharacter : "{D65A24FF9626C186}Prefabs/Characters/Factions/OPFOR/ChDK
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{4E7F048A55F63D05}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_Camo3_Balaclava.et"
+     Prefab "{DBE8E40D24D6226E}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_ChDKZ_W.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{D7402E3D0399FF54}Prefabs/Characters/Uniforms/Jacket_M88_VSR.et"
+     Prefab "{4E9265FECBCC99D8}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_W_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+    }
+    LoadoutSlotInfo HandWear {
+     AreaType LoadoutHandwearSlotArea "{5E38A40DE3C30495}" {
+     }
     }
    }
   }
@@ -23,7 +30,7 @@ SCR_ChimeraCharacter : "{D65A24FF9626C186}Prefabs/Characters/Factions/OPFOR/ChDK
      TargetStorage "Pants/Pants_M88_VSR.et"
     }
     ItemsInitConfigurationItem "{6896674CC7107619}" {
-     TargetStorage "Jacket/Jacket_M88_VSR.et"
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W_rolledup.et"
     }
    }
   }

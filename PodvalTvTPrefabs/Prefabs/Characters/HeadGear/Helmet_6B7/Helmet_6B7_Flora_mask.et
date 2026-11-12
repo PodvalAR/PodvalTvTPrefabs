@@ -1,0 +1,13 @@
+GameEntity : "{3C2C345310D0CD01}Prefabs/Characters/HeadGear/Helmet_6B7/Helmet_6B7_Flora.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{288E68BA8AD2A1E6}Prefabs/Characters/HeadGear/Hat_Balaclava/GD_Balaclava_3holes_Green.et"
+    }
+   }
+  }
+ }
+ coords 12141.851 148.782 12602.851
+}

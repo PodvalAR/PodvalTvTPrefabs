@@ -13,26 +13,29 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{4E7F048A55F63D05}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_Camo3_Balaclava.et"
+     Prefab "{DBE8E40D24D6226E}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_ChDKZ_W.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{34B89390DAD5390B}Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
+     Prefab "{EB0D74A43F74B522}Prefabs/Characters/Uniforms/Jacket_Denim_01/Jacket_Denim_01_strippedShirt.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+     Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6895089E4D87A991}" {
-     TargetStorage "Pants/Pants_M88_VSR.et"
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
+    }
+    ItemsInitConfigurationItem "{6895089E6D2552B8}" {
+     TargetStorage "ArmoredVest/Vest_6B3.et"
     }
     ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
-     TargetStorage "Pants/Pants_M88_VSR.et"
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
     }
     ItemsInitConfigurationItem "{6896674CC7107619}" {
-     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
+     TargetStorage "Jacket/Jacket_Denim_01_strippedShirt.et"
     }
     ItemsInitConfigurationItem "{6896674DBC143BD1}" {
      PrefabsToSpawn {

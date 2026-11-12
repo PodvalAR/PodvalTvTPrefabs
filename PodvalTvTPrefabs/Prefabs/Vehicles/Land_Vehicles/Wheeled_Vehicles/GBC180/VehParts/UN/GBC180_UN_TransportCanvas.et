@@ -1,0 +1,17 @@
+GenericEntity : "{6297DD514FA5D940}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/GBC180/VehParts/TDF/Cargo/GBC180_TransportCanvas.et" {
+ ID "64550876B5DD63D4"
+ components {
+  SCR_BaseCompartmentManagerComponent "{64550871503869D7}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6455087514A5354F}" {
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+    CompartmentDoorInfo "{6455086AE99DC433}" {
+     GetInTeleport 0
+     GetOutTeleport 0
+    }
+   }
+  }
+ }
+}

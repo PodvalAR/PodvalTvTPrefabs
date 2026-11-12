@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{BBF00F8ADB3573D8}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/GBC180/VehParts/UN/GBC180_UN_TransportCanvas.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

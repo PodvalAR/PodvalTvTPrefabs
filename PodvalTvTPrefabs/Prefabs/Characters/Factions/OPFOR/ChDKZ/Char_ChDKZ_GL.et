@@ -21,10 +21,42 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{7A55FD37C66FEDBE}Prefabs/Weapons/Rifles/AKM/Rifle_AKM_GP25_SteelMag.et"
   }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{5793DF10BF10B857}Prefabs/Characters/Heads/Head_White_03_Old.et"
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{96B007DE8CE73EAD}Prefabs/Characters/HeadGear/Hat_VDV_Beret/dim_Hat_Black_Beret.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4E9265FECBCC99D8}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_W_rolledup.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ADE19B33DCBB9005}Prefabs/Characters/Vests/Vest_6B2/Vest_6B2.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{164BE1C30C9FFF64}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56_GL.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
+    }
+    LoadoutSlotInfo Hair {
+     Offset 0 0 -0.03
+     Prefab "{D8BC09D15566C209}Prefabs/Characters/HeadGear/Disguise/Beard/1/Beard_1_1.et"
+    }
+    LoadoutSlotInfo Beard {
+     Offset 0 -0.004 -0.008
+     Enabled 1
+     Prefab "{6F158ADB7FAB34EC}Prefabs/Characters/HeadGear/Disguise/Beard/4/Beard_4_1.et"
     }
    }
   }
@@ -33,7 +65,11 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
     ItemsInitConfigurationItem "{6895089E6D2552B8}" {
      TargetStorage "Vest/Vest_Type56_GL.et"
     }
+    ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
+    }
     ItemsInitConfigurationItem "{6896674CC7107619}" {
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W_rolledup.et"
      PrefabsToSpawn + {
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }

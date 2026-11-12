@@ -1,0 +1,13 @@
+GameEntity : "{96B007DE8CE73EAD}Prefabs/Characters/HeadGear/Hat_VDV_Beret/dim_Hat_Black_Beret.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Beard {
+     Prefab "{0E03B938A0AE4826}Prefabs/Characters/HeadGear/Beard.et"
+    }
+   }
+  }
+ }
+ coords 12131.427 148.781 12604.331
+}

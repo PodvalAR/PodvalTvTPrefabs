@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5DB0C2B8BE5D4DA8}Assets/Props/Fabric/Flags/Data/dim_Flag_1_2_UN.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

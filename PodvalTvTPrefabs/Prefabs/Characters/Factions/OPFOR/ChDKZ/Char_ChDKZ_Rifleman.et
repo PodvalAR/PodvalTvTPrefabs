@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
@@ -12,33 +12,42 @@ SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDK
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2A39478105301F90}Prefabs/Characters/HeadGear/Hat_Beanie_Chechen/GD_ChechenHat_Bal_Black.et"
+    }
     LoadoutSlotInfo Jacket {
-     Prefab "{68751AF72289547D}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_rolledup.et"
+     Prefab "{EFC35FA4B1DFA562}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_W.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4CBDC206FEF9897C}Prefabs/Characters/Vests/Vest_6B3/Vest_6B3.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+     Prefab "{6C008B62EE578395}Prefabs/Characters/Uniforms/ChDKZ/Pants_M88_ChDKZ_W.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et"
+     Prefab ""
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{630D5B782BF30275}Prefabs/Characters/HandWear/dim_LeatherGlove_3.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6895089E4D87A991}" {
-     TargetStorage "Pants/Pants_KZS.et"
+     TargetStorage "Pants/Pants_M88_ChDKZ_W.et"
     }
     ItemsInitConfigurationItem "{6895089E6D2552B8}" {
-     TargetStorage "Vest/Vest_Lifchik.et"
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W.et"
     }
     ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
-     TargetStorage "Pants/Pants_KZS.et"
+     TargetStorage "ArmoredVest/Vest_6B3.et/Bayonet/Scabbard_Bayonet_6Kh4.et"
     }
     ItemsInitConfigurationItem "{6896674CC7107619}" {
-     TargetStorage "Jacket/Jacket_M88_ChDKZ_rolledup.et"
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W.et"
     }
     ItemsInitConfigurationItem "{6896674DBC143BD1}" {
-     TargetStorage "Vest/Vest_Lifchik.et"
+     TargetStorage "ArmoredVest/Vest_6B3.et"
      PrefabsToSpawn {
       "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
