@@ -9,5 +9,13 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
     }
    }
   }
+  TurretComponent "{66B89EFB839CEA0F}" {
+   components {
+    AMF_VehicleThermalVisionComponent "{670F09A2B19D6F34}" {
+     Enabled 0
+     m_bEnabled 0
+    }
+   }
+  }
  }
 }
