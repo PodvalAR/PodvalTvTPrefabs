@@ -1,0 +1,13 @@
+Turret : "{EFABCB93AD27109C}Prefabs/Vehicles/Land_Vehicles/Wheeled_Vehicles/_SharedData/Programme SCORPION/Turrets/Scorpion_Turret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{6856B73316825598}" {
+   components {
+    AMF_VehicleThermalVisionComponent "{6856B730D36A830F}" {
+     Enabled 0
+     m_bEnabled 0
+    }
+   }
+  }
+ }
+}
