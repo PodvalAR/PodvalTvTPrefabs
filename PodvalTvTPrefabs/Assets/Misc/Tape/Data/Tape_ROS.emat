@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.502 0 0 1
+ EnableFarHiding 1
+ BCRMap "{F92EE11F1DDAAEC8}Assets/Misc/Tape/Data/Tape_BCR.edds"
+ NMOMap "{C1F65A8DC4ADFC56}Assets/Misc/Tape/Data/Tape_NMO.edds"
+}

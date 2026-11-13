@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5D7897BBDC0D9F28}Assets/Characters/Uniforms/Pants_Tanker_USSR_01/Data/dim_Pants_Tanker_ROSGVARD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass Xbox : PC {
+  }
+ }
+}

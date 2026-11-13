@@ -1,0 +1,17 @@
+MatPBRMulti : "{0FB93B007F4E3A39}Assets/_BaseMaterials/Characters_MatPBRMulti.emat" {
+ SpecularMul 1.82
+ VFXMap "{4B663A23691616ED}Assets/Characters/Uniforms/Jacket_Tanker_USSR_01/Data/Jacket_Tanker_USSR_01_VFX.edds"
+ DirtUserOpacity 1
+ DirtOpacity 2
+ DirtLayerSharpness 0.5
+ DirtColor 0.147 0.118 0.118 1
+ DirtRoughness 1.7
+ DirtBCRMap "{08F15E9AD2DE7E86}Assets/_SharedData/Damage/ST_Clothes_DMG_Blood_BCR.edds"
+ DirtMaskMap "{28724AD5A1D70271}Assets/_SharedData/Damage/ST_Clothes_DMG_Blood_MASK.edds"
+ DirtUVTransform MatUVTransform "{6326E8BD705EE578}" {
+  TilingU 1.5
+  TilingV 1.5
+ }
+ BCR_1 "{ED6A35A9B3D0C640}Assets/Characters/Uniforms/Jacket_Tanker_USSR_01/Data/Jacket_Tanker_ROSGVARD_01_BCR.edds"
+ NMO_1 "{3B143F8B3572A781}Assets/Characters/Uniforms/Jacket_Tanker_USSR_01/Data/Jacket_Tanker_USSR_01_NMO.edds"
+}

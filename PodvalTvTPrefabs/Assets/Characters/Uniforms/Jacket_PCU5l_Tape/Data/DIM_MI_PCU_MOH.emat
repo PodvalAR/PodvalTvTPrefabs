@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.768 0.768 0.768 1
+ RoughnessScale 1.414
+ EnableFarHiding 1
+ BCRMap "{9A49A4DB472150C6}Assets/Characters/Uniforms/Jacket_PCU5l_Tape/Data/MI_PCU_MOH_BCR.edds"
+ NMOMap "{7B53C2DF3C766139}Assets/Characters/Uniforms/PCU_5lvl_Jacket/Data/Jacket_PCU_NMO.edds"
+}

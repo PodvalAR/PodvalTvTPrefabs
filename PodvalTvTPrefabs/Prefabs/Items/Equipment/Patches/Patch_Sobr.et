@@ -1,0 +1,10 @@
+GameEntity : "{71BC9D5E9A8CC938}Prefabs/Items/Equipment/Patches/Patch_Sobr_Granit.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornModel "{F0833D64FF8E63A8}Assets/Characters/Patches/rhs_patch_sobr_granit.xob"
+   ItemModel "{F0833D64FF8E63A8}Assets/Characters/Patches/rhs_patch_sobr_granit.xob"
+  }
+ }
+ coords 182.389 1.203 70.376
+}
