@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{FEB3128E5357C3A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Стрелок-Щитовик"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{B360FDBAB49587B4}Prefabs/Weapons/VANT_VM/VANT_VM_Khaki.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{400D7D8CECBB80F8}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/dim_Helmet_Kiver_RSP_2.et"
+    }
+   }
+  }
+ }
+ coords 83.838 1 184.983
+}

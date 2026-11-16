@@ -1,0 +1,15 @@
+GenericEntity : "{F273595A413A4498}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_B30_B31S_RailCover_RG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{662EBD3033C84A71}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab "{D96641FBB4AAF5E2}Prefabs/Weapons/Attachments/Optics/Dedal_NV/Optic_Dedal_NV_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 60.461 1.196 190.113
+}

@@ -1,0 +1,15 @@
+SCR_AIGroup : "{F77D5F8E4E2A70A7}Prefabs/Groups/BLUFOR/RHS_USAF/Group_RHS_USAF_Base.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+   m_iCompanyCallsign 1
+   m_iSquadCallsign 2
+  }
+ }
+ coords 10665.925 24.976 6206.894
+ angles 0 -97.286 0
+ m_aUnitPrefabSlots {
+  "{B015FB7ACC8F368E}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_SL_2.et" "{6293CB7C55F8928C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_TL_2.et" "{9A00294C24B6A8F9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_AR.et" "{1988F1F51E84CD36}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Rifleman_2.et" "{5155001831A8D46C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_LAT.et" "{D2CB99850EB77931}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Medic_2.et" "{12C90EA454FC1C56}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_SMAW.et" "{C846C0FA3D02D309}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Sniper_2.et"
+ }
+ m_sCustomNameSet "Counter Assault Team (CAT)"
+}

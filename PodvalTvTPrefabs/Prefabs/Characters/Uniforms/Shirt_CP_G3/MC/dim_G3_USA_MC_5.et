@@ -1,0 +1,15 @@
+GameEntity : "{23428DF912E6E1DF}Prefabs/Characters/Uniforms/Shirt_CP_G3/CP_G3_Shirt_ColA_BaseT_PushS_MC.et" {
+ ID "5104869D194C6243"
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo SleeveRightVelcro {
+     Offset -0.0058 -0.0424 -0.0715
+     Angles 10.2978 -170.53889 -26.9948
+     Prefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+    }
+   }
+  }
+ }
+ coords 1852.932 10.275 3666.7
+}

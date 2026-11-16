@@ -1,0 +1,8 @@
+SCR_AIGroup : "{F722F19CDE6535BA}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RHS_USAF_Squad_Motorized.et" {
+ ID "0000000000000001"
+ coords 1854.24 12.216 3684.927
+ angles 0 105 0
+ m_aUnitPrefabSlots {
+  "{3EF6F2469D998909}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_SL.et" "{EDE2DCD13797C1C9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_TL_Opt.et" "{537E0359AF1D2B1A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_AR.et" "{5EAB7D7858AA4230}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_GL.et" "{D316DF27B81A8DA3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_LAT.et" "{39310817FB1F33CA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_TL.et" "{1ABBD8BE88B66DE8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_AR_Opt.et" "{21250D30429C5672}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_CC.et" "{8C844FA2A8030344}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Crew.et"
+ }
+}

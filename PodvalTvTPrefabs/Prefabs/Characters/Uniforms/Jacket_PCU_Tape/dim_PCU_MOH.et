@@ -2,6 +2,29 @@ GameEntity : "{7231849F1B365DEC}Prefabs/Characters/Uniforms/Jacket_PCU_Tape/GD_P
  ID "5104869D194C6243"
  components {
   BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    RHS_LoadoutSlotInfo LeftVelcro {
+     PivotID "LeftArm"
+     Offset -0.0082 0.1314 0.0558
+     Angles 8.891 -0.1891 -178.2338
+     Prefab "{71BC9D5E9A8CC939}Prefabs/Items/Equipment/Patches/Patch_Sobr_Granit.et"
+     InspectionWidgetOffset -0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{60472A894655F281}" {
+     }
+     m_bShouldUseCMorphedMesh 1
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     PivotID "RightArm"
+     Offset 0.0128 -0.1321 -0.0514
+     Angles -9.4104 170.8074 -0.4001
+     Prefab "{71BC9D5E9A8CC939}Prefabs/Items/Equipment/Patches/Patch_Sobr_Granit.et"
+     InspectionWidgetOffset 0.3227 1.3451 -0.0613
+     AreaType RHS_LoadoutLargeVelcroSlotArea "{60472A894655F281}" {
+     }
+     m_sInspectIconTexture "{89731C321CB63D38}UI/Textures/InventoryIcons/Inspection-gizmo-patch-slot-L-alt-UI.edds"
+    }
+   }
    WornMaterialsOverride {
     "{F7138F4BD6CD580F}Assets/Characters/Uniforms/Jacket_PCU5l_Tape/Data/DIM_MI_PCU_MOH.emat" "{690909553C54F0D4}Assets/Misc/Tape/Data/Tape_ROS.emat"
    }

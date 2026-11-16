@@ -1,0 +1,10 @@
+GenericEntity : "{CB4D3F7152F83B15}Prefabs/Weapons/Handguns/M17/Handgun_M1718_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    CommonItemType "RHS_PISTOL"
+   }
+  }
+ }
+}

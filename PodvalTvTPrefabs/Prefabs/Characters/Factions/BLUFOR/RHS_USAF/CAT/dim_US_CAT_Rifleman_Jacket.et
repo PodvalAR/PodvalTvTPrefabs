@@ -38,6 +38,9 @@ SCR_ChimeraCharacter : "{12B0BA8C25BA10E4}Prefabs/Characters/Factions/BLUFOR/RHS
      Enabled 1
      Prefab "{1EE181082BA8C087}Prefabs/Characters/HeadGear/Disguise/Hair/3/Hair_3_2.et"
     }
+    LoadoutSlotInfo FaceSlot {
+     Prefab "{F3AF4290149DC47E}Prefabs/Characters/Coms/Delta_PTT_02.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

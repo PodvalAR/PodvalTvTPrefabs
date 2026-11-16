@@ -1,0 +1,86 @@
+SCR_ChimeraCharacter : "{ED4A0220B312C64F}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Peacekeepers/New/dim_MC_Rfl_3.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B71604F91171D7A4}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_B30_B31S_RailCover_XPS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{4E612A2347762BE8}Prefabs/Characters/HeadGear/Helmet_6B47/EMR/Helmet_6B47_Cover_EMR_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{738798231DAF3078}Prefabs/Characters/Uniforms/Pants_6b51_VKPO.et"
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F8B4DCE3F81C16EC}Prefabs/Characters/Vests/Vest_6Sh117/variants/6B45_Pouches_EMR/Vest_6Sh117_6B45_Pouches_Crew.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
+     TargetStorage "Pants/Pants_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
+     TargetStorage "Pants/Pants_6b51_VKPO.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot/Pouch_Ratnik_ak_pouch_new_1.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CCD2E5D3}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot2/Pouch_Ratnik_ak_pouch_new_2.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot3/Pouch_Ratnik_ak_pouch_new_3.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32CAA891FB}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/slot4/Pouch_Ratnik_ak_pouch_new_1.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32D309BBFC}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32DC4D37DD}" {
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A2CC32F45F0382}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32FB0D16CA}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt2/Pouch_Ratnik_GND_Pouch_3.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC33048A6D32}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/arsbelt_pistol2/Pouch_Ratnik_GND_Pouch_1.et"
+    }
+    ItemsInitConfigurationItem "{694731D93F7F8CA8}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/appi/Pouch_Ratnik_GND_Pouch_2.et"
+    }
+    ItemsInitConfigurationItem "{69477CFAB1821969}" {
+     TargetStorage "Vest/Vest_6Sh117_6B45_Pouches_Crew.et/uni1/Pouch_Ratnik_Uni_Pouch_1.et"
+    }
+   }
+  }
+ }
+ coords 1852.908 10.359 3674.884
+}

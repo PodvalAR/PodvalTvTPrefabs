@@ -1,0 +1,30 @@
+GameEntity : "{AA281E75D1074806}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/RGOlive/Helmet_LShZ_new_Blk_HC_Sordin_RGOlive.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{0E39B712A057DD4B}Prefabs/Characters/HeadGear/Helmet_LShZ/Headgear_lshz_cover_MC.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Angles 4.659 0 0
+     Prefab "{E98FDE86D12E6993}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_Full_FG.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    RHS_LoadoutSlotInfo RightVelcro {
+     Offset -0.0923 0.1683 -0.0104
+     Prefab "{140729DAE2388C8E}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Camo_multicam.et"
+    }
+    LoadoutSlotInfo PTT {
+     Prefab "{56416C6FC708A271}Prefabs/Characters/Coms/Delta_PTT_01.et"
+    }
+   }
+  }
+ }
+ coords 143.863 1 151.956
+}

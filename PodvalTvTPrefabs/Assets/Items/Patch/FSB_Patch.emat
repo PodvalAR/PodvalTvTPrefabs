@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.791 0.791 0.791 1
+ MetalnessScale 5
+ BCRMap "{5F059722EE260245}Assets/Items/Patch/FSB_Patch_BCR.edds"
+ NMOMap "{67DD2CB0375150DB}Assets/Items/Patch/FSB_Patch_NMO.edds"
+}

@@ -1,0 +1,8 @@
+SCR_AIGroup : "{7F40D42C0CE8A499}Prefabs/Groups/OPFOR/RHS_AFRF/Group_RHS_AFRF_Base.et" {
+ ID "0000000000000001"
+ coords 69.887 1 163.253
+ m_aUnitPrefabSlots {
+  "{A03597B05D1311B7}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_SL.et" "{A7F26DE13B95AB74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_TL.et" "{9FAAB8B501D8A747}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_MG.et" "{70194CB331FAA640}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_Shield.et" "{FEB3128E5357C3A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_Rifleman.et" "{C068188E9820DA8E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_GL.et" "{511A132AA4CF9977}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_RPO.et" "{3F2F63838FA57388}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_Sniper.et"
+ }
+ m_sCustomNameSet "СОБР"
+}

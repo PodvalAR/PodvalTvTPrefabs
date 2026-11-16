@@ -1,0 +1,19 @@
+GenericEntity : "{716253221DDDF9DA}Prefabs/Weapons/Rifles/AK74M/dim_AK74M_SD_3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{0147EC1780C80AEF}Prefabs/Weapons/Attachments/Muzzle/AK200_muzzle/RHS_AK200_muzzle.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 135.091 1.173 149.702
+}

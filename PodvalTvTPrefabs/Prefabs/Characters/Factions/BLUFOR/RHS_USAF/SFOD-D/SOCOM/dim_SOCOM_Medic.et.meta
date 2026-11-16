@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{11B49773D7F3B1F7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/SFOD-D/SOCOM/dim_SOCOM_Medic.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

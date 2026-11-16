@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{A6DBD0920FE3C6BF}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 1857.308 10.18 3713.086
+ angles 0 0 0
+}

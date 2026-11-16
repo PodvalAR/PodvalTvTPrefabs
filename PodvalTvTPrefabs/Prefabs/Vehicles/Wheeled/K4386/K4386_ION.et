@@ -1,0 +1,34 @@
+Vehicle : "{A61E5C16E9A2161A}Prefabs/Vehicles/Wheeled/K4386/K4386.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6AE0DA02792306DB}" {
+     SourceMaterial "Hull_Mat"
+     AssignedMaterial "{2B4385B83BA4E4A6}Assets/Vehicles/Wheeled/K4386/Data/Hull_Mat_ION_k43.emat"
+    }
+    MaterialAssignClass "{6AE0DA02792306CB}" {
+     SourceMaterial "Hull_Parts_Mat"
+     AssignedMaterial "{D37F769EA39AE2F4}Assets/Vehicles/Wheeled/K4386/Data/Hull_Parts_Mat_ION.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo ION_Decal {
+     PivotID "v_root"
+     Offset 1.1099 1.916 -2.3064
+     Angles 0 180 0
+     Prefab "{88BC8E66EF533FA9}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo.et"
+    }
+    EntitySlotInfo ION_Decal_2 {
+     PivotID "v_root"
+     Offset -1.0987 1.916 -2.3064
+     Prefab "{88BC8E66EF533FA9}Prefabs/Vehicles/Shared/decal_vehicle_ion_logo.et"
+    }
+   }
+  }
+ }
+ coords 7760.25 67.731 5588.148
+ angles 4.022 -0.032 -0.449
+}

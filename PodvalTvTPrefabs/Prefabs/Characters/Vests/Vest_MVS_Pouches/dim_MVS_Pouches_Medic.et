@@ -7,8 +7,33 @@ GameEntity : "{BC57726C23C22440}Prefabs/Characters/Vests/Vest_MVS_Pouches/dim_MV
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
     LoadoutSlotInfo Pouch1 {
-     Offset 0 -0.0207 0.0458
-     Prefab "{6F0BA7B4993F31E3}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
+     Offset -0.0002 -0.0015 0.1967
+     Prefab "{1FD189BDDCF89577}Prefabs/Characters/Vests/Vest_Shaw_ARC_Pouches/Pouch_Shaw_Placard_Elastic_Coy.et"
+    }
+    LoadoutSlotInfo Tako {
+     Offset -0.1691 0.0535 0.1504
+     Angles -0.7397 33.1088 1.0793
+     Prefab "{B1934198EEFDCB28}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    LoadoutSlotInfo m18_1 {
+     Offset -0.2251 -0.0754 0.0321
+    }
+    LoadoutSlotInfo radio {
+     Offset 0.1973 0.0076 -0.1003
+     Angles -2.5115 111.9142 -0.948
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    LoadoutSlotInfo raid {
+     Offset 0.0001 -0.1663 0.1897
+     Enabled 1
+    }
+    LoadoutSlotInfo tako {
+     Offset -0.1532 0.0046 0.0886
+     Prefab "{03F98F190A971B35}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+    }
+    LoadoutSlotInfo takobelt {
+     Offset -0.1879 0.007 0.0111
+     Prefab "{0B18049DFD080C8B}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
     }
     LoadoutSlotInfo m67_1 {
      Offset 0.1677 0.0171 -0.1218
@@ -18,6 +43,10 @@ GameEntity : "{BC57726C23C22440}Prefabs/Characters/Vests/Vest_MVS_Pouches/dim_MV
      Offset 0.0966 0.0158 -0.1599
      Angles 11.2872 157.96429 0.0564
     }
+    LoadoutSlotInfo m18_2 {
+     Offset -0.2279 -0.0651 -0.0493
+     Angles -5.4301 -110.6477 6.0061
+    }
     LoadoutSlotInfo Holster {
      PivotID "Spine1"
      Offset 0.2079 -0.009 -0.0126
@@ -26,14 +55,45 @@ GameEntity : "{BC57726C23C22440}Prefabs/Characters/Vests/Vest_MVS_Pouches/dim_MV
     }
     LoadoutSlotInfo Medkit {
      PivotID "Spine5"
-     Offset -0.0024 -0.0107 0.233
-     Prefab "{14720E0E98478512}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big_MC.et"
+     Offset -0.0027 -0.0088 0.2424
+     Angles -10.9776 0 0
+     Prefab "{D1498D51EC5747DC}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_ARC_Admin_Coy.et"
     }
     LoadoutSlotInfo Scissors {
      PivotID "Spine5"
      Offset 0.1414 0.0438 0.1469
      Angles 80.3646 65.7325 21.1092
      Prefab "{84203663B9B22FF7}Prefabs/Items/Equipment/Backpacks/Spiritus_System_DeltaBag/GD_Tourniquet.et"
+    }
+    LoadoutSlotInfo Phone {
+     PivotID "Spine5"
+     Offset 0 0.2059 0.1884
+     Angles -6.9942 180 0
+     Prefab "{DCEA26FB27C12D8D}Prefabs/Characters/Vests/Vest_JPC_Pouches/GD_JPC_Phone.et"
+    }
+    LoadoutSlotInfo Flex {
+     PivotID "Spine5"
+     Offset -0.1883 0.0034 -0.1069
+     Angles -4.8313 -116.1314 6.4969
+     Prefab "{5131F13163FFF2CA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Flex_MC.et"
+    }
+    RHS_LoadoutSlotInfo Velcro {
+     PivotID "Spine5"
+     Offset -0.0003 0 0.2857
+     Prefab "{89FDC21A848716E3}Prefabs/Items/Patches/GD_Patch_USA.et"
+     m_bShouldUseCMorphedMesh 1
+     m_fMorphValue 0.3
+    }
+    LoadoutSlotInfo Drop {
+     PivotID "Spine1"
+     Offset -0.1436 -0.0886 -0.1426
+     Angles 3.2793 17.8506 5.6378
+     Prefab "{1C2D23501BDA4B5E}Prefabs/Items/Equipment/Canteens/Holders/Canteen_Holder_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     PivotID "Spine5"
+     Offset 0.0107 0.0796 -0.2692
+     Prefab "{FD35858922374ECC}Prefabs/Characters/Vests/Vest_JPC_Pouches/Minimap_JPC_ZipOnPanel2.0_MC.et"
     }
    }
   }

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6439575D119997A2}Prefabs/Characters/Vests/Vest_Taktika/Variants/dim_Vest_Taktika_neck_arms_protection_black_SOBR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

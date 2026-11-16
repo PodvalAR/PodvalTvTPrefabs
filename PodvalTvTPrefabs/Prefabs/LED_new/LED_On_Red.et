@@ -1,0 +1,18 @@
+KF_LedEntity {
+ ID "6ADC1B47EFBBC0BC"
+ components {
+  MeshObject "{6ADC1B47EFBBC0AF}" {
+   Object "{A4085B050E578FAD}Assets/LED_new/sunstip-led-bar.xob"
+  }
+  Hierarchy "{6ADC1B47EFBBC0A2}" {
+  }
+ }
+ coords 0 0 0
+ {
+  KF_LedLightEntity : "{0F8DF89081DE88A4}Prefabs/LED_new/LED_new_BlueOn.et" {
+   ID "6ADC1B47EFBBC0BB"
+   coords 0 -0.008 -0.005
+   Color 0.502 0 0 1
+  }
+ }
+}

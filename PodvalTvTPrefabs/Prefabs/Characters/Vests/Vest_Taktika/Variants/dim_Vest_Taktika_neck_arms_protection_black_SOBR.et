@@ -1,0 +1,22 @@
+GameEntity : "{7513BB41AE20C536}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_neck_arms_protection_black.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GroinProtection {
+     Prefab "{3C9B7B520465E2F9}Prefabs/Characters/Vests/Vest_Taktika/attachment_Taktika_Groin_protection_black.et"
+    }
+    RHS_LoadoutSlotInfo PatchBack {
+     Prefab "{85EB7A7558F7B394}Prefabs/Items/Equipment/Patches/Patch_Sobr_big.et"
+    }
+    LoadoutSlotInfo Shoulders {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo PatchLeftHand {
+     Prefab "{30C3A87F16109380}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Reflective_Orange.et"
+    }
+   }
+  }
+ }
+ coords 128.807 0.584 139.017
+}

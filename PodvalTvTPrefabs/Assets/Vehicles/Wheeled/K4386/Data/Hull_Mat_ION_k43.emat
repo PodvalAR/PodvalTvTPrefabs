@@ -1,0 +1,38 @@
+MatPBRMulti {
+ Color 0.089 0.107 0.202 1
+ DisablePriorityProbes 1
+ VFXMap "{43B503A43E6BE092}Assets/Vehicles/Wheeled/K4386/Data/Hull_VFX.edds"
+ MudOpacity 1
+ MudColor 0.175 0.157 0.134 1
+ MudRoughness 0.547
+ MudMetalness 0
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{628745AE0BE3F448}" {
+  TilingU 2
+  TilingV 2
+ }
+ DirtOpacity 0.24
+ DirtLayerSharpness 1.397
+ DirtColor 0.531 0.459 0.363 1
+ DirtRoughness 5
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ GlobalMCRMap "{0B1FBD9EBB780360}Assets/Vehicles/Wheeled/K4386/Data/Hull_BCR.edds"
+ MaskMap "{01806C80FD94BFC4}Assets/Vehicles/Wheeled/K4386/Data/Hull_MASK.edds"
+ GlobalNMOMap "{33C7060C620F51FE}Assets/Vehicles/Wheeled/K4386/Data/Hull_NMO.edds"
+ Color_3 0.301 0.269 0.22 1
+ Roughness_3 0.425
+ Color_2 0.982 0.976 0.668 1
+ Roughness_2 0.508
+ Color_1 0.593 0.631 0.423 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{628741CBDEA38996}" {
+  TilingU 5
+  TilingV 5
+ }
+ DetNormal_1 1.255
+ Roughness_1 0.931
+}

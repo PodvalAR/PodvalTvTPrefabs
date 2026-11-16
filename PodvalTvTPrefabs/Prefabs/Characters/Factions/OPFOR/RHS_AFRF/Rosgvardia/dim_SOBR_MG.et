@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{FEB3128E5357C3A1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_MG"
+    Icon "{F98CF71C0B32DEF4}UI/Icons/heave_machine_gunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3B5D9549D8DCDB28}Prefabs/Weapons/MachineGuns/PKM/MG_PKP_B51_Eot_7n14.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{400D7D8CECBB80F8}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/dim_Helmet_Kiver_RSP_2.et"
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{63C385C25E2B7A16}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Bagari_MG.et"
+    }
+    LoadoutSlotInfo Extra6 {
+     Prefab "{A0CC736CAEB8E10B}Prefabs/Characters/Belts/Delta_Belt_03.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F3578E51BED3D}" {
+     TargetStorage "Vest/Vest_Bagari_MG.et/Radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6ADAE801A9B03107}" {
+     TargetStorage "Vest/Vest_Bagari_MG.et/PKM1/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801E29C56AF}" {
+     TargetStorage "Vest/Vest_Bagari_MG.et/PKM2/Pouch_Mordor_PKM_olive.et"
+     PrefabsToSpawn {
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801EB80D411}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6ADAE801B40CA97F}" {
+     Enabled 0
+    }
+    ItemsInitConfigurationItem "{6ADAE801C8F1FACD}" {
+     TargetStorage "Vest/Vest_Bagari_MG.et/FirstAid/Pouch_Taktika_holster_BLK.et"
+    }
+   }
+  }
+ }
+ coords 71.318 1 188.727
+}

@@ -1,0 +1,26 @@
+GameEntity : "{CDCF54B2ED24445E}Prefabs/Characters/HeadGear/Helmet_LShZ/variants/RGOlive/DIM_Helmet_LShZ_new_Blk_HC_Sordin_RGOlive.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab ""
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{76E61BEE80C6172B}Prefabs/Items/Equipment/Accessories/L4G24_EmptyNVGMount/L4G24_EmptyMount.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Offset 0 0.2161 -0.0047
+     Prefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+    }
+    LoadoutSlotInfo PTT {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 144.966 1 151.492
+}

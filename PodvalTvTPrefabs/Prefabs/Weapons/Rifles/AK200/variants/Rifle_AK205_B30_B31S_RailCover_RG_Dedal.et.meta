@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{96214A7209B1422D}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_B30_B31S_RailCover_RG_Dedal.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

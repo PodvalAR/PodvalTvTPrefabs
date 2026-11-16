@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{006D627C442307BF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/dim_Regular_Modern/dim_Regular_Sapper.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,82 @@
+SCR_ChimeraCharacter : "{CC3C90C893D9AC76}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_Unarmed.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3C57FE67CD5AB349}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_XPS_perst.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{E5C5834BE1D92FB3}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_SOBR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{4ACFEED9E8150846}Prefabs/Characters/Vests/Vest_Bagari/Variants/Vest_Bagari_arsarmadouble_1.et"
+    }
+    LoadoutSlotInfo Extra6 {
+     Enabled 1
+     Prefab "{9DF85654DBD4683C}Prefabs/Characters/Belts/Delta_Belt_04.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
+     PrefabsToSpawn {
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{689F3578E51BED3D}" {
+     Enabled 1
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+     TargetPurpose 1
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801A9B03107}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/slot/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801E29C56AF}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/slot3/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801EB80D411}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/util/Pouch_Taktika_universalpouch_coy.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801B40CA97F}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/slot2/Pouch_ArsArma_magouch_morphed_Blk.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801C8F1FACD}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/holster/Pouch_Taktika_holster_BLK.et"
+     PrefabsToSpawn {
+      "{A8B4089ACB473848}Prefabs/Weapons/Handguns/MP443/Handgun_MP443.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801C8CD8BD3}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/pistol2/Pouch_Taktika_magpouch_pistol_BLK.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801E798336A}" {
+     TargetStorage "Vest/Vest_Bagari_arsarmadouble_1.et/pistol/Pouch_Taktika_magpouch_pistol_BLK.et"
+     PrefabsToSpawn {
+      "{A5E373A524710040}Prefabs/Weapons/Magazines/MP443/Magazine_9x19_MP443_17rnd_7N31.et"
+     }
+    }
+   }
+  }
+ }
+ coords 41.463 1 189.261
+}

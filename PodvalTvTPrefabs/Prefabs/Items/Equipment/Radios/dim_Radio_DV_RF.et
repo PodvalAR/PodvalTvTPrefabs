@@ -1,0 +1,9 @@
+GenericEntity : "{8020A17F9C62EC93}Prefabs/Items/Equipment/Radios/dim_Radio_ANPRC77_US.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "coldBorscht"
+  }
+ }
+ coords 57.524 1 192.289
+}

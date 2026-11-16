@@ -1,0 +1,16 @@
+SCR_AIGroup : "{00BDD00EE2FD900E}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RHS_USAF_SpeZNaZ.et" {
+ ID "0000000000000001"
+ components {
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+   m_iCompanyCallsign 3
+   m_iPlatoonCallsign 1
+  }
+ }
+ coords 6252.522 234.325 1798.165
+ angles 0 49.039 0
+ m_aUnitPrefabSlots {
+  "{A11C2AC369657C7C}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_SL.et" "{A6DBD0920FE3C6BF}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_TL.et" "{CC94DBDC5BE1DE6F}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_AR.et" "{A33079BB819097B5}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_SMAW.et" "{D84AEB3AEBFAFE13}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_Rfl.et" "{D1F0305A18B260DA}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_Medic.et" "{4284C8DA0934C25F}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_Sapper.et" "{CBB23CB0737A9711}Worlds/DimOchka/Zimnitrita/TvT_BehindEnemyLines_Zimnitrita/US/dim_SOCOM_SPN_PARA_Marksman.et"
+ }
+ m_bSnapToTerrain 0
+ m_sCustomNameSet "SOCOM"
+}

@@ -1,0 +1,59 @@
+Vehicle : "{A53F4D3BB9DC85D4}Prefabs/Vehicles/Wheeled/K4386/K4386_RG.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Filenames + {
+    "{ECB3417228190021}Sounds/Vehicles/Wheeled/M151A2/Vehicles_Siren.acp"
+   }
+  }
+  KF_LedManagerComponent "{6ADD3230AAF97599}" {
+   m_iAmountLED 0
+   m_sLedOn "{1F0E24F16D0D15FB}Prefabs/LED_new/LED_On.et"
+   m_sLedOff "{F95911C7C979794B}Prefabs/LED_new/LED_Off.et"
+  }
+  KF_SirenManagerComponent "{6ADD3232F5F91DE6}" {
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Beacon {
+     PivotID "v_root"
+     Offset -0.6316 2.5229 0.3848
+     Prefab "{B9C8EC9E55E0B9D8}Prefabs/Beacon/Beacon_Off.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6ADD3230D41CF155}" {
+     ContextName "emergency"
+     Position PointInfo "{6ADD3230DEEF23CE}" {
+      PivotID "v_root"
+      Offset -0.1477 1.7607 0.8096
+     }
+    }
+   }
+   additionalActions {
+    KF_ToggleSirenAction "{6ADD3230EA3A01BE}" {
+     ParentContextList {
+      "emergency"
+     }
+     UIInfo SCR_ActionContextUIInfo "{6ADD3230FDCCBD18}" {
+      m_sIconName "sound-on"
+     }
+     "Sort Priority" 1
+    }
+    KF_ToggleLEDsAction "{6ADD323372B4B47F}" {
+     ParentContextList {
+      "emergency"
+     }
+     UIInfo SCR_ActionContextUIInfo "{6ADD32337BD666B0}" {
+      m_sIconName "veh_spotlight"
+     }
+     "Sort Priority" 2
+    }
+   }
+  }
+ }
+ coords 2975.223 27.203 4099.83
+ angles 0 -128.715 0
+}

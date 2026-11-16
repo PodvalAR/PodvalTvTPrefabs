@@ -1,0 +1,43 @@
+GenericEntity : "{FB0222D4CA72A3D3}Prefabs/Weapons/Rifles/M4A1/Variants/Forecon/Rifle_M4A1_RAS_ERGO_Forecon3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{BC68AE520F42BF35}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_Black.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA7F53DE1B1}" {
+     AttachmentSlot InventoryStorageSlot Upper {
+      Prefab "{E90610BC9145F65F}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_UpperReceiver_CCDM.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA8BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot ChargingHandle {
+      Prefab "{97236D8266A2971F}Prefabs/Weapons/Attachments/Misc/M4ChargingHandles/GA_GCH_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Prefab "{A62F1332EFC35258}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_grip.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{77A74F65BAEC73E2}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit_m4a1_ras.et"
+     }
+    }
+    AttachmentSlotComponent "{629B27DCF893C105}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629B27DF51CCD35F}" {
+      Prefab "{C32EC74B4B0C8CA1}Prefabs/Weapons/Attachments/Lights/Light_m300c_blk.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+    }
+   }
+  }
+ }
+ coords 1840.663 9.875 3623.667
+}

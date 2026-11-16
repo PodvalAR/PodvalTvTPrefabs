@@ -1,0 +1,15 @@
+GenericEntity : "{2FA8D9963A681482}Prefabs/Weapons/Rifles/AK74M/variants/RG/Rifle_AK104_b30_b31s_b33_RG.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{6645256E098FC90B}" {
+     AttachmentSlot InventoryStorageSlot grip {
+      Prefab "{9F185CFF674647BE}Prefabs/Weapons/Attachments/Grips/PistolGrip_AK74M_Zenit_RK3/RHS_AK74M_PistolGrip_Zenit_RK3_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 146.197 1.394 149.672
+}

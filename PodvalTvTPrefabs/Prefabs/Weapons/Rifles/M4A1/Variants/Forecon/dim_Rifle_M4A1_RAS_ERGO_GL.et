@@ -1,0 +1,32 @@
+GenericEntity : "{5BCFA9AAF74EC659}Prefabs/Weapons/Rifles/M4A1/Variants/Forecon/dim_Rifle_M4A1_RAS_ERGO_Forecon3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{9C42803E49305273}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1.et"
+     }
+    }
+    AttachmentSlotComponent "{6ADEDA04DF1FFCE4}" {
+     AttachmentSlot InventoryStorageSlot GL {
+      PivotID "barrel_chamber"
+      Prefab "{AAD55E46E75D3E1E}Prefabs/Weapons/Attachments/Underbarrel/UGL_RHS_M203_SU253.et"
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{6ADEDA04FA076BC2}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1860.926 10.389 3712.579
+}

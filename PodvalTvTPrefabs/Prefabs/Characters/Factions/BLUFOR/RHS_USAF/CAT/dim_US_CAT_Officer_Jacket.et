@@ -1,0 +1,43 @@
+SCR_ChimeraCharacter : "{DBAACEF64639B92A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_SL_Jacket.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Officer"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{7E57153B43C50462}Prefabs/Characters/Heads/Wound/Head_White_10_Wound.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{3D107B3C7F8107D1}Prefabs/Characters/Uniforms/Pants_Jeans/GD_Jeans.et"
+    }
+    LoadoutSlotInfo Hair {
+     Enabled 1
+     Prefab "{CB3F3317B5E17B07}Prefabs/Characters/HeadGear/Disguise/Hair/1/Hair_1_2.et"
+    }
+    LoadoutSlotInfo FaceSlot {
+     Prefab "{F3AF4290149DC47E}Prefabs/Characters/Coms/Delta_PTT_02.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/GD_Jeans.et"
+    }
+   }
+  }
+ }
+ coords 10686.179 25.359 6180.998
+ angles 0 -72.273 0
+}

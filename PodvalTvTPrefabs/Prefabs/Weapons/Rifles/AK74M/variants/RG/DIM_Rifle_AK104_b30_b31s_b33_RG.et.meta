@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{66495EACDD56BFA5}Prefabs/Weapons/Rifles/AK74M/variants/RG/DIM_Rifle_AK104_b30_b31s_b33_RG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

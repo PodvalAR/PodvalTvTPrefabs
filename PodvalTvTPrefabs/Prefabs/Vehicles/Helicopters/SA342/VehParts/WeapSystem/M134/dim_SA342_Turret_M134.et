@@ -1,0 +1,24 @@
+Turret : "{7AA8F43B3B62E534}Prefabs/Vehicles/Helicopters/SA342/VehParts/WeapSystem/M134/SA342_Turret_M134.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6ADEDA00A0760585}" {
+     SourceMaterial "SA342_M134_MAT01"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+    MaterialAssignClass "{6ADEDA00A076046A}" {
+     SourceMaterial "SA342_M134_MAT02"
+     AssignedMaterial "{9668A21511C6F791}Assets/_SharedData/Decals/Invisible_Material.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{6A2A11E0EF493000}" {
+   Slots {
+    RegisteringComponentSlotInfo M134_dummy_mag {
+    }
+   }
+  }
+ }
+ coords 479.428 20.728 230.193
+}

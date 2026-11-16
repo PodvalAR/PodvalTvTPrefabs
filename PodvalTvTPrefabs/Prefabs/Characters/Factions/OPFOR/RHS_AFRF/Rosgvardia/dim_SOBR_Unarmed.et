@@ -1,0 +1,55 @@
+SCR_ChimeraCharacter : "{630A989E651D5279}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Char_RHS_AFRF_Regular_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{CCB365E9B5737ECD}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo_black.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_Rifleman"
+    Icon "{29DF9BB937ACDCDE}UI/Icons/rifleman.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DFE8C08505E19C3D}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/dim_Helmet_Kiver_RSP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5DC12C8FC126A73C}Prefabs/Characters/Uniforms/Jacket_PCU_Tape/dim_PCU_MOH.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{A5EFBD3606768910}Prefabs/Characters/Vests/Vest_Bagari/Vest_Bagari_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{EB270C1733D31298}Prefabs/Characters/Uniforms/Pants_Tanker_USSR_01/dim_Pants_Tanker_ROSGVARD_tucked.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F35786861AA08}" {
+     TargetStorage "Pants/dim_Pants_Tanker_ROSGVARD_tucked.et"
+    }
+    ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
+     TargetStorage "Jacket/dim_PCU_MOH.et"
+    }
+    ItemsInitConfigurationItem "{689F3578E51BED3D}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 43.541 1 190.383
+}

@@ -1,0 +1,36 @@
+GameEntity : "{CCB46533102B7298}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_BebraPKM_1.et" {
+ ID "6212A0DD8DDB0F88"
+ components {
+  MeshObject "{6212A0DD8DDB0FE5}" {
+   Object "{E1BBDA1F6E3A4F0E}Assets/Characters/Vests/Vest_Common/rhs_equipment_empty.xob"
+  }
+  BaseLoadoutClothComponent "{6212A0DD8DDB0FD0}" {
+   Slots {
+    LoadoutSlotInfo PKM1 {
+     Offset -0.2734 -0.1546 -0.0281
+     Prefab "{953FD4E496EB2F24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
+    }
+    LoadoutSlotInfo PKM2 {
+     Prefab "{953FD4E496EB2F24}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Mordor_PKM_olive.et"
+    }
+    LoadoutSlotInfo Bayonet {
+     Offset -0.0987 0.2282 0.1389
+     Angles -80.0563 32.3911 -125.1225
+    }
+    LoadoutSlotInfo FirstAid {
+     PivotID "Spine5"
+     Offset -0.0016 0.1777 0.1803
+     Angles 3.5693 -3.5714 63.9521
+     Prefab "{F75348AF05B91DD7}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+    }
+    LoadoutSlotInfo Radio {
+     PivotID "Spine5"
+     Offset -0.1302 -0.0144 -0.1688
+     Angles 8.7298 20.4975 0
+     Prefab "{BD1AE23200E4CA1E}Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_radioPouch_BLK.et"
+    }
+   }
+  }
+ }
+ coords 33.381 1 196.909
+}

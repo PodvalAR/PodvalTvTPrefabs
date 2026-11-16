@@ -1,0 +1,58 @@
+GenericEntity : "{5BCFA9AAF74EC659}Prefabs/Weapons/Rifles/M4A1/Variants/Forecon/dim_Rifle_M4A1_RAS_ERGO_Forecon3.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0ED05F322AB08B}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA2A35B78B4}" {
+     AttachmentSlot InventoryStorageSlot Buffertube {
+      Prefab "{2DEC39F2D81DB4AF}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BufferTube_ODG.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+      Prefab "{37CBCC1470A13E77}Prefabs/Weapons/Attachments/Stocks/Stock_AR15_SOPMOD/RHS_M4_SOPMOD_ODG.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{E2D47DD5E8557199}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_RasUpperErgoAfg.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA7F53DE1B1}" {
+     AttachmentSlot InventoryStorageSlot Upper {
+      Prefab "{8909EB542122B32C}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_UpperReceiver_ODG.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA8BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot ChargingHandle {
+      Prefab "{D6993AED3972DBDA}Prefabs/Weapons/Attachments/Misc/M4ChargingHandles/GA_GCH_ODG.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Prefab "{158AF827F9114A36}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-3.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{743EDE2DDD638EE0}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_m4a1_block2.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1859.675 10.286 3713.361
+}

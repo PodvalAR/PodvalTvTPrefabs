@@ -1,0 +1,9 @@
+GenericEntity : "{9B8CDC3CD2E535D2}Prefabs/Weapons/Magazines/30x113_M230LF_250rnd/Box_30x113_M230LF_250rnd_HEDP_M789.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MaxAmmo 450
+   AmmoConfig "{63FE1AF2E4A81EC4}Configs/Weapons/Ammo/Ammo_20x102.conf"
+  }
+ }
+}

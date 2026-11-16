@@ -1,0 +1,20 @@
+GenericEntity : "{90AAF0814ABB9692}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK200_XPS_perst_klesh.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Prefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+     }
+    }
+    AttachmentSlotComponent "{662EBD327DAD2CDB}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot AttachmentSlot {
+      Prefab ""
+     }
+    }
+   }
+  }
+ }
+ coords 1848.384 10.442 3673.79
+}

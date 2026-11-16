@@ -1,0 +1,71 @@
+SCR_ChimeraCharacter : "{A7F26DE13B95AB74}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Rosgvardia/dim_SOBR_TL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{61B33057F7F0A4AE}UI/Icons/squad_leader.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{96214A7209B1422D}Prefabs/Weapons/Rifles/AK200/variants/Rifle_AK205_B30_B31S_RailCover_RG_Dedal.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{400D7D8CECBB80F8}Prefabs/Characters/HeadGear/Helmet_Kiver_RSP/dim_Helmet_Kiver_RSP_2.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{F2803C1B1EA5CFF9}Prefabs/Items/Equipment/Radios/dim_Radio_DV_RF.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{402406B5207B5B3C}Prefabs/Characters/Vests/Vest_Bagari/Variants/Vest_Bagari_mp117.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F3578E51BED3D}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6ADAE801A9B03107}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/slot3/Pouch_ArsArma_magouch_morphed_Blk.et"
+    }
+    ItemsInitConfigurationItem "{6ADAE801E29C56AF}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/slot/Pouch_wartech_magpouch_mp117_blk.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801EB80D411}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/slot2/Pouch_wartech_magpouch_mp117_blk_2.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801B40CA97F}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/medkit/Pouch_wartech_magpouch_mp117_blk_3.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE8040283CAD2}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/pistol2/Pouch_wartech_magpouch_mp117_blk.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE801C8F1FACD}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/holster/Pouch_Taktika_holster_BLK.et"
+    }
+    ItemsInitConfigurationItem "{6ADAE801C8CD8BD3}" {
+     TargetStorage "Jacket/dim_PCU_MOH.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 56.559 1 189.038
+}

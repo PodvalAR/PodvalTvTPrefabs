@@ -1,0 +1,18 @@
+GameEntity : "{71BC9D5E9A8CC939}Prefabs/Items/Equipment/Patches/Patch_Sobr_Granit.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "FSB \"Alpha\" Patch"
+     Description "FSB \"Alpha\" Patch"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornModel "{75E400ECC556A9E7}Assets/Items/Patch/dim_Patch_FSB_SOBR.xob"
+   ItemModel "{75E400ECC556A9E7}Assets/Items/Patch/dim_Patch_FSB_SOBR.xob"
+  }
+ }
+ coords 61.705 1.335 173.883
+}

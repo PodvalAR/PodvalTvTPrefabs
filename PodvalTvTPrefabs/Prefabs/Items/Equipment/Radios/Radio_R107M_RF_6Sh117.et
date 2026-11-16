@@ -6,6 +6,9 @@ GenericEntity : "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF
   }
   SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 9
+    }
     CustomAttributes {
      PreviewRenderAttributes "{5EA4A89F0D06E1A6}" {
       PreviewModel "{68544162A21D42F7}Assets/Items/Equipment/Backpacks/Backpack_6Sh117/6sh117_backpack.xob"

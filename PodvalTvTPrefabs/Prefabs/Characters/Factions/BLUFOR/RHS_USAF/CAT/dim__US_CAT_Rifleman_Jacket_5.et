@@ -1,0 +1,34 @@
+SCR_ChimeraCharacter : "{AB3B0BA0F1553FB7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/CAT/dim_US_CAT_Rifleman_Jacket.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{2B3F0AA3CC72FE5C}Prefabs/Weapons/Rifles/M4A1/PMC_New/M4_PMC_noSD_2.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{143245D81F2BAB94}Prefabs/Characters/Heads/Head_White_10.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{6925E6C63EBCF623}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkBrown.et"
+    }
+    LoadoutSlotInfo Hair {
+     Prefab "{CB3F3317B5E17B07}Prefabs/Characters/HeadGear/Disguise/Hair/1/Hair_1_2.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{652C93AEBD1EDE56}" {
+     TargetStorage "Pants/Pants_Trousers_01_DarkBrown.et"
+    }
+   }
+  }
+ }
+ coords 10676.471 25.122 6165.865
+ angles 0 73.229 0
+}

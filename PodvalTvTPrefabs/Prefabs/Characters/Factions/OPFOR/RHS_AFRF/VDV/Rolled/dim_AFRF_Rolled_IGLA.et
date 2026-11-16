@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{62FA09F9BF255324}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Rolled/dim_AFRF_Rolled_Rfl_4.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Стрелок ПЗРК"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et"
+  }
+ }
+ coords 1857.944 10.345 3687.285
+}

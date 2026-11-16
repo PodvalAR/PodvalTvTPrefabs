@@ -1,0 +1,135 @@
+SCR_ChimeraCharacter : "{938D37D0935C0821}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_AAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{5BCFA9AAF74EC659}Prefabs/Weapons/Rifles/M4A1/Variants/Forecon/dim_Rifle_M4A1_RAS_ERGO_Forecon3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{78760F6FF33262D8}Prefabs/Characters/HeadGear/Helmet_IHPS/dim_IHPS_Cover.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{B19F6A3318D2D57C}Prefabs/Characters/Uniforms/ACU_jacket/ACU_jacket_rolled_up_MC.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9B26DF342C22CB68}Prefabs/Characters/Vests/Vest_MSV_Gen_II/Vest_MSV_II_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5FB97B757511D4AA}Prefabs/Characters/Uniforms/Pants_CP_G3/CP_G3_Pants_no_kpads_MC.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{F5FDF3B86AEFC377}Prefabs/Characters/Vests/Vest_MVS_Pouches/dim_MVS_RFL.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A00A6AAA54EFB8}" {
+     TargetStorage "Pants/CP_G3_Pants_no_kpads_MC.et"
+     PrefabsToSpawn {
+      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A00A6AAA7D386F}" {
+     TargetStorage "Jacket/ACU_jacket_rolled_up_MC.et"
+    }
+    ItemsInitConfigurationItem "{68A00A6AAA6E64F1}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/Tako/Pouch_AVS_MBITR_Radio_MC.et"
+    }
+    ItemsInitConfigurationItem "{68A09108178F884E}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/Pouch1/Pouch_Shaw_Placard_Elastic_Coy.et"
+     PrefabsToSpawn {
+      "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et" "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et" "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A09108EC150941}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/radio/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A09108FF4B9DE6}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/Flex/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68A09108A8FD2A08}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/Back/Minimap_JPC_ZipOnPanel2.0_MC.et"
+     PrefabsToSpawn {
+      "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et" "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et" "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et" "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et" "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD68768E3A5261}" {
+     TargetStorage "Vest/dim_MVS_Pouches_Medic.et/Tako2/Pouch_Shaw_Flex_MC.et"
+     PrefabsToSpawn {
+      "{546DA68AC0D47D36}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_M855A1_last5tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD687693026762}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/Holster/GD_Holster_SLS_Tan.et"
+     PrefabsToSpawn {
+      "{1F9DA556822C78DA}Prefabs/Weapons/Handguns/M17/Handgun_M18.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD68769CFE9AE5}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/pistolpouch2/Pouch_Highspeed_Pistol_MC.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD68769C7F7ADB}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/pistol2/Pouch_Highspeed_Pistol_MC.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD68769EDD3599}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/takobelt/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD68769E581963}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/m67_1/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD687564DAB9EE}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/m18_1/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD687FAD85265A}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/m67_2/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD687FAD1605FF}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/tako/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADD68769B85327B}" {
+     TargetStorage "Vest/dim_MVS_RFL.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1843.884 9.687 3624.035
+ angles 0 98.504 0
+}
