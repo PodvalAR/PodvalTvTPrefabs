@@ -1,0 +1,19 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+}
+PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+}
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 147.403 1 162.686
+ Factions {
+  SCR_Faction "{69391C43B7204D06}" : "{49C06D00B0B978C4}Configs/Factions/Drg_VCA.conf" {
+  }
+ }
+}
+$grp SCR_AIGroup {
+ {
+  coords 156.951 1 239.19
+ }
+ {
+  coords 157.64 1 242.295
+ }
+}

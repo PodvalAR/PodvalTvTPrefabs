@@ -1,0 +1,9 @@
+GenericEntity : "{0BD021AF683E2307}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2.et" {
+ coords 59.496 1 42.765
+}
+GenericEntity : "{30BEB45927632AB6}Prefabs/Weapons/Magazines/Magazin_M230/M230_Magazine_podval.et" {
+ coords 230.209 1 233.462
+}
+GenericEntity : "{432948BE02348302}Prefabs/Weapons/Cannons/Cannon_M230/M230_Podval.et" {
+ coords 229.749 1 232.484
+}

@@ -1,0 +1,19 @@
+GenericEntity : "{3C86902420C4EFB5}Prefabs/Weapons/Cannons/M230/M230_Base.et" {
+ ID "629D584AB4B5971F"
+ components {
+  WeaponComponent "{629D584A845F8B28}" {
+   components {
+    MuzzleComponent "{629D584A80C39F75}" {
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 200
+       UIName "200"
+      }
+     }
+     MagazineTemplate "{30BEB45927632AB6}Prefabs/Weapons/Magazines/Magazin_M230/M230_Magazine_podval.et"
+    }
+   }
+  }
+ }
+ coords 229.749 1 232.484
+}
