@@ -1,0 +1,2223 @@
+Vehicle : "{CBD8C2393BE87581}Prefabs/Vehicles/Core/Helicopter_Base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+   Filenames {
+    "{7FA054EDBB0934FB}Sounds/Vehicles/Helicopters/AH64D/AH64D_Rotor_Turbine.acp" "{B8F36D4FB6256713}Sounds/Vehicles/Helicopters/AH64D/AH64D_Animations.acp" "{5D4DDB6D802EFD9C}Sounds/Vehicles/_SharedData/Crashes/Helicopters/Vehicles_Crashes_Helicopters.acp" "{2F7A88127617CD05}Sounds/Vehicles/Helicopters/UH1H/Vehicles_UH1H_Rain.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{8AEE066DE38CB330}Sounds/Vehicles/Helicopters/AH64D/AH64D_Dampers.acp" "{17189463513F5EA6}Sounds/Vehicles/Helicopters/UH1H/Vehicles_UH1H_Warnings.acp" "{F41C3D53A2B69D85}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction_Fires.acp" "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp" "{F1030E91E4B33E24}Sounds/Vehicles/_SharedData/WaterInteractions/Vehicles_WaterInteractions.acp" "{90C3FBAEE0842917}Sounds/Vehicles/_SharedData/Warnings/MissileWarningSystem/WCS_Armaments_MissileWarningSystem_Incoming.acp" "{B12946540CB7BED0}Sounds/Weapons/Launchers/_SharedData/IR_Module/WCS_Weapons_Launchers_IR_Module.acp" "{CE6CD588AD1D4722}Sounds/Vehicles/_SharedData/FireExtinguisher/WCS_Vehicles_FireExtinguisher.acp"
+   }
+   ScriptCallbacks 1
+   SoundPoints {
+    SoundPointInfo Rain_Window_Front {
+     Offset 0 2.5968 3.4503
+    }
+    SoundPointInfo Engine_L {
+     Offset -0.7575 2.5 -1.8
+     Angles 0 180 0
+    }
+    SoundPointInfo Engine_R {
+     Offset 0.7575 2.5 -1.8
+     Angles 0 180 0
+    }
+    SoundPointInfo Engine {
+     Offset 0 2.3869 -1.5067
+    }
+    SoundPointInfo Warning_Speaker {
+     Offset -0.3379 2.3404 2.0069
+    }
+    SoundPointInfo FuelTank {
+     Offset 0.6251 1.7276 -1.7426
+    }
+    SoundPointInfo MWS {
+     PivotID "Scene_Root"
+     Offset 0.3612 2.7242 1.8776
+    }
+    SoundPointInfo APU_Burn {
+     Offset 0 2.377 -0.8818
+     Angles 0 -90 0
+    }
+    SoundPointInfo MainRotor_Front {
+     PivotID "v_rotor"
+    }
+    SoundPointInfo MainRotor_Back {
+     PivotID "v_tail_rotor"
+    }
+    SoundPointInfo Cargo_Door {
+     Offset 0 1.0897 -3.5321
+    }
+   }
+   m_aHitZoneStateSignalData {
+    SCR_HitZoneStateSignalData "{6AE1537FA6ED9D66}" {
+     m_sSignalName "Engine_01DamageState"
+     m_aHitZoneNames {
+      "Engine_01"
+     }
+    }
+    SCR_HitZoneStateSignalData "{6AE1537FA6ED9D61}" {
+     m_sSignalName "Engine_02DamageState"
+     m_aHitZoneNames {
+      "Engine_02"
+     }
+    }
+    SCR_HitZoneStateSignalData "{6AE1537FA6ED9D5E}" {
+     m_sSignalName "GearboxDamageState"
+     m_aHitZoneNames {
+      "Gearbox_01"
+     }
+    }
+    SCR_HitZoneStateSignalData "{6AE1537FA6ED9D5F}" {
+     m_sSignalName "RotorTailDamageState"
+     m_aHitZoneNames {
+      "RotorTail"
+     }
+    }
+   }
+  }
+  AKI_Core_TorqueDisplayComponent "{6AE1537FA6ED9D5B}" {
+   id "GunnerTorque"
+   m_LayoutPath "{7D43EBD96FFAB933}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Torque.layout"
+  }
+  BaseHUDComponent "{53151DD7042F85C7}" {
+   Enabled 0
+  }
+  BaseLightManagerComponent "{51F88B1C7D1C1F11}" {
+   LightSlots {
+    AKI_Core_AnimatedLightSlot "{630476B168AABC51}" : "{BC5990B6EFDADBAF}Prefabs/Vehicles/Core/Lights/Light_Searchlight.conf" {
+     LightType SearchLight
+     LightPositionInfo EntitySlotInfo "5DD6BB25F0B075F2" {
+      PivotID "v_lights_landing"
+      Offset 0 0 0.0109
+     }
+     LightPrefab "{EE87F427243DBA99}Prefabs/Vehicles/Helicopters/AH64D/Lights/AH64D_Light_Taxi.et"
+     m_sAnimVarName "TaxiLights"
+    }
+    SCR_LightSlot "{630476B14B995788}" : "{389C5BE58A8301AF}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_AntiCollision.conf" {
+     LightType Hazard
+     LightPositionInfo EntitySlotInfo d {
+      PivotID "v_lights_anticol_L"
+      Offset 0.0039 -0.0389 -0.0016
+     }
+     LightPrefab "{FF5D8ABF8AFBC7CD}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_AntiCollision.et"
+     LightShouldTick 1
+    }
+    SCR_LightSlot "{630476B1386B29FE}" : "{389C5BE58A8301AF}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_AntiCollision.conf" {
+     LightType Hazard
+     LightPositionInfo EntitySlotInfo d {
+      PivotID "v_lights_anticol_R"
+      Offset 0.0039 -0.0389 -0.0016
+     }
+     LightPrefab "{FF5D8ABF8AFBC7CD}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_AntiCollision.et"
+     LightShouldTick 1
+    }
+    SCR_LightSlot "{630476B2E925E264}" : "{3785FB404D750B29}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Navigation_Red.conf" {
+     LightType Rear
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_lights_nav_front_L"
+      Offset 0 0 0
+      Angles 0 0 0
+     }
+     LightPrefab "{A67B39D999D0C004}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_Navigating_Red.et"
+    }
+    SCR_LightSlot "{630476B2FE647C76}" : "{B45871A92F0FEFB5}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Navigation_Green.conf" {
+     LightType Rear
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_lights_nav_front_R"
+      Offset 0 0 0
+      Angles 0 0 0
+     }
+     LightPrefab "{B41AB478B563D8B8}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_Navigating_Green.et"
+    }
+    SCR_LightSlot "{630476B2250D0418}" : "{3785FB404D750B29}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Navigation_Red.conf" {
+     LightType Rear
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_lights_nav_back"
+      Offset 0 0 0
+      Angles 0 0 0
+     }
+     LightPrefab "{71EC0DD9D3A5A496}Prefabs/Vehicles/Helicopters/AH64D/Lights/AH64D_Light_Navigation_White.et"
+    }
+    SCR_LightSlot "{630476B3EC1246D4}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Reverse
+     LightState 0
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_pilot"
+      Offset -0.2513 0.09 -0.7302
+      Angles -3.8074 20.0381 26.609
+     }
+     LightPrefab "{8AB80EFA3CC3DC38}Prefabs/Vehicles/Helicopters/AH64D/Lights/AH64D_Light_Dome.et"
+    }
+    SCR_LightSlot "{630476B3D15BD43C}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Reverse
+     LightState 0
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_pilot"
+      Offset 0.2603 0.0917 -0.755
+      Angles -3.8074 -20 26.609
+     }
+     LightPrefab "{8AB80EFA3CC3DC38}Prefabs/Vehicles/Helicopters/AH64D/Lights/AH64D_Light_Dome.et"
+    }
+    SCR_LightSlot "{630476B38BD41702}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Reverse
+     LightState 0
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_copilot"
+      Offset -0.2603 0.0917 -0.755
+      Angles -15.3716 29.8335 -8.6438
+     }
+     LightPrefab "{8AB80EFA3CC3DC38}Prefabs/Vehicles/Helicopters/AH64D/Lights/AH64D_Light_Dome.et"
+    }
+    SCR_LightSlot "{630476B360FDA844}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Reverse
+     LightState 0
+     LightPositionInfo EntitySlotInfo s {
+      PivotID "v_copilot"
+      Offset 0.2603 0.0917 -0.755
+      Angles -15.3716 -29.8335 -8.6438
+     }
+     LightPrefab "{8AB80EFA3CC3DC38}Prefabs/Vehicles/Helicopters/AH64D/Lights/AH64D_Light_Dome.et"
+    }
+   }
+   LightAction {
+    LightUserAction "{630476B3392DE99D}" : "{0486F7DDDF9F5AC3}Prefabs/Vehicles/Core/Configs/Lights/Helicopters/LightUserAction_LandingLights.conf" {
+     ParentContextList {
+      "light_navigation"
+     }
+     VisibilityRange 1.5
+     CanAggregate 1
+     "Sort Priority" 3
+     m_eLightType SearchLight
+     m_sBlockedByPilotText "#AR-UserAction_ControlledByPilot"
+    }
+    LightUserAction "{65FF178AAFE528D6}" : "{7C7FFC226B2CC189}Prefabs/Vehicles/Core/Configs/Lights/Helicopters/LightUserAction_NavigationLights.conf" {
+     VisibilityRange 1.5
+     CanAggregate 1
+     "Sort Priority" 1
+     m_eLightType Rear
+     m_sBlockedByPilotText "#AR-UserAction_ControlledByPilot"
+    }
+    LightUserAction "{630476B3185AAF1F}" : "{CDB33B57EC80E509}Prefabs/Vehicles/Core/Configs/Lights/Helicopters/LightUserAction_DomeLights_bright.conf" {
+     UIInfo SCR_ActionUIInfo "{5E59577602F9EA6C}" {
+      Name "#AR-UserAction_DomeLights"
+      m_sIconName "veh_beam_light"
+     }
+     VisibilityRange 1.5
+     CanAggregate 1
+     m_eLightType Reverse
+     m_sBlockedByPilotText "#AR-UserAction_ControlledByPilot"
+    }
+    LightUserAction "{630476B4E9E461ED}" : "{4A2BDE750FCC7B8D}Prefabs/Vehicles/Core/Configs/Lights/Helicopters/LightUserAction_AntiCollisionLights.conf" {
+     ParentContextList {
+      "light_navigation"
+     }
+     VisibilityRange 1.5
+     CanAggregate 1
+     m_eLightType Hazard
+     m_sBlockedByPilotText "#AR-UserAction_ControlledByPilot"
+    }
+   }
+  }
+  ClimbingDataComponent "{5E3CE2A2CFB4E4B6}" {
+   CanClimbOver 1
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{0966FDF215CE1CA2}Assets/Vehicles/Helicopters/AH64D/AH64D_Body.xob"
+   Materials {
+    MaterialAssignClass "{6AE1537FA6ED9D42}" {
+     SourceMaterial "Fuselage"
+     AssignedMaterial "{4D5098203EA77160}Assets/Vehicles/Helicopters/AH64D/Data/Materials/USArmy/AH64D_Fuselage_USArmy.emat"
+    }
+   }
+   LODFactors {
+    5 4 2 1 0.5 0.1
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Active Active
+   Mass 2365
+   CenterOfMass -0.065 0 -0.265
+   ResponseIndex "Normal"
+  }
+  SCR_AIVehicleUsageComponent "{60E4E37C467714E8}" {
+   m_eVehicleType AIRCRAFT_HELICOPTER
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{6AE1537FA6ED9D3E}" {
+     ContextName "pilot"
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{6AE1537FA6ED9D3C}" {
+      ParentContextList {
+       "pilot" "pilot_int"
+      }
+      UIInfo SCR_ActionUIInfo "{6168A3B6319ED4CF}" : "{6404F19156C91DC4}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Open.conf" {
+      }
+      VisibilityRange 1.5
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{6AE1537FA6ED9D3A}" {
+      ParentContextList {
+       "pilot" "pilot_int"
+      }
+      UIInfo SCR_ActionUIInfo "{6168A3B6319ED4CF}" : "{9D90716578926759}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Close.conf" {
+      }
+      VisibilityRange 1.5
+      "Sort Priority" 5
+     }
+     EntryPositionInfo PointInfo "{6AE1537FA6ED9D38}" {
+      PivotID "stepIn_pilot"
+      Offset -1 0.6 0.5
+      Angles 0 0 0
+     }
+     ExitPositionInfo PointInfo "{6AE1537FA6ED9D36}" {
+      PivotID "stepIn_pilot"
+      Offset 0 0 0
+      Angles 0 -180 0
+     }
+     ExitTeleportPositionInfo PointInfo "{6AE1537FA6ED9D37}" {
+      PivotID "stepIn_pilot"
+      Offset 0 0 0
+      Angles 0 -180 0
+     }
+     GetInSeatAligningOnEvent 0
+     AccessibilitySettings CompartmentAccessibilityContext "{6AE1537FA6ED9D32}" {
+      TraceOffset 0 0.2 1
+     }
+    }
+    CompartmentDoorInfo "{6AE1537FA6ED9D23}" {
+     AnimDoorIndex 1
+     ContextName "gunner"
+     OpenDoorAction SCR_OpenVehicleDoorUserAction "{6AE1537FA6ED9D20}" {
+      ParentContextList {
+       "gunner" "gunner_int"
+      }
+      UIInfo SCR_ActionUIInfo "{6168A3B6319ED4CF}" : "{6404F19156C91DC4}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Open.conf" {
+      }
+      VisibilityRange 1.5
+      "Sort Priority" 5
+     }
+     CloseDoorAction SCR_CloseVehicleDoorUserAction "{6AE1537FA6ED9D1E}" {
+      ParentContextList {
+       "gunner" "gunner_int"
+      }
+      UIInfo SCR_ActionUIInfo "{6168A3B6319ED4CF}" : "{9D90716578926759}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Close.conf" {
+      }
+      VisibilityRange 1.5
+      "Sort Priority" 5
+     }
+     EntryPositionInfo PointInfo "{6AE1537FA6ED9D1F}" {
+      PivotID "stepIn_pilot"
+      Offset 0.7 0.4 0.5
+     }
+     ExitPositionInfo PointInfo "{6AE1537FA6ED9D1C}" {
+      PivotID "stepIn_pilot"
+      Offset 0.5 0 0
+      Angles 0 180 0
+     }
+     ExitTeleportPositionInfo PointInfo "{6AE1537FA6ED9D1D}" {
+      PivotID "stepIn_pilot"
+      Offset 0.5 0 0
+      Angles 0 180 0
+     }
+     AccessibilitySettings CompartmentAccessibilityContext "{6AE1537FA6ED9D1A}" {
+      TraceOffset 0 0.2 1
+     }
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment : "{FA11A8598F401058}Prefabs/Vehicles/Core/Configs/PilotCompartment_Base.conf" {
+     CompartmentUniqueName "pilot"
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+       "Pilot_Door_Ext" "pilot"
+      }
+      UIInfo SCR_ActionUIInfo "{5086DB2098FEDCC4}" {
+       m_sIconName "veh_pilot"
+      }
+      VisibilityRange 1.5
+      "Sort Priority" -1
+     }
+     GetOutAction SCR_GetOutAction "{509D56667AFC4BD5}" {
+      ParentContextList {
+       "pilot_int"
+      }
+      VisibilityRange 1.5
+      "Sort Priority" 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56667885A8DC}" {
+      ParentContextList {
+       "gunner_int"
+      }
+      UIInfo SCR_ActionUIInfo "{509D56666CE81B88}" {
+       m_sIconName "veh_pilot"
+      }
+      VisibilityRange 1.5
+      "Sort Priority" 2
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
+       ParentContextList {
+        "pilot_casualty"
+       }
+       VisibilityRange 1.5
+       CanAggregate 0
+       m_bInteriorOnly 0
+       m_bExteriorOnly 1
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+       ParentContextList {
+        "gunner_int"
+       }
+       VisibilityRange 1.5
+       CanAggregate 0
+       m_bInteriorOnly 1
+       m_bExteriorOnly 0
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      PivotID "v_pilot"
+     }
+     MouseSteering 1
+     GamepadSteering 1
+     SkipCharacterDoorAnimationsFromSeat 0
+     SeatType 0
+     DoorInfoList {
+      0
+     }
+     UIInfo UIInfo "{50870A1DC44BA836}" {
+     }
+     BaseCoverage 0.15
+     m_DefaultOccupantData SCR_DefaultOccupantData "{6AE1537FA6ED9D0E}" {
+      m_sDefaultOccupantPrefab "{42A502E3BB727CEB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+     m_fRandomEjectionChance 0
+    }
+   }
+  }
+  SCR_BaseEffectManagerComponent "{6AE1537FA6ED9D0C}" {
+   m_aEffectModules {
+    SCR_EffectModule "{6AE1537FA6ED9D09}" {
+     m_sParticle "{CBA211F068249A94}Particles/Vehicle/Helicopter/AH64D/AH64D_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6ED9D06}" {
+      PivotID "v_exhaust_L01"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED9DFB}" {
+       m_fValue 0
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED9DF8}" {
+       m_Parameter TURN_OFF
+       m_fValue 0
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6ED9DF9}" {
+     m_sParticle "{CBA211F068249A94}Particles/Vehicle/Helicopter/AH64D/AH64D_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6ED9DF6}" {
+      PivotID "v_exhaust_L02"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED9DF7}" {
+       m_fValue 0
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED9DF4}" {
+       m_Parameter TURN_OFF
+       m_fValue 0
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6ED9DF5}" {
+     m_sParticle "{CBA211F068249A94}Particles/Vehicle/Helicopter/AH64D/AH64D_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6ED9DF2}" {
+      PivotID "v_exhaust_L03"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED9DF3}" {
+       m_fValue 0
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED9DF0}" {
+       m_Parameter TURN_OFF
+       m_fValue 0
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6ED9DF1}" {
+     m_sParticle "{CBA211F068249A94}Particles/Vehicle/Helicopter/AH64D/AH64D_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6ED98F5}" {
+      PivotID "v_exhaust_R01"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED98EB}" {
+       m_fValue 0
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6ED98E8}" {
+       m_Parameter TURN_OFF
+       m_fValue 0
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6ED98E9}" {
+     m_sParticle "{CBA211F068249A94}Particles/Vehicle/Helicopter/AH64D/AH64D_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6ED98EE}" {
+      PivotID "v_exhaust_R02"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6EC7610}" {
+       m_fValue 0
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6EC7611}" {
+       m_Parameter TURN_OFF
+       m_fValue 0
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6EC7612}" {
+     m_sParticle "{CBA211F068249A94}Particles/Vehicle/Helicopter/AH64D/AH64D_Exhaust.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6EC7613}" {
+      PivotID "v_exhaust_R03"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6EC761C}" {
+       m_fValue 0
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6EC761D}" {
+       m_Parameter TURN_OFF
+       m_fValue 0
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6EC7620}" {
+     m_sParticle "{BAE851C37E06F67A}Particles/Vehicle/Helicopter/Helicopter_apu_01.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6EC1B15}" {
+      Offset 0 2.377 -0.8818
+      Angles 0 -90 0
+     }
+     m_bTickOnFrame 1
+     m_bShowEffectInWB 0
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{6AE1537FA6EC1B17}" {
+      }
+     }
+    }
+    SCR_EffectModule "{6AE1537FA6EC1B1D}" {
+     m_sParticle "{A33F46074A089F44}Particles/Vehicle/Helicopter_Rotor_Wash_Emitter.ptc"
+     m_effectPosition PointInfo "{6AE1537FA6EC1B1C}" {
+      PivotID "rotor_fx"
+      Angles -90 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterRotorControlAction "{6AE1537FA6EC1B1E}" {
+       m_fValue 0
+       m_ExhaustEndSpeedInM 100
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Vehicle_AH64D_US_Name - #WCS-Weapon_M261_Name"
+    Description "Boeing AH-64 Apache Longbow"
+    Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
+    m_Image ""
+    m_sFaction "US"
+    m_aAuthoredLabels + {
+     TRAIT_ARMED CONTENT_MODDED
+    }
+    m_aAutoLabels {
+     FACTION_US SIZE_L
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6052A79ADDA6C7A8}" {
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 6800
+     }
+     SCR_EntityBudgetValue "{6AE1537FA6EC1B04}" {
+      m_BudgetType RANK_MAJOR
+      m_Value 6
+     }
+    }
+    m_bEditorPlaceAsOneGroup 0
+    m_aOccupantFillCompartmentTypes {
+     PILOT TURRET
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{6AE1537FA6EC1B06}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{6AE1537FA6EC1B09}" {
+      m_BudgetType AI
+      m_Value 0
+     }
+    }
+   }
+  }
+  SCR_FuelConsumptionComponent "{6AE1537FA6EC1B0A}" {
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     FuelType Kerosene
+     MaxFuel 500
+     FuelCapPosition PointInfo "{6AE1537FA6EC1B0E}" {
+      Offset 0.6218 1.7338 -1.764
+     }
+     m_fInitialFuelTankState 420
+     m_MaxFlowCapacityIn VEHICLE_HELICOPTER
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     MaxHealth 3000
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{3B3E7B5EA7C98AA0}Assets/Vehicles/Helicopters/AH64D/AH64D_Wreck.xob"
+     }
+     m_vParticleOffset 0 1.5 -1.5
+     m_sDamagedParticle "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+     m_sDamagedParticleHeavy "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+     m_sBurningParticle "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+    }
+    SCR_EngineHitZone Engine_01 : "{FEACFC8A7E190BA4}Prefabs/Vehicles/Core/Configs/HitZones/Engine_Helicopter.conf" {
+     ColliderNames {
+      "UCS_FG_AH64D_Engine_L"
+     }
+     MaxHealth 500
+     DamageThreshold 0
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup ENGINE
+    }
+    SCR_EngineHitZone Engine_02 : "{FEACFC8A7E190BA4}Prefabs/Vehicles/Core/Configs/HitZones/Engine_Helicopter.conf" {
+     ColliderNames {
+      "UCS_FG_AH64D_Engine_R"
+     }
+     MaxHealth 500
+     DamageThreshold 0
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup ENGINE
+    }
+    SCR_FuelHitZone FuelTank : "{C39DF773A54311E2}Prefabs/Vehicles/Core/Configs/HitZones/FuelTank_Helicopter.conf" {
+     ColliderNames {
+      "UBX_FG_AH64D_Fuel_L" "UBX_FG_AH64D_Fuel_M" "UBX_FG_AH64D_Fuel_R"
+     }
+     DamageThreshold 0
+     "DamageState threshold" +{
+     }
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{5E6D5DC2545BC6D4}" {
+       m_aDamageStates +{
+       }
+       m_aSourceDamageTypes +{
+       }
+       m_eOutputDamageType INCENDIARY
+       m_fMultiplier 0.1
+       m_bPassToRoot 1
+      }
+      SCR_DamagePassRule "{5E6D5DC252F741F2}" {
+       m_aSourceDamageTypes +{
+       }
+       m_eOutputDamageType INCENDIARY
+       m_fMultiplier 10
+       m_bPassToRoot 1
+      }
+     }
+     m_SecondaryExplosionPoint PointInfo "{5E70BAEDE2572E70}" {
+      Offset -0.9889 0.7358 -0.1619
+     }
+     m_vParticleOffset 0 0 0
+    }
+    SCR_BatteryHitZone Battery {
+     ColliderNames {
+      "UBX_FG_AH64D_Battery_L" "UBX_FG_AH64D_Battery_R"
+     }
+     MaxHealth 450
+     DamageReduction 4
+     DamageThreshold 0
+     "Collision multiplier" 0.25
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.2
+     "Explosive multiplier" 0.8
+     "Incendiary multiplier" 0
+     "DamageState threshold" {
+      0.7 0.4 0.2
+     }
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup BATTERY
+    }
+    SCR_RotorHitZone DriveShaft1 : "{526514E226D16478}Prefabs/Vehicles/Core/Configs/HitZones/DriveShaft_Helicopter.conf" {
+     ColliderNames {
+      "UCS_FG_AH64D_Drive_Shaft_01"
+     }
+     "DamageState threshold" +{
+     }
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup TAIL_ROTOR
+     m_iRotorId 1
+     m_fRotorRadius 0
+     m_fRotorThickness 0
+     m_fBladeWidth 0
+     m_iBladeCount 0
+    }
+    SCR_RotorHitZone DriveShaft2 : "{526514E226D16478}Prefabs/Vehicles/Core/Configs/HitZones/DriveShaft_Helicopter.conf" {
+     ColliderNames {
+      "UCS_FG_AH64D_Drive_Shaft_02"
+     }
+     "DamageState threshold" +{
+     }
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup TAIL_ROTOR
+     m_iRotorId 1
+     m_fRotorRadius 0
+     m_fRotorThickness 0
+     m_fBladeWidth 0
+     m_iBladeCount 0
+    }
+    SCR_GearboxHitZone Gearbox_01 : "{6963C8D4014E9BE3}Prefabs/Vehicles/Core/Configs/HitZones/Gearbox_Helicopter.conf" {
+     ColliderNames {
+      "UBX_FG_AH64D_Gearbox"
+     }
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{5E889B80611C8D8B}" {
+       m_aDamageStates +{
+       }
+       m_aSourceDamageTypes +{
+       }
+       m_eOutputDamageType INCENDIARY
+       m_fMultiplier 0.004
+       m_bPassToRoot 1
+      }
+     }
+     m_vParticleOffset 0 0 0
+     m_eHitZoneGroup DRIVE_TRAIN
+    }
+   }
+   m_fMaxSharedDamageDistance 15
+   m_fFrontMultiplier 1
+   m_fBottomMultiplier 1
+   m_fRearMultiplier 4
+   m_fLeftMultiplier 1.75
+   m_fRightMultiplier 1.75
+   m_fOccupantsDamageSpeedThreshold 15
+   m_fOccupantsSpeedDeath 120
+   m_vFrontalImpact 0 2 5.007
+   m_fVehicleDestroyDamage 30960.301
+   m_fVehicleSpeedDestroy 160
+  }
+  SCR_PowerComponent "{55E90D989DD9B211}" {
+   m_bShouldApplyNoPowerPenalty 0
+  }
+  SCR_UniversalInventoryStorageComponent "{6AE1537FA6EC1B69}" {
+   Attributes SCR_ItemAttributeCollection "{6AE1537FA6EC1B6B}" {
+    ItemDisplayName UIInfo "{6AE1537FA6EC1B6D}" {
+     Name "#AR-Inventory_Trunk"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6AE1537FA6EC1B6E}" {
+      CameraOrbitAngles -15 -35 0
+      CameraDistanceToItem 10
+      CameraOffset -1 -1 0
+      FOV 40
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bStackable 0
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 100000
+   MaxCumulativeVolume 100000
+   MaxItemSize 200 200 200
+   MultiSlots {
+    MultiSlotConfiguration "{630476BD9D91C481}" : "{28AA836E8A74CB5C}Configs/Inventory/InventoryItem_RepairKit_Helicopter.conf" {
+    }
+    MultiSlotConfiguration "{6AE1537FA6EC1B55}" {
+     SlotTemplate InventoryStorageSlot "{630476BD945103E8}" {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{630476BD00000101}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+    }
+   }
+   m_fMaxWeight 500
+  }
+  SCR_VehicleBuoyancyComponent "{6AE1537FA6EC1B59}" {
+   Buoyancy 0.8
+   BuoyancyDepthOffset 68
+   HydrodynamicScaleLinear 1 1 0.15
+   HydrodynamicScaleAngular 3 3 5
+   BoundingBoxScale 0.8 0.7 1
+   BuoyancyLoss 0.126
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   m_fRollFactor 0.1
+   m_fPitchFactor 0.1
+   m_fAngleFirstPerson 5
+   m_pPivot PointInfo "{6AE1537FA6EC1B5C}" {
+    Offset 0 4 0
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "US"
+  }
+  VehicleHelicopterSimulation "{51FAEE57F7DA270E}" : "{A605C3487B87C579}Prefabs/Vehicles/Core/Components/VehicleHelicopterSimulation_Base.ct" {
+   Animation VehicleAnimation "{6AE1537FA6EC1B41}" {
+    AnimGraph "{8DE2D063A6A8225F}Assets/Vehicles/Helicopters/AH64D/Animations/Workspace/AH64D.agr"
+    AnimInstance "{608885B8BAA170B1}Assets/Vehicles/Helicopters/AH64D/Animations/Workspace/AH64D_Vehicle.asi"
+    VehicleParts {
+     VehiclePartAnimation "{6AE1537FA6EC1B43}" {
+      PartType Rotor
+      SlotName "RotorMain"
+      StartNode "eco_mainRotor_out"
+     }
+     VehiclePartAnimation "{6AE1537FA6EC1B42}" {
+      PartType Rotor
+      SlotName "RotorTail"
+      StartNode "eco_tailRotor_out"
+     }
+     VehiclePartAnimation "{6AE1537FA6EC1B45}" {
+      SlotName "CockpitPanel_Main"
+      StartNode "eco_dashboard_out"
+     }
+     VehiclePartAnimation "{6AE1537FA6EC1B44}" {
+      PartType Internal
+      StartNode "eco_body_out"
+     }
+     VehiclePartAnimation "{6AE1537FA6EC8F36}" {
+      PartType Internal
+      StartNode "eco_suspension_out"
+     }
+     VehiclePartAnimation "{6AE1537FA6EC8F35}" {
+      SlotName "Instruments"
+      StartNode "eco_dashboard_out"
+     }
+    }
+    AnimVariables {
+     AnimationVariableInt "{6AE1537FA6EC8F3A}" {
+      VariableName "IsInVehicle"
+      SignalName "IsOccupied"
+     }
+     AnimationVariableInt "{6AE1537FA6EC8F39}" {
+      VariableName "RotorState0"
+      SignalName "MainRotorState"
+     }
+     AnimationVariableInt "{6AE1537FA6EC8A56}" {
+      VariableName "RotorState1"
+      SignalName "TailRotorState"
+     }
+     AnimationVariable "{6AE1537FA6EC8A50}" {
+      VariableName "ROTOR_RPM_0"
+      SignalName "MainRotorRPM"
+     }
+     AnimationVariable "{6AE1537FA6EC8A51}" {
+      VariableName "ROTOR_RPM_1"
+      SignalName "TailRotorRPM"
+     }
+     AnimationVariable "{6AE1537FA6EC8A52}" {
+      VariableName "ENGINE_RPM_0"
+      SignalName "EngineRPM"
+     }
+     AnimationVariable "{6AE1537FA6EC8A53}" {
+      VariableName "ENGINE_RPM_1"
+      SignalName "EngineRPM1"
+     }
+     AnimationVariable "{6AE1537FA6EF35D7}" {
+      VariableName "angle_mainRotor"
+      SignalName "MainRotorAngle"
+     }
+     AnimationVariable "{6AE1537FA6EF3428}" {
+      VariableName "angle_tailRotor"
+      SignalName "TailRotorAngle"
+     }
+     AnimationVariable "{6AE1537FA6EF3429}" {
+      VariableName "Collective"
+      SignalName "MainRotorCollective"
+     }
+     AnimationVariable "{6AE1537FA6EF342A}" {
+      VariableName "CyclicForward"
+      SignalName "MainRotorCyclicForward"
+     }
+     AnimationVariable "{6AE1537FA6EF342B}" {
+      VariableName "CyclicAside"
+      SignalName "MainRotorCyclicAside"
+     }
+     AnimationVariable "{6AE1537FA6EFA997}" {
+      VariableName "Pitch"
+      SignalName "TailRotorCollective"
+     }
+     AnimationVariable "{6AE1537FA6EFA990}" {
+      VariableName "POWER_IO"
+      SignalName "DashboardPowerOn"
+     }
+     AnimationVariable "{6AE1537FA6EFA991}" {
+      VariableName "MAGNETIC_compass"
+      SignalName "YawAngle"
+     }
+     AnimationVariable "{6AE1537FA6EE4F6C}" {
+      VariableName "VERTICAL_SPEED"
+      SignalName "ClimbRate"
+     }
+     AnimationVariable "{6AE1537FA6EE4F6E}" {
+      VariableName "SPEED"
+      SignalName "AirSpeed"
+     }
+     AnimationVariable "{6AE1537FA6EEF9C2}" {
+      VariableName "ALTITUDE"
+      SignalName "Altitude"
+     }
+     AnimationVariable "{6AE1537FA6EEF9CD}" {
+      VariableName "PITCH"
+      SignalName "PitchAngle"
+     }
+     AnimationVariable "{6AE1537FA6EEF9CF}" {
+      VariableName "BANK"
+      SignalName "RollAngle"
+     }
+     AnimationVariable "{6AE1537FA6EEF9DC}" {
+      VariableName "DEVIATION_H"
+      SignalName "HoverLongitudinal"
+     }
+     AnimationVariable "{6AE1537FA6EEF9DF}" {
+      VariableName "DEVIATION_V"
+      SignalName "HoverLateral"
+     }
+     AnimationVariable "{6AE1537FA6EEF9DE}" {
+      VariableName "TURN"
+      SignalName "TurnRate"
+     }
+     AnimationVariable "{6AE1537FA6E976ED}" {
+      VariableName "SLIP"
+      SignalName "SlipAngle"
+     }
+     AnimationVariable "{6AE1537FA6E976EA}" {
+      VariableName "SECONDS"
+      SignalName "TimeInSeconds"
+     }
+     AnimationVariable "{6AE1537FA6E976EB}" {
+      VariableName "SECOND_OFFSET"
+      SignalName "MissionOffsetInSec"
+     }
+     AnimationVariable "{6AE1537FA6E9714A}" {
+      VariableName "suspension_0"
+      SignalName "suspension0"
+     }
+     AnimationVariable "{6AE1537FA6E97149}" {
+      VariableName "suspension_1"
+      SignalName "suspension1"
+     }
+     AnimationVariable "{6AE1537FA6E97148}" {
+      VariableName "suspension_2"
+      SignalName "suspension2"
+     }
+     AnimationVariable "{6AE1537FA6E93053}" {
+      VariableName "FUEL"
+     }
+     AnimationVariable "{6AE1537FA6E9306C}" {
+      VariableName "wheel_0"
+      SignalName "rotation0"
+     }
+     AnimationVariable "{6AE1537FA6E9306D}" {
+      VariableName "wheel_1"
+      SignalName "rotation1"
+     }
+     AnimationVariable "{6AE1537FA6E9306E}" {
+      VariableName "wheel_2"
+      SignalName "rotation2"
+     }
+     AnimationVariable "{6AE1537FA6E9F3AE}" {
+      VariableName "steering"
+      SignalName "steering0"
+     }
+    }
+    WakeCommand AnimationCommand "{6AE1537FA6E9F3A9}" {
+     CommandName "CMD_Wake"
+    }
+   }
+   Simulation Helicopter "{51FAED9EF37A2D29}" {
+    Engine HelicopterEngine "{51FAED9EF37A2D2B}" {
+     RPMMax 6600
+     RPMIdle 3000
+     StartUpTime 40
+     ShutdownTime 15
+     TwinEngine 1
+    }
+    Hull HelicopterHull "{51FAED9EF37A2D2D}" {
+     TailStabilizationX -0.1 -0.1 0
+     TailStabilizationY -0.003 -0.05 0
+     TailStabilizationForceX 2000
+     TailStabilizationForceY 1500
+     TailStabilizationSpeedCoef 0 0 1
+     FrictionCoefsX 0.06 0.5 0.04
+     FrictionCoefsY 0.03 0.3 0.1
+     FrictionCoefsZ 0.001 0.05 0.002
+     FrictionForceX 1500
+     FrictionForceY 100
+     FrictionForceZ 200
+     AngularFrictionX 0.275 7.5 2
+     AngularFrictionY 0.01 3 0
+     AngularFrictionZ 0.01 6 0
+     AngularFrictionSpeedX 0.01 1.5 0
+     AngularFrictionSpeedY 0.01 2 0
+     AngularFrictionSpeedZ 1 0.2 0
+     AngularFrictionForceX 6000
+     AngularFrictionForceY 3000
+     AngularFrictionForceZ 5650
+     BankTurnForce 12000
+     BankSpeedEffect 2.5 1
+     OverrideInertia 1
+     Inertia 85000 12500 60000
+    }
+    Rotors {
+     HelicopterRotorMain "{51FAED9EF37A2D2F}" {
+      Pivot Pivot "{6AE1537FA6E9F3A7}" {
+       Bone "v_rotor"
+      }
+      Force 1000 49000
+      TargetRPM 324
+      RotorDiameter 17.46
+      Clockwise 0
+      ForceSpeedCoefs 8.5 -15
+      TorqueForce 10000 20000
+      AltNoForce 6500
+      LiftMaxSpeedMS 100
+      LiftSpeedForce 10000
+      CyclicForwardForce 100000
+      CyclicAsideForce 100000
+      CyclicTorqueMin 0.3
+      CyclicForwardSpeedCoef 0.1
+      CyclicAsideSpeedCoef 0.15
+      CollectiveSpeedCoef 0.5
+     }
+     HelicopterRotorTail "{6AE1537FA6E9F3A1}" {
+      Pivot Pivot "{6AE1537FA6E9F3A2}" {
+       Bone "v_tail_rotor"
+       Rotation 0 0 0
+      }
+      Force -35000 15000
+      TargetRPM 1782
+      RotorDiameter 2.59
+      Clockwise 0
+      AntiTorqueSpeedCoef 0.2
+     }
+    }
+    LandingGear LandingGear "{6AE1537FA6E9F3BD}" {
+     Configuration {
+      LandingGearWheel "{6AE1537FA6E9F3BF}" {
+       Pivot Pivot "{6AE1537FA6E9F3B8}" {
+        Bone "v_wheel_front_L"
+        Position 0 0 0
+       }
+       Suspension Suspension "{6AE1537FA6E9F3BA}" {
+        SpringRate 100
+        CompressionDamper 16000
+        RelaxationDamper 8000
+        MaxTravelUp 0.5
+        MaxTravelDown 0
+       }
+       Wheel Wheel "{63046CE22F42904B}" {
+        Radius 0.35
+        BrakeTorque 8000
+       }
+       Tyre Tyre "{6AE1537FA6E9F3B6}" {
+       }
+      }
+      LandingGearWheel "{6AE1537FA6E9A8BF}" {
+       Pivot Pivot "{6AE1537FA6E9A8BE}" {
+        Bone "v_wheel_front_R"
+        Position 0 0 0
+       }
+       Suspension Suspension "{6AE1537FA6E9A8B9}" {
+        SpringRate 100
+        CompressionDamper 16000
+        RelaxationDamper 8000
+        MaxTravelUp 0.5
+        MaxTravelDown 0
+       }
+       Wheel Wheel "{5A8ED9844AFBAFD2}" {
+        Radius 0.35
+        BrakeTorque 8000
+       }
+       Tyre Tyre "{6AE1537FA6E9A8BB}" {
+        RollingResistance 0.014
+       }
+      }
+      LandingGearWheel "{6AE1537FA6E82C49}" {
+       Pivot Pivot "{6AE1537FA6E82C48}" {
+        Bone "v_wheel_back"
+        Position 0 0 0
+        Rotation 180 0 0
+       }
+       Suspension Suspension "{6AE1537FA6E82C37}" {
+        MaxSteeringAngle 30
+        SpringRate 50
+        CompressionDamper 16000
+        RelaxationDamper 8000
+        MaxTravelUp 0.75
+        MaxTravelDown 0
+       }
+       Wheel Wheel "{5A8ED9844AFBAFD2}" {
+        Radius 0.15
+        BrakeTorque 8000
+       }
+       Tyre Tyre "{6AE1537FA6E82C36}" {
+        RollingResistance 0.014
+       }
+      }
+     }
+    }
+    LandingGearLayer "VehicleCast"
+    TerrainDetectionMask 0x440002 0
+   }
+   RotorConfigs {
+    HelicopterRotorConfig "{6AE1537FA6E82C33}" {
+     SimulationIndex 0
+     AnimationIndex 2
+     StaticModel "{CC6622CA1C205EBD}Assets/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Main_Rotor.xob"
+     SpinningModel "{050AFC799DADE19F}Assets/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Main_Rotor_Blur.xob"
+     DestroyedModel "{F1B423B5AEE1E662}Assets/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Main_Rotor_Destroyed.xob"
+    }
+    HelicopterRotorConfig "{6AE1537FA6E82C32}" {
+     SimulationIndex 1
+     AnimationIndex 3
+     StaticModel "{CDE57B2ECA19EB55}Assets/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Tail_Rotor.xob"
+     SpinningModel "{6AAE2BE6D1FC35F7}Assets/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Tail_Rotor_Blur.xob"
+     DestroyedModel "{BF5F36093C06C8CF}Assets/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Tail_Rotor_Destroyed.xob"
+    }
+   }
+  }
+  VehicleLightPortalComponent "{6AE1537FA6E82C30}" {
+   PortalInfoList {
+    VehicleLightPortal "{6AE1537FA6E82C3E}" {
+     ContextName "Window_front"
+     PortalPositionInfo PointInfo "{6AE1537FA6E82C3D}" {
+      Offset 0 2.5269 3.419
+     }
+    }
+    VehicleLightPortal "{6AE1537FA6E82C3C}" {
+     ContextName "Window_gunner"
+     PortalPositionInfo PointInfo "{6AE1537FA6E82C3B}" {
+      Offset 0 2.8474 2.6845
+     }
+    }
+    VehicleLightPortal "{6AE1537FA6E82C3A}" {
+     ContextName "Window_pilot"
+     PortalPositionInfo PointInfo "{6AE1537FA6E82C39}" {
+      Offset 0 3.0924 1.6293
+     }
+    }
+    VehicleLightPortal "{6AE1537FA6E8C308}" {
+     ContextName "Window_L01"
+     PortalPositionInfo PointInfo "{6AE1537FA6E8C309}" {
+      Offset -0.5502 2.3968 2.8193
+     }
+    }
+    AnimVehicleLightPortal "{6AE1537FA6E8C317}" {
+     ContextName "Window_R01"
+     PortalPositionInfo PointInfo "{6AE1537FA6E8C314}" {
+      Offset 0.5502 2.3968 2.8193
+     }
+     AnimDoorIndex 1
+    }
+    VehicleLightPortal "{6AE1537FA6E8C315}" {
+     ContextName "Window_L02"
+     PortalPositionInfo PointInfo "{6AE1537FA6E8CFC5}" {
+      Offset -0.5201 2.6819 1.6726
+     }
+    }
+    AnimVehicleLightPortal "{6AE1537FA6E8CFC2}" {
+     ContextName "Window_R02"
+     PortalPositionInfo PointInfo "{6AE1537FA6E8CFC3}" {
+      Offset 0.5201 2.6819 1.6726
+     }
+    }
+   }
+  }
+  BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
+   ParametersCollection {
+    FlattenGrassParametersObject "{55FCDD804A371EA5}" {
+     SizeX 10
+     SizeZ 10
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{5E16CDD43EBA9D74}" : "{F239DECE6389F3F7}Configs/VehicleHUD/VehicleHUD_Helicopter_Base.conf" {
+       InfoDisplays {
+        SCR_AnalogGauge "{5E12DE8116DE69BF}" {
+        }
+        SCR_AnalogGauge360 "{5E12DE8115FE048B}" {
+        }
+        SCR_AnalogGaugeNonLinear "{5E12DE8113984306}" {
+        }
+        SCR_AnalogGauge "{5E12DE8111E23FB2}" {
+        }
+        SCR_AnalogGaugeMultiSignal "{5E12DE80EF903498}" {
+         m_fValueMax 500
+         m_fSectionEveryNthValue 250
+         m_iNrOfSignals 1
+        }
+        SCR_FuelTankInfo "{5E12DE860A8A6938}" {
+        }
+        SCR_HZInfoHeli "{5E24E820C5F1A439}" {
+        }
+        SCR_HZInfoEngineHeli "{5E149396D69E2B08}" {
+        }
+        SCR_HZInfoGearboxHeli "{5E14909BCC977F8B}" {
+        }
+        SCR_VInfoLandingLights "{5E1EF778649C4F9A}" {
+         m_aLights {
+          SCR_LightManagerInfoEntry "{6AE1537FA6E8CFC9}" {
+           m_eLightType SearchLight
+           m_sIcon "veh_landing_lights"
+          }
+          SCR_LightManagerInfoEntry "{6AE1537FA6E8CFF6}" {
+           m_sIcon "veh_beam_light"
+          }
+         }
+        }
+        SCR_VInfoAutoHover "{5E1F1313795877CD}" {
+        }
+        SCR_HZInfoRotorMain "{5E1F13134AE339E8}" {
+         m_aHitZoneNames + {
+          "RotorMain_Shaft"
+         }
+        }
+        SCR_HZInfoRotorRear "{5E1F131340EA7471}" {
+         m_aHitZoneNames + {
+          "DriveShaft1" "DriveShaft2"
+         }
+        }
+        SCR_HZInfoEngineHeli "{5E1EB45B179FE2EE}" : "{D01EEA6763D7B08E}Configs/VehicleHUD/VehicleInfo_DmgEngineHeli.conf" {
+         m_sParentSlot "Slot-DmgEngine2"
+         m_sIcon "veh_engine2"
+         m_aHitZoneNames {
+          "Engine_02"
+         }
+        }
+        SCR_VInfoParkingBrakeHeli "{5E24F770CF31448A}" : "{E8667CBBB2848A2F}Configs/VehicleHUD/VehicleInfo_HandbrakeHeli.conf" {
+        }
+       }
+       m_aHandlers {
+        SCR_InfoDisplaySlotHandler "{5E06E0475364C1FC}" {
+        }
+       }
+      }
+      WCS_Armament_WeaponInfoVehicle "{62CEE7E7CACC9CBE}" {
+       m_bIsEnabled 1
+      }
+     }
+    }
+    BaseWeaponManagerComponent "{57DA667544C3550C}" {
+     DefaultWeaponIndex 0
+    }
+    SCR_HelicopterControllerComponent "{5CB0B40B1BD943AB}" {
+     AirIntakes {
+      PointInfo "{6AE1537FA6E8CFF1}" {
+       Offset 0 2.5 -1.8
+      }
+     }
+    }
+   }
+  }
+  SCR_VehiclePerceivableComponent "{566CD04B8A6107DD}" {
+   "Additional aim points" {
+    AimPoint "{6AE1537FA6E8CFFD}" {
+     AimPointPosition AttachPoint "{6AE1537FA6E8CFFB}" {
+      Bone "v_body"
+      Offset 0 1.6904 2.1063
+     }
+     AimpointChecked 1
+     VsibilityChecked 1
+     Dimension 4
+    }
+   }
+   UnitType Aircraft
+  }
+  WCS_AH64D_AmmoDisplayComponent "{6AE1537FA6E8CFF9}" {
+   id "Ammo"
+   m_rLayoutPath "{BF83E0C8641B938A}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Ammo/Ammo_M261.layout"
+  }
+  WCS_AH64D_FlareChaffDisplayComponent "{6AE1537FA6E8CFE6}" {
+   id "FlareChaff"
+   m_rLayoutPath "{DE45C72BAF245072}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Flare_Chaff.layout"
+  }
+  WCS_AH64D_HMDManagerComponent "{6AE1537FA6E8CFE7}" {
+   id "HMD"
+   m_rLayoutPath "{EDD84440FAA1481A}UI/Layouts/Vehicles/Helicopters/AH64D/HMD/WCS_AH64D_HMD.layout"
+  }
+  WCS_AH64D_StaticDisplayComponent "{6AE1537FA6E8CFE4}" {
+   id "GunnerRadio"
+   m_rLayoutPath "{161AFF54FC58E2B6}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Radio.layout"
+   m_sConfiguredDisplaySlot "Radio_Gunner"
+  }
+  WCS_AH64D_StaticDisplayComponent "{6AE1537FA6E8CFE5}" {
+   id "PilotRadio"
+   m_rLayoutPath "{161AFF54FC58E2B6}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Radio.layout"
+   m_sConfiguredDisplaySlot "Radio_Pilot"
+  }
+  WCS_AH64D_StaticDisplayComponent "{6AE1537FA6E8CFE2}" {
+   id "GunnerRadar"
+   m_rLayoutPath "{067875A3B3B62EEE}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Radar.layout"
+   m_sConfiguredDisplaySlot "Gunner_Right_Screen"
+  }
+  WCS_AH64D_StaticDisplayComponent "{6AE1537FA6E8CFE3}" {
+   id "PilotRadar"
+   m_rLayoutPath "{067875A3B3B62EEE}UI/Layouts/Vehicles/Helicopters/AH64D/MFD/Radar.layout"
+   m_sConfiguredDisplaySlot "Pilot_Right_Screen"
+  }
+  WCS_Armament_AircraftInfraredEmitterComponent "{62B0B51C741777DC}" {
+   Enabled 1
+   m_vPosition -0.995 2.431 -1.529
+  }
+  WCS_Armament_AircraftInfraredEmitterComponent "{6AE1537FA6E8CFE0}" {
+   m_vPosition 0.995 2.431 -1.529
+  }
+  WCS_Armament_AircraftRadarComponent "{6AE1537FA6E8CFEE}" {
+   Enabled 0
+   m_RadarPosition PointInfo "{6AE1537FA6E8CFEF}" {
+    PivotID "v_radar"
+   }
+   m_fMaxAngle 215
+   m_fScanInterval 0.1
+   m_fRange 5000
+   m_aCompartmentsNames {
+    "pilot" "gunner"
+   }
+  }
+  WCS_Armament_CMDSComponent "{6AE1537FA6E8CFEC}" {
+   m_fMissileUpdateInterval 0.25
+   m_bEnabledOnInit 1
+  }
+  WCS_Armament_DispenserManagerComponent "{6AE1537FA6E8CFED}" {
+   m_FlareInfo WCS_Armament_DispenserFlareInfo "{6AE1537FA6E8CFEA}" {
+    m_aActionEnabledCompartments {
+     "pilot" "gunner"
+    }
+    m_FireModes {
+     WCS_Armament_DispenserRippleFireMode "{630910EE335D948B}" : "{8475BD390CDAEB5C}Prefabs/Weapons/Core/Configs/FireModes/WCS_Armament_FlareRippleFireMode.conf" {
+     }
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{6AE1537FA6E8CFE8}" {
+   m_ArmamentGroups {
+    WCS_Armament_WeaponGroup "{6AE1537FA6E8CFE9}" {
+     prefab "{19017870538CA351}Prefabs/Weapons/AircraftWeapons/RocketPods/M261/Pod_M261_AH64D_Base.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AE1537FA6E8CF17}" {
+       Position PointInfo "{6AE1537FA6E8CF14}" {
+        PivotID "w_L_01"
+        Offset 0 -0.1871 0.018
+       }
+      }
+      WCS_Armament_WeaponInfo "{6AE1537FA6E8CF15}" {
+       Position PointInfo "{6AE1537FA6E8CF12}" {
+        PivotID "w_R_01"
+        Offset 0 -0.1871 0.018
+       }
+      }
+      WCS_Armament_WeaponInfo "{6AE1537FA6E8CF13}" {
+       Position PointInfo "{6AE1537FA6EB684D}" {
+        PivotID "w_L_02"
+        Offset 0 -0.1871 0.018
+       }
+      }
+      WCS_Armament_WeaponInfo "{6AE1537FA6EB684F}" {
+       Position PointInfo "{6AE1537FA6EB6840}" {
+        PivotID "w_R_02"
+        Offset 0 -0.1871 0.018
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AE1537FA6EB6842}" {
+       m_iFireIntervalMS 175
+      }
+      WCS_Armament_WeaponSalvoFireMode "{6AE1537FA6EB6843}" {
+       m_iFireIntervalMS 175
+      }
+      WCS_Armament_WeaponRippleFireMode "{6AE1537FA6EB1C9D}" {
+       m_iFireIntervalMS 175
+       m_iNumShots 3
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AE1537FA6EB1C9A}" {
+       m_iFireIntervalMS 175
+      }
+     }
+     slotIndex 0
+    }
+    WCS_Armament_WeaponGroup "{6AE1537FA6EB1C9B}" {
+     prefab "{9D46A9BC88B46B37}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92_AH64D.et"
+     weaponsInfo {
+      WCS_Armament_WeaponInfo "{6AE1537FA6EB1C98}" {
+       Position PointInfo "{6AE1537FA6EB1C99}" {
+        PivotID "w_L_03"
+        Offset 0.0729 0 0.0397
+        Angles -10.2806 0 89.9998
+       }
+      }
+      WCS_Armament_WeaponInfo "{6AE1537FA6EB1C86}" {
+       Position PointInfo "{6AE1537FA6EBCB69}" {
+        PivotID "w_R_03"
+        Offset -0.0729 0 0.0397
+        Angles -10.2947 0 -89.9998
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{6AE1537FA6EBCB6B}" {
+      }
+      WCS_Armament_WeaponSalvoFireMode "{6AE1537FA6EBCB6A}" {
+      }
+      WCS_Armament_WeaponFullRippleFireMode "{6AE1537FA6EBCB6D}" {
+      }
+     }
+     slotIndex 1
+    }
+   }
+  }
+  WCS_Armament_MWSInfoDisplay "{6AE1537FA6EBCB6C}" {
+  }
+  WCS_Armament_RadarInfoComponent "{6AE1537FA6EBCB6F}" {
+   Enabled 0
+   m_aCompartmentsNames {
+    "pilot" "gunner"
+   }
+  }
+  WCS_Armament_RadarReflectorComponent "{62DF1E77862863F8}" {
+   Enabled 0
+   m_vPosition 0 2.056 0
+  }
+  WCS_Armament_VehicleAimCameraComponent "{6AE1537FA6EBCB61}" {
+   m_pPosition PointInfo "{6AE1537FA6EBCB60}" {
+    PivotID "v_pilot"
+    Offset 0.0023 0.7591 0.0502
+   }
+  }
+  WCS_Armament_VehicleFireExtinguisherComponent "{6AE1537FA6EBCB4A}" {
+   m_iMaxUses 2
+   m_bAutomaticMode 1
+   m_fAutomaticCheckInterval 1
+   m_rDeploymentParticle "{9E6A55387774981A}Particles/Vehicle/FireExtinguisher/WCS_VehicleFireExtinguisher_Deploy.ptc"
+   m_vEffectOffset 0 2.387 -1.507
+   m_rSoundProject "{CE6CD588AD1D4722}Sounds/Vehicles/_SharedData/FireExtinguisher/WCS_Vehicles_FireExtinguisher.acp"
+   m_sSoundEvent "SOUND_FIRE_EXTINGUISHER"
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{6AE1537FA6EBCB4C}" {
+   components {
+    WCS_Armament_InfraredMissileWeaponStationModuleComponent "{6AE1537FA6EBCB4F}" {
+     m_fLockFov 5
+     m_SearchSeekerColor 0 1 0.366 1
+     m_LockSeekerColor 0 1 0.366 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_SalvageVehicleSlotInfo VehicleSalvageActionEntity {
+     Offset 0 2 5
+    }
+    EntitySlotInfo ShadowAO {
+     Offset 0 0.1 -0.8
+     Angles 87 0 0
+     Prefab "{7F0E1F7F3B28550E}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH1H_shadow.et"
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo RotorMain {
+     MergePhysics 1
+     Prefab "{AE57B987F76DC96B}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Rotor_Main.et"
+     DisablePhysicsInteraction 0
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo RotorTail {
+     MergePhysics 1
+     Prefab "{3555EE2771AFCB37}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Rotor/AH64D_Rotor_Tail.et"
+     DisablePhysicsInteraction 0
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo turret {
+     MergePhysics 0
+     Prefab "{1ADCF96B823E122A}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Turret/AH64D_Turret_Base.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+    WCS_Armament_DispenserSlotInfo Chaff_L {
+     PivotID "v_countermesure_LB"
+     Offset -0.0513 -0.0006 -0.0202
+     Angles 24.0721 -31.6692 -91.3904
+     Prefab "{2D44A156A7625491}Prefabs/Weapons/Countermeasures/Dispenser_Flare_AH64D_Rear_L.et"
+    }
+    WCS_Armament_DispenserSlotInfo Chaff_R {
+     PivotID "v_countermesure_RB"
+     Offset 0.0513 0.0006 -0.0202
+     Angles 24.0721 31.6692 91.3904
+     Prefab "{4D9496851B15820D}Prefabs/Weapons/Countermeasures/Dispenser_Flare_AH64D_Rear_R.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flare_L {
+     PivotID "v_countermesure_LF"
+     Offset -0.0585 0.0118 0.0034
+     Angles -69.6853 -120.2476 24
+     Prefab "{0A5DFC2424E295CE}Prefabs/Weapons/Countermeasures/Dispenser_Flare_AH64D.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flare_R {
+     PivotID "v_countermesure_RF"
+     Offset 0.0585 0.0118 0.0034
+     Angles -69.6853 120.2476 -24
+     Prefab "{0A5DFC2424E295CE}Prefabs/Weapons/Countermeasures/Dispenser_Flare_AH64D.et"
+    }
+    RegisteringComponentSlotInfo Instruments {
+     Prefab "{9B7631F25EDB3E8B}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Cockpit/AH64D_Flight_Instruments.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Mid_Front {
+     Prefab "{565B3A237410ED27}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Mid_Front.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Mid_Top {
+     Prefab "{3453BDBC7F57A51F}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Mid_Top.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Mid_Back {
+     Prefab "{124F07AD303ED26A}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Mid_Back.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Left_Front {
+     Prefab "{EBAC9813336408BE}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Left_Front.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Left_Back {
+     Prefab "{3C603E97E71976DC}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Left_Back.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Right_Front {
+     PivotID "v_door_02"
+     Offset 0.0002 -0.0034 -0.0018
+     Angles 17.5662 -6.0263 -0.444
+     Prefab "{A03B2EF58CA856FA}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Right_Front.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Windshield_Right_Back {
+     PivotID "v_door_01"
+     Angles -2.8569 -0.5402 -0.1286
+     Prefab "{5FFAC7F0D7972BF3}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Windshield_Right_Back.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Glass_Interior {
+     Offset 0 0 -0.004
+     Prefab "{BA09BF61816823B1}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Windshield/AH64D_Interior_Glass.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Radar {
+     Prefab "{F9115BEE50598066}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Radar/AH64D_Radar_USArmy.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo MFD_AMMO {
+     Prefab "{6DCA1BE703B316D4}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Ammo.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo RWR_Screen {
+     Prefab "{8D7231C14F89A2C8}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_RWR.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Radio_Pilot {
+     Prefab "{262AEAA6D7E6D723}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Radio_Pilot.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Radio_Gunner {
+     Prefab "{4A7EDE466B22580D}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Radio_Gunner.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo MFD_Torque {
+     Prefab "{E83CD9F98DD1ACFB}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Torque.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Gunner_Middle_Screen {
+     Offset -0.0032 2.3529 3.2752
+     Prefab "{ED0643739825A05F}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Gunner_Camera.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Gunner_Right_Screen {
+     Prefab "{248F73D61C1D86A5}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Radar.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Pilot_Right_Screen {
+     Offset 0.147 2.4365 2.0161
+     Prefab "{77A8BB3224270C18}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Displays/AH64D_Display_Pilot_Right.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Reticle {
+     Prefab "{0205F451E012E50B}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Cockpit/AH64D_Reticle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+   }
+  }
+  WeaponSlotComponent "{6AE1537FA6EBCB3F}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{6AE1537FA6EBCB31}" {
+   }
+   shouldHandleObstruction 0
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   AttachType InventoryStorageSlot gun1 {
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+  }
+  WeaponSlotComponent "{6AE1537FA6EBCB33}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{6AE1537FA6EBCB32}" {
+   }
+   shouldHandleObstruction 0
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   AttachType InventoryStorageSlot gun2 {
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 1
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5E2EC4D3A76449F8}" {
+     UIInfo SCR_ActionContextUIInfo "{612E7E3D56301CC3}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "heli_repair_point"
+     Position PointInfo "{5E2EBCFA94ADB9FE}" {
+      Offset 0.0204 1.7473 5.1176
+     }
+     Omnidirectional 0
+     VisibilityAngle 120
+    }
+    UserActionContext "{5EA2942B0CA46BF0}" {
+     UIInfo SCR_ActionContextUIInfo "{612E7E3D5480D3A7}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "rotor_assembly_L"
+     Position PointInfo "{5EA2942B09B778E1}" {
+      PivotID "v_rotor"
+      Offset -0.59 -0.2521 -1.47
+      Angles -25.5889 -90.35271 89.85784
+     }
+     Radius 1.6
+     Height 3.29
+     Omnidirectional 0
+     VisibilityAngle 50
+    }
+    UserActionContext "{5EA2942B1446DDA6}" {
+     UIInfo SCR_ActionContextUIInfo "{612E7E3D51489CF4}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "tail_rotor"
+     Position PointInfo "{5EA2942BE88E9CA8}" {
+      PivotID "v_tail_rotor"
+     }
+     Radius 1
+    }
+    UserActionContext "{5EA294269F991DD9}" {
+     UIInfo SCR_ActionContextUIInfo "{612E7E3CAE0DC982}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Engine Left"
+     Position PointInfo "{5EA294276782D7EE}" {
+      PivotID "v_body"
+      Offset -1.3273 2.0967 0.8318
+      Angles 0 -90 0
+     }
+     Radius 1
+     Omnidirectional 0
+     VisibilityAngle 80
+    }
+    UserActionContext "{6AE1537FA6EBCB2E}" {
+     UIInfo SCR_ActionContextUIInfo "{612E7E3D5480D3A7}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "rotor_assembly_R"
+     Position PointInfo "{6AE1537FA6EBCB21}" {
+      PivotID "v_rotor"
+      Offset 0.59 -0.2521 -1.47
+      Angles -25.5889 90.35271 89.85788
+     }
+     Radius 1.6
+     Height 3.29
+     Omnidirectional 0
+     VisibilityAngle 50
+    }
+    UserActionContext "{6AE1537FA6EBCB20}" {
+     UIInfo SCR_ActionContextUIInfo "{612E7E3CAE0DC982}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Engine Right"
+     Position PointInfo "{6AE1537FA6EA4D0B}" {
+      PivotID "v_body"
+      Offset 1.3273 2.0967 0.8318
+      Angles 0 90 0
+     }
+     Radius 1
+     Omnidirectional 0
+     VisibilityAngle 80
+    }
+    UserActionContext "{6AE1537FA6EA4D09}" {
+     ContextName "pilot"
+     Position PointInfo "{6AE1537FA6EA4D0E}" {
+      PivotID "v_door_01_handle"
+      Offset 0.0753 0 0
+      Angles 0 90 0
+     }
+     Radius 0.7
+     Height 1.22
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA4D0F}" {
+     ContextName "Pilot_Door_Ext"
+     Position PointInfo "{6AE1537FA6EA4D0C}" {
+      PivotID "v_pilot"
+      Offset 0.6329 -0.1686 0.2752
+      Angles 0 90 0
+     }
+     Radius 0.7
+     Height 1.22
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA4D0D}" {
+     ContextName "pilot_int"
+     Position PointInfo "{6AE1537FA6EA4D32}" {
+      PivotID "v_door_01_handle"
+      Offset -0.0661 0 0.0002
+      Angles 30 -90 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA4D33}" {
+     ContextName "pilot_seat"
+     Position PointInfo "{6AE1537FA6EA23B4}" {
+      PivotID "v_pilot"
+      Offset 0 0.0015 -0.0894
+     }
+     Radius 0.5
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA23B7}" {
+     ContextName "pilot_casualty"
+     Position PointInfo "{6AE1537FA6EA23B6}" {
+      PivotID "v_pilot"
+      Offset 0.6216 -0.0614 -0.0894
+      Angles 0 90 0
+     }
+     Radius 0.7
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA3FC4}" {
+     ContextName "gunner"
+     Position PointInfo "{6AE1537FA6EA3FC2}" {
+      PivotID "v_door_02_handle"
+      Offset 0.0876 0 0
+      Angles 0 90 0
+     }
+     Radius 0.6
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EAF2B7}" {
+     ContextName "Gunner_Door_Ext"
+     Position PointInfo "{6AE1537FA6EAF2B4}" {
+      PivotID "v_copilot"
+      Offset 0.5592 0.107 0.2007
+      Angles 0 90 0
+     }
+     Radius 0.6
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EAF2B5}" {
+     ContextName "gunner_int"
+     Position PointInfo "{6AE1537FA6EAF2BA}" {
+      PivotID "v_door_02_handle"
+      Offset -0.0666 -0.0001 0.002
+      Angles 30 -90 0
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA86FB}" {
+     ContextName "gunner_seat"
+     Position PointInfo "{6AE1537FA6EA86FA}" {
+      PivotID "v_copilot"
+      Offset 0 0.0577 0.1471
+      Angles 0 180 0
+     }
+     Radius 0.5
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6EA86F9}" {
+     ContextName "gunner_casualty"
+     Position PointInfo "{6AE1537FA6E5710B}" {
+      PivotID "v_copilot"
+      Offset 0.6109 0.1569 -0.0627
+      Angles 0 90 0
+     }
+     Radius 0.7
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6E5710A}" {
+     ContextName "autopilot_r"
+     Position PointInfo "{6AE1537FA6E5710D}" {
+      PivotID "v_cyclic_control_R"
+      Offset 0 0.08 0.08
+     }
+     Radius 0.11
+    }
+    UserActionContext "{6AE1537FA6E5710C}" {
+     ContextName "autopilot_l"
+     Position PointInfo "{6AE1537FA6E5710F}" {
+      PivotID "v_cyclic_control_L"
+      Offset 0 0.08 0.08
+     }
+     Radius 0.11
+    }
+    UserActionContext "{6AE1537FA6E5710E}" {
+     ContextName "take_controls_r"
+     Position PointInfo "{6AE1537FA6E57111}" {
+      PivotID "v_cyclic_control_R"
+      Offset 0 0.04 0
+     }
+     Radius 0.11
+    }
+    UserActionContext "{6AE1537FA6E57110}" {
+     ContextName "take_controls_l"
+     Position PointInfo "{6AE1537FA6E57113}" {
+      PivotID "v_cyclic_control_L"
+      Offset 0 0.04 0
+     }
+     Radius 0.11
+    }
+    UserActionContext "{6AE1537FA6E57112}" {
+     ContextName "lock_controls_r"
+     Position PointInfo "{6AE1537FA6E57115}" {
+      PivotID "v_collective_control_R"
+     }
+     Radius 0.11
+    }
+    UserActionContext "{6AE1537FA6E57114}" {
+     ContextName "lock_controls_l"
+     Position PointInfo "{6AE1537FA6E57117}" {
+      PivotID "v_collective_control_L"
+     }
+     Radius 0.11
+    }
+    UserActionContext "{6AE1537FA6E57116}" {
+     ContextName "Storage_Left"
+     Position PointInfo "{6AE1537FA6E57119}" {
+      PivotID "v_body"
+      Offset -0.5796 0.966 0
+      Angles 0 -90 0
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6E57118}" {
+     ContextName "Storage_Right"
+     Position PointInfo "{6AE1537FA6E5711B}" {
+      PivotID "v_body"
+      Offset 0.5796 0.966 0
+      Angles 0 90 0
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6E5711A}" {
+     ContextName "starter_switch"
+     Position PointInfo "{6AE1537FA6E5711D}" {
+      Offset -0.5038 2.1942 1.6194
+      Angles 0 81.2159 0
+     }
+     Omnidirectional 0
+     VisibilityAngle 53.2
+    }
+    UserActionContext "{6AE1537FA6E5711C}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A2939CF44F90}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "light_navigation"
+     Position PointInfo "{6AE1537FA6E5711F}" {
+      PivotID "v_pilot"
+      Offset -0.5031 0.0171 -0.1536
+      Angles 48.5904 64.1066 40.8934
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E5711E}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A29392FD56AE}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "light_dome"
+     Position PointInfo "{6AE1537FA6E572E1}" {
+      PivotID "v_pilot"
+      Offset -0.4179 0.0171 -0.085
+      Angles 48.5904 64.1066 40.8934
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 35
+    }
+    UserActionContext "{6AE1537FA6E572E0}" {
+     UIInfo SCR_ActionContextUIInfo "{61107A5516E4C74F}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "rotor_brake_r"
+     Position PointInfo "{6AE1537FA6E572E3}" {
+     }
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{6AE1537FA6E572E2}" {
+     UIInfo SCR_ActionContextUIInfo "{63276C687B9580FD}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "MFD_AMMO"
+     Position PointInfo "{6AE1537FA6E572E5}" {
+      Offset -0.2585 2.5123 1.9971
+      Angles 0 152.0305 0
+     }
+     Radius 0.15
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E572E4}" {
+     ContextName "fuel_cap"
+     Position PointInfo "{6AE1537FA6E5EC0A}" {
+      Offset 0.6218 1.7338 -1.764
+     }
+    }
+    UserActionContext "{6AE1537FA6E5EC08}" {
+     ContextName "RWR_Screen"
+     Position PointInfo "{6AE1537FA6E5EC07}" {
+      Offset 0.4027 2.7715 1.866
+      Angles 0 -135.43259 0
+     }
+     Radius 0.2
+     Omnidirectional 0
+     VisibilityAngle 5
+    }
+    UserActionContext "{6AE1537FA6E5EC06}" {
+     UIInfo SCR_ActionContextUIInfo "{63276C687B9580FD}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Radio_Pilot"
+     Position PointInfo "{6AE1537FA6E5EC05}" {
+      Offset 0.1836 2.6385 2.0393
+      Angles 0 -162.9695 0
+     }
+     Radius 0.15
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E5EC04}" {
+     UIInfo SCR_ActionContextUIInfo "{64F696CB19D0C0FC}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Radar_Pilot"
+     Position PointInfo "{6AE1537FA6E5F5B0}" {
+      Offset 0.0512 2.512 2.0011
+      Angles 2.4953 -176.5809 0.149
+     }
+     Radius 0.15
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E5F5B6}" {
+     UIInfo SCR_ActionContextUIInfo "{64F696C0E3A5AC8B}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Radio_Gunner"
+     Position PointInfo "{6AE1537FA6E5A08E}" {
+      Offset 0.4176 2.3964 3.4618
+      Angles 0 -142.7769 0
+     }
+     Radius 0.06
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E5A08C}" {
+     UIInfo SCR_ActionContextUIInfo "{64F696CAC119EB8D}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Radar_Gunner"
+     Position PointInfo "{6AE1537FA6E464ED}" {
+      Offset 0.2189 2.2228 3.5786
+      Angles 10.4129 -166.0022 2.8277
+     }
+     Radius 0.06
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E464F2}" {
+     UIInfo SCR_ActionContextUIInfo "{64F696D28FAB187D}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Torque_Gunner"
+     Position PointInfo "{6AE1537FA6E464F3}" {
+      Offset -0.4167 2.2341 3.5255
+      Angles 10.4129 148.99779 2.8277
+     }
+     Radius 0.06
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E464F0}" {
+     UIInfo SCR_ActionContextUIInfo "{65EEA88F5E1F688B}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "HMD_Toggle"
+     Position PointInfo "{6AE1537FA6E464F1}" {
+      Offset -0.2943 2.3557 1.9941
+      Angles 10.4129 148.99779 2.8277
+     }
+     Radius 0.2
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+    UserActionContext "{6AE1537FA6E464F6}" {
+     UIInfo SCR_ActionContextUIInfo "{482BE62FE3A26005}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "HMD_Toggle_Gunner"
+     Position PointInfo "{6AE1537FA6E464F7}" {
+      Offset -0.4525 2.0775 3.5225
+      Angles 10.4129 148.99779 2.8277
+     }
+     Radius 0.09
+     Height 0
+     Omnidirectional 0
+     VisibilityAngle 30
+    }
+   }
+   additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" : "{7891F1B10FA40962}Configs/Actions/SupportStationActions/Refuel/BaseRefuel.conf" {
+    }
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" : "{5AFBAF53711899E9}Configs/Resources/Supplies/Actions/Supplies_Entity_Refund.conf" {
+     ParentContextList {
+      "heli_repair_point"
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" : "{1B886EAAAB373515}Configs/Actions/SupportStationActions/Repair/DriveTrain/Heli_Repair_DriveTrain.conf" {
+     ParentContextList {
+      "Engine Left" "Engine Right"
+     }
+     m_aHitZoneGroups {
+      ENGINE
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E20D2E3B055B082}" : "{8C07FF07DC9C77AF}Configs/Actions/SupportStationActions/Repair/Hull/Heli_Repair_Hull.conf" {
+     ParentContextList +{
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" : "{34FDBD1B59844DAD}Configs/Actions/SupportStationActions/Repair/FuelTank/Repair_FuelTank.conf" {
+    }
+    SCR_RepairAtSupportStationAction "{5E3ACC1CF6F95044}" : "{1FCD659BD00270A2}Configs/Actions/SupportStationActions/Repair/Engine/Heli_Repair_Engine.conf" {
+     ParentContextList {
+      "heli_repair_point"
+     }
+     m_aHitZoneGroups {
+      DRIVE_TRAIN
+     }
+    }
+    WCS_Armament_DeployFireExtinguisherAction "{6F21A8C4D073C102}" : "{C39652978C232340}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_DeployFireExtinguisherAction.conf" {
+     ParentContextList {
+      "starter_switch"
+     }
+     VisibilityRange 1.2
+     Duration 0.35
+     "Sort Priority" 12
+     m_bPilotOnly 1
+     m_bInteriorOnly 1
+    }
+    WCS_Armament_RearmFireExtinguisherAtRepairStationAction "{6F21A8C4D073C103}" : "{0EC20F9680DB7198}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_RearmFireExtinguisherAtRepairStationAction.conf" {
+     ParentContextList {
+      "heli_repair_point"
+     }
+     m_iUsesPerAction 1
+     m_fSupplyCostPerUse 45
+    }
+    SCR_HelicopterHoverAction "{6AE1537FA6E464FC}" {
+     ParentContextList {
+      "autopilot_r" "autopilot_l"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE1537FA6E464FD}" {
+      Name "#AR-UserAction_Autohover"
+      m_sIconName "veh_auto_hover"
+     }
+     VisibilityRange 0.7
+    }
+    SCR_OpenVehicleStorageAction "{630494A82D4A8180}" : "{4758882BA3638A5D}Prefabs/Vehicles/Core/Configs/Actions/OpenVehicleStorageAction.conf" {
+     ParentContextList {
+      "Storage_Left" "Storage_Right"
+     }
+     VisibilityRange 1.5
+    }
+    SCR_RepairAtSupportStationAction "{63065AF4176A1B95}" : "{4F8FB97E4928B606}Configs/Actions/SupportStationActions/Repair/RotorAssembly/Repair_RotorAssembly.conf" {
+     ParentContextList {
+      "rotor_assembly_L" "rotor_assembly_R"
+     }
+    }
+    SCR_RepairAtSupportStationAction "{63065AF5F16B9BF4}" : "{E70E6DA18F3E9D72}Configs/Actions/SupportStationActions/Repair/TailRotor/Repair_TailRotor.conf" {
+    }
+    SCR_EngineAction "{63065AF5C56FA441}" : "{FEEF05EC7DFE19F2}Prefabs/Vehicles/Core/Configs/Actions/EngineOnAction.conf" {
+    }
+    SCR_EngineAction "{63065AF5DBE026AD}" : "{B67160046438840C}Prefabs/Vehicles/Core/Configs/Actions/EngineOffAction.conf" {
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{665B6027F7F3D739}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "RWR_Screen"
+     }
+     m_sDisplayId "FlareChaff"
+    }
+    WCS_Armament_CMDSAction "{912F92B2C2E6FEE1}" : "{6C1E9ADD057FB121}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_CMDSAction.conf" {
+     ParentContextList {
+      "RWR_Screen"
+     }
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{665B602517FD25D3}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "Radar_Pilot"
+     }
+     m_sDisplayId "PilotRadar"
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{665B6023371B3143}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "Radio_Pilot"
+     }
+     m_sDisplayId "PilotRadio"
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{665B6020270898BE}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "Radio_Gunner"
+     }
+     m_sDisplayId "GunnerRadio"
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{6668E530B8061E40}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "Radar_Gunner"
+     }
+     m_sDisplayId "GunnerRadar"
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{6668E530842F9CAB}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "Torque_Gunner"
+     }
+     m_sDisplayId "GunnerTorque"
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{6668E531225F0089}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "MFD_AMMO"
+     }
+     m_sDisplayId "Ammo"
+    }
+    WCS_Armament_VehicleDisplayPowerAction "{6668E5310FA2ED9E}" : "{3EC2D72CA2BD5183}Prefabs/Vehicles/Core/Configs/Actions/WCS_Armament_VehicleDisplayPowerAction.conf" {
+     ParentContextList {
+      "HMD_Toggle" "HMD_Toggle_Gunner"
+     }
+     UIInfo SCR_ActionUIInfo "{5EA6AB8B1F3B4D2C}" {
+      Name "#WCS-UserAction_HMD"
+      m_sIconName "armavision"
+     }
+     m_sActionStateOn "#WCS-UserAction_HMD_Enable"
+     m_sActionStateOff "#WCS-UserAction_HMD_Disable"
+     m_sDisplayId "HMD"
+     m_bUseStateTextAsActionName 1
+    }
+    SCR_VehicleTakeControlsAction "{6AE1537FA6E464C4}" {
+     ParentContextList {
+      "take_controls_r" "take_controls_l"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE1537FA6E464C5}" {
+      Name "#AR-UserAction_TakeControls"
+      m_sIconName "veh_pilot"
+     }
+     VisibilityRange 0.7
+     m_bIsToggle 0
+     m_sActionStateOn ""
+     m_sActionStateOff ""
+     m_bPilotOnly 0
+     m_bInteriorOnly 1
+    }
+    SCR_VehicleLockControlsAction "{6AE1537FA6E464CB}" {
+     ParentContextList {
+      "lock_controls_r" "lock_controls_l"
+     }
+     UIInfo SCR_ActionUIInfo "{6AE1537FA6E464C8}" {
+      Name "#AR-UserAction_LockControls"
+      m_sIconName "warning"
+     }
+     VisibilityRange 0.7
+     m_sActionStateOn "#AR-UserAction_Unlocked"
+     m_sActionStateOff "#AR-UserAction_Locked"
+     m_bInteriorOnly 1
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
+   AnimGraph "{8DE2D063A6A8225F}Assets/Vehicles/Helicopters/AH64D/Animations/Workspace/AH64D.agr"
+   AnimInstance "{608885B8BAA170B1}Assets/Vehicles/Helicopters/AH64D/Animations/Workspace/AH64D_Vehicle.asi"
+   StartNode "MasterControlVehicle"
+   AlwaysActive 1
+   AnimInjection AnimationAttachmentInfo "{50B80BCCA6210E6D}" {
+    AnimGraph "{8DE2D063A6A8225F}Assets/Vehicles/Helicopters/AH64D/Animations/Workspace/AH64D.agr"
+    AnimInstance "{8D80700D099DA034}Assets/Vehicles/Helicopters/AH64D/Animations/Workspace/AH64D_Player.asi"
+   }
+   AutoVariablesBind 1
+   DeactivationDelay 0.7
+  }
+ }
+ {
+  GameEnvironmentProbeEntity : "{42BB374236C0E841}Prefabs/Vehicles/Helicopters/AH64D/Probes/AH64D_Probe.et" {
+   ID "6AE1537FA6ED9D7C"
+   coords 0 2.502 2.131
+  }
+ }
+}

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1ADCF96B823E122A}Prefabs/Vehicles/Helicopters/AH64D/VehParts/Turret/AH64D_Turret_Base.et"
+ Name "{D8B8F7839DF8EA41}Prefabs/Vehicles/Helicopters/AH64D/dim_AH64D.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
