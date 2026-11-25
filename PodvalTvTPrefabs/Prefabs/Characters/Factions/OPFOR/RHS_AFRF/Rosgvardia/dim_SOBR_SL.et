@@ -49,19 +49,19 @@ SCR_ChimeraCharacter : "{A7F26DE13B95AB74}Prefabs/Characters/Factions/OPFOR/RHS_
       "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
      }
     }
-    ItemsInitConfigurationItem "{6ADAE8040283CAD2}" {
-     TargetStorage "Vest/Vest_Bagari_mp117.et/pistol2/Pouch_wartech_magpouch_mp117_blk.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
-     }
-    }
     ItemsInitConfigurationItem "{6ADAE801C8F1FACD}" {
      TargetStorage "Vest/Vest_Bagari_mp117.et/holster/Pouch_Taktika_holster_BLK.et"
     }
     ItemsInitConfigurationItem "{6ADAE801C8CD8BD3}" {
      TargetStorage "Jacket/dim_PCU_MOH.et"
      PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6ADAE8040283CAD2}" {
+     TargetStorage "Vest/Vest_Bagari_mp117.et/pistol2/Pouch_wartech_magpouch_mp117_blk.et"
+     PrefabsToSpawn {
+      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
      }
     }
    }
