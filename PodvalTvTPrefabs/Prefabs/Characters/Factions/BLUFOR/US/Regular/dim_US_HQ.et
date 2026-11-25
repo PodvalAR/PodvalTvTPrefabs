@@ -1,0 +1,44 @@
+SCR_ChimeraCharacter : "{9D5319F0ED3516A5}Prefabs/Characters/Factions/BLUFOR/US/Regular/Char_US_Regular_PL_Opt.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E18CFBECB99AE4E3}Prefabs/Characters/Headwear/ACU_beret/ACU_beret.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3CCA7A9BB4FD3198}Prefabs/Characters/TOP/BDU_JACKET_M81.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{D1D5F37DC47CFBCE}Prefabs/Characters/BOTTOMS/BDU_PANTS_M81.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C296C7D8DB0537}" {
+     TargetStorage "Jacket/BDU_JACKET_M81.et"
+    }
+    ItemsInitConfigurationItem "{68C296C643D42AA9}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{68C296C6496CFB2A}" {
+     TargetStorage "Pants/BDU_PANTS_M81.et"
+    }
+    ItemsInitConfigurationItem "{68C296C24A8F554B}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{68C296CB56D87F2B}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+    }
+    ItemsInitConfigurationItem "{68C296CB31DBAE59}" {
+     TargetStorage "Vest/Vest_ALICE_commander.et/Buttpack/Vest_ALICE_buttpack.et"
+    }
+   }
+  }
+ }
+ coords 1285.102 2.75 5018.854
+}
