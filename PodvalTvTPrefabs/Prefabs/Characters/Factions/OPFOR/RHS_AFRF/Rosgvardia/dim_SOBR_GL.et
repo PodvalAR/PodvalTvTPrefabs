@@ -75,6 +75,12 @@ SCR_ChimeraCharacter : "{FEB3128E5357C3A1}Prefabs/Characters/Factions/OPFOR/RHS_
       "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et" "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
      }
     }
+    ItemsInitConfigurationItem "{6AF731ED9FE100CD}" {
+     TargetStorage "Vest/Vest_Bagari_GM94.et/GM/Pouch_ArsArma_A20_Blk.et"
+     PrefabsToSpawn {
+      "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et" "{FDACA6E5AEC36BD0}Prefabs/Weapons/Magazines/GM94/Magazine_43x30mm_GM94_4rnd_VGM93100.et"
+     }
+    }
    }
   }
  }
